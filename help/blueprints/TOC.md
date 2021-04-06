@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des mises en oeuvre répétabl
 product: adobe experience platform
 role: Architecte, Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
+source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 + Collecte et préparation des données{#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Analyse des données et sciences des données personnalisées{#data-exploration}
++ Analyse des données et données personnalisées{#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Science des données personnalisées pour l&#39;Enrichissement des Profils](/help/blueprints/data-insights/data-science.md)
 + Orchestration des messages à plusieurs canaux{#multi-channel-message-orchestration}
