@@ -2,14 +2,14 @@
 title: Plans d’action Digital Experience
 description: Les plans d’expérience numérique sont des mises en oeuvre répétables qui permettent de répondre aux stratégies et de résoudre les problèmes commerciaux établis. Ils accélèrent le délai d'évaluation et fournissent un chemin rapide vers la réussite.
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Plans d’action Digital Experience
 
@@ -19,7 +19,7 @@ Chaque modèle offre Adobe aux clients une série d&#39;artefacts qui expliquent
 
 ## Nouveautés
 
-* **[Plan directeur du centre d&#39;Activité client](/help/blueprints/customer-activity-hub/overview.md)**
+* **[Plan directeur du centre d&#39;Activité client](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fournir un contexte pour le support et les ventes assistés par les agents.*
 * **[Exploration des données d&#39;entreprise et schéma directeur des Rapports](/help/blueprints/data-exploration/overview.md)**
