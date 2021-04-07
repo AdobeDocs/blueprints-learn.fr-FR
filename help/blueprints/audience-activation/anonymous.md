@@ -1,19 +1,19 @@
 ---
-title: Audience Activation anonyme
+title: Plan d'Audience Activation anonyme
 description: Audience Activation anonyme.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# Scénario d’Audience Activation anonyme
+# Plan d&#39;Audience Activation anonyme
 
 Vous pouvez cible des audiences sur le Web et les canaux publicitaires en fonction de données clients anonymes et comportementales. Cette fonctionnalité permet d’offrir aux clients des expériences personnalisées et cohérentes en temps réel sur l’ensemble des périphériques.
 
@@ -46,18 +46,3 @@ Vous pouvez cible des audiences sur le Web et les canaux publicitaires en foncti
 * [audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Intégrer l&#39;Audience Manager à la Cible](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Partage de segments Analytics par Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
