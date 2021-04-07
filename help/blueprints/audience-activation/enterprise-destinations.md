@@ -1,18 +1,19 @@
 ---
-title: Profil et Audience Activation vers les destinations d’entreprise
+title: Plan directeur profil et Audience Activation vers les destinations d'entreprise
 description: Profil et Audience Activation vers les destinations d’entreprise
 solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
 kt: 7086
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 translation-type: tm+mt
-source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
+source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
-# Scénario profil et Audience Activation vers les destinations d&#39;entreprise
+
+# Plan directeur profil et Audience Activation vers les destinations d&#39;entreprise
 
 Réplication et mise à jour des modifications de profil apportées aux entrepôts de données d’entreprise pour les cas d’activation et d’utilisation de rapports.
 
