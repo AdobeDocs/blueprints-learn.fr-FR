@@ -1,21 +1,21 @@
 ---
-title: Plan directeur Customer Journey Analytics
+title: Customer Journey Analytics
 description: Unifier et analyser les données et les comportements des clients sur l’ensemble du parcours client
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
+exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
+# Customer Journey Analytics
 
-# Plan directeur Customer Journey Analytics
-
-Le plan directeur du Customer Journey Analytics montre comment les marques peuvent unifier les données et le comportement des clients à partir de divers canaux et sources d&#39;interaction afin de créer une vue parcours de toutes les interactions client. Le rapports et l’analyse peuvent être effectués dans le service d’application Customer Journey Analytics afin d’évaluer et d’obtenir des informations sur les interactions et les schémas de comportement des clients.
+Le Customer Journey Analytics montre comment les marques peuvent unifier les données et le comportement des clients à partir de divers canaux et sources d’interaction afin de créer une vue parcours de toutes les interactions client. Le rapports et l’analyse peuvent être effectués dans le service d’application Customer Journey Analytics afin d’évaluer et d’obtenir des informations sur les interactions et les schémas de comportement des clients.
 
 Les analyses courantes sont les suivantes :
 
@@ -25,9 +25,9 @@ Les analyses courantes sont les suivantes :
 * Quelles campagnes ont généré des conversions et augmenté l&#39;engagement
 * Analyse d&#39;utilisation des outils pour optimiser les expériences en libre-service
 
-## Scénarios
+## Plans directeurs
 
-| Scénario | Description | Applications Experience Cloud |
+| Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
 | **[Consolidation des données comportementales numériques](digital-behavioral-data-consolidation.md)** | <ul><li>Disposer d’une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données issues de diverses propriétés web, mobiles et hors ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (facultatif)</li></ul> |
 | **[Déviation du centre d’appels](call-deflect.md)** | <ul><li>Déterminez quels comportements sont les plus indicatifs pour générer des appels assistés par l&#39;agent en rassemblant les données du centre d&#39;appels avec les données Web, mobiles et d&#39;autres données d&#39;interaction.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par l’agent au moyen d’un contenu et d’outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
