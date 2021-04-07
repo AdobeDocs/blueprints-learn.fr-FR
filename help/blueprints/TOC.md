@@ -3,11 +3,11 @@ user-guide-title: Plans d’action Digital Experience
 breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des mises en oeuvre répétables pour résoudre les problèmes commerciaux établis et contiennent des diagrammes d'architecture, des considérations techniques et des liens documentaires pertinents.
 product: adobe experience platform
-role: Architecte, Développeur, Professionnel
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 2%
    + [Défaut d&#39;appel](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Collecte et préparation des données{#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
+   + [Ingestion et préparation des données à l&#39;Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Analyse des données et données personnalisées{#data-exploration}
++ Analyse des données, intelligence et IA/ML{#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
+   + [Analyse des données et intelligence](/help/blueprints/data-insights/analysis.md)
    + [Science des données personnalisées pour l&#39;Enrichissement des Profils](/help/blueprints/data-insights/data-science.md)
 + Orchestration des messages à plusieurs canaux{#multi-channel-message-orchestration}
    + [Présentation](/help/blueprints/multi-channel-message-orchestration/overview.md)
