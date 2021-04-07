@@ -1,18 +1,18 @@
 ---
-title: Scénario d'Analyse par défaut d'appel
+title: Modèle d'Analyse des appels par défaut
 description: Analysez le comportement des clients avant de contacter le centre d’appels.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
+exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-
-# Scénario d&#39;Analyse de l&#39;Parcours de défection d&#39;appel
+# Modèle d&#39;Analyse des Parcours par défaut d&#39;appel
 
 Analysez le comportement d’un client sur un ordinateur de bureau ou sur un périphérique mobile avant de contacter le centre d’appels. Identifiez les opportunités d&#39;amélioration du parcours client en comprenant les actions que vos clients essaient de réaliser, le contenu qu&#39;ils vues et les termes qu&#39;ils recherchent avant de contacter l&#39;assistance clientèle. Déterminez le contenu et les outils en libre-service qui peuvent être améliorés pour aider vos clients à résoudre les problèmes sans avoir à appeler.
 
