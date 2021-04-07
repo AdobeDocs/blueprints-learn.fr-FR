@@ -1,18 +1,18 @@
 ---
-title: Scénario d'Audience Activation en ligne/hors ligne
+title: Plan d'Audience Activation en ligne/hors ligne
 description: Audience Activation en ligne/hors ligne.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
+exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# Scénario d&#39;Audience Activation en ligne/hors ligne
+# Plan d&#39;Audience Activation en ligne/hors ligne
 
 Utilisez des attributs et des événements hors ligne tels que les commandes, les transactions, la gestion de la relation client ou les données de fidélité, ainsi que le comportement en ligne pour le ciblage et la personnalisation en ligne.
 
