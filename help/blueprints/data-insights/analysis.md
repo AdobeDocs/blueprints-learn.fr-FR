@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Certaines garde-fous s’appliquent au délai d’expiration de la requête et �
 ## Applications
 
 * Adobe Experience Platform
-
-## Scénarios
-
-| Scénario | Description | Applications/services Experience Cloud |
-|---|---|---|
-| **Exploration des données - requête brute des données** | <ul><li>Ecrivez et exécutez des requêtes SQL dans le lac de données à l&#39;aide de l&#39;interface utilisateur de la requête interactive ou d&#39;un client SQL connecté. Data Science Workspace peut également être utilisé pour requête et obtenir des informations à partir des données brutes dans l’Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise Dashboard** | <ul><li>Connectez les outils du Business Intelligence à l’Experience Platform pour visualiser les données en vue d’un tableau de bord et de cas d’utilisation de rapports.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architecture
 
