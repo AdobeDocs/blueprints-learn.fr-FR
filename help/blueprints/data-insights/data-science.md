@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Science des données personnalisées pour le schéma directeur des Enrichissements Profils
 
-Ce plan indique comment les données de Adobe Experience Platform sont utilisées par Data Science Workspace pour former, déployer et marquer des modèles afin de fournir des informations d’apprentissage automatique. Ces modèles peuvent directement être générés dans un jeu de données activé pour le Profil client en temps réel. Parmi les exemples d’informations d’apprentissage automatique, citons la valeur de durée de vie, l’affinité de produit et de catégorie, la propension à la conversion ou la propension à l’activité.
+Le plan directeur des sciences des données personnalisées pour les Enrichissements de Profil illustre comment les données de Adobe Experience Platform peuvent être utilisées dans Data Science Workspace pour former, déployer et marquer des modèles afin de fournir des informations d’apprentissage automatique. Ces modèles peuvent directement être générés dans un jeu de données activé pour le Profil client en temps réel afin d’enrichir davantage les profils client. Ces informations peuvent ensuite être utilisées pour la personnalisation. Parmi les exemples d’informations d’apprentissage automatique, citons le score de valeur sur la durée de vie, l’affinité des produits et des catégories, la propension à la conversion ou la propension à l’activité.
 
 ## Cas d’utilisation
 
 * Extrayez des informations et découvrez des modèles à partir des données client dans l’Experience Platform. Former et marquer des modèles à partir de ces données.
-* Enrichissez le Profil client en temps réel avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et une optimisation du parcours.
+* Enrichissez le Profil client en temps réel avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et des parcours optimisés.
 * Formez et évaluez des modèles afin de déterminer les connaissances des clients, telles que la valeur de durée de vie des clients, la propension à convertir ou générer, les affinités de produits et de contenu et les scores d’engagement.
-
-## Scénarios
-
-| Scénario | Description du scénario | Applications Experience Cloud |
-|---|---|---|
-| Science des données exploratoires | <ul><li>Signaux de découverte, exhaustivité, exactitude des données</li><li>Découvrez de nouvelles informations à l&#39;aide de l&#39;outil de science des données</li></ul> | <ul><li>Intelligence Experience Platform</li></ul> |
-| Enrichissement de profil avec IA/ML<br> - lot | <ul><li>Découvrir, créer, former, déployer, marquer et opérationnaliser des modèles.</li><li>Poussez la prédiction du modèle au profil ou au lac de données pour une activation par lot.</li></ul> | <ul><li>Intelligence Experience Platform</li></ul> |
 
 ## Architecture
 
