@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ Synchronisez la personnalisation Web avec le courrier électronique et d’autre
 * La segmentation en flux continu est réalisée en moins de 5 minutes environ. Une fois que ces réalisations de segment se produisent, elles sont partagées avec l’Audience Manager en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans la Cible.
 * Par défaut, le service de partage de segments permet le partage d’un maximum de 75 audiences pour chaque suite de rapports Adobe Analytics. Si le client dispose d’une licence d’Audience Manager, il n’existe aucune limite quant au nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target, ou Audience Manager et Adobe Target.
 
+## Modèles d’implémentation
+
+Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les approches suivantes, comme indiqué ci-dessous.
+
+1. Utilisation de Platform Web SDK/Mobile SDK et Edge Network.
+1. Utilisation de kits SDK spécifiques aux applications (par exemple, AppMeasurement.js)
+
+### 1. Plateforme Web/Mobile SDK et approche Edge
+
+<img src="assets/websdkflow.svg" alt="Architecture de référence pour Platform Web SDK/Mobile SDK et Edge Network Approach" style="border:1px solid #4a4a4a" />
+
+### 2. Approche SDK spécifique à l&#39;application
+
+<img src="assets/appsdkflow.png" alt="Architecture de référence pour l’approche du SDK spécifique à l’application" style="border:1px solid #4a4a4a" />
+
 ## Conditions préalables à l’implémentation
 
 | Application/Service | Bibliothèque requise | Notes |
@@ -64,18 +79,6 @@ Synchronisez la personnalisation Web avec le courrier électronique et d’autre
    >
    >Chaque application doit utiliser l’ID d’Experience Cloud et faire partie de la même organisation d’Experience Cloud pour permettre le partage des audiences entre les applications.
 1. [Demande de mise en service pour le partage des Audiences entre Experience Platform et Adobe Target (Audiences partagées)](https://www.adobe.com/go/audiences)
-
-## Diagrammes de flux de données d’implémentation
-
-Le modèle de personnalisation Web/Mobile peut être mis en oeuvre à l’aide des SDK traditionnels spécifiques à l’application (par exemple, AppMeasurement.js) ou en utilisant le SDK Web/Mobile de la plate-forme et le SDK Edge Network.
-
-### Platform Web/Mobile SDK et Edge Approach
-
-<img src="assets/websdkflow.svg" alt="Architecture de référence pour Platform Web SDK/Mobile SDK et Edge Network Approach" style="border:1px solid #4a4a4a" />
-
-### Approche SDK spécifique à l’application
-
-<img src="assets/appsdkflow.png" alt="Architecture de référence pour l’approche du SDK spécifique à l’application" style="border:1px solid #4a4a4a" />
 
 ## Documentation connexe
 
