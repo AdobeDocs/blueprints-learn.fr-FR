@@ -1,18 +1,18 @@
 ---
-user-guide-title: Plans d’action Digital Experience
+user-guide-title: Plans directeurs de lʼexpérience digitale
 breadcrumb-title: 'Plans directeurs '
-user-guide-description: Les plans directeurs sont des mises en oeuvre répétables pour résoudre les problèmes commerciaux établis et contiennent des diagrammes d'architecture, des considérations techniques et des liens documentaires pertinents.
+user-guide-description: Les plans directeurs sont des mises en oeuvre reproductibles visant à résoudre les problèmes commerciaux établis et contiennent des diagrammes dʼarchitecture, des considérations techniques et des liens vers la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 25%
 
 ---
 
-# Plan d&#39;ensemble de l&#39;expérience numérique {#architecture}
+# Plans directeurs de lʼexpérience digitale  {#architecture}
 
 + [Présentation](/help/blueprints/overview.md)
 + Diagrammes de présentation de l&#39;architecture {#architecture-overview}
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [Défaut d&#39;appel](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Collecte et préparation des données{#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
-   + [Ingestion et préparation des données à l&#39;Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [Préparation et importation des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
 + Analyse des données, intelligence et IA/ML{#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [Messagerie déclenchée et Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Personnalisation Web et mobile{#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation Web comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation Web en ligne/hors ligne](/help/blueprints/web-personalization/online-offline.md)
+   + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
+   + [Personnalisation en ligne/hors ligne](/help/blueprints/web-personalization/online-offline.md)
 
