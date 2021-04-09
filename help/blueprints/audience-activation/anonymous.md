@@ -6,7 +6,7 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Vous pouvez cible des audiences sur le Web et les canaux publicitaires en foncti
 
 ## Architecture
 
-<img src="assets/aam.svg" alt="Architecture de référence pour le scénario Audience Activation anonyme" style="border:1px solid #4a4a4a" />
+<img src="assets/aam.svg" alt="Architecture de référence du plan directeur des Audiences Activation anonymes" style="border:1px solid #4a4a4a" />
 
 ## Etapes de mise en oeuvre
 
