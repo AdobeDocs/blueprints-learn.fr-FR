@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Exécutez des campagnes de messagerie par lots et planifiées à l’aide de Ado
 * Campaign est une source de vérité pour tous les profils principaux, ce qui signifie que les profils doivent exister dans Campaign et que les nouveaux profils ne doivent pas être créés sur la base de segments Experience Platform.
 * La concrétisation de l’appartenance à un segment par l’Experience Platform est latente pour le traitement par lot (1 par jour) et la diffusion en continu (environ 5 minutes).
 
-**Partage de segments de la plateforme de données clientes en temps réel sur la campagne :**
+**[!UICONTROL Partage de ] segments de la plateforme de données clientes en temps réel sur la campagne :**
 
 * Recommandation d&#39;une limite de 20 segments
 * L&#39;Activation est limitée à toutes les 24 heures.
