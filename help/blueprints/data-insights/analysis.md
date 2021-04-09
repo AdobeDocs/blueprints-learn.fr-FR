@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -21,7 +21,7 @@ L&#39;Experience Platform [!UICONTROL Requête Service] permet l&#39;exécution 
 
 En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) pour se connecter directement aux données dans l&#39;Experience Platform, y accéder et les requête, en utilisant le protocole [!DNL PostgreSQL].
 
-Certaines garde-fous s’appliquent au délai d’expiration de la requête et à la quantité de données incluses dans le résultat de la requête, comme indiqué dans les détails du scénario.
+Certains garde-fous s&#39;appliquent au délai d&#39;expiration de la requête et à la quantité de données incluses dans le résultat de la requête, comme indiqué dans les détails du plan directeur.
 
 ## Cas d’utilisation
 
