@@ -6,9 +6,9 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,6 @@ Vous pouvez cible des audiences sur le Web et les canaux publicitaires en foncti
 ## Documentation connexe
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+* [audiences  [!UICONTROL Experience Cloud]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Intégrer l&#39;Audience Manager à la Cible](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Partage de segments Analytics par Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Partage de segments Adobe Analytics par Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
