@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Exécutez les messages et expériences déclenchés en utilisant Adobe Experienc
 1. Créez des espaces de nommage spécifiques au client.
 1. Ajouter des identités aux schémas.
 1. Activez les schémas et les jeux de données pour le profil.
-1. Configurez des règles de fusion pour les différentes vues du Profil client en temps réel (facultatif).
+1. Configurez des règles de fusion pour les différentes vues de [!UICONTROL Profil client en temps réel] (facultatif).
 1. Créez des segments pour l’utilisation de la campagne.
 
 #### Sources/Destinations
