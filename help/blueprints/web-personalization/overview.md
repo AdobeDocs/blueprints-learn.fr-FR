@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ La personnalisation Web et mobile permet d’utiliser la segmentation des audien
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Personnalisation comportementale](behavioral.md)** | <ul><li>Personnaliser en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
-| **[Personnalisation Web en ligne/hors ligne](online-offline.md)** | <ul><li>Personnalisez avec des attributs et des événements hors ligne (transactions, réservations, gestion de la relation client et données de fidélité).</li><li>Synchronisez la personnalisation sur le Web, le courrier électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation Web/mobile comportementale](behavioral.md)** | <ul><li>Personnaliser en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation Web/mobile en ligne/hors ligne](online-offline.md)** | <ul><li>Personnalisez avec des attributs et des événements hors ligne (transactions, réservations, gestion de la relation client et données de fidélité).</li><li>Synchronisez la personnalisation sur le Web, le courrier électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 
 ## Publications de blog connexes
 
