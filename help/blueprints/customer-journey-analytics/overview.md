@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Les analyses courantes sont les suivantes :
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
 | **[Consolidation des données comportementales numériques](digital-behavioral-data-consolidation.md)** | <ul><li>Disposer d’une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données issues de diverses propriétés web, mobiles et hors ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (facultatif)</li></ul> |
-| **[Déviation du centre d’appels](call-deflect.md)** | <ul><li>Déterminez quels comportements sont les plus indicatifs pour générer des appels assistés par l&#39;agent en rassemblant les données du centre d&#39;appels avec les données Web, mobiles et d&#39;autres données d&#39;interaction.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par l’agent au moyen d’un contenu et d’outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Analyse de l&#39;Parcours par défaut d&#39;appel](call-deflect.md)** | <ul><li>Déterminez quels comportements sont les plus indicatifs pour générer des appels assistés par l&#39;agent en rassemblant les données du centre d&#39;appels avec les données Web, mobiles et d&#39;autres données d&#39;interaction.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par l’agent au moyen d’un contenu et d’outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Publications de blog connexes
 
