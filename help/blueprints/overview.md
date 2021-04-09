@@ -1,17 +1,17 @@
 ---
-title: Plans d’action Digital Experience
+title: Plans directeurs de lʼexpérience digitale
 description: Les plans d’expérience numérique sont des mises en oeuvre répétables qui permettent de répondre aux stratégies et de résoudre les problèmes commerciaux établis. Ils accélèrent le délai d'évaluation et fournissent un chemin rapide vers la réussite.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 2%
 
 ---
 
-# Plans d’action Digital Experience
+# Plans directeurs de lʼexpérience digitale
 
 Les plans d’expérience numérique sont des mises en oeuvre répétables qui permettent de répondre aux stratégies et de résoudre les problèmes commerciaux établis. Les plans directeurs accélèrent la valorisation du temps et fournissent un chemin rapide vers la réussite.
 
@@ -19,15 +19,15 @@ Chaque modèle offre Adobe aux clients une série d&#39;artefacts qui expliquent
 
 ## Nouveautés
 
+* **[Modèle d&#39;Activation des Audiences et des Profils aux destinations d&#39;entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d&#39;assistance. &#x200B;*
 * **[Plan directeur du centre d&#39;Activité client](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fournir un contexte pour le support et les ventes assistés par les agents.*
-* **[Modèle d&#39;Analyse des données et de renseignement](/help/blueprints/data-insights/overview.md)**
+* **[Modèle d&#39;Analyse des données et de renseignement](/help/blueprints/data-insights/analysis.md)**
 
    *Effectuer une requête exploratoire et une analyse des données dans le lac de données.*
-* **[Plan directeur Customer Journey Analytics](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *Unifier et analyser les données et les comportements des clients sur l&#39;ensemble du parcours client. &#x200B;*
 
 ## Modèles présentés
 
@@ -54,7 +54,7 @@ Chaque modèle offre Adobe aux clients une série d&#39;artefacts qui expliquent
 
 ## Publications de blog
 
-* [Présentation des nouveaux modèles d&#39;expérience numérique de Adobe Experience Platform](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Plan directeur pour l&#39;Audience Activation à Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Plan directeur de la personnalisation Web à l’aide du Profil client en temps réel Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Plan directeur pour l&#39;orchestration multi-Canal à Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
