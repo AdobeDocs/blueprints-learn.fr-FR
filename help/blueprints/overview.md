@@ -4,9 +4,9 @@ description: Les plans d’expérience numérique sont des mises en oeuvre rép�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
+source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
@@ -34,19 +34,18 @@ Chaque modèle offre Adobe aux clients une série d&#39;artefacts qui expliquent
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="image miniature pour la messagerie déclenchée et le plan directeur Adobe Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Messagerie déclenchée et plan directeur Adobe Experience Platform</strong></a></div>
-    <p><em>Déclenchez les messages et les expériences en utilisant Adobe Experience Platform comme hub central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="image miniature du schéma directeur des messages déclenchés et des Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Messagerie déclenchée et Experience Platform</strong></a></div>
+    <p><em>Déclenchez des messages et des expériences en utilisant [ ! UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="image miniature du plan directeur des Audiences Activation en ligne/hors ligne" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Plan d'Audience Activation en ligne/hors ligne</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en ligne/hors ligne</strong></a></div>
     <p><em>diffuser de la publicité sur plusieurs canaux activée par l’audience ;</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Image miniature du plan directeur de consolidation des données comportementales numériques" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Modèle de consolidation des données comportementales numériques 
-</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidation des données comportementales numériques</strong></a></div>
     <p><em>disposer d’une vue consolidée unique du comportement des clients sur différents canaux ;</em></p>
   </td>
 </tr>
