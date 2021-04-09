@@ -5,7 +5,7 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 8bcd82eac5e8837c3cd84524174cf5792d73ac6e
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Réplication et mise à jour des modifications d’profil et d’audience dans les entrepôts de données d’entreprise pour les cas d’activation et d’utilisation de rapports.
 
-Lancez une action de vente ou d’assistance au client en notifiant l’action du client à partir de la plate-forme de données client en temps réel aux systèmes et applications d’entreprise.
+Lancez une action de vente ou d’assistance au client en notifiant l’action du client à partir de la [!UICONTROL plate-forme de données client en temps réel] aux systèmes et applications d’entreprise.
 
 ## Cas d’utilisation
 
@@ -79,14 +79,14 @@ Activation des Événements d’expérience
 ## Documentation connexe
 
 * [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
-* [Destinations des Enregistrements Enterprise Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [Présentation des destinations d’enregistrement dans le cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [Destination HTTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
-* [Description du produit de la plate-forme de données client en temps réel](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Instructions relatives au profil et à la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [[!UICONTROL Plate-forme de données client en temps réelDescription du produit ] ](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Directives sur le profil et la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Documentation sur la segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
 ## Vidéos et Tutorials connexes
 
-* [Présentation de la plate-forme de données clientes en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Démonstration de la plateforme de données client en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL Présentation en temps réel de la ] plate-forme de données clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Démonstration de la plateforme de données client en temps  [!UICONTROL réel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
