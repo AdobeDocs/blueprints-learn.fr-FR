@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -45,12 +45,12 @@ Synchronisez la personnalisation Web avec le courrier électronique et d’autre
 
 Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les approches suivantes, comme indiqué ci-dessous.
 
-1. Utilisation de Platform Web SDK/Mobile SDK et Edge Network.
+1. Utilisation du [!UICONTROL Platform Web SDK] ou du [!UICONTROL Platform Mobile SDK] et du [!UICONTROL Edge Network].
 1. Utilisation de kits SDK spécifiques aux applications (par exemple, AppMeasurement.js)
 
 ### 1. Plateforme Web/Mobile SDK et approche Edge
 
-<img src="assets/websdkflow.svg" alt="Architecture de référence pour Platform Web SDK/Mobile SDK et Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Architecture de référence pour l'approche [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] et [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Approche SDK spécifique à l&#39;application
 
@@ -60,10 +60,10 @@ Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les appro
 
 | Application/Service | Bibliothèque requise | Notes |
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+ ou mbox.js 61+ | at.js est préférable car mbox.js n’est plus développé. |
-| Adobe Audience Manager (facultatif) | Platform Web SDK* ou dil.js 5.0+ |  |
-| Adobe Analytics (facultatif) | Platform Web SDK* ou AppMeasurement.js 1.6.4+ | Le suivi Adobe Analytics doit utiliser la collecte de données régionale. |
-| Service d’identification des Experience Cloud | Platform Web SDK* ou VisitorAPI.js 2.0+ | (Recommandé) Utilisez l’Experience Platform Launch pour déployer le service d’ID afin de vous assurer que l’ID est défini avant tout appel d’application. |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | at.js est préférable car mbox.js n’est plus développé. |
+| Adobe Audience Manager (facultatif) | [!UICONTROL Platform Web SDK]* ou dil.js 5.0+ |  |
+| Adobe Analytics (facultatif) | [!UICONTROL Platform Web SDK]* ou AppMeasurement.js 1.6.4+ | Le suivi Adobe Analytics doit utiliser la collecte de données régionale. |
+| Service d’identification des Experience Cloud | [!UICONTROL Platform Web SDK]* ou VisitorAPI.js 2.0+ | (Recommandé) Utilisez l’Experience Platform Launch pour déployer le service d’ID afin de vous assurer que l’ID est défini avant tout appel d’application. |
 | Experience Platform Mobile SDK (facultatif) | 4.11 ou version ultérieure pour iOS et Android™ |  |
 | SDK Web Experience Platform | 1.0, la version actuelle du SDK Experience Platform contient [divers cas d’utilisation non encore pris en charge pour les applications Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
