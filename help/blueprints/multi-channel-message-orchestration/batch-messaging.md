@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Exécutez des campagnes de messagerie par lots et planifiées à l’aide de Ado
 
 ## Architecture
 
-<img src="assets/aepbatch.svg" alt="Architecture de référence pour le scénario de messagerie par lots et de Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Architecture de référence pour la messagerie par lots et le schéma directeur Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Gardiens
 
@@ -69,7 +69,7 @@ Exécutez des campagnes de messagerie par lots et planifiées à l’aide de Ado
 1. Créez des espaces de nommage spécifiques au client.
 1. Ajouter des identités aux schémas.
 1. Activez les schémas et les jeux de données pour le profil.
-1. Configurez des règles de fusion pour les différentes vues du Profil client en temps réel (facultatif).
+1. Configurez des règles de fusion pour les différentes vues de [!UICONTROL Profil client en temps réel] (facultatif).
 1. Créez des segments pour l’utilisation de la campagne.
 
 #### Sources / Destinations
