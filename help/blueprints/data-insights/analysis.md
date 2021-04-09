@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
+source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 L&#39;Analyse des données et le renseignement permettent à Adobe Experience Platform d&#39;effectuer une requête exploratoire et une analyse des données qui existent dans le lac des données.
 
-Experience Platform Requête Service permet l&#39;exécution de requêtes SQL sur les données. L’espace de travail Data Science permet d’effectuer des travaux d’exploration des données, de science des données et d’apprentissage automatique sur les données.
+L&#39;Experience Platform [!UICONTROL Requête Service] permet l&#39;exécution de requêtes SQL sur les données. [!UICONTROL L’] espace de travail Data Science permet l’exploration des données, la science des données et les charges de travail d’apprentissage automatique sur les données.
 
-De plus, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) pour se connecter directement, accéder et requête aux données dans l&#39;Experience Platform, en utilisant le protocole PostgreSQL.
+En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) pour se connecter directement aux données dans l&#39;Experience Platform, y accéder et les requête, en utilisant le protocole [!DNL PostgreSQL].
 
 Certaines garde-fous s’appliquent au délai d’expiration de la requête et à la quantité de données incluses dans le résultat de la requête, comme indiqué dans les détails du scénario.
 
@@ -47,10 +47,10 @@ Certaines garde-fous s’appliquent au délai d’expiration de la requête et �
 
 1. Configurez des jeux de données et des schémas pour l&#39;assimilation de données dans le lac de données.
 1. Envoi de données.
-1. Vérifiez que les données sont disponibles pour Requête Service et Data Science Workspace pour un accès et une requête bruts.
-1. Connectez les outils de Business Intelligence et les clients SQL à Requête Service pour la visualisation, la requête de données et l’exploration.
+1. Vérifiez que les données sont disponibles pour [!UICONTROL Requête Service] et [!UICONTROL Data Science Workspace] pour l&#39;accès brut et la requête.
+1. Connectez les outils de Business Intelligence et les clients SQL à [!UICONTROL Requête Service] pour la visualisation, la requête de données et l&#39;exploration.
 
 ## Documentation connexe
 
 * [Description du produit Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentation de requête Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [[!UICONTROL Documentation de requête ] Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
