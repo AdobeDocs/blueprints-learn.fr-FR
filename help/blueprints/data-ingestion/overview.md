@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ La préparation des données comprend le mappage des données source au schéma 
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Préparation des données et importation à l&#39;Experience Platform](ingestion.md)** | <ul><li>Le plan de préparation des données et d&#39;importation englobe toutes les méthodes permettant de préparer et d&#39;assimiler les données à Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Transfert côté serveur - Collection Enterprise](server-side-collection.md)** | <ul><li>Activez les destinations profils connues, telles que les fournisseurs de messagerie, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez des attributs et des événements hors ligne tels que les commandes, les transactions, les données de gestion de la relation client ou de fidélité, ainsi que le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
+| **[Préparation et importation des données](ingestion.md)** | <ul><li>Le plan de préparation des données et d&#39;importation englobe toutes les méthodes permettant de préparer et d&#39;assimiler les données à Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Collecte de données d’entreprise côté serveur](server-side-collection.md)** | <ul><li>Activez les destinations profils connues, telles que les fournisseurs de messagerie, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez des attributs et des événements hors ligne tels que les commandes, les transactions, les données de gestion de la relation client ou de fidélité, ainsi que le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
