@@ -1,20 +1,20 @@
 ---
 title: Messagerie déclenchée et plan directeur Adobe Experience Platform
-description: Exécutez les messages et expériences déclenchés en utilisant Adobe Experience Platform comme centre central de diffusion en continu des données, profils client et segmentation.
+description: Exécutez les messages et expériences déclenchés en utilisant Adobe Experience Platform comme centre central de diffusion des données, profils client et segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
 # Messagerie déclenchée et plan directeur Adobe Experience Platform
 
-Exécutez les messages et expériences déclenchés en utilisant Adobe Experience Platform comme centre central de diffusion en continu des données, profils client et segmentation.
+Exécutez les messages et expériences déclenchés en utilisant Adobe Experience Platform comme centre central de diffusion des données, profils client et segmentation.
 
 ## Cas d’utilisation
 
@@ -25,7 +25,7 @@ Exécutez les messages et expériences déclenchés en utilisant Adobe Experienc
 
 ## Architecture
 
-<img src="assets/triggered.svg" alt="Architecture de référence pour le scénario Messagerie déclenchée et Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Architecture de référence pour le schéma de messagerie et de Adobe Experience Platform déclenchés" style="border:1px solid #4a4a4a" />
 
 ## Modèles d’intégration
 
