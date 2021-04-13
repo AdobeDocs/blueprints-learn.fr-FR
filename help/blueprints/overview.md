@@ -4,18 +4,16 @@ description: Les plans d’expérience numérique sont des mises en oeuvre rép�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
 
 # Plans directeurs de lʼexpérience digitale
 
-Les plans d’expérience numérique sont des mises en oeuvre répétables qui permettent de répondre aux stratégies et de résoudre les problèmes commerciaux établis. Les plans directeurs accélèrent la valorisation du temps et fournissent un chemin rapide vers la réussite.
-
-Chaque modèle offre Adobe aux clients une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente.
+Les plans directeurs d’expérience numérique sont des implémentations répétables qui vous permettent de répondre à des stratégies et de résoudre rapidement des problèmes commerciaux bien établis. Chaque plan fournit une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente.
 
 ## Nouveautés
 
