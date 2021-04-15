@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Modèle d&#39;Activation des Audiences et des Profils aux destinations d&#39;entreprise
 
-Réplication et mise à jour des modifications d’profil et d’audience dans les entrepôts de données d’entreprise pour les cas d’activation et d’utilisation de rapports. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-Lancez une action de vente ou d’assistance au client en notifiant l’action du client à partir de la [!UICONTROL plate-forme de données client en temps réel] aux systèmes et applications d’entreprise. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+Partagez les modifications et les événements d’profil et d’audience en flux continu ou par lot de [!UICONTROL Plate-forme de données client en temps réel] vers les entrepôts de données et les applications d’entreprise. Ces événements d&#39;profil et d&#39;audience peuvent être utilisés pour lancer une action de vente ou d&#39;assistance au client, telle que le suivi d&#39;un processus de demande abandonné ou d&#39;un enregistrement de webinaire, ou pour mettre à jour les applications d&#39;entreprise avec les derniers attributs du client et les dernières informations de [!UICONTROL plate-forme de données client en temps réel].
 
 ## Cas d’utilisation
 
@@ -49,7 +47,7 @@ Une fois par jour, ou à l’aide de l’API, les données ad hoc sont lancées 
 
 ## Etapes de mise en oeuvre
 
-1. Créez des schémas pour que les données soient assimilées. <!-- Cross-references to these topics would be helpful -->
+1. Créez des schémas pour que les données soient assimilées.
 1. Créez des jeux de données pour les données à ingérer.
 1. Configurez les identités et les espaces de nommage d&#39;identité corrects sur le schéma pour vous assurer que les données saisies peuvent être associées dans un profil unifié.
 1. Activez les schémas et les jeux de données pour le traitement des profils.
