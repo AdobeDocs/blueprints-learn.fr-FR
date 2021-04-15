@@ -1,18 +1,18 @@
 ---
-title: Modèle de consolidation des données comportementales numériques
-description: Analyser et extraire des informations issues des interactions des clients sur l’ensemble du parcours client.
+title: Analyse de Parcours entre Canaux
+description: Analysez et obtenez des informations à partir des interactions des clients sur lʼensemble du parcours client.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
-# Modèle de consolidation des données comportementales numériques
+# Modèle d&#39;Analyse entre Parcours
 
 Disposer d’une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données issues de diverses propriétés web, mobiles et hors ligne.
 
