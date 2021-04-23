@@ -1,6 +1,6 @@
 ---
-title: 'Orchestration de messages à plusieurs canaux '
-description: Diffusez des expériences client individuelles et ponctuelles sur plusieurs écrans.
+title: 'Orchestration de message multicanal  '
+description: Procurez des expériences client individuelles et au moment opportun d’un type d’écran à l’autre.
 solution: Experience Platform
 kt: null
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
-# Orchestration de messages à plusieurs canaux
+# Orchestration de message multicanal 
 
 L’orchestration de messages à plusieurs canaux montre comment les marques peuvent interagir et communiquer de manière proactive avec leurs clients par le biais de canaux tels que les courriels, les SMS et les alertes mobiles.
 
-Les outils d’orchestration peuvent s’intégrer à d’autres canaux d’interaction (tels que les canaux entrants) pour la personnalisation Web et mobile en partageant l’état d’audience avec les autres moteurs de décision des canaux. Divers facteurs permettent de déterminer les applications et les options de déploiement à utiliser, comme par exemple si l’interaction client est déclenchée ou planifiée, les données nécessaires au ciblage et à la personnalisation, etc. Ces facteurs donnent lieu à divers scénarios et options de déploiement possibles lors de la création de la fonctionnalité d’orchestration des messages.
+Les outils d’orchestration peuvent s’intégrer à d’autres canaux d’interaction (tels que les canaux entrants) pour la personnalisation web et mobile en partageant l’état d’audience avec les autres moteurs de décision des canaux. Divers facteurs permettent de déterminer les applications et les options de déploiement à utiliser, comme par exemple si l’interaction client est déclenchée par une action ou planifiée, les données nécessaires au ciblage et à la personnalisation, etc. Ces facteurs donnent lieu à divers scénarios et options de déploiement possibles lors de la création de la fonctionnalité d’orchestration des messages.
 
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **Traitement par lots et messages transactionnels** | <ul><li>Création et exécution de campagnes sortantes planifiées et par lots</li><li>Livraison de messages transactionnels</li></ul> | <ul><li>Adobe Campaign Classic et Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Messagerie par lots et Adobe Experience Platform](batch-messaging.md)** | <ul><li>Exécuter des campagnes de messagerie par lots et planifiées à l’aide de Adobe Experience Platform en tant que centre central des profils clients et de la segmentation</li></ul> | <ul><li>[!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Fournisseur de messagerie tiers pris en charge</li></ul> |
-| **[Messagerie déclenchée et Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Exécuter des messages déclenchés et en flux continu à l’aide de Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, avec Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign ou autre application tierce pour la diffusion de messages</li></ul> |
+| **Traitement par lots et messages transactionnels** | <ul><li>Création et exécution de campagnes sortantes planifiées et par lots</li><li>Diffusion de messages transactionnels</li></ul> | <ul><li>Adobe Campaign Classic et Managed Services</li><li>Adobe Campaign Standard</li></ul> |
+| **[Messagerie par lots et Adobe Experience Platform](batch-messaging.md)** | <ul><li>Exécution des campagnes de messagerie planifiées et par lots à l’aide d’Adobe Experience Platform en tant que hub central des profils clients et de la segmentation</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Fournisseur de messagerie tiers pris en charge</li></ul> |
+| **[Messagerie déclenchée et Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, avec Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul> | <ul><li>Adobe Experience Platform</li><li>Adobe Journey Orchestration</li><li>Adobe Campaign ou autre application tierce pour la diffusion de messages</li></ul> |
