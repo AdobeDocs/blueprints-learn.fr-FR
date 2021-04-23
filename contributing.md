@@ -1,9 +1,9 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Contribution
@@ -18,15 +18,15 @@ Ce projet se conforme au [code de conduite](code-of-conduct.md) d’Adobe. En pa
 vous devez respecter ce code. Veuillez signaler tout comportement inacceptable à
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentation du Guide du contributeur
+## Documentation sur le Guide du contributeur
 
-Consultez le [Guide du contributeur](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consultez le [Guide du contributeur](https://docs.adobe.com/content/help/fr/contributor/contributor-guide/introduction.html).
 
 ## Vous avez une question ?
 
 Commencez par signaler un problème. Les membres de comité actuels de ce projet travaillent à parvenir à un consensus
 concernant l’orientation du projet et à trouver des solutions
- dans les fils de discussion (s’il y a lieu).
+dans les fils de discussion (s’il y a lieu).
 
 ## Contrat de licence du contributeur
 
