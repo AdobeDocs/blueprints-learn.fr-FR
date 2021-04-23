@@ -1,5 +1,5 @@
 ---
-title: Personnalisation Web et mobile
+title: 'Personnalisation web et mobile '
 description: Fournissez du contenu Web et mobile personnalisé avec [!UICONTROL Profil client en temps réel].
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -9,20 +9,20 @@ translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 # Personnalisation Web et mobile
 
-La personnalisation Web et mobile permet d’utiliser la segmentation des audiences dans plusieurs applications afin de personnaliser et d’optimiser les expériences client. Vous pouvez utiliser les comportements des clients, les données démographiques, le niveau de fidélité et les transactions antérieures pour personnaliser les mises en page, les appels à l’action et le contenu.
+La personnalisation Web et mobile permet d’utiliser la segmentation des audiences dans plusieurs applications afin de personnaliser et d’optimiser les expériences client. Vous pouvez utiliser les données sur le comportement, la démographie, le niveau de fidélité et les transactions antérieures du client pour personnaliser les présentations, les appels à l’action et le contenu.
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Personnalisation Web/mobile comportementale](behavioral.md)** | <ul><li>Personnaliser en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
-| **[Personnalisation Web/mobile en ligne/hors ligne](online-offline.md)** | <ul><li>Personnalisez avec des attributs et des événements hors ligne (transactions, réservations, gestion de la relation client et données de fidélité).</li><li>Synchronisez la personnalisation sur le Web, le courrier électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation Web/mobile comportementale](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation Web/mobile en ligne/hors ligne](online-offline.md)** | <ul><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
