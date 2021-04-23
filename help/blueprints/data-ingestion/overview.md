@@ -1,6 +1,6 @@
 ---
 title: Collecte de données et préparation
-description: Ce schéma montre toutes les méthodes d'assimilation et de préparation des données à Adobe Experience Platform.
+description: Ce plan directeur décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform.
 solution: Experience Platform, Data Collection
 kt: 7204
 thumbnail: null
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 La collecte et la préparation des données englobent toutes les méthodes par lesquelles les données peuvent être préparées et ingérées dans Adobe Experience Platform. Outre la possibilité de collecter des données vers Adobe Experience Platform Edge Network et de les transférer ultérieurement via le transfert latéral vers des destinations d’entreprise.
 
-La préparation des données comprend le mappage des données source au schéma du modèle de données d’expérience (XDM). Il comprend également les transformations effectuées sur les données, y compris le formatage des dates, le fractionnement/concaténation/conversions de champs et la jonction/fusion/re-saisie d’enregistrements. La préparation des données permet d’unifier les données client afin de fournir une analyse agrégée/filtrée, y compris le rapports ou la préparation des données pour l’assemblage/la science/activation des données du profil client.
+La préparation des données comprend le mappage des données source au schéma du modèle de données d’expérience (XDM). Elle inclut également la réalisation de transformations sur les données, y compris le formatage de la date ; le fractionnement, la concaténation ou les conversions de champ ; et la jonction, la fusion ou la ressaisie d’informations. La préparation des données permet d’unifier les données clients pour fournir une analyse agrégée / filtrée, y compris la création de rapports ou la préparation de données pour l’assemblage d’un profil client, la data science, l’activation.
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Préparation et importation des données](ingestion.md)** | <ul><li>Le plan de préparation des données et d&#39;importation englobe toutes les méthodes permettant de préparer et d&#39;assimiler les données à Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Collecte de données d’entreprise côté serveur](server-side-collection.md)** | <ul><li>Activez les destinations profils connues, telles que les fournisseurs de messagerie, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez des attributs et des événements hors ligne tels que les commandes, les transactions, les données de gestion de la relation client ou de fidélité, ainsi que le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plate-forme de données client en temps réel]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
+| **[Préparation et importation des données](ingestion.md)** | <ul><li>Le plan directeur de la préparation et de l’ingestion de données englobe et décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Collecte de données d’entreprise côté serveur](server-side-collection.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combines avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
