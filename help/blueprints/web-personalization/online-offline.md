@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 69%
+source-wordcount: '1091'
+ht-degree: 48%
 
 ---
 
@@ -35,11 +35,23 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 
 ## Garde-fous
 
-* Les segments partagés entre Experience Platform et Audience Manager sont partagés dans les minutes qui suivent la réalisation du segment, que ce soit via la méthode d’évaluation par flux ou par lots. Il existe une synchronisation initiale de configuration de segment entre l&#39;Experience Platform et l&#39;Audience Manager d&#39;environ 4 heures pour que les adhésions au segment Experience Platform commencent à se réaliser dans les profils d&#39;Audience Manager. Une fois dans les profils d’Audience Manager, les adhésions des segments Experience Platform sont disponibles pour la même personnalisation de page via Adobe Target.
-* Notez que pour les réalisations de segments qui surviennent dans la synchronisation de la configuration de segment de 4 heures entre l’Experience Platform et l’Audience Manager, ces réalisations de segments seront réalisées en Audience Manager sur la tâche de segment de lot suivante en tant que segments &quot;existants&quot;.
-* Partage de segments par lots depuis l’Experience Platform : une fois par jour ou initié manuellement via l’API. Une fois que ces adhésions au segment sont réalisées, elles sont partagées à l’Audience Manager en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans la Cible.
-* La segmentation en flux continu est réalisée en moins de 5 minutes environ. Une fois que ces réalisations de segment se produisent, elles sont partagées avec l’Audience Manager en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans la Cible.
-* Par défaut, le service de partage de segments permet de partager un maximum de 75 audiences pour chaque suite de rapports Adobe Analytics. Si le client dispose d’une licence Audience Manager, le nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target ou Audience Manager et Adobe Target n’est pas limité.
+### Gardiens pour l’évaluation et l’Activation des segments
+
+| Type de segmentation | Fréquence | Débit | Latence (évaluation des segments) | Latence (Activation de segment) |
+|-|-|-|-|-|-||
+| Segmentation Edge | La segmentation Edge est actuellement en version bêta et permet une segmentation en temps réel valide à évaluer sur le réseau Edge Experience Platform pour une prise de décision en temps réel sur la même page via Adobe Target et Adobe Journey Optimizer. |  | ~100 ms | Disponible immédiatement pour la personnalisation en Adobe Target, pour les recherches de profil dans le Profil Edge et pour l&#39;activation via des destinations basées sur des cookies. |
+| Segmentation en flux continu | Chaque fois qu’un nouveau événement ou enregistrement de diffusion en continu est assimilé au profil client en temps réel et que la définition de segment est un segment de diffusion en continu valide. <br>Voir la  [documentation sur la ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr) segmentation pour obtenir des instructions sur les critères de segmentation en flux continu. | Jusqu&#39;à 1500 événements par seconde.  | ~ p95 &lt;5min | Une fois que ces réalisations de segments se produisent, elles sont partagées avec l&#39;Audience Manager et le service de partage d&#39;audiences en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans Adobe Target. |
+| Segmentation incrémentielle | Une fois par heure pour les nouvelles données qui ont été ingérées dans le profil client en temps réel depuis la dernière évaluation incrémentielle ou par lot. |  |  | Une fois que ces adhésions au segment sont réalisées, elles sont partagées avec l&#39;Audience Manager et le service de partage d&#39;audiences en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans Adobe Target. |
+| Segmentation par lots | Une fois par jour, en fonction d&#39;un calendrier prédéfini du système, ou d&#39;un appel ad hoc lancé manuellement via l&#39;API. |  | Environ une heure par emploi pour un magasin de profils de 10 To, 2 heures par emploi pour un magasin de profils de 10 à 100 To. Les performances de la tâche de segment par lot dépendent du nombre de profils, de la taille des profils et du nombre de segments évalués. | Une fois que ces adhésions au segment sont réalisées, elles sont partagées avec l&#39;Audience Manager et le service de partage d&#39;audiences en quelques minutes et disponibles pour la personnalisation de la même page/page suivante dans Adobe Target. |
+
+### Gardiens pour le partage d’audiences entre applications
+
+
+| Modèle d&#39;intégration de partage d&#39;Audiences | Détails | Fréquence | Débit | Latence (évaluation des segments) | Latence (Activation de segment) |
+|-|-|-|-|-|-|-|-|-|
+| Plate-forme de données client en temps réel vers l&#39;Audience Manager |  | Dépendant du type de segmentation - voir le tableau des garde-fous de segmentation ci-dessus. | Dépendant du type de segmentation - voir le tableau des garde-fous de segmentation ci-dessus. | Dépendant du type de segmentation - voir le tableau des garde-fous de segmentation ci-dessus. | Dans les minutes qui suivent l&#39;achèvement de l&#39;évaluation du segment.<br>La synchronisation initiale de la configuration des audiences entre la plateforme de données client en temps réel et l’Audience Manager prend environ 4 heures.<br>Les adhésions d’audience réalisées au cours de la période de 4 heures sont consignées à l’Audience Manager sur la tâche de segmentation par lots suivante en tant qu’adhésions d’audience &quot;existantes&quot;. |
+| Adobe Analytics à l&#39;Audience Manager | Par défaut, 75 audiences au maximum peuvent être partagées pour chaque suite de rapports Adobe Analytics. Si une licence d’Audience Manager est utilisée, il n’y a aucune limite au nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target ou Adobe Audience Manager et Adobe Target. |  |  |  |  |
+| Adobe Analytics à la plateforme de données client en temps réel | Non disponible actuellement. |  |  |  |  |
 
 ## Modèles d’implémentation
 
@@ -84,7 +96,7 @@ Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les appro
 
 * [Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=fr)
 * [Présentation de la segmentation dans Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr)
-* [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr)
+* [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
