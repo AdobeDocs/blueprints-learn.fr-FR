@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 35%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ Activez des audiences vers des destinations connues basées sur le profil telles
 | Intégrations d&#39;applications d&#39;Audience | Fréquence | Débit/volume | Latence (évaluation des segments) | Latence (Activation de segment) |
 |---|---|---|---|---|
 | Plate-forme de données client en temps réel vers l’Audience Manager | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dans les minutes qui suivent l&#39;achèvement de l&#39;évaluation du segment.<br>La synchronisation initiale de la configuration des audiences entre la plateforme de données client en temps réel et l’Audience Manager prend environ 4 heures.<br>Les adhésions d’audience réalisées au cours de la période de 4 heures sont consignées à l’Audience Manager sur la tâche de segmentation par lots suivante en tant qu’adhésions d’audience &quot;existantes&quot;. |
-| Adobe Analytics à l&#39;Audience Manager |  | Par défaut, 75 audiences au maximum peuvent être partagées pour chaque suite de rapports Adobe Analytics. Si une licence d’Audience Manager est utilisée, il n’y a aucune limite au nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target ou Adobe Audience Manager et Adobe Target. |  |  |
+| Plate-forme de données client en temps réel vers Ad Cloud | Notez que le partage d’audiences de la plateforme de données clientes en temps réel vers Adobe Advertising Cloud nécessite une Audience Manager. Les mêmes garde-fous qui s’appliquent au partage des plateformes de données clientes en temps réel avec Audience Manager s’appliquent à l’intégration des audiences de plateformes de données clientes en temps réel à Advertising Cloud. | - | - | - |
 | Adobe Analytics vers la plateforme de données client en temps réel | Non disponible actuellement | Non disponible actuellement | Non disponible actuellement | Non disponible actuellement |
+| Adobe Analytics à l&#39;Audience Manager | - | Par défaut, 75 audiences au maximum peuvent être partagées pour chaque suite de rapports Adobe Analytics. Si une licence d’Audience Manager est utilisée, il n’y a aucune limite au nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target ou Adobe Audience Manager et Adobe Target. | - | - |
+
 
 
 
