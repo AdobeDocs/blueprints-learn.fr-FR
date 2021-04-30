@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: db083e30d8add029e99cade25d561a26da78338e
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 34%
+source-wordcount: '421'
+ht-degree: 79%
 
 ---
 
@@ -31,34 +31,11 @@ Activez des audiences vers des destinations connues basées sur le profil telles
 
 ## Architecture
 
-<img src="assets/onoff.svg" alt="Architecture de référence pour le plan directeur des Audiences Activation en ligne/hors ligne" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Architecture de référence pour le plan directeur des Audiences Activation en ligne/hors ligne" style="border:1px solid #4a4a4a" />
 
 ## Garde-fous
 
-* [Lignes directrices relatives au profil et à la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
-
-### Gardiens pour l’évaluation et l’Activation des segments
-
-| Type de segmentation | Fréquence | Débit | Latence (évaluation des segments) | Latence (Activation de segment) | Charge utile Activation |
-|---|---|---|---|---|---|
-| Segmentation Edge | La segmentation Edge est actuellement en version bêta et permet une segmentation en temps réel valide à évaluer sur le réseau Edge Experience Platform pour une prise de décision en temps réel sur la même page via Adobe Target et Adobe Journey Optimizer. |  | ~100 ms | Disponible immédiatement pour la personnalisation en Adobe Target, pour les recherches de profil dans le Profil Edge et pour l’activation via des destinations basées sur des cookies. | Appartenances aux Audiences disponibles sur le bord pour les recherches de profil et les destinations basées sur les cookies.<br>Audience Les adhésions et les attributs de Profil sont disponibles pour Adobe Target et Journey Optimizer. |
-| Segmentation en streaming | Chaque fois qu’un nouveau événement ou enregistrement de diffusion en continu est assimilé au profil client en temps réel et que la définition de segment est un segment de diffusion en continu valide. <br>Voir la  [documentation sur la ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr) segmentation pour obtenir des instructions sur les critères de segmentation en flux continu. | Jusqu’à 1 500 événements par seconde. | ~ p95 &lt;5min | Destinations de diffusion en continu : Les adhésions aux audiences en flux continu sont activées en moins de 10 minutes environ ou micro-par lot selon les exigences de la destination.<br>Destinations planifiées : Les abonnements aux audiences en flux continu sont activés par lots en fonction de l’heure de diffusion de destination planifiée. | Destinations de diffusion en continu : Modifications de l’appartenance à l’Audience, valeurs d’identité et attributs de profil.<br>Destinations planifiées : Modifications de l’appartenance à l’Audience, valeurs d’identité et attributs de profil. |
-| Segmentation incrémentielle | Une fois par heure pour les nouvelles données qui ont été ingérées dans le profil client en temps réel depuis la dernière évaluation incrémentielle ou par lot. |  |  | Destinations de diffusion en continu : Les adhésions à des audiences incrémentielles sont activées dans un délai d&#39;environ 10 minutes ou par micro-lot en fonction des exigences de la destination.<br>Destinations planifiées : Les adhésions aux audiences incrémentielles sont activées par lot en fonction de l’heure de diffusion de destination planifiée. | Destinations de diffusion en continu : Modifications de l’appartenance à l’Audience et valeurs d’identité uniquement.<br>Destinations planifiées : Modifications de l’appartenance à l’Audience, valeurs d’identité et attributs de profil. |
-| Segmentation par lots | Une fois par jour, en fonction d’un calendrier prédéfini du système, ou d’un appel ad hoc lancé manuellement via l’API. |  | Environ une heure par emploi pour un magasin de profils de 10 To, 2 heures par emploi pour un magasin de profils de 10 à 100 To. Les performances de la tâche de segment par lot dépendent du nombre de profils, de la taille des profils et du nombre de segments évalués. | Destinations de diffusion en continu : Les adhésions à l&#39;audience par lot sont activées dans les 10 heures suivant la fin de l&#39;évaluation de la segmentation ou par micro-lot selon les exigences de la destination.<br>Destinations planifiées : Les adhésions à l’audience par lot sont activées en fonction de l’heure de diffusion de destination planifiée. | Destinations de diffusion en continu : Modifications de l’appartenance à l’Audience et valeurs d’identité uniquement.<br>Destinations planifiées : Modifications de l’appartenance à l’Audience, valeurs d’identité et attributs de profil. |
-
-### Gardiens pour le partage d’Audiences entre applications
-
-| Intégrations d&#39;applications d&#39;Audience | Fréquence | Débit/volume | Latence (évaluation des segments) | Latence (Activation de segment) |
-|---|---|---|---|---|
-| Plate-forme de données client en temps réel vers l’Audience Manager | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dépend du type de segmentation : voir le tableau des garde-fous de segmentation ci-dessus. | Dans les minutes qui suivent l&#39;achèvement de l&#39;évaluation du segment.<br>La synchronisation initiale de la configuration des audiences entre la plateforme de données client en temps réel et l’Audience Manager prend environ 4 heures.<br>Les adhésions d’audience réalisées au cours de la période de 4 heures sont consignées à l’Audience Manager sur la tâche de segmentation par lots suivante en tant qu’adhésions d’audience &quot;existantes&quot;. |
-| Plate-forme de données client en temps réel vers Ad Cloud | Notez que le partage d’audiences de la plateforme de données clientes en temps réel vers Adobe Advertising Cloud nécessite une Audience Manager. Les mêmes garde-fous qui s’appliquent au partage des plateformes de données clientes en temps réel avec Audience Manager s’appliquent à l’intégration des audiences de plateformes de données clientes en temps réel à Advertising Cloud. | - | - | - |
-| Adobe Analytics vers la plateforme de données client en temps réel | Non disponible actuellement | Non disponible actuellement | Non disponible actuellement | Non disponible actuellement |
-| Adobe Analytics à l&#39;Audience Manager | - | Par défaut, 75 audiences au maximum peuvent être partagées pour chaque suite de rapports Adobe Analytics. Si une licence d’Audience Manager est utilisée, il n’y a aucune limite au nombre d’audiences pouvant être partagées entre Adobe Analytics et Adobe Target ou Adobe Audience Manager et Adobe Target. | - | - |
-
-
-
-
-
+Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activation des Audiences et des Profils - [LIEN](overview.md)
 
 ## Étapes d’implémentation
 
@@ -79,8 +56,8 @@ Activez des audiences vers des destinations connues basées sur le profil telles
 ## Documentation connexe
 
 * [Description de Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Directives sur le profil et la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Documentation sur la segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Directives sur le profil et la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* [Documentation sur la segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr)
 * [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 
 ## Vidéos et tutoriels connexes
