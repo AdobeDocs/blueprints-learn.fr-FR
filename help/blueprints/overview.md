@@ -4,7 +4,7 @@ description: Les plans directeurs d’expérience digitale sont des implémentat
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 37%
@@ -37,7 +37,7 @@ Les plans directeurs d’expérience numérique sont des implémentations répé
     <p><em>Déclenchez des messages et des expériences en utilisant [ ! UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="image miniature du plan directeur des Audiences Activation en ligne/hors ligne" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="image miniature du plan directeur des Audiences Activation en ligne/hors ligne" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en ligne / hors ligne</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
