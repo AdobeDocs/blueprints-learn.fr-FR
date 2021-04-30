@@ -1,15 +1,15 @@
 ---
 title: Modèle d'Analyse des données et de renseignement
-description: Ce plan montre la capacité de Adobe Experience Platform à effectuer une requête exploratoire et l'analyse des données qui existent dans le lac de données.
+description: Ce plan directeur montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -25,9 +25,9 @@ Certains garde-fous s&#39;appliquent au délai d&#39;expiration de la requête e
 
 ## Cas d’utilisation
 
-* Requête interactive et agrégation des données
-* Accès aux lignes et aux colonnes aux données imbriquées pour exploration et validation
-* Tableaux de bord et visualisation des données au moyen de l&#39;outil Business Intelligence
+* Requête interactive et agrégation de données
+* Accès aux lignes et colonnes des données ingérées pour exploration et validation
+* Tableau de bord et visualisation des données via les outils de Business Intelligence
 
 ## Applications
 
@@ -35,22 +35,22 @@ Certains garde-fous s&#39;appliquent au délai d&#39;expiration de la requête e
 
 ## Architecture
 
-<img src="assets/dataexplore.svg" alt="Architecture de référence pour l'exploration des données d'entreprise et le plan directeur des Rapports" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Architecture de référence pour le plan directeur de l’exploration des données d’entreprise et la création de rapports" style="border:1px solid #4a4a4a" />
 
-## Gardiens
+## Garde-fous
 
-* Délai de 10 minutes pour les requêtes interactives
-* Limite de 100 enregistrements renvoyée dans l’interface utilisateur
-* Limite de 50 000 enregistrements renvoyée via le connecteur SQL
+* Limite de 10 minutes pour les requêtes interactives
+* Limite de 100 enregistrements pour les données renvoyées dans l’interface utilisateur
+* Limite de 50 000 enregistrements pour les données renvoyées via le connecteur SQL
 
-## Etapes de mise en oeuvre
+## Étapes d’implémentation
 
-1. Configurez des jeux de données et des schémas pour l&#39;assimilation de données dans le lac de données.
-1. Envoi de données.
+1. Configurez les jeux de données et les schémas pour l’ingestion des données dans le lac de données.
+1. Ingérez les données.
 1. Vérifiez que les données sont disponibles pour [!UICONTROL Requête Service] et [!UICONTROL Data Science Workspace] pour l&#39;accès brut et la requête.
 1. Connectez les outils de Business Intelligence et les clients SQL à [!UICONTROL Requête Service] pour la visualisation, la requête de données et l&#39;exploration.
 
 ## Documentation connexe
 
-* [Description du produit Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Documentation de requête ] Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Documentation sur Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
