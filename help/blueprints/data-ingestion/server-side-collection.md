@@ -1,39 +1,39 @@
 ---
-title: Modèle de collecte de données d'entreprise côté serveur
-description: Diffusion en continu des données collectées par les SDK Experience Platform vers les destinations
+title: Plan directeur pour la collecte de données d’entreprise côté serveur
+description: Diffusez les données collectées par les SDK d’Adobe Experience Platform vers différentes destinations
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Modèle de collecte de données d&#39;entreprise côté serveur
+# Plan directeur pour la collecte de données d’entreprise côté serveur
 
-Le modèle de collecte de données d&#39;entreprise côté serveur montre comment les données collectées avec Adobe Experience Platform Web et les SDK mobiles peuvent être transférées depuis Experience Platform Edge Network vers une destination souhaitée. Vous pouvez transférer toutes les données brutes collectées à partir des kits SDK ou des données spécifiques en fonction de événements et de règles configurés dans l’Experience Platform Launch.
+Le plan directeur pour la collecte de données d’entreprise côté serveur montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans Experience Platform Launch.
 
 ## Cas d’utilisation
 
-* Collecte de données à partir de sites Web ou mobiles à l’aide d’une seule balise de collecte, ce qui allège le poids de code sur les navigateurs et applications client. Propagez les données collectées à divers points de terminaison pour une seule source de collecte de données.
-* Transférez les données collectées aux applications partenaires ou aux emplacements d’enregistrement de données afin de générer des statistiques et des applications par rapport aux données collectées.
+* Collectez des données depuis le web ou le mobile à l’aide d’une seule balise de collecte, réduisant le poids du code sur les navigateurs et les applications clients. Propagez les données collectées vers différents points de terminaison pour une source unique de collecte de données.
+* Transférez les données collectées vers des applications partenaires ou des emplacements de stockage de données pour tirer des enseignements et mettre au point des applications à partir des données collectées.
 
 ## Applications
 
-* Collection Adobe Experience Platform
+* Collecte Adobe Experience Platform
 
 ## Architecture
 
-<img src="assets/entcollect.svg" alt="Architecture de référence pour la collecte de données d’entreprise" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Architecture de référence pour la collecte de données d’entreprise" style="border:1px solid #4a4a4a" />
 
 ## Documentation connexe
 
-[Documentation côté serveur Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Documentation sur Adobe Experience Platform Launch côté serveur](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=fr#server-side-info)
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
