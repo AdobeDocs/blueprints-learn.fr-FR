@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 44%
+source-wordcount: '291'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,8 @@ Certains garde-fous s&#39;appliquent au délai d&#39;expiration de la requête e
 
 ## Garde-fous
 
-* Limite de 10 minutes pour les requêtes interactives
-* Limite de 100 enregistrements pour les données renvoyées dans l’interface utilisateur
-* Limite de 50 000 enregistrements pour les données renvoyées via le connecteur SQL
+Consultez la documentation du produit Requête Service pour plus d’informations sur les meilleures pratiques et les garde-fous.
+[Guide requête Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## Étapes d’implémentation
 
