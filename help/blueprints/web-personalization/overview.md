@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 79%
+source-wordcount: '247'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,14 @@ La personnalisation Web et mobile permet d’utiliser la segmentation des audien
 |---|---|---|
 | **[Personnalisation Web/mobile comportementale](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 | **[Personnalisation Web/mobile en ligne/hors ligne](online-offline.md)** | <ul><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+
+## Garderails pour la personnalisation Web et mobile
+
+Reportez-vous aux garde-fous sous la section Plans d&#39;Activation des Audiences et des Profils - [LIEN](../audience-activation/overview.md)
+
+### Diagramme de surveillance de la personnalisation en ligne/hors ligne
+
+<img src="assets/personalization_guardrails.svg" alt="Architecture de référence du plan directeur de la personnalisation Web en ligne/hors ligne" style="border:1px solid #4a4a4a" />
 
 ## Articles de blog connexes
 
