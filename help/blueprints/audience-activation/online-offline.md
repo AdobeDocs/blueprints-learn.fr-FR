@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 74%
+source-wordcount: '506'
+ht-degree: 69%
 
 ---
 
@@ -46,13 +46,14 @@ Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activat
 
 ## Étapes d’implémentation
 
-1. Configuration des schémas et des jeux de données dans Experience Platform.
-1. Configurez les identités et les espaces de noms d’identité corrects sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.
-1. Activez le schéma et les jeux de données pour le profil.
-1. Ingérez les données dans Platform.
-1. Fournissez [!UICONTROL Plate-forme de données client en temps réel] le partage de segments entre l’Experience Platform et l’Audience Manager pour que les audiences définies dans l’Experience Platform soient partagées à l’Audience Manager.
-1. Créez des segments dans Experience Platform, pour une évaluation en lot ou en flux. Le système détermine automatiquement si le segment est évalué en tant que lot ou en tant que flux continu.
-1. Configurez les destinations pour le partage des attributs de profil et des appartenances à une audience vers les destinations souhaitées.
+1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
+1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Configurez les identités et les espaces de noms d’identité corrects sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [Activez le schéma et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Ingérez les données dans Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Fournissez un partage de segment Real-time Customer Data Platform entre Experience Platform et Audience Manager pour les audiences définies dans Experience Platform à partager avec Audience Manager.](https://www.adobe.com/go/audiences)
+1. [Créez des segments dans l’Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr), à évaluer par lot ou en flux continu. Le système détermine automatiquement si le segment est évalué en tant que lot ou en tant que flux continu.
+1. [Configurez les destinations pour le partage des attributs de profil et des appartenances à une audience vers les destinations souhaitées.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## Considérations de mise en œuvre
 
@@ -71,4 +72,4 @@ Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activat
 
 * [Présentation de Real-time Customer Data Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 * [[!UICONTROL Vidéo de démonstration de Real-time Customer Data Platform ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=fr)
-* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr)
+* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
