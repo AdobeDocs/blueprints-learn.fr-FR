@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,13 @@ Activez des audiences vers des destinations connues basées sur le profil telles
 
 ## Architecture
 
+### Audience Activation en ligne/hors ligne avec les destinations
+
 <img src="assets/online_offline_activation.svg" alt="Architecture de référence pour le plan directeur des Audiences Activation en ligne/hors ligne" style="border:1px solid #4a4a4a" />
+
+### Audience Activation en ligne/hors ligne avec les applications Experience Cloud
+
+<img src="assets/activation+apps.svg" alt="Architecture de référence pour le plan d'Audience Activation en ligne/hors ligne avec les applications Experience Cloud" style="border:1px solid #4a4a4a" />
 
 ## Garde-fous
 
