@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ Ayez une vue consolidée unique du comportement des clients sur différents cana
 ## Architecture
 
 <img src="assets/CJA.svg" alt="Architecture de référence pour le plan directeur de Customer Journey Analytics" style="border:1px solid #4a4a4a" />
-
-## Garde-fous
-
-Ingestion de données dans Customer Journey Analytics :
-
-* Ingestion de données dans le lac : API ~ 7 Go/h, connecteur source ~ 200 Go/h, diffusion en continu vers le lac ~ 15 minutes, connecteur source Adobe Analytics vers le lac ~ 45 minutes.
-* Une fois les données publiées dans le lac de données, le traitement dans Customer Journey Analytics peut prendre jusqu’à 90 minutes.
 
 ## Étapes d’implémentation
 
