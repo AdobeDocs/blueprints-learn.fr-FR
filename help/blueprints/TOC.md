@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: ee4e59f014ad73df8e9bceb2a41752b3bc760761
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 78%
+source-wordcount: '123'
+ht-degree: 73%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 78%
    + [Audience Activation anonyme](/help/blueprints/audience-activation/anonymous.md)
    + [Audience Activation en ligne / hors ligne](/help/blueprints/audience-activation/online-offline.md)
    + [Activation aux destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Audience et Activation Profil avec les applications Experience Cloud](/help/blueprints/audience-activation/aep+apps.md)
    + [Centre d’activité client ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
