@@ -1,14 +1,14 @@
 ---
 title: Audience et Activation Profil avec le plan d'application Experience Cloud
-description: Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec les applications Experience Cloud.
+description: Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec des applications Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 33%
 
 Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec les applications Experience Cloud. Créez et partagez de riches segments de clients et connaissances dans l’Experience Platform et partagez-les avec des applications Experience Cloud.
 
-L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitement avec le [Plan d&#39;Audience Activation en ligne/hors ligne](online-offline.md). Ce plan décrit en détail les intégrations entre les applications Experience Platform et Experience Cloud.
+L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitement avec le [Plan d&#39;Audience Activation en ligne/hors ligne](online-offline.md). Ce plan décrit en détail les intégrations entre applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
-* Personnalisation et ciblage sur les canaux d’interaction client optimisés par l’Experience Cloud.
-* Partage des données d&#39;audience et de profil avec l&#39;Experience Platform des applications Experience Cloud et des applications.
+* Personnalisez et cible les canaux d’interaction client générés par l’Experience Cloud.
+* Partagez les données d’audience et de profil entre les applications Experience Platform et Experience Cloud.
 
 ## Applications
 
@@ -29,9 +29,9 @@ L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitemen
 * [!UICONTROL Real-time Customer Data Platform]
 * activation Experience Platform
 * Applications Experience Cloud
-   * Audience Manager
-   * Cible
-   * Campaign
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## Architecture
