@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 66%
 
 ---
@@ -24,7 +24,7 @@ La personnalisation Web et mobile permet d’utiliser la segmentation des audien
 
 ## Garderails pour la personnalisation Web et mobile
 
-Pour les garde-fous liés à l&#39;audience et à l&#39;activation des profils, consultez les garde-fous sous la section des plans d&#39;Audience et d&#39;Activation des Profils - [LIEN](../audience-activation/overview.md)
+[Pour les garde-fous liés à l&#39;audience et à l&#39;activation des profils, consultez les garde-fous sous la section des plans d&#39;Audience et d&#39;Activation des Profils.](../audience-activation/overview.md)
 
 ### Diagramme de surveillance de la personnalisation en ligne/hors ligne
 
