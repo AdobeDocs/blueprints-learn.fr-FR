@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -68,23 +68,23 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 
 #### Schéma / jeux de données
 
-1. Configurez des profils individuels, des événements d’expérience et des schémas multi-entités dans Experience Platform en fonction des données fournies par le client.
-1. Créez des schémas Adobe Campaign pour les éléments suivants : wideLog, trackingLog, adresses non livrables et préférences de profil (facultatif).
-1. Ajoutez des étiquettes d’utilisation des données au jeu de données pour la gouvernance.
-1. Créez des stratégies pour appliquer la gouvernance sur les destinations.
+1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités dans Experience Platform, en fonction des données fournies par le client.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. Créez des schémas Adobe Campaign pour WideLog, trackingLog, les adresses non livrables et les préférences de profil (facultatif).
+1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des ensembles de données dans l’Experience Platform pour que les données soient assimilées.
+1. [Ajoutez les ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) étiquettes d’utilisation des données dans l’Experience Platform au jeu de données pour la gouvernance.
+1. [Créez des stratégies pour appliquer la gouvernance sur les destinations.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### Profil / identité
 
-1. Créez des espaces de noms spécifiques au client.
-1. Ajoutez des identités aux schémas.
-1. Activez les schémas et les jeux de données pour le profil.
-1. Configurez des règles de fusion pour les différentes vues de [!UICONTROL Profil client en temps réel] (facultatif).
+1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Activez le schéma et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Configurez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) des stratégies de fusion pour les différentes vues du Profil [!UICONTROL  client en temps ] réel (facultatif).
 1. Créez des segments pour l’utilisation de Adobe Campaign.
 
 #### Sources / destinations
 
-1. Ingérez des données dans Experience Platform à l’aide d’API de diffusion en continu et de connecteurs source.
-1. Configurez la destination de l&#39;enregistrement blob [!DNL Azure] à utiliser avec Adobe Campaign.
+1. [Envoi de données dans la ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) plate-forme Experience à l’aide d’API de diffusion en continu et de connecteurs source.1. Configurez la destination de l’enregistrement  [!DNL Azure] blob à utiliser avec Adobe Campaign.
 
 #### Déploiement d’applications mobiles
 
