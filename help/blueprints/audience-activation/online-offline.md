@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.
 
 Activez des audiences vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires
+
+Le Plan d&#39;Audience Activation en ligne/hors ligne s&#39;aligne étroitement avec l&#39;Activation [d&#39;Audience et de Profil avec le Plan d&#39;application Experience Cloud](platform-and-applications.md). Des détails supplémentaires sont fournis dans le document [Audience et Activation Profil avec le plan des applications Experience Cloud](platform-and-applications.md).   spécifique aux intégrations entre applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
@@ -42,7 +44,7 @@ Activez des audiences vers des destinations connues basées sur le profil telles
 
 ## Garde-fous
 
-Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activation des Audiences et des Profils - [LIEN](overview.md)
+[Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activation des Audiences et des Profils.](overview.md)
 
 ## Étapes d’implémentation
 
