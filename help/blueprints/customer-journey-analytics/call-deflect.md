@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,8 +36,9 @@ Analysez le comportement d’un client sur son ordinateur et son mobile avant qu
 
 ## Étapes d’implémentation
 
-1. Configurez les ensembles de données et les schémas.
-1. Ingérer des données dans Platform.
+1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
+1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Ingérez les données dans Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 Les données doivent être ingérées dans Platform avant d’être ingérées dans Customer Journey Analytics.
 1. Analysez les jeux de données d’événements cross-canal.
 Les jeux de données analysés en union doivent avoir un identifiant d’espace de noms commun ou être recréés via la capacité d’assemblage basée sur le champ de Customer Journey Analytics. 
