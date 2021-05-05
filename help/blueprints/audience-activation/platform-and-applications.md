@@ -1,18 +1,18 @@
 ---
-title: Audience et Activation Profil avec les applications Experience Cloud
-description: Audience et Activation Profil avec les applications Experience Cloud
+title: Audience et Activation Profil avec le plan d'application Experience Cloud
+description: Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec les applications Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 33%
 
 ---
 
-# Audience et Activation Profil avec les applications Experience Cloud
+# Audience et Activation Profil avec le plan d&#39;application Experience Cloud
 
 Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec les applications Experience Cloud. Créez et partagez de riches segments de clients et connaissances dans l’Experience Platform et partagez-les avec des applications Experience Cloud.
 
@@ -36,16 +36,15 @@ L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitemen
 
 ## Architecture
 
-[Voir la section Architecture des Experience Platform et des applications pour obtenir des diagrammes d&#39;architecture supplémentaires relatifs aux intégrations Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
-
 ### Audience et Activation Profil avec les applications Experience Cloud
 
 <img src="assets/activation+apps.svg" alt="Architecture de référence pour l'Activation d'Audience et de Profil avec les applications Experience Cloud" style="border:1px solid #4a4a4a" />
-<br>
+
+Consultez le [diagramme Adobe Experience Platform &amp; Applications](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) pour obtenir un diagramme d&#39;architecture supplémentaire relatif à l&#39;Experience Platform et à ses intégrations aux applications Experience Cloud.
 
 ## Garde-fous
 
-[Reportez-vous aux garde-fous comme indiqué sur la page Aperçu de l&#39;Activation des Audiences et des Profils](overview.md)
+Reportez-vous aux [garde-fous de la page Aperçu des Activations d&#39;Audience et de Profil](overview.md)
 
 ## Documentation connexe
 
