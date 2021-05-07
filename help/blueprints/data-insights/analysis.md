@@ -1,5 +1,5 @@
 ---
-title: Modèle d'Analyse des données et de renseignement
+title: Plan directeur pour l’analyse des données et la Data Intelligence
 description: Ce plan directeur montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 solution: Experience Platform
 kt: 7207
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
-# Modèle d&#39;Analyse des données et de renseignement
+# Plan directeur pour l’analyse des données et la Data Intelligence
 
-L&#39;Analyse des données et le renseignement permettent à Adobe Experience Platform d&#39;effectuer une requête exploratoire et une analyse des données qui existent dans le lac des données.
+L’analyse des données et la Data Intelligence montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données qui existent dans un lac de données.
 
-L&#39;Experience Platform [!UICONTROL Requête Service] permet l&#39;exécution de requêtes SQL sur les données. [!UICONTROL L’] espace de travail Data Science permet l’exploration des données, la science des données et les charges de travail d’apprentissage automatique sur les données.
+Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données. [!UICONTROL Data Science Workspace] permet d’effectuer des tâches d’exploration de données, de data science et de machine learning sur les données.
 
-En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) pour se connecter directement aux données dans l&#39;Experience Platform, y accéder et les requête, en utilisant le protocole [!DNL PostgreSQL].
+En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI), leur donnant la possibilité d’accéder et d’interroger directement les données dans Experience Platform, par le biais du protocole [!DNL PostgreSQL].
 
-Certains garde-fous s&#39;appliquent au délai d&#39;expiration de la requête et à la quantité de données incluses dans le résultat de la requête, comme indiqué dans les détails du plan directeur.
+Certains garde-fous s’appliquent au délai d’expiration de la requête et pour limiter la quantité de données incluse dans le résultat de la requête, comme relevé dans la description du plan directeur.
 
 ## Cas d’utilisation
 
@@ -44,13 +44,13 @@ Consultez la documentation du produit Requête Service pour plus d’information
 
 ## Étapes d’implémentation
 
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Ingérez les données dans Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. Vérifiez que les données sont disponibles pour [!UICONTROL Requête Service] et [!UICONTROL Data Science Workspace] pour l&#39;accès brut et la requête.
-1. Connectez les outils de Business Intelligence et les clients SQL à [!UICONTROL Requête Service] pour la visualisation, la requête de données et l&#39;exploration.
+1. Donnez la confirmation que les données sont disponibles dans [!UICONTROL Query Service] et [!UICONTROL Data Science Workspace] pour accès brut et exécution des requêtes.
+1. Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service] pour la visualisation, les requêtes de données et l’exploration.
 
 ## Documentation connexe
 
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentation sur Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
+* Documentation sur [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
