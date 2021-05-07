@@ -1,5 +1,5 @@
 ---
-title: Analyse de Parcours entre Canaux
+title: Analyse de parcours cross-canal
 description: Analysez et extrayez des informations sur les interactions client tout au long du parcours client.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
@@ -7,12 +7,12 @@ exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modèle d&#39;Analyse entre Parcours
+# Plan directeur pour l’analyse de parcours cross-canal
 
 Ayez une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données de diverses propriétés web, mobiles et hors ligne.
 
@@ -38,8 +38,8 @@ Ayez une vue consolidée unique du comportement des clients sur différents cana
 
 ## Étapes d’implémentation
 
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Ingérez les données dans Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Les données doivent être ingérées dans Platform avant d’être traitées dans Customer Journey Analytics.
