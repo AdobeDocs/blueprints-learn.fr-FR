@@ -1,5 +1,5 @@
 ---
-title: Messagerie déclenchée et plan directeur Adobe Experience Platform
+title: Plan directeur pour Adobe Experience Platform et la diffusion de messages déclenchés
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
@@ -7,12 +7,12 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Messagerie déclenchée et plan directeur Adobe Experience Platform
+# Plan directeur pour Adobe Experience Platform et la diffusion de messages déclenchés
 
 Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 
@@ -25,7 +25,7 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 
 ## Architecture
 
-<img src="assets/triggered.svg" alt="Architecture de référence pour le schéma de messagerie et de Adobe Experience Platform déclenchés" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Architecture de référence pour les messages déclenchés et le plan directeur d’Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Modèles d’intégration
 
@@ -69,7 +69,7 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 #### Schéma / jeux de données
 
 1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités dans Experience Platform, en fonction des données fournies par le client.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. Créez des schémas Adobe Campaign pour WideLog, trackingLog, les adresses non livrables et les préférences de profil (facultatif).
+1. Créez des schémas Adobe Campaign pour les éléments broadLog, trackingLog, adresses non livrables et préférences de profil (facultatif).
 1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des ensembles de données dans l’Experience Platform pour que les données soient assimilées.
 1. [Ajoutez les ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) étiquettes d’utilisation des données dans l’Experience Platform au jeu de données pour la gouvernance.
 1. [Créez des stratégies pour appliquer la gouvernance sur les destinations.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -80,7 +80,7 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Activez les schémas et les jeux de données pour le Profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Configurez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) des stratégies de fusion pour les différentes vues du Profil [!UICONTROL  client en temps ] réel (facultatif).
-1. Créez des segments pour l’utilisation de Adobe Campaign.
+1. Créez des segments pour utilisation dans Adobe Campaign.
 
 #### Sources / destinations
 
@@ -88,7 +88,7 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 
 #### Déploiement d’applications mobiles
 
-1. Mise en oeuvre du SDK Adobe Campaign pour Adobe Campaign Classic ou du SDK Experience Platform pour Adobe Campaign Standard. Si l’Experience Platform Launch est présent, il est recommandé d’utiliser l’extension Adobe Campaign Classic ou Adobe Campaign Standard avec le SDK Experience Platform.
+1. Utilisez le SDK Adobe Campaign pour Adobe Campaign Classic ou le SDK Experience Platform pour Adobe Campaign Standard. Si vous disposez d’Experience Platform Launch, il est recommandé d’utiliser l’extension Adobe Campaign Classic ou Adobe Campaign Standard avec le SDK Experience Platform.
 
 
 ### Adobe Journey Orchestration
@@ -107,7 +107,7 @@ Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experi
 
 * [Documentation pour Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Documentation pour Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=fr)
-* [Documentation de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
-* [Documentation Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
+* [Documentation pour Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
+* [Documentation pour Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
 * [Documentation pour Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
 * [Documentation pour le SDK mobile d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
