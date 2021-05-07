@@ -1,5 +1,5 @@
 ---
-title: Plan directeur de la personnalisation Web en ligne/hors ligne
+title: Plan directeur de personnalisation web en ligne / hors ligne
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
@@ -7,12 +7,12 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Plan directeur de la personnalisation Web/mobile en ligne/hors ligne
+# Plan directeur de personnalisation web ou mobile en ligne / hors ligne
 
 Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 
@@ -31,7 +31,7 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 
 ## Architecture
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="Architecture de référence du plan directeur de la personnalisation Web en ligne/hors ligne" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="border:1px solid #4a4a4a" />
 
 ## Garde-fous
 
@@ -39,16 +39,16 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 
 ## Modèles d’implémentation
 
-Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les approches suivantes, comme indiqué ci-dessous.
+Le plan directeur de personnalisation web / mobile peut être mis en œuvre par les approches suivantes, comme indiqué ci-dessous.
 
-1. Utilisation du [!UICONTROL Platform Web SDK] ou du [!UICONTROL Platform Mobile SDK] et du [!UICONTROL Edge Network].
-1. Utilisation de kits SDK spécifiques aux applications (par exemple, AppMeasurement.js)
+1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network].
+1. Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AppMeasurement.js)
 
-### 1. Plateforme Web/Mobile SDK et approche Edge
+### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
 
-<img src="assets/web_sdk_flow.svg" alt="Architecture de référence pour l'approche [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] et [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Architecture de référence pour l’approche [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] et [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
-### 2. Approche SDK spécifique à l&#39;application
+### 2. Approche d’utilisation d’un SDK spécifique à l’application
 
 <img src="assets/app_sdk_flow.png" alt="Architecture de référence pour l’approche d’utilisation d’un SDK spécifique à l’application" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les appro
 
 | Application / service | Bibliothèque requise | Notes |
 |---|---|---|
-| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | at.js est recommandé car mbox.js n’est plus en cours de développement. |
-| Adobe Audience Manager (facultatif) | [!UICONTROL Platform Web SDK]* ou dil.js 5.0+ |  |
-| Adobe Analytics (facultatif) | [!UICONTROL Platform Web SDK]* ou AppMeasurement.js 1.6.4+ | Le tracking d’Adobe Analytics doit utiliser la collecte de données régionale (RDC). |
-| Service d’identités d’Experience Cloud | [!UICONTROL Platform Web SDK]* ou VisitorAPI.js 2.0+ | (Recommandé) Utilisez Experience Platform Launch pour déployer le service d’identités afin de vous assurer que l’identité est définie avant tout appel d’application |
+| Adobe Target | [!UICONTROL SDK web Experience Platform]*, at.js 0.9.1+, ou mbox.js 61+ | at.js est recommandé car mbox.js n’est plus en cours de développement. |
+| Adobe Audience Manager (facultatif) | [!UICONTROL SDK web Experience Platform]* ou dil.js 5.0+ |  |
+| Adobe Analytics (facultatif) | [!UICONTROL SDK web Experience Platform]* ou AppMeasurement.js 1.6.4+ | Le tracking d’Adobe Analytics doit utiliser la collecte de données régionale (RDC). |
+| Service Experience Cloud ID | [!UICONTROL SDK web Experience Platform]* ou VisitorAPI.js 2.0+ | (Recommandé) Utilisez Experience Platform Launch pour déployer le service d’identités afin de vous assurer que l’identité est définie avant tout appel d’application |
 | SDK mobile Experience Platform (facultatif) | 4.11 ou plus récent pour iOS et Android™ |  |
 | SDK web Experience Platform | 1.0, la version actuelle du SDK Experience Platform comprend [des cas d’utilisation qui ne sont pas encore pris en charge pour les applications Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -69,7 +69,7 @@ Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les appro
 1. [Implémentez Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=fr) pour vos applications web ou mobiles
 1. [Implémentez Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) (facultatif)
 1. [Implémentez Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=fr) (facultatif)
-1. [[!UICONTROL Implémentez Experience Platform et le profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=fr)
+1. [Implémentez Experience Platform et le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=fr)
 1. Implémentez [le service d’identités d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) ou [le SDK web d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Le modèle de personnalisation Web/Mobile peut être mis en oeuvre par les appro
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
 * [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Documentation sur le service d’identités d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
+* [Documentation sur le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 * [Documentation pour Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr)
 
 ## Articles de blog connexes
