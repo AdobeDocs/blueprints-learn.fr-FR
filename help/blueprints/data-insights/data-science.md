@@ -8,19 +8,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
 # Plan directeur sur la data science personnalisée pour l’enrichissement de profil
 
-Le plan directeur des sciences des données personnalisées pour l&#39;Enrichissement des Profils illustre comment les données du Adobe Experience Platform peuvent être utilisées dans [!UICONTROL Data Science Workspace] pour former, déployer et marquer des modèles afin de fournir des informations d&#39;apprentissage automatique. Ces modèles peuvent directement être générés dans un jeu de données activé pour [!UICONTROL Profil client en temps réel] afin d’enrichir davantage les profils client. Ces informations peuvent ensuite être utilisées pour la personnalisation. Parmi les exemples d’informations d’apprentissage automatique, citons le score de valeur sur la durée de vie, l’affinité des produits et des catégories, la propension à la conversion ou la propension à l’activité.
+Le Plan directeur sur la data science personnalisée pour l’enrichissement de profil illustre comment les données d’Adobe Experience Platform peuvent être utilisées dans [!UICONTROL Data Science Workspace] pour former, déployer et évaluer des modèles afin de fournir des informations de machine learning. Ces modèles peuvent directement être générés dans un jeu de données activé pour le [!UICONTROL profil client en temps réel] afin d’enrichir davantage les profils client. Ces informations peuvent ensuite être utilisées pour la personnalisation. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
 ## Cas d’utilisation
 
 * Extraire des informations et découvrir des modèles à partir des données client dans Experience Platform. Former et évaluer des modèles à partir de ces données.
-* Enrichissez le [!UICONTROL Profil client en temps réel] avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et des parcours optimisés.
-* Former et évaluer des modèles pour déterminer les informations sur les clients telles que la valeur durée de vie client, la propension à se convertir ou à se désabonner, les affinités de produit et de contenu et les scores d’engagement.
+* Enrichir le [!UICONTROL profil client en temps réel] avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et une optimisation des parcours.
+* Former et évaluer des modèles pour déterminer les informations sur les clients telles que la valeur durée de vie client, la propension à convertir ou à se désabonner, les affinités de produit et de contenu et les scores d’engagement.
 
 ## Architecture
 
@@ -28,21 +28,21 @@ Le plan directeur des sciences des données personnalisées pour l&#39;Enrichiss
 
 ## Étapes d’implémentation
 
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Ingérez les données dans Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Créez un bloc-notes DSW.
 1. Sélectionnez une langue. Python et PySpark sont pris en charge.
 1. Créez le modèle dans le modèle dans le bloc-notes.
 1. Formez le modèle.
 1. Évaluez le modèle pour générer des prédictions avec les données cibles.
-1. Activez le jeu de données des résultats du modèle pour le profil si vous poussez les résultats du modèle vers le [!UICONTROL Profil client en temps réel].
+1. Activez le jeu de données des résultats du modèle pour le profil, si vous transférez les résultats du modèle vers le [!UICONTROL profil client en temps réel].
 
 ## Documentation connexe
 
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentation sur Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=fr)
-* [Tutoriels sur Data Science Workspace](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=fr)
+* Documentation sur [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=fr)
+* Tutoriels sur [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=fr)
 
 ## Articles de blog connexes
 
