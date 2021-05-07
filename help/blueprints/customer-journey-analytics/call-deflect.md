@@ -1,5 +1,5 @@
 ---
-title: Modèle d'Analyse des appels par défaut
+title: Plan directeur d’analyse de déviation d’appel
 description: Analysez le comportement d’un client avant qu’il ne contacte le centre d’appel.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -7,12 +7,12 @@ exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modèle d&#39;Analyse des Parcours par défaut d&#39;appel
+# Plan directeur d’analyse du parcours de déviation des appels
 
 Analysez le comportement d’un client sur son ordinateur et son mobile avant qu’il ne contacte le centre d’appel. Identifiez les opportunités pour améliorer le parcours client en comprenant les actions que vos clients tentent de réaliser, les contenus qu’ils consultent et les termes qu’ils recherchent avant de contacter le service clientèle. Déterminez le contenu et les outils en libre-service qui peuvent être améliorés pour aider vos clients à résoudre les problèmes sans devoir appeler.
 
@@ -36,8 +36,8 @@ Analysez le comportement d’un client sur son ordinateur et son mobile avant qu
 
 ## Étapes d’implémentation
 
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) des schémas pour que les données soient assimilées.
-1. [Créez ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) des jeux de données pour que les données soient assimilées.
+1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Ingérez les données dans Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Les données doivent être ingérées dans Platform avant d’être ingérées dans Customer Journey Analytics.
