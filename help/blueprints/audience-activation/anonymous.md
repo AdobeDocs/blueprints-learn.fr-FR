@@ -1,6 +1,6 @@
 ---
-title: Audience Activation anonyme Plan directeur
-description: Audience Activation anonyme
+title: Plan directeur pour l’activation d’audience anonyme
+description: Activation d’audience anonyme
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
@@ -9,11 +9,11 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Plan d&#39;Audience Activation anonyme
+# Plan directeur pour l’activation d’audience anonyme
 
 Vous pouvez cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales. Cette capacité permet des expériences client en temps réel personnalisées et cohérentes sur tous les appareils.
 
@@ -28,7 +28,7 @@ Vous pouvez cibler des audiences sur le web et les canaux publicitaires en fonct
 
 ## Architecture
 
-<img src="assets/anonymous_activation.svg" alt="Architecture de référence du plan directeur des Audiences Activation anonymes" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Architecture de référence pour le plan directeur d’activation d’audience anonyme" style="border:1px solid #4a4a4a" />
 
 ## Étapes d’implémentation
 
@@ -43,6 +43,6 @@ Vous pouvez cibler des audiences sur le web et les canaux publicitaires en fonct
 ## Documentation connexe
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=fr)
-* [[!UICONTROL Audiences Experience Cloud]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
+* [[!UICONTROL Audiences] Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
 * [Intégration d’Audience Manager à Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
-* [Partage de segments Adobe Analytics par Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
+* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
