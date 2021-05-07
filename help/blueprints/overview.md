@@ -6,24 +6,24 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 37%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Plans directeurs d’expérience digitale
 
-Les plans directeurs d’expérience numérique sont des implémentations répétables qui vous permettent de répondre à des stratégies et de résoudre rapidement des problèmes commerciaux bien établis. Chaque plan fournit une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente.
+Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et rapidement résoudre les problèmes commerciaux établis. Chaque plan directeur offre une série de ressources qui expliquent le problème commercial, les architectures, les étapes de mise en œuvre, les considérations techniques et les liens vers la documentation pertinente.
 
 ## Nouveautés
 
-* **[Modèle d&#39;Activation des Audiences et des Profils aux destinations d&#39;entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d&#39;assistance. &#x200B;*
+   *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
 * **[Plan directeur du centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fournit le contexte pour l’aide et les ventes assistées par un agent.*
-* **[Modèle d&#39;Analyse des données et de renseignement](/help/blueprints/data-insights/analysis.md)**
+* **[Plan directeur pour l’analyse des données et la Data Intelligence](/help/blueprints/data-insights/analysis.md)**
 
    *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
 
@@ -32,19 +32,19 @@ Les plans directeurs d’expérience numérique sont des implémentations répé
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="image miniature du schéma directeur des messages déclenchés et des Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Messagerie déclenchée et Experience Platform</strong></a></div>
-    <p><em>Déclenchez des messages et des expériences en utilisant [ ! UICONTROL Platform] comme hub central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=fr"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
+    <p><em>Déclenchez des messages et des expériences en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="image miniature du plan directeur des Audiences Activation en ligne/hors ligne" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en ligne / hors ligne</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr"><img alt="Image miniature du plan directeur d’activation d’audience en ligne / hors ligne" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Image miniature du plan directeur de consolidation des données comportementales numériques" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=fr"><img alt="Image miniature du plan directeur de consolidation des données de comportement digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidation de données de comportement digital</strong></a></div>
-    <p><em>disposer d’une vue consolidée unique du comportement des clients sur différents canaux ;</em></p>
+    <p><em>Disposez d’une vue consolidée unique du comportement des clients sur différents canaux.</em></p>
   </td>
 </tr>
 </table>
