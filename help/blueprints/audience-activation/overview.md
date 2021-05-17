@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 | **[Audience et Activation Profil avec les applications Experience Cloud](platform-and-applications.md)** | </ul><li>Gérer les profils et les audiences dans l’Experience Platform et les partager avec les applications Experience Cloud</li><li>Créez et partagez des segments de clients riches et des informations sur les Experience Platform et partagez-les avec des applications Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plate-forme de données client en temps réel]</li><li>Activation d’Experience Platform</li><li>Applications Experience Cloud</li></ul> |
 | **[Centre d’activité client](customer-activity.md)** | <ul><li>Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le client, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## Architecture du Profil client en temps réel
+
+L’illustration ci-dessous présente les principaux composants du Profil client en temps réel de l’Experience Platform.
+
+Les premières sources de données sont assimilées à des Experience Platform. Si la source de données est configurée pour le traitement du profil, elle sera intégrée au Profil client en temps réel. Un seul fragment ou document de profil est créé pour chaque source de données et chaque enregistrement d’identifiant Principal configuré pour chaque source de données. En outre, lorsque des données sont assimilées au profil, elles sont également traitées par le service d&#39;identité. Tout enregistrement provenant des sources de données dont plusieurs identités sont marquées dans le schéma et dont les valeurs correspondantes sont renseignées dans l&#39;enregistrement sera traité comme une relation d&#39;identité au sein du service d&#39;identité.
+
+Notez que les enregistrements qui n&#39;ont qu&#39;une seule identité ne sont pas traités par le service d&#39;identité, car ces enregistrements n&#39;ont pas de liens d&#39;identité pour compléter le graphique. Notez également que le service d&#39;identité ne fait pas la distinction entre les identités Principales et les identités secondaires. Il s&#39;agit simplement de traiter les relations d&#39;identité entre les identités.
+
+La fusion de fragments de profil se produit lorsque le graphique d&#39;identité fournit les relations entre les différents fragments de profil source qui ont été liés. La stratégie de fusion détermine quels fragments source et quel graphique d’identité seront utilisés lors de la fusion des fragments. Chaque fois que le profil accède à la fusion des fragments du profil se produit pour assurer la vue combinée la plus à jour du profil. Les règles de gouvernance et de stratégie garantissent que seuls les segments et attributs autorisés peuvent être activés pour les destinations spécifiées.
+
+<img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le Profil client en temps réel" style="border:1px solid #4a4a4a" />
 
 
 ## Gardiens pour les plans d&#39;Activation des Audiences et des Profils
