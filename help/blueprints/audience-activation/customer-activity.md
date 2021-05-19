@@ -4,11 +4,11 @@ description: Recherches de [!UICONTROL profil client en temps réel] pour fourni
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 ## Étapes d’implémentation
 
-1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Configurez les identités et les espaces de noms d’identité corrects sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Ingérez les données dans Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. [Configurez les stratégies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) de fusion.
-1. Utilisez l&#39;API [Entités pour rechercher un attribut de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), depuis l&#39;entité d&#39;enregistrement ou l&#39;entité de événement d&#39;expérience.
+1. [Créez des schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=fr) pour les données à ingérer.
+1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
+1. [Configurez les identités et les espaces de noms d’identité corrects](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr) sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.
+1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
+1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
+1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr).
+1. Utilisez l’[API Entities pour rechercher un attribut de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=fr) à partir de l’entité d’enregistrement ou de l’entité de l’événement d’expérience.
 
 ## Documentation connexe
 
 * [Description et activation d’Adobe Experience Platform](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentation sur [[!UICONTROL le profil client en temps réel]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
-* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [API de recherche de profil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
