@@ -5,11 +5,11 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,14 +39,14 @@ Certains garde-fous s’appliquent au délai d’expiration de la requête et po
 
 ## Garde-fous
 
-Consultez la documentation du produit Requête Service pour plus d’informations sur les meilleures pratiques et les garde-fous.
-[Guide requête Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
+Reportez-vous à la documentation du produit Query Service pour plus d’informations sur les bonnes pratiques et les garde-fous.
+[Conseils d’utilisation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=fr#best-practices)
 
 ## Étapes d’implémentation
 
-1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Ingérez les données dans Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [Créez des schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=fr) pour les données à ingérer.
+1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
+1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
 1. Donnez la confirmation que les données sont disponibles dans [!UICONTROL Query Service] et [!UICONTROL Data Science Workspace] pour accès brut et exécution des requêtes.
 1. Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service] pour la visualisation, les requêtes de données et l’exploration.
 
