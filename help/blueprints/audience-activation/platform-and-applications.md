@@ -1,25 +1,25 @@
 ---
-title: Audience et Activation Profil avec le plan d'application Experience Cloud
-description: Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec des applications Experience Cloud.
+title: Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud
+description: Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 39%
+ht-degree: 92%
 
 ---
 
-# Audience et Activation Profil avec le plan d&#39;application Experience Cloud
+# Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud
 
-Gérez les profils et les audiences dans l’Experience Platform et partagez-les avec les applications Experience Cloud. Créez et partagez de riches segments de clients et connaissances dans l’Experience Platform et partagez-les avec des applications Experience Cloud.
+Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud. Créez et diffusez des segments et des informations riches sur les clients dans Experience Platform et partagez-les avec les applications Experience Cloud.
 
-L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitement avec le [Plan d&#39;Audience Activation en ligne/hors ligne](online-offline.md).
+L’activation avec les applications Experience Cloud s’aligne étroitement sur le [plan directeur d’Audience Activation en ligne / hors ligne](online-offline.md).
 
 ## Cas d’utilisation
 
-* Personnalisez et cible les canaux d’interaction client générés par l’Experience Cloud.
+* Personnalisez et ciblez sur différents canaux d’interaction client optimisés par Experience Cloud.
 * Partagez les données d’audience et de profil entre les applications Experience Platform et Experience Cloud.
 
 ## Applications
@@ -35,16 +35,16 @@ L&#39;Activation avec les applications Experience Cloud s&#39;aligne étroitemen
 
 ## Architecture
 
-[Voir la section Architecture des Experience Platform et des applications pour obtenir des diagrammes d&#39;architecture supplémentaires relatifs aux intégrations Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+[Voir la section Architecture des Experience Platform et des applications pour obtenir des diagrammes d&#39;architecture supplémentaires relatifs aux intégrations Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=fr)
 
-### Audience et Activation Profil avec les applications Experience Cloud
+### Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Architecture de référence pour l'Activation d'Audience et de Profil avec les applications Experience Cloud" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Architecture de référence pour l’activation d’audience et de profil avec les applications Experience Cloud" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Garde-fous
 
-Reportez-vous aux [garde-fous de la page Aperçu des Activations d&#39;Audience et de Profil](overview.md)
+Référez-vous aux [garde-fous décrits sur la page de présentation d’Audience et Profil Activation](overview.md)
 
 ## Documentation connexe
 
