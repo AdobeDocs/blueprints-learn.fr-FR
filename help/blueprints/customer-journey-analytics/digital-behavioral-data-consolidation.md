@@ -4,11 +4,11 @@ description: Analysez et extrayez des informations sur les interactions client t
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,9 @@ Ayez une vue consolidée unique du comportement des clients sur différents cana
 
 ## Étapes d’implémentation
 
-1. [Créez des schémas pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Créez des jeux de données pour les données à ingérer.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Ingérez les données dans Experience Platform.
-](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [Créez des schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=fr) pour les données à ingérer.
+1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
+1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
 Les données doivent être ingérées dans Platform avant d’être traitées dans Customer Journey Analytics.
 1. Réalisez une analyse combinée des jeux de données d’événements cross-canal pour assurer qu’ils ont un identifiant d’espace de noms commun ou qu’ils sont recréés via la capacité d’assemblage de Customer Journey Analytics basée sur le champ. 
 
