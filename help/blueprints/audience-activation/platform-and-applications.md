@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud. Créez et diffusez des segments et des informations riches sur les clients dans Experience Platform et partagez-les avec les applications Experience Cloud.
 
-L’activation avec les applications Experience Cloud s’aligne étroitement sur le [plan directeur d’Audience Activation en ligne / hors ligne](online-offline.md).
+L’activation avec les applications Experience Cloud s’aligne étroitement sur le [plan directeur d’activation d’audience en ligne / hors ligne](online-offline.md).
 
 ## Cas d’utilisation
 
@@ -35,9 +35,9 @@ L’activation avec les applications Experience Cloud s’aligne étroitement su
 
 ## Architecture
 
-[Voir la section Architecture des Experience Platform et des applications pour obtenir des diagrammes d&#39;architecture supplémentaires relatifs aux intégrations Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=fr)
+[Consulter la section Architecture d’Experience Platform et de ses applications pour obtenir des schémas d’architecture supplémentaires relatifs aux intégrations d’Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=fr)
 
-### Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud
+### Activation de profil et d’audience avec les applications Experience Cloud
 
 <img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Architecture de référence pour l’activation d’audience et de profil avec les applications Experience Cloud" style="border:1px solid #4a4a4a" />
 <br>
