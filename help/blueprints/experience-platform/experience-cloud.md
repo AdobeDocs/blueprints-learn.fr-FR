@@ -6,19 +6,19 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: 42f67219f6ced3f563c8416e2e73d217e6998193
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # Schéma d’architecture d’Adobe Experience Cloud
 
-Le diagramme d’architecture ci-dessous illustre comment les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent dans une architecture d’expérience client d’entreprise.
+Le schéma d’architecture ci-dessous illustre la façon dont les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent dans une architecture d’expérience client d’entreprise.
 
 <img src="assets/aec_experience_architecture.svg" alt="Adobe Experience Cloud" style="border:1px solid #4a4a4a" />
 <br>
 <br>
-Le diagramme d'architecture ci-dessous illustre comment Adobe Experience Platform se connecte et s'intègre aux applications Adobe Experience Cloud.
+Le schéma d’architecture ci-dessous illustre la façon dont Adobe Experience Platform se connecte et s’intègre aux applications Adobe Experience Cloud.
 
 <img src="assets/experience_cloud.svg" alt="Adobe Experience Cloud" style="border:1px solid #4a4a4a" />
