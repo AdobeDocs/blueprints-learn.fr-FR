@@ -6,9 +6,9 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez cibler des audiences sur le web et les canaux publicitaires en fonct
 
 <!-- These steps should link to help. -->
 
-1. [Implémentation d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)
+1. [Implémentation d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr#implementation-integration-guides)
 1. Collectez les données vers Audience Manager.
 1. Configurez les signaux et les traits à utiliser dans les définitions de segments.
 1. Créez des segments dans Audience Manager.
