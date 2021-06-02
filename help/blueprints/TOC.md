@@ -4,21 +4,20 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: ht
-source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 98%
 
 ---
 
 # Plans directeurs d’expérience digitale {#architecture}
 
 + [Présentation](/help/blueprints/overview.md)
-+ Schémas de présentation de l’architecture {#architecture-overview}
-   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
-   + [Experience Platform et applications](/help/blueprints/experience-platform/platform-applications.md)
-   + [Flux de données d’Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
++ Aperçu de l’architecture{#architecture-overview}
+   + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
+   + [Adobe Experience Platform et applications](/help/blueprints/experience-platform/platform-applications.md)
+   + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activation d’audience et de profil {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
