@@ -4,8 +4,8 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ ht-degree: 100%
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
-+ Orchestration de message multicanal {#multi-channel-message-orchestration}
-   + [Présentation](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [Messagerie par lots et Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [Messagerie déclenchée et Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ Orchestration de message multicanal {#customer-journeys}
+   + [Présentation](/help/blueprints/customer-journeys/overview.md)
+   + [Messagerie par lots et Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Messagerie déclenchée et Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
