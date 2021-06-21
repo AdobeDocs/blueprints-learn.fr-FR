@@ -3,7 +3,7 @@ title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 94%
@@ -31,8 +31,8 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
     <p><em>Déclenchez des messages et des expériences en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
