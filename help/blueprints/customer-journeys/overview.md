@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 54%
+source-wordcount: '190'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,5 @@ Les Parcours client permettent aux marques d’interagir de manière proactive e
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **Messagerie transactionnelle et par lots** | <ul><li>Création et exécution de campagnes sortantes planifiées et par lots</li><li>Diffusion de messages transactionnels</li></ul> | <ul><li>Adobe Campaign Classic et Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Messagerie par lots et Adobe Experience Platform](batch-messaging.md)** | <ul><li>Exécution des campagnes de messagerie planifiées et par lots à l’aide d’Adobe Experience Platform en tant que hub central des profils clients et de la segmentation</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Fournisseur de messagerie tiers pris en charge</li></ul> |
-| **[Messages déclenchés et Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, avec Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul> | <ul><li>Adobe Experience Platform</li><li>Adobe Journey Orchestration</li><li>Adobe Campaign ou autre application tierce pour la diffusion de messages</li></ul> |
+| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Exécution des campagnes de messagerie planifiées et par lots à l’aide d’Adobe Experience Platform en tant que hub central des profils clients et de la segmentation</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Fournisseur de messagerie tiers pris en charge</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, avec Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
