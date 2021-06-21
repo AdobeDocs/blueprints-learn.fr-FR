@@ -1,23 +1,20 @@
 ---
-title: 'Orchestration de messages multicanaux '
+title: 'Parcours clients '
 description: Procurez des expériences client individuelles et au moment opportun d’un type d’écran à l’autre.
 solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 54%
 
 ---
 
-# Orchestration de messages multicanaux
+# Parcours clients
 
-L’orchestration de messages multicanaux montre comment les entreprises peuvent interagir et communiquer de manière proactive avec leurs clients par le biais de canaux tels que les emails, les SMS et les alertes mobiles.
-
-Les outils d’orchestration peuvent s’intégrer à d’autres canaux d’interaction (tels que les canaux entrants) pour la personnalisation web et mobile en partageant l’état d’audience avec les autres moteurs de décision des canaux. Divers facteurs permettent de déterminer les applications et les options de déploiement à utiliser, comme par exemple si l’interaction client est déclenchée par une action ou planifiée, les données nécessaires au ciblage et à la personnalisation, etc. Ces facteurs donnent lieu à divers scénarios et options de déploiement possibles lors de la création de la fonctionnalité d’orchestration des messages.
-
+Les Parcours client permettent aux marques d’interagir de manière proactive et de communiquer avec leurs clients par le biais de canaux tels que les emails, les SMS et les alertes mobiles. Les outils d’orchestration peuvent également être intégrés à d’autres canaux d’interaction, tels que les canaux entrants pour la personnalisation web/mobile, en partageant l’état de l’audience avec les autres moteurs de décision spécifiques aux canaux. Un certain nombre de facteurs expliquent les applications et les options de déploiement à utiliser pour les Parcours client, mais ils peuvent être résumés en deux approches différentes :  réagir à un client lorsqu’il interagit (déclenché) OU réagir à un groupe de clients lorsqu’il interagit (planifié).
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
