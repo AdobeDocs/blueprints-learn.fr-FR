@@ -5,9 +5,8 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: ht
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: ht
+source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ La personnalisation web et mobile permet d’utiliser la segmentation d’audien
 
 ### Schéma de garde-fous de personnalisation en ligne / hors ligne
 
-<img src="assets/personalization_guardrails.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="border:1px solid #4a4a4a" />
 
 ## Articles de blog connexes
 
