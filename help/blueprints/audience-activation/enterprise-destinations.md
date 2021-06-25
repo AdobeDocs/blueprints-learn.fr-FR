@@ -4,9 +4,8 @@ description: Activation d’audiences et de profils vers des destinations d’en
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-translation-type: ht
 source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -57,4 +56,4 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 * Présentation de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 * [Vidéo de démonstration de [!UICONTROL Real-time Customer Data Platform ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=fr)
-* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr)
+* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
