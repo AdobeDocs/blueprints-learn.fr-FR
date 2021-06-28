@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 
 Le schéma ci-dessous présente les principaux composants du profil client en temps réel d’Experience Platform.
 
+<img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"/>
+
 Les premières sources de données sont ingérées dans Experience Platform. Si la source de données est configurée pour le traitement de profil, elle sera intégrée au profil client en temps réel. Un seul fragment ou document de profil est créé pour chaque source de données et chaque enregistrement d’identifiant principal configuré pour chaque source de données. En outre, lorsque des données sont ingérées dans le profil, elles sont également traitées par le service d’identité. Tout enregistrement provenant des sources de données dont plusieurs identités sont marquées dans le schéma et dont les valeurs correspondantes sont renseignées dans l’enregistrement sera traité comme une relation d’identité au sein du service d’identité.
 
 Notez que les enregistrements qui n’ont qu’une seule identité ne sont pas traités par le service d’identité, car ces enregistrements n’ont pas de liens d’identité pour compléter le graphique. Notez également que le service d’identité ne fait pas la distinction entre les identités principales et les identités secondaires. Il s’agit simplement de traiter les relations d’identité entre les identités.
 
 La fusion de fragments de profil se produit lorsque le schéma d’identité fournit les relations entre les différents fragments de profil source qui ont été liés. La stratégie de fusion détermine quels fragments source et quel schéma d’identité seront utilisés lors de la fusion des fragments. Lorsque le profil est l’accès, la fusion des fragments de profil se produit pour assurer la vue combinée la plus à jour du profil. Les règles de gouvernance et de stratégie garantissent que seuls les segments et attributs autorisés peuvent être activés vers les destinations spécifiées.
-
-<img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" />
 
 
 ## Garde-fous pour les plans directeurs d’activation d’audience et de profil
