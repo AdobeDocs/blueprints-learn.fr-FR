@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,12 @@ La préparation des données inclut le mapping de données sources vers un sché
 ## Architecture
 
 <img src="assets/data_ingestion.png" alt="Architecture de référence pour le plan directeur de la préparation et de l’ingestion de données" style="border:1px solid #4a4a4a" />
+
+## Barrières de sécurité de l’ingestion des données
+
+Le diagramme ci-dessous illustre les barrières de performance moyennes et la latence pour l’ingestion de données dans Adobe Experience Platform.
+
+<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
 ## Méthodes d’ingestion de données
 
