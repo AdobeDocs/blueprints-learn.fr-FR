@@ -4,10 +4,10 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: d2bd81f4c4c7145508cfea74c74c0d9f62e0a884
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 98%
+source-wordcount: '119'
+ht-degree: 95%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 98%
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [WebSDK Experience Platform](/help/blueprints/data-ingestion/websdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
