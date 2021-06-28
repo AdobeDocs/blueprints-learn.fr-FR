@@ -4,10 +4,10 @@ description: Synchronisez la personnalisation web avec la messagerie électroniq
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 ### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
 
-<img src="assets/web_sdk_flow.svg" alt="Architecture de référence pour l’approche [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] et [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+[Reportez-vous au plan directeur SDK Web et mobile Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Approche d’utilisation d’un SDK spécifique à l’application
 
