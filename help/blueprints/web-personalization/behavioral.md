@@ -4,10 +4,10 @@ description: Réalise une personnalisation en fonction du comportement en ligne 
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 ### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
 
-<img src="assets/web_sdk_flow.svg" alt="Architecture de référence pour l’approche [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] et [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+[Reportez-vous au plan directeur SDK Web et mobile Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Approche d’utilisation d’un SDK spécifique à l’application
 
