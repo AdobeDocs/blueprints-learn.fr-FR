@@ -1,18 +1,18 @@
 ---
-title: Plan directeur de la préparation et de l’ingestion de données
+title: Blueprint de collecte de données SDK Web/Mobile
 description: Ce plan directeur affiche l’architecture et l’ingestion par le biais du SDK Web et mobile Experience Platform.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Collecte de données WebSDK Experience Platform
+# Collecte de données du SDK Web/mobile Experience Platform
 
 Le diagramme d’architecture ci-dessous illustre les chemins d’intégration et la collecte de données à l’aide du WebSDK Experience Platform.
 
@@ -20,4 +20,4 @@ Le diagramme d’architecture ci-dessous illustre les chemins d’intégration e
 
 ## Documentation de référence
 
-[Présentation du SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Présentation du SDK web/mobile Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
