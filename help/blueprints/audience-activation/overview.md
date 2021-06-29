@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ Notez que les enregistrements qui n’ont qu’une seule identité ne sont pas t
 
 La fusion de fragments de profil se produit lorsque le schéma d’identité fournit les relations entre les différents fragments de profil source qui ont été liés. La stratégie de fusion détermine quels fragments source et quel schéma d’identité seront utilisés lors de la fusion des fragments. Lorsque le profil est l’accès, la fusion des fragments de profil se produit pour assurer la vue combinée la plus à jour du profil. Les règles de gouvernance et de stratégie garantissent que seuls les segments et attributs autorisés peuvent être activés vers les destinations spécifiées.
 
+## Présentation de la segmentation et de la destination
+
+L’illustration ci-dessous présente les différentes méthodes de segmentation et les différents modèles d’activation de profil et d’audience.
+
+<img src="assets/segmentation_destination_overview.png" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## Garde-fous pour les plans directeurs d’activation d’audience et de profil
 
