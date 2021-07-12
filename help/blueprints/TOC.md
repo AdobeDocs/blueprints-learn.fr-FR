@@ -3,8 +3,8 @@ user-guide-title: Plans directeurs d’expérience digitale
 breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
-role: Architect, Developer, Business Practitioner
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+role: Architect, Developer, User
+source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 95%
