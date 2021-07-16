@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer - Messagerie déclenchée et plan directeur Adobe Experience Platform
+title: Journey Optimizer - Plan directeur pour Adobe Experience Platform et la diffusion de messages déclenchés
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
@@ -7,13 +7,13 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer
 
-Adobe Journey Optimizer est un système conçu spécifiquement pour permettre aux équipes marketing de réagir en temps réel aux comportements des clients et de les satisfaire là où ils se trouvent. Les fonctionnalités de gestion des données ont été déplacées vers Adobe Experience Platform, ce qui permet aux équipes marketing de se concentrer sur ce qu’elles font le mieux : qui crée un parcours client de classe mondiale et des conversations personnalisées.  Ce plan directeur décrit les fonctionnalités techniques de l’application et présente en détail les différents composants architecturaux qui constituent Adobe Journey Optimizer.
+Adobe Journey Optimizer est un système conçu spécifiquement pour permettre aux équipes marketing de réagir en temps réel aux comportements des clients et de s’adapter à leurs besoins en fonction de leur localisation. Les fonctionnalités de gestion des données ont été déplacées vers Adobe Experience Platform, ce qui permet aux équipes marketing de se concentrer sur ce qu’elles font le mieux : créer un parcours client de haute qualité et des conversations personnalisées.  Ce plan directeur décrit les fonctionnalités techniques de l’application et présente en détail les différents composants architecturaux qui constituent Adobe Journey Optimizer.
 
 ## Cas d’utilisation
 
@@ -32,40 +32,40 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre au
 
 ## Conditions préalables
 
-1. Le client doit être configuré pour un Experience Cloud avec une organisation IMS valide
-1. Mobile Push
+1. Le client doit disposer d’une session Experience Cloud configurée avec une organisation IMS valide
+1. Push mobile
 
-* Un développeur mobile doit être disponible pour créer l’application.
-* SDK Adobe Experience Platform Mobile
+* Le client doit disposer des services d’un développeur mobile pour créer l’application
+* SDK mobile Adobe Experience Platform
 * Adobe Launch
    * Propriété mobile
-      * Extensions :
-         * Extension Adobe Journey Optimizer
+      * Extensions :
+         * extension Adobe Journey Optimizer
          * Adobe Experience Platform Edge Network
          * Identité
          * Mobile Core
          * Profil
    * Configurations d’applications
-   * Datastreams
+   * Flux de données
       * Activé pour Experience Platform
-      * Jeu de données d’événement - utilisé pour la collecte du comportement mobile général
-      * Jeu de données de profil - Jeu de données de profil push AJO (ne peut pas être différent)
+      * Jeu de données d’événement : utilisé pour la collecte du comportement mobile en général
+      * Jeu de données de profil : jeu de données du profil push AJO (ne peut pas être différent)
 
 ## Garde-fous
 
 * Voir le lien pour plus de détails sur les limitations
-* Segments par lot : vous devez vous assurer de comprendre le volume quotidien des utilisateurs qualifiés et de vous assurer que le système de destination peut gérer le débit par parcours et sur tous les parcours.
-* Segments de diffusion en continu : devez vous assurer que l’explosion initiale des qualifications de profil peut être gérée avec le volume de qualification de diffusion en continu quotidien par parcours et sur tous les parcours.
-* Activité Mise à jour de profil : le profil client en temps réel peut être mis à jour en mode natif dans un parcours.  Le traitement de la mise à jour dans la banque de profils peut prendre jusqu’à 1 min.
-* Événements commerciaux : un parcours basé sur les segments lus peut être déclenché pour démarrer en fonction d’un appel externe dans le système JO.
-* Prend uniquement en charge l’Offer decisioning en mode natif dans les messages. Prise en charge future par l’action native
-* Canaux pris en charge :
-   * Email
+* Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
+* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
+* Activité de mise à jour des profils : le profil client en temps réel peut être mis à jour en mode natif dans un parcours.  Le traitement de la mise à jour dans la banque de profils peut prendre jusqu’à 1 min.
+* Événements commerciaux : un parcours basé sur les segments lus peut être déclenché pour démarrer en fonction d’un appel externe dans le système JO.
+* Prend en charge de façon native uniquement l’Offer decisioning dans les messages. Prise en charge par action native prévue dans le futur
+* Canaux pris en charge :
+   * E-mail
    * Push (FCM/APNS)
-   * Points de terminaison de l’API REST
-* Traite 5 000 événements par seconde avec mise à l’échelle horizontale (la limitation du portefeuille)
+   * Points d’entrée de l’API REST
+* Traite 5 000 événements par seconde avec mise à l’échelle horizontale (la limitation est celle du portefeuille)
 * Les tests A/B sont effectués en utilisant deux diffusions et en déterminant les résultats à l’aide de QS ou CJA.
-* Intégration Litmus : doit disposer d’un compte avec Litmus pour tirer parti de l’intégration
+* Intégration Litmus : doit disposer d’un compte Litmus pour tirer parti de l’intégration
 
 ## Étapes d’implémentation
 
@@ -98,7 +98,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre au
 
 ### Adobe Journey Orchestration
 
-1. Les données de diffusion en continu utilisées pour lancer un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration. Cet ID d’orchestration est ensuite fourni au développeur pour l’utiliser lors de l’ingestion.
+1. Les données de diffusion en continu utilisées pour lancer un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un ID d’orchestration. Cet ID d’orchestration est ensuite fourni au développeur pour l’utiliser lors de l’ingestion.
 1. Configurez des sources de données externes.
 1. Configurez des actions personnalisées.
 
