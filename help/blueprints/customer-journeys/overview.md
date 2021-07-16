@@ -8,13 +8,13 @@ exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Parcours clients
 
-Les Parcours client permettent aux marques d’interagir de manière proactive et de communiquer avec leurs clients par le biais de canaux tels que les emails, les SMS et les alertes mobiles. Les outils d’orchestration peuvent également être intégrés à d’autres canaux d’interaction, tels que les canaux entrants pour la personnalisation web/mobile, en partageant l’état de l’audience avec les autres moteurs de décision spécifiques aux canaux. Un certain nombre de facteurs expliquent les applications et les options de déploiement à utiliser pour les Parcours client, mais ils peuvent être résumés en deux approches différentes :  réagir à un client lorsqu’il interagit (déclenché) OU réagir à un groupe de clients lorsqu’il interagit (planifié).
+Les Parcours client permettent aux marques d’interagir de manière proactive et de communiquer avec leurs clients par le biais de canaux tels que les e-mails, les SMS et les alertes mobiles. Les outils d’orchestration peuvent également s’intégrer à d’autres canaux d’interaction tels que les canaux entrants pour la personnalisation web et mobile en partageant l’état d’audience avec les autres moteurs de décision pour chaque canal en particulier. Un certain nombre de facteurs rentrent en compte lorsqu’il s’agit de déterminer quelles applications et quelles options de déploiement doivent être utilisées pour les Parcours client. Ils peuvent cependant se résumer dans deux approches différentes : réagir à un client lorsqu’il interagit (déclenché) OU réagir à un groupe de clients lorsqu’ils interagissent (planifié).
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
