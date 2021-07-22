@@ -4,10 +4,10 @@ description: Synchronisez la personnalisation web avec la messagerie électroniq
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
+source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,11 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 ## Conditions préalables à la mise en œuvre
 
+Conditions préalables requises pour les identités
+
+* Le partage d’audiences de Adobe Experience Platform vers Adobe Target nécessite l’utilisation d’ECID comme identité.
+* D’autres identités peuvent être utilisées pour partager des audiences Experience Platform vers Adobe Target par Audience Manager, car l’Audience Manager peut résoudre les identifiants alternatifs vers un ECID tant que l’ECID et l’ID alternatif sont collectés vers l’Audience Manager. Notez que Audience Manager et Target résolvent les appartenances à l’audience par le biais de l’identité ECID. Par conséquent, ECID est toujours requis pour le partage d’audience final vers Adobe Target.
+
 | Application / service | Bibliothèque requise | Notes |
 |---|---|---|
 | Adobe Target | [!UICONTROL SDK web Experience Platform]*, at.js 0.9.1+, ou mbox.js 61+ | at.js est recommandé car mbox.js n’est plus en cours de développement. |
@@ -61,6 +66,8 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 | Service Experience Cloud ID | [!UICONTROL SDK web Experience Platform]* ou VisitorAPI.js 2.0+ | (Recommandé) Utilisez Experience Platform Launch pour déployer le service d’identités afin de vous assurer que l’identité est définie avant tout appel d’application |
 | SDK mobile Experience Platform (facultatif) | 4.11 ou plus récent pour iOS et Android™ |  |
 | SDK web Experience Platform | 1.0, la version actuelle du SDK Experience Platform comprend [des cas d’utilisation qui ne sont pas encore pris en charge pour les applications Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+
+
 
 
 ## Étapes d’implémentation
