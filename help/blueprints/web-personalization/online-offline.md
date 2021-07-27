@@ -1,17 +1,17 @@
 ---
-title: Plan directeur de personnalisation web en ligne / hors ligne
+title: Personnalisation web/mobile avec données en ligne et hors ligne
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
+source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 86%
+source-wordcount: '734'
+ht-degree: 84%
 
 ---
 
-# Plan directeur de personnalisation web ou mobile en ligne / hors ligne
+# Personnalisation web/mobile avec données en ligne et hors ligne
 
 Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 
