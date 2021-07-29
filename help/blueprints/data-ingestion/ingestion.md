@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ La préparation des données inclut le mapping de données sources vers un sché
 
 <img src="assets/data_ingestion.png" alt="Architecture de référence pour le plan directeur de la préparation et de l’ingestion de données" style="border:1px solid #4a4a4a" />
 
-## Barrières de sécurité de l’ingestion des données
+## Garde-fous de l’ingestion des données
 
-Le diagramme ci-dessous illustre les barrières de performance moyennes et la latence pour l’ingestion de données dans Adobe Experience Platform.
+Le diagramme ci-dessous illustre les principaux garde-fous de performance et la latence de l’ingestion de données dans Adobe Experience Platform.
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
@@ -36,7 +36,7 @@ Le diagramme ci-dessous illustre les barrières de performance moyennes et la la
 | Sources de diffusion | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#connectors) |
 | API de diffusion | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li><li>7 Go/heure</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr#what-can-you-do-with-streaming-ingestion%3F) |
 | Outillage ETL | Utilisez les outils ETL pour modifier et transformer les données d’entreprise avant ingestion dans Experience Platform.<br><br>Latence :<ul><li>La synchronisation dépend du planning de l’outil ETL externe, puis les garde-fous d’ingestion standard s’appliquent en fonction de la méthode utilisée pour l’ingestion.</li></ul> |
-| Sources de lots | Récupération planifiée à partir des sources<br>Latence : ~ 200 Go/heure<br><br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutoriels vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=fr) |
+| Sources de lots | Récupération planifiée à partir des sources<br>Latence : ~ 200 Go/heure<br><br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#connectors)<br>[Tutoriels vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=fr) |
 | Lot API | Latence :<ul><li>Ingestion par lots dans le Profil en fonction de la taille et des charges de trafic ~ 45 minutes</li><li>Ingestion par lots dans le lac de données en fonction de la taille et des charges de trafic</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=fr#batch) |
 | Connecteurs d’applications Adobe | Ingèrent automatiquement les données qui proviennent des applications Adobe Experience Cloud<ul><li>Adobe Analytics : [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr#connectors) et [Tutoriel vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=fr)</li><li>Audience Manager : [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr#connectors) et [Tutoriel vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=fr)</li></ul> |
 
