@@ -4,10 +4,10 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+source-git-commit: 606b209693213c3eb7875cb9eda67f989489114b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 91%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 100%
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
-   + [Activation d’audience en ligne / hors ligne](/help/blueprints/audience-activation/online-offline.md)
-   + [Activation vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Activation avec des données en ligne et hors ligne](/help/blueprints/audience-activation/online-offline.md)
+   + [Destinations de diffusion en continu de fichiers et d’entreprises](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
