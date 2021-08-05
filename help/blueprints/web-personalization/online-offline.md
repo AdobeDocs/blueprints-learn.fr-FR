@@ -1,17 +1,17 @@
 ---
-title: Personnalisation web/mobile avec données en ligne et hors ligne
+title: Personnalisation web/mobile à l’aide de données en ligne et hors ligne
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Personnalisation web/mobile avec données en ligne et hors ligne
+# Personnalisation web/mobile à l’aide de données en ligne et hors ligne
 
 Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 
@@ -45,7 +45,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 ### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
 
-[Reportez-vous au plan directeur SDK Web et mobile Experience Platform](../data-ingestion/websdk.md)
+[Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Approche d’utilisation d’un SDK spécifique à l’application
 
@@ -55,8 +55,8 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 Conditions préalables requises pour les identités
 
-* Le partage d’audiences de Adobe Experience Platform vers Adobe Target nécessite l’utilisation d’ECID comme identité.
-* D’autres identités peuvent être utilisées pour partager des audiences Experience Platform vers Adobe Target par Audience Manager, car l’Audience Manager peut résoudre les identifiants alternatifs vers un ECID tant que l’ECID et l’ID alternatif sont collectés vers l’Audience Manager. Notez que Audience Manager et Target résolvent les appartenances à l’audience par le biais de l’identité ECID. Par conséquent, ECID est toujours requis pour le partage d’audience final vers Adobe Target.
+* Le partage d’audiences à partir d’Adobe Experience Platform vers Adobe Target nécessite l’utilisation de l’ECID en tant qu’identité.
+* D’autres identités peuvent être utilisées pour partager des audiences Experience Platform vers Adobe Target par l’intermédiaire d’Audience Manager, car Audience Manager peut résoudre les identifiants alternatifs en ECID du moment que l’ECID et l’ID alternatif sont collectés vers Audience Manager. Notez qu’Audience Manager et Target résolvent les abonnements aux audiences par le biais de l’identité ECID. Par conséquent, l’ECID est toujours requis pour le partage d’audience final vers Adobe Target.
 
 | Application / service | Bibliothèque requise | Notes |
 |---|---|---|
@@ -90,7 +90,7 @@ Conditions préalables requises pour les identités
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
-* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
 * [Documentation sur le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 * [Documentation pour Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr)
 
