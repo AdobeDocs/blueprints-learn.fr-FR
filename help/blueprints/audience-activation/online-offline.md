@@ -1,23 +1,23 @@
 ---
-title: Plan directeur de l’activation d’audience en ligne / hors ligne
+title: Activation avec le plan directeur de données en ligne et hors ligne
 description: Activation d’audience en ligne / hors ligne
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# Plan directeur de l’activation d’audience en ligne / hors ligne
+# Activation avec le plan directeur de données en ligne et hors ligne
 
 Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.
 
 Activez des audiences vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires
 
-Le plan directeur d’activation d’audience en ligne / hors ligne s’aligne étroitement sur le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md). Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
+Le plan directeur Activation avec des données en ligne et hors ligne s’aligne étroitement avec [Audience et Activation de profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md). Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
@@ -32,7 +32,7 @@ Le plan directeur d’activation d’audience en ligne / hors ligne s’aligne �
 
 ## Architecture
 
-### Activation d’audience en ligne / hors ligne avec destinations
+### Activation avec des données en ligne et hors ligne avec des destinations
 
 <img src="assets/online_offline_activation.svg" alt="Architecture de référence pour le plan directeur d’activation d’audience en ligne / hors ligne" style="border:1px solid #4a4a4a" />
 <br>
