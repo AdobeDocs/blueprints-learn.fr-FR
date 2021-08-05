@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
    + [Analyse de parcours cross-canal](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Déviation d’appel](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Parcours clients{#customer-journeys}
++ Parcours clients {#customer-journeys}
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
    + [Messagerie par lots et Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [WebSDK Experience Platform](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK web Experience Platform](/help/blueprints/data-ingestion/websdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
@@ -45,5 +45,5 @@ ht-degree: 93%
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Peronsalisation avec les données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
+   + [Personnalisation à l’aide de données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
 
