@@ -1,17 +1,17 @@
 ---
-title: Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise
+title: Audience et activation de profil vers le plan directeur des destinations de diffusion en continu de fichiers et d’entreprise
 description: Activation d’audiences et de profils vers des destinations d’entreprise
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
-# Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise
+# Audience et activation de profil vers le plan directeur des destinations de diffusion en continu de fichiers et d’entreprise
 
 Partagez les modifications et les événements de profil et d’audience en flux continu ou par lot de [!UICONTROL Real-time Customer Data Platform] vers les entrepôts de données et les applications d’entreprise. Ces événements de profil et d’audience peuvent être utilisés pour lancer une action de vente ou d’assistance client, telle que le suivi d’un processus de demande non finalisé ou d’enregistrement à un webinaire, ou pour mettre à jour les applications d’entreprise avec les derniers attributs du client et les dernières informations de [!UICONTROL Real-time Customer Data Platform].
 
