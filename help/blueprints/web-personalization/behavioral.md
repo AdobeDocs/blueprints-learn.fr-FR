@@ -1,13 +1,14 @@
 ---
 title: Plan directeur pour la personnalisation comportementale web
 description: Réalise une personnalisation en fonction du comportement en ligne et des données d’audience.
+landing-page-description: Découvrez comment personnaliser en fonction du comportement en ligne et des données d’audience.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +85,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 * [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
 * [Intégration d’Audience Manager à Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
-* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
+* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Articles de blog connexes
