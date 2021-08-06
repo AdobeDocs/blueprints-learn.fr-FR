@@ -1,13 +1,14 @@
 ---
 title: Personnalisation web/mobile à l’aide de données en ligne et hors ligne
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
+landing-page-description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 91%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
