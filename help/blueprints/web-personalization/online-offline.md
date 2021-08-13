@@ -6,9 +6,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 Conditions préalables requises pour les identités
 
 * Le partage d’audiences à partir d’Adobe Experience Platform vers Adobe Target nécessite l’utilisation de l’ECID en tant qu’identité.
-* D’autres identités peuvent être utilisées pour partager des audiences Experience Platform vers Adobe Target par Audience Manager, car l’Audience Manager peut résoudre les identifiants alternatifs vers un ECID tant que l’ECID et l’ID alternatif sont collectés vers l’Audience Manager et utilisent le même espace de noms d’identité dans l’Audience Manager et l’Experience Platform. Notez qu’Audience Manager et Target résolvent les abonnements aux audiences par le biais de l’identité ECID. Par conséquent, l’ECID est toujours requis pour le partage d’audience final vers Adobe Target.
+* Des identités alternatives peuvent être utilisées pour partager des audiences Experience Platform vers Adobe Target par l’intermédiaire d’Audience Manager, car Audience Manager peut résoudre les identifiants alternatifs en ECID du moment que l’ECID et l’ID alternatif sont collectés vers Audience Manager, et utilisent le même espace de noms d’identité à la fois dans Audience Manager et Experience Platform. Notez qu’Audience Manager et Target résolvent les abonnements aux audiences par le biais de l’identité ECID. Par conséquent, l’ECID est toujours requis pour le partage d’audience final vers Adobe Target.
 
 | Application / service | Bibliothèque requise | Notes |
 |---|---|---|
@@ -91,7 +91,7 @@ Conditions préalables requises pour les identités
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
-* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
 * [Documentation sur le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 * [Documentation pour Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr)
 
