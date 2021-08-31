@@ -4,10 +4,10 @@ description: Analysez et extrayez des informations sur les interactions client t
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '619'
+ht-degree: 91%
 
 ---
 
@@ -39,9 +39,9 @@ Ayez une vue consolidée unique du comportement des clients sur différents cana
 
 1. [Créez des schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
-1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
-Les données doivent être ingérées dans Platform avant d’être traitées dans Customer Journey Analytics.
-1. Réalisez une analyse combinée des jeux de données d’événements cross-canal pour assurer qu’ils ont un identifiant d’espace de noms commun ou qu’ils sont recréés via la capacité d’assemblage de Customer Journey Analytics basée sur le champ. 
+1. Ingérez les données dans Experience Platform.
+Les données doivent être ingérées dans Platform avant d’être traitées dans Customer Journey Analytics. Pour plus d’informations sur l’ingestion de données et les types de sources de données, consultez la documentation suivante. [](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr) Sources de données, y compris le connecteur de données  [Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr). [Tutoriel sur Data Ingestion](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr)
+1. Réalisez une analyse combinée des jeux de données d’événements cross-canal pour assurer qu’ils ont un identifiant d’espace de noms commun ou qu’ils sont recréés via la capacité d’assemblage de Customer Journey Analytics basée sur le champ. Pour plus d’informations sur le regroupement d’identités en Customer Journey Analytics, consultez la documentation sur les analyses cross-canal . [Combinaison d’identités](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
    >[!NOTE]
    >
