@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: ht
-source-wordcount: '970'
-ht-degree: 100%
+source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -23,8 +23,8 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 |---|---|---|
 | **[Activation d’audience anonyme](anonymous.md)** | <ul><li>Ciblez des audiences sur le web et les canaux publicitaires pour des données client anonymes et comportementales.</li><li>Intégrez des données d’audience tierces pour une personnalisation accrue.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activation avec des données en ligne et hors ligne](online-offline.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
-| **[Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](enterprise-destinations.md)** | <ul><li>Réplication et mise à jour des modifications de profil et d’audience dans les entrepôts de données des entreprises pour les cas d’utilisation d’activation et de compte rendu des performances. </li></ul><ul><li>Lancez une action de vente ou d’assistance au client en notifiant l’action du client à partir de [!UICONTROL Real-time Customer Data Platform] aux systèmes et applications d’entreprise.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (facultatif)</li></ul> |
-| **[Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
+| **[Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](enterprise-destinations.md)** | <ul><li>Activation et accès au profil client en temps réel sur les systèmes et applications de l’entreprise afin d’offrir de riches expériences client contextuelles. </li></ul><ul><li>Lancez une expérience de vente ou d’assistance à l’aide d’insights et d’événements provenant du profil client en temps réel.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plateforme de données clients en temps réel]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (facultatif)</li></ul> |
+| **[Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plateforme de données clients en temps réel]</li><li>Activation des Experience Platform</li><li>Applications Experience Cloud</li></ul> |
 | **[Centre d’activité client](customer-activity.md)** | <ul><li>Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le client, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architecture du profil client en temps réel
@@ -53,11 +53,11 @@ L’illustration ci-dessous présente les différentes méthodes de segmentation
 ### Activation des attributs et des identités
 
 * [!UICONTROL Real-time Customer Data Platform] peut activer les adhésions aux audiences, ainsi que les modifications d’attribut et d’identité survenant pour les profils membres de segments sélectionnés pour l’activation. Si votre objectif est d’activer des attributs ou des identités, vous devez définir un segment global qui inclut tous les profils auxquels des mises à jour d’attributs et d’identités sont envoyées. À ce stade, vous pouvez sélectionner le segment et les attributs souhaités à activer dans le cadre de la configuration de destination.
-* Notez que les destinations par lots ne prennent pas en charge l’activation d’événements de modification d’attribut uniquement. Les adhésions complètes ou incrémentielles aux audiences peuvent être envoyées avec les attributs sélectionnés pour l’activation, mais vous ne pouvez pas activer les événements de modification d’attribut uniquement par lot.
+* Notez que les destinations par lots ne prennent pas en charge l’activation d’événements de modification d’attribut uniquement. Des abonnements complets ou incrémentiels à l’audience peuvent être envoyés avec les attributs sélectionnés pour l’activation.
 
 ### Activation de segments par lots vers des destinations de diffusion en continu
 
-* L’activation de segment par lots vers des destinations de diffusion en continu est prise en charge. Les traitements de segment par lots placent des messages sur le pipeline une fois le traitement de segment terminé pour l’activation de flux continus.
+* L’activation de segment par lots vers des destinations de diffusion en continu est prise en charge. Les profils pouvant bénéficier de l’appartenance à l’audience à partir de tâches de segmentation par lots, ces réalisations peuvent être activées par l’activation de la diffusion en continu.
 
 ### Activation de segments en flux continu vers des destinations par lots
 
