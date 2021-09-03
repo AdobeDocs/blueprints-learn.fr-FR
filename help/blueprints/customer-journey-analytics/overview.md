@@ -8,7 +8,7 @@ exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Customer Journey Analytics montre comment les entreprises peuvent unifier les do
 Les analyses courantes comprennent :
 
 * Les chemins de conversion vers le haut ou le bas
-* Engagement et conversion des canaux
+* Le niveau d’engagement et de conversion sur les différents canaux
 * Les contenus les plus consultés
-* Principales catégories et produits
+* Les catégories et les produits les plus populaires
 * Quelles campagnes ont généré une conversion et un engagement accrus
 * Analyse de l’utilisation des outils pour optimiser les expériences en libre-service
 
