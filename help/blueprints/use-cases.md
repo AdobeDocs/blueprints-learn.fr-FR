@@ -1,7 +1,7 @@
 ---
 title: Cas d’utilisation des plans directeurs d’expérience numérique
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
-source-git-commit: 474584b43ce94213719804fa660ccb714dd85f2b
+source-git-commit: 988861c95a9f138acd8c6107e6c08b7e05e4e537
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 72%
@@ -22,16 +22,16 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Effectuer un ciblage et une personnalisation d’audience digitale anonyme.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=fr">Activation d’audience anonyme</a></td>
-  <td rowspan="9" border="1" valign="middle">Activation d’audience et de profil</td>
+  <td rowspan="9" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Activation d’audience et de profil</td>
  </tr>
  <tr>
   <td>Créer des audiences à cibler sur les réseaux publicitaires pris en charge.</td>
  </tr>
  <tr>
   <td>Ciblage d’audience pour des audiences connues sur les réseaux sociaux et les destinations publicitaires.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a></td>
  </tr>
  <tr>
@@ -47,7 +47,7 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Personnalisez et ciblez sur différents canaux d’interaction client optimisés par Experience Cloud.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec les applications Experience Cloud</a></td>
  </tr>
  <tr>
@@ -60,17 +60,17 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Analysez les interactions des clients sur ordinateurs et appareils mobiles pour comprendre le comportement des clients et extraire des informations pour optimiser les expériences client numériques.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Croix
   Canal</a></td>
-  <td rowspan="4" border="1" valign="middle">Customer Journey Analytics</td>
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer Journey Analytics</td>
  </tr>
  <tr>
   <td>Analysez les interactions des clients sur tous les canaux, y compris les canaux numériques et hors ligne tels que les interactions d’assistance et les achats en magasin pour mieux comprendre et optimiser le parcours client.</td>
  </tr>
  <tr>
   <td>Analysez le comportement des clients avant qu’ils ne contactent le service clientèle.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Déviation d’appel</a></td>
  </tr>
  <tr>
@@ -78,17 +78,17 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Campagnes de messages électroniques programmés.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Lot
   Messagerie et plateforme</a></td>
-  <td rowspan="6" border="1" valign="middle">Parcours clients</td>
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Parcours clients</td>
  </tr>
  <tr>
   <td>Campagnes d’intégration et de remarketing.</td>
  </tr>
  <tr>
   <td>Messages déclenchés.</td>
-  <td rowspan="4" border="1" valign="middle"><a
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
@@ -105,11 +105,11 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
   <td><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Données
   Préparation et ingestion</a></td>
-  <td rowspan="4" border="1" valign="middle">Collecte et préparation de données</td>
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Collecte et préparation de données</td>
  </tr>
  <tr>
   <td>Collectez des données depuis le web ou le mobile à l’aide d’une seule balise de collecte, réduisant le poids du code sur les navigateurs et les applications clients. Propagez les données collectées vers différents points de terminaison pour une source unique de collecte de données.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
   Collection Enterprise (transfert d’événements)</a></td>
  </tr>
@@ -124,9 +124,9 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Requête interactive et agrégation de données.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Analyse des données et data intelligence</a></td>
-  <td rowspan="6" border="1" valign="middle">Données
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Données
   Analytics, Intelligence et ML</td>
  </tr>
  <tr>
@@ -137,7 +137,7 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Extraire des informations et découvrir des modèles à partir des données client dans Experience Platform. Former et évaluer des modèles à partir de ces données.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Client
   Science des données pour l’enrichissement de profil</a></td>
  </tr>
@@ -149,9 +149,9 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Optimisation de la page de destination.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Personnalisation comportementale</a></td>
-  <td rowspan="6" border="1" valign="middle">Personnalisation web et mobile</td>
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Personnalisation web et mobile</td>
  </tr>
  <tr>
   <td>Ciblage comportemental.</td>
@@ -161,7 +161,7 @@ Quels de ces cas d’utilisation sont importants pour votre entreprise ? Découv
  </tr>
  <tr>
   <td>Optimisation de la page de destination.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Personnalisation en ligne / hors ligne</a></td>
  </tr>
  <tr>
