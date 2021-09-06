@@ -4,16 +4,17 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a13f31837a507711bb27f2fcc0d49c44ffe0a8d7
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 92%
 
 ---
 
 # Plans directeurs d’expérience digitale {#architecture}
 
 + [Présentation](/help/blueprints/overview.md)
++ [Voir tous les cas d’utilisation](/help/blueprints/use-cases.md)
 + Aperçu de l’architecture {#architecture-overview}
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -45,5 +46,5 @@ ht-degree: 100%
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation à l’aide de données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
+   + [Personnalisation avec les données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
 
