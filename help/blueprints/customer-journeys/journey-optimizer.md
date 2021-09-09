@@ -4,10 +4,10 @@ description: Exécutez des expériences et messages déclenchés à l’aide d�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 ## Garde-fous
 
-* Voir le lien pour plus de détails sur les limitations
+* Pour plus d’informations sur les protections pour Journey Optimizer, reportez-vous au lien [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 * Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
 * Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
 * Activité de mise à jour des profils : le profil client en temps réel peut être mis à jour en mode natif dans un parcours.  Le traitement de la mise à jour dans la banque de profils peut prendre jusqu’à 1 min.
