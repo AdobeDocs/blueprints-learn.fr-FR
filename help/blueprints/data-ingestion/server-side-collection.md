@@ -4,16 +4,16 @@ description: Diffusez les données collectées par les SDK d’Adobe Experience 
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 # Plan directeur pour la collecte de données d’entreprise côté serveur
 
-Le plan directeur pour la collecte de données d’entreprise côté serveur montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans Experience Platform Launch.
+Le plan directeur pour la collecte de données d’entreprise côté serveur montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées à partir des SDK ou des données spécifiques en fonction des événements et des règles, comme configuré dans les propriétés de balise (anciennement Launch).
 
 ## Cas d’utilisation
 
@@ -30,8 +30,8 @@ Le plan directeur pour la collecte de données d’entreprise côté serveur mon
 
 ## Documentation connexe
 
-[Documentation sur Adobe Experience Platform Launch côté serveur](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=fr#server-side-info)
-[Vidéos Experience Platform Launch côté serveur](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=fr)
+* [Documentation sur le transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Vidéos de transfert d’événement](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=fr)
 
 ## Articles de blog connexes
 

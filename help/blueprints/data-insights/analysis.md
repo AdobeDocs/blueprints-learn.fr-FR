@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -43,11 +43,11 @@ Reportez-vous à la documentation du produit Query Service pour plus d’informa
 
 ## Étapes d’implémentation
 
-1. [Créez des schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=fr) pour les données à ingérer.
+1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
 1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
-1. Donnez la confirmation que les données sont disponibles dans [!UICONTROL Query Service] et [!UICONTROL Data Science Workspace] pour accès brut et exécution des requêtes.
-1. Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service] pour la visualisation, les requêtes de données et l’exploration.
+1. Donnez la confirmation que les données sont disponibles dans [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) et [[!UICONTROL Data Science Workspace] pour accès brut et exécution des requêtes.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)
+1. [Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service] pour la visualisation, les requêtes de données et l’exploration.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash)
 
 ## Documentation connexe
 
