@@ -7,7 +7,7 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 * Le client doit disposer des services d’un développeur mobile pour créer l’application
 * SDK mobile Adobe Experience Platform
-* Collecte de données
+* sur la collecte de données
    * Propriété des balises mobiles
       * Extensions :
          * extension Adobe Journey Optimizer
@@ -53,7 +53,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 ## Garde-fous
 
-* Pour plus d’informations sur les protections pour Journey Optimizer, reportez-vous au lien [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+* Pour plus d’informations sur les garde-fous pour Journey Optimizer, consultez le lien [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
 * Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
 * Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
 * Activité de mise à jour des profils : le profil client en temps réel peut être mis à jour en mode natif dans un parcours.  Le traitement de la mise à jour dans la banque de profils peut prendre jusqu’à 1 min.

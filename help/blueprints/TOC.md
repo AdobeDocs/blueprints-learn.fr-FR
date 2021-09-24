@@ -6,8 +6,8 @@ product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -44,5 +44,5 @@ ht-degree: 0%
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation avec les données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
+   + [Personnalisation à l’aide de données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
 
