@@ -6,15 +6,15 @@ kt: null
 thumbnail: null
 exl-id: null
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Collecte de données dans le SDK web et mobile d’Experience Platform
 
-Le diagramme d’architecture ci-dessous illustre les chemins d’intégration et la collecte de données à l’aide du SDK Web Experience Platform.
+Le diagramme d’architecture ci-dessous illustre les chemins d’intégration et la collecte de données à l’aide du SDK web d’Experience Platform.
 
 <img src="assets/web_sdk_flow.svg" alt="Architecture de référence pour la mise en œuvre à l’aide du SDK web et mobile Experience Platform" style="border:1px solid #4a4a4a" />
 
