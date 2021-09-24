@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Le Plan directeur sur la data science personnalisée pour l’enrichissement de 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
 1. [Ingérez les données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
-1. [Créez un bloc-notes DSW](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
+1. [Créez un bloc-notes DSW](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=fr).
 1. Sélectionnez une langue. Python et PySpark sont pris en charge.
-1. [Créez le modèle dans le modèle dans le bloc-notes.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en)
-1. [Formez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
-1. [Évaluez le modèle pour générer des prédictions avec les données cibles.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)
-1. [Activez le jeu de données des résultats du modèle pour le profil, si vous transférez les résultats du modèle vers le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en).
+1. [Créez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=fr) dans le modèle dans le bloc-notes.
+1. [Formez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr).
+1. [Évaluez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr) pour générer des prédictions avec les données cibles.
+1. [Activez le jeu de données des résultats du modèle pour le profil, si vous transférez les résultats du modèle vers le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=fr).
 
 ## Documentation connexe
 
