@@ -6,9 +6,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,9 +91,9 @@ Conditions préalables requises pour les identités
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
-* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
 * [Documentation sur le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
-* [Documentation sur les balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+* [Documentation pour les balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
 
 ## Articles de blog connexes
 
