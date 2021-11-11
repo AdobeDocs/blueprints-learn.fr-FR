@@ -4,8 +4,8 @@ description: Exécutez des expériences et messages déclenchés à l’aide d�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 ## Architecture
 
-<img src="assets/journey-optimizer.png" alt="Architecture de référence pour les messages déclenchés et le plan directeur d’Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/journey-optimizer.png" alt="Architecture de référence pour les messages déclenchés et le plan directeur d’Adobe Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Modèles d’intégration
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans une campagne.

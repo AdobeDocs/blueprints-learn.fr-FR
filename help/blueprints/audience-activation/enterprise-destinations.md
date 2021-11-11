@@ -4,8 +4,8 @@ description: Activation d’audiences et de profils vers des destinations d’en
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Architecture
 
-<img src="assets/enterprise_destination_activation.svg" alt="Architecture de référence pour le scénario d’activation en entreprise" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="Architecture de référence pour le scénario d’activation en entreprise" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Garde-fous
@@ -56,4 +56,4 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 * Présentation de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 * [Vidéo de démonstration de [!UICONTROL Real-time Customer Data Platform ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=fr)
-* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr)
+* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

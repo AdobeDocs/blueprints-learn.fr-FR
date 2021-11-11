@@ -4,8 +4,8 @@ description: Diffusez les données collectées par les SDK d’Adobe Experience 
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Le plan directeur pour la collecte de données d’entreprise côté serveur mon
 
 ## Architecture
 
-<img src="assets/enterprise_collection.svg" alt="Architecture de référence pour la collecte de données d’entreprise" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Architecture de référence pour la collecte de données d’entreprise" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Documentation connexe
 

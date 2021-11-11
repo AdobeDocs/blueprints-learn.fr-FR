@@ -4,8 +4,8 @@ description: Ce plan directeur montre comment Data Science Workspace d’Adobe E
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Le Plan directeur sur la data science personnalisée pour l’enrichissement de 
 
 ## Architecture
 
-<img src="assets/data_science.svg" alt="Architecture de référence pour le plan directeur sur la data science personnalisée pour l’enrichissement de profil" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Architecture de référence pour le plan directeur sur la data science personnalisée pour l’enrichissement de profil" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Étapes d’implémentation
 
@@ -34,7 +34,7 @@ Le Plan directeur sur la data science personnalisée pour l’enrichissement de 
 1. Sélectionnez une langue. Python et PySpark sont pris en charge.
 1. [Créez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=fr) dans le modèle dans le bloc-notes.
 1. [Formez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr).
-1. [Évaluez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr) pour générer des prédictions avec les données cibles.
+1. [Évaluez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) pour générer des prédictions avec les données cibles.
 1. [Activez le jeu de données des résultats du modèle pour le profil, si vous transférez les résultats du modèle vers le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=fr).
 
 ## Documentation connexe
