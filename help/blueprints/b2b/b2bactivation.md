@@ -4,7 +4,7 @@ description: Proposez des audiences basées sur les comptes et des expériences 
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Recommandations sur les principales considérations et configurations du plan di
 
 ## Documentation connexe
 
-* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
+* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=fr)
 * [Adobe Experience Platform - Connecteur source Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=fr)
