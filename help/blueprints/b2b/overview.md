@@ -1,18 +1,18 @@
 ---
-title: Activation et marketing B2B
+title: Analyses et activation B2B
 description: Proposez des audiences basées sur les comptes et des expériences client centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-thumbnail: null
-source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
+source-git-commit: 7a26fa761cce509c15678a341e2ed3a8542330d6
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 86%
 
 ---
 
 
-# Activation et marketing B2B
+# Analyses et activation B2B
 
 L’activation d’audience B2B et de profil est la clé du succès dans un monde du marketing axé sur les données. Cependant, de nombreuses marques concentrent toujours leurs efforts sur l’activation axée sur le canal en premier, qui offre souvent une portée et une personnalisation incohérentes.
 
@@ -20,4 +20,5 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
+| **[Analyses B2B](b2bactivation.md)** | <ul><li>Inclure les informations du compte B2B dans l’analyse du parcours client</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[Activation d’audience B2B](b2bactivation.md)** | <ul><li>Ciblez les audiences B2B sur les canaux web, e-mail et de publicité.</li></ul> | <ul><li>Édition B2B Adobe Real-time Customer Data Platform</li></ul> |
