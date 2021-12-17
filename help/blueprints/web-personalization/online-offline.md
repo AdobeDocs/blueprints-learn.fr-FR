@@ -5,10 +5,10 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 67%
 
 ---
 
@@ -21,6 +21,7 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 * Optimisation de la page de destination
 * Ciblage comportemental et hors ligne des profils
 * Personnalisation en fonction des vues précédentes de produit ou de contenu, de l’affinité produit / contenu, des attributs environnementaux, des données d’audience tierces et des données démographiques en plus des informations hors ligne telles que les transactions, les données de fidélité et de gestion de la relation client (CRM), ainsi que des informations modélisées.
+* Partagez et ciblez les audiences définies dans Real-time Customer Data Platform sur les sites web et les applications mobiles à l’aide d’Adobe Target.
 
 ## Applications
 
@@ -28,6 +29,46 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 * Adobe Target
 * Adobe Audience Manager (facultatif) : ajoute des données d’audience tierces, un graphique d’appareil basé sur la coopération, la possibilité de faire apparaître des segments Platform dans Adobe Analytics et la possibilité de faire apparaître des segments Adobe Analytics dans Platform
 * Adobe Analytics (facultatif) : ajoute la possibilité de créer des segments basés sur des données comportementales historiques et une segmentation fine à partir des données d’Adobe Analytics
+
+## Modèles d’intégration
+
+<table class="tg" style="undefined;table-layout: fixed; width: 790px">
+<colgroup>
+<col style="width: 20px">
+<col style="width: 276px">
+<col style="width: 229px">
+<col style="width: 265px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-y6fn">#</th>
+    <th class="tg-f7v4">Modèle d’intégration</th>
+    <th class="tg-y6fn">Fonctionnalité</th>
+    <th class="tg-f7v4">Conditions préalables</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Diffusion RTCDP en continu et partage d’audience par lots vers Target et l’Audience Manager via l’approche du service de partage d’audience</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Partagez des audiences en continu et par lots de la plateforme RTCDP vers Target et l’Audience Manager via le service de partage d’audience. Les audiences évaluées en temps réel nécessitent l’évaluation de l’audience en temps réel et WebSDK décrite dans le modèle d’intégration 3.</span></td>
+    <td class="tg-73oq">- La projection de l’audience via le service de partage d’audience doit être configurée.<br>- L’intégration à Target requiert la même organisation IMS que l’instance Experience Platform.<br>- L’identité doit être résolue sur ECID à partager sur le serveur Edge pour que Target puisse agir. AAM dispose d’une liste distincte d’identités approuvées pour lesquelles établir une correspondance<br>- Le déploiement de WebSDK n’est pas nécessaire pour cette intégration.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2</td>
+    <td class="tg-73oq">Diffusion RTCDP en continu et partage d’audience par lots vers Target via l’approche Edge</td>
+    <td class="tg-0lax">- Partagez des audiences en continu et par lots de la plateforme RTCDP vers Target via le réseau Edge. Les audiences évaluées en temps réel nécessitent l’évaluation de l’audience en temps réel et WebSDK décrite dans le modèle d’intégration 3.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Actuellement en version bêta</span><br>- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que l’instance Experience Platform.<br>WebSDK n’est pas requis. WebSDk et AT.js sont pris en charge. <br>- Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge. <br>- Pour les recherches d’espace de noms d’identifiant personnalisé sur Edge, le déploiement de WebSDK est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-73oq">Évaluation des segments en temps réel RTCDP sur Edge partagé vers Target via le réseau Edge à l’aide du SDK Web.</td>
+    <td class="tg-0lax">- Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Actuellement en version bêta</span><br>- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que l’instance Experience Platform.<br>- WebSDK doit être implémenté.<br>- Également pris en charge via l’API.</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## Architecture
 
@@ -78,10 +119,11 @@ Conditions préalables requises pour les identités
 1. [Implémentez Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=fr) (facultatif)
 1. [Implémentez Experience Platform et le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=fr)
 1. Implémentez [le service d’identités d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) ou [le SDK web d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
+1. [Demandez l’approvisionnement pour le partage d’audience entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences)
    >[!NOTE]
    >
-   >Chaque application doit utiliser l’Experience Cloud ID et faire partie de la même organisation Experience Cloud pour que soit possible le partage d’audience entre les applications.
-1. [Demandez l’approvisionnement pour le partage d’audience entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences)
+   >Lors de l’utilisation du service de partage d’audience entre RTCDP et Adobe Target, les audiences doivent être partagées à l’aide de l’identifiant Experience Cloud et faire partie de la même organisation Experience Cloud. La prise en charge d’identités autres qu’ECID nécessite l’utilisation du SDK Web et du réseau Experience Edge.
+
 
 ## Documentation connexe
 
@@ -91,7 +133,7 @@ Conditions préalables requises pour les identités
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
-* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
+* [Documentation pour le SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentation sur le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 * [Documentation pour les balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
 
