@@ -4,10 +4,10 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 94%
+source-wordcount: '142'
+ht-degree: 92%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 94%
 
 + [Présentation](/help/blueprints/overview.md)
 + [Voir tous les cas d’utilisation](/help/blueprints/use-cases.md)
++ Afficher toutes les success stories du secteur{#industry-success-stories}
+   + [Présentation](/help/blueprints/industry-success-stories/overview.md)
+   + [Vêtements](/help/blueprints/industry-success-stories/apparel.md)
+   + [Vente au détail](/help/blueprints/industry-success-stories/retail.md)
+   + [Télécommunications](/help/blueprints/industry-success-stories/telecommunications.md)
+   + [Voyage et hospitalité](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Aperçu de l’architecture {#architecture-overview}
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,10 +32,9 @@ ht-degree: 94%
    + [Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
-+ Analyse et activation B2B{#b2b-activation}
++ Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
-   + [Analyse B2B](/help/blueprints/b2b/b2banalysis.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
 + Parcours clients {#customer-journeys}
