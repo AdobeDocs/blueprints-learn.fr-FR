@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -56,13 +56,13 @@ Le plan directeur de données en ligne et hors ligne s’aligne étroitement sur
 
 * Le partage des données de profil avec les destinations nécessite que vous incluiez la valeur d’identité spécifique utilisée par la destination dans la payload de destination. Toute identité nécessaire pour une destination cible doit être ingérée dans Platform et configurée en tant qu’identité pour le [!UICONTROL profil client en temps réel].
 
-### Partage d’audiences de Real-time Customer Data Platform vers l’Audience Manager
+### Partage d’audiences de Real-time Customer Data Platform vers Audience Manager
 
-* L’appartenance à l’audience de la plateforme RT-CDP est partagée en flux continu vers l’Audience Manager dès que l’évaluation du segment est terminée et écrite dans le profil client en temps réel, que l’évaluation du segment ait eu lieu par lot ou en flux continu. Si le profil qualifié contient les informations de routage régional pour les appareils de profil associés, l’appartenance à l’audience de la plateforme RTCDP est qualifiée en continu sur l’Audience Manager Edge associée. Si les profils de la plateforme RTCDP ne contiennent pas d’informations de routage régional, les adhésions au profil sont envoyées à l’emplacement central de l’Audience Manager pour l’évaluation et l’activation par lots. Les profils éligibles à l’activation Edge seront activés dans les minutes suivant la qualification des segments depuis RTCDP, les profils qui ne remplissent pas les critères pour l’activation Edge seront qualifiés dans le centre d’Audience Manager et peuvent avoir un délai de 12 à 24 heures pour le traitement.
+* L’abonnement à l’audience de la plateforme RT-CDP est partagé en flux continu vers Audience Manager dès que l’évaluation du segment est terminée et inscrite dans le profil Real-time Customer, que l’évaluation du segment ait eu lieu par lot ou en flux continu. Si le profil qualifié contient les informations de routage régional pour les appareils de profil associés, l’abonnement à l’audience de la plateforme RTCDP est qualifiée en continu dans le profil Audience Manager Edge associé. Si les profils de la plateforme RTCDP ne contiennent pas d’informations de routage régional, les abonnements du profil sont envoyés à l’emplacement central d’Audience Manager pour l’évaluation et l’activation par lots. Les profils éligibles à l’activation dans Edge seront activés dans les minutes suivant la qualification des segments à partie de la plateforme RTCDP, les profils qui ne remplissent pas les critères pour l’activation dans Edge seront qualifiés dans le centre Audience Manager et peuvent présenter un délai de traitement de 12 à 24 heures.
 
-* Les informations de routage régional pour lesquelles Audience Manager Edge les informations de périphérique associées au profil sont stockées peuvent être collectées à partir d’Analytics Data Connector lorsque les données Analytics sont activées pour la collecte sur le profil, ou directement à partir de WebSDK en tant que jeu de données de classe d’enregistrement de profil distinct qui doit ensuite être activé pour le profil.
+* Les informations de routage régional pour lesquelles les informations de terminal associées au profil Audience Manager Edge sont stockées peuvent être collectées à partir d’Analytics Data Connector lorsque les données Analytics sont activées pour la collecte sur le profil, ou directement à partir du SDK web en tant que jeu de données de classe d’enregistrement de profil distinct, qui doit ensuite être activé pour le profil.
 
-* Dans les scénarios d’activation où les audiences sont partagées depuis Experience Platform vers Audience Manager, les identités suivantes sont automatiquement partagées : IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actuellement, les espaces de noms personnalisés ne sont pas partagés.
+* Dans les scénarios d’activation où les audiences sont partagées depuis Experience Platform vers Audience Manager, les identités suivantes sont automatiquement partagées : IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actuellement, les espaces de noms personnalisés ne sont pas partagés.
 
 Les audiences d’Experience Platform peuvent être partagées via les destinations d’Audience Manager lorsque les identités de destination requises sont incluses dans le [!UICONTROL profil client en temps réel], ou lorsque les identités du [!UICONTROL profil client en temps réel] peuvent être reliées aux identités de destination requises qui sont liées dans Audience Manager.
 
@@ -77,4 +77,4 @@ Les audiences d’Experience Platform peuvent être partagées via les destinati
 
 * Présentation de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 * [Vidéo de démonstration de [!UICONTROL Real-time Customer Data Platform ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=fr)
-* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Création de segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr)
