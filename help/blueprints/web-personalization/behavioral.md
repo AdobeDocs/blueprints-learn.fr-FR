@@ -5,8 +5,8 @@ landing-page-description: Découvrez comment personnaliser en fonction du compor
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
+source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
+workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Réalise une personnalisation en fonction du comportement en ligne et des donné
 
 ## Architecture
 
-<img src="assets/behavioral_personalization.svg" alt="Architecture de référence pour le plan directeur de personnalisation web" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.png" alt="Architecture de référence pour le plan directeur de personnalisation web" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Garde-fous
@@ -85,7 +85,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 * [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
 * [Intégration d’Audience Manager à Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
-* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
+* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Articles de blog connexes
