@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 5cade6cb611e40d528834448d5cf5cb4316b6e4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 
 La personnalisation web et mobile permet d’utiliser la segmentation d’audience au sein de plusieurs applications pour personnaliser et optimiser les expériences client. Vous pouvez utiliser les données sur le comportement, la démographie, le niveau de fidélité et les transactions antérieures du client pour personnaliser les présentations, les appels à l’action et le contenu.
 
-| Plan directeur | Description | Applications Experience Cloud |
+| Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Personnalisation comportementale web ou mobile](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(facultatif)*</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
-| **[Personnalisation web/mobile à l’aide de données en ligne et hors ligne](online-offline.md)** | <ul><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation comportementale web ou mobile](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(facultatif)*</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation web/mobile à l’aide de données en ligne et hors ligne](online-offline.md)** | <ul><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 
 ## Garde-fous pour la personnalisation web et mobile.
 
