@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 92%
 
 + [Présentation](/help/blueprints/overview.md)
 + [Voir tous les cas d’utilisation](/help/blueprints/use-cases.md)
-+ Afficher toutes les success stories du secteur{#industry-success-stories}
++ Consulter toutes les success stories du secteur {#industry-success-stories}
    + [Présentation](/help/blueprints/industry-success-stories/overview.md)
-   + [Vêtements](/help/blueprints/industry-success-stories/apparel.md)
+   + [Habillement](/help/blueprints/industry-success-stories/apparel.md)
    + [Vente au détail](/help/blueprints/industry-success-stories/retail.md)
    + [Télécommunications](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Voyage et hospitalité](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Tourisme et hôtellerie](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Aperçu de l’architecture {#architecture-overview}
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -45,7 +45,7 @@ ht-degree: 92%
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [SDK web Experience Platform](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK web Experience Platform](/help/blueprints/data-ingestion/websdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
