@@ -1,47 +1,47 @@
 ---
-title: Secteur des télécommunications - Journey Optimizer pour les messages déclenchés
-description: Offrir aux clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle pour une fidélité à long terme.
+title: Secteur des télécommunications - Journey Optimizer pour les messages déclenchés
+description: Offrez à vos clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle, pour vous assurer de leur fidélité à long terme.
 solution: Experience Platform, Journey Optimizer
 kt: 9486
 source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
-# Défi commercial de l’industrie des télécommunications
+# Problématique relative au secteur des télécommunications
 
-Avant de mettre en oeuvre ce plan directeur, les campagnes par e-mail &quot;ajouter une nouvelle ligne&quot; de la société de télécommunications reposaient sur la question de savoir si l’utilisateur avait effectué une conversion et s’il l’avait vérifiée uniquement après un délai d’attente de 7 jours. Une fois ces critères satisfaits, d’autres points de contact ont été lancés.
+Avant de mettre en œuvre ce plan directeur, les campagnes par e-mail « ajouter une nouvelle ligne » des entreprises de télécommunications reposaient sur la conversion ou non de l’utilisateur, et ne vérifiait ce point qu’après un délai d’attente de 7 jours. Seulement une fois ce critère satisfait, d’autres points de contact étaient lancés.
 
-Cette limitation devait être résolue afin d’initier un suivi plus rapide des utilisateurs qui souhaitaient ajouter une ligne avant le délai d’attente actuel de 7 jours.
+Cette limitation devait être résolue afin de permettre un suivi plus rapide des utilisateurs qui souhaitaient ajouter une ligne avant le délai d’attente actuel de 7 jours.
 
-## Approche Adobe
+## L’approche d’Adobe
 
-* Les données Adobe Analytics permettant d’identifier les utilisateurs qui n’ont pas pu effectuer la conversion pour ajouter une nouvelle ligne sont incluses comme source de données à utiliser par Adobe Journey Optimizer.
-* Adobe Journey Optimizer utilise une règle au moment où le client reçoit un message &quot;d’abandon&quot; personnalisé conçu pour encourager un client à effectuer une conversion en ajoutant une nouvelle ligne à son compte.
+* Les données Adobe Analytics permettant d’identifier les utilisateurs qui n’ont pas pu effectuer la conversion pour ajouter une nouvelle ligne sont incluses en tant que source de données pouvant être utilisées dans Adobe Journey Optimizer.
+* Adobe Journey Optimizer utilise une règle au moment où le client reçoit un message d’« abandon » personnalisé conçu pour l’encourager à effectuer une conversion en ajoutant une nouvelle ligne à son compte.
 
 
-## Valeur commerciale fournie
+## Valeur commerciale offerte
 
-| Objectifs | Tactiques | Valeur déverrouillée |
+| Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
-| **Augmentation des taux de conversion de campagnes **<br></br>**Augmentation des recettes du compte annuel**</ul> | <ul><li>Créez un segment en temps quasi réel pour les utilisateurs qui ont montré un intérêt pour l’ajout d’une ligne, mais qui n’ont pas encore été convertis.</li><li>Stimuler le suivi des clients non convertis avec un second point de contact pour les non-convertisseurs intéressés. </li><li>Utilisez une stratégie de test pour mesurer les performances des parcours et optimiser la conversion par courrier électronique.</li></ul> | <ul><li><strong>Expériences pertinentes de haute qualité :</strong> Avec l’orchestration des parcours en place, les clients bénéficient de messages plus pertinents, ce qui réduit le volume des listes d’emails.</li><li><strong>Journey Orchestration à l&#39;échelle :</strong>Un parcours personnalisé et plus chronologique peut être créé pour augmenter les conversions et les recettes totales.</li></ul> |
+| **Augmentation des taux de conversion de campagnes **<br></br>** Augmentation du chiffre d’affaires annuel du compte**</ul> | <ul><li>Créez un segment en temps quasi réel pour les utilisateurs qui ont montré un intérêt pour l’ajout d’une ligne, mais qui n’ont pas encore été convertis.</li><li>Accélérez le suivi des clients non convertis avec un second point de contact destiné aux clients non convertis mais intéressés. </li><li>Utilisez une stratégie de test permettant de mesurer les performances des parcours et d’optimiser la conversion par e-mail.</li></ul> | <ul><li><strong>Des expériences pertinentes de haute qualité :</strong> grâce à l’implémentation de Journey Orchestration, les clients reçoivent de messages plus pertinents, ce qui réduit le volume des listes d’e-mails.</li><li><strong>Journey Orchestration, sur-mesure :</strong> un parcours personnalisé et plus chronologique peut être créé pour augmenter les conversions et le chiffre d’affaires total.</li></ul> |
 
-## Blueprint Principal : Audience et activation avec des applications Experience Cloud
+## Plan directeur principal : activation des audiences avec des applications Experience Cloud
 
 ### Description
 
-<ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, avec Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul>
+<ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, à l’aide de Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul>
 
-### Applications Experience Cloud
+### Applications Experience Cloud
 
-<ul><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe Journey Optimizer</li></ul>
 
 ### Architecture de plan directeur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="image miniature pour une entreprise de télécommunications offrant des offres personnalisées en temps réel tout en proposant une intégration efficace des clients pour une fidélité à long terme." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="miniature représentant une entreprise de télécommunications présentant à ses clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle, pour s’assurer de leur fidélité à long terme." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
 
 
 
