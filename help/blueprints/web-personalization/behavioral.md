@@ -6,7 +6,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
 ht-degree: 100%
 
@@ -41,12 +41,12 @@ Par défaut, le service de partage de segments permet de partager un maximum de 
 
 Le plan directeur de personnalisation web / mobile peut être mis en œuvre par les approches suivantes, comme indiqué ci-dessous.
 
-1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network].
+1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network].
 1. Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AppMeasurement.js)
 
 ### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
 
-[Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
+[Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Approche d’utilisation d’un SDK spécifique à l’application
 
@@ -56,12 +56,12 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 | Application / service | Bibliothèque requise | Notes |
 |---|---|---|
-| Adobe Target | [!UICONTROL SDK web Experience Platform]*, at.js 0.9.1+, ou mbox.js 61+ | at.js est recommandé car mbox.js n’est plus en cours de développement. |
-| Adobe Audience Manager (facultatif) | [!UICONTROL SDK web Experience Platform]* ou dil.js 5.0+ |  |
-| Adobe Analytics (facultatif) | [!UICONTROL SDK web Experience Platform]* ou AppMeasurement.js 1.6.4+ |  |
+| Adobe Target | [!UICONTROL SDK web Experience Platform]*, at.js 0.9.1+ ou mbox.js 61+ | at.js est recommandé car mbox.js n’est plus en cours de développement. |
+| Adobe Audience Manager (facultatif) | [!UICONTROL SDK web Experience Platform]* ou dil.js 5.0+ |  |
+| Adobe Analytics (facultatif) | [!UICONTROL SDK web Experience Platform]* ou AppMeasurement.js 1.6.4+ |  |
 | Service d’identités Experience Cloud | [!UICONTROL SDK web Experience Platform]* ou VisitorAPI.js 2.0+ |  |
-| SDK mobile Experience Platform (facultatif) | 4.11 ou plus récent pour iOS et Android™ |  |
-| SDK web Experience Platform | 1.0, la version actuelle du SDK Experience Platform comprend [des cas d’utilisation qui ne sont pas encore pris en charge pour les applications Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+| SDK mobile Experience Platform (facultatif) | 4.11 ou plus récent pour iOS et Android™ |  |
+| SDK web Experience Platform | 1.0, la version actuelle du SDK Experience Platform comprend [des cas d’utilisation qui ne sont pas encore pris en charge pour les applications Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Étapes d’implémentation
 
@@ -85,7 +85,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 
 * [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
 * [Intégration d’Audience Manager à Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
-* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
 
 
 ## Articles de blog connexes
