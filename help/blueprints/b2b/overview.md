@@ -3,7 +3,7 @@ title: Analyse et activation B2B
 description: Proposez des audiences basées sur les comptes et des expériences client centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
+source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 95%
@@ -18,7 +18,6 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-
-| **[Analyses B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Inclure les informations du compte B2B dans l’analyse du parcours client</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
-| **[Activation d’audience B2B](b2bactivation.md)** | <ul><li>Ciblez les audiences B2B sur les canaux web, e-mail et de publicité.</li></ul>|<ul><li>Édition B2B Adobe Real-time Customer Data Platform</li></ul>|
+| **[Analyses B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Inclure les informations du compte B2B dans l’analyse du parcours client</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[Activation d’audience B2B](b2bactivation.md)** | <ul><li>Ciblez les audiences B2B sur les canaux web, e-mail et de publicité.</li></ul> | <ul><li>Édition B2B Adobe Real-time Customer Data Platform</li></ul> |
 
