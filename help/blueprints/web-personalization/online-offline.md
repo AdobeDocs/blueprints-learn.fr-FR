@@ -5,10 +5,10 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 98%
 
 ---
 
@@ -58,13 +58,13 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Diffusion en continu et partage d’audience par lots à partir de RTCDP vers Target par le biais d’Edge</td>
     <td class="tg-0lax">- Partagez des audiences en continu et par lots à partir de la plateforme RTCDP vers Target via Edge Network. Les audiences évaluées en temps réel nécessitent l’évaluation de l’audience en temps réel et le SDK web tels que décrits dans le motif d’intégration 3.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Actuellement en version bêta</span><br>- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.<br>Le SDK web n’est pas requis. Le SDK web et AT.js sont pris en charge. <br>- Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge. <br>- Pour les recherches d’espace de noms d’identifiant personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</td>
+    <td class="tg-73oq">- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.<br>Le SDK web n’est pas requis. Le SDK web et AT.js sont pris en charge. <br>- Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge. <br>- Pour les recherches d’espace de noms d’identifiant personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">Évaluation des segments en temps réel à partir de RTCDP sur Edge partagé vers Target via Edge Network à l’aide du SDK web.</td>
     <td class="tg-0lax">- Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Actuellement en version bêta</span><br>- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.<br>- Le SDK web doit être implémenté.<br>- Également pris en charge via l’API.</td>
+    <td class="tg-73oq">- La destination cible doit être configurée dans les destinations RTCDP.<br>- L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.<br>- Le SDK web doit être implémenté.<br>- Également pris en charge via l’API.</td>
   </tr>
 </tbody>
 </table>
@@ -79,6 +79,11 @@ Architecture d’aperçu
 Architecture de flux de processus
 
 <img src="assets/RTCDP+Target_flow.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:80%; border:1px solid #4a4a4a" />
+
 
 Architecture détaillée
 

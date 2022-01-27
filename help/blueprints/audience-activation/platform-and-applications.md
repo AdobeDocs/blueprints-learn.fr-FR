@@ -3,7 +3,8 @@ title: Plan directeur pour l’activation de profil et d’audience avec les app
 description: Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
-source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
+exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%

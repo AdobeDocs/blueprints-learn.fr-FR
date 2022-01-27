@@ -4,8 +4,8 @@ description: Recherches de [!UICONTROL profil client en temps réel] pour fourni
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -49,5 +49,5 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 * [Description et activation d’Adobe Experience Platform](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentation sur [[!UICONTROL le profil client en temps réel]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
-* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API de recherche de profil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)

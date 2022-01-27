@@ -2,8 +2,8 @@
 title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -31,17 +31,17 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
     <p><em>Déclenchez des messages et des expériences en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr"><img alt="Image miniature du plan directeur d’activation d’audience en ligne / hors ligne" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><img alt="Image miniature du plan directeur de consolidation des données de comportement digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><strong>Analyse de parcours cross-canal</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Analyse de parcours cross-canal</strong></a></div>
     <p><em>Disposez d’une vue consolidée unique du comportement des clients sur différents canaux.</em></p>
   </td>
 </tr>
