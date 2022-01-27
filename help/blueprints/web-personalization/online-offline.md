@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -130,10 +130,10 @@ Conditions préalables requises pour les identités
 1. [Implémentez Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=fr) (facultatif)
 1. [Implémentez Experience Platform et le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=fr)
 1. Implémentez [le service d’identités d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) ou [le SDK web d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
-1. [Activation d’Adobe Target en tant que destination dans Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) ou pour l’approche de partage d’audience [Demande d’attribution de privilèges d’accès pour le partage d’audiences entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences) pour partager des audiences de l’Experience Platform vers Target.
+1. [Activez Adobe Target en tant que destination dans Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr) ou pour l’approche de partage d’audience [Demandez l’attribution de privilèges d’accès pour le partage d’audiences entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences) pour partager des audiences à partir d’Experience Platform vers Target.
    >[!NOTE]
    >
-   >Lors de l’utilisation du service de partage d’audience entre RTCDP et Adobe Target, les audiences doivent être partagées à l’aide de l&#39;Experience Cloud ID et faire partie de la même organisation Experience Cloud. La prise en charge d’identités autres qu’ECID nécessite l’utilisation du SDK web et du réseau Experience Edge Network.
+   >Lors de l’utilisation du service de partage d’audience entre RTCDP et Adobe Target, les audiences doivent être partagées à l’aide de l’Experience Cloud ID et faire partie de la même organisation Experience Cloud. La prise en charge d’identités autres qu’ECID nécessite l’utilisation du SDK web et du réseau Experience Edge Network.
 
 
 ## Documentation connexe
@@ -141,7 +141,7 @@ Conditions préalables requises pour les identités
 * [Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=fr)
 * [Présentation de la segmentation dans Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr)
 * [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr)
-* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
+* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 * [Présentation du créateur de segments d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr)
 * [Connecteur source d’Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
