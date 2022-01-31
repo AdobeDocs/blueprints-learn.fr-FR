@@ -8,7 +8,7 @@ exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le diagramme ci-dessous illustre les principaux garde-fous de performance et la 
 
 | Méthodes d’ingestion | Description |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK web / mobile | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</ul>Documentation : <ul><li>[SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)</li><li>[Tutoriel sur la mise en oeuvre de Adobe Experience Cloud avec le SDK Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)<li>[SDK mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)</li></ul> |
+| SDK web / mobile | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</ul>Documentation : <ul><li>[SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)</li><li>[Tutoriel sur la mise en œuvre d’Adobe Experience Cloud avec le SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr)<li>[SDK mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)</li></ul> |
 | Sources de diffusion | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#connectors) |
 | API de diffusion | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li><li>7 Go/heure</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr#what-can-you-do-with-streaming-ingestion%3F) |
 | Outillage ETL | Utilisez les outils ETL pour modifier et transformer les données d’entreprise avant ingestion dans Experience Platform.<br><br>Latence :<ul><li>La synchronisation dépend du planning de l’outil ETL externe, puis les garde-fous d’ingestion standard s’appliquent en fonction de la méthode utilisée pour l’ingestion.</li></ul> |

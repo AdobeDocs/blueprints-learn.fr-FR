@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Le plan directeur de données en ligne et hors ligne s’aligne étroitement sur
 1. [Configurez les identités et les espaces de noms d’identité corrects](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr) sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
-1. [Réalisez un partage de segments [!UICONTROL Real-time Customer Data Platform] entre ](https://www.adobe.com/go/audiences)Experience Platform et Audience Manager pour les audiences définies dans Experience Platform à partager avec Audience Manager.
+1. [Réalisez un partage de segments [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre Experience Platform et Audience Manager pour les audiences définies dans Experience Platform à partager avec Audience Manager.
 1. [Créez des segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr) dans Experience Platform. Le système détermine automatiquement si le segment est évalué en tant que lot ou en tant que flux continu.
 1. [Configurez les destinations](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=fr) pour le partage des attributs de profil et des appartenances à une audience vers les destinations souhaitées.
 
@@ -60,7 +60,7 @@ Le plan directeur de données en ligne et hors ligne s’aligne étroitement sur
 
 * L’abonnement à l’audience de la plateforme RT-CDP est partagé en flux continu vers Audience Manager dès que l’évaluation du segment est terminée et inscrite dans le profil Real-time Customer, que l’évaluation du segment ait eu lieu par lot ou en flux continu. Si le profil qualifié contient les informations de routage régional pour les appareils de profil associés, l’abonnement à l’audience de la plateforme RTCDP est qualifiée en continu dans le profil Audience Manager Edge associé. Si les profils de la plateforme RTCDP ne contiennent pas d’informations de routage régional, les abonnements du profil sont envoyés à l’emplacement central d’Audience Manager pour l’évaluation et l’activation par lots. Les profils éligibles à l’activation dans Edge seront activés dans les minutes suivant la qualification des segments à partie de la plateforme RTCDP, les profils qui ne remplissent pas les critères pour l’activation dans Edge seront qualifiés dans le centre Audience Manager et peuvent présenter un délai de traitement de 12 à 24 heures.
 
-* Les informations de routage régional pour lesquelles Audience Manager Edge les informations de périphérique associées au profil sont stockées peuvent être collectées à partir d’Analytics Data Connector lorsque les données Analytics sont activées pour la collecte sur le profil, ou directement à partir du SDK Web en tant que jeu de données de classe d’enregistrement de profil distinct qui doit ensuite être activé pour le profil.
+* Les informations de routage régional pour lesquelles les informations de terminal associées au profil Audience Manager Edge sont stockées peuvent être collectées à partir d’Analytics Data Connector lorsque les données Analytics sont activées pour la collecte sur le profil, ou directement à partir du SDK web en tant que jeu de données de classe d’enregistrement de profil distinct, qui doit ensuite être activé pour le profil.
 
 * Dans les scénarios d’activation où les audiences sont partagées depuis Experience Platform vers Audience Manager, les identités suivantes sont automatiquement partagées : IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actuellement, les espaces de noms personnalisés ne sont pas partagés.
 
