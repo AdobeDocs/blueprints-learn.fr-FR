@@ -1,0 +1,20 @@
+---
+title: Adobe Campaign Managed Cloud Services
+description: Applications traditionnelles de campagne
+solution: Campaign v8, Campaign Classic v7, Campaign Standard
+kt: null
+thumbnail: null
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 3%
+
+---
+
+# Adobe Campaign Managed Cloud Services
+
+
+| Plan directeur | Description | Architecture |
+|---|---|---|
+| **[Adobe Campaign v8](campaign-v8.md)** | Outil de campagne de nouvelle génération optimisé pour la gestion des données et les processus de campagne extrêmement complexes. Permet aux clients de combiner des communications de campagne marketing enrichies et de découvrir | <img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:50%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Outil de campagne traditionnel conçu pour les campagnes marketing par lots sur différents canaux tels que les emails, les SMS et le courrier. Permet aux clients d’orchestrer et de gérer les différentes communications client au même endroit. | <img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:50%; border:1px solid #4a4a4a" /> |

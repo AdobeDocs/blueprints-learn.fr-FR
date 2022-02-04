@@ -2,10 +2,10 @@
 title: Cas d’utilisation des plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 98%
 
 ---
 
@@ -79,8 +79,7 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Campagnes de messages électroniques programmés.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=fr">Messagerie 
-par lots et Platform</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">Cloud Services gérés par Campaign</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Parcours clients</td>
  </tr>
  <tr>
@@ -89,7 +88,7 @@ par lots et Platform</a></td>
  <tr>
   <td>Messages déclenchés.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr">Journey Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Confirmations d’enregistrement.</td>

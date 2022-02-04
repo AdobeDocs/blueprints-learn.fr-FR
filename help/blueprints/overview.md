@@ -2,10 +2,10 @@
 title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 93%
 
 ---
 
@@ -30,9 +30,9 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Messages déclenchés et Adobe Experience Platform</strong></a></div>
-    <p><em>Déclenchez des messages et des expériences en utilisant [!UICONTROL Platform] comme hub central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les mesages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Orchestration cross-canal</strong></a></div>
+    <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr"><img alt="Image miniature du plan directeur d’activation d’audience en ligne / hors ligne" src="audience-activation/assets/online_offline_activation.svg" /></a>
@@ -52,4 +52,4 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 * [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

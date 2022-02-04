@@ -4,10 +4,10 @@ breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 87%
 
 ---
 
@@ -39,8 +39,13 @@ ht-degree: 100%
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
 + Parcours clients {#customer-journeys}
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
-   + [Messagerie par lots et Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Cloud Services gérés par Campaign](/help/blueprints/customer-journeys/campaign.md)
+   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + [Campagne avec Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+   + [Campagne avec Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+   + [Messagerie tierce](/help/blueprints/customer-journeys/3rd-party-messaging.md)
 + Collecte et préparation des données {#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
