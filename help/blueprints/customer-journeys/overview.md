@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standa
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 6ffa7b7025bd143c9c02f4708a96207141b841e6
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 48%
+source-wordcount: '258'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,8 @@ Aujourd’hui, il existe deux options d’Adobe parmi lesquelles les clients peu
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| Plan directeur | Description | Applications Experience Cloud |
+| Plan directeur | Description | Architecture |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | Notre application de campagne traditionnelle hébergée et gérée en réduisant la charge et la complexité d’exécution d’un système informatique tout en permettant aux marketeurs de créer des campagnes marketing par lots sur différents canaux tels que les emails, les SMS et le courrier. Permet aux clients de combiner leurs processus de gestion de données complexes avec des communications de campagnes marketing enrichies | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Basée en mode natif sur Real-Time Customer Profile des Experience Platform, elle permet aux équipes marketing de réagir en temps réel à la modification des comportements des clients et de répondre à leurs besoins sur n’importe quel canal, à tout moment. | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Basée en mode natif sur Real-Time Customer Profile des Experience Platform, elle permet aux équipes marketing de réagir en temps réel à la modification des comportements des clients et de répondre à leurs besoins sur n’importe quel canal, à tout moment. | <img src="assets/ajo-architecture.svg" alt="Architecture de référence du plan directeur Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Outil de campagne de nouvelle génération optimisé pour la gestion des données et les processus de campagne extrêmement complexes. Permet aux clients de combiner des communications de campagne marketing enrichies et de découvrir | <img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Outil de campagne traditionnel conçu pour les campagnes marketing par lots sur différents canaux tels que les emails, les SMS et le courrier. Permet aux clients d’orchestrer et de gérer les différentes communications client au même endroit. | <img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:75%; border:1px solid #4a4a4a" /> |

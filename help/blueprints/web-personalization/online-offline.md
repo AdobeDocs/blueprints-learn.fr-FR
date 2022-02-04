@@ -5,7 +5,7 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5613bd6211b6eb6a960522f7ab04fd4a04ee9653
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 91%
@@ -30,7 +30,7 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
 * Adobe Audience Manager (facultatif) : ajoute des données d’audience tierces, un graphique des appareils basé sur la coopération, la possibilité de faire apparaître des segments Platform dans Adobe Analytics et la possibilité de faire apparaître des segments Adobe Analytics dans Platform
 * Adobe Analytics (facultatif) : ajoute la possibilité de créer des segments basés sur des données comportementales historiques et une segmentation fine à partir des données d’Adobe Analytics
 
-## Motifs d’intégration
+## Modèles d’intégration
 
 <table class="tg" style="undefined;table-layout: fixed; width: 790px">
 <colgroup>
