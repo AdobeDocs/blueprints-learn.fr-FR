@@ -2,9 +2,10 @@
 title: Plan directeur de Campaign v7
 description: Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing traditionnels tels que le courrier électronique et le courrier. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots.  Il est également fourni avec un serveur de messagerie en temps réel qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign Classic v7
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -35,7 +36,7 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing trad
 | Scénario | Description | Fonctionnalités |
 | :-- | :--- | :--- |
 | [Journey Optimizer avec Adobe Campaign](ajo-and-campaign.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et utiliser le système de messagerie transactionnelle Adobe Campaign natif pour envoyer le message. | Tirer parti du profil client en temps réel et de la puissance de Journey Optimizer pour orchestrer les expériences en temps réel tout en utilisant les fonctionnalités natives de messagerie en temps réel d’Adobe Campaign pour effectuer la communication du dernier kilomètre<br><br>Considérations :<br><ul><li>Peut envoyer jusqu’à 50 000 messages par heure via le serveur de messagerie en temps réel<li>Aucun ralentissement n’est effectué à partir de Journey Optimizer, de sorte que la validation technique par un architecte d’entreprise de prévente soit assurée.</li><li>Offer Decisioning n’est pas pris en charge dans les payloads du serveur de messagerie en temps réel de Campaign v7</li></ul> |
-| [Real-Time CDP avec Adobe Campaign](rtcdp-and-campaign.md) | Présente comment Adobe Experience Platform Real-Time CDP et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées | <ul><li>Partage natif d&#39;audiences de l&#39;Experience Platform avec Adobe Campaign v8 via une destination productisée</li><li>Prise en charge native de l’ingestion des données de diffusion et d’interaction des conversations des clients dans l’Experience Platform afin d’améliorer le profil client en temps réel et de fournir des rapports cross-canal sur les campagnes de messagerie.</li></ul> |
+| [Real-Time CDP avec Adobe Campaign](rtcdp-and-campaign.md) | Présente comment Adobe Experience Platform Real-Time CDP et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées | <ul><li>Partage d’audiences de Real-Time CDP vers Adobe Campaign via l’échange de fichiers de stockage dans le cloud et les workflows d’ingestion d’Adobe Campaign </li><li>Partagez facilement les données de diffusion et d’interaction issues des conversations des clients dans la plateforme de données clients en temps réel d’Adobe Campaign afin d’améliorer le profil client en temps réel et de fournir des rapports cross-canal sur les campagnes de messagerie.</li></ul> |
 
 <br>
 
@@ -88,9 +89,7 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing trad
 ### Dimensionnement du serveur de messagerie en temps réel
 
 * Peut envoyer jusqu’à 50 000 messages par heure
-* Par défaut, un seul (1) serveur de messagerie en temps réel est configuré. Cela permet de s’assurer que toute communication avec le serveur est effectuée via un jeton de session qui expire dans 24 heures.
-* Vous pouvez éventuellement déployer jusqu’à huit (8) serveurs de messagerie en temps réel, mais l’authentification ne prend en charge que l’utilisateur/la transmission.
-* L’approche recommandée consiste toujours à utiliser un serveur de messagerie en temps réel pour tirer parti, si possible, de l’authentification par jeton de session.
+* Par défaut, deux serveurs de messagerie en temps réel sont configurés. Possibilité d’étendre jusqu’à huit serveurs de messagerie en temps réel.
 
 ### Configuration des SMS
 

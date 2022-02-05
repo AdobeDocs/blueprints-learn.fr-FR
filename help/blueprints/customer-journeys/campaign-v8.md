@@ -2,9 +2,10 @@
 title: Plan directeur Campaign v8
 description: Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour les canaux marketing traditionnels tels que le courrier électronique et le courrier. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots.  Il est également fourni avec un serveur de messagerie en temps réel évolutif qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique, pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign v8
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -89,9 +90,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour
 ### Dimensionnement du serveur de messagerie en temps réel
 
 * Peut envoyer jusqu’à 1 million de messages par heure
-* Par défaut, un seul (1) serveur de messagerie en temps réel est configuré. Cela permet de s’assurer que toute communication avec le serveur est effectuée via un jeton de session qui expire dans 24 heures.
-* Vous pouvez éventuellement déployer jusqu’à huit (8) serveurs de messagerie en temps réel, mais l’authentification ne prend en charge que l’utilisateur/la transmission.
-* L’approche recommandée consiste toujours à utiliser un serveur de messagerie en temps réel pour tirer parti, si possible, de l’authentification par jeton de session.
+* Par défaut, deux serveurs de messagerie en temps réel sont configurés. Possibilité d’étendre jusqu’à huit serveurs de messagerie en temps réel.
 
 ### Configuration des SMS
 
