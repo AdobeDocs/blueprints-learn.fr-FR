@@ -4,9 +4,9 @@ description: Activation d’audience en ligne / hors ligne
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
+source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '743'
 ht-degree: 79%
 
 ---
@@ -17,7 +17,7 @@ Utilisez les attributs et les événements hors ligne tels que les commandes hor
 
 Activez des audiences vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires
 
-Le plan directeur de données en ligne et hors ligne s’aligne étroitement sur le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md). Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
+Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
