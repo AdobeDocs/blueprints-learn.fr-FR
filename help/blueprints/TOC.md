@@ -3,13 +3,15 @@ user-guide-title: Plans directeurs d’expérience digitale
 breadcrumb-title: 'Plans directeurs '
 user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '172'
+ht-degree: 78%
 
 ---
+
 
 # Plans directeurs d’expérience digitale {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 86%
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
-   + [Activation avec les données en ligne et hors ligne](/help/blueprints/audience-activation/online-offline.md)
+   + [Activation des canaux Social et Advertising]{#audience-activation}
+      + [Activation avec des données en ligne et hors ligne](/help/blueprints/audience-activation/online-offline.md)
+      + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 86%
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
    + [Personnalisation à l’aide de données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
-
