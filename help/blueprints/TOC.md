@@ -5,7 +5,7 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
+source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 78%
@@ -30,8 +30,8 @@ ht-degree: 78%
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
-   + [Activation des canaux Social et Advertising]{#audience-activation}
-      + [Activation avec des données en ligne et hors ligne](/help/blueprints/audience-activation/online-offline.md)
+   + [Activation avec des données en ligne et hors ligne](/help/blueprints/audience-activation/online-offline.md)
+   + Activation des canaux Social et Advertising{#audience-activation}
       + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
