@@ -3,13 +3,13 @@ title: Activation des audiences personnalisées Facebook
 description: Activation des audiences personnalisées Facebook.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # Activation des audiences personnalisées Facebook
 
@@ -19,7 +19,9 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 * Ciblage d’audience pour des audiences connues sur les réseaux sociaux et les destinations publicitaires.
 * Personnalisation en ligne avec des attributs en ligne et hors ligne.
-Applications
+
+## Applications
+
 * Real-time Customer Data Platform
 
 ## Architecture
@@ -32,7 +34,7 @@ Applications
    * Utilisez les espaces de noms prêts à l’emploi tels que Email, Email SHA256 Hash, le cas échéant.
    * Facebook comporte une liste des identités prises en charge. Pour activer les audiences personnalisées Facebook, l’une des identités prises en charge doit être présente dans les profils à activer.
    * Les identités suivantes sont actuellement prises en charge par Facebook : GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Pour plus d’informations, voir [Guide de destination facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * Pour plus d’informations, voir [Guide de destination facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Créez des espaces de noms personnalisés dans lesquels les espaces de noms prêts à l’emploi ne sont pas disponibles pour les identités applicables.
 1. Configurez les jeux de données et les schémas de source de données Profile.
    * Créez des schémas d’enregistrement de profil pour toutes les données de source d’enregistrement de profil.
@@ -67,7 +69,7 @@ Applications
    * Examinez le nombre de résultats du segment pour les segments donnés.
    * Examinez le profil qui doit être inclus dans le segment pour vérifier que l’appartenance au segment est incluse dans la partie de l’appartenance au segment du profil.
 1. Configurez la diffusion de l’audience vers la destination dans la configuration Destination .
-   * Voir [Guide de destination facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) pour plus d’informations sur la configuration de la destination Facebook.
+   * Voir [Guide de destination facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) pour plus d’informations sur la configuration de la destination Facebook.
    * Lors de la configuration d’une destination, sélectionnez l’audience que vous souhaitez activer vers la destination.
    * Déterminez la date de début planifiée à laquelle vous souhaitez que le flux de données de destination commence à diffuser l’audience vers la destination.
    * Chaque destination comporte des attributs obligatoires et facultatifs qui seront envoyés.
@@ -88,4 +90,4 @@ Applications
 
 ## Documentation connexe
 
-Activation des audiences personnalisées Facebook - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Activation des audiences personnalisées Facebook - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
