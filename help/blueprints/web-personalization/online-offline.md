@@ -5,9 +5,9 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
+source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 50%
 
 ---
@@ -51,7 +51,7 @@ Synchronisez la personnalisation web avec la messagerie électronique et d’aut
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Évaluation des segments en temps réel sur le serveur Edge partagé de Real-time Customer Data Platform vers Target</td>
-    <td class="tg-0lax">- Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.<br>- Partagez des audiences en continu et par lots de Real-time Customer Data Platform vers Target par le biais du réseau Edge.</td>
+    <td class="tg-0lax">- Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.<br>- En outre, tout segment évalué dans la diffusion en continu ou par lot sera également projeté sur le réseau Edge pour être inclus dans l’évaluation et la personnalisation des segments Edge.</td>
     <td class="tg-73oq">- Le flux de données doit être configuré dans Experience Edge avec l’extension Target et l’extension Experience Platform activée. L’identifiant du flux de données sera fourni dans la configuration de destination de Target.<br>- La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.<br>- L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.<br>- Le SDK web doit être implémenté.<br>- L’implémentation du SDK mobile et basée sur l’API n’est actuellement pas disponible.</td> 
   </tr>
   <tr>
