@@ -2,10 +2,10 @@
 title: Cas d’utilisation des plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
+source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Ciblage d’audience pour des audiences connues sur les réseaux sociaux et les destinations publicitaires.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">Activation du client connu</a></td>
  </tr>
  <tr>
   <td>Personnalisation en ligne avec des attributs en ligne et hors ligne.</td>
@@ -43,12 +43,12 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Activation de profil et d’audience vers des destinations d’enregistrement en mode cloud ou des destinations de diffusion en flux continu pour le suivi, l’enregistrement, l’analyse et l’activation des données et des informations client au sein de l’entreprise.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=fr">Activation vers des destinations d’entreprise</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Activation vers des destinations d’entreprise</a></td>
  </tr>
  <tr>
   <td>Personnalisez et ciblez sur différents canaux d’interaction client optimisés par Experience Cloud.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr">Activation avec les applications Experience Cloud</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec les applications Experience Cloud</a></td>
  </tr>
  <tr>
   <td>Partagez les données d’audience et de profil entre les applications Experience Platform et Experience Cloud.</td>
@@ -56,7 +56,7 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le consommateur, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=fr">Centre d’activité client</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Centre d’activité client</a></td>
  </tr>
  <tr>
   <td>Analysez les interactions des clients sur ordinateurs et appareils mobiles pour comprendre le comportement des clients et extraire des informations pour optimiser les expériences client numériques.</td>
