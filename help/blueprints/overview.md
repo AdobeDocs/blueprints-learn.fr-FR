@@ -2,10 +2,10 @@
 title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -35,8 +35,8 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
     <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
   <td>
