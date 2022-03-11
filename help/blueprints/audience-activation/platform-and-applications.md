@@ -4,10 +4,10 @@ description: Gérez les profils et les audiences dans Experience Platform et par
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '710'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ L’activation avec les applications Experience Cloud s’aligne étroitement su
 
 ## Architecture
 
-[Consulter la section Architecture d’Experience Platform et de ses applications pour obtenir des schémas d’architecture supplémentaires relatifs aux intégrations d’Experience Platform avec les applications Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=fr)
+Voir [Section Architecture des Experience Platform et des applications](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=fr) pour obtenir des diagrammes d’architecture supplémentaires liés aux intégrations Experience Platform avec les applications Experience Cloud.
 
 ### Activation de profil et d’audience avec les applications Experience Cloud
 
