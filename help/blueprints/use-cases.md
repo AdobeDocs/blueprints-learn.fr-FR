@@ -5,7 +5,7 @@ exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -46,15 +46,15 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Activation vers des destinations d’entreprise</a></td>
  </tr>
  <tr>
-  <td>Personnalisez et ciblez sur différents canaux d’interaction client optimisés par Experience Cloud.</td>
+  <td>Personnalisez et ciblez sur différents canaux d’interaction client optimisés par Experience Cloud.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec les applications Experience Cloud</a></td>
  </tr>
  <tr>
-  <td>Partagez les données d’audience et de profil entre les applications Experience Platform et Experience Cloud.</td>
+  <td>Partagez les données d’audience et de profil entre les applications Experience Platform et Experience Cloud.</td>
  </tr>
  <tr>
-  <td>Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le consommateur, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.</td>
+  <td>Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le consommateur, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Centre d’activité client</a></td>
  </tr>
@@ -79,7 +79,7 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Campagnes de messages électroniques programmés.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">Cloud Services gérés par Campaign</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=fr">Campaign Managed Cloud Services</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Parcours clients</td>
  </tr>
  <tr>
@@ -88,7 +88,7 @@ Lesquels de ces cas d’utilisation sont importants pour votre entreprise ? Dé
  <tr>
   <td>Messages déclenchés.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Confirmations d’enregistrement.</td>
@@ -135,7 +135,7 @@ des données, data intelligence et ML</td>
   <td>Tableau de bord et visualisation des données via les outils de Business Intelligence.</td>
  </tr>
  <tr>
-  <td>Extraire des informations et découvrir des modèles à partir des données client dans Experience Platform. Former et évaluer des modèles à partir de ces données.</td>
+  <td>Extraire des informations et découvrir des modèles à partir des données client dans Experience Platform. Former et évaluer des modèles à partir de ces données.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=fr">Data science client 
 pour l’enrichissement de profil</a></td>
