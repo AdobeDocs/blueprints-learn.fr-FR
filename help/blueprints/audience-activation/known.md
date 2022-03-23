@@ -4,10 +4,10 @@ description: Activation d’audience en ligne / hors ligne
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 85%
+source-wordcount: '561'
+ht-degree: 70%
 
 ---
 
@@ -29,19 +29,25 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
+* Les destinations basées sur les personnes d’Audience Manager peuvent également être utilisées pour l’activation des personnes selon Facebook, LinkedIn et la correspondance client Google.
 
 ## Architecture
 
-### Activation avec des données en ligne et hors ligne liées à des destinations
+### Activation de client connue via Real-time Customer Data Platform
 
-<img src="assets/online_offline_activation.svg" alt="Architecture de référence pour le plan directeur d’activation d’audience en ligne / hors ligne" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Activation connue des clients via les destinations basées sur les personnes d’Audience Manager
+
+<img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Garde-fous
 
 [Reportez-vous aux barrières de sécurité comme indiqué sur la page Présentation de l’activation de l’audience et du profil](overview.md).
 
-## Étapes d’implémentation
+## Procédure de mise en oeuvre de Real-time Customer Data Platform
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
@@ -57,6 +63,12 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 * Le partage des données de profil avec les destinations nécessite que vous incluiez la valeur d’identité spécifique utilisée par la destination dans la payload de destination. Toute identité nécessaire pour une destination cible doit être ingérée dans Platform et configurée en tant qu’identité pour le [!UICONTROL profil client en temps réel].
 
 * Voir [Audience et activation du profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
+
+## Procédure de mise en oeuvre pour l’Audience Manager des destinations basées sur les personnes
+
+* Pour plus d’informations sur la mise en oeuvre de l’Audience Manager, voir : [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr).
+
+* Pour plus d’informations sur l’implémentation des destinations basées sur les personnes en Audience Manager, voir : [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## Documentation connexe
 

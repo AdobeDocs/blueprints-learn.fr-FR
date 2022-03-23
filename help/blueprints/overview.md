@@ -2,10 +2,10 @@
 title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
     <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>

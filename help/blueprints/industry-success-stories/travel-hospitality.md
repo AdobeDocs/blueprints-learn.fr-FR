@@ -3,13 +3,13 @@ title: Secteur du tourisme et de l’hôtellerie - Activation avec des données 
 description: Des décisions en temps réel grâce à une vue consolidée unique du comportement des clients sur différents canaux.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Problématique relative au secteur du tourisme et de l’hôtellerie
 
@@ -42,8 +42,4 @@ Grâce à l’utilisation des technologies et des services d’Adobe, cette orga
 
 ### Architecture de plan directeur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="miniature représentant une entreprise du secteur du tourisme et de l’hôtellerie prenant des décisions en temps réel grâce à une vue consolidée unique du comportement des clients sur différents canaux." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="miniature représentant une entreprise du secteur du tourisme et de l’hôtellerie prenant des décisions en temps réel grâce à une vue consolidée unique du comportement des clients sur différents canaux." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
