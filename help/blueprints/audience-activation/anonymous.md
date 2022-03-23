@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 40%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -26,6 +26,9 @@ L’activation de l’audience anonyme est la possibilité de cibler et de perso
 
 ## Applications
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 Audience Manager et Real-time Customer Data Platform peuvent être utilisés pour alimenter l’Audience Activation anonyme pour les destinations sur site et publicitaires. Notez que Real-time Customer Data Platform ne prend en charge qu’un sous-ensemble de destinations publicitaires avec des identifiants d’appareil anonymes, tels que catalogués dans la variable [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing, Google DV360 et TradeDesk sont les Principales destinations publicitaires Real-time Customer Data Platform prises en charge pour le ciblage anonyme basé sur les appareils. Par ailleurs, Real-time Customer Data Platform prend en charge de nombreuses destinations basées sur les clients connues, telles qu’elles sont cataloguées dans le [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) et comme décrit dans la section [plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ Microsoft Bing, Google DV360 et TradeDesk sont les Principales destinations publ
 
 <img src="assets/anonymous_activation.svg" alt="Architecture de référence pour le plan directeur d’activation d’audience anonyme" style="width:80%; border:1px solid #4a4a4a" />
 
-## Étapes d’implémentation
+<br>
 
-<!-- These steps should link to help. -->
+## Étapes d’implémentation
 
 1. [Implémentation d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr#implementation-integration-guides)
 1. Collectez les données vers Audience Manager.
