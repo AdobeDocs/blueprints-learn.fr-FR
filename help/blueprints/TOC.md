@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
-   + Activation du client connu{#known-customer-audience-activation}
+   + Activation du client connu {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + Activation des canaux Social et Advertising {#audience-activation}
          + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
