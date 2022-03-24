@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 source-git-commit: 60d99de0ec64a091662f0921b23aea0725965681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
    * Examinez le nombre de résultats du segment pour les segments donnés.
    * Examinez le profil qui doit être inclus dans le segment pour vérifier que l’abonnement au segment est inclus dans la partie de l’abonnement au segment du profil.
 1. Configurez la diffusion de l’audience vers la destination dans la configuration de la Destination.
-   * Consultez le [Guide de destination du ciblage par liste de clients Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) pour plus d’informations sur la configuration de la destination du ciblage par liste de clients Google.
+   * Consultez le [Guide de destination du ciblage par liste de clients Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=fr) pour plus d’informations sur la configuration de la destination du ciblage par liste de clients Google.
    * Lors de la configuration d’une destination, sélectionnez l’audience que vous souhaitez activer vers la destination.
    * Déterminez la date de début planifiée à laquelle vous souhaitez que le flux de données de destination commence à diffuser l’audience vers la destination.
    * Chaque destination comporte des attributs obligatoires et facultatifs qui seront envoyés.
@@ -91,4 +91,4 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 ## Documentation connexe
 
-Activation du ciblage par liste de clients Google - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+Activation du ciblage par liste de clients Google - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=fr)
