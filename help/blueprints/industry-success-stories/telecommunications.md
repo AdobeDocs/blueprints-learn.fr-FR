@@ -1,15 +1,15 @@
 ---
 title: Secteur des télécommunications - Journey Optimizer pour les messages déclenchés
 description: Offrez à vos clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle, pour vous assurer de leur fidélité à long terme.
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # Problématique relative au secteur des télécommunications
 
@@ -42,8 +42,3 @@ Cette limitation devait être résolue afin de permettre un suivi plus rapide de
 ### Architecture de plan directeur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="miniature représentant une entreprise de télécommunications présentant à ses clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle, pour s’assurer de leur fidélité à long terme." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-
-
-
-
-
