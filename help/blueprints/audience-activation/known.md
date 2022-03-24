@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 70%
+ht-degree: 82%
 
 ---
 
@@ -45,7 +45,7 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 ## Garde-fous
 
-[Reportez-vous aux barrières de sécurité comme indiqué sur la page Présentation de l’activation de l’audience et du profil](overview.md).
+[Référez-vous aux garde-fous tels que décrits sur la page de présentation de l’activation d’audience et de profil](overview.md).
 
 ## Procédure de mise en oeuvre de Real-time Customer Data Platform
 
@@ -62,7 +62,7 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 * Le partage des données de profil avec les destinations nécessite que vous incluiez la valeur d’identité spécifique utilisée par la destination dans la payload de destination. Toute identité nécessaire pour une destination cible doit être ingérée dans Platform et configurée en tant qu’identité pour le [!UICONTROL profil client en temps réel].
 
-* Voir [Audience et activation du profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
+* Consultez [Activation d’audience et de profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
 
 ## Procédure de mise en oeuvre pour l’Audience Manager des destinations basées sur les personnes
 
