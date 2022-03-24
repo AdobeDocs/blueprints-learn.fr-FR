@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: d0fd2d638ad14b1cfd3b48d82093b676de465286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 |---|---|---|
 | **[Activation d’audience anonyme](anonymous.md)** | <ul><li>Ciblez des audiences sur le web et les canaux publicitaires pour des données client anonymes et comportementales.</li><li>Intégrez des données d’audience tierces pour une personnalisation accrue.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activation du client connu](known.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
-| **[Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
+| **[Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
 
 ## Architecture du profil client en temps réel
 
