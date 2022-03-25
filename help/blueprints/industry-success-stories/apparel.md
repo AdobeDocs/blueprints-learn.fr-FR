@@ -1,15 +1,15 @@
 ---
 title: Secteur de l’habillement - Activation avec des applications Experience Cloud
 description: Utilisation de plusieurs plans directeurs pour activer le marketing en temps réel, l’activation cross-canal et l’analyse cross-canal.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
-
 
 # Problématique relative au secteur de l’habillement
 
@@ -47,7 +47,3 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 ### Architecture de plan directeur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="miniature représentant une entreprise du secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

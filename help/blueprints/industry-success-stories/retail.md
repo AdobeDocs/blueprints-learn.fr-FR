@@ -1,15 +1,15 @@
 ---
 title: Secteur de la vente au détail - Activation avec des applications Experience Cloud
 description: Diffusion d’expériences client en temps réel sur les médias numériques, par e-mail, par notifications push et sur les canaux web.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: a675bc81-e76c-491a-8718-359867d63351
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # Problématique relative au secteur de la vente au détail
 
@@ -39,7 +39,3 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 ### Architecture de plan directeur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="miniature représentant une entreprise du secteur de la vente au détail offrant des expériences client en temps réel sur les médias numériques, par e-mail, par notifications push et sur les canaux web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

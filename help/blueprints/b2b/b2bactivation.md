@@ -1,11 +1,11 @@
 ---
 title: Activation B2B
 description: Proposez des audiences basées sur les comptes et des expériences client centrées sur les profils grâce à Real-time Customer Data Platform.
-solution: Experience Platform, Real-time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
-workflow-type: ht
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Recommandations sur les principales considérations et configurations du plan di
 
 ## Documentation connexe
 
-* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
+* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=fr)
 * [Adobe Experience Platform - Connecteur source Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=fr)
