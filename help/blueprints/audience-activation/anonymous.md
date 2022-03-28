@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
+source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 41%
+source-wordcount: '380'
+ht-degree: 34%
 
 ---
 
@@ -39,15 +39,13 @@ Microsoft Bing, Google DV360 et TradeDesk sont les Principales destinations publ
 
 <br>
 
-## Étapes d’implémentation
+## Procédure de mise en oeuvre de l’Audience Manager
 
-1. [Implémentation d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr#implementation-integration-guides)
-1. Collectez les données vers Audience Manager.
-1. Configurez les signaux et les traits à utiliser dans les définitions de segments.
-1. Créez des segments dans Audience Manager.
-1. Configurez des destinations dans Audience Manager pour le partage d’audiences.
+* Pour plus d’informations sur la mise en oeuvre de l’Audience Manager, voir : [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr).
 
-Pour connaître les étapes de mise en oeuvre de Real-time Customer Data Platform, reportez-vous à la section [plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Procédure de mise en oeuvre de Real-time Customer Data Platform
+
+* Pour connaître les étapes de mise en oeuvre de Real-time Customer Data Platform, voir : [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Documentation connexe
 
