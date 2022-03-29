@@ -1,13 +1,13 @@
 ---
 title: Plan directeur du centre d’activité client
 description: '"Recherches de [!UICONTROL profil client en temps réel] pour fournir un contexte pour l’aide et les ventes assistées par un agent."'
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 687e5d61be990b7a837e413d4643cffde4f1d584
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,5 +49,5 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 * [Description d’Adobe Experience Platform Activation](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentation sur [[!UICONTROL le profil client en temps réel]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
-* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* [Garde-fous pour le profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API de recherche de profil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
