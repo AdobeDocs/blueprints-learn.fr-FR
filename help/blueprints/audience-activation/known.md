@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
-* Les destinations basées sur les personnes d’Audience Manager peuvent également être utilisées pour l’activation des personnes selon Facebook, LinkedIn et la correspondance client Google.
+* Les destinations basées sur les personnes d’Audience Manager peuvent également être utilisées pour l’activation des personnes dans Facebook, LinkedIn et le ciblage par liste de clients (Customer Match) de Google.
 
 ## Architecture
 
-### Activation de client connue via Real-time Customer Data Platform
+### Activation du client connu dans Real-time Customer Data Platform
 
 <img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### Activation connue des clients via les destinations basées sur les personnes d’Audience Manager
+### Activation du client connu à l’aide des destinations basées sur les personnes d’Audience Manager
 
 <img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
 <br>
@@ -47,7 +47,7 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 [Référez-vous aux garde-fous tels que décrits sur la page de présentation de l’activation d’audience et de profil](overview.md).
 
-## Procédure de mise en oeuvre de Real-time Customer Data Platform
+## Procédure de mise en œuvre de Real-time Customer Data Platform
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
@@ -64,11 +64,11 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 * Consultez [Activation d’audience et de profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
 
-## Procédure de mise en oeuvre pour l’Audience Manager des destinations basées sur les personnes
+## Procédure de mise en œuvre des destinations basées sur les personnes d’Audience Manager
 
-* Pour plus d’informations sur la mise en oeuvre de l’Audience Manager, voir : [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr).
+* Pour plus d’informations sur la mise en œuvre d’Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) suivante.
 
-* Pour plus d’informations sur l’implémentation des destinations basées sur les personnes en Audience Manager, voir : [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* Pour plus d’informations sur l’implémentation des destinations basées sur les personnes dans Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=fr) suivante.
 
 ## Documentation connexe
 

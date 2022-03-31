@@ -7,7 +7,7 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ L’activation avec les applications Experience Cloud s’aligne étroitement s
 ## Applications
 
 * Adobe Experience Platform
-* [!UICONTROL Real-time Customer Data Platform]
+* [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Applications Experience Cloud
    * Adobe Audience Manager
@@ -58,7 +58,7 @@ Référez-vous aux [garde-fous décrits sur la page de présentation d’Audienc
 
 * Les informations de routage régional pour lesquelles Edge le profil d’Audience Manager est stocké peuvent être collectées vers Experience Platform à partir d’Audience Manager, du service d’identification des visiteurs, d’Analytics, de Launch ou directement à partir du SDK web en tant que jeu de données de classe d’enregistrement de profil distinct à l’aide du groupe de champs XDM « informations sur la région de capture de données ».
 
-* Dans les scénarios d’activation où les audiences sont partagées depuis l’Experience Platform pour Audience Manager des identités suivantes sont automatiquement partagées : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID. Actuellement, les espaces de noms personnalisés ne sont pas partagés.
+* Dans les scénarios d’activation où les audiences sont partagées depuis Experience Platform vers Audience Manager, les identités suivantes sont automatiquement partagées : ECID, IDFA, GAID, adresses e-mail hachées (EMAIL_LC_SHA256), AdCloud ID. Actuellement, les espaces de noms personnalisés ne sont pas partagés.
 
 * Les audiences d’Experience Platform peuvent être partagées par le biais des destinations d’Audience Manager lorsque les identités de destination requises sont incluses dans le [!UICONTROL profil client en temps réel], ou lorsque les identités du [!UICONTROL profil client en temps réel] peuvent être reliées aux identités de destination requises qui sont liées dans Audience Manager.
 
