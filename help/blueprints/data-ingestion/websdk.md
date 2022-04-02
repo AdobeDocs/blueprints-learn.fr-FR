@@ -5,10 +5,10 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 Le diagramme d’architecture ci-dessous illustre les chemins d’intégration et la collecte de données à l’aide du SDK web d’Experience Platform.
 
 <img src="assets/web_sdk_flow.png" alt="Architecture de référence pour la mise en œuvre à l’aide du SDK web et mobile Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
+
+Diagramme de séquence
+
+<img src="assets/web_sdk_sequence.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Documentation de référence
 

@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
    + [SDK web Experience Platform](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation à l’aide de données en ligne et hors ligne](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalization client connu](/help/blueprints/web-personalization/known-personalization.md)
