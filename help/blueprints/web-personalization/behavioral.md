@@ -5,9 +5,9 @@ landing-page-description: Découvrez comment personnaliser en fonction du compor
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ Réalise une personnalisation en fonction du comportement en ligne et des donné
 
 Le plan directeur de personnalisation web / mobile peut être mis en œuvre par les approches suivantes, comme indiqué ci-dessous.
 
-1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network].
-1. Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AppMeasurement.js)
-
-### 1. Approche d’utilisation d’Edge et du SDK web ou mobile de Platform
-
-[Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
-
-### 2. Approche d’utilisation d’un SDK spécifique à l’application
-
-[Reportez-vous au plan directeur de SDK spécifique à l’application.](../data-ingestion/appsdk.md)
-
+1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network]. [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
+1. Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AppMeasurement.js). [Reportez-vous au plan directeur de SDK spécifique à l’application.](../data-ingestion/appsdk.md)
 
 ## Étapes d’implémentation
 
