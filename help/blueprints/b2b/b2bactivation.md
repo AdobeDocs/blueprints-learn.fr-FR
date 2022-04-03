@@ -4,10 +4,10 @@ description: Proposez des audiences basées sur les comptes et des expériences 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Diverses sources de données B2B peuvent être utilisées pour mapper les donné
 
 ## Architecture
 
-<img src="assets/b2b-activation.svg" alt="Architecture de référence du plan directeur d’activation B2B" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Architecture de référence du plan directeur d’activation B2B" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Garde-fous
