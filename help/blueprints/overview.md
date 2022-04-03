@@ -2,9 +2,9 @@
 title: Plans directeurs d’expérience digitale
 description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
-workflow-type: ht
-source-wordcount: '255'
+source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les messages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><strong>Orchestration cross-canal</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Orchestration cross-canal</strong></a></div>
     <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation d’audience en ligne / hors ligne</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation du client connu</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><img alt="Image miniature du plan directeur de consolidation des données de comportement digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><strong>Analyse de parcours cross-canal</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Analyse de parcours cross-canal</strong></a></div>
     <p><em>Disposez d’une vue consolidée unique du comportement des clients sur différents canaux.</em></p>
   </td>
 </tr>
