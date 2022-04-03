@@ -4,10 +4,10 @@ description: Activation d’audience en ligne / hors ligne
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,12 +34,12 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 ### Activation du client connu dans Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ### Activation du client connu à l’aide des destinations basées sur les personnes d’Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Garde-fous

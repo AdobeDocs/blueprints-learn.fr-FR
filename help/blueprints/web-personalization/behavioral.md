@@ -5,7 +5,7 @@ landing-page-description: Découvrez comment personnaliser en fonction du compor
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 96%
@@ -31,7 +31,7 @@ Réalise une personnalisation en fonction du comportement en ligne et des donné
 
 ## Architecture
 
-<img src="assets/behavioral_personalization.svg" alt="Architecture de référence pour le plan directeur de personnalisation web" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Architecture de référence pour le plan directeur de personnalisation web" style="width:90%; border:1px solid #4a4a4a" />
 
 
 ## Modèles d’implémentation

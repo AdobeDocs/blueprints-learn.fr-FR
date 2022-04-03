@@ -4,10 +4,10 @@ description: '"Recherches de [!UICONTROL profil client en temps réel] pour four
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 ## Architecture
 
-<img src="assets/customer_activity_hub.svg" alt="Architecture de référence pour le plan directeur du centre d’activité client" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/customer_activity_hub.svg" alt="Architecture de référence pour le plan directeur du centre d’activité client" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Garde-fous
 
