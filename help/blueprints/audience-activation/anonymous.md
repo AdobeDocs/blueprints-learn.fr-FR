@@ -9,7 +9,7 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -39,13 +39,13 @@ Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations pu
 
 <br>
 
-## Procédure de mise en oeuvre de l’Audience Manager
+## Procédure de mise en œuvre d’Audience Manager
 
 * Pour plus d’informations sur la mise en œuvre d’Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) suivante.
 
 ## Procédure de mise en œuvre de Real-time Customer Data Platform
 
-* Pour connaître les étapes de mise en oeuvre de Real-time Customer Data Platform, voir : [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Pour connaître les étapes de mise en œuvre de Real-time Customer Data Platform, consultez la [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html) suivante.
 
 ## Documentation connexe
 
