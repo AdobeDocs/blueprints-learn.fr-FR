@@ -4,10 +4,11 @@ description: Ce plan directeur affiche l’architecture et l’ingestion par le 
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
+source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Le diagramme d’architecture ci-dessous illustre les chemins d’intégration et la collecte de données à l’aide de SDK spécifiques à une application pour la mise en oeuvre.
 
-<img src="assets/app_sdk_flow.png" alt="Architecture de référence pour l’implémentation à l’aide de SDK spécifiques à l’application" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="Architecture de référence pour l’implémentation à l’aide de SDK spécifiques à l’application" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Documentation de référence
 
