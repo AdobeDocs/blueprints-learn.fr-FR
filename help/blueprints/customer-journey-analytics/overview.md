@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 798dec7767938b85d0b8c41438a0782ef179bf68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Voici quelques principaux cas d’utilisation.
 | **[Analyse de parcours cross-canal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr)**  | <ul><li>Ayez une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données de diverses propriétés web, mobiles et hors ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (facultatif)</li></ul>|
 | **[Analyse du parcours de déviation des appels](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=fr)** | <ul><li>Déterminez les comportements les plus révélateurs pour aboutir à des appels assistés par un agent en regroupant les données du centre d’appel avec des données d’interaction web, mobiles et autres.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par agent grâce à un contenu et des outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Architecture des plans directeurs Customer Journey Analytics
+## Garde-fous pour les plans directeurs de Customer Journey Analytics
 
-![Diagramme d&#39;architecture](assets/CJA.svg)
+![Diagramme d’architecture](assets/CJA.svg)
 
 ## Diagramme des garde-fous pour les plans directeurs de Customer Journey Analytics
 
