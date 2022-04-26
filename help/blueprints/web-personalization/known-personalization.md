@@ -1,5 +1,5 @@
 ---
-title: Présentation de Web/Mobile Personalization
+title: Aperçu sur la personnalisation web/mobile
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 landing-page-description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,16 +8,16 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
 
-# Personnalisation web/mobile avec des données client connues
+# Personnalisation web/mobile avec des données client connu
 
 ## Cas d’utilisation
 
-* Personnalisation en ligne avec des données client connues
+* Personnalisation en ligne avec des données client connu
 * Optimisation de la page de destination
 * Personnalisation en fonction des vues précédentes de produit ou de contenu, de l’affinité produit/contenu, des attributs environnementaux et des données démographiques, en plus des informations hors ligne telles que les transactions, les données de fidélité et de gestion de la relation client (CRM), ainsi que des informations modélisées
 * Partagez et ciblez des audiences définies dans Real-time Customer Data Platform sur les sites web et les applications mobiles à l’aide d’Adobe Target.
@@ -26,18 +26,18 @@ ht-degree: 81%
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (facultatif) : Ajoute des données d’audience tierces, une représentation graphique des appareils basée sur Co-op.
+* Adobe Audience Manager (facultatif) : ajoute des données d’audience tierces, une représentation graphique des appareils basée sur la coopération
 * Adobe Analytics (facultatif) : ajoute la possibilité de créer des segments basés sur des données comportementales historiques et une segmentation fine à partir des données d’Adobe Analytics.
 
 ## Modèles d’intégration
 
 | Motif d’intégration | Fonctionnalité | Conditions préalables |
 |---|---|---|
-| Évaluation des segments en temps réel sur le serveur Edge partagé de Real-time Customer Data Platform vers Target | <ul><li>Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.</li><li>En outre, tous les segments évalués en flux continu ou par lots seront également projetés sur le réseau Edge pour être inclus dans l’évaluation et la personnalisation des segments Edge.</li></ul> | <ul><li>Le SDK web/mobile doit être mis en œuvre.</li><li>Le flux de données doit être configuré dans Experience Edge avec l’extension Target et l’extension Experience Platform activée.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
-| Diffusion en continu et partage d’audiences par lots de Real-time Customer Data Platform vers Target via l’approche Edge | <ul><li>Partagez des audiences en continu et par lots à partir de Real-time Customer Data Platform vers Target par le biais d’Edge Network. Les audiences évaluées en temps réel nécessitent la mise en oeuvre de WebSDK et de réseau Edge.</li></ul> | <ul><li>Le SDK Web/Mobile n’est pas nécessaire pour le partage d’audiences par lots et en flux continu vers Target, bien qu’il soit nécessaire pour activer l’évaluation des segments de périphérie en temps réel.</li><li>Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge.</li><li>Pour les recherches d’espace de noms d’identité personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
-| Partage d’audiences en continu et par lots à partir de Real-time Customer Data Platform vers Target et Audience Manager par le biais d’un service de partage d’audience | <ul><li>Ce modèle d’intégration peut être exploité lorsque vous souhaitez enrichir davantage des données et des audiences tierces en Audience Manager.</li></ul> | <ul><li>Le SDK Web/Mobile n’est pas nécessaire pour le partage d’audiences par lots et en flux continu vers Target, bien qu’il soit nécessaire pour activer l’évaluation des segments de périphérie en temps réel.</li><li>Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge.</li><li>Pour les recherches d’espace de noms d’identité personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</li><li>La projection de l’audience par un service de partage d’audience doit être configurée.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
+| Évaluation des segments en temps réel sur le serveur Edge partagé de Real-time Customer Data Platform vers Target | <ul><li>Évaluez les audiences en temps réel pour une personnalisation de même page ou de page suivante sur Edge.</li><li>En outre, tous les segments évalués en flux continu ou par lots seront également projetés sur le réseau Edge pour être inclus dans l’évaluation et la personnalisation des segments Edge.</li></ul> | <ul><li>Le SDK web/mobile doit être mis en œuvre.</li><li>Le flux de données doit être configuré dans Experience Edge avec l’extension Target et l’extension Experience Platform activées.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
+| Diffusion en continu et partage d’audiences par lots de Real-time Customer Data Platform vers Target via l’approche Edge | <ul><li>Partagez des audiences en continu et par lots à partir de Real-time Customer Data Platform vers Target par le biais d’Edge Network. Les audiences évaluées en temps réel nécessitent la mise en œuvre du SDK web et du réseau Edge.</li></ul> | <ul><li>Le SDK web/mobile n’est pas requis pour le partage d’audiences par lots et en continu vers Target, bien qu’il soit nécessaire pour activer l’évaluation de segments en temps réel en périphérie.</li><li>Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge.</li><li>Pour les recherches d’espace de noms d’identité personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
+| Partage d’audiences en continu et par lots à partir de Real-time Customer Data Platform vers Target et Audience Manager par le biais d’un service de partage d’audience | <ul><li>Ce modèle d’intégration peut être utilisé lorsque vous souhaitez enrichir davantage des données et des audiences tierces dans Audience Manager.</li></ul> | <ul><li>Le SDK web/mobile n’est pas requis pour le partage d’audiences par lots et en continu vers Target, bien qu’il soit nécessaire pour activer l’évaluation de segments en temps réel en périphérie.</li><li>Si vous utilisez AT.js, seule la recherche de profil par rapport à l’ECID est prise en charge.</li><li>Pour les recherches d’espace de noms d’identité personnalisé sur Edge, le déploiement du SDK web est requis et chaque identité doit être définie en tant qu’identité dans la carte d’identité.</li><li>La projection de l’audience par un service de partage d’audience doit être configurée.</li><li>La destination Target doit être configurée dans les destinations Real-time Customer Data Platform.</li><li>L’intégration à Target requiert la même organisation IMS que pour l’instance Experience Platform.</li></ul> |
 
-## Partage d’audiences en temps réel, en flux continu et par lots vers Adobe Target
+## Partage d’audiences en temps réel, en flux continu et par lots vers Adobe Target
 
 Architecture
 
@@ -53,19 +53,19 @@ Architecture d’aperçu
 
 ## Modèles d’implémentation
 
-La personnalisation de client connue est prise en charge par plusieurs méthodes d’implémentation.
+La personnalisation par client connu est prise en charge par plusieurs méthodes d’implémentation.
 
-### Modèle de mise en oeuvre 1 - Réseau Edge avec SDK Web/Mobile (approche recommandée)
+### Modèle d’implémentation 1- Réseau Edge avec le SDK web/mobile (approche recommandée)
 
-Utilisation du réseau Edge avec le SDK web/mobile. La segmentation de périphérie en temps réel nécessite l’approche de mise en oeuvre du SDK Web/Mobile ou de l’API Edge.
+Utilisation du réseau Edge avec le SDK web/mobile. La segmentation Edge en temps réel nécessite d’adopter le modèle d’implémentation du SDK web/mobile ou de l’API Edge.
 
 [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../data-ingestion/websdk.md)
 
-### Modèle de mise en oeuvre 2 - SDK spécifiques à l’application
+### Modèles d’implémentation 2 - SDK spécifiques aux applications
 
-Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.js et AppMeasurement.js). L’évaluation des segments de Real-time Edge n’est pas prise en charge à l’aide de cette approche de mise en oeuvre. Cependant, le partage en continu et par lots d’audiences à partir du hub Experience Platform est pris en charge à l’aide de cette approche d’implémentation.
+Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.js et AppMeasurement.js). L’évaluation des segments Edge en temps réel n’est pas prise en charge dans cette méthode d’implémentation. Cependant, le partage des audiences en continu et par lots à partir du hub Experience Platform est pris en charge dans cette méthode d’implémentation.
 
-[Reportez-vous au plan directeur de SDK spécifique à l’application.](../data-ingestion/appsdk.md)
+[Reportez-vous au plan directeur des SDK spécifiques aux applications.](../data-ingestion/appsdk.md)
 
 ### Étapes d’implémentation
 
@@ -75,7 +75,7 @@ Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.
 1. [Configuration du réseau Edge avec un flux de données Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=fr)
 1. [Activation d’Adobe Target en tant que destination dans Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr)
 1. (Facultatif) [Mise en oeuvre de Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr).
-1. (Facultatif) [Demande d’attribution de privilèges d’accès pour le partage d’audiences entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences) pour partager des audiences de l’Experience Platform vers Target.
+1. (Facultatif) [Demandez l’attribution de privilèges d’accès pour le partage d’audiences entre Experience Platform et Adobe Target (audiences partagées)](https://www.adobe.com/go/audiences) pour partager des audiences d’Experience Platform vers Target.
 
 ## Garde-fous
 

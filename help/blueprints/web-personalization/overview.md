@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ La personnalisation web et mobile permet d’utiliser la segmentation de profil 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
 | **[Personnalisation comportementale web ou mobile](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(facultatif)*</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
-| **[Personalization Web/Mobile avec données client connues](known-personalization.md)** | <ul><li>L’intégralité des profils client et l’amélioration de la segmentation offrent des expériences personnalisées optimisées.</li><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation web/mobile avec des données client connu](known-personalization.md)** | <ul><li>L’intégralité des profils client et l’amélioration de la segmentation offrent des expériences personnalisées optimisées.</li><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 
 <br>
 
@@ -31,7 +31,7 @@ La personnalisation web et mobile permet d’utiliser la segmentation de profil 
 
 <br>
 
-### Diagramme de sécurité Personalization client connu
+### Diagramme des garde-fous de personnalisation par client connu
 
 <img src="assets/personalization_guardrails.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
 
