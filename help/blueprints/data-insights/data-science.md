@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '453'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Le Plan directeur sur la data science personnalisée pour l’enrichissement de 
 1. Sélectionnez une langue. Python et PySpark sont pris en charge.
 1. [Créez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=fr) dans le modèle dans le bloc-notes.
 1. [Formez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr).
-1. [Évaluez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) pour générer des prédictions avec les données cibles.
+1. [Évaluez le modèle](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=fr) pour générer des prédictions avec les données cibles.
 1. [Activez le jeu de données des résultats du modèle pour le profil, si vous transférez les résultats du modèle vers le [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=fr).
 
 ## Documentation connexe
