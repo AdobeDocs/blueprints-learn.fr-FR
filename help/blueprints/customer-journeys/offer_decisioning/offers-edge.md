@@ -2,9 +2,10 @@
 title: Offer Decisioning
 description: Diffusez des offres personnalisées aux clients sur l’ensemble des canaux, y compris des kiosques et des expériences assistées par les agents.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 39%
 
 ---
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## Modèles d’implémentation
 
 * Utilisez le SDK Web ou mobile pour le déploiement sur des sites web et des applications mobiles afin de mettre en oeuvre l’Offer decisioning dans lequel le SDK a été déployé.
+   * [Plan directeur SDK Web/Mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=fr)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 Ou
 
-* Pour une mise en oeuvre serveur à serveur, utilisez l’API Edge Network Server pour la mise en oeuvre directe serveur à serveur de l’Offer decisioning. [Lien](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* Pour une mise en oeuvre serveur à serveur, utilisez l’API Edge Network Server pour la mise en oeuvre directe serveur à serveur de l’Offer decisioning.
+   * [API du serveur réseau Edge](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 
