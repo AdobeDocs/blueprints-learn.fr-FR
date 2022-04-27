@@ -1,14 +1,14 @@
 ---
-title: Plan directeur de collecte de données dans le SDK web et mobile
-description: Ce plan directeur présente l’architecture et l’ingestion par le biais du SDK web et mobile d’Experience Platform.
-solution: Data Collection
+title: SDK web/mobile, plan directeur de déploiement réseau Edge
+description: Ce plan directeur affiche l’architecture et l’ingestion par le biais du SDK Web et mobile Experience Platform et du réseau Edge.
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 33%
+source-wordcount: '241'
+ht-degree: 24%
 
 ---
 
