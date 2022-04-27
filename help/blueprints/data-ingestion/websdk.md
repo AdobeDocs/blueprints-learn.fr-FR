@@ -5,19 +5,20 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 36%
+source-wordcount: '237'
+ht-degree: 33%
 
 ---
 
 
 # Présentation
 
-Pour une présentation et des détails sur le SDK Web et Mobile, voir ce qui suit.
+Pour obtenir un aperçu et des détails sur le SDK Web et Mobile, ainsi que sur l’API Edge Network Server, voir ce qui suit.
 * [Présentation du SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)
 * [Présentation du SDK Mobile](https://aep-sdks.gitbook.io/docs/)
+* [API du serveur réseau Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 Pour une description détaillée des fonctionnalités de l’application prises en charge dans le SDK Web, consultez la documentation suivante.
 * [Prise en charge des fonctionnalités de l’application WebSDK](https://github.com/orgs/adobe/projects/18/views/1)
@@ -28,7 +29,7 @@ Pour plus d’informations sur la migration des SDK spécifiques aux application
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics pour Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Déploiement du SDK Web/mobile Experience Platform
+## Déploiement de l’API SDK web/mobile Experience Platform ou du serveur réseau Edge
 
 Le diagramme d’architecture ci-dessous illustre le déploiement et la collecte de données à l’aide du SDK Web Experience Platform.
 
