@@ -3,10 +3,10 @@ title: offer decisioning sur le hub
 description: Diffusez des offres personnalisées aux clients sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des emails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 33%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ Ce plan directeur couvrira les détails de la gestion des décisions sur le hub.
 
 Pour en savoir plus sur la gestion de la décision sur Edge, reportez-vous à la section [Gestion des décisions à la périphérie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) plan directeur.
 
-Pour en savoir plus sur la gestion de la décision, consultez la documentation du produit ICI (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Pour en savoir plus sur la gestion de la décision, consultez la documentation du produit. [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Cas d’utilisation
 
@@ -57,7 +57,8 @@ Adobe Experience Platform
 
 ## Garde-fous
 
-[Lien de produit pour les garde-fous de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Pour les protections Journey Optimizer, reportez-vous aux sections suivantes : [Barrières de sécurité Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Pour les protections d’Offer decisioning, reportez-vous aux sections suivantes : [Description du produit Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### Garde-fous de l’ingestion des données
@@ -108,5 +109,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Gestion des décisions Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Description du produit Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
