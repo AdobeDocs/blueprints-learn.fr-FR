@@ -3,9 +3,9 @@ title: offer decisioning sur le bord
 description: Diffusez des offres personnalisées aux clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
+source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '757'
 ht-degree: 35%
 
 ---
@@ -82,7 +82,6 @@ Ou
 
 * Pour une mise en oeuvre serveur à serveur, utilisez l’API Edge Network Service pour mettre en oeuvre directement serveur à serveur Offer Decisioning.
    * [API du serveur réseau Edge](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API de prise de décision](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
