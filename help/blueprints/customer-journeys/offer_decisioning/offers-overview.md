@@ -2,9 +2,10 @@
 title: Présentation des Offers decisionings
 description: Diffuser des offres personnalisées sur l’ensemble des parcours clients.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
+source-git-commit: 8842b8637a30151577a93653c16b4d37e2cf7c27
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ La fonctionnalité de gestion des décisions se compose de deux composants princ
 
 <img src="../assets/offers_overview.png" alt="Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
-La gestion des décisions peut être déployée de deux façons.
+La gestion des décisions peut être déployée de deux façons, en périphérie ou via le hub. Chacune de ces méthodes comporte un ensemble spécifique d’interfaces et de protocoles pour le fonctionnement du service, comme indiqué dans les plans directeurs respectifs référencés ci-dessous. Vous trouverez des détails supplémentaires dans la documentation de la gestion des décisions. [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## Gestion des décisions sur le hub
 

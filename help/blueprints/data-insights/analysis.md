@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 82%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 L’analyse des données et la Data Intelligence montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données qui existent dans un lac de données.
 
-Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données. [!UICONTROL Data Science Workspace] permet d’effectuer des tâches d’exploration de données, de data science et de machine learning sur les données.
+Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données.
 
-En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI), leur donnant la possibilité d’accéder et d’interroger directement les données dans Experience Platform, par le biais du protocole [!DNL PostgreSQL].
+Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) pour se connecter directement aux données d’Experience Platform, y accéder et les interroger à l’aide de la fonction [!DNL PostgreSQL] protocole .
 
-Certains garde-fous s’appliquent au délai d’expiration de la requête et pour limiter la quantité de données incluse dans le résultat de la requête, comme relevé dans la description du plan directeur.
+Certaines barrières de sécurité s’appliquent au délai d’expiration de la requête et à la quantité de données incluses dans le résultat de la requête, comme indiqué dans la section des barrières de sécurité ci-dessous.
 
 ## Cas d’utilisation
 
@@ -30,7 +30,7 @@ Certains garde-fous s’appliquent au délai d’expiration de la requête et po
 
 ## Applications
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 
 ## Architecture
 
