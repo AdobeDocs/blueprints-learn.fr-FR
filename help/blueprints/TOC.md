@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 91%
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [Présentation](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning sur le bord](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning sur le hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [Offer Decisioning sur Edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [Offer Decisioning sur le hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer avec Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Messagerie tierce](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 91%
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Collecte de données d’entreprise côté serveur](/help/blueprints/data-ingestion/server-side-collection.md)
-   + Déploiement{#deployment}
-      + [SDK web Experience Platform et réseau Edge](/help/blueprints/data-ingestion/websdk.md)
+   + Déploiement {#deployment}
+      + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
