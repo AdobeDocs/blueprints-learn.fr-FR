@@ -4,10 +4,10 @@ description: Ce plan directeur montre comment Data Science Workspace d’Adobe E
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 70%
+source-wordcount: '505'
+ht-degree: 48%
 
 ---
 
@@ -30,6 +30,25 @@ Science des données personnalisées pour le plan directeur d’enrichissement d
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
 1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
+
+Pour que les résultats de modèle soient ingérés dans Real-time Customer Profile, veillez à effectuer les opérations suivantes avant d’ingérer des données :
+
+1. [Configurez les identités et les espaces de noms d’identité corrects](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr) sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.
+1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
+
+## Considérations de mise en œuvre
+
+* Dans la plupart des cas, le résultat du modèle doit être ingéré en tant qu’attributs de profil et non en tant qu’événements d’expérience. Les résultats du modèle peuvent être une chaîne d’attribut simple. Si plusieurs résultats de modèle doivent être ingérés, il est recommandé d’utiliser un champ de type tableau ou map .
+* Le jeu de données d’instantané de profil quotidien, qui est une exportation quotidienne des données d’attribut de profil unifié, peut être utilisé pour entraîner des modèles sur les données d’attribut de profil. La documentation du jeu de données d’instantanés de profil est accessible [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* Pour extraire des données hors d’Experience Platform, les méthodes suivantes peuvent être utilisées :
+   * SDK Data Access
+      * Les données se présentent sous la forme d’un fichier brut.
+      * Les données d’événement d’expérience de profil restent dans leur état brut non unifié.
+   * Destinations RTCDP
+      * Seuls les attributs de profil et les appartenances aux segments peuvent être effacés.
+   * Query Service
+      * L’accès à de grandes quantités de données brutes peut provoquer l’expiration de la requête au délai d’expiration de 10 minutes. Il est recommandé d’interroger les données de manière incrémentielle.
+
 
 ## Documentation connexe
 

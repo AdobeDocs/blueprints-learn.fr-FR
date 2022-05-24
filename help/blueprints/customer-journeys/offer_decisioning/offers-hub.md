@@ -3,10 +3,10 @@ title: Offer Decisioning sur le hub
 description: Diffusez à vos clients des offres personnalisées sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des e-mails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 86%
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
 * Pour les garde-fous d’Offer Decisioning, reportez-vous à la [Description du produit Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
+* Demandes par seconde = 2 000.
+* Latence de la réponse &lt; 500 ms.
+* Accès au profil client en temps réel complet, y compris aux appartenances de l’audience, aux attributs et aux événements d’expérience.
 
 
 ### Garde-fous de l’ingestion des données

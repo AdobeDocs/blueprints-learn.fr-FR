@@ -3,10 +3,10 @@ title: Offer Decisioning sur Edge
 description: Diffusez des offres personnalisées à vos clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 93%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Experience Platform
 
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
 * Pour les garde-fous d’Offer Decisioning, reportez-vous à la [Description du produit Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
+* Demandes par seconde = 5 000.
+* Latence de la réponse &lt; 250 ms.
+* Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil de périphérie seront disponibles dans le profil.
+* Si la personnalisation est requise dans les premières expériences, le hub sera idéal car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
 
 ### Garde-fous de l’ingestion des données
 
