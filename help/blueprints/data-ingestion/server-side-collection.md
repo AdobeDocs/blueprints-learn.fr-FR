@@ -4,16 +4,16 @@ description: Diffusez les données collectées par les SDK d’Adobe Experience 
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 86%
 
 ---
 
-# Plan directeur pour la collecte de données d’entreprise côté serveur
+# Plan directeur de transfert d’événements
 
-Le plan directeur pour la collecte de données d’entreprise côté serveur montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
+Le plan directeur de transfert d’événements indique comment les données collectées avec les SDK web et mobiles Adobe Experience Platform peuvent être transférées d’Experience Platform Edge Network vers une destination donnée. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
 
 ## Cas d’utilisation
 
@@ -22,7 +22,7 @@ Le plan directeur pour la collecte de données d’entreprise côté serveur mon
 
 ## Applications
 
-* Collecte Adobe Experience Platform
+* Collecte de données dʼAdobe Experience Platform
 
 ## Architecture
 
