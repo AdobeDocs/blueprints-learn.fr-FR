@@ -3,10 +3,10 @@ title: Journey Optimizer avec plan directeur Adobe Campaign
 description: Illustre l’utilisation d'Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
-workflow-type: ht
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Illustre l’utilisation d&#39;Adobe Journey Optimizer avec Adobe Campaign pou
    * Segments par diffusion en flux continu (qualification de moins de 5 minutes)
 * Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
 * Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
-* L’Offer Decisioning n’est pas pris en charge.
+* Gestion des décisions non prise en charge
 * Les événements métier ne sont pas pris en charge.
 * Intégrations sortantes vers des systèmes tiers :
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
@@ -76,7 +76,7 @@ Illustre l’utilisation d&#39;Adobe Journey Optimizer avec Adobe Campaign pou
 * AC (v7) ne prend en charge que le parcours initié par un événement.
    * Aucun parcours initié pour l’abonnement à un segment ou pour un segment
    * Les parcours basés sur les audiences et les événements métier en lecture ne sont pas pris en charge en raison du volume qu’ils peuvent envoyer aux instances d’exécution.
-* Ni AC (v7) ni AC (v8) ne prend en charge l’Offer Decisioning dans les messages.
+* Ni AC (v7) ni AC (v8) ne prennent en charge la gestion des décisions dans les messages
 * Pas de limitation des appels API sortants vers Campaign.
 * Les journaux des messages transactionnels ne sont pas synchronisés nativement avec AEP. Vous devrez investir pour cela dans des actions de consulting. Il est recommandé d’exporter des logs au plus toutes les 4 heures.
 
@@ -108,7 +108,7 @@ Illustre l’utilisation d&#39;Adobe Journey Optimizer avec Adobe Campaign pou
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.

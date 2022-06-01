@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
+source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 96%
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning {#offer-decisioning}
-         + [Présentation](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [Offer Decisioning sur Edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [Offer Decisioning sur le hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+      + Gestion des décisions{#decision-management}
+         + [Présentation](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
+         + [Gestion des décisions à la périphérie](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [Gestion des décisions sur le hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer avec Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Messagerie tierce](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -74,4 +74,4 @@ ht-degree: 96%
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
    + [Personnalisation par client connu](/help/blueprints/web-personalization/known-personalization.md)
-   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
