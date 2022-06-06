@@ -6,7 +6,7 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 02a2f679921e63d99101ec8c20c2d8419b1ff6fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
 ht-degree: 100%
 
@@ -100,13 +100,13 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Activation d’audience anonyme</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=fr">Activation d’audience anonyme</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Activation d’audience en ligne / hors ligne</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec Experience Platform et les applications</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr">Activation avec Experience Platform et les applications</a>
           </li>
         </ul>
       </td>
@@ -146,7 +146,7 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Messagerie par lots</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=fr">Messagerie par lots</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Activation d’audience en ligne / hors ligne</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a>
           </li>
         </ul>
       </td>
@@ -244,10 +244,10 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Activation d’audience en ligne / hors ligne</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec Experience Platform et les applications</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr">Activation avec Experience Platform et les applications</a>
           </li>
         </ul>
       </td>
@@ -268,10 +268,10 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Activation d’audience en ligne / hors ligne</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=fr">Activation d’audience en ligne / hors ligne</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation avec Experience Platform et les applications</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr">Activation avec Experience Platform et les applications</a>
           </li>
         </ul>
       </td>
