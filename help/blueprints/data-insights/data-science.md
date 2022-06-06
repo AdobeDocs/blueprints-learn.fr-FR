@@ -7,17 +7,17 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 48%
+ht-degree: 64%
 
 ---
 
 # Plan directeur sur la data science personnalisée pour l’enrichissement de profil
 
-Science des données personnalisées pour le plan directeur d’enrichissement des profils illustre la manière dont les données de Adobe Experience Platform peuvent être utilisées pour former, déployer et noter des modèles afin de fournir des insights d’apprentissage automatique à Experience Platform et à Real-time Customer Data Platform à partir de la science des données et des outils d’apprentissage automatique. Les insights modélisés peuvent être ingérés dans Experience Platform pour enrichir le profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
+Le Plan directeur sur la science des données personnalisée pour l’enrichissement de profil illustre la manière dont les données d’Adobe Experience Platform peuvent être utilisées pour entraîner, déployer et noter des modèles pour qu’ils fournissent à Experience Platform et à Real-time Customer Data Platform des données en matière de machine learning à partir de la science des données et d’outils de machine learning. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
 ## Cas d’utilisation
 
-* Extrayez des informations et découvrez des modèles à partir de données client, ainsi que des modèles de formation et de notation à partir de ces données.
+* Extrayez des données et découvrez des modèles à partir de données client, et entrainez et notez des modèles à partir de ces données.
 * Enrichir le [!UICONTROL profil client en temps réel] avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et une optimisation des parcours.
 * Former et évaluer des modèles pour déterminer les informations sur les clients telles que la valeur durée de vie client, la propension à convertir ou à se désabonner, les affinités de produit et de contenu et les scores d’engagement.
 
@@ -53,7 +53,7 @@ Pour que les résultats de modèle soient ingérés dans Real-time Customer Prof
 ## Documentation connexe
 
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
 ## Articles de blog connexes
 
