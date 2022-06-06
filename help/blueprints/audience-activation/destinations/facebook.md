@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
    * Examinez le nombre de résultats du segment pour les segments donnés.
    * Examinez le profil qui doit être inclus dans le segment pour vérifier que l’abonnement au segment est inclus dans la partie de l’abonnement au segment du profil.
 1. Configurez la diffusion de l’audience vers la destination dans la configuration de la Destination.
-   * Consultez le [Guide de destination Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) pour plus d’informations sur la configuration de la destination Facebook.
+   * Consultez le [Guide de destination Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=fr) pour plus d’informations sur la configuration de la destination Facebook.
    * Lors de la configuration d’une destination, sélectionnez l’audience que vous souhaitez activer vers la destination.
    * Déterminez la date de début planifiée à laquelle vous souhaitez que le flux de données de destination commence à diffuser l’audience vers la destination.
    * Chaque destination comporte des attributs obligatoires et facultatifs qui seront envoyés.
@@ -90,4 +90,4 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 ## Documentation connexe
 
-Activation des audiences personnalisées Facebook - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+Activation des audiences personnalisées Facebook - [Configuration de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=fr)
