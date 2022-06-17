@@ -4,9 +4,9 @@ description: Illustre comment Adobe Journey Optimizer peut être utilisé avec
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Garde-fous Journey Optimizer supplémentaires :
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Prise en charge de l’authentification : token | password | OAuth2
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d&#39;Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
+* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
 
 <br>
 
@@ -88,7 +88,7 @@ Système de messagerie tiers
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
