@@ -1,19 +1,19 @@
 ---
 title: Plan directeur de transfert d’événements
-description: Diffusez les données collectées par les SDK d’Adobe Experience Platform vers différentes destinations
+description: Diffusez les données collectées par les SDK d’Adobe Experience Platform vers différentes destinations.
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Plan directeur de transfert d’événements
 
-Le plan directeur de transfert d’événements indique comment les données collectées avec les SDK web et mobiles Adobe Experience Platform peuvent être transférées d’Experience Platform Edge Network vers une destination donnée. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
+Le plan directeur de transfert d’événements montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
 
 ## Cas d’utilisation
 
@@ -22,7 +22,7 @@ Le plan directeur de transfert d’événements indique comment les données col
 
 ## Applications
 
-* Collecte de données dʼAdobe Experience Platform
+* Collecte de données dʼAdobe Experience Platform
 
 ## Architecture
 
