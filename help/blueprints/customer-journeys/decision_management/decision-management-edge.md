@@ -1,20 +1,20 @@
 ---
-title: Gestion des décisions à la périphérie
+title: Gestion des décisions sur Edge
 description: Diffusez des offres personnalisées à vos clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Gestion des décisions à la périphérie
+# Journey Optimizer - Gestion des décisions sur Edge
 
-Pour en savoir plus sur la gestion de la décision, consultez la documentation du produit. [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html)
+Pour en savoir plus sur la gestion des décisions, consultez la documentation du produit [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et la présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html?lang=fr).
 
-La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui constituent la gestion des décisions.
+La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 
 La gestion des décisions peut être déployée de deux façons. La première par le biais du hub Adobe Experience Platform, qui est une architecture unique de centre de données. L’approche de type « hub » permet d’exécuter, de personnaliser et de diffuser les offres avec une latence en secondes. L’architecture du hub est donc mieux adaptée aux expériences client qui ne demandent pas de latence inférieure à une seconde, par exemple pour les prises de décisions sur les offres pour les kiosques ou les expériences assistées par agent, telles que dans les centres d’appel ou les interactions en personne.
 
@@ -22,18 +22,18 @@ La seconde approche consiste à utiliser Experience Edge Network, qui est une 
 
 Ce plan directeur couvrira les détails de la gestion des décision sur Edge.
 
-Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au plan directeur [Gestion des décisions sur le hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html).
+Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au plan directeur [Gestion des décisions sur le hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html?lang=fr).
 
-## Cas d’utilisation de la gestion des décisions sur le serveur Edge
+## Cas d’utilisation de la gestion des décisions sur Edge
 
-* Personnalisation en ligne via des expériences entrantes web ou mobiles.
+* Personnalisation en ligne via des expériences entrantes web ou mobiles
 * Exécution de parcours cross-canal : offre une cohérence entre les canaux web, mobile, par e-mail et les autres canaux d’interaction par le biais d’Adobe Journey Optimizer
 
 <br>
 
 ## Architecture
 
-<img src="../assets/offers_edge.svg" alt="Gestion des décisions de l’architecture de référence sur le plan directeur Edge" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="Plan directeur de la gestion des décisions concernant l’architecture de référence sur Edge" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -41,7 +41,7 @@ Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au p
 
 | Intégration | Description |
 | :-- | :--- |
-| [Gestion des décisions avec Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=fr) | La gestion des décisions peut être intégrée à Adobe Target de sorte que les offres puissent être testées et diffusées en tant qu’expériences Target. |
+| [Gestion des décisions avec Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=fr) | La gestion des décisions peut être intégrée à Adobe Target afin que les offres puissent être testées et diffusées en tant qu’expériences Target. |
 
 ## Conditions préalables
 
@@ -56,11 +56,11 @@ Adobe Experience Platform
 ## Garde-fous
 
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
-* Pour les garde-fous de la gestion de la décision, reportez-vous aux sections suivantes : [Description du produit Decision Management](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
-* Demandes par seconde = 5 000.
-* Latence de la réponse &lt; 250 ms.
-* Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil de périphérie seront disponibles dans le profil.
-* Si la personnalisation est requise dans les premières expériences, le hub sera idéal car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
+* Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
+* Demandes par seconde = 5 000.
+* Latence de la réponse &lt; 250 ms.
+* Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil sur Edge seront disponibles dans le profil.
+* Si la personnalisation est requise au cours des premières expériences, le hub sera la solution idéale car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience sur Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
 
 ### Garde-fous de l’ingestion des données
 
@@ -76,14 +76,14 @@ Adobe Experience Platform
 
 ## Modèles d’implémentation
 
-* Utilisez le SDK Web ou mobile pour le déploiement sur des sites web et des applications mobiles afin de mettre en oeuvre la gestion de la décision où le SDK a été déployé.
+* Utilisez le SDK web ou mobile pour le déploiement sur des sites web et des applications mobiles afin de mettre en œuvre la gestion des décisions à l’endroit où le SDK a été déployé.
    * [Plan directeur de SDK web ou mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=fr)
    * [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr)
    * [SDK Mobile](https://aep-sdks.gitbook.io/docs/)
 
 Ou
 
-* Pour une mise en oeuvre serveur à serveur basée sur serveur, utilisez l’API Edge Network Service pour la mise en oeuvre directe serveur à serveur de la gestion des décisions.
+* Pour une mise en œuvre serveur à serveur de l’API, utilisez l’API de service Edge Network pour mettre en œuvre directement la gestion des décisions serveur à serveur.
    * [API du serveur Edge Network](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=fr)
 
 <br>
@@ -102,7 +102,7 @@ Ou
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
@@ -115,6 +115,6 @@ Ou
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
-* [Gestion des décisions Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Gestion des décisions Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr)
 * [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Description du produit Adobe Decision Management](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Description du produit de gestion des décisions Adobe](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html)
