@@ -1,31 +1,32 @@
 ---
-title: Plan directeur de la collecte de données Transfert d’événements multi-sandbox
-description: Diffusion en continu des données collectées par les SDK Experience Platform vers plusieurs environnements de test à l’aide du transfert d’événements
+title: Plan directeur de la collecte de données de transfert d’événements multi-sandbox
+description: Diffusion en continu des données collectées par les SDK Experience Platform vers plusieurs sandbox à l’aide du transfert d’événements
 solution: Data Collection
 kt: 7202
-source-git-commit: 8ea7041103f86f034740f00a607ae36ca0b358cf
-workflow-type: tm+mt
+exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
+source-git-commit: 793a92218999185f8a993be528c4830fa07f4865
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Plan directeur de la collecte de données Transfert d’événements multi-sandbox
+# Plan directeur de la collecte de données de transfert d’événements multi-sandbox
 
-Le plan directeur de la collecte de données de transfert d’événements multi-sandbox indique comment les données collectées avec les SDK web et mobiles Adobe Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs sandbox AEP. Ce plan directeur est un cas d’utilisation spécifique qui utilise la fonctionnalité de transfert d’événement des balises d’Adobe.
+Le plan directeur de la collecte de données de transfert d’événements multi-sandbox indique comment les données collectées avec les SDK web et mobiles Adobe Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs sandbox AEP. Ce plan directeur est un cas d’utilisation spécifique qui utilise la fonctionnalité de transfert d’événement des balises d’Adobe.
 
-En plus de répliquer l’événement, à l’aide des fonctionnalités de transfert d’événement , vous pouvez ajouter, filtrer ou manipuler les données collectées d’origine qui répondent aux exigences d’autres environnements de test. Par exemple, l’environnement de test A doit recevoir tous les éléments de données d’événement et l’environnement de test B ne doit recevoir que des données autres que les informations d’identification personnelle.
+En plus de répliquer l’événement, grâce aux fonctionnalités de transfert d’événement vous pouvez ajouter, filtrer ou manipuler les données collectées d’origine qui répondent aux exigences d’autres sandbox. Par exemple, la sandbox A doit recevoir tous les éléments de données d’événement et la sandbox B ne doit recevoir que des données autres que les informations d’identification personnelle.
 
-Le transfert d’événements utilise une propriété Tag distincte qui contient les éléments de données, les règles et les extensions nécessaires à vos besoins de données. Avec un événement entrant, votre propriété de transfert d’événement peut collecter les données et les gérer selon les besoins avant le transfert.
+Le transfert d’événements utilise une propriété de balise distincte qui contient les éléments de données, les règles et les extensions nécessaires à vos besoins de données. Avec un événement entrant, votre propriété de transfert d’événement peut collecter les données et les gérer selon les besoins avant le transfert.
 
-La boîte de réception de votre destination nécessite un point de fin HTTP Streaming qui serait utilisé par l’extension HTTPS de transfert d’événement.
+La boîte de réception de votre destination nécessite un point de sortie de diffusion en continu HTTP qui serait utilisé par l’extension HTTPS de transfert d’événement.
 
 
 
 ## Cas d’utilisation
 
-* Création de rapports de données globales : lorsque vous utilisez plusieurs environnements de test pour isoler les environnements d’exploitation et la nécessité de consolider la collecte de données sur un environnement de test pour la création de rapports entre environnements de test. Le transfert d’événement à un environnement de test de création de rapports permet à chaque environnement d’exploitation de test d’envoyer des données telles qu’elles sont collectées en temps réel à un environnement de test de création de rapports.
-* Gérez la collecte de données dans les environnements de test en fonction de différentes règles de données pour chaque environnement de test. Ces environnements d’exploitation qui nécessitent le filtrage de données sensibles telles que Health Care et Financial Services
+* Création de rapports de données globales : lorsque vous utilisez plusieurs sandbox pour isoler les environnements d’exploitation et la nécessité de consolider la collecte de données sur une sandbox pour la création de rapports entre sandbox. Le transfert d’événement à une sandbox de création de rapports permet à chaque environnement de sandbox d’envoyer des données telles qu’elles sont collectées en temps réel à une sandbox de création de rapports.
+* Gérez la collecte de données dans les sandbox en fonction de différentes règles de données pour chaque sandbox. Les environnements qui nécessitent le filtrage de données sensibles telles que les services de santé et financiers
 
 ## Applications
 
@@ -35,26 +36,26 @@ La boîte de réception de votre destination nécessite un point de fin HTTP Str
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Architecture de référence pour le transfert d’événements multi-sandbox" style="width:90%; border:1px solid #4a4a4a" />
 
-1. Les auteurs de balises définissent une propriété de balise ainsi qu’une propriété de transfert d’événement. Ici, les auteurs définissent les éléments de données, les règles et les actions qui gèrent la collecte de données. Pour rappel, le code de propriété de balise s’exécute sur le client et est distribué par un hôte CDN. Le code de propriété de transfert d’événement s’exécute sur le serveur Adobe Edge.
+1. Les auteurs de balises définissent une propriété de balise ainsi qu’une propriété de transfert d’événement. Les auteurs définissent par ce biais les éléments de données, les règles et les actions qui gèrent la collecte de données. Pour rappel, le code de propriété de balise s’exécute sur le client et est distribué par un hôte CDN. Le code de propriété de transfert d’événement s’exécute sur le serveur Adobe Edge.
 
-1. Les données collectées sur le client sont envoyées au serveur Edge. Les clients ont également la possibilité d’envoyer des données à leur propre serveur en premier lieu en tant que méthode de collecte côté serveur.
-WebSDK peut fournir une fonctionnalité de collecte de serveur à serveur. Toutefois, cela nécessite un modèle de programmation différent à mettre en oeuvre. Consultez la documentation **Présentation de l’API du serveur réseau Edge** below
+1. Les données collectées sur le client sont envoyées au serveur Edge. Les clients ont également la possibilité d’envoyer des données à leur propre serveur en premier lieu en suivant la méthode de collecte côté serveur.
+Le SDK web peut fournir une fonctionnalité de collecte de serveur à serveur. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Consultez la documentation de **présentation de l’API du serveur Edge Network** ci-dessous.
 
-1. Platform Edge Server reçoit les payloads de collecte de données et orchestre le flux de données vers les systèmes requis tels que Target et Analytics.
+1. Le serveur Platform Edge reçoit les payloads de collecte de données et orchestre le flux de données vers les systèmes requis tels que Target et Analytics.
 
-1. Propriété de transfert d’événement Les éléments de données sont utilisés pour accéder aux données d’événement arrivant dans la payload. Des règles peuvent également être utilisées pour manipuler les données d’événement selon les besoins avant le transfert. Par exemple, formatage des données dans le fichier XDM requis pour l’ingestion de données par flux
+1. Les éléments de données de propriété de transfert d’événement sont utilisés pour accéder aux données d’événement arrivant dans le payload. Les règles peuvent également être utilisées pour manipuler les données d’événement en fonction des besoins avant le transfert. Par exemple, le formatage des données dans le fichier XDM requis pour l’ingestion de données par flux
 
-1. Le transfert d’événements fournit l’extension HTTPS qui permet de transférer les données d’événement vers un point de terminaison HTTPS.
+1. Le transfert d’événements fournit l’extension HTTPS qui permet de transférer les données d’événement vers un point de sortie HTTPS.
 
-1. L’environnement de test 2 est configuré avec un point de fin de diffusion qui reçoit l’événement transféré.
+1. La sandbox 2 est configurée avec un point de sortie de diffusion qui reçoit l’événement transféré.
 
 ## Documentation connexe
 
 * [Documentation sur le transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr)
 * [Vidéos sur le transfert d’événement](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=fr)
 * Tutoriel relatif au [cours sur le transfert d’événement](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=fr) du SDK web
-* [Présentation du SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
-* [Présentation de l’API du serveur réseau Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
+* [Présentation du SDK web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
+* [Présentation de l’API de serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
 ## Articles de blog connexes
 
