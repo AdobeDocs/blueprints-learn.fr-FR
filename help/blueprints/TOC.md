@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Gestion des décisions{#decision-management}
+      + Gestion des décisions {#decision-management}
          + [Présentation](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestion des décisions sur Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Gestion des décisions sur le hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
@@ -62,7 +62,7 @@ ht-degree: 94%
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Transfert d’événement](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Collecte de données multi-environnements Sandbox](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
+   + [Collecte de données sur plusieurs sandbox](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Déploiement {#deployment}
       + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
