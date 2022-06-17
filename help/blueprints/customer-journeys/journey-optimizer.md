@@ -4,9 +4,9 @@ description: Exécutez des expériences et messages déclenchés à l’aide d�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 | Scénario | Description | Fonctionnalités |
 | :-- | :--- | :--- |
-| [Messagerie tierce](3rd-party-messaging.md) | Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées. | Diffusez des communications personnalisées aux clients dès qu’ils interagissent avec votre marque ou votre entreprise.<br><br>Remarques :<br><ul><li>Le système tiers doit prendre en charge les jetons porteur pour l’authentification.</li><li>Les adresses IP statiques ne sont pas prises en charge en raison d’une architecture multi-locataire.</li><li>Prenez en compte les contraintes architecturales concernant le système tiers lorsqu’il s’agit d’appels API par seconde.  Le client peut avoir besoin d’acheter du volume supplémentaire auprès du fournisseur tiers pour prendre en charge le volume provenant de Journey Optimizer.</li><li>Ne prend pas en charge la gestion des décisions dans les messages ou les payloads</li></ul> |
+| [Messagerie tierce](3rd-party-messaging.md) | Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées. | Diffusez des communications personnalisées aux clients dès qu’ils interagissent avec votre marque ou votre entreprise.<br><br>Remarques :<br><ul><li>Le système tiers doit prendre en charge les jetons porteur pour l’authentification.</li><li>Les adresses IP statiques ne sont pas prises en charge en raison d’une architecture multi-locataire.</li><li>Prenez en compte les contraintes architecturales concernant le système tiers lorsqu’il s’agit d’appels API par seconde.  Le client peut avoir besoin d’acheter du volume supplémentaire auprès du fournisseur tiers pour prendre en charge le volume provenant de Journey Optimizer.</li><li>Gestion des décisions non prise en charge dans les messages ou les payloads</li></ul> |
 
 <br>
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 | Intégration | Description | Fonctionnalités |
 | :-- | :--- | :--- |
-| [Journey Optimizer avec Adobe Campaign](ajo-and-campaign.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et utiliser le système de messagerie transactionnelle Adobe Campaign natif pour envoyer le message. | Exploite les profils clients en temps réel et la puissance de Journey Optimizer pour orchestrer les expériences en temps réel tout en utilisant les fonctionnalités natives de messagerie en temps réel d’Adobe Campaign pour effectuer la communication du « dernier kilomètre ».<br><br>Remarques :<br><ul><li>L’application Campaign doit être soit la version v7 build >21.1, soit la v8.</li><li>Débit des messages</li><ul><li>Campaign v7 : jusqu’à 50 000 par heure</li><li>Campaign v8 : jusqu’à 1 million par heure</li><li>Campaign Standard : jusqu’à 50 000 par heure</li></ul><li>Aucune limitation n’est effectuée, de sorte que les cas d’utilisation doivent être vérifiés par un architecte d’entreprise.</li><li>Pas de prise en charge de l’utilisation de la gestion des décisions dans les messages envoyés par Campaign</li></ul> |
+| [Journey Optimizer avec Adobe Campaign](ajo-and-campaign.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et utiliser le système de messagerie transactionnelle Adobe Campaign natif pour envoyer le message. | Exploite les profils clients en temps réel et la puissance de Journey Optimizer pour orchestrer les expériences en temps réel tout en utilisant les fonctionnalités natives de messagerie en temps réel d’Adobe Campaign pour effectuer la communication du « dernier kilomètre ».<br><br>Remarques :<br><ul><li>L’application Campaign doit être soit la version v7 build >21.1, soit la v8.</li><li>Débit des messages</li><ul><li>Campaign v7 : jusqu’à 50 000 par heure</li><li>Campaign v8 : jusqu’à 1 million par heure</li><li>Campaign Standard : jusqu’à 50 000 par heure</li></ul><li>Aucune limitation n’est effectuée, de sorte que les cas d’utilisation doivent être vérifiés par un architecte d’entreprise.</li><li>Utilisation de la gestion des décisions non prise en charge dans les messages envoyés par Campaign</li></ul> |
 
 <br>
 
@@ -78,7 +78,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 * Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
 * Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
-* Prend en charge de manière native la gestion des décisions dans les messages uniquement (aucune action personnalisée).
+* Gestion des décisions prise en charge de façon native uniquement dans les messages (et non dans les actions personnalisées)
 * Types de message pris en charge :
    * E-mail
    * Push (FCM/APNS)
@@ -87,7 +87,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Authentification par utilisateur/passage ou jeton d’autorisation
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d&#39;Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
+* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
 
 ### Garde-fous de l’ingestion des données
 
@@ -115,7 +115,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
@@ -126,7 +126,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 ### Journey Optimizer
 
-1. Configurez votre source de données Experience Platform et déterminez les champs à mettre en cache dans le cadre des données profileStreaming utilisées pour lancer un parcours client. Vous devez d’abord configurer Journey Optimizer pour obtenir un ID d’orchestration. Cet ID d’orchestration est ensuite fourni au développeur pour l’utiliser lors de l’ingestion
+1. Configurez votre source de données Experience Platform et déterminez les champs à mettre en cache dans le cadre des données profileStreaming utilisées pour lancer un parcours client. Vous devez d’abord configurer Journey Optimizer pour obtenir un ID d’orchestration. Cet ID d’orchestration est ensuite fourni au développeur pour l’utiliser lors de l’ingestion.
 1. Configurez des sources de données externes.
 1. Configurez des actions personnalisées.
 
