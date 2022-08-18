@@ -5,9 +5,9 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 L’analyse des données, la data intelligence et l’IA / ML montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 
 Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données. En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI), leur donnant la possibilité d’accéder et d’interroger directement les données dans Experience Platform, par le biais du protocole [!DNL PostgreSQL].
-
-[!UICONTROL Data Science Workspace] permet d’effectuer des tâches d’exploration de données, de data science et de machine learning sur les données. Les modèles peuvent être formés, évalués et mis en œuvre pour enrichir davantage les profils clients et faire apparaître des informations plus approfondies sur les comportements et expériences des clients.
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|

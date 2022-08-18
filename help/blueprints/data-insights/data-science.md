@@ -1,19 +1,19 @@
 ---
 title: Plan directeur sur la data science personnalisée pour l’enrichissement de profil
-description: Ce plan directeur montre comment Data Science Workspace d’Adobe Experience Platform utilise les données dans Experience Platform pour former, déployer et évaluer des modèles afin de fournir des informations de machine learning à partir des données.
+description: Ce plan directeur montre comment ingérer des insights basés sur la science des données dans Experience Platform pour enrichir Real-time Customer Profile.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Plan directeur sur la data science personnalisée pour l’enrichissement de profil
 
-Le Plan directeur sur la science des données personnalisée pour l’enrichissement de profil illustre la manière dont les données d’Adobe Experience Platform peuvent être utilisées pour entraîner, déployer et noter des modèles pour qu’ils fournissent à Experience Platform et à Real-time Customer Data Platform des données en matière de machine learning à partir de la science des données et d’outils de machine learning. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
+Science des données personnalisées pour le plan directeur d’enrichissement des profils illustre la manière dont les données peuvent être utilisées pour former, déployer et noter des modèles afin de fournir des insights d’apprentissage automatique à Experience Platform et Real-time Customer Data Platform à partir de la science des données et des outils d’apprentissage automatique. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
 ## Cas d’utilisation
 
@@ -38,17 +38,14 @@ Pour que les résultats de modèle soient ingérés dans le profil client en tem
 
 ## Considérations de mise en œuvre
 
-* Dans la plupart des cas, le résultat du modèle doit être ingéré dans les attributs de profil et non en tant qu’événements d’expérience. Les résultats du modèle peuvent être une chaîne d’attribut simple. Si plusieurs résultats de modèle doivent être ingérés, il est recommandé d’utiliser un champ de type tableau ou map.
+* Dans la plupart des cas, le résultat du modèle doit être ingéré dans les attributs de profil et non en tant qu’événements d’expérience. Les résultats du modèle peuvent être des chaînes d’attribut simples. Si plusieurs résultats de modèle doivent être ingérés, il est recommandé d’utiliser un champ de type tableau ou map.
 * Les jeux de données des instantané de profils quotidiens, qui correspondent à l’exportation quotidienne des données d’attribut de profil unifié, peuvent être utilisés pour entraîner des modèles sur les données d’attribut de profil. La documentation concernant les jeux de données des instantanés de profils est accessible [ici](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=fr#profile-attribute-datasets).
 * Pour extraire des données d’Experience Platform, les méthodes suivantes peuvent être utilisées :
    * Le SDK d’accès aux données
       * Les données se présentent sous la forme d’un fichier brut.
       * Les données d’événement d’expérience de profil restent dans leur état brut non unifié.
    * Destinations RTCDP
-      * Seuls les attributs de profil et les appartenances aux segments peuvent être effacés.
-   * Service de requête
-      * L’accès à de grandes quantités de données brutes peut provoquer l’expiration de la requête après 10 minutes. Il est recommandé d’interroger les données de manière incrémentielle.
-
+      * Les attributs de profil et les appartenances aux segments peuvent être effacés.
 
 ## Documentation connexe
 
