@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
+source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 97%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 97%
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
    + [Partage d’audiences CJA vers RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [CJA et Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Parcours clients {#customer-journeys}
    + [Présentation](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
