@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Platform permet des connexions avec des clients SQL tiers, des inter
 * Accès aux lignes et colonnes des données ingérées pour exploration et validation
 * Tableau de bord et visualisation des données via les outils de Business Intelligence
 
-D’autres cas d’utilisation courants pour le service de requête sont décrits ici [Cas d’utilisation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+D’autres cas d’utilisation courants pour le Query Service sont décrits ici : [Cas d’utilisation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=fr)
 
 ## Applications
 
@@ -39,15 +39,15 @@ D’autres cas d’utilisation courants pour le service de requête sont décrit
 ## Garde-fous
 
 Reportez-vous à la documentation du produit Query Service pour plus d’informations sur les bonnes pratiques et les garde-fous.
-[Conseils d’utilisation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
+[Conseils d’utilisation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)
 
 ## Étapes d’implémentation
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
 1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
-1. Vérifiez que les données sont disponibles pour [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=fr).
-1. [Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) pour la visualisation, les requêtes de données et l’exploration.
+1. Vérifiez que les données sont disponibles pour [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=fr).
+1. [Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=fr) pour la visualisation, les requêtes de données et l’exploration.
 
 ## Documentation connexe
 
