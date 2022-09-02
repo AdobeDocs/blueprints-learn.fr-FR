@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
-   + [Activation d’audience anonyme](/help/blueprints/audience-activation/anonymous.md)
-   + Activation du client connu {#known-customer-audience-activation}
+   + [Activation d’audience anonyme (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Activation de client connue (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + Activation des canaux Social et Advertising {#audience-activation}
          + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation comportementale](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation par client connu](/help/blueprints/web-personalization/known-personalization.md)
+   + [Personnalisation comportementale - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personnalisation connue des clients - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
