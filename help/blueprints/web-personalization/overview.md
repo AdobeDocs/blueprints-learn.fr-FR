@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ La personnalisation web et mobile permet d’utiliser la segmentation de profil 
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Personnalisation comportementale web ou mobile](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(facultatif)*</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
-| **[Personnalisation web/mobile avec des données client connu](known-personalization.md)** | <ul><li>L’intégralité des profils client et l’amélioration de la segmentation offrent des expériences personnalisées optimisées.</li><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics ou Customer Journey Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation comportementale web ou mobile](behavioral.md)** | <ul><li>Personnalisation en fonction du comportement en ligne et des données d’audience.</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(facultatif)*</li><li>Adobe Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
+| **[Personnalisation web/mobile avec des données client connu](known-personalization.md)** | <ul><li>L’intégralité des profils client et l’amélioration de la segmentation offrent des expériences personnalisées optimisées.</li><li>Réalisez des personnalisations avec des attributs et événements hors ligne (transactions, réservations, CRM, et degré de fidélité).</li><li>Synchronisez la personnalisation sur le web, la messagerie électronique et d’autres canaux connus.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics ou Customer Journey Analytics *(facultatif)*</li><li>Adobe Audience Manager *(facultatif)*</li></ul> |
 
 <br>
 
 ## Garde-fous pour la personnalisation web et mobile.
 
-[Pour les garde-fous relatifs à l’activation des audiences et des profils, reportez-vous à la documentation sur les garde-fous de profil et de segmentation.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+[Pour les garde-fous relatifss à l’activation des audiences et des profils, reportez-vous à la documentation sur les garde-fous de profil et de segmentation.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 <br>
 
