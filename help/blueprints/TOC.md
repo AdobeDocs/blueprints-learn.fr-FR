@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
+source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 90%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 0%
          + [Activation du ciblage par liste de clients Google](/help/blueprints/audience-activation/destinations/gcm.md)
       + [Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
+      + [Correspondance de segment](/help/blueprints/audience-activation/segment-match.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Correspondance de segment](/help/blueprints/audience-activation/segment-match.md)
 + Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
