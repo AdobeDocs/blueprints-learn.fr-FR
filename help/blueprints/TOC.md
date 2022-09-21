@@ -5,7 +5,7 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 833524d20fe69a08a299035020e29d2d877b797d
+source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -27,6 +27,9 @@ ht-degree: 0%
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
+   + Modèles de déploiement{#deployment}
+      + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
 + Activation des audience et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -61,14 +64,11 @@ ht-degree: 0%
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP avec Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ Collecte et préparation des données {#data-ingestion}
++ Ingestion des données et exportation de données{#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Transfert d’événement](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Collecte de données sur plusieurs sandbox](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-   + Déploiement {#deployment}
-      + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
