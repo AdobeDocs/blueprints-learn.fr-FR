@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 90%
    + Modèles de déploiement{#deployment}
       + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
-+ Activation des audience et des profils {#audience-activation}
++ Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
-   + [Activation d’audience anonyme (AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + Activation de client connue (RTCDP) {#known-customer-audience-activation}
+   + [Activation d’audience anonyme  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Activation des clients connus (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + Activation des canaux Social et Advertising {#audience-activation}
          + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -75,6 +75,6 @@ ht-degree: 90%
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation comportementale - Target](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation connue des clients - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
+   + [Personnalisation comportementale  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personnalisation des clients connus - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
