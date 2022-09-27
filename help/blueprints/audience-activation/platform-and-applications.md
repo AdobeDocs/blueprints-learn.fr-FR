@@ -4,10 +4,10 @@ description: Gérez les profils et les audiences dans Experience Platform et par
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Référez-vous aux [garde-fous décrits sur la page de présentation d’Audienc
 
 ### Partage d’audiences de Real-time Customer Data Platform vers Target
 
-* Consultez [Personnalisation web/mobile avec le plan directeur des données en ligne et hors ligne](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=fr) pour obtenir plus d’informations sur le partage de profils et d’audiences de Real-time Customer Data Platform vers Target.
+* Voir [Personnalisation connue des clients - Plan directeur Target et RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) pour plus d’informations sur le partage de profils et d’audiences de Real-time Customer Data Platform vers Target.
 
 ### Partage d’audiences de Real-time Customer Data Platform vers Campaign et Journey Optimizer
 

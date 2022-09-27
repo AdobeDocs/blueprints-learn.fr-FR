@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,12 @@ ht-degree: 0%
 # Plans directeurs d’expérience digitale {#architecture}
 
 + [Présentation](/help/blueprints/overview.md)
-+ [Voir tous les cas d’utilisation](/help/blueprints/use-cases.md)
 + Plans directeurs verticaux du secteur{#vertical-blueprints}
-   + [Présentation](/help/blueprints/industry-success-stories/overview.md)
-   + [Habillement](/help/blueprints/industry-success-stories/apparel.md)
-   + [Vente au détail](/help/blueprints/industry-success-stories/retail.md)
-   + [Télécommunications](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Tourisme et hôtellerie](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Présentation](/help/blueprints/vertical-blueprints/overview.md)
+   + [Habillement](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Vente au détail](/help/blueprints/vertical-blueprints/retail.md)
+   + [Télécommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [Tourisme et hôtellerie](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Aperçu de l’architecture {#architecture-overview}
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
