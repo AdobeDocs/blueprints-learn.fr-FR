@@ -2,16 +2,16 @@
 title: Correspondance de segment
 description: En savoir plus sur [!UICONTROL Correspondance de segment] pour Adobe Experience Platform (AEP). [!UICONTROL Correspondance de segment] est un service de collaboration de données qui vous permet d’échanger des données de segment d’après des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 solution: Experience Platform
-source-git-commit: a4ae1eaa864f85144b8bdfbff23b4389847c8cfa
+source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
 
 # Correspondance de segment
 
-La clé pour les marques est de se connecter avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires avec des partenaires clés.
+La correspondance de segment permet aux marques partenaires de partager des audiences dans leurs environnements Experience Platform respectifs. La clé pour les marques est de se connecter avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires avec des partenaires clés.
 
 [!UICONTROL Correspondance de segment] est un service de collaboration des données qui permet aux clients Experience Platform (AEP) (appelés _partenaires_) pour échanger des données de segment en fonction d’identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la confidentialité.
 
