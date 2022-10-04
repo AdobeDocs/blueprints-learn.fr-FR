@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
+source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 94%
+source-wordcount: '213'
+ht-degree: 92%
 
 ---
 
@@ -60,9 +60,10 @@ ht-degree: 94%
       + [Messagerie tierce](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+      + [Real-Time CDP avec Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP avec Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP avec Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + Ingestion des données et exportation de données{#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
