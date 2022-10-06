@@ -1,12 +1,12 @@
 ---
-title: Modèle d’intégration Real-Time CDP avec Adobe Campaign v7
+title: Real-Time CDP avec Adobe Campaign v7 et modèle d’intégration de Campaign Standard
 description: Présente comment Adobe Experience Platform, le Real-Time Customer Profile et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 98%
+source-wordcount: '804'
+ht-degree: 94%
 
 ---
 
@@ -78,6 +78,8 @@ Présente comment Adobe Experience Platform, le Real-Time Customer Profile e
 
 #### Sources / destinations
 
+1. [Sources et destinations Experience Platform et Campaign Standardes](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Sources et destinations Experience Platform et Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
 1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
 1. Configurez la destination de l’enregistrement blob [!DNL Azure] à utiliser avec Adobe Campaign.
 
