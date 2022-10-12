@@ -5,7 +5,7 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: e16ceb50b58fd317232694194ec8c63d0884821d
+source-git-commit: ad83e4e71f82d12b8aa2f3ef98a9614deb666a4c
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -41,11 +41,11 @@ ht-degree: 99%
 
 Architecture
 
-<img src="assets/RTCDP+Target.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
 
 Détails de la séquence
 
-<img src="assets/RTCDP+Target_flow.png" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
 
 Architecture d’aperçu
 
