@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 # Plans directeurs d’expérience digitale {#architecture}
 
 + [Présentation](/help/blueprints/overview.md)
-+ Plans directeurs verticaux du secteur{#vertical-blueprints}
++ Plans directeurs des secteurs verticaux {#vertical-blueprints}
    + [Présentation](/help/blueprints/vertical-blueprints/overview.md)
    + [Habillement](/help/blueprints/vertical-blueprints/apparel.md)
    + [Vente au détail](/help/blueprints/vertical-blueprints/retail.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
-   + [Activation d’audience anonyme  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activation d’audience anonyme   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activation des clients connus (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + Activation des canaux Social et Advertising {#audience-activation}
@@ -69,7 +69,7 @@ ht-degree: 0%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP avec Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer avec Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Ingestion des données et exportation de données{#data-ingestion}
++ Ingestion des données et exportation de données {#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Transfert d’événement](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -80,6 +80,6 @@ ht-degree: 0%
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation comportementale  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personnalisation comportementale   - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personnalisation des clients connus - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
