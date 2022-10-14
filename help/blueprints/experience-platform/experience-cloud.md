@@ -5,19 +5,31 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 64c3ae4c706ef24808818af99e65c2f30f4f5c13
-workflow-type: ht
-source-wordcount: '86'
-ht-degree: 100%
+source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 20%
 
 ---
 
-# Schéma d’architecture d’Adobe Experience Cloud
+# Diagrammes d’architecture Adobe Experience Cloud
 
-Le schéma d’architecture ci-dessous illustre la manière dont Adobe Experience Platform se connecte et s’intègre aux applications Adobe Experience Cloud pour une personnalisation adaptée à tous les projets, pour la diffusion de données, de contenu et d’expérience.
+## Adobe Experience Cloud Marketecture
+
+Le diagramme suivant illustre les différents composants de Adobe Experience Cloud dans Data Insights &amp; Audiences, Content &amp; Commerce, Parcours client, Marketing Workflow, créés et intégrés sur la base de Adobe Experience Platform.
+
+<img src="assets/AEC.jpg" alt="Présentation de l’Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
+<br>
+
+## Architecture d’intégration de Data &amp; Insights, de Content &amp; Commerce et de la diffusion d’expérience
+
+Le diagramme d’architecture ci-dessous illustre la manière dont les différents composants de Adobe Experience Cloud se connectent et s’intègrent pour atteindre la personnalisation à l’échelle entre les données, le contenu et la diffusion d’expérience.
 
 <img src="assets/pers_at_scale.svg" alt="Adobe Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
-Le schéma d’architecture ci-dessous illustre la façon dont les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent dans une architecture d’expérience client d’entreprise.
+
+## Adobe Experience Cloud dans Enterprise Landscape
+
+Le diagramme d’architecture ci-dessous illustre la manière dont les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent à l’architecture de l’expérience client d’entreprise dans les quatre catégories Données, Statistiques, Orchestration et Engagement.
 
 <img src="assets/aec_experience_architecture.svg" alt="Adobe Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
