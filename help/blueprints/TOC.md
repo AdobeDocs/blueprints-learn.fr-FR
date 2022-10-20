@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 84%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 84%
 + Plans directeurs des secteurs verticaux {#vertical-blueprints}
    + [Présentation](/help/blueprints/vertical-blueprints/overview.md)
    + [Habillement](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Soins de santé](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Vente au détail](/help/blueprints/vertical-blueprints/retail.md)
    + [Télécommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Tourisme et hôtellerie](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 84%
    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Modèles de déploiement{#deployment}
+   + Déploiement {#deployment}
       + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
+      + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Activation d’audience anonyme   (AAM)](/help/blueprints/audience-activation/anonymous.md)
