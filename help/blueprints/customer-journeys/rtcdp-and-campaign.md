@@ -5,8 +5,8 @@ solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

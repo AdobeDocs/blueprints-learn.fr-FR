@@ -136,7 +136,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identité  pour Edge Network
+1. Identité   pour Edge Network
 1. Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
