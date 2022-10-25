@@ -6,13 +6,13 @@ exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer - Gestion des décisions sur Edge
 
-Pour en savoir plus sur la gestion des décisions, consultez la documentation du produit [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et la présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en).
+Pour en savoir plus sur la gestion des décisions, consultez la documentation du produit [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et la présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr).
 
 La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 
@@ -22,7 +22,7 @@ La seconde approche consiste à utiliser Experience Edge Network, qui est une 
 
 Ce plan directeur couvrira les détails de la gestion des décision sur Edge.
 
-Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au plan directeur [Gestion des décisions sur le hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en).
+Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au plan directeur [Gestion des décisions sur le hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=fr).
 
 ## Cas d’utilisation de la gestion des décisions sur Edge
 
@@ -77,7 +77,7 @@ Adobe Experience Platform
 ## Modèles d’implémentation
 
 * Utilisez le SDK web ou mobile pour le déploiement sur des sites web et des applications mobiles afin de mettre en œuvre la gestion des décisions à l’endroit où le SDK a été déployé.
-   * [Plan directeur de SDK web ou mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
+   * [Plan directeur de SDK web ou mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=fr)
    * [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr)
    * [SDK Mobile](https://aep-sdks.gitbook.io/docs/)
 

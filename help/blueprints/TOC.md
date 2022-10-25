@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
-   + [Activation d’audience anonyme   (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activation d’audience anonyme    (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activation des clients connus (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + Activation des canaux Social et Advertising {#audience-activation}
@@ -60,17 +60,17 @@ ht-degree: 0%
          + [Gestion des décisions sur le hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer avec Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Messagerie tierce](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard{#campaign-standard}
-      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
-      + [Real-Time CDP avec Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+   + Campaign Standard {#campaign-standard}
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
+      + [Real-Time CDP avec Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=fr)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Real-Time CDP avec Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
-      + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
+      + [Real-Time CDP avec Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP avec Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Journey Optimizer avec Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Real-Time CDP avec Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Journey Optimizer avec Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Ingestion des données et exportation de données {#data-ingestion}
    + [Présentation](/help/blueprints/data-ingestion/overview.md)
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
@@ -82,6 +82,6 @@ ht-degree: 0%
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation comportementale   - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personnalisation comportementale    - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personnalisation des clients connus - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
