@@ -4,9 +4,9 @@ description: Adobe Campaign v8 est l’outil de campagne de nouvelle générat
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 * Campagnes d’intégration et de remarketing
 * Campagnes de publicité, de brochures et de magazines par publipostage direct
 * Messages transactionnels simples (réinitialisation de mot de passe, accusés de réception d’e-mails, confirmations de commandes, etc.)
-* Intégration des données de Campaign à Adobe Experience Platform pour l’analyse et la création de profils
-* Partage des audiences Real-time Customer Data Platform vers Campaign.
+* Intégration des données de Campaign dans Adobe Experience Platform pour l’analyse et la création de profils
+* Partage des audiences Real-time Customer Data Platform avec Campaign.
 
 <br>
 
