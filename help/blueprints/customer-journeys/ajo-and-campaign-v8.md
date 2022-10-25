@@ -1,15 +1,15 @@
 ---
-title: Journey Optimizer avec plan directeur Adobe Campaign v8
+title: Journey Optimizer avec plan directeur Adobe Campaign v8
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1128'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer avec Adobe Campaign v8
+# Journey Optimizer avec Adobe Campaign  v8
 
 Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 
@@ -61,7 +61,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Prise en charge de l’authentification : token | password | OAuth2
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
+* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différentes sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
 
 <br>
 
@@ -77,7 +77,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
    * Les parcours basés sur les audiences et les événements métier en lecture ne sont pas pris en charge en raison du volume qu’ils peuvent envoyer aux instances d’exécution.
 * AC (v7) et AC (v8) ne prennent pas en charge la gestion des décisions dans les messages.
 * Pas de limitation des appels API sortants vers Campaign.
-* Avec Campaign v8.4, il est possible d’utiliser Adobe Campaign Managed Services Source Connector dans Experience Platform pour synchroniser les événements de diffusion et de suivi de Campaign dans Experience Platform. Pour plus d’informations, consultez la documentation du connecteur source . [Lien](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Avec Campaign v8.4, il est possible d’utiliser le connecteur source Adobe Campaign Managed Services dans Experience Platform pour synchroniser les événements de diffusion et de suivi de Campaign dans Experience Platform. Pour plus d’informations, consultez la documentation sur les connecteurs source. [Lien](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr)
 
 <br>
 
@@ -96,7 +96,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 #### Profil / identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
-1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
@@ -114,8 +114,8 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 ### Campaign v8
 
 * Les modèles de messagerie doivent être configurés avec un contexte de personnalisation approprié.
-* Pour Campaign Standard - Les workflows d’export doivent être configurés pour réexporter les logs des messages transactionnels vers l’Experience Platform. La recommandation est d’exécuter au plus toutes les 4 heures.
-* Pour Campaign v8.4, il est possible d’utiliser Adobe Campaign Managed Services Source Connector dans Experience Platform pour synchroniser les événements de diffusion et de suivi de Campaign dans Experience Platform. Pour plus d’informations, consultez la documentation du connecteur source . [Lien](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Pour Campaign Standard, les workflows d’export doivent être configurés pour réexporter les logs des messages transactionnels vers Experience Platform. Il est recommandé d’effectuer des exécutions au plus toutes les quatre heures.
+* Pour Campaign v8.4, il est possible d’utiliser le connecteur source Adobe Campaign Managed Services dans Experience Platform pour synchroniser les événements de diffusion et de suivi de Campaign dans Experience Platform. Pour plus d’informations, consultez la documentation sur les connecteurs source. [Lien](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr)
 
 ### Configuration des notifications push mobiles (facultatif)
 
@@ -123,7 +123,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identité  pour Edge Network
+   * Identité    pour Edge Network
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
