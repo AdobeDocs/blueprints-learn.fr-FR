@@ -3,10 +3,10 @@ title: Experience Platform et protections d’application
 description: Les barrières de sécurité définissent les attentes en matière de performances et l’impact pour les composants et services dans Adobe Experience Platform et les applications.
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -27,6 +27,8 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 [Barrières de sécurité des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [Barrières de sécurité de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[Barrières de sécurité de l’activation de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Barrières de sécurité Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
