@@ -3,7 +3,7 @@ title: Experience Platform et protections d’application
 description: Les barrières de sécurité définissent les attentes en matière de performances et l’impact pour les composants et services dans Adobe Experience Platform et les applications.
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
+source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 30%
@@ -13,7 +13,7 @@ ht-degree: 30%
 
 # Garde-fous
 
-Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les barrières de sécurité sont conçues pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture du client et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit liée ci-dessous.
+Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les barrières de sécurité sont conçues pour refléter les contraintes de système et les attentes de performances afin de faciliter l’architecture des clients et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit liée ci-dessous.
 
 
 ## Barrières de sécurité pour Adobe Experience Platform et les applications
