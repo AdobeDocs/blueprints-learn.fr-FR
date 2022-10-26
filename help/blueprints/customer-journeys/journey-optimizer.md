@@ -3,7 +3,7 @@ title: Journey Optimizer - Plan directeur pour Adobe Experience Platform et l
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 ### Garde-fous d’activation
 
-<img src="../experience-platform/assets/activation-latency.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -136,7 +136,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identité   pour Edge Network
+1. Identité    pour Edge Network
 1. Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
