@@ -3,10 +3,10 @@ title: Experience Platform et protections d’application
 description: Les barrières de sécurité définissent les attentes en matière de performances et l’impact pour les composants et services dans Adobe Experience Platform et les applications.
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
+source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 30%
+source-wordcount: '285'
+ht-degree: 25%
 
 ---
 
@@ -38,15 +38,19 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 ### Ingestion des données
 
-Le diagramme ci-dessous illustre les principaux garde-fous de performance et la latence de l’ingestion de données dans Adobe Experience Platform.
-
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Segmentation
+
+<img src="../assets/segmentation_guardrails.svg" alt="Barrières de sécurité de la segmentation des Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/activation-latency.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
