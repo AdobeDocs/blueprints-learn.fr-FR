@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
@@ -46,8 +46,7 @@ L’illustration ci-dessous présente les différentes méthodes de segmentation
 
 ## Garde-fous pour les plans directeurs d’activation d’audience et de profil
 
-* [Lignes directrices relatives au profil et à la segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
-
+* Pour des garde-fous détaillés et des latences de bout en bout, reportez-vous à la section [document des protections de déploiement](../experience-platform/deployment/guardrails.md) et le [Barrières de sécurité de profil et de segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 ### Activation des attributs et des identités
 

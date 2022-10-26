@@ -4,10 +4,10 @@ description: Proposez des audiences basées sur les comptes et des expériences 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,10 @@ Diverses sources de données B2B peuvent être utilisées pour mapper les donné
 
 ## Garde-fous
 
-Notez que les garde-fous de sécurité et les étapes de mise en œuvre liées à Marketo Engage ne sont pertinentes que lorsque Marketo Engage est utilisé comme source ou comme destination.
+* Notez que les garde-fous de sécurité et les étapes de mise en œuvre liées à Marketo Engage ne sont pertinentes que lorsque Marketo Engage est utilisé comme source ou comme destination.
+
+* Pour plus d’informations et de garde-fous sur les latences de bout en bout, reportez-vous à la section [document des protections de déploiement](../experience-platform/deployment/guardrails.md)
+
 
 ### Prise en charge de plusieurs instances et de l’organisation IMS :
 
@@ -56,7 +59,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 #### Garde-fous de segmentation et de profil Experience Platform :
 
-* Consultez les garde-fous de profil et de segmentation pour Experience Platform - [Instructions de profil et de segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* Voir les garde-fous de profil et de segmentation pour les Experience Platform - [Barrières de sécurité de profil et de segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * Les segments B2B qui incluent des comptes, des prospects et des opportunités utilisent des relations multi-entités, ce qui fait que l’évaluation des segments est gérée par lot. La segmentation par flux est prise en charge pour les segments limités aux personnes et aux événements.
 
 #### Experience Platform - Connecteur source Marketo Engage :
@@ -75,7 +78,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 #### Garde-fous de destination
 
-* Reportez-vous à la documentation de destination pour obtenir des instructions spécifiques sur celles-ci. [Instructions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr)
+* Reportez-vous à la documentation de destination pour obtenir des instructions spécifiques sur celles-ci. [Garde-fous de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## Étapes d’implémentation
@@ -94,7 +97,7 @@ Recommandations sur les principales considérations et configurations du plan di
 
 ## Documentation connexe
 
-* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
+* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=fr)
 * [Adobe Experience Platform - Connecteur source Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=fr)
