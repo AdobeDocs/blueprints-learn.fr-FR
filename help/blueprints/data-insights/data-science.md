@@ -4,10 +4,10 @@ description: Ce plan directeur montre comment ingérer dans Experience Platform
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,10 @@ Le plan directeur sur la science des données personnalisée pour l’enrichisse
 ## Architecture
 
 <img src="assets/data_science.svg" alt="Architecture de référence pour le plan directeur sur la data science personnalisée pour l’enrichissement de profil" style="width:90%; border:1px solid #4a4a4a" />
+
+## Garde-fous
+
+* Pour obtenir des garde-fous détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans Experience Platform et Real-time Customer Profile, reportez-vous aux barrières de sécurité et au diagramme de latence d’ingestion des données référencés dans la variable [document des protections de déploiement](../experience-platform/deployment/guardrails.md).
 
 ## Étapes d’implémentation
 
