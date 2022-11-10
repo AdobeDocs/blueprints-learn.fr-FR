@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 0dfe87cbffa265ee47873a91259a73dbc6c9dc76
+source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '247'
 ht-degree: 97%
 
 ---
@@ -75,7 +75,6 @@ ht-degree: 97%
    + [Préparation et ingestion des données](/help/blueprints/data-ingestion/ingestion.md)
    + [Accès aux données et exportation](/help/blueprints/data-ingestion/egress.md)
    + [Transfert d’événement](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Collecte de données sur plusieurs sandbox](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Analyse des données, data intelligence et IA / ML {#data-exploration}
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
