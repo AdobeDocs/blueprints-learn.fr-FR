@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Cas d’utilisation courants :
 * Quelles campagnes ont généré une conversion et un engagement accrus
 * Analyse de l’utilisation des outils pour optimiser les expériences en libre-service
 
-## Architecture de Customer Journey Analytics
+## Architecture pour Customer Journey Analytics
 
 ![Diagramme d’architecture](assets/CJA.svg)
 

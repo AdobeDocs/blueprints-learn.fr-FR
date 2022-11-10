@@ -87,7 +87,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Authentification par utilisateur/passage ou jeton d’autorisation
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
+* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
 
 ### Garde-fous de l’ingestion des données
 
@@ -136,7 +136,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identité    pour Edge Network
+1. Identité     pour Edge Network
 1. Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
