@@ -5,10 +5,10 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 95%
+source-wordcount: '1625'
+ht-degree: 79%
 
 ---
 
@@ -82,13 +82,17 @@ Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.
 
 [Référez-vous aux garde-fous décrits sur la page de présentation des plans directeurs de personnalisation web et mobile.](overview.md)
 
+* Les profils Edge ne sont créés que lorsqu’un utilisateur est principal sur Edge, ce qui signifie que les événements de diffusion en continu de son profil sont envoyés à Edge via le SDK Web/Mobile ou l’API Edge Server. Cela correspond généralement au fait que l’utilisateur est principal sur un site web ou une application mobile.
+* Les profils Edge ont une durée de vie par défaut de 14 jours. Si aucun événement principal Edge n’a été collecté pour l’utilisateur, le profil expirera sur le serveur Edge après 14 jours d’inactivité. Le profil reste valide dans le hub et synchronisé avec le serveur Edge une fois que l’utilisateur redevient principal sur le serveur Edge.
+* Lorsqu’un nouveau profil est créé en périphérie, un appel de synchronisation est effectué de manière asynchrone vers le hub pour récupérer les audiences et les attributs configurés pour la projection Edge via une destination. Comme il s’agit d’un processus asynchrone, la synchronisation du profil hub avec le serveur Edge peut prendre entre 1 et plusieurs minutes. Par conséquent, il n’est pas garanti que les profils nouveaux disposent du contexte de profil du hub pour les expériences de première page. Cela s’applique également aux données nouvellement collectées au hub. Ces données sont projetées sur la périphérie de manière asynchrone. Par conséquent, le moment auquel les données arrivent sur la périphérie appropriée sera séparé de l’activité de périphérie. Seuls les profils principaux sur la périphérie conservent les attributs et les audiences projetés à partir du hub.
+
 ## Considérations de mise en œuvre
 
 Conditions préalables requises pour les identités
 
 * Toute identité principale peut être exploitée lors de l’utilisation du modèle d’implémentation 1 tel que décrit ci-dessus avec le réseau Edge et le SDK web. La personnalisation de la première connexion nécessite que l’identité principale du jeu de requêtes de personnalisation corresponde à l’identité principale du profil tiré de Real-time Customer Data Platform. La combinaison des identités entre les appareils anonymes et les clients connus est traitée sur le hub et projetée ultérieurement vers Edge.
 * Notez que les données transférées vers le hub avant la visite sur, ou la connexion à un site web ne seront pas immédiatement disponibles pour la personnalisation. Un profil Edge principal doit d’abord exister pour que les données de hub soient synchronisées. Une fois créé, le profil Edge est synchronisé avec le profil hub de manière asynchrone, ce qui entraîne la personnalisation de la page suivante.
-* Le partage d’audiences à partir d’Adobe Experience Platform vers Adobe Target nécessite l’utilisation de l’ECID comme identité lors de l’utilisation du service de partage d’audience, tel qu’indiqué dans le motif d’intégration 2 et 3 ci-dessus.
+* Le partage d’audiences de Adobe Experience Platform vers Adobe Target nécessite l’utilisation d’ECID comme identité lors de l’utilisation du service de partage d’audience, comme indiqué dans les schémas d’intégration 2 et 3 ci-dessus.
 * D’autres identités peuvent également être utilisées pour partager des audiences Experience Platform vers Adobe Target à l’aide d’Audience Manager. Experience Platform active les audiences vers Audience Manager à l’aide des espaces de noms pris en charge suivants : IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Notez qu’Audience Manager et Target résolvent les abonnements à l’audience par le biais de l’identité ECID. Par conséquent, l’ECID doit toujours figurer dans le graphique d’identités pour la consommation pour le partage d’audience final vers Adobe Target.
 
 ## Documentation connexe
