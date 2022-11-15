@@ -3,10 +3,11 @@ title: Accès aux données et plan directeur d’exportation
 description: Ce plan directeur fournit et présente toutes les méthodes par lesquelles les données peuvent être consultées et exportées à partir de Adobe Experience Platform et d’applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ Reportez-vous à la section [API Real-time Customer Profile Access](https://expe
 
 * Real-time Customer Profile [barrières de sécurité](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) appliquez.
 * Conçu pour une recherche de profil unique à la fois. Non utilisé pour l’accès en masse aux profils ou le téléchargement de l’ensemble de la population de profils à des fins d’analyse ou de science des données.
-* Le temps de réponse de la recherche de profil s’écoule aux barrières de sécurité du profil. Exigences de faible latence : par exemple, pour les mêmes exigences de personnalisation de page, doit utiliser le profil Edge ou les destinations de personnalisation client pour un accès à faible latence du profil. [Documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* Le temps de réponse de la recherche de profil s’écoule aux barrières de sécurité du profil. Exigences de latence faible en temps réel, par exemple pour les mêmes exigences de personnalisation de page, doit utiliser le profil Edge de à [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr) ou le [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) pour un accès en temps réel aux profils pour la personnalisation dans le navigateur et dans l’application.
 
 ### API Data Access {#data-access-api}
 
@@ -129,7 +130,7 @@ Reportez-vous à la section [Destinations Real-time Customer Data Platform](http
 
 #### Cas d’utilisation
 
-* Activez les informations sur les attributs de profil, y compris l’appartenance de l’audience à un entrepôt de données d’entreprise interne, un outil d’analyse, un système de messagerie ou un système d’assistance.
+* Activez les informations sur les attributs de profil, y compris l’appartenance des audiences aux entrepôts de données internes d’une entreprise, aux outils d’analyse, aux systèmes de messagerie ou aux systèmes de support.
 * Activez l’appartenance de l’audience de profil à un fournisseur de publicité externe pour cibler et personnaliser le contenu du profil.
 
 #### Considérations
@@ -150,17 +151,7 @@ Reportez-vous à la section [Actions personnalisées Journey Optimizer](https://
 
 #### Considérations
 
-* Barrières de sécurité sur le débit pris en charge par [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) et les enrichissements pris en charge par la variable [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) appliquez.
+* Barrières de sécurité sur le débit pris en charge par [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr) et les enrichissements pris en charge par la variable [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) appliquez.
 * Les actions personnalisées peuvent être exécutées en continu une par une pour chaque événement ou profil dans un parcours. Il n’est pas possible d’effectuer des opérations en bloc ou des sorties de données en masse sous la forme de fichiers ou de requêtes agrégées sur les parcours client.
 * Accès en continu aux attributs de profil client en temps réel et aux événements d’expérience qui peuvent être inclus dans la payload d’activation.
 * Les données d’événement peuvent être filtrées et de simples transformations de mappage appliquées avant d’envoyer des événements vers des destinations externes.
-
-
-
-
-
-
-
-
-
-
