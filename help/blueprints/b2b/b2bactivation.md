@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Diverses sources de données B2B peuvent être utilisées pour mapper les donné
 
 * Notez que les garde-fous de sécurité et les étapes de mise en œuvre liées à Marketo Engage ne sont pertinentes que lorsque Marketo Engage est utilisé comme source ou comme destination.
 
-* Pour plus d’informations et de garde-fous sur les latences de bout en bout, reportez-vous à la section [document des protections de déploiement](../experience-platform/deployment/guardrails.md)
+* Pour plus d’informations et d’autres garde-fous sur les latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
 
 ### Prise en charge de plusieurs instances et de l’organisation IMS :
@@ -50,7 +50,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 * Prise en charge de plusieurs instances de Marketo Engage vers une instance d’Experience Platform.
 * Non prise en charge de plusieurs instances de Marketo Engage vers de nombreuses instances d’Experience Platform.
 * Non prise en charge d’une instance de Marketo Engage vers de nombreuses instances d’Experience Platform.
-* Prise en charge d’une instance de Marketo Engage vers une instance d’Experience Platform et plusieurs environnements de test.
+* Prise en charge d’une instance de Marketo Engage vers une instance d’Experience Platform et plusieurs sandbox.
 
 #### Marketo en tant que destination vers Experience Platform :
 
@@ -59,7 +59,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 #### Garde-fous de segmentation et de profil Experience Platform :
 
-* Voir les garde-fous de profil et de segmentation pour les Experience Platform - [Barrières de sécurité de profil et de segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* Consultez les garde-fous de profil et de segmentation pour Experience Platform - [Garde-fous de profil et de segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * Les segments B2B qui incluent des comptes, des prospects et des opportunités utilisent des relations multi-entités, ce qui fait que l’évaluation des segments est gérée par lot. La segmentation par flux est prise en charge pour les segments limités aux personnes et aux événements.
 
 #### Experience Platform - Connecteur source Marketo Engage :
@@ -78,7 +78,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 #### Garde-fous de destination
 
-* Reportez-vous à la documentation de destination pour obtenir des instructions spécifiques sur celles-ci. [Garde-fous de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
+* Reportez-vous à la documentation de destination pour obtenir des instructions spécifiques sur celles-ci. [Garde-fous de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=fr)
 
 
 ## Étapes d’implémentation
@@ -91,13 +91,14 @@ Il existe deux modèles de mise en œuvre possibles. La possibilité d’ingére
 
 Recommandations sur les principales considérations et configurations du plan directeur.
 
-* Intégration CRM avec et sans Marketo : si l’implémentation utilise Marketo Engage en tant que source et que Marketo Engage est connecté au CRM, utilisez le connecteur source Marketo dans Experience Platform pour ingérer les données CRM dans Experience Platform. Utilisez le connecteur source Experience Platform si des tableaux supplémentaires doivent être ingérés. Si l’implémentation n’utilise pas Marketo Engage comme source, connectez la source CRM directement à AEP à l’aide du connecteur source CRM d’Experience Platform.
+* Intégration CRM avec et sans Marketo :
+si l’implémentation utilise Marketo Engage en tant que source et que Marketo Engage est connecté au CRM, utilisez le connecteur source Marketo dans Experience Platform pour ingérer les données CRM dans Experience Platform. Utilisez le connecteur source Experience Platform si des tableaux supplémentaires doivent être ingérés. Si l’implémentation n’utilise pas Marketo Engage comme source, connectez la source CRM directement à AEP à l’aide du connecteur source CRM d’Experience Platform.
 * Il n’est pas recommandé de générer et d’entretenir des prospects uniquement à partir de l’édition B2B de Real-time Customer Data Platform. Dans ce cas précis, il est recommandé d’utiliser un outil de préparation de prospects (tel que Marketo Engage).
 * Le connecteur de destination Marketo Engage pour AEP envoyant pour activation des audiences à Marketo Engage n’envoie que des adresses électroniques et des ECID. Il ne crée pas de nouveau prospect si le contact n’existe pas déjà. Il est donc nécessaire d’ingérer le profil et les données de piste dans Marketo Engage.
 
 ## Documentation connexe
 
-* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=fr)
 * [Adobe Experience Platform - Connecteur source Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=fr)
