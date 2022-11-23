@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 44%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 ## Diagramme des garde-fous pour les plans directeurs de Customer Journey Analytics
 
-* Pour des garde-fous détaillés et des latences de bout en bout, reportez-vous à la section [document des protections de déploiement](../experience-platform/deployment/guardrails.md)
+* Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
 ![Diagramme des garde-fous](../experience-platform/assets/CJA_guardrails.svg)
 
