@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Le plan directeur sur la science des données personnalisée pour l’enrichisse
 
 ## Garde-fous
 
-* Pour obtenir des garde-fous détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans Experience Platform et Real-time Customer Profile, reportez-vous aux barrières de sécurité et au diagramme de latence d’ingestion des données référencés dans la variable [document des protections de déploiement](../experience-platform/deployment/guardrails.md).
+* Pour des garde-fous détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans Experience Platform et le profil client en temps réel, reportez-vous au schéma de latence et des garde-fous d’ingestion des données référencé dans le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md).
 
 ## Étapes d’implémentation
 
-1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) pour les données à ingérer.
+1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
 1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
 
@@ -54,7 +54,7 @@ Pour que les résultats de modèle soient ingérés dans le profil client en tem
 ## Documentation connexe
 
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
+* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
 ## Articles de blog connexes
 
