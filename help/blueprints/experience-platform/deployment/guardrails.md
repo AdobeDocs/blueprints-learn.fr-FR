@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Garde-fous
 
-Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les barrières de sécurité sont conçues pour refléter les contraintes de système et les attentes de performances afin de faciliter l’architecture des clients et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
+Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les garde-fous sont conçus pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
 
 
 ## Garde-fous pour Adobe Experience Platform et les applications
@@ -28,13 +28,13 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)
 
-[Barrières de sécurité de l’activation de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[Garde-fous de l’activation de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=fr)
 
 [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr)
 
 <br>
 
-## Latence de bout en bout Diagrammes
+## Latence de bout en bout  Diagrammes
 
 ### d’ingestion de données
 
@@ -44,19 +44,19 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 ### sur la segmentation
 
-<img src="../assets/segmentation_guardrails.svg" alt="Barrières de sécurité de la segmentation des Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Garde-fous de la segmentation d’Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Real-time Customer Data Platform et Adobe Target
+### Real-time Customer Data Platform et Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="Barrières de sécurité RTCDP et Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="Garde-fous RTCDP et Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="Barrières de sécurité CJA" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/CJA_guardrails.svg" alt="Garde-fous CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
