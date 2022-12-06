@@ -1,157 +1,157 @@
 ---
-title: Accès aux données et plan directeur d’exportation
-description: Ce plan directeur fournit et présente toutes les méthodes par lesquelles les données peuvent être consultées et exportées à partir de Adobe Experience Platform et d’applications.
+title: Plan directeur d’export et d’accès aux données
+description: Ce plan directeur présente un aperçu de toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Accès aux données et plan directeur d’exportation
+# Plan directeur d’export et d’accès aux données
 
-Le plan directeur Accès aux données et Exportation décrit toutes les méthodes possibles pour accéder ou exporter des données à partir de Adobe Experience Platform et d’applications.
+Le plan directeur d’export et d’accès aux données décrit toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 
-Le plan directeur est divisé en deux catégories pour l’accès aux données à partir d’Experience Platform et d’applications. tout d&#39;abord, les approches pour récupérer les données des Experience Platform et des applications ; il serait considéré comme une méthode de type push de sortie de données. Deuxièmement, les méthodes d’accès aux données des Experience Platform et des applications ; cela serait considéré comme une méthode de type pull d’accès aux données.
+Le plan directeur est divisé en deux catégories pour l’accès aux données à partir d’Experience Platform et d’applications. Il y a, tout d’abord, les méthodes de sortie de données depuis Experience Platform et les applications ; cela serait considéré comme une méthode de sortie de données de type « push ». Viennent ensuite les méthodes d’accès aux données à partir d’Experience Platform et des applications ; cela serait considéré comme une méthode d’accès aux données de type « pull ».
 
 Méthodes d’accès aux données
 
-* [API Real-time Customer Profile Access](#rtcp-profile-access-api)
+* [API Real-time Customer Profile Access](#rtcp-profile-access-api)
 * [API Data Access](#data-access-api)
-* [Service de requête](#query-service)
+* [Query Service](#query-service)
 
-Approches de l’exportation des données
+Méthodes d’export des données
 
 * [Balises côté client](#client-side-tags-extensions)
 * [Transfert d’événement](#event-forwarding)
-* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
-* [Actions personnalisées Journey Optimizer](#jo-custom-actions)
+* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
+* [Actions personnalisées de Journey Optimizer](#jo-custom-actions)
 
-## Architecture de présentation de l’accès aux données et de l’exportation
+## Architecture de présentation de l’export et de l’accès aux données
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de la préparation et de l’ingestion de données" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de préparation et d’ingestion des données" style="width:90%; border:1px solid #4a4a4a" />
 
-## Approches de l’accès aux données
+## Méthodes d’accès aux données
 
-### API Real-time Customer Profile Access {#rtcp-profile-access-api}
+### API Real-time Customer Profile Access {#rtcp-profile-access-api}
 
-Les clients peuvent accéder à des profils unifiés uniques à partir de la banque de profils client en temps réel, y compris toutes les identités de profil, les appartenances à l’audience, les attributs et les événements d’expérience à l’aide de l’API Real-time Customer Profile Access.
+La clientèle peut accéder à des profils unifiés uniques à partir du magasin de profils clients en temps réel, y compris l’ensemble des identités de profil, des appartenances à l’audience, des attributs et des événements d’expérience à l’aide de l’API Real-time Customer Profile Access.
 
-Reportez-vous à la section [API Real-time Customer Profile Access](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en) pour plus d’informations.
+Pour plus d’informations, consultez la documentation [API Real-time Customer Profile Access](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=fr).
 
 #### Cas d’utilisation
 
-* Recherchez un seul profil pour ajouter du contexte à l’interaction client de l’agent, comme des interactions d’assistance par le biais d’un chat et d’un centre d’appel, ou une interaction commerciale au point de vente.
-* Ajout d’un contexte à une description de personnalisation effectuée par un système externe, par exemple un système de personnalisation web ou un système de décision d’offre.
+* Rechercher un seul profil pour ajouter du contexte à l’interaction client de l’agent, comme des interactions d’assistance par le biais de la messagerie instantanée (chat) et d’un centre d’appel, ou une interaction commerciale au niveau du point de vente.
+* Autoriser l’ajout de contexte à une décision de personnalisation prise par un système externe ; par exemple, un système de personnalisation web ou un système de décision d’offre.
 
 #### Considérations
 
-* Real-time Customer Profile [barrières de sécurité](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) appliquez.
-* Conçu pour une recherche de profil unique à la fois. Non utilisé pour l’accès en masse aux profils ou le téléchargement de l’ensemble de la population de profils à des fins d’analyse ou de science des données.
-* Le temps de réponse de la recherche de profil s’écoule aux barrières de sécurité du profil. Exigences de latence faible en temps réel, par exemple pour les mêmes exigences de personnalisation de page, doit utiliser le profil Edge de à [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr) ou le [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) pour un accès en temps réel aux profils pour la personnalisation dans le navigateur et dans l’application.
+* Les [garde-fous](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr) du profil client en temps réel sont d’application.
+* Conçu pour rechercher un seul profil à la fois. Non utilisé pour l’accès à plusieurs profils ni pour le téléchargement de l’ensemble d’une population de profils à des fins d’analyse ou de science des données.
+* Le temps de réponse de la recherche de profil respecte les garde-fous de profil. Exigences de faible latence en temps réel : par exemple, pour les exigences de personnalisation de la même page, le profil Edge de la [connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr) ou de la [connexion Personnalisation sur mesure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=fr) doit être utilisé pour un accès au profil en temps réel en vue d’une personnalisation dans l’application ou dans le navigateur.
 
 ### API Data Access {#data-access-api}
 
-Les clients de l’API d’accès aux données peuvent accéder directement aux fichiers de jeu de données bruts stockés dans le lac de données Experience Platform.
+L’utilisation de l’API Data Access permet d’accéder directement aux fichiers de jeu de données bruts stockés dans le lac de données Experience Platform.
 
-* Pour plus d’informations sur l’utilisation de l’API d’accès aux données, reportez-vous à la section [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=en).
-
-#### Cas d’utilisation
-
-* Extrayez les fichiers de données bruts et traités de l’Experience Platform à des fins de stockage et d’évaluation dans les environnements d’entreprise.
-
-#### Considérations
-
-* Comme l’accès aux données est effectué de manière asynchrone par lots, l’accès aux données sera par nature latent par rapport aux approches de sortie de données en flux continu telles que l’utilisation des balises, le transfert d’événements ou les destinations RTCDP.
-* Les fichiers de données lorsqu’ils sont traités dans Experience Platform sont stockés sous la forme de collections de fichiers par lots et sont compressés et stockés au format parquet. Ainsi, lors de l’accès et du téléchargement des fichiers dans un environnement différent, ils doivent être systématiquement accessibles par leur lot et leur fichier, contrairement à un jeu de données entier. Toute opération sur les données doit donc tenir compte du fait que les fichiers sont compressés au format parquet.
-
-### Service de requête {#query-service}
-
-Les clients Query Service d’Experience Platform peuvent interroger des jeux de données dans Experience Platform et conserver les résultats de la requête. Un client SQL peut être utilisé pour interroger et conserver la réponse de requête dans la destination de stockage souhaitée que le client SQL peut prendre en charge. L’interface utilisateur de Query Service peut être utilisée pour stocker le résultat SQL dans un jeu de données cible dans l’Experience Platform ou les résultats peuvent être enregistrés sur l’ordinateur local.
-
-* Pour plus d’informations sur la connexion aux clients SQL pour conserver les résultats SQL depuis Experience Platform Query Service, voir ce qui suit : [documentation](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en).
+* Pour plus d’informations sur l’utilisation de l’API Data Access, consultez la [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=fr).
 
 #### Cas d’utilisation
 
-* Interrogez les données brutes des jeux de données Experience Platform et conservez les résultats de la requête.
-* Interrogez le jeu de données d’instantané de profil pour extraire des informations sur Real-time Customer Profile. [Documentation](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=en#profile-attribute-datasets).
-* Stocker les résultats de requête dans un jeu de données distinct pour l’accès ou dans un jeu de données activé pour les profils qui peut ensuite être généré via la plateforme de données clients (RTCDP) et d’autres applications Experience Cloud qui accèdent à Real-time Customer Profile.
+* Extraire des fichiers de données bruts et traités d’Experience Platform à des fins de stockage et d’évaluation dans les environnements d’entreprise.
 
 #### Considérations
 
-* Comme les données sont interrogées de manière asynchrone par lots, l’accès aux données sera par nature latent par rapport aux approches de sortie de données en flux continu, telles que l’utilisation des balises, le transfert d’événements ou les destinations RTCDP.
-* Seules les données disponibles dans le lac de données Experience Platform peuvent être interrogées à l’aide de Query Service. La banque de profils client en temps réel, le graphique d’identités et le Customer Journey Analytics ne peuvent pas être directement interrogés à l’aide de Query Service. Ce n’est que lorsque des jeux de données sont exportés vers le lac de données que ces jeux de données peuvent être interrogés, comme dans l’exemple du jeu de données d’instantané de profil.
-* Notez que les barrières de sécurité pour le nombre de résultats de la requête et le délai d’expiration de la requête s’appliquent comme indiqué dans la section [Barrières de sécurité de Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en) documentation.
+* Comme l’accès aux données s’effectue de manière asynchrone par lots, il s’agira, par nature, d’un accès latent par rapport aux méthodes de sortie de données en streaming telles que l’utilisation des balises, du transfert d’événement ou des destinations RTCDP.
+* Lorsqu’ils sont traités dans Experience Platform, les fichiers de données sont stockés sous la forme de collections de fichiers par lots, et compressés et stockés au format Parquet. Ainsi, lorsque vous accédez aux fichiers et les téléchargez dans un autre environnement, l’accès doit s’effectuer systématiquement par lot et par fichier, contrairement à un jeu de données entier. De plus, toute opération sur les données doit tenir compte du fait que les fichiers sont compressés au format Parquet.
 
-## Approches de l’exportation des données
+### Query Service {#query-service}
+
+L’utilisation d’Experience Platform Query Service permet d’interroger des jeux de données dans Experience Platform et de conserver les résultats de la requête. Un client SQL peut être utilisé pour interroger et conserver la réponse de requête dans la destination de stockage souhaitée qu’il peut prendre en charge. L’interface utilisateur de Query Service peut être utilisée pour stocker le résultat SQL dans un jeu de données cible dans Experience Platform. Les résultats peuvent également être enregistrés sur l’ordinateur local.
+
+* Pour plus d’informations sur la connexion aux clients SQL afin de conserver les résultats SQL d’Experience Platform Query Service, consultez la [documentation](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=fr) suivante.
+
+#### Cas d’utilisation
+
+* Interroger les données brutes provenant des jeux de données Experience Platform et conserver les résultats de la requête.
+* Interroger le jeu de données d’instantané de profil pour extraire des informations sur le profil client en temps réel. [Documentation](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=fr#profile-attribute-datasets).
+* Stocker les résultats de requête dans un jeu de données distinct en vue d’y accéder ou dans un jeu de données compatible avec le profil qui peut ensuite être extrait via RTCDP et d’autres applications Experience Cloud qui accèdent au profil client en temps réel.
+
+#### Considérations
+
+* Comme l’interrogation des données s’effectue de manière asynchrone par lots, il s’agira, par nature, d’un accès latent par rapport aux méthodes de sortie de données en streaming telles que l’utilisation des balises, du transfert d’événement ou des destinations RTCDP.
+* Seules les données disponibles dans le lac de données Experience Platform peuvent être interrogées à l’aide de Query Service. Le magasin de profils clients en temps réel, le graphique d’identité et Customer Journey Analytics ne peuvent pas être directement interrogés à l’aide de Query Service. Ce n’est que lorsque les jeux de données sont exportés vers le lac de données qu’ils peuvent être interrogés, comme dans l’exemple du jeu de données d’instantané de profil.
+* Notez que les garde-fous pour le nombre de résultats de requête et le délai d’expiration de la requête s’appliquent comme indiqué dans la section [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr).
+
+## Méthodes d’export des données
 
 ### Extensions de balises côté client {#client-side-tags-extensions}
 
-Les extensions peuvent être déployées à l’aide de la solution Balises d’Adobe. Une fois qu’une extension est déployée, les requêtes de données sont déployées directement sur un navigateur client ou une application et une requête peut être appelée pour envoyer des données et des requêtes vers la destination souhaitée.
+Les extensions peuvent être déployées à l’aide de la solution Balises d’Adobe. Une fois qu’une extension a été déployée, les demandes de données sont déployées directement sur une application ou un navigateur client et une demande peut être appelée pour envoyer des données et des demandes vers la destination souhaitée.
 
-Reportez-vous à la section [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) pour plus d’informations.
+Pour plus d’informations, consultez la documentation [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
 #### Cas d’utilisation
 
-* Collectez des informations brutes en continu directement à partir des environnements côté client à l’aide du balisage.
+* Collecter des informations de streaming brutes directement à partir des environnements côté client à l’aide du balisage.
 
 #### Considérations
 
-* Aucun accès direct aux informations côté serveur telles que le profil client en temps réel Experience Platform et les appartenances à l’audience.
+* Aucun accès direct aux informations côté serveur telles que le profil client en temps réel d’Experience Platform et les appartenances à une audience.
 * L’ajout de balises de collecte de données supplémentaires à la page peut augmenter le temps de chargement de la page.
-* Possibilité de configurer des règles pour demander des données uniquement lorsque certains critères sont satisfaits.
+* Possibilité de configurer des règles pour ne demander des données que lorsque certains critères sont satisfaits.
 * Les données sont collectées directement auprès du client, ce qui limite les types de transformations et d’enrichissement qui peuvent être effectués avant la collecte des données.
 
 ### Transfert d’événement {#event-forwarding}
 
-Les demandes de collecte de données sont collectées directement auprès du réseau Edge d’Adobe. Les requêtes réseau Edge vers des points d’entrée RESTful externes peuvent être configurées pour transférer ces requêtes vers la destination externe.
+Les demandes de collecte de données sont collectées directement auprès du réseau Edge d’Adobe. À partir du réseau Edge, les demandes adressées à des points d’entrée RESTful externes peuvent être configurées pour être transférées vers la destination externe.
 
-Reportez-vous aux [Transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) pour plus d’informations.
+Pour plus d’informations, consultez la documentation [Transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr).
 
-#### Utilisation des castes
+#### Cas d’utilisation
 
-* Collectez des informations brutes en continu directement depuis les environnements côté client vers un point de terminaison d’entreprise à l’aide du transfert d’événement côté serveur d’Adobe.
+* Collecter des informations de streaming brutes directement auprès d’environnements côté client vers un point d’entrée d’entreprise à l’aide du transfert d’événement côté serveur d’Adobe.
 
 #### Considérations
 
-* Pour utiliser le transfert d’événement, les données doivent être envoyées au réseau Edge à l’aide du SDK Web ou du SDK Mobile.
-* L’approche de transfert d’événement réduit le temps et le poids de chargement de la page en raison de balises supplémentaires ajoutées sur la page.
+* Pour utiliser le transfert d’événement, les données doivent être envoyées au réseau Edge à l’aide de WebSDK ou de MobileSDK.
+* La méthode de transfert d’événement réduit le poids et le temps de chargement de la page en raison des balises qui y sont ajoutées.
 * Aucun enrichissement du profil Edge ou d’autres sources de données n’est actuellement pris en charge.
-* Le filtrage des données limité et les transformations de mappage simples sont pris en charge.
+* Le filtrage limité des données et les transformations de mappage simples sont pris en charge.
 
-### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
+### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
 
-Les données d’attribut de profil et les données d’appartenance à l’audience peuvent être activées vers les destinations d’entreprise et de publicité. Cela signifie que les données collectées doivent être ingérées dans le profil client en temps réel de l’Experience Platform.
+Les données d’attribut de profil et d’appartenance à une audience peuvent être activées vers les destinations d’entreprise et de publicité. Cela signifie que les données extraites doivent être ingérées dans le profil client en temps réel d’Experience Platform.
 
-Reportez-vous à la section [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) pour plus d’informations.
-
-#### Cas d’utilisation
-
-* Activez les informations sur les attributs de profil, y compris l’appartenance des audiences aux entrepôts de données internes d’une entreprise, aux outils d’analyse, aux systèmes de messagerie ou aux systèmes de support.
-* Activez l’appartenance de l’audience de profil à un fournisseur de publicité externe pour cibler et personnaliser le contenu du profil.
-
-#### Considérations
-
-* Les attributs de profil et les appartenances à l’audience peuvent être activés. Actuellement, les événements d’expérience brute ne peuvent pas être activés dans le cadre des destinations RTCDP.
-* Les activations se produisent par flux ou par lots selon la nature de l’évaluation du segment et la nature du protocole d’ingestion que la destination accepte.
-
-### Actions personnalisées Journey Optimizer {#jo-custom-actions}
-
-Les clients Journey Optimizer peuvent appeler une action personnalisée à partir du canevas de parcours pour envoyer un payload ou un message à un point de terminaison API externe configuré. Une action peut être configurée pour n’importe quel service de n’importe quel fournisseur pouvant être appelé via une API REST avec une payload au format JSON. Cette payload peut inclure des informations d’événement, des attributs de profil et des données d’événement précédent, des transformations et des enrichissements configurés dans le parcours.
-
-Reportez-vous à la section [Actions personnalisées Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en) pour plus d’informations.
+Pour plus d’informations, consultez la documentation [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
 
 #### Cas d’utilisation
 
-* Événements d’activation d’Experience Platform et de Journey Optimizer qui incluent des informations supplémentaires de Real-time Customer Profile.
-* Notifier les systèmes externes lorsqu’un client a atteint un point spécifique d’un parcours.
+* Activer les informations sur les attributs de profil, y compris l’appartenance d’audience à des magasins de données d’entreprise internes, des outils d’analyse, des systèmes de messagerie ou des systèmes d’assistance.
+* Activer l’appartenance de l’audience de profil à un fournisseur de publicité externe pour cibler et personnaliser le contenu pour le profil.
 
 #### Considérations
 
-* Barrières de sécurité sur le débit pris en charge par [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr) et les enrichissements pris en charge par la variable [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) appliquez.
-* Les actions personnalisées peuvent être exécutées en continu une par une pour chaque événement ou profil dans un parcours. Il n’est pas possible d’effectuer des opérations en bloc ou des sorties de données en masse sous la forme de fichiers ou de requêtes agrégées sur les parcours client.
-* Accès en continu aux attributs de profil client en temps réel et aux événements d’expérience qui peuvent être inclus dans la payload d’activation.
-* Les données d’événement peuvent être filtrées et de simples transformations de mappage appliquées avant d’envoyer des événements vers des destinations externes.
+* Les attributs de profil et les appartenances à une audience peuvent être activés. Actuellement, les événements d’expérience bruts ne peuvent pas être activés dans le cadre des destinations RTCDP.
+* Les activations s’effectuent en streaming ou par lots selon la nature de l’évaluation du segment et celle du protocole d’ingestion accepté par la destination.
+
+### Actions personnalisées de Journey Optimizer {#jo-custom-actions}
+
+L’utilisation de Journey Optimizer permet d’appeler une action personnalisée à partir de la zone de travail du parcours afin d’envoyer une payload ou un message à un point d’entrée d’API externe configuré. Une action peut être configurée sur n’importe quel service à partir de tout fournisseur pouvant être appelé via une API REST avec une payload au format JSON. Cette payload peut inclure des informations d’événement, des attributs de profil et des données sur un événement antérieur, ainsi que des transformations et des enrichissements configurés dans le parcours.
+
+Pour plus d’informations, consultez la documentation [Actions personnalisées de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=fr).
+
+#### Cas d’utilisation
+
+* Événements d’activation d’Experience Platform et de Journey Optimizer qui comprennent des informations supplémentaires du profil client en temps réel.
+* Informer les systèmes externes lorsqu’un client a atteint un point spécifique dans un parcours.
+
+#### Considérations
+
+* Les garde-fous sur le débit pris en charge par [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr) et les enrichissements pris en charge par le [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr) sont d’application.
+* Les actions personnalisées peuvent être effectuées une par une en mode streaming pour chaque événement ou profil d’un parcours. Il n’est pas possible d’effectuer des opérations en bloc ou des sorties de données en masse sous la forme de fichiers ou de demandes agrégées sur les parcours clients.
+* Accès en streaming aux attributs de profil client en temps réel et aux événements d’expérience pouvant être inclus dans la payload d’activation.
+* Les données d’événement peuvent être filtrées et des transformations de mappage simples peuvent être appliquées avant d’envoyer des événements vers des destinations externes.
