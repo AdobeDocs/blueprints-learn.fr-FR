@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 ## Questions fréquentes
 
-* Si un profil correspondant n’existe pas dans la plateforme RTCDP que CJA a envoyée, un nouveau profil sera-t-il créé ou les audiences sont-elles enregistrées uniquement à partir de CJA pour les profils déjà présents ? Oui, un nouveau profil sera créé. Par conséquent, si votre implémentation RTCDP est destinée aux clients connus uniquement, les règles d’audience CJA doivent être écrites pour filtrer uniquement les profils avec des identités connues. Cela permet de s’assurer que le nombre de profils RTCDP n’augmente pas à partir des profils anonymes si vous ne le souhaitez pas.
+* S’il n’existe, dans RTCDP, aucun profil correspondant envoyé par CJA, est-ce qu’un nouveau profil est créé ou est-ce que les audiences sont uniquement enregistrées à partir de CJA pour les profils déjà présents ? Un nouveau profil est créé. Par conséquent, si votre implémentation RTCDP est destinée uniquement aux clients connus, les règles d’audience CJA doivent être écrites pour filtrer uniquement les profils comportant des identités connues. Cela permet de s’assurer que le nombre de profils RTCDP n’augmente pas à partir des profils anonymes si vous ne le souhaitez pas.
 
-* CJA envoie-t-il les données d’audience sous la forme d’événements de pipeline ou d’un fichier plat qui va également au lac de données ? Les audiences CJA sont diffusées en continu sur le pipeline vers le service de profil RTCDP, mais les données sont également stockées dans le lac de données en tant que jeu de données.
+* CJA transmet-il les données d’audience sous la forme d’événements de pipeline ou d’un fichier plat qui accède également au lac de données ? Les audiences CJA sont diffusées sur le pipeline vers le service de profil RTCDP, mais les données sont également stockées dans le lac de données sous la forme d’un jeu de données.
 
-* Quelles identités CJA envoie-t-il ? CJA envoie les identités qui ont été configurées en tant qu’&quot;ID de personne&quot; lors de la configuration CJA.
+* Quelles identités CJA envoie-t-il ? CJA envoie les identités qui ont été configurées comme « ID de personne » lors de sa configuration.
 
-* Qu&#39;est-ce qui est défini comme la Principale identité ? Quelle que soit l’identité que l’utilisateur a sélectionnée lorsqu’il configure CJA en tant qu’Principal identifiant &quot;personne&quot;.
+* Qu’est-ce qui est défini comme identité principale ? Toute identité que l’utilisateur a sélectionnée lorsqu’il a configuré CJA en tant qu’ID de « personne » principal.
 
-* Le service d’identité traite-t-il également les messages CJA ? En d’autres termes, CJA peut-il ajouter des identités à un graphique d’identités de profil par le biais du partage d’audience ? Non, le service d’identité ne traite pas les messages CJA.
+* Le service d’identités traite-t-il également les messages CJA ? En d’autres termes, CJA peut-il ajouter des identités à un graphique d’identité de profil par le biais du partage d’audience ? Non, le service d’identités ne traite pas les messages CJA.
 
 ## Articles de blog connexes
 
