@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
 # Schémas d’architecture d’Adobe Experience Cloud
 
-## Adobe Experience Cloud Marketecture
+## Architecture marketing d’Adobe Experience Cloud
 
 Le diagramme suivant illustre les différents composants d’Adobe Experience Cloud à travers les insights de données et audiences, le contenu et le commerce, les parcours client, le workflow marketing, créés et intégrés sur la base d’Adobe Experience Platform.
 
