@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Pour obtenir un aperçu et des détails sur le SDK web et mobile, ainsi que sur l’API de serveur Edge Network, consultez ce qui suit.
 * [Présentation du SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)
-* [Présentation du SDK Mobile](https://aep-sdks.gitbook.io/docs/)
+* [Présentation du SDK Mobile](https://developer.adobe.com/client-sdks/documentation/)
 * [API du serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
 Pour une description détaillée des fonctionnalités de l’application prises en charge dans le SDK web, consultez la documentation suivante.
