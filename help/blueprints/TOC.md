@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 94%
+source-wordcount: '261'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 94%
 + Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
+   + Chaîne d’approvisionnement Campaign avec Marketo et Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+      + [Présentation](/help/blueprints/b2b/campaign-supply-chain/overview.md)
+      + [Histoires de succès client](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+      + [Inprise et création](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
    + [Partage d’audiences CJA vers RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -79,10 +83,6 @@ ht-degree: 94%
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
-+ Optimisation de la chaîne d’approvisionnement Campaign avec Marketo et Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-   + [Présentation](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
-   + [Histoires de succès client](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
-   + [Inprise et création](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Personnalisation web et mobile {#web-personalization}
    + [Présentation](/help/blueprints/web-personalization/overview.md)
    + [Personnalisation comportementale       - Target](/help/blueprints/web-personalization/behavioral.md)
