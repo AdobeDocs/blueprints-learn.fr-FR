@@ -5,7 +5,7 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 94%
@@ -27,8 +27,8 @@ ht-degree: 94%
    + [Experience Platform et autres applications](/help/blueprints/experience-platform/platform-applications.md)
    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
    + Déploiement {#deployment}
-      + [SDK web Experience Platform et Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [SDK d’application](/help/blueprints/data-ingestion/appsdk.md)
+      + [SDK web Experience Platform et Edge Network](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
