@@ -2,7 +2,7 @@
 description: Réception et création - Optimisation de la chaîne d’approvisionnement Campaign avec Marketo et Workfront
 title: Inprise et création
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Le workflow ci-dessous présente une demande de webinaire envoyée par un respon
 
 >[!TIP]
 >
->Pour en savoir plus sur les différents types d’objets dans Workfront utilisés pour organiser le travail d’une campagne marketing et sur la façon dont ils sont mappés à un programme de Marketo Engage, consultez la section [Présentation de Marketo et Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>Pour en savoir plus sur les différents types d’objets dans Workfront utilisés pour organiser le travail d’une campagne marketing et sur la façon dont ils sont mappés à un programme de Marketo Engage, consultez la section [Présentation de Marketo et Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## Préparation de votre processus de développement de campagne pour l’automatisation {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Voici un exemple de la manière dont la logique de workflow peut être assemblé
 
 * [Modules Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [Présentation de Marketo et Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [Présentation de Marketo et Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
