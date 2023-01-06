@@ -1,8 +1,8 @@
 ---
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 # Contribuer à l’article
@@ -15,13 +15,13 @@ Ce projet respecte le [Code de conduite d’Adobe Open Source](code-of-conduct.m
 
 ## À propos de vos contributions aux contenus d’Adobe
 
-Consultez le [Guide du contributeur aux documents d’Adobe](https://docs.adobe.com/content/help/fr/contributor/contributor-guide/introduction.html).
+Consultez le [Guide du contributeur aux documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 La manière dont vous contribuez dépend de qui vous êtes et du type de changements que vous souhaitez apporter :
 
 ### Modifications mineures
 
-Si vous contribuez à des mises à jour mineures par pure générosité, visitez l’article et cliquez sur le lien **Modifier** au niveau de l’article ; ce lien renvoie à la source GitHub de l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur aux documents d’Adobe](https://docs.adobe.com/content/help/fr/contributor/contributor-guide/introduction.html).
+Si vous contribuez à des mises à jour mineures par pure générosité, visitez l’article et cliquez sur le lien **Modifier** au niveau de l’article ; ce lien renvoie à la source GitHub de l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur aux documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Les corrections ou clarifications mineures que vous soumettez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,7 +43,7 @@ Si vous êtes un rédacteur technique, un responsable de programme ou un dévelo
 
 Les contributeurs de la communauté peuvent se servir de l’interface utilisateur GitHub pour effectuer des modifications de base ou créer une copie du référentiel pour apporter des contributions majeures.
 
-Pour plus d’informations, consultez le [Guide du contributeur pour la documentation Adobe](https://docs.adobe.com/content/help/fr/contributor/contributor-guide/introduction.html).
+Pour plus d’informations, consultez le [Guide du contributeur pour la documentation Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Utilisation des balises pour la mise en forme de votre rubrique
 
