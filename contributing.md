@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Contribution
@@ -19,7 +19,7 @@ vous devez respecter ce code. Veuillez signaler tout comportement inacceptable �
 
 ## Documentation sur le Guide du contributeur
 
-Consultez le [Guide du contributeur](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consultez le [Guide du contributeur](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
 ## Vous avez une question ?
 
@@ -36,7 +36,7 @@ aucune autre action n’est nécessaire.
 
 ## Examens du code
 
-Toutes les soumissions doivent être présentées sous forme de demandes d’extraction et doivent être examinées par les comités de projet. Lisez la [documentation GitHub sur les demandes d’extraction](https://help.github.com/articles/about-pull-requests/)
+Toutes les soumissions doivent être présentées sous forme de demandes d’extraction et doivent être examinées par les comités de projet. Lisez la [documentation GitHub sur les demandes d’extraction](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 pour en savoir plus sur l’envoi de demandes d’extraction.
 
 <!--
