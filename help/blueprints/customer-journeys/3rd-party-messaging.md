@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer - Plan directeur de messagerie tierce
+title: Journey Optimizer - Plan directeur de la messagerie tierce
 description: Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '823'
+ht-degree: 92%
 
 ---
 
-# Messagerie tierce
+# Plan directeur de la messagerie tierce
 
 Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées.
 
@@ -50,13 +50,13 @@ Garde-fous Journey Optimizer supplémentaires :
    * Segments par lot (actualisés toutes les 24 heures)
    * Segments par diffusion en flux continu (qualification de moins de 5 minutes)
 * Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
-* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusion en continu quotidien par parcours et sur tous les parcours
+* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusions en continu quotidien par parcours et sur tous les parcours
 * Gestion des décisions non prise en charge
-* Intégrations sortantes vers des systèmes tiers :
+* Intégrations sortantes vers des systèmes tiers
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Prise en charge de l’authentification : token | password | OAuth2
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents environnements de test. Vous devez les réimplémenter dans les nouveaux environnements.
+* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différentes sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
 
 <br>
 
@@ -69,23 +69,23 @@ Système de messagerie tiers
    * Type d’authentification :  token | password | OAuth2, pris en charge via Journey Optimizer
    * Durée du cache d’authentification :  combien de temps le jeton est-il valide ? 
 * Si seule l’ingestion par lots est prise en charge, elle doit être diffusée en continu vers un moteur de stockage dans le cloud tel qu’Amazon Kinesis ou Azure Event Grid 1er.
-   * Les données peuvent être mises en lots par ces moteurs de stockage dans le cloud et canalisées vers des solutions tierces.
-   * La fourniture de tout middleware requis serait de la responsabilité du client ou des tiers concernés.
+   * Les données peuvent être mises en lots de ces moteurs de stockage dans le cloud et canalisées vers des solutions tierces.
+   * Tout middleware requis serait la responsabilité du client ou de tiers de fournir
 
 <br>
 
 ## Étapes d’implémentation
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
-#### Schéma / jeux de données
+#### Schéma/jeux de données
 
-1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) dans Experience Platform, en fonction des données fournies par le client.
+1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
 1. [Créez des stratégies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=fr) pour appliquer la gouvernance sur les destinations.
 
-#### Profil / identité
+#### Profil/identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
@@ -93,7 +93,7 @@ Système de messagerie tiers
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
 
-#### Sources / destinations
+#### Sources/destinations
 
 1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
 
@@ -103,13 +103,13 @@ Système de messagerie tiers
 1. Configurez des sources de données externes.
 1. Configuration d’actions personnalisées pour une application tierce.
 
-### Configuration push mobile (facultative, car des jetons tiers peuvent être collectés)
+### Configuration des notifications push mobiles (facultative, car des jetons tiers peuvent être collectés)
 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identité  pour Edge Network
+   * Identité      pour Edge Network
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).

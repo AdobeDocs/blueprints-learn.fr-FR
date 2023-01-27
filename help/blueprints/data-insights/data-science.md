@@ -1,17 +1,17 @@
 ---
-title: Plan directeur sur la data science personnalisée pour l’enrichissement de profil
+title: Science des données personnalisées pour le plan directeur d’enrichissement de profil
 description: Ce plan directeur montre comment ingérer dans Experience Platform des informations basées sur la science des données pour enrichir le profil client en temps réel.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Plan directeur sur la data science personnalisée pour l’enrichissement de profil
+# Science des données personnalisées pour le plan directeur d’enrichissement de profil
 
 Le plan directeur sur la science des données personnalisée pour l’enrichissement de profil illustre la manière dont les données peuvent être utilisées pour entraîner, déployer et noter des modèles pour qu’ils fournissent à Experience Platform et à Real-time Customer Data Platform des informations de machine learning à partir de la science des données et d’outils de machine learning. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
@@ -40,7 +40,7 @@ Pour que les résultats de modèle soient ingérés dans le profil client en tem
 1. [Configurez les identités et les espaces de noms d’identité corrects](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr) sur le schéma pour vous assurer que les données ingérées peuvent s’intégrer dans un profil unifié.
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 
-## Considérations de mise en œuvre
+## Considérations relatives à la mise en œuvre
 
 * Dans la plupart des cas, le résultat du modèle doit être ingéré dans les attributs de profil et non en tant qu’événements d’expérience. Les résultats du modèle peuvent être une chaîne d’attribut simple. Si plusieurs résultats de modèle doivent être ingérés, il est recommandé d’utiliser un champ de type tableau ou map.
 * Les jeux de données des instantané de profils quotidiens, qui correspondent à l’exportation quotidienne des données d’attribut de profil unifié, peuvent être utilisés pour entraîner des modèles sur les données d’attribut de profil. La documentation concernant les jeux de données des instantanés de profils est accessible [ici](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=fr#profile-attribute-datasets).
@@ -56,7 +56,7 @@ Pour que les résultats de modèle soient ingérés dans le profil client en tem
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
-## Articles de blog connexes
+## Publications de blog connexes
 
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)

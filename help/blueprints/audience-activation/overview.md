@@ -1,32 +1,32 @@
 ---
-title: Activation d’audience et de profil
+title: Plans directeurs d’activation d’audience et de profil
 description: Proposez des expériences client activées par l’audience et centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 94%
 
 ---
 
 
-# Activation d’audience et de profil
+# Activation d’audience et de profil plan directeur
 
-L’activation d’audience et de profil est la clé du succès dans un monde du marketing axé sur les données. Cependant, de nombreuses marques concentrent toujours leurs efforts sur l’activation axée sur le canal en premier, qui offre souvent une portée et une personnalisation incohérentes.
+L’activation de l’audience et du profil est la clé du succès dans un monde de marketing axé sur les données. Cependant, de nombreuses marques concentrent toujours leurs efforts sur l’activation axée sur le canal en premier, qui offre souvent une portée et une personnalisation incohérentes.
 
 Avec une approche axée sur le canal, chaque canal agit comme un silo dans lequel les efforts de personnalisation ne ciblent que les clients interagissant avec la marque sur ce canal. Cette approche ne reflète pas la réalité selon laquelle les clients interagissent avec les marques sur de nombreux points de contact différents. L’activation d’audience et de profil permet aux marques de connecter les interactions des clients sur plusieurs canaux, afin de fournir un profil et une audience centralisés qui peuvent être activés sur tous les canaux.
 
-| Plan directeur | Description | Applications Experience Cloud |
+| Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
 | **[Activation d’audience anonyme](anonymous.md)** | <ul><li>Ciblez des audiences sur le web et les canaux publicitaires pour des données client anonymes et comportementales.</li><li>Intégrez des données d’audience tierces pour une personnalisation accrue.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activation du client connu](known.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
-| **[Plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
+| **[Activation d’audience et de profil avec des applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
 | **[Correspondance de segment](segment-match.md)** | <ul><li>Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
-## Architecture du profil client en temps réel
+## Architecture de Real-time Customer Profile
 
 Le schéma ci-dessous présente les principaux composants du profil client en temps réel d’Experience Platform.
 
@@ -44,7 +44,7 @@ L’illustration ci-dessous présente les différentes méthodes de segmentation
 
 <img src="assets/segmentation_destination_overview.png" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"/>
 
-## Garde-fous pour les plans directeurs d’activation d’audience et de profil
+## Barrières de sécurité pour les plans directeurs d’audience et d’activation de profil
 
 * Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md) et la section [Garde-fous de segmentation et de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr).
 
@@ -66,7 +66,7 @@ L’illustration ci-dessous présente les différentes méthodes de segmentation
 * L’activation d’événements d’expérience bruts n’est pas prise en charge. Pour être activé par rapport aux événements d’expérience, un segment doit être créé avec les règles nécessaires qui incluent ou excluent la logique de l’événement d’expérience. Cela crée un segment défini par rapport aux événements d’expérience et l’adhésion au segment peut être activée en tant que proxy pour activer les événements d’expérience bruts. Envisagez également d’utiliser [!UICONTROL Platform Launch côté serveur] pour activer les événements d’expérience bruts collectés via le SDK.
 
 
-## Articles de blog connexes
+## Publications de blog connexes
 
 * [[!DNL Blueprints for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)

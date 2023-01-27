@@ -3,14 +3,14 @@ title: Journey Optimizer - Plan directeur pour Adobe Experience Platform et l
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer
+# Journey Optimizer plan directeur
 
 Adobe Journey Optimizer est un système conçu spécifiquement pour permettre aux équipes marketing de réagir en temps réel aux comportements des clients et de s’adapter à leurs besoins en fonction de leur localisation. Les fonctionnalités de gestion des données ont été déplacées vers Adobe Experience Platform, ce qui permet aux équipes marketing de se concentrer sur ce qu’elles font le mieux : créer un parcours client de haute qualité et des conversations personnalisées.  Ce plan directeur décrit les fonctionnalités techniques de l’application et présente en détail les différents composants architecturaux qui constituent Adobe Journey Optimizer.
 
@@ -83,19 +83,19 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
    * E-mail
    * Push (FCM/APNS)
    * Actions personnalisées (via l’API REST)
-* Intégrations sortantes vers des systèmes tiers :
+* Intégrations sortantes vers des systèmes tiers
    * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
    * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
    * Authentification par utilisateur/passage ou jeton d’autorisation
 * Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
 
-### Garde-fous de l’ingestion des données
+### Protections de l’ingestion des données
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Garde-fous d’activation
+### Barrières de sécurité d’activation
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -103,16 +103,16 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 ## Étapes d’implémentation
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
-#### Schéma / jeux de données
+#### Schéma/jeux de données
 
 1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
 1. [Créez des stratégies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=fr) pour appliquer la gouvernance sur les destinations.
 
-#### Profil / identité
+#### Profil/identité
 
 1. [Créez des espaces de noms spécifiques au client](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
 1. [Ajoutez des identités aux schémas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=fr).
@@ -120,7 +120,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr) pour les différentes vues de [!UICONTROL profil client en temps réel] (facultatif).
 1. Créez des segments pour utilisation dans Journey.
 
-#### Sources / destinations
+#### Sources/destinations
 
 1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
 
@@ -130,7 +130,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. Configurez des sources de données externes.
 1. Configurez des actions personnalisées.
 
-### Configuration push mobile
+### Configuration des notifications push mobiles
 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :

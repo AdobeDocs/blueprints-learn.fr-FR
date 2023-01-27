@@ -4,10 +4,10 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les garde-fous sont conçus pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
 
 
-## Garde-fous pour Adobe Experience Platform et les applications
+## Barrières de sécurité pour Adobe Experience Platform et les applications
 
-[Garde-fous de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
+[Protections de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
 
 [Garde-fous de l’API réseau Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 
@@ -34,9 +34,9 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 <br>
 
-## Latence de bout en bout   Diagrammes
+## Diagrammes de latence de bout en bout
 
-### d’ingestion de données
+### Ingestion des données
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -66,7 +66,7 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 <br>
 
-## Descriptions du produit
+## Descriptions des produits
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 

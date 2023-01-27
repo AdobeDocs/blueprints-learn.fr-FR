@@ -1,36 +1,36 @@
 ---
-title: Plan directeur d’export et d’accès aux données
+title: Plan directeur de l’accès et de l’exportation des données
 description: Ce plan directeur présente un aperçu de toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Plan directeur d’export et d’accès aux données
+# Plan directeur de l’accès et de l’exportation des données
 
 Le plan directeur d’export et d’accès aux données décrit toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 
 Le plan directeur est divisé en deux catégories pour l’accès aux données à partir d’Experience Platform et d’applications. Il y a, tout d’abord, les méthodes de sortie de données depuis Experience Platform et les applications ; cela serait considéré comme une méthode de sortie de données de type « push ». Viennent ensuite les méthodes d’accès aux données à partir d’Experience Platform et des applications ; cela serait considéré comme une méthode d’accès aux données de type « pull ».
 
-Méthodes d’accès aux données
+Méthodes d’accès aux données :
 
 * [API Real-time Customer Profile Access](#rtcp-profile-access-api)
 * [API Data Access](#data-access-api)
 * [Query Service](#query-service)
 
-Méthodes d’export des données
+Méthodes d’exportation des données :
 
 * [Balises côté client](#client-side-tags-extensions)
 * [Transfert d’événement](#event-forwarding)
 * [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
 * [Actions personnalisées de Journey Optimizer](#jo-custom-actions)
 
-## Architecture de présentation de l’export et de l’accès aux données
+## Architecture de présentation de l’accès aux données et de l’exportation
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de préparation et d’ingestion des données" style="width:90%; border:1px solid #4a4a4a" />
 
@@ -117,12 +117,12 @@ Pour plus d’informations, consultez la documentation [Transfert d’événemen
 
 #### Considérations
 
-* Pour utiliser le transfert d’événement, les données doivent être envoyées au réseau Edge à l’aide de WebSDK ou de MobileSDK.
+* Pour utiliser le transfert d’événement, les données doivent être envoyées au réseau Edge à l’aide du SDK Web ou du SDK Mobile.
 * La méthode de transfert d’événement réduit le poids et le temps de chargement de la page en raison des balises qui y sont ajoutées.
 * Aucun enrichissement du profil Edge ou d’autres sources de données n’est actuellement pris en charge.
 * Le filtrage limité des données et les transformations de mappage simples sont pris en charge.
 
-### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
+### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
 
 Les données d’attribut de profil et d’appartenance à une audience peuvent être activées vers les destinations d’entreprise et de publicité. Cela signifie que les données extraites doivent être ingérées dans le profil client en temps réel d’Experience Platform.
 
@@ -138,7 +138,7 @@ Pour plus d’informations, consultez la documentation [Destinations Real-time 
 * Les attributs de profil et les appartenances à une audience peuvent être activés. Actuellement, les événements d’expérience bruts ne peuvent pas être activés dans le cadre des destinations RTCDP.
 * Les activations s’effectuent en streaming ou par lots selon la nature de l’évaluation du segment et celle du protocole d’ingestion accepté par la destination.
 
-### Actions personnalisées de Journey Optimizer {#jo-custom-actions}
+### Actions personnalisées Journey Optimizer {#jo-custom-actions}
 
 L’utilisation de Journey Optimizer permet d’appeler une action personnalisée à partir de la zone de travail du parcours afin d’envoyer une payload ou un message à un point d’entrée d’API externe configuré. Une action peut être configurée sur n’importe quel service à partir de tout fournisseur pouvant être appelé via une API REST avec une payload au format JSON. Cette payload peut inclure des informations d’événement, des attributs de profil et des données sur un événement antérieur, ainsi que des transformations et des enrichissements configurés dans le parcours.
 

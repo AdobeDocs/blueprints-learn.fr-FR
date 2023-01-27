@@ -1,35 +1,38 @@
 ---
-title: Plan directeur de déploiement SDK web/mobile et Edge Network
+title: SDK web/mobile, diagramme d’architecture du déploiement réseau Edge
 description: Ce plan directeur présente les processus d’architecture et d’ingestion par le biais du SDK web et mobile Experience Platform et d’Edge Network.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 77%
 
 ---
 
 
-# Présentation
+# Schéma d’architecture SDK web Experience Platform et réseau Edge
 
 Pour obtenir un aperçu et des détails sur le SDK web et mobile, ainsi que sur l’API de serveur Edge Network, consultez ce qui suit.
+
 * [Présentation du SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)
 * [Présentation du SDK Mobile](https://developer.adobe.com/client-sdks/documentation/)
 * [API du serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
-Pour une description détaillée des fonctionnalités de l’application prises en charge dans le SDK web, consultez la documentation suivante.
-* [Prise en charge des fonctionnalités de l’application SDK web](https://github.com/orgs/adobe/projects/18/views/1)
+Pour une description détaillée des fonctionnalités de l’application prises en charge dans le SDK Web, consultez la documentation suivante.
+
+* [Prise en charge des fonctionnalités de l’application SDK Web](https://github.com/orgs/adobe/projects/18/views/1)
 
 Pour plus d’informations sur la migration des SDK spécifiques aux applications vers les SDK web et mobile, consultez la documentation suivante.
+
 * [Identity Services](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=fr)
 * [Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html?lang=fr)
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=fr)
 
-## Déploiement à l’aide du SDK web/mobile Experience Platform ou de l’API de serveur Edge Network
+## Déploiement du SDK Web/mobile Experience Platform ou de l’API du serveur réseau Edge
 
 Le diagramme d’architecture ci-dessous illustre les processus de déploiement et de collecte de données à l’aide du SDK web d’Experience Platform.
 

@@ -1,19 +1,19 @@
 ---
-title: Plan directeur du centre d’activité client
-description: '"Recherches de [!UICONTROL profil client en temps réel] pour fournir un contexte pour l’aide et les ventes assistées par un agent."'
+title: Plan directeur d’Activity Hub client
+description: "Recherches de [!UICONTROL profil client en temps réel] pour fournir un contexte pour l’aide et les ventes assistées par un agent."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
-# Plan directeur du centre d’activité client
+# Plan directeur d’Activity Hub client
 
-Le plan directeur du centre d’activité client montre comment les applications externes peuvent accéder au [!UICONTROL profil client en temps réel] dans Adobe Experience Platform.
+Le plan directeur de l’Hub d’activité client montre comment les applications externes peuvent accéder à Adobe Experience Platform [!UICONTROL Real-time Customer Profile].
 
 Les applications externes peuvent accéder aux profils à travers une requête GET d’API. Les attributs, événements, abonnements aux segments, et fonctionnalités basées sur des modèles stockés dans le profil peuvent ensuite être utilisés dans ces applications externes.
 

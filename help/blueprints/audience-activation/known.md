@@ -1,13 +1,13 @@
 ---
-title: Activation du client connu
+title: Activation du client connu plan directeur
 description: Activation d’audience en ligne / hors ligne
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ Utilisez les attributs et les événements hors ligne tels que les commandes hor
 
 Les identifiants étendus dotés de contrôles de gouvernance intégrés offrent davantage d’opportunités de communication avec les clients connus. Activez des audiences vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires
 
-Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
+Vous trouverez des informations supplémentaires dans la section [Audience et activation de profil avec plan directeur des applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
@@ -32,12 +32,12 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 ## Architecture
 
-### Activation du client connu dans Real-time Customer Data Platform
+### Activation connue des clients via Real-time Customer Data Platform
 
 <img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Activation du client connu à l’aide des destinations basées sur les personnes d’Audience Manager
+### Activation connue des clients via des destinations basées sur les personnes d’Audience Manager
 
 <img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
 <br>
@@ -46,7 +46,7 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 
 [Référez-vous aux garde-fous tels que décrits sur la page de présentation de l’activation d’audience et de profil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=fr#guardrails-for-audience-and-profile-activation-blueprints).
 
-## Procédure de mise en œuvre de Real-time Customer Data Platform
+## Étapes de mise en oeuvre de Real-time Customer Data Platform
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
@@ -57,13 +57,13 @@ Plus de précisions sont fournies dans le [plan directeur pour l’activation de
 1. [Créez des segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=fr) dans Experience Platform. Le système détermine automatiquement si le segment est évalué en tant que lot ou en tant que flux continu.
 1. [Configurez les destinations](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=fr) pour le partage des attributs de profil et des appartenances à une audience vers les destinations souhaitées.
 
-## Considérations de mise en œuvre
+## Considérations relatives à la mise en œuvre
 
 * Le partage des données de profil avec les destinations nécessite que vous incluiez la valeur d’identité spécifique utilisée par la destination dans la payload de destination. Toute identité nécessaire pour une destination cible doit être ingérée dans Platform et configurée en tant qu’identité pour le [!UICONTROL profil client en temps réel].
 
-* Consultez [Activation d’audience et de profil avec le plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
+* Voir [Audience et activation de profil avec plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
 
-## Procédure de mise en œuvre des destinations basées sur les personnes d’Audience Manager
+## Étapes de mise en oeuvre pour l’Audience Manager des destinations basées sur les personnes
 
 * Pour plus d’informations sur la mise en œuvre d’Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) suivante.
 

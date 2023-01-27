@@ -5,14 +5,14 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 99%
 
 ---
 
-# Collecte et préparation de données
+# Collecte et préparation de données plan directeur
 
 La collecte et la préparation des données englobe et décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform. Elle inclut également la possibilité de collecter des données vers Adobe Experience Platform Edge Network et de les transférer ultérieurement via le transfert latéral vers des destinations d’entreprise.
 

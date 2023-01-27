@@ -1,19 +1,19 @@
 ---
-title: Plan directeur pour l’activation d’audience anonyme
+title: Plan directeur d’Audience Activation anonyme
 description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales. Cette capacité permet des expériences client en temps réel personnalisées et cohérentes sur tous les appareils.
 landing-page-description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales.
 solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Plan directeur pour l’activation d’audience anonyme
+# Plan directeur d’Audience Activation anonyme
 
 L’activation de l’audience anonyme permet de cibler et de personnaliser des audiences sur des canaux web, mobiles et publicitaires basés sur un appareil et des données comportementales anonymes.
 
@@ -31,7 +31,7 @@ L’activation de l’audience anonyme permet de cibler et de personnaliser des 
 
 Audience Manager et Real-time Customer Data Platform peuvent être utilisés pour alimenter l’activation d’audience anonyme pour les destinations sur site et publicitaires. Notez que Real-time Customer Data Platform ne prend en charge qu’un sous-ensemble de destinations publicitaires avec des identifiants d’appareil anonymes, tels que listés dans la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr).
 
-Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations publicitaires prises en charge par Real-time Customer Data Platform pour le ciblage anonyme basé sur les appareils. Par ailleurs, Real-time Customer Data Platform prend en charge de nombreuses destinations basées sur les clients connues, telles que cataloguées dans la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr) et comme décrit dans la section [plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
+Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations publicitaires prises en charge par Real-time Customer Data Platform pour le ciblage anonyme basé sur les appareils. Par ailleurs, Real-time Customer Data Platform prend en charge de nombreuses destinations basées sur les clients connues, telles qu’elles sont cataloguées dans le [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr) et comme décrit dans la section [Plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
 
 ## Architecture
 
@@ -39,11 +39,11 @@ Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations pu
 
 <br>
 
-## Procédure de mise en œuvre d’Audience Manager
+## Étapes de mise en oeuvre de l’Audience Manager
 
 * Pour plus d’informations sur la mise en œuvre d’Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) suivante.
 
-## Procédure de mise en œuvre de Real-time Customer Data Platform
+## Étapes de mise en oeuvre de Real-time Customer Data Platform
 
 * Pour connaître les étapes de mise en œuvre de Real-time Customer Data Platform, consultez la [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr) suivante.
 

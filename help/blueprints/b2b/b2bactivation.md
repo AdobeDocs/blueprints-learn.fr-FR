@@ -1,17 +1,17 @@
 ---
-title: Activation B2B
+title: Plan directeur d’activation d’audiences et de profils B2B
 description: Proposez des audiences basées sur les comptes et des expériences client centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
-# Audience B2B et activation de profil
+# Audience B2B et activation de profil plan directeur
 
 Utilisez les informations de compte, d’opportunités et de prospects liées à un client individuel pour créer des profils B2B exploitables afin d’améliorer la personnalisation et le ciblage sur l’ensemble des canaux.
 
@@ -87,7 +87,7 @@ Pour plus d’informations sur la mise en œuvre et la configuration de l’édi
 
 Il existe deux modèles de mise en œuvre possibles. La possibilité d’ingérer des données B2B et des profils à partir de Marketo Engage ou la possibilité d’ingérer des données B2B à partir d’autres sources de données CRM.
 
-## Considérations de mise en œuvre
+## Considérations relatives à la mise en œuvre
 
 Recommandations sur les principales considérations et configurations du plan directeur.
 
