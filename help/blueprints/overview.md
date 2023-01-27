@@ -1,31 +1,39 @@
 ---
-title: Plans directeurs d’expérience digitale
-description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
+title: Plans directeurs d’expérience numérique
+description: Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables pour répondre aux stratégies et résoudre les problèmes d’entreprise établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
-# Plans directeurs d’expérience digitale
+# Plans directeurs d’expérience numérique
 
-Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et rapidement résoudre les problèmes commerciaux établis. Chaque plan directeur offre une série de ressources qui expliquent le problème commercial, les architectures, les étapes de mise en œuvre, les considérations techniques et les liens vers la documentation pertinente.
+Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables qui vous permettent de résoudre rapidement des problèmes d’entreprise et de stratégies. Chaque plan directeur offre une série de ressources qui expliquent le problème commercial, les architectures, les étapes de mise en œuvre, les considérations techniques et les liens vers la documentation pertinente.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ## Nouveautés
 
-* **[Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Plan directeur d’activation d’audience et de profil vers les destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
-* **[Plan directeur du centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Plan directeur d’Activity Hub client](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fournit le contexte pour l’aide et les ventes assistées par un agent.*
-* **[Plan directeur pour l’analyse des données et la Data Intelligence](/help/blueprints/data-insights/analysis.md)**
+* **[Plan directeur de l’analyse et du renseignement des données](/help/blueprints/data-insights/analysis.md)**
 
    *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
 
-## Plans directeurs
+## Plans directeurs présentés
 
 <table style="table-layout:fixed">
 <tr>
@@ -47,9 +55,9 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 </tr>
 </table>
 
-## Articles de blog
+## Publications de blog
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
