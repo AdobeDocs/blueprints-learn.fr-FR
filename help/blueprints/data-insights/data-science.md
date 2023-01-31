@@ -4,16 +4,16 @@ description: Ce plan directeur montre comment ingérer dans Experience Platform
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
 
 # Science des données personnalisées pour le plan directeur d’enrichissement de profil
 
-Le plan directeur sur la science des données personnalisée pour l’enrichissement de profil illustre la manière dont les données peuvent être utilisées pour entraîner, déployer et noter des modèles pour qu’ils fournissent à Experience Platform et à Real-time Customer Data Platform des informations de machine learning à partir de la science des données et d’outils de machine learning. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
+Science des données personnalisées pour le plan directeur d’enrichissement des profils illustre la manière dont les données peuvent être utilisées pour former, déployer et noter des modèles afin de fournir des insights d’apprentissage automatique à Experience Platform et Real-time Customer Data Platform à partir de la science des données et des outils d’apprentissage automatique. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
 ## Cas d’utilisation
 

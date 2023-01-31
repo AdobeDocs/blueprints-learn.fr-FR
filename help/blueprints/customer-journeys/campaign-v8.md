@@ -3,10 +3,10 @@ title: Plan directeur Campaign v8, Campaign et Platform
 description: Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour les canaux marketing traditionnels tels que le publipostage par e-mail ou le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également fourni avec un serveur de messagerie en temps réel adaptable qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 * Campagnes de publicité, de brochures et de magazines par publipostage direct
 * Messages transactionnels simples (réinitialisation de mot de passe, accusés de réception d’e-mails, confirmations de commandes, etc.)
 * Intégration des données de Campaign dans Adobe Experience Platform pour l’analyse et la création de profils
-* Partage des audiences Real-time Customer Data Platform avec Campaign.
+* Partage des audiences Real-time Customer Data Platform vers Campaign.
 
 <br>
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 
 | Scénario | Description | Fonctionnalités |
 | :-- | :--- | :--- |
-| [Real-time Customer Data Platform avec Adobe Campaign](rtcdp-and-campaign-v8.md) | Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées. | <ul><li>Partage de profils et d’audiences de Real-Time CDP vers Adobe Campaign via l’échange de fichiers dans le stockage cloud et les workflows d’ingestion d’Adobe Campaign. </li><li>Partage facile des données de diffusion et d’interaction issues des conversations de la clientèle dans Real-Time CDP d’Adobe Campaign afin d’améliorer le profil client en temps réel et de fournir des rapports cross-canal sur les campagnes de messagerie.</li></ul> |
+| [Real-time Customer Data Platform avec Adobe Campaign](rtcdp-and-campaign-v8.md) | Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées. | <ul><li>Partage de profils et d’audiences de Real-Time CDP vers Adobe Campaign via l’échange de fichiers dans le stockage cloud et les workflows d’ingestion d’Adobe Campaign. </li><li>Partagez facilement les données de diffusion et d’interaction issues des conversations des clients dans Real-Time CDP à partir d’Adobe Campaign afin d’améliorer le profil client en temps réel et de fournir des rapports cross-canal sur les campagnes de messagerie.</li></ul> |
 | [Journey Optimizer avec Adobe Campaign](ajo-and-campaign.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et utiliser le système de messagerie transactionnelle Adobe Campaign natif pour envoyer le message. | Exploite les profils clients en temps réel et la puissance de Journey Optimizer pour orchestrer les expériences en temps réel tout en utilisant les fonctionnalités natives de messagerie en temps réel d’Adobe Campaign pour effectuer la communication du « dernier kilomètre ».<br><br>Remarques :<br><ul><li>Il peut envoyer jusqu’à 1 million de messages par heure via le serveur de messagerie en temps réel.<li>Aucune limitation n’est effectuée à partir de Journey Optimizer, de sorte que la validation technique par un architecte d’entreprise de prévente est assurée.</li><li>La gestion des décisions n’est pas pris en charge dans les payloads de Campaign v8.</li></ul> |
 
 <br>

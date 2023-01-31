@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 96%
@@ -20,13 +20,13 @@ La préparation des données inclut le mapping de données sources vers un sché
 
 ## Architecture
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de la préparation et de l’ingestion de données" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de la préparation et de l’ingestion de données" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Protections de l’ingestion des données
 
 Le diagramme ci-dessous illustre les principaux garde-fous de performance et la latence de l’ingestion de données dans Adobe Experience Platform.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" />
 
 ## Méthodes d’ingestion des données
 

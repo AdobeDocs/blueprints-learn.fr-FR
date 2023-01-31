@@ -1,10 +1,10 @@
 ---
 title: Activation du ciblage par liste de clients Google
 description: Activation du ciblage par liste de clients Google.
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 ## Applications
 
-* Real-time Customer Data Platform
+*  de Real-Time Customer Data Platform
 
 ## Architecture
 

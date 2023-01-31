@@ -4,7 +4,7 @@ description: Offrez à vos clients des offres personnalisées en temps réel tou
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 84%
@@ -29,7 +29,7 @@ Cette limitation devait être résolue afin de permettre un suivi plus rapide de
 |---|---|---|
 | **Augmentation des taux de conversion de campagnes **<br></br>** Augmentation du chiffre d’affaires annuel du compte**</ul> | <ul><li>Créez un segment en temps quasi réel pour les utilisateurs qui ont montré un intérêt pour l’ajout d’une ligne, mais qui n’ont pas encore été convertis.</li><li>Accélérez le suivi des clients non convertis avec un second point de contact destiné aux clients non convertis mais intéressés. </li><li>Utilisez une stratégie de test permettant de mesurer les performances des parcours et d’optimiser la conversion par e-mail.</li></ul> | <ul><li><strong>Des expériences pertinentes de haute qualité :</strong> grâce à l’implémentation de Journey Orchestration, les clients reçoivent de messages plus pertinents, ce qui réduit le volume des listes d’e-mails.</li><li><strong>Journey Orchestration, sur-mesure :</strong> un parcours personnalisé et plus chronologique peut être créé pour augmenter les conversions et le chiffre d’affaires total.</li></ul> |
 
-## Plan directeur Principal : Audience et activation avec les applications Experience Cloud
+## Plan directeur Principal : Audience et activation avec des applications Experience Cloud
 
 ### Description
 

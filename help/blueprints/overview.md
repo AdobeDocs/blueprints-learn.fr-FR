@@ -3,7 +3,7 @@ title: Plans directeurs d’expérience numérique
 description: Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables pour répondre aux stratégies et résoudre les problèmes d’entreprise établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 73%

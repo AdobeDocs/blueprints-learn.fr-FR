@@ -5,14 +5,14 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 95%
+source-wordcount: '175'
+ht-degree: 89%
 
 ---
 
-# Analyse des données, data intelligence et IA / ML plan directeur
+# Plans directeurs Data Analysis, Intelligence et AI/ML
 
 L’analyse des données, la data intelligence et l’IA / ML montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 

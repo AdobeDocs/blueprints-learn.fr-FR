@@ -1,13 +1,13 @@
 ---
 title: Activation des audiences personnalisées Facebook
 description: Activation des audiences personnalisées Facebook.
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 ## Applications
 
-* Real-time Customer Data Platform
+*  de Real-Time Customer Data Platform
 
 ## Architecture
 
@@ -82,7 +82,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
    * Recherchez les profils ignorés pour les identités de profil manquantes ou les attributs manquants qui étaient obligatoires.
    * Recherchez d’autres erreurs qui doivent être résolues.
 1. Vérifiez que l’audience a été activée vers la destination de fin avec le nombre d’abonnements attendu pour l’audience.
-   * Connectez-vous au portail d’audience personnalisée Facebook pour vérifier que l’audience de Real-time Customer Data Platform a été diffusée et que le taux de correspondance des profils de l’audience de Facebook correspond raisonnablement au nombre de profils de l’audience de Real-time Customer Data Platform.
+   * Connectez-vous au portail d’audience personnalisée Facebook pour vérifier que l’audience de Real-time Customer Data Platform a été diffusée et que le taux de correspondance des profils de l’audience de Facebook correspond raisonnablement au nombre de profils de l’audience de Real-time Customer Data Platform.
 
 ## Garde-fous
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 85%
+ht-degree: 64%
 
 ---
 
@@ -27,11 +27,11 @@ L’activation de l’audience anonyme permet de cibler et de personnaliser des 
 ## Applications
 
 * Audience Manager
-* Real-time Customer Data Platform
+*  de Real-Time Customer Data Platform
 
-Audience Manager et Real-time Customer Data Platform peuvent être utilisés pour alimenter l’activation d’audience anonyme pour les destinations sur site et publicitaires. Notez que Real-time Customer Data Platform ne prend en charge qu’un sous-ensemble de destinations publicitaires avec des identifiants d’appareil anonymes, tels que listés dans la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr).
+Audience Manager et Real-time Customer Data Platform peuvent être utilisés pour alimenter l’Audience Activation anonyme pour les destinations sur site et publicitaires. Notez que Real-time Customer Data Platform ne prend en charge qu’un sous-ensemble de destinations publicitaires avec des identifiants d’appareil anonymes, tels que catalogués dans la variable [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr).
 
-Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations publicitaires prises en charge par Real-time Customer Data Platform pour le ciblage anonyme basé sur les appareils. Par ailleurs, Real-time Customer Data Platform prend en charge de nombreuses destinations basées sur les clients connues, telles qu’elles sont cataloguées dans le [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr) et comme décrit dans la section [Plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
+Microsoft Bing, Google DV360 et TradeDesk sont les Principales destinations publicitaires Real-time Customer Data Platform prises en charge pour le ciblage anonyme basé sur les appareils. Par ailleurs, Real-time Customer Data Platform prend en charge de nombreuses destinations basées sur les clients connues, telles qu’elles sont cataloguées dans le [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=fr) et comme décrit dans la section [Plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
 
 ## Architecture
 
@@ -45,7 +45,7 @@ Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations pu
 
 ## Étapes de mise en oeuvre de Real-time Customer Data Platform
 
-* Pour connaître les étapes de mise en œuvre de Real-time Customer Data Platform, consultez la [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr) suivante.
+* Pour connaître les étapes de mise en oeuvre de Real-time Customer Data Platform, voir : [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
 
 ## Documentation connexe
 
@@ -54,4 +54,4 @@ Microsoft Bing, Google DV360 et TradeDesk sont les principales destinations pu
 * [Intégration d’Audience Manager à Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
 * [Partage de segments Adobe Analytics via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr)
 * [Plan directeur d’activation du client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr).
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr)

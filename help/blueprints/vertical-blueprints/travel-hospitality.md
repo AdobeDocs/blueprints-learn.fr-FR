@@ -1,13 +1,13 @@
 ---
 title: Secteur du tourisme et de l’hôtellerie - Activation avec des données en ligne et hors ligne
 description: Des décisions en temps réel grâce à une vue consolidée unique du comportement des clients sur différents canaux.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Grâce à l’utilisation des technologies et des services d’Adobe, cette orga
 ## Approche Adobe
 
 * Intégrez Adobe Experience Platform à votre pile technologique existante pour offrir des interactions client cross-solutions.
-* Activez Real-time Customer Data Platform et Customer Journey Analytics pour fournir une analyse continue et des profils client personnalisés.
+* Activation de Real-time Customer Data Platform et de Customer Journey Analytics pour fournir une analyse continue et des profils client personnalisés.
 * Développez une vision globale de votre parcours client pour prendre en charge l’attribution marketing et allouer les ressources de façon efficace.
 * Adaptez-vous aux conditions du COVID-19 avec une stratégie préparera votre activité à la suite tout en continuant à impliquer vos clients.
 
@@ -38,7 +38,7 @@ Grâce à l’utilisation des technologies et des services d’Adobe, cette orga
 
 ### Applications Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Architecture du plan directeur
 

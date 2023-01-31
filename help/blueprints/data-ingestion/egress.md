@@ -2,12 +2,12 @@
 title: Plan directeur de l’accès et de l’exportation des données
 description: Ce plan directeur présente un aperçu de toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -27,12 +27,12 @@ Méthodes d’exportation des données :
 
 * [Balises côté client](#client-side-tags-extensions)
 * [Transfert d’événement](#event-forwarding)
-* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
+* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
 * [Actions personnalisées de Journey Optimizer](#jo-custom-actions)
 
 ## Architecture de présentation de l’accès aux données et de l’exportation
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de préparation et d’ingestion des données" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de préparation et d’ingestion des données" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Méthodes d’accès aux données
 
@@ -126,7 +126,7 @@ Pour plus d’informations, consultez la documentation [Transfert d’événemen
 
 Les données d’attribut de profil et d’appartenance à une audience peuvent être activées vers les destinations d’entreprise et de publicité. Cela signifie que les données extraites doivent être ingérées dans le profil client en temps réel d’Experience Platform.
 
-Pour plus d’informations, consultez la documentation [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
+Reportez-vous à la section [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr) pour plus d’informations.
 
 #### Cas d’utilisation
 
