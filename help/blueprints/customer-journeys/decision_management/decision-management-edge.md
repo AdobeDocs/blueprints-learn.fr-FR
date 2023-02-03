@@ -1,16 +1,16 @@
 ---
-title: Gestion des décisions sur le plan directeur Edge
+title: Plan directeur de la gestion des décisions sur Edge
 description: Diffusez des offres personnalisées à vos clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Gestion des décisions sur le plan directeur Edge
+# Journey Optimizer - Plan directeur de la gestion des décisions sur Edge
 
 Pour en savoir plus sur la gestion des décisions, consultez la documentation du produit [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et la présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr).
 
@@ -24,7 +24,7 @@ Ce plan directeur couvrira les détails de la gestion des décision sur Edge.
 
 Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au plan directeur [Gestion des décisions sur le hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=fr).
 
-## Cas d’utilisation de la gestion de la décision sur le serveur Edge
+## Cas d’utilisation de la gestion des décisions sur Edge
 
 * Personnalisation en ligne via des expériences entrantes web ou mobiles
 * Exécution de parcours cross-canal : offre une cohérence entre les canaux web, mobile, par e-mail et les autres canaux d’interaction par le biais d’Adobe Journey Optimizer
@@ -45,7 +45,7 @@ Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au p
 
 ## Conditions préalables
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 * Les schémas et les jeux de données doivent être configurés dans le système avant de pouvoir configurer les sources de données Journey Optimizer.
 * Pour les schémas basés sur la classe Événement d’expérience, ajoutez le groupe de champs « Orchestration eventID » lorsque vous souhaitez qu’un événement déclenché ne soit pas basé sur des règles.
@@ -62,19 +62,19 @@ Adobe Experience Platform
 * Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil sur Edge seront disponibles dans le profil.
 * Si la personnalisation est requise au cours des premières expériences, le hub sera la solution idéale car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience sur Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
 
-### Protections de l’ingestion des données
+### Mécanismes de sécurisation de l’ingestion des données
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Barrières de sécurité d’activation
+### Mécanismes de sécurisation de l’activation
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
-## Modèles de mise en oeuvre
+## Modèles de mise en œuvre
 
 * Utilisez le SDK web ou mobile pour le déploiement sur des sites web et des applications mobiles afin de mettre en œuvre la gestion des décisions à l’endroit où le SDK a été déployé.
    * [Plan directeur de SDK web ou mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=fr)
@@ -88,9 +88,9 @@ Ou
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
 #### Schéma/jeux de données
 
@@ -109,7 +109,7 @@ Ou
 
 #### Sources/destinations
 
-1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
+1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
 
 ## Documentation connexe
 
