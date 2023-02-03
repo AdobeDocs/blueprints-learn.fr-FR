@@ -1,16 +1,16 @@
 ---
-title: Gestion des décisions sur le plan directeur Hub
+title: Plan directeur de la gestion des décisions sur le hub
 description: Diffusez à vos clients des offres personnalisées sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des e-mails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Gestion des décisions sur le plan directeur Hub
+# Plan directeur de la gestion des décisions sur le hub
 
 Pour en savoir plus sur la gestion des décisions, consultez la documentation du produit [ICI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr) et la présentation de la gestion des décisions [ICI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr).
 
@@ -26,7 +26,7 @@ Ce plan directeur couvre les détails de la gestion des décisions sur le hub.
 
 Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au plan directeur [Gestion des décisions sur Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=fr).
 
-## Cas d’utilisation de la gestion de la décision sur le hub
+## Cas d’utilisation de la gestion des décisions sur le hub
 
 * Offres personnalisées dans les kiosques et dans les expériences en magasin
 * Offres personnalisées par le biais d’une expérience assistée par agent, telles que des centres d’appel ou des interactions commerciales
@@ -44,7 +44,7 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 
 ## Conditions préalables
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 * Les schémas et les jeux de données doivent être configurés dans le système avant de pouvoir configurer les sources de données Journey Optimizer.
 * Pour les schémas basés sur la classe Événement d’expérience, ajoutez le groupe de champs « Orchestration eventID » lorsque vous souhaitez qu’un événement déclenché ne soit pas basé sur des règles.
@@ -61,29 +61,29 @@ Adobe Experience Platform
 * Accès au profil client en temps réel complet, y compris aux abonnements, aux attributs et aux événements d’expérience de l’audience.
 
 
-### Protections de l’ingestion des données
+### Mécanismes de sécurisation de l’ingestion des données
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Barrières de sécurité d’activation
+### Mécanismes de sécurisation de l’activation
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
-## Modèles de mise en oeuvre
+## Modèles de mise en œuvre
 
-* Mise en œuvre dans les canaux par e-mail, par SMS et sortants via l’intégration directe avec [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=fr).
+* Mise en œuvre dans les canaux par e-mail, par SMS et sortants via l’intégration directe dans [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=fr).
 * Pour une mise en œuvre de la gestion des décisions basée sur l’API de serveur, utilisez l’[API de prise de décision](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=fr).
 * Pour la mise en œuvre de la prise de décision par lots afin de diffuser des offres en bloc vers une application de diffusion de messages, utilisez l’[API de prise de décisions par lots](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=fr).
 * Pour les expériences en temps réel basées sur Edge, utilisez le SDK web/mobile ou l’API de prise de décisions Edge, comme indiqué dans le [plan directeur de la gestion des décisions sur Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=fr).
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
 #### Schéma/jeux de données
 
@@ -102,7 +102,7 @@ Adobe Experience Platform
 
 #### Sources/destinations
 
-1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
+1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
 
 ## Documentation connexe
 
