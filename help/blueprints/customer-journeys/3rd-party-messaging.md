@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer - Plan directeur de la messagerie tierce
+title: Journey Optimizer - Plan directeur de la messagerie tierce
 description: Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,14 +69,14 @@ Système de messagerie tiers
    * Type d’authentification :  token | password | OAuth2, pris en charge via Journey Optimizer
    * Durée du cache d’authentification :  combien de temps le jeton est-il valide ? 
 * Si seule l’ingestion par lots est prise en charge, elle doit être diffusée en continu vers un moteur de stockage dans le cloud tel qu’Amazon Kinesis ou Azure Event Grid 1er.
-   * Les données peuvent être mises en lots de ces moteurs de stockage dans le cloud et canalisées vers des solutions tierces.
-   * Tout middleware requis serait la responsabilité du client ou de tiers de fournir
+   * Les données peuvent être mises en lots par ces moteurs de stockage dans le cloud et canalisées vers des solutions tierces.
+   * La fourniture de tout middleware requis serait de la responsabilité du client ou des tiers concernés.
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
 #### Schéma/jeux de données
 
@@ -95,7 +95,7 @@ Système de messagerie tiers
 
 #### Sources/destinations
 
-1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
+1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
 
 ### Journey Optimizer
 
@@ -103,13 +103,13 @@ Système de messagerie tiers
 1. Configurez des sources de données externes.
 1. Configuration d’actions personnalisées pour une application tierce.
 
-### Configuration des notifications push mobiles (facultative, car des jetons tiers peuvent être collectés)
+### Configuration push mobile (facultative, car des jetons peuvent être collectés par des tiers)
 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identité      pour Edge Network
+   * Identité       pour Edge Network
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
