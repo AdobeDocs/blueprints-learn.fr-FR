@@ -1,21 +1,21 @@
 ---
-title: Inprise et création d’un plan directeur
+title: Plan directeur d’ingestion et de création
 description: Ingestion et création - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Ingestion et création plan directeur {#intake-and-create}
+# Plan directeur d’ingestion et de création {#intake-and-create}
 
 Le nombre de requêtes marketing qui entrent dans une équipe d’opérations marketing pour lancer de nouvelles campagnes peut transformer une équipe performante en un tourniquet de tâches répétitives, ce qui provoque un épuisement et une innovation stagnante.
 
 À travers la mise en place d’un processus d’envoi de requêtes de campagne et l’automatisation de la création de campagnes marketing fréquemment demandées, vous pouvez : augmenter la vitesse de vos campagnes, réduire les erreurs, acheminer les requêtes vers le bon membre des opérations marketing, équilibrer et améliorer l’utilisation des ressources et concentrer davantage vos opérations marketing sur des tâches plus stratégiques.
 
-Avec Workfront et Marketo Engage, une connexion système à système permet de consulter les détails d’une [Formulaire de demande Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr){target="_blank"} pour créer un programme Marketo Engage, remplissez les variables clés telles que : lignes d’objet, copie électronique, images, dates, heures, informations sur les événements, etc.
+Avec Workfront et Marketo Engage, une connexion entre les deux systèmes permet de consulter les détails d’un [formulaire de requête Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr) pour créer un programme Marketo Engage. Il suffit ensuite de renseigner des variables clés telles que : lignes d’objet, copie d’e-mail, images, dates, heures, informations sur les événements, etc.{target="_blank"}
 
 Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fusion, un calque d’automatisation de travail qui vous permet d’automatiser les workflows entre Workfront et d’autres systèmes.
 
@@ -27,13 +27,13 @@ Le workflow ci-dessous présente une requête de webinaire envoyée par un gesti
 >
 >Pour en savoir plus sur les différents types d’objets utilisés dans Workfront pour organiser le travail d’une campagne marketing et sur la façon dont ils sont mappés à un programme Marketo Engage, consultez la section [Présentation de Marketo et Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
 
-## Préparation de votre processus de développement de campagne pour l’automatisation {#prepare-your-campaign-development-process-for-automation}
+## Préparation de votre processus de développement de campagne pour automatisation {#prepare-your-campaign-development-process-for-automation}
 
 Derrière chaque grande automatisation des workflows se trouve un processus défini qui garantit que les équipes et les parties prenantes tirent le meilleur parti de l’automatisation.
 
 **Quels types de requêtes marketing allez-vous recevoir ?**
 
-Pensez aux types de tactiques marketing que vous exécuterez tels que les e-mails, Nurture, les webinaires propriétaires et les événements. Exécutez-vous également des webinaires tiers ou des publicités affichées ? Chacune de ces requêtes doit être prise en compte, car elles peuvent nécessiter des champs de saisie spécifiques dans le formulaire de requête et chacune sera mappée à différents modèles de programme dans Marketo Engage qui seront clonés.
+Pensez aux types de tactiques marketing que vous exécuterez tels que les e-mails, Nurture, les webinaires propriétaires et les événements. Exécutez-vous également des webinaires tiers ou des publicités display ? Chacune de ces requêtes doit être prise en compte, car elles peuvent nécessiter des champs de saisie spécifiques dans le formulaire de requête et chacune sera mappée à différents modèles de programme dans Marketo Engage qui seront clonés.
 
 Il est également préférable de savoir si vous exécutez des campagnes dans plusieurs régions. Si tel est le cas, il vaudra mieux tenir compte d’un projet dans Workfront à travers la création de plusieurs programmes dans Marketo Engage, chaque programme représentant une prise en charge linguistique différente.
 
@@ -87,7 +87,7 @@ Pensez aux informations clés qui devront être capturées dans votre formulaire
 >
 >Aujourd’hui, la création d’audiences par programmation grâce à l’automatisation est limitée dans Marketo Engage, car les jetons ne sont pas pris en charge dans les listes dynamiques. Cela signifie que les audiences devront être créées dans Marketo Engage par un utilisateur ou, si vous disposez d’une audience prédéterminée à laquelle vous communiquez en permanence, vous pouvez inclure une liste dynamique configurée dans votre modèle de programme, qui est clonée pendant le processus d’automatisation.
 
-### Créer votre centre d’excellence {#establish-your-center-of-excellence}
+### Création de votre centre d’excellence {#establish-your-center-of-excellence}
 
 Si vous voulez automatiser la création de programmes, vous aurez besoin d’un centre d’excellence dans Marketo Engage. Un centre d’excellence comprend des programmes et des ressources modélisés pour accélérer et normaliser le processus de développement des campagnes. Par exemple, vous pouvez disposer d’un modèle de programme pour vos différents besoins de campagne : e-mail, support, événement en présentiel et webinaire. En outre, vous pouvez avoir plusieurs modèles de programme de messagerie que vous utilisez pour différentes régions ou différents types d’annonces par e-mail.
 
@@ -95,15 +95,15 @@ Le fait de construire votre centre d’excellence avec des modèles de programme
 
 Une fois que vous disposez d’un ensemble de modèles de programme réutilisables, vous pouvez augmenter davantage vos efforts à l’aide de l’automatisation décrite dans ce plan directeur afin d’accélérer davantage le développement de vos campagnes.
 
-Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
+Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} afin de connaître les bonnes pratiques.
 
-### Utilisation de jetons pour remplir le contenu {#use-tokens-to-populate-content}
+### Utilisation de jetons pour renseigner du contenu {#use-tokens-to-populate-content}
 
 Avec Marketo Engage, les jetons peuvent être utilisés pour renseigner le contenu dans les ressources de votre campagne. Par exemple, après avoir cloné un modèle d’e-mail provenant de votre centre d’excellence, Workfront Fusion peut prendre les détails de la requête de campagne dans Workfront et les transmettre à Mes jetons dans le programme Marketo Engage. Les valeurs de jeton peuvent ensuite être héritées directement dans l’e-mail pour générer l’e-mail.
 
 ![](assets/intake-and-create-2.png)
 
-### Renseignement des images à partir d’AEM Assets {#populate-images-from-aem-assets}
+### Renseignement d’images à partir d’AEM Assets {#populate-images-from-aem-assets}
 
 Vous pouvez automatiser davantage le développement de vos e-mails et de vos pages de destination en utilisant des jetons de Marketo Engage, ainsi que des liens vers des ressources dans AEM Assets. Les personnes à l’origine de requêtes de campagne peuvent envoyer des liens d’image publiés à partir d’AEM Assets dans le cadre du processus de requête. Workfront Fusion peut ensuite prendre ces liens et les incorporer dans le HTML d’un e-mail à l’aide de jetons Marketo Engage.
 
@@ -145,9 +145,9 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
   </tbody>
 </table>
 
-## Flux d’entrée et de création d’automatisation {#intake-and-create-automation-flow}
+## Flux d’automatisation de l’ingestion et de la création {#intake-and-create-automation-flow}
 
-Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide d’une préconception. [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} qui vous permettent de fournir l’automatisation plus rapidement.
+Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent d’accélérer l’automatisation.
 
 ![](assets/intake-and-create-3.png)
 
