@@ -1,18 +1,18 @@
 ---
-title: Plans directeurs du Parcours client
+title: Plans directeurs du parcours client
 description: Procurez des expériences client individuelles et au moment opportun d’un type d’écran à l’autre.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Plans directeurs du Parcours client
+# Plans directeurs du parcours client
 
 Les Parcours client permettent aux marques d’interagir de manière proactive et de communiquer avec leurs clients par le biais de canaux tels que les e-mails, les SMS et les alertes mobiles. Les outils d’orchestration peuvent également s’intégrer à d’autres canaux d’interaction tels que les canaux entrants pour la personnalisation web et mobile en partageant l’état d’audience avec les autres moteurs de décision pour chaque canal en particulier. Un certain nombre de facteurs rentrent en compte lorsqu’il s’agit de déterminer quelles applications et quelles options de déploiement doivent être utilisées pour les Parcours client. Ils peuvent cependant se résumer dans deux approches différentes : réagir à un client lorsqu’il interagit (déclenché) OU réagir à un groupe de clients lorsqu’ils interagissent (planifié).
 
