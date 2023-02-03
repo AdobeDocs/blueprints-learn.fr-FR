@@ -3,17 +3,17 @@ title: Success-stories des plans directeurs d’expérience digitale par secteur
 description: Les exemples d’utilisations réussies des plans directeurs d’expérience digitale montrent comment différents secteurs tirent une valeur commerciale de l’implémentation des applications Adobe Experience Cloud, optimisées par Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Succès du secteur avec les plans directeurs d’expérience numérique
+# Témoignages client avec des plans directeurs d’expérience digitale
 
 Découvrez comment les clients conçoivent de superbes expériences et réussissent grâce aux plans directeurs d’expérience digitale. Ces mises en œuvre répétables et éprouvées vous permettent de développer de nouvelle stratégies et de résoudre rapidement des problèmes d’activité.
 
-## Témoignages de succès présentés
+## Témoignages client en vedette
 
 <table style="table-layout:fixed">
 <tr>
@@ -51,7 +51,7 @@ Découvrez comment les clients conçoivent de superbes expériences et réussiss
 </tr>
 </table>
 
-## Autres réussites
+## Autres témoignages client
 
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
