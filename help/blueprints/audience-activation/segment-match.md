@@ -1,18 +1,18 @@
 ---
-title: Correspondance de segment plan directeur
+title: Plan directeur de la correspondance de segments
 description: Découvrez le service [!UICONTROL Correspondance de segment] pour Adobe Experience Platform (AEP). Le service [!UICONTROL Correspondance de segment] est un service de collaboration en matière de données qui vous permet d’échanger des données de segment selon des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1766'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Correspondance de segment plan directeur
+# Plan directeur de la correspondance de segments
 
-La correspondance de segment permet aux marques partenaires de partager des audiences dans leurs environnements Experience Platform respectifs. L’essentiel pour les marques est d’interagir avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.
+La correspondance de segments permet aux marques partenaires de partager des audiences entre leurs environnements Experience Platform respectifs. L’essentiel pour les marques est d’interagir avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.
 
 Le service [!UICONTROL Correspondance de segment] est un service de collaboration en matière de données qui permet aux clients Experience Platform (AEP) (appelés _partenaires_) d’échanger des données de segment selon des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 
