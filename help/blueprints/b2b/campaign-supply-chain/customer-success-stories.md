@@ -3,13 +3,13 @@ title: Histoires de succès client
 description: Histoires de succès client - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Témoignages client {#customer-success-stories}
+# Histoires de succès client {#customer-success-stories}
 
 Les clients Adobe de plusieurs secteurs d’activité constatent la valeur de l’alignement de la planification marketing avec l’exécution afin d’optimiser l’efficacité et la visibilité dans l’ensemble de l’entreprise. Pour en savoir plus, consultez les liens ci-dessous.
 
@@ -21,6 +21,6 @@ Les clients Adobe de plusieurs secteurs d’activité constatent la valeur de l�
 
 * BNY Mellon (point remarquable du sommet) : [Comment BNY Mellon a amélioré l’exécution des campagnes grâce aux employés, au processus et à la technologie d’Adobe- S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
-* Commvault (étude de cas) : [Commvault crée un centre d’excellence marketing avec Adobe Marketo Engage pour exécuter plus de 1 800 campagnes par an.](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
+* Commvault (étude de cas) : [Commvault crée un centre d’excellence marketing avec Adobe Marketo Engage pour diffuser plus de 1 800 campagnes par an.](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
 
 * Poly (blog) : [Comment Poly est passé à la vitesse supérieure pour atteindre de nouvelles audiences avec Adobe Experience Cloud](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
