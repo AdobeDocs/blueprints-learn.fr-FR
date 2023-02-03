@@ -4,13 +4,13 @@ description: Exécutez des expériences et messages déclenchés à l’aide d�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer plan directeur
+# Plans directeurs de Journey Optimizer
 
 Adobe Journey Optimizer est un système conçu spécifiquement pour permettre aux équipes marketing de réagir en temps réel aux comportements des clients et de s’adapter à leurs besoins en fonction de leur localisation. Les fonctionnalités de gestion des données ont été déplacées vers Adobe Experience Platform, ce qui permet aux équipes marketing de se concentrer sur ce qu’elles font le mieux : créer un parcours client de haute qualité et des conversations personnalisées.  Ce plan directeur décrit les fonctionnalités techniques de l’application et présente en détail les différents composants architecturaux qui constituent Adobe Journey Optimizer.
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 ## Conditions préalables
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 * Les schémas et les jeux de données doivent être configurés dans le système avant de pouvoir configurer les sources de données Journey Optimizer.
 * Pour les schémas basés sur la classe Événement d’expérience, ajoutez le groupe de champs « Orchestration eventID » lorsque vous souhaitez qu’un événement déclenché ne soit pas basé sur des règles.
@@ -63,7 +63,7 @@ E-mail
 * Le sous-domaine peut être entièrement délégué à Adobe (recommandé) ou les CNAME peuvent être utilisés pour pointer vers des serveurs DNS spécifiques à Adobe (personnalisés).
 * Un enregistrement TXT Google est nécessaire pour chaque sous-domaine afin de garantir une bonne délivrabilité.
 
-Push mobile
+Notification push mobile
 
 * Le client doit disposer des services d’un développeur mobile pour créer l’application
 * SDK mobile Adobe Experience Platform
@@ -89,21 +89,21 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
    * Authentification par utilisateur/passage ou jeton d’autorisation
 * Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
 
-### Protections de l’ingestion des données
+### Mécanismes de sécurisation de l’ingestion des données
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Barrières de sécurité d’activation
+### Mécanismes de sécurisation de l’activation
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
-### Adobe Experience Platform
+### Adobe Experience Platform
 
 #### Schéma/jeux de données
 
@@ -122,7 +122,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 #### Sources/destinations
 
-1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide d’API de diffusion en continu et de connecteurs sources.
+1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
 
 ### Journey Optimizer
 
@@ -136,7 +136,7 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identité      pour Edge Network
+1. Identité       pour Edge Network
 1. Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
