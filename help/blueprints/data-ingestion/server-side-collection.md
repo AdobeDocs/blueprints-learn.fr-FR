@@ -1,17 +1,17 @@
 ---
-title: Plan directeur de transfert d’événements
+title: Plan directeur du transfert d’événement
 description: Diffusez les données collectées par les SDK d’Adobe Experience Platform vers différentes destinations.
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Plan directeur de transfert d’événements
+# Plan directeur du transfert d’événement
 
 Le plan directeur de transfert d’événements montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
 
@@ -34,7 +34,7 @@ Le plan directeur de transfert d’événements montre comment les données coll
 * [Vidéos sur le transfert d’événement](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=fr)
 * Tutoriel relatif au [cours sur le transfert d’événement](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=fr) du SDK web
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
