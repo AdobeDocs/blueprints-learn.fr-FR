@@ -6,28 +6,28 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Schémas d’architecture d’Adobe Experience Cloud
 
-## Adobe Experience Cloud marketing
+## Architecture marketing d’Adobe Experience Cloud
 
 Le diagramme suivant illustre les différents composants d’Adobe Experience Cloud à travers les insights de données et audiences, le contenu et le commerce, les parcours client, le workflow marketing, créés et intégrés sur la base d’Adobe Experience Platform.
 
 <img src="assets/AEC.jpg" alt="Présentation d’Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 
-## Architecture d’intégration de Data &amp; Insights, Content &amp; Commerce et Experience Delivery
+## Architecture d’intégration des données et informations, du contenu et du commerce, et de la diffusion d’expérience
 
 Le diagramme d’architecture ci-dessous illustre la manière dont les différents composants d’Adobe Experience Cloud se connectent et s’intègrent pour atteindre la personnalisation à l’échelle entre les données, le contenu et la diffusion d’expérience.
 
 <img src="assets/pers_at_scale.svg" alt="Adobe Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
-## Adobe Experience Cloud dans le paysage de l’entreprise
+## Adobe Experience Cloud dans le paysage de l’entreprise
 
 Le diagramme d’architecture ci-dessous illustre la manière dont les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent à l’architecture de l’expérience client d’entreprise dans les quatre catégories que sont les données, les statistiques, l’orchestration et l’engagement.
 
