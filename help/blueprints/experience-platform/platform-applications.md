@@ -1,6 +1,6 @@
 ---
-title: Diagrammes d’architecture Adobe Experience Platform & Applications
-description: Ce schéma d’architecture montre comment Adobe Experience Platform se rattache aux autres applications et services applicatifs Adobe Experience Cloud.
+title: Diagrammes de l’architecture d’Adobe Experience Platform et des autres applications Adobe
+description: Ce diagramme d’architecture montre comment Adobe Experience Platform se rattache aux autres applications et services applicatifs Adobe Experience Cloud.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
@@ -8,11 +8,11 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
-# Adobe Experience Platform et autres applications Adobe diagrammes d’architecture
+# Diagrammes de l’architecture d’Adobe Experience Platform et des autres applications Adobe
 
 ## Schéma de l’architecture d’Adobe Experience Platform et des autres applications Adobe
 
@@ -26,7 +26,7 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Intégrations des applications Adobe Experience Platform et Experience Cloud
+## Intégrations des applications Adobe Experience Platform et Experience Cloud
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>

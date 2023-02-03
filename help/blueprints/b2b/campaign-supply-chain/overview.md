@@ -1,15 +1,15 @@
 ---
-title: Chaîne d’approvisionnement Campaign avec plans directeurs Marketo et Workfront
-description: Présentation - Optimisation de la chaîne d’approvisionnement Campaign avec les plans directeurs Marketo et Workfront
+title: Plans directeurs de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
+description: Présentation - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
-# Chaîne d’approvisionnement Campaign avec plans directeurs Marketo et Workfront {#overview}
+# Plans directeurs de la chaîne d’approvisionnement de campagne avec Marketo et Workfront {#overview}
 
 ## Accélérer le délai de mise sur le marché grâce à une chaîne d’approvisionnement de campagne optimisée {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -147,7 +147,7 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Prise en main de l’intégration de Workfront Fusion, Workfront et Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Inprise et création](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatisation du développement de campagnes avec Marketo Engage et Workfront
+* [Ingestion et création](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatisation du développement de campagne avec Marketo Engage et Workfront
 
 * Épreuve et approbation (bientôt disponible)
 
@@ -155,10 +155,10 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Gestion des noms de campagne des Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
-La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL constitue une base essentielle pour une gestion précise des programmes dans Marketo Engage et contribue à un processus plus cohérent dans la chaîne d’approvisionnement des campagnes. Si vous recherchez des outils pour vous y aider, nous vous recommandons de consulter certains outils open source gratuits à partir de [Adobe des services de succès](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente pour la création et la gestion des campagnes de Marketo Engage et de leurs URL associées.
+La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL constitue une base essentielle pour une gestion précise des programmes dans Marketo Engage et contribue à un processus plus cohérent dans la chaîne d’approvisionnement des campagnes. Si vous recherchez des outils pour vous y aider, nous vous recommandons de consulter certains outils Open Source gratuits des [services de succès Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente pour créer et gérer des campagnes Marketo Engage et leurs URL associées.
 
 ### Ressources {#resources}
 
-* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"}
+* [Workfront Fusion pour Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"}
 
 * [Workfront Fusion pour Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"}

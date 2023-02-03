@@ -1,18 +1,18 @@
 ---
-title: Real-Time CDP avec modèle d’intégration d’Adobe Campaign v8
+title: Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 description: Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign v8 pour diffuser des conversations personnalisées.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 76%
+ht-degree: 90%
 
 ---
 
-# Real-Time CDP avec modèle d’intégration d’Adobe Campaign v8
+# Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 
-Présente comment Adobe Experience Platform, le Real-Time Customer Profile et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées.
+Présente comment Adobe Experience Platform, le profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées.
 
 <br>
 
@@ -25,7 +25,7 @@ Présente comment Adobe Experience Platform, le Real-Time Customer Profile e
 
 ## Architecture
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Architecture de référence du modèle d’intégration de Batch Messaging et Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Architecture de référence du modèle d’intégration de la messagerie par lots et d’Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -39,7 +39,7 @@ Présente comment Adobe Experience Platform, le Real-Time Customer Profile e
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 Reportez-vous à la documentation suivante sur la configuration du connecteur source Campaign v8 vers Adobe Experience Platform et du connecteur de destination Real-time Customer Data Platform vers Campaign v8.
 [Connecteurs Campaign et AEP](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr)
@@ -61,7 +61,7 @@ Reportez-vous à la documentation suivante sur la configuration du connecteur so
 * La latence d’activation est de 3 heures au minimum
 * Seuls les attributs de schéma d’union sont disponibles pour l’activation (pas de prise en charge des événements de tableau / mappage / expérience)
 * Limite de 20 attributs par segment recommandée
-* Un fichier par segment de tous les profils avec une adhésion au segment &quot;réalisé&quot; OU si l’appartenance au segment est ajoutée en tant qu’attribut dans le fichier à la fois &quot;réalisé&quot; et &quot;sorti&quot;.
+* Un fichier par segment de tous les profils avec des segments d’appartenance « réalisés » OU, si l’appartenance au segment est ajoutée en tant qu’attribut dans le fichier, les profils « réalisés » et « sortis ».
 * Les exportations de segments incrémentielles et complètes sont prises en charge.
 * Le cryptage des fichiers n’est pas pris en charge
 * Voir les garde-fous concernant l’ingestion des données et les profils pour AEP - [Lien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)

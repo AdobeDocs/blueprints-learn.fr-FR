@@ -7,24 +7,24 @@ exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
-# Défi commercial de l’industrie du tourisme et de l’hôtellerie
+# Problématique relative au secteur du tourisme et de l’hôtellerie
 
 Une entreprise spécialisée dans les casinos et le divertissement aux États-Unis a voulu révolutionner sa capacité à exploiter des données pour créer des connexions personnalisées en temps réel.  Cette perspective est devenue d’autant plus essentielle depuis que la pandémie de COVID-19 a changé la façon dont les clients interagissent avec les entreprises de tourisme et d’hôtellerie.
 
 Grâce à l’utilisation des technologies et des services d’Adobe, cette organisation est maintenant prête à remplir tous ses objectifs et à affronter le monde de l’après-pandémie.
 
-## Approche Adobe
+## L’approche d’Adobe
 
 * Intégrez Adobe Experience Platform à votre pile technologique existante pour offrir des interactions client cross-solutions.
 * Activation de Real-time Customer Data Platform et de Customer Journey Analytics pour fournir une analyse continue et des profils client personnalisés.
 * Développez une vision globale de votre parcours client pour prendre en charge l’attribution marketing et allouer les ressources de façon efficace.
 * Adaptez-vous aux conditions du COVID-19 avec une stratégie préparera votre activité à la suite tout en continuant à impliquer vos clients.
 
-## Valeur commerciale fournie
+## Valeur commerciale offerte
 
 | Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
@@ -36,9 +36,9 @@ Grâce à l’utilisation des technologies et des services d’Adobe, cette orga
 
 <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires.</li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></li></ul>
 
-### Applications Experience Cloud
+### Applications Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Architecture du plan directeur
 

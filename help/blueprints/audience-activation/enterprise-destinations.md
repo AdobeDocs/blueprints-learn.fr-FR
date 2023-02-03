@@ -1,5 +1,5 @@
 ---
-title: Plan directeur d’activation d’audience et de profil vers des destinations de diffusion en continu de fichiers et d’entreprise
+title: Plan directeur de l’activation d’audiences et de profils vers des destinations de streaming de fichiers et d’entreprise
 description: Activation d’audiences et de profils vers des destinations d’entreprise
 solution: Real-Time Customer Data Platform
 kt: 7475
@@ -7,11 +7,11 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# Plan directeur d’activation d’audience et de profil vers des destinations de diffusion en continu de fichiers et d’entreprise
+# Plan directeur de l’activation d’audiences et de profils vers des destinations de streaming de fichiers et d’entreprise
 
 Partage des modifications et événements de profil et d’audience par flux ou par lots à partir de [!UICONTROL Real-time Customer Data Platform] aux entrepôts de données et aux applications d’entreprise. Ces événements de profil et d’audience peuvent être utilisés pour lancer une action de vente ou d’assistance au client, comme le suivi d’un processus d’application abandonné ou d’un enregistrement de webinaire, ou pour mettre à jour les applications d’entreprise avec les derniers attributs du client et les informations provenant de [!UICONTROL Real-time Customer Data Platform].
 
@@ -21,7 +21,7 @@ Partage des modifications et événements de profil et d’audience par flux ou 
 
 ## Applications
 
-* Adobe Experience Platform   Activation
+* Adobe Experience Platform  Activation
 
 ## Architecture
 
@@ -32,7 +32,7 @@ Partage des modifications et événements de profil et d’audience par flux ou 
 
 [Référez-vous aux garde-fous tels que décrits sur la page de présentation d’Audience et Profil Activation](overview.md)
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.

@@ -1,5 +1,5 @@
 ---
-title: Analyse et activation B2B plan directeur
+title: Plan directeur d’analyse et d’activation B2B
 description: Diffusez des audiences basées sur un compte et des expériences client axées sur le profil avec Real-time Customer Data Platform.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -7,11 +7,11 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
-# Plans directeurs Analyses et activation B2B
+# Plan directeur d’analyse et d’activation B2B
 
 L’activation d’audience B2B et de profil est la clé du succès dans un monde du marketing axé sur les données. Cependant, de nombreuses marques concentrent toujours leurs efforts sur l’activation axée sur le canal en premier, qui offre souvent une portée et une personnalisation incohérentes.
 

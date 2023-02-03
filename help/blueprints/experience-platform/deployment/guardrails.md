@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 ## Garde-fous pour Adobe Experience Platform et les applications
 
-[Protections de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
+[Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
 
 [Garde-fous de l’API réseau Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 
@@ -36,13 +36,13 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 ## Diagrammes de latence de bout en bout
 
-### Ingestion des données
+### Ingestion de données
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### sur la segmentation
+### Segmentation
 
 <img src="../assets/segmentation_guardrails.svg" alt="Garde-fous de la segmentation d’Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -66,7 +66,7 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 <br>
 
-## Descriptions des produits
+## Descriptions du produit
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 

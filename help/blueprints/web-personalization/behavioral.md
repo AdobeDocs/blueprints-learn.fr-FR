@@ -1,5 +1,5 @@
 ---
-title: Plan directeur de la personnalisation web comportementale
+title: Plan directeur pour la personnalisation comportementale web
 description: Découvrez comment personnaliser du contenu en fonction du comportement en ligne et des données d’audience.
 landing-page-description: Découvrez comment personnaliser en fonction du comportement en ligne et des données d’audience.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,11 +8,11 @@ exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
-# Plan directeur de la personnalisation web/mobile comportementale
+# Plan directeur pour la personnalisation comportementale web ou mobile
 
 Réalise une personnalisation en fonction du comportement en ligne et des données d’audience.
 
@@ -34,18 +34,18 @@ Réalise une personnalisation en fonction du comportement en ligne et des donné
 <img src="assets/behavioral_personalization.svg" alt="Architecture de référence pour le plan directeur de personnalisation web" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 
-## Modèles de mise en oeuvre
+## Modèles de mise en œuvre
 
 Le plan directeur de personnalisation web / mobile peut être mis en œuvre par les approches suivantes, comme indiqué ci-dessous.
 
 1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network]. [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../experience-platform/deployment/websdk.md)
 1. Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AppMeasurement.js). [Reportez-vous au plan directeur des SDK spécifiques aux applications.](../experience-platform/deployment/appsdk.md)
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 1. [Implémentation d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=fr) pour vos applications web ou mobiles.
 
-### Étapes de mise en oeuvre - Audience Manager ou Adobe Analytics
+### Procédure de mise en œuvre - Audience Manager ou Adobe Analytics
 
 1. [Implémentez Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr)
 1. [Implémentez Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=fr)
@@ -82,7 +82,7 @@ Le plan directeur de personnalisation web / mobile peut être mis en œuvre par 
 * [Documentation sur la segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr)
 * [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

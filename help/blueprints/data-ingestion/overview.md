@@ -8,11 +8,11 @@ exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
-# Collecte et préparation de données plan directeur
+# Plans directeurs de collecte et de préparation de données
 
 La collecte et la préparation des données englobe et décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform. Elle inclut également la possibilité de collecter des données vers Adobe Experience Platform Edge Network et de les transférer ultérieurement via le transfert latéral vers des destinations d’entreprise.
 
@@ -20,5 +20,5 @@ La préparation des données inclut le mapping de données sources vers un sché
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Préparation et ingestion des données](ingestion.md)** | <ul><li>Le plan directeur de la préparation et de l’ingestion de données englobe et décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Collecte de données d’entreprise côté serveur](server-side-collection.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combines avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
+| **[Préparation et ingestion des données](ingestion.md)** | <ul><li>Le plan directeur de la préparation et de l’ingestion de données englobe et décrit toutes les méthodes de préparation et d’ingestion des données dans Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Collecte de données d’entreprise côté serveur](server-side-collection.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combines avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |

@@ -7,20 +7,20 @@ exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# Défi commercial du secteur de la vente au détail
+# Problématique relative au secteur de la vente au détail
 
 Cette entreprise d’expérience intégrée a cherché à personnaliser l’ensemble du parcours client afin d’accroître leur fidélité, de réaliser de nouvelles ventes auprès de clients existants et d’optimiser les dépenses marketing pour l’ensemble de leurs campagnes. La stratégie pour atteindre cet objectif consiste à étendre sa capacité numérique afin d’inclure les données client et les données de transaction hors ligne afin de stimuler sa croissance.
 
-## Approche Adobe
+## L’approche d’Adobe
 
 * Générez un profil client unifié qui inclut toutes les données en ligne/hors ligne pertinentes qui peuvent être activées en temps réel.
 * Orchestrez les interactions client sur les différents canaux web, média et push afin de générer un comportement d’achat pour la première ou la seconde fois.
 
-## Valeur commerciale fournie
+## Valeur commerciale offerte
 
 | Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
@@ -32,9 +32,9 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 
 <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les grâce aux applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul>
 
-### Applications Experience Cloud
+### Applications Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul>
 
 ### Architecture du plan directeur
 

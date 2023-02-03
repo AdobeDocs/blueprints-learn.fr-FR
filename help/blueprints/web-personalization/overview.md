@@ -1,5 +1,5 @@
 ---
-title: Personnalisation web et mobile plan directeur
+title: Plans directeurs de personnalisation web et mobile
 description: Fournissez des contenus web et mobiles personnalisés avec un [!UICONTROL profil client en temps réel].
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -8,11 +8,11 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
-# Personnalisation web et mobile plan directeur
+# Plans directeurs de personnalisation web et mobile
 
 La personnalisation web et mobile permet d’utiliser la segmentation de profil et d’audience sur plusieurs applications pour personnaliser et optimiser les expériences client. Les comportements des clients, les données démographiques, le niveau de fidélité et les transactions antérieures peuvent être utilisés pour personnaliser les mises en page, les appels à l’action et le contenu.
 
@@ -35,7 +35,7 @@ La personnalisation web et mobile permet d’utiliser la segmentation de profil 
 
 <img src="assets/personalization_guardrails.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

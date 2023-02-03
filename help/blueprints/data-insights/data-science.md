@@ -1,5 +1,5 @@
 ---
-title: Science des données personnalisées pour le plan directeur d’enrichissement de profil
+title: Plan directeur de science des données personnalisée pour l’enrichissement de profil
 description: Ce plan directeur montre comment ingérer dans Experience Platform des informations basées sur la science des données pour enrichir le profil client en temps réel.
 solution: Data Collection
 kt: 7203
@@ -7,11 +7,11 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
-# Science des données personnalisées pour le plan directeur d’enrichissement de profil
+# Plan directeur de science des données personnalisée pour l’enrichissement de profil
 
 Science des données personnalisées pour le plan directeur d’enrichissement des profils illustre la manière dont les données peuvent être utilisées pour former, déployer et noter des modèles afin de fournir des insights d’apprentissage automatique à Experience Platform et Real-time Customer Data Platform à partir de la science des données et des outils d’apprentissage automatique. Les données modélisées peuvent être ingérées dans Experience Platform pour enrichir un profil client en temps réel. Des exemples d’informations de machine learning incluent la valeur de durée de vie, l’affinité au produit et l’affinité catégorielle, la propension à convertir ou à se désabonner.
 
@@ -29,7 +29,7 @@ Science des données personnalisées pour le plan directeur d’enrichissement d
 
 * Pour des garde-fous détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans Experience Platform et le profil client en temps réel, reportez-vous au schéma de latence et des garde-fous d’ingestion des données référencé dans le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md).
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
@@ -56,7 +56,7 @@ Pour que les résultats de modèle soient ingérés dans le profil client en tem
 * [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
-## Publications de blog connexes
+## Articles de blog connexes
 
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)

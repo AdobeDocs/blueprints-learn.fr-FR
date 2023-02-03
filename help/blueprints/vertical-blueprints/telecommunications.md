@@ -7,23 +7,23 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
-# Défi de l&#39;industrie des télécommunications
+# Problématique relative au secteur des télécommunications
 
 Avant de mettre en œuvre ce plan directeur, les campagnes par e-mail « ajouter une nouvelle ligne » des entreprises de télécommunications reposaient sur la conversion ou non de l’utilisateur, et ne vérifiait ce point qu’après un délai d’attente de 7 jours. Seulement une fois ce critère satisfait, d’autres points de contact étaient lancés.
 
 Cette limitation devait être résolue afin de permettre un suivi plus rapide des utilisateurs qui souhaitaient ajouter une ligne avant le délai d’attente actuel de 7 jours.
 
-## Approche Adobe
+## L’approche d’Adobe
 
 * Les données Adobe Analytics permettant d’identifier les utilisateurs qui n’ont pas pu effectuer la conversion pour ajouter une nouvelle ligne sont incluses en tant que source de données pouvant être utilisées dans Adobe Journey Optimizer.
-* Adobe Journey Optimizer utilise une règle au moment où le client reçoit un message &quot;d’abandon&quot; personnalisé conçu pour encourager un client à effectuer une conversion en ajoutant une nouvelle ligne à son compte.
+* Adobe Journey Optimizer utilise une règle au moment où le client reçoit un message « abandon » personnalisé conçu pour l’encourager à effectuer une conversion en ajoutant une nouvelle ligne à son compte.
 
 
-## Valeur commerciale fournie
+## Valeur commerciale offerte
 
 | Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
@@ -35,7 +35,7 @@ Cette limitation devait être résolue afin de permettre un suivi plus rapide de
 
 <ul><li>Envoi de messages déclenchés et en flux continu à l’aide d’Adobe Experience Platform en tant que hub central pour la diffusion en flux continu de données, de profils clients et de segmentation, à l’aide de Journey Orchestration pour l’orchestration en flux continu des parcours et la diffusion des messages</li></ul>
 
-### Applications Experience Cloud
+### Applications Experience Cloud
 
 <ul><li>Adobe Journey Optimizer</li></ul>
 

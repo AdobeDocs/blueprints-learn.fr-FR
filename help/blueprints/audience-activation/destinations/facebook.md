@@ -28,7 +28,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 <img src="../assets/facebook.svg" alt="Architecture de référence d’activation d’audience Facebook personnalisée" style="width:90%; border:1px solid #4a4a4a" />
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 1. Configurez les espaces de noms d’identité à utiliser dans les sources de données Profile.
    * Utilisez les espaces de noms prêts-à-l’emploi tels que Email, Email SHA256 Hash, le cas échéant.

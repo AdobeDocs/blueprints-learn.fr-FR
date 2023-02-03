@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,10 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
 * **[Plan directeur d’activation d’audience et de profil vers les destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
-* **[Plan directeur d’Activity Hub client](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Plan directeur du centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fournit le contexte pour l’aide et les ventes assistées par un agent.*
-* **[Plan directeur de l’analyse et du renseignement des données](/help/blueprints/data-insights/analysis.md)**
+* **[Plan directeur pour l’analyse des données et Data Intelligence](/help/blueprints/data-insights/analysis.md)**
 
    *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
 
@@ -43,7 +43,7 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
     <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation du client connu</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>

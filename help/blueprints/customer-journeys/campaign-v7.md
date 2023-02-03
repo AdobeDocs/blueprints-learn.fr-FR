@@ -1,16 +1,16 @@
 ---
-title: Plan directeur de Campaign v7
+title: Plan directeur de Campaign v7
 description: Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing traditionnels tels que le courrier électronique et le publipostage direct et par e-mail. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots.  Il est également fourni avec un serveur de messagerie en temps réel qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’un payload global de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
-# Plan directeur de Campaign v7
+# Plan directeur de Campaign v7
 
 Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing traditionnels tels que le courrier électronique et le publipostage direct et par e-mail. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots.  Il est également fourni avec un serveur de messagerie en temps réel qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’un payload global de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 
@@ -42,13 +42,13 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing tr
 
 ## Conditions préalables
 
-### Serveur applicatif et serveur de messagerie en temps réel
+### Serveur d’applications et serveur de messagerie en temps réel
 
 * La console cliente Adobe Campaign est nécessaire pour interagir et utiliser le logiciel Campaign v8. Il s’agit d’un client Windows qui utilise des protocoles Internet standard (SOAP, HTTP, etc.). Assurez-vous que les autorisations nécessaires sont activées dans votre organisation pour distribuer, installer et exécuter des logiciels.
 
 * Listes autorisées des adresses IP
    * Identifiez les plages d’adresses IP que tous les utilisateurs exploiteront en accédant à la console cliente.
-   * Identifiez les systèmes d’entreprise qui seront autorisés à communiquer avec le serveur de messagerie en temps réel et assurez-vous qu’ils disposent d’une adresse IP ou d’une plage affectée de manière statique que vous pouvez liste autorisée.
+   * Identifiez les systèmes d’entreprise qui seront autorisés à communiquer avec le serveur de messagerie en temps réel et vérifiez qu’ils disposent d’une adresse IP ou d’une plage affectée de manière statique que vous pouvez ajouter à la liste autorisée.
    * Elle peut être configurée et contrôlée dans le Panneau de contrôle de Campaign.
 * Gestion des clés sFTP
    * Préparez les clés publiques SSH de façons à ce qu’elles soient utilisables avec le sFTP fourni par Campaign. Elles peuvent être configurées et contrôlées dans le Panneau de contrôle de Campaign.
@@ -59,7 +59,7 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing tr
 * Le sous-domaine peut être entièrement délégué à Adobe (recommandé) ou les CNAME peuvent être utilisés pour pointer vers des serveurs DNS spécifiques à Adobe (personnalisés).
 * Un enregistrement TXT Google est nécessaire pour chaque sous-domaine afin de garantir une bonne délivrabilité.
 
-### Mobile push
+### Notification push mobile
 
 * Préparez un développeur mobile pour pouvoir déployer, configurer et créer l’application mobile.
 * Adobe ne fournit qu’un SDK pour collecter les informations nécessaires auprès de FCM (Android) et APNS (iOS) afin d’envoyer des payloads de message à leurs serveurs. Le client doit choisir la manière dont l’application mobile doit être codée, déployée, gérée et déboguée.
@@ -118,7 +118,7 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing tr
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 Consultez le [Guide de prise en main](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=fr) pour savoir comment mettre en œuvre Adobe Campaign v7.
 

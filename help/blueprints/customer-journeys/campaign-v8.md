@@ -1,16 +1,16 @@
 ---
-title: Plan directeur Campaign v8, Campaign et Platform
+title: Plan directeur Campaign v8, Campaign et Platform
 description: Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour les canaux marketing traditionnels tels que le publipostage par e-mail ou le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également fourni avec un serveur de messagerie en temps réel adaptable qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
-# Plan directeur Campaign v8
+# Plan directeur de Campaign v8
 
 Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour les canaux marketing traditionnels tels que le publipostage par e-mail ou le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également fourni avec un serveur de messagerie en temps réel adaptable qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 
@@ -45,7 +45,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 ## Conditions préalables
 
 
-### Serveur applicatif et serveur de messagerie en temps réel
+### Serveur d’applications et serveur de messagerie en temps réel
 
 * La console cliente Adobe Campaign est nécessaire pour interagir et utiliser le logiciel Campaign v8. Il s’agit d’un client Windows qui utilise des protocoles Internet standard (SOAP, HTTP, etc.). Assurez-vous que les autorisations nécessaires sont activées dans votre organisation pour distribuer, installer et exécuter des logiciels.
 
@@ -62,7 +62,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 * Le sous-domaine peut être entièrement délégué à Adobe (recommandé) ou les CNAME peuvent être utilisés pour pointer vers des serveurs DNS spécifiques à Adobe (personnalisés).
 * Un enregistrement TXT Google est nécessaire pour chaque sous-domaine afin de garantir une bonne délivrabilité.
 
-### Mobile push
+### Notification push mobile
 
 * Préparez un développeur mobile pour pouvoir déployer, configurer et créer l’application mobile.
 * Adobe ne fournit qu’un SDK pour collecter les informations nécessaires auprès de FCM (Android) et APNS (iOS) afin d’envoyer des payloads de message à leurs serveurs. Le client doit choisir la manière dont l’application mobile doit être codée, déployée, gérée et déboguée.
@@ -114,7 +114,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 
 <br>
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=fr).
 

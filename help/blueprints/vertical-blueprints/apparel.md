@@ -7,11 +7,11 @@ exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# Défi commercial de l&#39;industrie de l&#39;habillement
+# Problématique relative au secteur de l’habillement
 
 Cette entreprise particulièrement attractive figure parmi les leaders mondiaux du design, du développement, de la fabrication et du marketing et de la vente de chaussures, vêtements, accessoires et services.
 
@@ -21,14 +21,14 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 * Le marketing en temps réel basé sur des déclencheurs
 * La personnalisation et la capacité à mesurer l’efficacité de la campagne, ainsi que la capacité à exécuter l’analyse à 360° et l’attribution du client
 
-## Approche Adobe
+## L’approche d’Adobe
 
 * Créez une base Experience Platform solide pour offrir de la valeur à votre entreprise et l’intégrer à tous les niveaux de votre entreprise.
 * Collaborez avec les équipes techniques pour vous assurer que la mise en œuvre de la technologie vous offre la valeur ajoutée attendue.
 * Créez une vue à 360° sur les clients de cette entreprise de l’habillement afin de segmenter et activer directement les campagnes, et de créer des rapports sur leurs résultats.
 * Automatisez les déclencheurs et orchestrez des parcours client personnalisés.
 
-## Valeur commerciale fournie
+## Valeur commerciale offerte
 
 | Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
@@ -40,9 +40,9 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 
 <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les grâce aux applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul>
 
-### Applications Experience Cloud
+### Applications Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul>
 
 ### Architecture du plan directeur
 

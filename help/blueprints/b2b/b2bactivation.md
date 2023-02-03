@@ -1,5 +1,5 @@
 ---
-title: Plan directeur d’activation d’audiences et de profils B2B
+title: Plan directeur de l’activation de profil et de l’audience B2B
 description: Diffusez des audiences basées sur des comptes et des expériences client axées sur les profils avec Real-time Customer Data Platform ​.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -7,11 +7,11 @@ exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
-# Plan directeur d’activation d’audiences et de profils B2B
+# Plan directeur de l’activation de profil et de l’audience B2B
 
 Utilisez les informations de compte, d’opportunités et de prospects liées à un client individuel pour créer des profils B2B exploitables afin d’améliorer la personnalisation et le ciblage sur l’ensemble des canaux.
 
@@ -80,7 +80,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 * Reportez-vous à la documentation de destination pour obtenir des instructions spécifiques sur celles-ci. [Garde-fous de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=fr)
 
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 Pour plus d’informations sur la mise en oeuvre et la configuration de l’édition B2B de Real-time Customer Data Platform, voir l’édition B2B de la documentation de Real-time Customer Data Platform. [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
 
