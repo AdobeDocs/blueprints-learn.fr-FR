@@ -1,13 +1,13 @@
 ---
-title: Activation du client connu plan directeur
+title: Plan directeur d’activation du client connu
 description: Activation d’audience en ligne / hors ligne
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ Utilisez les attributs et les événements hors ligne tels que les commandes hor
 
 Les identifiants étendus dotés de contrôles de gouvernance intégrés offrent davantage d’opportunités de communication avec les clients connus. Activez des audiences vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires
 
-Vous trouverez des informations supplémentaires dans la section [Audience et activation de profil avec plan directeur des applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
+Plus de précisions sont fournies dans le [plan directeur pour l’activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md) spécifiques aux intégrations entre les applications Experience Platform et Experience Cloud.
 
 ## Cas d’utilisation
 
@@ -34,12 +34,12 @@ Vous trouverez des informations supplémentaires dans la section [Audience et ac
 
 ### Activation connue des clients via Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
-### Activation connue des clients via des destinations basées sur les personnes d’Audience Manager
+### Activation du client connu via les destinations basées sur les personnes d’Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Architecture de référence du plan directeur d’activation du client connu" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Garde-fous
@@ -63,7 +63,7 @@ Vous trouverez des informations supplémentaires dans la section [Audience et ac
 
 * Voir [Audience et activation de profil avec plan directeur des applications Experience Cloud](platform-and-applications.md) pour plus d’informations sur le partage d’audiences de Real-time Customer Data Platform vers Audience Manager, Analytics, Target, Campaign et Journey Optimizer.
 
-## Étapes de mise en oeuvre pour l’Audience Manager des destinations basées sur les personnes
+## Procédure de mise en œuvre pour les destinations basées sur les personnes d’Audience Manager
 
 * Pour plus d’informations sur la mise en œuvre d’Audience Manager, consultez la [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=fr) suivante.
 

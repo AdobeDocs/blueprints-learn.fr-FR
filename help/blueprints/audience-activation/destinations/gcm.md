@@ -1,20 +1,20 @@
 ---
 title: Activation du ciblage par liste de clients Google
 description: Activation du ciblage par liste de clients Google.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # Activation du ciblage par liste de clients Google
 
-Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client, de segmenter ces profils en audiences conçues pour le marketing et la personnalisation, de partager ces audiences sur les réseaux publicitaires sociaux tels que le ciblage par liste de clients Google afin de cibler et de personnaliser des campagnes en fonction de ces audiences. Le ciblage par liste de clients Google vous permet d’utiliser vos données en ligne et hors ligne pour atteindre vos clients et les réengager dans les propriétés détenues et exploitées de Google, telles que : Search, Shopping, Gmail et YouTube.
+Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client, de segmenter ces profils en audiences conçues pour le marketing et la personnalisation, de partager ces audiences sur les réseaux publicitaires sociaux tels que le ciblage par liste de clients Google afin de cibler et de personnaliser des campagnes en fonction de ces audiences. La correspondance client Google vous permet d’utiliser vos données en ligne et hors ligne pour atteindre vos clients et les réengager dans les propriétés détenues et exploitées de Google, telles que : Recherche, achat, Gmail et YouTube.
 
 ## Cas d’utilisation
 
@@ -27,9 +27,9 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
 
 ## Architecture
 
-<img src="../assets/gcm.svg" alt="Architecture de référence pour l’activation du ciblage par liste de clients Google" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Architecture de référence pour l’activation du ciblage par liste de clients Google" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-## Étapes d’implémentation
+## Étapes de mise en œuvre
 
 1. Configurez les espaces de noms d’identité à utiliser dans les sources de données Profile.
    * Utilisez les espaces de noms prêts-à-l’emploi tels que Email, Email SHA256 Hash, le cas échéant.
