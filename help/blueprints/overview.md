@@ -3,7 +3,7 @@ title: Plans directeurs d’expérience numérique
 description: Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables pour répondre aux stratégies et résoudre les problèmes d’entreprise établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 79%
@@ -38,17 +38,17 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les messages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="Image miniature pour les messages déclenchés et le plan directeur d’Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><strong>Orchestration cross-canal</strong></a></div>
     <p><em>Envoyez des messages et influencez les expériences client en temps réel en utilisant [!UICONTROL Platform] comme hub central.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" class="modal-image" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Image miniature du plan directeur d’activation du client connu" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activation du client connu</strong></a></div>
     <p><em>Diffusion de publicité cross-canal activée par le public.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><img alt="Image miniature du plan directeur de consolidation des données de comportement digital" src="customer-journey-analytics/assets/CJA.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><img alt="Image miniature du plan directeur de consolidation des données de comportement digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr"><strong>Analyse de parcours cross-canal</strong></a></div>
     <p><em>Disposez d’une vue consolidée unique du comportement des clients sur différents canaux.</em></p>
   </td>

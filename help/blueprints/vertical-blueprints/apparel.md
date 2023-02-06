@@ -4,10 +4,10 @@ description: Utilisation de plusieurs plans directeurs pour activer le marketing
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 93%
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -46,4 +46,4 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 
 ### Architecture du plan directeur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="miniature représentant une entreprise du secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="image pour une entreprise Vêtements utilisant l’activation de l’audience, l’analyse des parcours client et les plans directeurs des parcours client" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>

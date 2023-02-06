@@ -2,10 +2,10 @@
 title: Plan directeur d’ingestion et de création
 description: Ingestion et création - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 99%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Pour en savoir plus sur la création de votre propre centre d’excellence, cons
 
 Avec Marketo Engage, les jetons peuvent être utilisés pour renseigner le contenu dans les ressources de votre campagne. Par exemple, après avoir cloné un modèle d’e-mail provenant de votre centre d’excellence, Workfront Fusion peut prendre les détails de la requête de campagne dans Workfront et les transmettre à Mes jetons dans le programme Marketo Engage. Les valeurs de jeton peuvent ensuite être héritées directement dans l’e-mail pour générer l’e-mail.
 
-![](assets/intake-and-create-2.png)
+![Utilisation de jetons pour remplir le diagramme de contenu](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Renseignement d’images à partir d’AEM Assets {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent d’accélérer l’automatisation.
 
-![](assets/intake-and-create-3.png)
+![Flux d’entrée et de création d’automatisation](assets/intake-and-create-3.png)Utilisation de jetons pour remplir le contenu
 
 ## Ressources {#resources}
 
