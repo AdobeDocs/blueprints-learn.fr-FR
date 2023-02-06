@@ -3,8 +3,8 @@ title: Journey Optimizer - Plan directeur pour Adobe Experience Platform et l
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Journey Optimizer est un système conçu spécifiquement pour permettre a
 
 ## Architecture
 
-<img src="assets/ajo-architecture.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-architecture.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -91,13 +91,13 @@ Veuillez noter que ces informations ne sont pas répertoriées dans le lien ci-d
 
 ### Mécanismes de sécurisation de l’ingestion des données
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Mécanismes de sécurisation de l’activation
 
-<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

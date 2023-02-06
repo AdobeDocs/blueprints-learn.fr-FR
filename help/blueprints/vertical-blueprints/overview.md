@@ -2,8 +2,8 @@
 title: Success-stories des plans directeurs d’expérience digitale par secteur
 description: Les exemples d’utilisations réussies des plans directeurs d’expérience digitale montrent comment différents secteurs tirent une valeur commerciale de l’implémentation des applications Adobe Experience Cloud, optimisées par Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -18,17 +18,17 @@ Découvrez comment les clients conçoivent de superbes expériences et réussiss
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=fr"><img alt="miniature représentant le secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=fr"><img alt="miniature représentant le secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=fr"><img alt="miniature représentant le secteur de la vente au détail utilisant l’activation des données en ligne et hors ligne et les plans directeurs Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=fr"><img alt="miniature représentant le secteur de la vente au détail utilisant l’activation des données en ligne et hors ligne et les plans directeurs Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=fr"><img alt="miniature représentant le plan directeur Journey Optimizer" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=fr"><img alt="miniature représentant le plan directeur Journey Optimizer" src="../customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=fr"><img alt="miniature représentant le plan directeur d’activation des données en ligne/hors ligne" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=fr"><img alt="miniature représentant le plan directeur d’activation des données en ligne/hors ligne" src="../audience-activation/assets/known_activation.svg" class="modal-image" /></a>
   </td>
 </tr>
 <tr>

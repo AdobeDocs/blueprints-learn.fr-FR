@@ -4,8 +4,8 @@ description: Diffusion en continu des données collectées par les SDK Experienc
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ La boîte de réception de votre destination nécessite un point de sortie de di
 
 ## Architecture
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Architecture de référence pour le transfert d’événements multi-sandbox" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Architecture de référence pour le transfert d’événements multi-sandbox" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. Les auteurs de balises définissent une propriété de balise ainsi qu’une propriété de transfert d’événement. Les auteurs définissent par ce biais les éléments de données, les règles et les actions qui gèrent la collecte de données. Pour rappel, le code de propriété de balise s’exécute sur le client et est distribué par un hôte CDN. Le code de propriété de transfert d’événement s’exécute sur le serveur Adobe Edge.
 

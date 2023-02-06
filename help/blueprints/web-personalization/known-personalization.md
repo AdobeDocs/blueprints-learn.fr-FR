@@ -5,7 +5,7 @@ landing-page-description: Synchronisez la personnalisation web avec la messageri
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 84%
@@ -41,15 +41,15 @@ ht-degree: 84%
 
 Architecture
 
-<img src="assets/RTCDP+Target.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 Détails de la séquence
 
-<img src="assets/RTCDP+Target_flow.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 Architecture d’aperçu
 
-<img src="assets/personalization_with_apps.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Modèles de mise en œuvre
 

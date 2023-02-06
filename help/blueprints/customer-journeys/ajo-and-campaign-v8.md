@@ -3,8 +3,8 @@ title: Journey Optimizer avec plan directeur Adobe Campaign v8
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 
 ## Architecture
 
-<img src="assets/ajo-campaign-architecture.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-campaign-architecture.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
 >L’utilisation de Journey Optimizer et de Campaign pour envoyer des messages indépendamment les uns des autres est possible mais présente des considérations techniques à prendre en compte. Si vous souhaitez suivre cette route, contactez votre architecte d’entreprise de prévente afin de vous assurer que vous comprenez ce qui sera nécessaire pour prendre en charge l’implémentation.

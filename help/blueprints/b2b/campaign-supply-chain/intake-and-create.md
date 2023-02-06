@@ -2,10 +2,10 @@
 title: Plan directeur d’ingestion et de création
 description: Ingestion et création - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fus
 
 Le workflow ci-dessous présente une requête de webinaire envoyée par un gestionnaire de campagne à l’aide d’un formulaire de requête Workfront. Les détails envoyés dans la requête déclenchent ensuite la création d’un programme et d’un e-mail dans Marketo Engage pour le webinaire. En outre, des détails sont fournis à partir du formulaire de requête pour renseigner le contenu de l’e-mail.
 
-![](assets/intake-and-create-1.png)
+![Inprise et création d’un plan directeur](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

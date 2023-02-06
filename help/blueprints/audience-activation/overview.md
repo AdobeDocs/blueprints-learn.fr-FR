@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 
 Le schéma ci-dessous présente les principaux composants du profil client en temps réel d’Experience Platform.
 
-<img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 Les premières sources de données sont ingérées dans Experience Platform. Si la source de données est configurée pour le traitement de profil, elle sera intégrée au profil client en temps réel. Un seul fragment ou document de profil est créé pour chaque source de données et chaque enregistrement d’identifiant principal configuré pour chaque source de données. En outre, lorsque des données sont ingérées dans le profil, elles sont également traitées par le service d’identité. Tout enregistrement provenant des sources de données dont plusieurs identités sont marquées dans le schéma et dont les valeurs correspondantes sont renseignées dans l’enregistrement sera traité comme une relation d’identité au sein du service d’identité.
 
@@ -42,7 +42,7 @@ La fusion de fragments de profil se produit lorsque le schéma d’identité fou
 
 L’illustration ci-dessous présente les différentes méthodes de segmentation et les différents modèles d’activation de profil et d’audience.
 
-<img src="assets/segmentation_destination_overview.png" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/segmentation_destination_overview.png" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 ## Mécanismes de sécurisation pour les plans directeurs d’activation d’audience et de profil
 

@@ -5,8 +5,8 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaig
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ Aujourd’hui, il existe deux options d’Adobe que les clients peuvent choisir 
 
 | Plan directeur | Description | Architecture |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Basée en mode natif par-dessus le profil client en temps réel d’Experience Platform, elle permet aux équipes marketing de réagir en temps réel à la modification des comportements des clients et de répondre à leurs besoins sur n’importe quel canal, à tout moment. | <img src="assets/ajo-architecture.svg" alt="Architecture de référence du plan directeur Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v8](campaign-v8.md)** | Outil de campagne de nouvelle génération optimisé pour la gestion des données et les processus de campagne extrêmement complexes. Permet aux clients de combiner des recherches et de créer des communications de campagne marketing enrichies. | <img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v7](campaign-v7.md)** | Outil de campagne traditionnel conçu pour les campagnes marketing par lots sur différents canaux tels que les e-mails, les SMS et le publipostage direct. Permet aux clients d’orchestrer et de gérer les différentes communications client au même endroit. | <img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | Basée en mode natif par-dessus le profil client en temps réel d’Experience Platform, elle permet aux équipes marketing de réagir en temps réel à la modification des comportements des clients et de répondre à leurs besoins sur n’importe quel canal, à tout moment. | <img src="assets/ajo-architecture.svg" alt="Architecture de référence du plan directeur Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Outil de campagne de nouvelle génération optimisé pour la gestion des données et les processus de campagne extrêmement complexes. Permet aux clients de combiner des recherches et de créer des communications de campagne marketing enrichies. | <img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Outil de campagne traditionnel conçu pour les campagnes marketing par lots sur différents canaux tels que les e-mails, les SMS et le publipostage direct. Permet aux clients d’orchestrer et de gérer les différentes communications client au même endroit. | <img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |

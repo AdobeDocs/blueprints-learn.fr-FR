@@ -3,7 +3,7 @@ title: Plan directeur de Campaign v7
 description: Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing traditionnels tels que le courrier électronique et le publipostage direct et par e-mail. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots.  Il est également fourni avec un serveur de messagerie en temps réel qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’un payload global de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Adobe Campaign v7 est un outil de campagne conçu pour les canaux marketing tr
 
 ## Architecture
 
-<img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

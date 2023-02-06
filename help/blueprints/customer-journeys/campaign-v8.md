@@ -3,7 +3,7 @@ title: Plan directeur Campaign v8, Campaign et Platform
 description: Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour les canaux marketing traditionnels tels que le publipostage par e-mail ou le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également fourni avec un serveur de messagerie en temps réel adaptable qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des tâches telles que la réinitialisation du mot de passe, la confirmation de commande, la réception électronique, etc.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 96%
@@ -29,7 +29,7 @@ Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu po
 
 ## Architecture
 
-<img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
