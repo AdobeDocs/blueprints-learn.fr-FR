@@ -5,9 +5,9 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -35,9 +35,7 @@ ht-degree: 100%
    + [Activation d’audience anonyme         (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activation des clients connus (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
-      + Activation des canaux Social et Advertising {#audience-activation}
-         + [Activation des audiences personnalisées Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [Activation du ciblage par liste de clients Google](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Activation des canaux Social et Advertising ](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activation vers des destinations de diffusion en continu de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
       + [Correspondance de segment](/help/blueprints/audience-activation/segment-match.md)
