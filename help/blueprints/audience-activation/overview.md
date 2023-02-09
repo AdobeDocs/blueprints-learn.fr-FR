@@ -1,14 +1,14 @@
 ---
 title: Plans directeurs de l’activation de profil et d’audience
-description: Diffusez des expériences client activées pour l’audience et en fonction du profil avec Real-time Customer Data Platform ​.
+description: Proposez des expériences client activées par l’audience et centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Avec une approche axée sur le canal, chaque canal agit comme un silo dans leque
 |---|---|---|
 | **[Activation d’audience anonyme](anonymous.md)** | <ul><li>Ciblez des audiences sur le web et les canaux publicitaires pour des données client anonymes et comportementales.</li><li>Intégrez des données d’audience tierces pour une personnalisation accrue.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activation du client connu](known.md)** | <ul><li>Activez vers des destinations connues basées sur le profil telles que les fournisseurs de messagerie électronique, les réseaux sociaux et les destinations publicitaires. </li><li>Utilisez les attributs et les événements hors ligne tels que les commandes hors ligne, les transactions, la gestion de la relation client (CRM) ou les données sur la fidélité, combinés avec le comportement en ligne pour le ciblage et la personnalisation en ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (facultatif)</li></ul> |
-| **[Activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
+| **[Activation de profil et d’audience avec les applications Experience Cloud](platform-and-applications.md)** | <ul><li>Gérez les profils et les audiences dans Experience Platform et partagez-les avec les applications Experience Cloud.</li><li>Créez et diffusez des segments et des informations clients richement fournis dans Experience Platform et partagez-les avec les applications Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Applications Experience Cloud</li></ul> |
 | **[Correspondance de segment](segment-match.md)** | <ul><li>Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
 ## Architecture du profil client en temps réel
@@ -50,7 +50,7 @@ L’illustration ci-dessous présente les différentes méthodes de segmentation
 
 ### Activation des attributs et des identités
 
-* [!UICONTROL Real-time Customer Data Platform] peut activer les appartenances à l’audience ainsi que les modifications d’attribut et d’identité qui se produisent pour les profils qui sont membres de segments sélectionnés pour l’activation. Si votre objectif est d’activer des attributs ou des identités, vous devez définir un segment global qui inclut tous les profils auxquels des mises à jour d’attributs et d’identités sont envoyées. À ce stade, vous pouvez sélectionner le segment et les attributs souhaités à activer dans le cadre de la configuration de destination.
+* [!UICONTROL Real-time Customer Data Platform] peut activer les adhésions aux audiences, ainsi que les modifications d’attribut et d’identité survenant pour les profils membres de segments sélectionnés pour l’activation. Si votre objectif est d’activer des attributs ou des identités, vous devez définir un segment global qui inclut tous les profils auxquels des mises à jour d’attributs et d’identités sont envoyées. À ce stade, vous pouvez sélectionner le segment et les attributs souhaités à activer dans le cadre de la configuration de destination.
 * Notez que les destinations par lots ne prennent pas en charge l’activation d’événements de modification d’attribut uniquement. Des adhésions complètes ou incrémentielles à des audiences peuvent être envoyées avec les attributs sélectionnés pour l’activation.
 
 ### Activation de segments par lots vers des destinations de diffusion en continu

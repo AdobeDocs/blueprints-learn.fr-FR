@@ -4,10 +4,10 @@ description: Diffusion d’expériences client en temps réel sur les médias nu
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 
 | Objectifs | Stratégies | Valeur débloquée |
 |---|---|---|
-| **Orchestration des parcours client en temps réel **<br></br>** Incitation à des achats récurrents auprès de nouveaux clients **<br></br>** Amélioration de l’efficacité marketing et réduction des coûts liés aux médias**</ul> | <ul><li>Des données et une stratégie d’identité solides pour alimenter un profil en temps réel complet.</li><li>Diffusion de données client et transactionnelles en temps réel, avec une prise en charge de l’historique sur 90 jours</li><li>Segmentation par flux vers Google et Adobe Target afin d’optimiser les dépenses médias et les efforts de personnalisation</li><li>Parcours client en temps réel via Adobe Campaign, qui comprend une stratégie de mesure des performances</li></ul> | <ul><li><strong>Real-time Customer Data Platform :</strong> diffusion d’expériences client en temps réel sur les médias, par e-mails, par notifications push et sur le web</li><li><strong>Sources de données :</strong> données en flux continu couvrant le stockage des profils, le système de commande, le catalogue de produits et les points de vente au détail de ce détaillant.</li><li><strong>Activation multimédia en temps réel :</strong> diffusion en continu de segments vers les médias Google pour l’attribution et la suppression des publicités</li><li><strong>Personnalisation web en temps réel :</strong> diffusion de segments en flux continu vers Adobe Target afin de les activer sur l’expérience web du détaillant.</li><li><strong>Journey Orchestration, sur mesure :</strong> messagerie déclenchée en temps réel enrichie de toutes les données client disponibles et activation en temps réel dans les canaux e-mail et push</li></ul> |
+| **Orchestration des parcours client en temps réel **<br></br>** Incitation à des achats récurrents auprès de nouveaux clients **<br></br>** Amélioration de l’efficacité marketing et réduction des coûts liés aux médias**</ul> | <ul><li>Des données et une stratégie d’identité solides pour alimenter un profil en temps réel complet.</li><li>Diffusion de données client et transactionnelles en temps réel, avec une prise en charge de l’historique sur 90 jours</li><li>Segmentation par flux vers Google et Adobe Target afin d’optimiser les dépenses médias et les efforts de personnalisation</li><li>Parcours client en temps réel via Adobe Campaign, qui comprend une stratégie de mesure des performances</li></ul> | <ul><li><strong>Real-time Customer Data Platform :</strong> Diffusion d’expériences client en temps réel sur les médias, les e-mails, les notifications push et le web</li><li><strong>Sources de données :</strong> données en flux continu couvrant le stockage des profils, le système de commande, le catalogue de produits et les points de vente au détail de ce détaillant.</li><li><strong>Activation multimédia en temps réel :</strong> diffusion en continu de segments vers les médias Google pour l’attribution et la suppression des publicités</li><li><strong>Personnalisation web en temps réel :</strong> diffusion de segments en flux continu vers Adobe Target afin de les activer sur l’expérience web du détaillant.</li><li><strong>Journey Orchestration, sur mesure :</strong> messagerie déclenchée en temps réel enrichie de toutes les données client disponibles et activation en temps réel dans les canaux e-mail et push</li></ul> |
 
 ## Plan directeur Principal : Audience et activation avec des applications Experience Cloud
 

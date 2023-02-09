@@ -1,24 +1,24 @@
 ---
-title: Customer Journey Analytics avec plan directeur Real-time Customer Data Platform
+title: Plan directeur de Customer Journey Analytics avec Real-time Customer Data Platform
 description: Unifiez et analysez les données et les comportements des clients sur l’ensemble du parcours client dans Customer Journey Analytics, publiez l’audience de CJA vers RTCDP.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
-# Customer Journey Analytics avec plan directeur Real-time Customer Data Platform
+# Plan directeur de Customer Journey Analytics avec Real-time Customer Data Platform
 
 Créez et publiez des audiences identifiées dans Customer Journey Analytics (CJA) vers le profil client en temps réel dans Adobe Experience Platform, pour le ciblage et la personnalisation des clients. Idéal pour créer des audiences à l’aide de données historiques ou des audiences plus affinées à partir d’un filtrage granulaire et de champs calculés dans Customer Journey Analytics.
 
 ## Guide de publication d’audiences Customer Journey Analytics
 
-Consultez la documentation suivante pour obtenir des conseils sur la mise en oeuvre et la configuration de la publication des audiences de Customer Journey Analytics vers Real-time Customer Data Platform. [Documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr)
+Consultez la documentation suivante pour obtenir des conseils sur la mise en œuvre et la configuration de la publication des audiences de Customer Journey Analytics vers Real-time Customer Data Platform. [Documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr)
 
 ## Architecture des plans directeurs de Customer Journey Analytics
 

@@ -4,10 +4,10 @@ description: Ce plan directeur présente un aperçu de toutes les méthodes qui 
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Méthodes d’export des données :
 
 * [Balises côté client](#client-side-tags-extensions)
 * [Transfert d’événement](#event-forwarding)
-* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
+* [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
 * [Actions personnalisées de Journey Optimizer](#jo-custom-actions)
 
 ## Architecture de présentation de l’export et de l’accès aux données
@@ -122,11 +122,11 @@ Pour plus d’informations, consultez la documentation [Transfert d’événemen
 * Aucun enrichissement du profil Edge ou d’autres sources de données n’est actuellement pris en charge.
 * Le filtrage limité des données et les transformations de mappage simples sont pris en charge.
 
-### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
+### Destinations Real-time Customer Data Platform {#RTCDP-destinations}
 
 Les données d’attribut de profil et d’appartenance à une audience peuvent être activées vers les destinations d’entreprise et de publicité. Cela signifie que les données extraites doivent être ingérées dans le profil client en temps réel d’Experience Platform.
 
-Reportez-vous à la section [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr) pour plus d’informations.
+Pour plus d’informations, consultez la documentation [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
 
 #### Cas d’utilisation
 

@@ -3,10 +3,10 @@ title: Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 description: Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign v8 pour diffuser des conversations personnalisées.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Présente comment Adobe Experience Platform, le profil client en temps réel e
 
 ## Étapes de mise en œuvre
 
-Reportez-vous à la documentation suivante sur la configuration du connecteur source Campaign v8 vers Adobe Experience Platform et du connecteur de destination Real-time Customer Data Platform vers Campaign v8.
+Reportez-vous à la documentation suivante sur la configuration du connecteur source Campaign v8 sur Adobe Experience Platform et du connecteur de destination Real-time Customer Data Platform sur Campaign v8.
 [Connecteurs Campaign et AEP](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr)
 
 ## Garde-fous
@@ -53,7 +53,7 @@ Reportez-vous à la documentation suivante sur la configuration du connecteur so
 * Adobe Campaign est une source de confirmation pour tous les profils actifs, c’est-à-dire que les profils doivent exister dans Adobe Campaign et que de nouveaux profils ne doivent pas être créés en fonction des segments Experience Platform.
 
 
-### Partage de segments Real-time Customer Data Platform Experience Platform
+### Partage de segments Real-time Customer Data Platform Experience Platform
 
 * Reportez-vous au connecteur de destination RTCDP Campaign : [Connexion à RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=fr)
 * Limite de 50 segments recommandée

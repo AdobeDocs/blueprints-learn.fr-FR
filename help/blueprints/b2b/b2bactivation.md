@@ -1,13 +1,13 @@
 ---
 title: Plan directeur de l’activation de profil et de l’audience B2B
-description: Diffusez des audiences basées sur des comptes et des expériences client axées sur les profils avec Real-time Customer Data Platform ​.
+description: Proposez des audiences basées sur les comptes et des expériences client centrées sur les profils grâce à Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,12 @@ Utilisez les informations de compte, d’opportunités et de prospects liées à
 
 ## Applications
 
-* Real-time Customer Data Platform B2B Edition
+* Édition B2B Real-time Customer Data Platform
 
 ## Modèles d’intégration
 
-* Sources de données B2B (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform Édition B2B -> Destinations Diverses sources de données B2B peuvent être utilisées pour mapper les données de compte, de prospect, d’opportunité et de personne à l’édition B2B de Real-time Customer Data Platform.
+* Sources de données B2B (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform Édition B2B -> Destinations
+Diverses sources de données B2B peuvent être utilisées pour mapper les données de compte, de prospects, d’opportunités et de personnes à l’édition B2B de Real-time Customer Data Platform.
 
 ## Architecture
 
@@ -68,12 +69,12 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 #### Experience Platform - Connecteur de destination Marketo :
 
-* Le partage de segments en flux continu de Real-time Customer Data Platform vers Marketo Engage peut prendre jusqu’à 5 minutes.
+* Le partage de segments en flux continu de Real-time Customer Data Platform vers Marketo Engage peut prendre jusqu’à 5 minutes.
 * La segmentation par lots est partagée une fois par jour selon le planning de segmentation d’Experience Platform. Les segments B2B comprenant des comptes, des prospects et des opportunités utilisent des relations multi-entités, ce qui entraîne le traitement par lot du segment.
 
 #### Garde-fous Marketo Engage :
 
-* Les contacts et les pistes doivent être ingérés et définis directement dans Marketo Engage pour que l’audience Real-time Customer Data Platform corresponde à un contact et à un prospect Marketo Engage.
+* Les contacts et les prospects doivent être ingérés et définis directement dans Marketo Engage pour que l’audience Real-time Customer Data Platform corresponde à un contact et à un prospect Marketo Engage.
 
 #### Garde-fous de destination
 
@@ -82,7 +83,7 @@ Le tableau suivant décrit les modèles pris en charge pour mapper les instances
 
 ## Étapes de mise en œuvre
 
-Pour plus d’informations sur la mise en oeuvre et la configuration de l’édition B2B de Real-time Customer Data Platform, voir l’édition B2B de la documentation de Real-time Customer Data Platform. [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
+Pour plus d’informations sur la mise en œuvre et la configuration de l’édition B2B de Real-time Customer Data Platform, consultez l’édition B2B de la documentation de Real-time Customer Data Platform. [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
 
 Il existe deux modèles de mise en œuvre possibles. La possibilité d’ingérer des données B2B et des profils à partir de Marketo Engage ou la possibilité d’ingérer des données B2B à partir d’autres sources de données CRM.
 
@@ -92,12 +93,12 @@ Recommandations sur les principales considérations et configurations du plan di
 
 * Intégration CRM avec et sans Marketo :
 si l’implémentation utilise Marketo Engage en tant que source et que Marketo Engage est connecté au CRM, utilisez le connecteur source Marketo dans Experience Platform pour ingérer les données CRM dans Experience Platform. Utilisez le connecteur source Experience Platform si des tableaux supplémentaires doivent être ingérés. Si l’implémentation n’utilise pas Marketo Engage comme source, connectez la source CRM directement à AEP à l’aide du connecteur source CRM d’Experience Platform.
-* Il n’est pas recommandé de lancer des pistes et de prendre en charge l’édition B2B de Real-time Customer Data Platform uniquement. Dans ce cas précis, il est recommandé d’utiliser un outil de préparation de prospects (tel que Marketo Engage).
+* Il n’est pas recommandé de générer et d’entretenir des prospects uniquement à partir de l’édition B2B de Real-time Customer Data Platform. Dans ce cas précis, il est recommandé d’utiliser un outil de préparation de prospects (tel que Marketo Engage).
 * Le connecteur de destination Marketo Engage pour AEP envoyant pour activation des audiences à Marketo Engage n’envoie que des adresses électroniques et des ECID. Il ne crée pas de nouveau prospect si le contact n’existe pas déjà. Il est donc nécessaire d’ingérer le profil et les données de piste dans Marketo Engage.
 
 ## Documentation connexe
 
-* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
+* [Édition B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=fr)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=fr)
 * [Adobe Experience Platform - Connecteur source Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=fr)

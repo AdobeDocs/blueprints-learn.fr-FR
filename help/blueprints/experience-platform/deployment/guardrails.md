@@ -4,10 +4,10 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 <br>
 
-### Real-time Customer Data Platform et Adobe Target
+### Real-time Customer Data Platform et Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="Garde-fous RTCDP et Target" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -70,7 +70,7 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
-[Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform.html)
+[Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform.html)
 
 [Plateforme de données clients B2B](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-b2b.html)
 
