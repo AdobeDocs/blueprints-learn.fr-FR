@@ -4,8 +4,8 @@ description: Adobe Campaign v7 est un outil de campagne conçu pour les canaux
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
-source-wordcount: '1195'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
