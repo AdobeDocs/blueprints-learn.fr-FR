@@ -5,8 +5,8 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
-source-wordcount: '896'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Consultez la [section Architecture d’Experience Platform et de ses applicatio
 
 ## Garde-fous
 
-Référez-vous aux [garde-fous décrits sur la page de présentation d’Audience et Profil Activation](overview.md)   et la page [Garde-fous de déploiement](../experience-platform/deployment/guardrails.md).
+Référez-vous aux [garde-fous décrits sur la page de présentation d’Audience et Profil Activation](overview.md)    et la page [Garde-fous de déploiement](../experience-platform/deployment/guardrails.md).
 
 ## Considérations relatives à la mise en œuvre
 
