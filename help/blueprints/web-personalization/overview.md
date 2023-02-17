@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La personnalisation web et mobile permet d’utiliser la segmentation de profil 
 
 <br>
 
-### Diagramme de garde de personnalisation connu des clients
+### Diagramme des garde-fous de personnalisation par client connu
 
 <img src="assets/personalization_guardrails.svg" alt="Architecture de référence pour le plan directeur de personnalisation web en ligne / hors ligne" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
