@@ -4,13 +4,13 @@ description: Diffusez des offres personnalisées aux clients sur l’ensemble de
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Gestion des décisions sur le plan directeur Edge
+# Journey Optimizer - Plan directeur de la gestion des décisions sur Edge
 
 La gestion des décisions d’Adobe Journey Optimizer peut être utilisée pour personnaliser et diffuser des offres sur les canaux entrants tels que les sites web, les applications mobiles, les kiosques et sur d’autres points de contact clients.
 
