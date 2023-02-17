@@ -4,8 +4,8 @@ description: Montre comment Adobe Experience Platform, son profil client en te
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '385'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
