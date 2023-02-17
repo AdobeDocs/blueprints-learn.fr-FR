@@ -1,18 +1,18 @@
 ---
-title: Plans directeurs Data Analysis, Intelligence et AI/ML
+title: Plans directeurs d’analyse des données, Data Intelligence et IA/ML
 description: Ce plan directeur montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# Plans directeurs Data Analysis, Intelligence et AI/ML
+# Plans directeurs d’analyse des données, Data Intelligence et IA/ML
 
 L’analyse des données, la data intelligence et l’IA / ML montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
 
