@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytic
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Grâce à l’utilisation des technologies et des services d’Adobe, cette orga
 |---|---|---|
 | **Délivrer une expérience pertinente pour chaque client **<br></br>** Obtenir en un clin d’œil des statistiques pertinentes et diffuser rapidement les données par le biais de tableaux de bord **<br></br>** Développer une efficacité organisationnelle et opérationnelle**</ul> | <ul><li>Création de profils de clients unifiés basés sur des programmes de récompenses à l’aide de données en ligne et hors ligne pour l’activation et la mesure</li><li>Activation en temps réel sur plusieurs canaux, rapide et personnalisée</li><li>Fonctionnalité d’analyse au niveau client déverrouillée grâce à Customer Journey Analytics</li><li>Extrayez des informations pertinentes afin d’améliorer l’activation en tirant parti des données historiques d’interaction du flux de clics.</li><li>Utilisez les données en ligne et hors ligne pour unifier une vue client et obtenir des informations sur les parcours clients et les canaux.</li></ul> | <ul><li><strong> Activation cross-canal : </strong>multiplication par 3 de l’engagement par e-mail, croissance des audiences adressables et des impressions, expériences web hautement personnalisées </li><li><strong>Intelligence : </strong>le programme de récompenses des clients exécute une campagne d’activation pour réduire les taux d’attrition des membres.</li><li><strong>Reporting : </strong>fusion des données en ligne et hors ligne avec des informations d’IA/ML dans un tableau de bord convivial d’attribution et de parcours, tout en réduisant la latence (par jours).</li><li><strong>Pile technologique à l’épreuve du futur : </strong>des dizaines de millions de profils répartis sur 7 canaux prêts à s’exécuter dans des scénarios d’optimisation de la vente croisée, de la vente incitative et des dépenses</li></ul> |
 
-## Plan directeur Principal : Activation avec des données en ligne et hors ligne
+## Plan directeur principal : activation à l’aide de données en ligne et hors ligne
 
 ### Description
 
