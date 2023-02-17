@@ -7,7 +7,7 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Cette limitation devait être résolue afin de permettre un suivi plus rapide de
 |---|---|---|
 | **Augmentation des taux de conversion de campagnes **<br></br>** Augmentation du chiffre d’affaires annuel du compte**</ul> | <ul><li>Créez un segment en temps quasi réel pour les utilisateurs qui ont montré un intérêt pour l’ajout d’une ligne, mais qui n’ont pas encore été convertis.</li><li>Accélérez le suivi des clients non convertis avec un second point de contact destiné aux clients non convertis mais intéressés. </li><li>Utilisez une stratégie de test permettant de mesurer les performances des parcours et d’optimiser la conversion par e-mail.</li></ul> | <ul><li><strong>Des expériences pertinentes de haute qualité :</strong> grâce à l’implémentation de Journey Orchestration, les clients reçoivent de messages plus pertinents, ce qui réduit le volume des listes d’e-mails.</li><li><strong>Journey Orchestration, sur-mesure :</strong> un parcours personnalisé et plus chronologique peut être créé pour augmenter les conversions et le chiffre d’affaires total.</li></ul> |
 
-## Plan directeur Principal : Audience et activation avec des applications Experience Cloud
+## Plan directeur principal : activation des audiences avec des applications Experience Cloud
 
 ### Description
 

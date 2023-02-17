@@ -1,18 +1,18 @@
 ---
-title: Plans directeurs d’expérience numérique
-description: Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables pour répondre aux stratégies et résoudre les problèmes d’entreprise établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
+title: Plans directeurs d’expérience digitale
+description: Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et résoudre les problèmes commerciaux établis. Ils accélèrent le retour sur investissement et assurent un chemin rapide vers le succès.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Plans directeurs d’expérience numérique
+# Plans directeurs d’expérience digitale
 
-Les plans directeurs d’expérience numérique sont des mises en oeuvre répétables qui vous permettent de résoudre rapidement des problèmes d’entreprise et de stratégies. Chaque plan directeur offre une série de ressources qui expliquent le problème commercial, les architectures, les étapes de mise en œuvre, les considérations techniques et les liens vers la documentation pertinente.
+Les plans directeurs d’expérience digitale sont des implémentations reproductibles pour mettre au point une stratégie et rapidement résoudre les problèmes commerciaux établis. Chaque plan directeur offre une série de ressources qui expliquent le problème commercial, les architectures, les étapes de mise en œuvre, les considérations techniques et les liens vers la documentation pertinente.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -23,7 +23,7 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
 
 ## Nouveautés
 
-* **[Plan directeur d’activation d’audience et de profil vers les destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
 * **[Plan directeur du centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)**
@@ -33,7 +33,7 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
 
    *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
 
-## Plans directeurs présentés
+## Plans directeurs recommandés
 
 <table style="table-layout:fixed">
 <tr>
@@ -55,7 +55,7 @@ Les plans directeurs d’expérience numérique sont des mises en oeuvre répét
 </tr>
 </table>
 
-## Publications de blog
+## Articles de blog
 
 * [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)

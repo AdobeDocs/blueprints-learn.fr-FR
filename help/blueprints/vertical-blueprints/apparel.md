@@ -1,13 +1,13 @@
 ---
 title: Secteur de l’habillement - Activation avec des applications Experience Cloud
-description: Utilisation de plusieurs plans directeurs pour activer le marketing en temps réel, l’activation cross-canal et l’analyse cross-canal.
+description: Utilisation de plusieurs plans directeurs pour activer le marketing en temps réel, l’activation cross-canal et l’analytique cross-canal.
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 |---|---|---|
 | **Expériences cross-canal connectées **<br></br>** Stimulation de l’engagement et de la rétention client **<br></br>** Diffusion et statistiques des données**</ul> | <ul><li>Intégration de plusieurs jeux de données d’entreprise pour créer des dizaines de millions de profils et des centaines de segments, plusieurs destinations et des tableaux de bord de création de rapports</li><li>Activation sur plusieurs destinations à l’aide de Real-time Customer Data Platform</li><li>Fonctionnalité d’analyse au niveau client déverrouillée grâce à Customer Journey Analytics</li><li>Déclencheurs d’événement automatisés pour les interactions client implémentées via Adobe Journey Optimizer</li></ul> | <ul><li><strong>Profil client : </strong>vue à 360° sur le clients à des fins de segmentation</li><li><strong>Activations de destination : </strong>activation sur les plateformes de paid media, d’e-mails et de réseaux sociaux</li><li><strong>Analyse et attribution des clients : </strong>analyse de l’attribution cross-canal disponible de façon ad hoc et facilement distribuée<li><strong>Journey Orchestration : </strong>création et mise en œuvre des campagnes déclenchées et des campagnes planifiées à l’aide du contexte en temps réel</li></ul> |
 
-## Plan directeur Principal : Audience et activation avec des applications Experience Cloud
+## Plan directeur principal : activation des audiences avec des applications Experience Cloud
 
 ### Description
 

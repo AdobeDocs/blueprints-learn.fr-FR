@@ -21,7 +21,7 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Applications
 
-* Adobe Experience Platform  Activation
+* Adobe Experience Platform   Activation
 
 ## Architecture
 
