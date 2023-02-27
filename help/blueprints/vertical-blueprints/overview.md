@@ -2,9 +2,9 @@
 title: Success-stories des plans directeurs d’expérience digitale par secteur
 description: Les exemples d’utilisations réussies des plans directeurs d’expérience digitale montrent comment différents secteurs tirent une valeur commerciale de l’implémentation des applications Adobe Experience Cloud, optimisées par Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+workflow-type: tm+mt
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,10 @@ Découvrez comment les clients conçoivent de superbes expériences et réussiss
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=fr"><img alt="miniature représentant le secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=fr"><img alt="miniature représentant le secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=fr"><img alt="miniature représentant le secteur de la vente au détail utilisant l’activation des données en ligne et hors ligne et les plans directeurs Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=fr"><img alt="miniature représentant le secteur de la vente au détail utilisant l’activation des données en ligne et hors ligne et les plans directeurs Journey Optimizer" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>
