@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ Son équipe technologique répartie dans le monde entier utilise Adobe Experien
 
 ### Architecture du plan directeur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="image pour une entreprise Vêtements utilisant l’activation de l’audience, l’analyse des parcours client et les plans directeurs des parcours client" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr"><img alt="Image représentant une entreprise du secteur de l’habillement utilisant les plans directeurs d’activation d’audiences, de Customer Journey Analytics et de parcours client" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
