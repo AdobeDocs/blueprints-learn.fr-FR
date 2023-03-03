@@ -5,9 +5,9 @@ solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ Cette limitation devait être résolue afin de permettre un suivi plus rapide de
 
 ### Architecture du plan directeur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="image pour une entreprise de télécommunications offre des offres personnalisées en temps réel tout en proposant une intégration efficace des clients pour une fidélité à long terme." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=fr"><img alt="image représentant une entreprise de télécommunications présentant à ses clients des offres personnalisées en temps réel tout en bénéficiant d’une intégration efficace à la clientèle, pour s’assurer de leur fidélité à long terme." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
