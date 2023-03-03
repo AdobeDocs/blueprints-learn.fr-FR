@@ -1,19 +1,19 @@
 ---
-title: Activation vers des destinations sociales et publicitaires à partir de la plateforme de données clients en temps réel
-description: Activation vers des destinations sociales et publicitaires à partir de la plateforme de données clients en temps réel
+title: Activation vers des destinations sociales et publicitaires à partir de Real-time Customer Data Platform
+description: Activation vers des destinations sociales et publicitaires à partir de Real-time Customer Data Platform
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Activation vers des destinations sociales et publicitaires à partir de la plateforme de données clients en temps réel
+# Activation vers des destinations sociales et publicitaires à partir de Real-time Customer Data Platform
 
-Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client, de segmenter ces profils en audiences créées pour le marketing et la personnalisation, de partager ces audiences avec des réseaux publicitaires tels que Facebook et Google afin de cibler et de personnaliser des campagnes en fonction de ces audiences.
+Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client, de segmenter ces profils en audiences conçues pour le marketing et la personnalisation, de partager ces audiences sur les réseaux publicitaires tels que Facebook afin de cibler et de personnaliser des campagnes en fonction de ces audiences.
 
 ## Cas d’utilisation
 
@@ -73,7 +73,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
    * Examinez le profil qui doit être inclus dans le segment pour vérifier que l’abonnement au segment est inclus dans la partie de l’abonnement au segment du profil.
 1. Configurez la diffusion de l’audience vers la destination dans la configuration de la Destination.
    * Consultez le [Guide de destination Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=fr) pour plus d’informations sur la configuration de la destination Facebook.
-   * Voir [Guide de destination de la correspondance client Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=fr) pour plus d’informations sur la configuration de la destination Google.
+   * Consultez le [Guide de destination du ciblage par liste de clients Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=fr) pour plus d’informations sur la configuration de la destination Google.
    * Lors de la configuration d’une destination, sélectionnez l’audience que vous souhaitez activer vers la destination.
    * Déterminez la date de début planifiée à laquelle vous souhaitez que le flux de données de destination commence à diffuser l’audience vers la destination.
    * Chaque destination comporte des attributs obligatoires et facultatifs qui seront envoyés.
@@ -84,7 +84,7 @@ Ingérez des données client à partir de plusieurs sources afin de créer une v
       * Pour le ciblage par liste de clients Google, les abonnements à l’audience sont diffusés en continu à un point d’entrée du ciblage par liste de clients Google au format JSON.
       * Les abonnements à l’audience seront diffusés en continu après l’évaluation de la segmentation par flux ou par lots dans Experience Platform.
 1. Assurez-vous que le flux de destination a diffusé l’audience vers la destination comme prévu.
-   * Vérifiez l’interface de surveillance pour confirmer que l’audience a été diffusée avec le nombre de profils attendu. La taille de l’audience doit refléter le nombre attendu de profils activés, en notant que des destinations spécifiques telles que Facebook et Google requièrent certains champs, tels qu’une identité de hachage d’email. Si elles ne sont pas présentes dans le profil qui est membre de l’audience, elles ne sont pas activées vers la destination.
+   * Vérifiez l’interface de surveillance pour confirmer que l’audience a été diffusée avec le nombre de profils attendu. La taille de l’audience doit refléter le nombre attendu de profils activés, en notant que des destinations spécifiques telles que Facebook et Google requièrent certains champs, tels qu’une identité de hachage d’e-mail. Si elles ne sont pas présentes dans le profil qui est membre de l’audience, elles ne sont pas activées vers la destination.
    * Recherchez les profils ignorés pour les identités de profil manquantes ou les attributs manquants qui étaient obligatoires.
    * Recherchez d’autres erreurs qui doivent être résolues.
 1. Vérifiez que l’audience a été activée vers la destination de fin avec le nombre d’abonnements attendu pour l’audience.
