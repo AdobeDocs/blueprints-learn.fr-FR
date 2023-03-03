@@ -1,6 +1,6 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: ht
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -54,3 +54,4 @@ n’hésitez pas à contacter les membres de comité actuels pour en parler.
 ## Problèmes de sécurité
 
 Les problèmes de sécurité ne doivent pas être signalés à l’aide de ce mode de suivi des problèmes. [Signalez plutôt ce problème à nos experts en sécurité](https://helpx.adobe.com/fr/security/alertus.html)
+
