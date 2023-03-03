@@ -3,9 +3,9 @@ title: Plan directeur d’ingestion et de création
 description: Ingestion et création - Optimisation de la chaîne d’approvisionnement de campagne avec Marketo et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fus
 
 Le workflow ci-dessous présente une requête de webinaire envoyée par un gestionnaire de campagne à l’aide d’un formulaire de requête Workfront. Les détails envoyés dans la requête déclenchent ensuite la création d’un programme et d’un e-mail dans Marketo Engage pour le webinaire. En outre, des détails sont fournis à partir du formulaire de requête pour renseigner le contenu de l’e-mail.
 
-![Inprise et création d’un plan directeur](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Plan directeur d’ingestion et de création](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
@@ -149,7 +149,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent d’accélérer l’automatisation.
 
-![Flux d’entrée et de création d’automatisation](assets/intake-and-create-3.png)Utilisation de jetons pour remplir le contenu
+![Flux d’automatisation d’ingestion et de création](assets/intake-and-create-3.png)Utilisation de jetons pour remplir le contenu
 
 ## Ressources {#resources}
 
