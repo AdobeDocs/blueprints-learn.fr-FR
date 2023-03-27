@@ -5,7 +5,7 @@ solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '823'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,7 @@ Système de messagerie tiers
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identité       pour Edge Network
+   * Identité         pour Edge Network
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
