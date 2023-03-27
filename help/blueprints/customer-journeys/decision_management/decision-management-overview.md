@@ -55,7 +55,7 @@ La seconde approche consiste à utiliser Experience Edge Network, qui est une 
 * Personnalisation en ligne via des expériences entrantes web ou mobiles
 * Exécution de parcours cross-canal : offre une cohérence entre les canaux web, mobile, par e-mail et les autres canaux d’interaction par le biais d’Adobe Journey Optimizer
 
-### Gestion des décisions sur Edge    Considérations techniques
+### Considérations techniques de la gestion des décisions sur le Edge
 
 * Demandes par seconde = 5 000.
 * Latence de la réponse &lt; 250 ms.
