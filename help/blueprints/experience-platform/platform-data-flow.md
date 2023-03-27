@@ -6,9 +6,9 @@ kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: 21b688109ee8c3d209f2cac5267eb95258851dae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Le schéma ci-dessous illustre les différents chemins d’accès pour l’inges
 
 ## Modèles d’entrée et de sortie des données
 
-Pour obtenir une liste détaillée de tous les modèles d’ingestion, de collecte et d’entrée de données, voir le [Plan directeur Préparation des données et ingestion](../data-ingestion/ingestion.md).
+Pour obtenir une liste détaillée de tous les modèles d’ingestion, de collecte et d’entrée de données, voir le [Plan directeur de la préparation et de l’ingestion des données](../data-ingestion/ingestion.md).
 
-Pour obtenir une liste détaillée de tous les modèles de sortie et d’accès aux données, voir [Plan directeur de l’accès et de l’exportation des données](../data-ingestion/egress.md).
+Pour obtenir une liste détaillée de tous les modèles de sortie et d’accès aux données, voir le [Plan directeur de l’accès aux données et de leur export](../data-ingestion/egress.md).
 
 ## Mécanismes de sécurisation de l’ingestion des données
 
