@@ -1,5 +1,5 @@
 ---
-title: Aperçu sur la personnalisation web/mobile       - Adobe Target et RTCDP
+title: Aperçu sur la personnalisation web/mobile        - Adobe Target et RTCDP
 description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 landing-page-description: Synchronisez la personnalisation web avec la messagerie électronique et d’autres personnalisations de canal connu ou anonyme.
 short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -8,7 +8,7 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ La personnalisation par client connu est prise en charge par plusieurs méthodes
 ### Modèle de mise en œuvre 1 - Edge Network avec le SDK web/mobile ou l’API Edge Network (approche recommandée)
 
 * Utilisation du réseau Edge avec le SDK web/mobile. La segmentation Edge en temps réel nécessite d’adopter le modèle d’implémentation du SDK web/mobile ou de l’API Edge.
-* [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../experience-platform/deployment/websdk.md)         pour la mise en œuvre basée sur le SDK.
+* [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../experience-platform/deployment/websdk.md)          pour la mise en œuvre basée sur le SDK.
 * Pour une utilisation dans le SDK mobile, consultez la section [Adobe Journey Optimizer - L’extension Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) doit être installée dans le SDK mobile.
 * [Reportez-vous à l’API de serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr) pour une mise en œuvre d’Adobe Target avec le profil Edge et basée sur l’API.
 
