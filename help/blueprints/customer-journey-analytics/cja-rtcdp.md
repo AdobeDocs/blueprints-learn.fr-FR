@@ -28,7 +28,7 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 * Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
-![Diagramme des garde-fous](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagramme du mécanisme de sécurisation](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Questions fréquentes
 
