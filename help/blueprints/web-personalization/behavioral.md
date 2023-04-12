@@ -2,15 +2,15 @@
 title: Plan directeur pour la personnalisation comportementale web
 description: Découvrez comment personnaliser du contenu en fonction du comportement en ligne et des données d’audience.
 landing-page-description: Découvrez comment personnaliser en fonction du comportement en ligne et des données d’audience.
-short-description: Learn to personalize based on online behavior and audience data.
+short-description: Découvrez comment personnaliser en fonction du comportement en ligne et des données d’audience.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

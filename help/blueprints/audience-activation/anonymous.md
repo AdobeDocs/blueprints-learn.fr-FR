@@ -2,15 +2,15 @@
 title: Plan directeur d’activation d’audience anonyme
 description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales. Cette capacité permet des expériences client en temps réel personnalisées et cohérentes sur tous les appareils.
 landing-page-description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales.
-short-description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data.
+short-description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales.
 solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
