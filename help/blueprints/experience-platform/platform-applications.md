@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 478a9bf0449e7953d527b5a54580f8eec7a7c30f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Ce schéma d’architecture montre comment Adobe Experience Platform se rattac
 
 <img src="assets/aep+apps.svg" alt="Experience Platform et autres applications" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Diagramme de présentation de Adobe Experience Platform et des applications
+## Schéma d’aperçu d’Adobe Experience Platform et des autres applications Adobe
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform et autres applications" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
