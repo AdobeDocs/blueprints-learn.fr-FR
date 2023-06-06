@@ -2,7 +2,7 @@
 title: Plan directeur d’ingestion et de création
 description: Inprise et création - Plan directeur d’intégration Marketo Engage et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Le workflow ci-dessous présente une requête de webinaire envoyée par un gesti
 
 >[!TIP]
 >
->Pour en savoir plus sur les différents types d’objets utilisés dans Workfront pour organiser le travail d’une campagne marketing et sur la façon dont ils sont mappés à un programme Marketo Engage, consultez la section [Présentation de Marketo et Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>Pour en savoir plus sur les différents types d’objets utilisés dans Workfront pour organiser le travail d’une campagne marketing et sur la façon dont ils sont mappés à un programme Marketo Engage, consultez la section [Présentation de Marketo et Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Préparation de votre processus de développement de campagne pour automatisation {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Voici un exemple de la manière dont la logique de workflow peut être assemblé
 
 * [Modules Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"}
 
-* [Présentation de Marketo et Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Présentation de Marketo et Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
