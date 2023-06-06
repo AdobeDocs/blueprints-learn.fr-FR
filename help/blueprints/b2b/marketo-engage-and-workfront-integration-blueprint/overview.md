@@ -2,9 +2,9 @@
 title: Présentation du plan directeur de l’intégration Marketo Engage et Workfront
 description: Présentation - Présentation du plan directeur de l’intégration Marketo Engage et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1769'
 ht-degree: 96%
 
 ---
@@ -147,11 +147,9 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Prise en main de l’intégration Workfront Fusion, Workfront et Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Ingestion et création](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatisation du développement de campagne avec Marketo Engage et Workfront
+* [Ingestion et création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automatisation du développement de campagne avec Marketo Engage et Workfront
 
 * Épreuve et approbation (bientôt disponible)
-
-* Rapport et audit (à venir)
 
 ### Gestion des noms de campagne Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
