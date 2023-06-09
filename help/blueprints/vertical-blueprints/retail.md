@@ -32,29 +32,29 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 | Catégorie | Objectif | Cas pratique | Description |
 |:----|:----|:----|:----|
 | Parcours clients | Acquisition | Série de bienvenue | Bienvenue aux nouveaux abonnés avec une présentation de l’entreprise, des produits et des services |
-|  |  | 1er programme d&#39;achat |  |
-|  | Améliorer les ventes | Panier/Parcourir abandonné | Récupérer les acheteurs potentiels et les ventes incitatives |
-|  |  | Révision/vente croisée de produits | Vente croisée d’autres articles avec des révisions de produits. |
-|  |  | Promotions de produit |  |
-|  |  | Temps de réorganisation | Rappel récurrent pour les produits/services cycliques |
-|  | Fidélité de la marque | Revenir en arrière | Récupérez les clients qui ont été inactifs. |
-|  |  | Reminders d’anniversaire | Stimulez une relation plus personnelle avec vos clients en participant à la célébration de leur anniversaire ! |
+| | | 1er programme d&#39;achat | |
+| | Améliorer les ventes | Panier/Parcourir abandonné | Récupérer les acheteurs potentiels et les ventes incitatives |
+| | | Révision/vente croisée de produits | Vente croisée d’autres articles avec des révisions de produits. |
+| | | Promotions de produit |  |
+| | | Temps de réorganisation | Rappel récurrent pour les produits/services cycliques |
+| | Fidélité de la marque | Revenir en arrière | Récupérez les clients qui ont été inactifs. |
+| | | Reminders d’anniversaire | Stimulez une relation plus personnelle avec vos clients en participant à la célébration de leur anniversaire ! |
 | Marchandisage | Gérer le stock | Retour en stock | Améliorez l’inventaire en indiquant aux clients que les produits qu’ils souhaitent sont de retour en stock |
-|  |  | Meilleure catégorie suivante | Identification des meilleures catégories/ventes pour les utilisateurs |
-|  |  | Meilleurs vendeurs |  |
-|  |  | Reminders de chute de prix | Afficher aux utilisateurs que les articles qu’ils aimaient ont un prix réduit |
-|  |  | Produits similaires |  |
+| | | Meilleure catégorie suivante | Identification des meilleures catégories/ventes pour les utilisateurs |
+| | | Meilleurs vendeurs | |
+| | | Reminders de chute de prix | Afficher aux utilisateurs que les articles qu’ils aimaient ont un prix réduit |
+| | | Produits similaires |  |
 | Personnaliser | Augmenter la conversion | Coupons/Offres | Afficher les meilleures offres/bons aux clients |
-|  |  | Recherche de produit personnalisée | Amélioration de l’expérience de recherche |
-|  |  | Recommendations de produit | Amélioration de l’expérience de navigation des produits |
-|  |  | Expérience omnicanal | Atteindre les clients sur tous les canaux |
+| | | Recherche de produit personnalisée | Amélioration de l’expérience de recherche |
+| | | Recommendations de produit | Amélioration de l’expérience de navigation des produits |
+| | | Expérience omnicanal | Atteindre les clients sur tous les canaux |
 | Mesure | Présentation des Parcours client | Campagne cross-canal | Mesure des campagnes cross-canal |
-|  |  | Performances des segments | Comprendre les performances et la contribution des segments |
-|  |  | Rapports sur les abandons | Visualiser les conversions à chaque étape |
-|  |  | Analyse des cohortes | Mesure de l’engagement entre les groupes de segments |
-|  |  | Rapports Clics jusqu’à la marque | Découvrez comment les conversions de clients mènent à l’expérience en magasin |
-|  |  | Attribution | déterminer quel point de contact/expérience a le plus d’influence sur la conversion d’achat ; |
-|  |  | Predictive Insights | En savoir plus sur les affinités des clients |
+| | | Performances des segments | Comprendre les performances et la contribution des segments |
+| | | Rapports sur les abandons | Visualiser les conversions à chaque étape |
+| | | Analyse des cohortes | Mesure de l’engagement entre les groupes de segments |
+| | | Rapports Clics jusqu’à la marque | Découvrez comment les conversions de clients mènent à l’expérience en magasin |
+| | | Attribution | déterminer quel point de contact/expérience a le plus d’influence sur la conversion d’achat ; |
+| | | Predictive Insights | En savoir plus sur les affinités des clients |
 
 ## Architecture
 
@@ -67,10 +67,10 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 | Cas d’utilisation/intégration  | Lien |
 |:----|:----|
 | CJA + AEP | [Présentation des plans directeurs Customer Journey Analytics](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=fr) |
-|  | [Customer Journey Analytics - Cas d’utilisation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=fr) |
+| | [Customer Journey Analytics - Cas d’utilisation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=fr) |
 | AJO + AEP | [Adobe Journey Optimizer - Cas d’utilisation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
-|  | [Gestion des décisions](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr) |
+| | [Gestion des décisions](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr) |
 | RTCDP + AEP | [Activation d’audience en ligne / hors ligne](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=fr) |
-|  | [Experience Platform + Activation d’application](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr) |
-| Marketo + AEP | [Activation et marketing B2B ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
-| Target + AEP | [Cas d’utilisation d’Adobe Target - Personnalisation web/mobile comportementale](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=fr) | [Personnalisation web/mobile avec des données client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |
+| | [Experience Platform + Activation d’application](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=fr) |
+| Marketo + AEP | [Activation et marketing B2B ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) | |
+| Target + AEP | [Cas d’utilisation d’Adobe Target - Personnalisation web/mobile comportementale](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=fr) | [Personnalisation web/mobile avec des données client connu](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) | |
