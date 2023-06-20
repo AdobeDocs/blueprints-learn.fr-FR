@@ -1,17 +1,17 @@
 ---
-title: Présentation du plan directeur de l’intégration Marketo Engage et Workfront
-description: Présentation - Présentation du plan directeur de l’intégration Marketo Engage et Workfront
+title: Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
+description: Vue d’ensemble – Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Présentation du plan directeur de l’intégration Marketo Engage et Workfront {#overview}
+# Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront {#overview}
 
-## Accélérer la mise sur le marché avec Marketo Engage et Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Délai de mise sur le marché écourté avec Marketo Engage et Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 Le travail du marketing continue de croître avec de nouveaux canaux et de nouvelles façons de personnaliser les communications chaque jour. Les équipes marketing doivent pouvoir continuer à s’automatiser et à évoluer afin de prendre en charge l’évolution des requêtes marketing dans le monde entier.
 
@@ -153,7 +153,7 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Gestion des noms de campagne Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
-La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est une base essentielle pour une gestion de programme précise dans Marketo Engage et contribue à un processus plus cohérent tout au long du cycle de vie du développement des campagnes. Si vous recherchez des outils pour vous y aider, nous vous recommandons de consulter certains outils Open Source gratuits des [services de succès Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente pour créer et gérer des campagnes Marketo Engage et leurs URL associées.
+La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est essentielle pour une gestion précise des programmes dans Marketo Engage. Cela contribue également à un processus plus cohérent dans le cycle de vie de développement des campagnes. Si vous recherchez des outils pour vous y aider, nous vous recommandons de consulter certains outils Open Source gratuits des [services de succès Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente pour créer et gérer des campagnes Marketo Engage et leurs URL associées.
 
 ### Ressources {#resources}
 

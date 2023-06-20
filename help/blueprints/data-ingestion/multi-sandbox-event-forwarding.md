@@ -1,29 +1,29 @@
 ---
-title: Collecte de données de transfert d’événement multi-environnements de test
-description: Découvrez comment les données collectées avec les SDK web et mobiles Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs environnements de test Experience Platform.
+title: Collecte de données pour le transfert d’événement multi-sandbox
+description: Découvrez comment les données collectées avec les SDK web et mobiles Experience Platform peuvent être configurées pour collecter un seul événement et transférées vers plusieurs sandbox Experience Platform.
 solution: Data Collection
 kt: 7202
-source-git-commit: e9a9abeaa722bb2f9a232f4e861b1b5eae86edd1
+exl-id: 3d9d312a-50b6-435f-b277-076e0c442a5f
+source-git-commit: cb36f47232261d6ddc6659949272c9832baec0da
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
+# Collecte de données pour le transfert d’événement multi-sandbox
 
-# Collecte de données de transfert d’événement multi-environnements de test
+Ce plan directeur indique comment les données collectées avec les SDK web et mobiles Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs sandbox AEP. Ce plan directeur est spécifique à la collecte de données multi-sandbox qui utilise le [!UICONTROL transfert d’événement] pour atteindre cet objectif.
 
-Ce plan directeur montre comment les données collectées avec les SDK web et mobiles Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs environnements de test AEP. Ce plan directeur est spécifique à la collecte de données multi-environnement de test qui utilise [!UICONTROL Transfert d’événement] pour atteindre cet objectif.
+En plus de répliquer l’événement avec les fonctionnalités de [!UICONTROL transfert d’événement], vous pouvez ajouter, filtrer ou manipuler les données collectées d’origine qui répondent aux exigences d’autres sandbox.
 
-En plus de répliquer l’événement avec [!UICONTROL Transfert d’événement] fonctionnalités, vous pouvez ajouter, filtrer ou manipuler les données collectées d’origine qui répondent aux exigences d’autres environnements de test.
+Le [!UICONTROL transfert d’événement] utilise une propriété distincte qui contient les [!UICONTROL éléments de données], les [!UICONTROL règles] et les [!UICONTROL extensions] nécessaires à vos besoins en termes de données. Avec un événement entrant, votre propriété [!UICONTROL Transfert d’événement] peut collecter les données et les gérer selon les besoins avant le transfert.
 
-[!UICONTROL Transfert d’événement] utilise une propriété distincte qui contient la propriété [!UICONTROL Éléments de données], [!UICONTROL Règles], et [!UICONTROL Extensions] nécessaire pour répondre à vos besoins en données. Avec un événement entrant, votre [!UICONTROL Transfert d’événement] peut collecter les données et les gérer selon les besoins avant le transfert.
-
-Votre environnement de test de destination nécessite un point de terminaison de diffusion HTTP en continu configuré utilisé par l’Adobe. [!UICONTROL Connecteur cloud] extension .
+Votre sandbox de destination nécessite la configuration d’un point d’entrée de streaming HTTP utilisé par l’extension [!UICONTROL Cloud Connector].
 
 ## Cas d’utilisation
 
-* Création de rapports de données globales : lors de l’utilisation de plusieurs environnements de test pour isoler les environnements d’exploitation et de la nécessité de consolider la collecte de données sur un environnement de test pour la création de rapports entre environnements de test. Routage d’un événement Experience Edge par [!UICONTROL Transfert d’événement] à un environnement de test de création de rapports permet à chaque environnement de test d’envoyer des données telles qu’elles sont collectées en temps réel à un environnement de test de création de rapports.
+* Reporting de données globales : lorsque vous utilisez plusieurs sandbox pour isoler les environnements d’exploitation et la nécessité de consolider la collecte de données sur un sandbox pour le reporting entre sandbox. Le routage d’un événement Experience Edge vers un sandbox de reporting via le [!UICONTROL transfert d’événement] permet à chaque environnement de sandbox d’envoyer des données telles qu’elles sont collectées en temps réel à un sandbox de reporting.
 
 * Gérez la collecte de données dans les sandbox en fonction de différentes règles de données pour chaque sandbox.
 
@@ -31,35 +31,35 @@ Votre environnement de test de destination nécessite un point de terminaison de
 
 * [!DNL Experience Platform] sur la collecte de données
 * [!UICONTROL Transfert d’événement]
-* AEP [!UICONTROL Extension]
+* [!UICONTROL Extension] AEP
 * [!UICONTROL Extension Cloud Connector]
 
 ## Considérations
 
-Avec [!UICONTROL Transfert d’événement] pour envoyer des données à plusieurs environnements de test, vous devez tenir compte des points à prendre en compte dans l’architecture de votre solution.
+Le [!UICONTROL transfert d’événement] étant la méthode d’envoi de données vers plusieurs sandbox, certains éléments doivent être pris en compte avec votre architecture de solution.
 
 ### Aucune donnée HIPAA
 
-[!UICONTROL Le transfert d’événement n’est pas considéré comme prêt pour HIPAA et ne doit pas être utilisé dans les cas d’utilisation HIPAA où des données HIPAA sont collectées.] Toutefois, l’infrastructure utilisée pour [!UICONTROL Transfert d’événement] est considéré comme prêt par le HIPAA et est seul à la discrétion du client. Lors de votre [!UICONTROL Transfert d’événement] La propriété de balise réside dans le [!UICONTROL Transfert d’événement] système, l’intégralité de la payload de données collectée est envoyée à la variable [!UICONTROL Transfert d’événement] système pour le traitement. C&#39;est ce processus qui fait [!UICONTROL Transfert d’événement] pour les cas d’utilisation HIPAA. Avec la charge utile entière fournie à la variable [!UICONTROL Transfert d’événement] système, cela inclut toutes les valeurs HIPAA. Même si la variable [!UICONTROL Transfert d’événement] Les règles filtrent ces données avant de les envoyer à sa destination, car les données HIPAA sont toujours envoyées vers une infrastructure non compatible avec le HIPAA. Toutefois, les données de payload ne sont jamais stockées et ne sont qu’un passthrough.
+[!UICONTROL Le transfert d’événement n’est pas considéré comme prêt pour HIPAA et ne doit pas être utilisé dans les cas d’utilisation HIPAA où des données HIPAA sont collectées.] Cependant, l’infrastructure utilisée pour le [!UICONTROL transfert d’événement]  est considérée comme prête pour HIPAA et est uniquement à la discrétion du client ou de la cliente. Bien que la propriété de balise [!UICONTROL Transfert d’événement] se trouve dans le système de [!UICONTROL transfert d’événement], la payload de données collectée est intégralement envoyée au système de [!UICONTROL transfert d’événement] pour traitement. C’est ce processus qui rend le [!UICONTROL transfert d’événement] impropre aux cas d’utilisation HIPAA. Avec la payload expédiée intégralement au système de [!UICONTROL transfert d’événement], toutes les valeurs HIPAA seraient incluses. Bien que les règles de [!UICONTROL transfert d’événement] filtrent ces données avant de les envoyer à destination, ces données HIPAA sont toujours envoyées vers une infrastructure non compatible avec la loi HIPAA. Toutefois, les données de payload ne sont jamais stockées et ne sont qu’un passthrough.
 
-### Différents flux de données et points de terminaison de diffusion en continu
+### Trains de données et points d’entrée de streaming différents
 
-Lorsque les données transitent par les flux de données à partir de la variable [!UICONTROL Plateforme Edge Network], lors de l’utilisation de [!UICONTROL Transfert d’événement] dans un autre environnement de test AEP, vous devez ne jamais utiliser le même flux de données ou point de terminaison de diffusion en continu que celui qui crée la collection d’origine. Cela peut être préjudiciable à l’instance AEP et potentiellement déclencher une situation de déni de service.
+Comme les données transitent par les flux de données de [!UICONTROL Platform Edge Network], lors de l’utilisation du [!UICONTROL transfert d’événement] vers un autre sandbox AEP, une exigence consiste à ne jamais utiliser le même train de données ou point d’entrée de streaming que le train de données qui effectue la collecte initiale. Cela peut être préjudiciable à l’instance AEP et potentiellement déclencher une situation de déni de service.
 
-### Volume estimé de trafic
+### Volumes de trafic estimés
 
-Les volumes de trafic doivent être examinés dans chaque cas d’utilisation. Ceci est important, car des volumes élevés peuvent entraîner une situation de ralentissement et les clients sont avertis si cela se produit.
+Les volumes de trafic doivent être examinés dans chaque cas d’utilisation. Il s’agit d’un facteur important, dans la mesure où des volumes élevés peuvent entraîner une situation de ralentissement. Une notification est alors envoyée aux clientes et clients.
 
 ## Architecture
 
-![Environnement de test multiple [!UICONTROL Transfert d’événement]](assets/multi-sandbox-data-collection.png)
+![[!UICONTROL Transfert d’événement]](assets/multi-sandbox-data-collection.png) multi-sandbox 
 
-1. Collecte et envoi de données d’événement à la variable [!UICONTROL Plateforme Edge Network] est requis pour utiliser [!UICONTROL Transfert d’événement]. Les clients peuvent utiliser des balises d’Adobe pour le côté client ou le [!UICONTROL API du serveur réseau Edge Platform] pour la collecte de données serveur à serveur. Le [!UICONTROL API réseau Edge Platform] peut fournir une fonctionnalité de collecte serveur à serveur. Toutefois, cela nécessite un modèle de programmation différent à mettre en oeuvre. Voir [Présentation de l’API du Platform Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
+1. La collecte et l’envoi de données d’événement à [!UICONTROL Platform Edge Network] sont nécessaires pour utiliser le [!UICONTROL transfert d’événement]. Les clientes et clients peuvent utiliser les balises Adobe pour l’API côté client ou l’[!UICONTROL API du serveur Platform Edge Network] pour la collecte de données de serveur à serveur. L’[!UICONTROL API Platform Edge Network] peut fournir une fonctionnalité de collecte de serveur à serveur. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Voir [Vue d’ensemble de l’API Platform Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
 
-1. Les payloads collectées sont envoyées de l’implémentation des balises à l’ [!UICONTROL Plateforme Edge Network] au [!UICONTROL Transfert d’événement] service et traité par lui-même [!UICONTROL Éléments de données], [!UICONTROL Règles] et [!UICONTROL Actions]. Vous pouvez en savoir plus sur les différences entre les [[!UICONTROL Balises et transfert d’événements]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr#differences-from-tags).
+1. Les payloads collectées sont envoyées de l’implémentation des balises au service [!UICONTROL Transfert d’événement] en passant par [!UICONTROL Platform Edge Network], et traitées par des [!UICONTROL éléments de données], [!UICONTROL règles] et [!UICONTROL actions] spécifiques. Pour en savoir plus sur les différences entre les balises et le [!UICONTROL transfert d’événement], cliquez [ici](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr#differences-from-tags).
 
-1. Un [!UICONTROL Transfert d’événement] est également requise pour recevoir les données d’événement collectées de la propriété [!UICONTROL Plateforme Edge Network]. Si ces données d’événement ont été envoyées à Platform Edge Network par une implémentation de balises déployée ou une collection serveur à serveur. Les auteurs définissent les éléments de données, les règles et les actions utilisés pour enrichir les données d’événement avant le transfert vers le second sandbox. Envisager d’utiliser le code personnalisé [!DNL JavaScript] élément de données pour faciliter la structure de vos données pour l’ingestion des environnements de test. Combinées aux fonctionnalités de préparation de données Platform, vous disposez de plusieurs options pour gérer votre structure de données.
+1. Une propriété de [!UICONTROL transfert d’événement] est également requise pour recevoir les données d’événement collectées à partir de [!UICONTROL Platform Edge Network], que ces données aient été envoyées à Platform Edge Network par une implémentation de balises déployée ou une collecte de serveur à serveur. Les auteurs définissent les éléments de données, les règles et les actions utilisés pour enrichir les données d’événement avant le transfert vers le second sandbox. Pensez à utiliser l’élément de données [!DNL JavaScript] Custom Code pour faciliter la structuration de vos données pour l’ingestion des sandbox. Avec les fonctionnalités de préparation de données Platform, vous disposez de plusieurs options pour gérer votre structure de données.
 
-1. Actuellement, l’utilisation de l’Adobe [!UICONTROL Extension Cloud Connector] est requis dans la variable [!UICONTROL Transfert d’événement] Propriété. Une fois que les règles traitent ou enrichissent les données d’événement, Cloud Connector est utilisé dans un appel de récupération configuré pour un POST qui envoie la charge utile au second environnement de test.
+1. Actuellement, l’utilisation de l’[!UICONTROL extension Adobe Cloud Connector] est requise dans la propriété de [!UICONTROL transfert d’événement]. Une fois que les règles traitent ou enrichissent les données d’événement, l’extension Cloud Connector est utilisée dans un appel de récupération configuré pour une méthode POST qui envoie la payload au deuxième sandbox.
 
-1. Un point de terminaison de diffusion en continu pour l’ingestion des données est requis pour le second environnement de test. Vous pouvez également tenir compte des fonctionnalités de préparation de données dans AEP pour faciliter l’ingestion et le mappage des [!UICONTROL Transfert d’événement] payloads vers XDM. Reportez-vous à la documentation AEP Création d’une [connexion en continu via l’API HTTP à l’aide de l’interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=fr)
+1. Un point d’entrée de streaming pour l’ingestion des données est requis pour le deuxième sandbox. Vous pouvez également tenir compte des fonctionnalités de préparation des données dans AEP pour faciliter l’ingestion et le mappage des payloads de [!UICONTROL transfert d’événement] vers XDM. Reportez-vous à la documentation AEP Création d’une [connexion en continu via l’API HTTP à l’aide de l’interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=fr)
