@@ -1,10 +1,10 @@
 ---
 title: Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 description: Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign v8 pour diffuser des conversations personnalisées.
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 711d781e4b0cf967786808233badbc5eac8a5815
-workflow-type: ht
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -36,7 +36,6 @@ Présente comment Adobe Experience Platform, le profil client en temps réel e
 * Le client doit se voir allouer l’instance V8 de Campaign.
 * Le client doit être éligible et avoir accès à RTCDP, aux sources et aux destinations.
 * Le contexte du produit Adobe Campaign doit exister
-
 <br>
 
 ## Étapes de mise en œuvre
