@@ -5,8 +5,8 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: ht
+source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 * Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
-![Diagramme du mécanisme de sécurisation](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagramme du mécanisme de sécurisation](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Questions fréquentes
 
