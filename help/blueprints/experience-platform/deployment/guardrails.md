@@ -4,10 +4,10 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 73815906905fbefa1402a78351076a7da7d4930c
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les garde-fous sont conçus pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
 
 
-## Garde-fous pour Adobe Experience Platform et les applications
+## Documentation de référence des barrières de sécurité pour Adobe Experience Platform et les applications
 
 [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
 
@@ -42,31 +42,31 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 ### Ingestion de données
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Segmentation
 
-<img src="../assets/segmentation_guardrails.svg" alt="Garde-fous de la segmentation d’Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/segmentation_guardrails.svg" alt="Garde-fous de la segmentation d’Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform et Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="Garde-fous RTCDP et Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/RTCDP_Target_guardrails.svg" alt="Garde-fous RTCDP et Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="Garde-fous CJA" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/CJA_guardrails.svg" alt="Garde-fous CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
+<img src="assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
