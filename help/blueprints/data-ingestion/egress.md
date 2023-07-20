@@ -2,11 +2,11 @@
 title: Plan directeur d’export et d’accès aux données
 description: Ce plan directeur présente un aperçu de toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+workflow-type: tm+mt
+source-wordcount: '2052'
 ht-degree: 100%
 
 ---
