@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les garde-fous sont conçus pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
 
 
-## Documentation de référence des barrières de sécurité pour Adobe Experience Platform et les applications
+## Documentation de référence sur les garde-fous pour Adobe Experience Platform et les applications
 
 [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
 
