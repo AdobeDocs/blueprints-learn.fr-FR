@@ -2,9 +2,9 @@
 title: Plan directeur d’ingestion et de création
 description: Ingestion et création – Plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent d’accélérer l’automatisation.
 
-![Flux d’automatisation d’ingestion et de création](assets/intake-and-create-3.png)Utilisation de jetons pour remplir le contenu
+![Flux d’automatisation de l’ingestion et de la création](assets/intake-and-create-3.png)
 
 ## Ressources {#resources}
 

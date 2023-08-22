@@ -2,10 +2,10 @@
 title: Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 description: Vue d’ensemble – Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Prenez note des différentes phases du processus de développement des campagnes
 
 1. Ingestion et création : la requête de campagne est effectuée et les ressources de campagne sont assemblées par programmation.
 
-1. Bon à tirer et approbation : une fois la campagne assemblée, il est temps pour les parties prenantes de passer en revue et de valider les ressources de campagne telles que les e-mails et les pages de destination.
+1. Réviser et approuver : une fois la campagne assemblée, il est temps pour les parties prenantes de passer en revue et de valider les ressources de campagne telles que les emails et les landing pages.
 
 1. Rapport et audit : partager les résultats de la campagne avec Workfront afin de fournir une meilleure visibilité aux parties prenantes interfonctionnelles.
 
@@ -149,7 +149,7 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 * [Ingestion et création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automatisation du développement de campagne avec Marketo Engage et Workfront
 
-* Épreuve et approbation (bientôt disponible)
+* [Réviser et approuver](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Gestion des noms de campagne Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
