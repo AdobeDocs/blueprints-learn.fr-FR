@@ -1,9 +1,9 @@
 ---
 title: Réviser et approuver le plan directeur
 description: Révision et approbation du plan directeur - Plan directeur d’intégration Marketo Engage et Workfront
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: 4c63a1e552c893a2b2ae753bd3eaccab5c673448
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,7 @@ Avec Workfront et Marketo Engage, les équipes marketing ont la possibilité d�
 
 Lorsque nous réfléchissons à la création de campagnes marketing, nous devons tenir compte du fait que plusieurs systèmes prennent en charge les différentes étapes impliquées, notamment : la planification, la création, la révision, le retour, l’approbation et l’exécution. Avec Workfront et Marketo Engage, les équipes disposent de tous les outils nécessaires pour passer par le processus complet de planification et de lancement d’une nouvelle campagne marketing. En outre, les équipes peuvent rationaliser davantage leur processus de révision et d’approbation afin d’accélérer le développement des campagnes tout en veillant à ce que l’exactitude et la conformité soient conformes aux normes les plus élevées.
 
-![diagramme de flux de BAT et d’approbation](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
-
-### Cas pratiques de connexion de Workfront et de Marketo Engage {#use-cases-for-connecting-workfront-and-marketo-engage}
+### Vérification et approbation des cas pratiques déverrouillés avec Marketo Engage et Workfront {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
 * Éliminez les commentaires disparates et augmentez la collaboration dans un endroit centralisé en utilisant les fonctionnalités de commentaires et d’annotation de Workfront sur les ressources du Marketo Engage.
 
@@ -52,7 +50,7 @@ Pour ce faire, tenez compte des étapes ci-dessous dans le cadre du processus po
 1. Configurez votre projet Workfront avec une tâche Prêt pour la révision .
 1. Déclenchez l’e-mail de votre Marketo Engage à synchroniser avec Workfront avec un changement d’état de la tâche.
 1. Convertissez votre fichier d’email de Marketo Engage en BAT révisable dans Workfront.
-1. Utilisez la vérification Workfront pour collaborer par le biais de commentaires et d’annotations.
+1. Utilisez la retouche Workfront pour collaborer au moyen de commentaires et d’annotations.
 1. Approuvez le BAT Workfront pour déclencher l’approbation des ressources en Marketo Engage, puis marquez la tâche comme étant terminée.
 
 ### Configuration d’un projet Workfront avec une tâche Prêt pour la révision {#configure-a-workfront-project-with-a-ready-for-review-task}
@@ -63,7 +61,7 @@ Dans votre modèle de projet dans Workfront, incluez des tâches pour examiner l
 
 Si vous souhaitez lancer une nouvelle campagne par e-mail, vous devez disposer d’un modèle de projet qui inclut une tâche de révision de l’e-mail, ainsi qu’un processus d’approbation pour vous assurer que l’e-mail est approuvé par le bon partenaire avant de pouvoir être envoyé.
 
-![écran tâches](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
+![écran tâches](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
 
 ### Déclenchez l’adresse électronique de votre Marketo Engage pour la synchronisation avec Workfront avec le changement d’état de la tâche. {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -71,13 +69,23 @@ Dans le cadre de votre processus de révision, vous souhaiterez pouvoir synchron
 
 Lorsque cet état est en place dans votre projet Workfront, vous pouvez configurer votre scénario de fusion Workfront pour écouter la tâche Prêt à réviser à mettre à jour en &quot;Réviser le courrier électronique Marketo&quot;. Une fois la mise à jour effectuée, votre scénario peut récupérer l’email du Marketo Engage sous forme de fichier de HTML, le compresser et en enregistrer une copie dans les documents du projet Workfront à réviser.
 
-![Prêt pour l’écran de révision](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+![Prêt pour l’écran de révision](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
 
 ### Convertir votre email de Marketo Engage en BAT révisable dans Workfront {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
 Une fois que votre tâche Prêt pour la révision est déplacée à l’état &quot;Réviser le courrier électronique Marketo&quot; et que le courrier électronique du Marketo Engage est enregistré dans Workfront, vous pouvez configurer votre scénario de fusion Workfront pour convertir le courrier électronique en bon à tirer Workfront.
 
-![convertir l’écran de messagerie](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
+### Utilisation de la vérification de Workfront pour collaborer au moyen de commentaires et d’annotations {#use-workfront-proofing-to-collaborate}
+
+[Vérification du Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} Les fonctionnalités permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu’une image ou un email, et de collaborer par l’intermédiaire de commentaires et d’annotations. Une fois qu’un BAT est prêt à être mis en service, les décideurs peuvent approuver la ressource à partir de l’outil de vérification.
+
+![convertir l’écran de messagerie](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+
+### Approuver Workfront BAT et déclencher l’approbation des ressources dans Marketo Engage, marquer la tâche comme terminée {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
+
+Workfront Fusion peut détecter si le courrier électronique a été approuvé par les parties prenantes et envoyer une demande à Marketo Engage pour l’approuver dans Marketo.
+
+Une fois l’email validé/approuvé par les membres de l’équipe appropriée, l’email est prêt à être mis en ligne en Marketo Engage !
 
 ## Modèles de scénario de fusion {#fusion-scenario-templates}
 
@@ -87,12 +95,12 @@ Pour vous aider à rationaliser votre développement de workflows de révision e
 
 Le scénario de fusion ci-dessous vous emmène à travers la première moitié du flux de révision et d’approbation, dans laquelle le brouillon de courrier électronique peut être extrait du Marketo Engage et enregistré dans Workfront en tant que bon à tirer. Une fois enregistré en tant que BAT dans les documents du projet Workfront, il peut être examiné par les parties prenantes marketing, commenté et annoté dans le cadre du processus de révision.
 
-![analyse et approbation du flux du scénario de fusion](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
+![analyse et approbation du flux du scénario de fusion](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
 
 ### Approuver un courrier électronique dans Workfront qui déclenche l’approbation de la ressource dans Marketo Engage {#approve-an-email-in-workfront-that-triggers-approval}
 
 Le scénario de fusion ci-dessous peut être utilisé pour détecter lorsqu’un Bon à tirer dans Workfront a été approuvé, et acheminer cette approbation vers Marketo Engage pour mettre à jour le brouillon de l’email afin qu’il soit actif et prêt à être utilisé dans un programme de Marketo Engage.
 
-![validation du BAT du scénario de fusion](assets/review-and-approve-blueprint-6.png){zoomable=&quot;yes&quot;}
+![validation du BAT du scénario de fusion](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
 
 Ensemble, ces deux scénarios peuvent être utilisés pour créer un chemin bidirectionnel pour extraire des ressources marketing de Marketo Engage vers Workfront afin de  des processus robustes de révision et d’approbation et de repousser les approbations vers Marketo Engage à partir de Workfront.
