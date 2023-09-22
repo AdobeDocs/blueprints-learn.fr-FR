@@ -4,19 +4,23 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # Garde-fous
 
-Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système, l’optimisation des performances et la prévention des erreurs ou des résultats inattendus dans Adobe Experience Platform et les applications. Les garde-fous sont conçus pour refléter les contraintes du système et les attentes en matière de performances afin de faciliter l’architecture et l’optimisation des performances des cas d’utilisation. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service. Pour plus d’informations sur les contrats de niveau de service spécifiques à un produit, reportez-vous à la documentation sur les descriptions de produit disponible dans les liens ci-dessous.
+Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l’utilisation des données et du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service.
+
+Pour plus d’informations sur les contrats de niveau de service spécifiques pour les applications et fonctionnalités, reportez-vous à la section &quot;Description des applications et fonctionnalités&quot; au bas de cette page.
 
 
 ## Documentation de référence sur les garde-fous pour Adobe Experience Platform et les applications
+
+Les pages suivantes fournissent des informations sur les barrières de sécurité pour les fonctionnalités, services et applications Adobe Experience Platform :
 
 [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
 
@@ -70,7 +74,9 @@ Les garde-fous sont des seuils recommandés qui fournissent des conseils pour l�
 
 <br>
 
-## Descriptions du produit
+## Descriptions des applications et fonctionnalités
+
+Pour plus d’informations sur les contrats de niveau de service spécifiques à une fonctionnalité, reportez-vous aux descriptions ci-dessous :
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
