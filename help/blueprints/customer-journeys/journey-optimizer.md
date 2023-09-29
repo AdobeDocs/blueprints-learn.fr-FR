@@ -4,7 +4,7 @@ description: Exécutez des expériences et messages déclenchés à l’aide d�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 

@@ -5,8 +5,8 @@ doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,11 @@ Les plans directeurs d’expérience digitale sont des implémentations reproduc
 ## Nouveautés
 
 * **[Plan directeur pour l’activation d’audiences et de profils vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
+  *Tenir les profils clients à jour sur tous les systèmes afin de renforcer les capacités de vos équipes de vente et d’assistance.*
 * **[Plan directeur du centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *Fournit le contexte pour l’aide et les ventes assistées par un agent.*
+  *Fournit le contexte pour l’aide et les ventes assistées par un agent.*
 * **[Plan directeur pour l’analyse des données et Data Intelligence](/help/blueprints/data-insights/analysis.md)**
-
-   *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
+  *Exécute des requêtes exploratoires et analyse des données dans le lac de données.*
 
 ## Plans directeurs recommandés
 
