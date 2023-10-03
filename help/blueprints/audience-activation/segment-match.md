@@ -3,10 +3,10 @@ title: Plan directeur de la correspondance de segments
 description: Découvrez le service [!UICONTROL Correspondance de segment] pour Adobe Experience Platform (AEP). Le service [!UICONTROL Correspondance de segment] est un service de collaboration en matière de données qui vous permet d’échanger des données de segment selon des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1774'
-ht-degree: 100%
+source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 81%
 
 ---
 
@@ -100,25 +100,25 @@ Les paramètres de consentement pour le service [!UICONTROL Correspondance de se
 
 * Au niveau de l’organisation, lors de l’intégration, en utilisant le paramètre d’exclusion ou d’inclusion pour les vérifications de consentement.
 
-   Ce paramètre détermine si les données de l’utilisateur peuvent être partagées ou non. La valeur par défaut est définie sur exclusion, ce qui indique que les données de l’utilisateur peuvent être partagées en supposant que le client AEP possède déjà le consentement requis pour l’utilisation du partage de données. Ce paramètre peut être changé en inclusion en contactant le gestionnaire de compte Adobe et en mettant en place un contrôle supplémentaire pour forcer les clients AEP à suivre explicitement le consentement.
+  Ce paramètre détermine si les données de l’utilisateur peuvent être partagées ou non. La valeur par défaut est définie sur exclusion, ce qui indique que les données de l’utilisateur peuvent être partagées en supposant que le client AEP possède déjà le consentement requis pour l’utilisation du partage de données. Ce paramètre peut être changé en inclusion en contactant le gestionnaire de compte Adobe et en mettant en place un contrôle supplémentaire pour forcer les clients AEP à suivre explicitement le consentement.
 
 * En définissant l’attribut de partage spécifique aux identités (idSpecific) à l’aide de [Groupe de champs Consentements et Préférences](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr).
 
-   Ce groupe de champs fournit un champ de type objet unique, consentements, pour capturer les informations de consentement et de préférence. Par défaut, le service [!UICONTROL Correspondance de segment] inclut toutes les identités qui n’ont pas été explicitement exclues, par exemple :
+  Ce groupe de champs fournit un champ de type objet unique, consentements, pour capturer les informations de consentement et de préférence. Par défaut, le service [!UICONTROL Correspondance de segment] inclut toutes les identités qui n’ont pas été explicitement exclues, par exemple :
 
-   ```
-   "share": {
-   `                `"val": "n"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "n"
+  `     `}
+  ```
 
-   Ce paramètre peut être modifié en contactant le gestionnaire de compte Adobe afin d’inclure uniquement les identités avec inclusion explicite, par exemple :
+  Ce paramètre peut être modifié en contactant le gestionnaire de compte Adobe afin d’inclure uniquement les identités avec inclusion explicite, par exemple :
 
-   ```
-   "share": {
-   `                `"val": "y"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "y"
+  `     `}
+  ```
 
 ### Alertes
 
@@ -163,6 +163,48 @@ Pendant le processus quotidien de chevauchement des identités, si une identité
 #### Révocation de segments
 
 La révocation/suppression de segments par l’émetteur est un processus à la demande où la liste de tous les profils avec les ID de segments révoqués est obtenue du récepteur. Les ID de segments sont supprimés de l’appartenance à un segment de ces identités et réingérés par le récepteur. Cette action remplace le fragment d’appartenance à un segment existant, ce qui supprime l’adhésion pour ce segment.
+
+## Utilisation de la correspondance de segment dans les affaires programmatiques
+
+Avec les restrictions croissantes autour des cookies tiers et des identifiants d’appareil, la publicité programmée recherche de nouvelles façons de créer et de cibler des audiences. Un nombre croissant de solutions d&#39;&quot;identification universelle&quot; ont été proposées, mais le secteur évolue encore sans qu&#39;aucun accord n&#39;ait été trouvé sur la manière d&#39;atteindre le même niveau de ciblage tout en équilibrant les préoccupations de confidentialité applicables.
+
+Vous pouvez utiliser la correspondance de segments Adobe Experience Platform dans le cadre d’une collaboration d’audience axée sur la confidentialité et améliorer les offres privées programmatiques entre les annonceurs et les éditeurs. Avec la correspondance de segment, vous pouvez :
+
+* Partage **Trafic publicitaire** et **Audience** workflows.
+* Permet aux marques partenaires de partager les métadonnées d’audience pour les identités communes et de consentement à l’aide d’identifiants durables tels que le courrier électronique haché et le numéro de téléphone haché dans le cadre d’un processus appliqué par le consentement.
+
+### Cas d’utilisation
+
+* Ciblage des audiences propriétaires par le biais d’offres privées programmatiques.
+* Suppression d’une audience propriétaire par le biais d’offres privées programmatiques.
+* Ciblage des audiences semblables à partir des audiences propriétaires canalisées canalisées par le biais d’offres privées programmatiques.
+
+>[!BEGINSHADEBOX]
+
+**Examinez l’exemple de workflow suivant entre une marque (Luma) et un réseau de médias (ACME) :**
+
+1. Une marque (Luma) effectue une correspondance d’audience avec un réseau de médias (ACME) via la correspondance de segment.
+2. ACME envoie les audiences vers le serveur publicitaire ou SSP programmatique via Adobe Real-Time CDP Destination(s).
+3. ACME configure une opération d’inventaire privée (ID) avec les critères de ciblage applicables, y compris l’audience définie à l’étape précédente. L’ID d’opération d’inventaire privé est ensuite transmis au DSP de Luma.
+4. Luma configure une transaction d’inventaire privée et une campagne/création publicitaire de trafic.
+5. La campagne est ensuite distribuée par le biais d’un accord sur le stock privé programmatique.
+6. Ensuite, le serveur de publicités ou SSP diffuse des impressions publicitaires qui répondent aux critères de ciblage définis. (Des critères de ciblage supplémentaires, tels que la limitation de la fréquence, sont disponibles via le serveur d’annonces et/ou DSP, selon qu’une offre sous garantie ou une offre préférée a été établie ou non dans le contrat).
+7. Le trafic est dirigé vers les propriétés de marque de Luma.
+8. ACME partage ensuite les informations ou les audiences post-campagne via la correspondance de segment pour le reciblage.
+
+>[!ENDSHADEBOX]
+
+![Un diagramme du workflow entre la marque et l’éditeur.](./assets/segment-match-blueprints.png)
+
+>[!IMPORTANT]
+>
+> Bien que la solution décrite ci-dessus fournisse un moyen facile de cibler les données propriétaires par le biais d’accords privés programmatiques, certaines considérations peuvent être prises en compte avant l’exécution, notamment, mais sans s’y limiter, les exemples suivants :
+>
+>* Consentement : collecte du consentement applicable par la marque, l’éditeur ou le réseau de médias de détail, pour exploiter les données de cette manière.
+>
+>* Stratégies et contrats de licence : adhésion à toute politique applicable (y compris les politiques de confidentialité, les contrats avec des fournisseurs tiers) par la marque, l’éditeur ou le réseau de médias de détail, afin d’exploiter et d’activer les données de cette manière.
+
+
 
 ## Informations supplémentaires
 
