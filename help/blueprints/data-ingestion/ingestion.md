@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 99%
 
 ---
 
@@ -268,7 +268,7 @@ Le diagramme ci-dessous illustre les principaux garde-fous de performance et la 
 
 | Méthodes d’ingestion | Description |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK web / mobile | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</ul>Documentation : <ul><li>[SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)</li><li>[Tutoriel sur la mise en œuvre d’Adobe Experience Cloud avec le SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr)</li><li>[SDK mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)</li><li>[Tutoriel sur la mise en œuvre d’Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=fr)</li></ul> |
+| SDK web / mobile | Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion par flux vers Profile &lt; 15 minutes au 95e percentile</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</ul>Documentation : <ul><li>[SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)</li><li>[Tutoriel sur la mise en œuvre d’Adobe Experience Cloud avec le SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr)</li><li>[SDK mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)</li><li>[Tutoriel sur la mise en œuvre d’Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=fr)</li></ul> |
 | Sources de diffusion | [Sources de diffusion en continu](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#connectors)<br>Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li></ul> |
 | API de diffusion | [API de serveur Edge Network (préférée)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr) - Prend en charge les services Edge, notamment la segmentation Edge et l’<br>[API Core Service de collecte de données](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=fr) - Ne prend pas en charge les services Edge, redirige directement vers le hub.<br>Latence :<ul><li>Temps réel - même collection de page sur Edge Network</li><li>Ingestion en continu vers le profil ~ 1 minute</li><li>Ingestion en continu vers le lac de données (micro-lot ~ 15 minutes)</li><li>7 Go/heure</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr#what-can-you-do-with-streaming-ingestion%3F) |
 | Outillage ETL | Utilisez les outils ETL pour modifier et transformer les données d’entreprise avant ingestion dans Experience Platform.<br><br>Latence :<ul><li>La synchronisation dépend du planning de l’outil ETL externe, puis les garde-fous d’ingestion standard s’appliquent en fonction de la méthode utilisée pour l’ingestion.</li></ul> |
