@@ -5,7 +5,7 @@ solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
 source-git-commit: 8a47b73065a5591673804301c61a73947346813c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Pour obtenir la liste complète des événements pris en charge, reportez-vous �
 
 ## Guides de mise en oeuvre associés
 
-| Guide  | Lien |
+| Guide | Lien |
 |:----|:----|
 | Connecteur Platform | [Présentation du connecteur Adobe Commerce Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Destination du commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |

@@ -5,8 +5,8 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 80%
 
 ---
 
@@ -44,7 +44,7 @@ Le service [!UICONTROL Correspondance de segment] permet aux équipes marketing 
 
 ## Architecture
 
-![Architecture du service Correspondance de segment](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Architecture de correspondance de segment](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 Le service [!UICONTROL Correspondance de segment] n’est pas une place de marché de données où les données peuvent être achetées. Il s’agit plutôt d’une fonctionnalité AEP qui fonctionne avec des données propriétaires et des partenaires sélectionnés, en utilisant des contrôles de confidentialité et de consentement pour faciliter la collaboration. Le service [!UICONTROL Correspondance de segment] permet de concentrer les efforts sur l’amélioration des relations avec les clients et le développement de la marque. Il est bénéfique est bénéfique lorsqu’il existe des marques ou des relations de partenariat préexistantes. L’expérience [!UICONTROL Correspondance de segment] est facile à gérer, évolutive et permet aux administrateurs de partager des segments de manière consentie et contrôlable.
 
@@ -77,7 +77,7 @@ Les conditions préalables pour le service [!UICONTROL Correspondance de segment
 
 Le flux de gestion des partenaires du service [!UICONTROL Correspondance de segment] est sécurisé par RBAC. Seules les personnes disposant des autorisations adéquates peuvent initier, accepter ou gérer des partenaires. Cette opération peut être effectuée dans la section Ingestion de données du profil de produit. Les autorisations suivantes sont requises :
 
-![Connexion du partage d’audience](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Connexion au partage d’audience](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | Autorisation | Description |
 |---|---|
