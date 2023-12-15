@@ -1,17 +1,17 @@
 ---
-title: Barrières de sécurité des Experience Platform et des applications et latences de bout en bout
+title: Experience Platform et garde-fous d’application
 description: Les garde-fous définissent les attentes en matière de performances et l’impact pour les composants et services dans Adobe Experience Platform et les applications.
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# Barrières de sécurité et latences de bout en bout
+# Garde-fous
 
 Les garde-fous sont des seuils recommandés qui fournissent des conseils pour les données, les latences observées et l’utilisation du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service.
 
