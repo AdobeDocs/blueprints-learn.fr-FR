@@ -4,18 +4,20 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # Garde-fous
 
-Les garde-fous sont des seuils recommandés qui fournissent des conseils pour les données, les latences observées et l’utilisation du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service.
+Les garde-fous sont des seuils recommandés qui fournissent des conseils pour les données, les latences observées et l’utilisation du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service, les contrats de niveau de service sont documentés dans les Descriptions de produits ci-dessous et dans les contrats de licence client. Les garde-fous sont destinés à fournir des conseils pour la conception de solutions pour des cas d’utilisation spécifiques des clients afin d’assurer la stabilité et l’exécution.
 
 Pour plus d’informations sur les contrats de niveau de service spécifiques relatifs aux applications et fonctionnalités, reportez-vous à la section [Descriptions des applications et fonctionnalités](#application-feature-descriptions) au bas de cette page.
+
+Notez que pour tout cas d’utilisation client ayant des exigences strictes en termes de latence ou de volume, Adobe recommande d’examiner votre cas d’utilisation en détail avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Dans certains cas, il est conseillé de tester et d’observer une mise en oeuvre d’un cas d’utilisation spécifique avant le lancement en production du cas d’utilisation afin d’observer et de comprendre le comportement attendu, car chaque mise en oeuvre client comporte différents facteurs en jeu, notamment la nature et la cadence de l’ingestion des données, les spécificités des règles de segment en cours de création et les différents défis et payloads d’activation. Chaque mise en oeuvre de cas d’utilisation aura des performances observées variables. Il est donc préférable d’établir et de tester les performances attendues à l’avance afin d’assurer une architecture et une mise en oeuvre appropriées en fonction des besoins de latence et de performance du cas d’utilisation.
 
 
 ## Documentation de référence sur les garde-fous pour Adobe Experience Platform et les applications
