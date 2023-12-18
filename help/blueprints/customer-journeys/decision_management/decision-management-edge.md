@@ -3,10 +3,10 @@ title: Plan directeur de la gestion des décisions sur Edge
 description: Diffusez des offres personnalisées à vos clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -56,23 +56,11 @@ Adobe Experience Platform
 ## Garde-fous
 
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
+
 * Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
-* Demandes par seconde = 5 000.
-* Latence de la réponse &lt; 250 ms.
-* Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil sur Edge seront disponibles dans le profil.
-* Si la personnalisation est requise au cours des premières expériences, le hub sera la solution idéale car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience sur Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
 
-### Mécanismes de sécurisation de l’ingestion des données
+[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Mécanismes de sécurisation de l’activation
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Modèles de mise en œuvre
 

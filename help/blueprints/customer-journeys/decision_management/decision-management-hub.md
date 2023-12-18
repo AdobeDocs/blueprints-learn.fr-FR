@@ -3,10 +3,10 @@ title: Plan directeur de la gestion des décisions sur le hub
 description: Diffusez à vos clients des offres personnalisées sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des e-mails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 98%
 
 ---
 
@@ -56,22 +56,8 @@ Adobe Experience Platform
 
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
 * Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
-* Demandes par seconde = 2000.
-* Latence de la réponse &lt; 500 ms.
-* Accès au profil client en temps réel complet, y compris aux abonnements, aux attributs et aux événements d’expérience de l’audience.
 
-
-### Mécanismes de sécurisation de l’ingestion des données
-
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Flux de données Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Mécanismes de sécurisation de l’activation
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
+[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Modèles de mise en œuvre
 

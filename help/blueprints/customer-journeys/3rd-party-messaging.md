@@ -3,10 +3,10 @@ title: Journey Optimizer - Plan directeur de la messagerie tierce
 description: Illustre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour orchestrer et envoyer des communications personnalisées.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -40,39 +40,8 @@ Application de messagerie tierce
 
 [Lien de produit pour les garde-fous de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
 
-Garde-fous Journey Optimizer supplémentaires :
+[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* La limitation est désormais disponible par le biais de l’API pour garantir que le système de destination n’est pas saturé au point d’échec. Cela signifie que les messages qui vont au-delà du plafond seront ignorés et ne sont jamais envoyés. La limitation n’est pas prise en charge.
-   * Connexions max. - Nombre maximal de connexions http/s qu’une destination peut gérer
-   * Nombre d’appels max - Nombre maximal d’appels pouvant être effectués dans le paramètre periodInMs
-   * periodInMs - temps en millisecondes
-* Les parcours initiés d’abonnement à un segment peuvent fonctionner suivant deux modes :
-   * Segments par lot (actualisés toutes les 24 heures)
-   * Segments par diffusion en flux continu (qualification de moins de 5 minutes)
-* Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
-* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusions en continu quotidien par parcours et sur tous les parcours
-* Gestion des décisions non prise en charge
-* Intégrations sortantes vers des systèmes tiers
-   * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
-   * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
-   * Prise en charge de l’authentification : token | password | OAuth2
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différentes sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
-
-<br>
-
-Système de messagerie tiers
-
-* Il est nécessaire de comprendre la charge que le système peut prendre pour les appels d’API transactionnels.
-   * Nombre d’appels autorisés par seconde
-   * Nombre de connexions
-* Il est nécessaire de comprendre l’authentification requise pour effectuer des appels API.
-   * Type d’authentification :  token | password | OAuth2, pris en charge via Journey Optimizer
-   * Durée du cache d’authentification :  combien de temps le jeton est-il valide ? 
-* Si seule l’ingestion par lots est prise en charge, elle doit être diffusée en continu vers un moteur de stockage dans le cloud tel qu’Amazon Kinesis ou Azure Event Grid 1er.
-   * Les données peuvent être mises en lots par ces moteurs de stockage dans le cloud et canalisées vers des solutions tierces.
-   * La fourniture de tout middleware requis serait de la responsabilité du client ou des tiers concernés.
-
-<br>
 
 ## Étapes de mise en œuvre
 
@@ -109,7 +78,7 @@ Système de messagerie tiers
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identité         pour Edge Network
+   * Identité pour le réseau Edge
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/).

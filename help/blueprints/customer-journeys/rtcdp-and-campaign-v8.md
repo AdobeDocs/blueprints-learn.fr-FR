@@ -3,9 +3,9 @@ title: Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 description: Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign v8 pour diffuser des conversations personnalisées.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -54,12 +54,5 @@ Reportez-vous à la documentation suivante sur la configuration du connecteur so
 ### Partage de segments Real-time Customer Data Platform Experience Platform
 
 * Reportez-vous au connecteur de destination RTCDP Campaign : [Connexion à RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=fr)
-* Limite de 50 segments recommandée
-* Notez que la réalisation de l’appartenance à un segment à partir d’AEP est latente pour le lot (1 par jour) et le streaming (~5 min), en fonction du planning d’évaluation du segment.
-* La latence d’activation est de 3 heures au minimum
-* Seuls les attributs de schéma d’union sont disponibles pour l’activation (pas de prise en charge des événements de tableau / mappage / expérience)
-* Limite de 20 attributs par segment recommandée
-* Un fichier par segment de tous les profils avec des segments d’appartenance « réalisés » OU, si l’appartenance au segment est ajoutée en tant qu’attribut dans le fichier, les profils « réalisés » et « sortis ».
-* Les exportations de segments incrémentielles et complètes sont prises en charge.
-* Le cryptage des fichiers n’est pas pris en charge
+
 * Voir les garde-fous concernant l’ingestion des données et les profils pour AEP - [Lien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)

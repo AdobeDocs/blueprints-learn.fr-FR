@@ -3,10 +3,10 @@ title: Journey Optimizer - Plan directeur pour Adobe Experience Platform et l
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 97%
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -74,22 +74,7 @@ Notification push mobile
 
 [Lien de produit pour les garde-fous de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-Veuillez tenir compte des points supplémentaires suivants :
-
-* Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
-* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusions en continu quotidien par parcours et sur tous les parcours
-* Gestion des décisions prise en charge de façon native uniquement dans les messages (et non dans les actions personnalisées)
-* Types de message pris en charge :
-   * E-mail
-   * Push (FCM/APNS)
-   * Actions personnalisées (via l’API REST)
-* Intégrations sortantes vers des systèmes tiers
-   * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
-   * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
-   * Authentification par utilisateur/passage ou jeton d’autorisation
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différents sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
+[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentation connexe
 

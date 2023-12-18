@@ -3,10 +3,10 @@ title: Plan directeur Journey Optimizer avec Adobe Campaign v7
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '975'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 98%
 
 ---
 
@@ -45,40 +45,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 
 [Lien de produit pour les garde-fous de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
 
-### Autres mécanismes de sécurisation de Journey Optimizer
-
-* La limitation est désormais disponible par le biais de l’API pour garantir que le système de destination n’est pas saturé au point d’échec. Cela signifie que les messages qui vont au-delà du plafond seront ignorés et ne sont jamais envoyés. La limitation n’est pas prise en charge.
-   * Connexions max. - Nombre maximal de connexions http/s qu’une destination peut gérer
-   * Nombre d’appels max - Nombre maximal d’appels pouvant être effectués dans le paramètre periodInMs
-   * periodInMs - temps en millisecondes
-* Les parcours initiés d’abonnement à un segment peuvent fonctionner suivant deux modes :
-   * Segments par lot (actualisés toutes les 24 heures)
-   * Segments par diffusion en flux continu (qualification de moins de 5 minutes)
-* Segments par lot : veillez à connaître le volume quotidien des utilisateurs qualifiés et à garantir que le système de destination peut gérer les pics de débit par parcours et sur tous les parcours.
-* Segments en diffusion en continu : veillez à ce que le pic initial des qualifications de profil puisse être traité en même temps que le volume de qualification des diffusions en continu quotidien par parcours et sur tous les parcours
-* Gestion des décisions non prise en charge
-* Les événements métier ne sont pas pris en charge.
-* Intégrations sortantes vers des systèmes tiers
-   * Pas de prise en charge d’une seule adresse IP statique, car notre infrastructure est définie pour plusieurs clients (doit mettre en liste autorisée toutes les adresses IP du centre de données).
-   * Seules les méthodes de POST et de PUT sont prises en charge pour les actions personnalisées.
-   * Prise en charge de l’authentification : token | password | OAuth2
-* Il n’est pas possible de regrouper et de déplacer des composants individuels d’Adobe Experience Platform ou de Journey Optimizer entre différentes sandbox. Vous devez les réimplémenter dans les nouveaux environnements.
-
-<br>
-
-### Campaign (v7)
-
-* L’instance d’exécution de Message Center doit être hébergée par Adobe Managed Cloud Services.
-* Il doit s’agir de la version v7 >21.1.
-* Débit des messages
-   * AC (v7) 50 000 par heure
-* AC (v7) ne prend en charge que le parcours initié par un événement.
-   * Aucun parcours initié pour l’abonnement à un segment ou pour un segment
-   * Les parcours basés sur les audiences et les événements métier en lecture ne sont pas pris en charge en raison du volume qu’ils peuvent envoyer aux instances d’exécution.
-* AC (v7) ne prend pas en charge la gestion des décisions dans les messages.
-* Pas de limitation des appels API sortants effectués vers Campaign.
-
-<br>
+[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Étapes de mise en œuvre
 
@@ -121,7 +88,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identité         pour Edge Network
+   * Identité pour le réseau Edge
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
