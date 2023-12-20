@@ -3,10 +3,10 @@ title: Plan directeur de la gestion des décisions sur Edge
 description: Diffusez des offres personnalisées à vos clients sur l’ensemble des canaux, y compris dans les expériences web et mobiles en temps réel.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Pour en savoir plus sur la gestion des décisions sur le hub, reportez-vous au p
 
 ## Cas d’utilisation de la gestion des décisions sur Edge
 
+* Cas d’utilisation de la diffusion en continu où la latence du contexte du profil est stricte en dessous d’une latence de 15 minutes et où l’exécution de la gestion des décisions est en sous-seconde.
 * Personnalisation en ligne via des expériences entrantes web ou mobiles
 * Exécution de parcours cross-canal : offre une cohérence entre les canaux web, mobile, par e-mail et les autres canaux d’interaction par le biais d’Adobe Journey Optimizer
 

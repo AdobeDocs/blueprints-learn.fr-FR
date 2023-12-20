@@ -3,10 +3,10 @@ title: Plan directeur de la gestion des décisions sur le hub
 description: Diffusez à vos clients des offres personnalisées sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des e-mails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '832'
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,16 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 
 ## Cas d’utilisation de la gestion des décisions sur le hub
 
+* Cas d’utilisation de la diffusion en continu où la latence du contexte du profil n’est pas stricte : une latence de 15 minutes ou plus.
 * Offres personnalisées dans les kiosques et dans les expériences en magasin
 * Offres personnalisées par le biais d’une expérience assistée par agent, telles que des centres d’appel ou des interactions commerciales
 * Offres incluses dans les e-mails, SMS, notifications push mobiles ou autres interactions sortantes
 * Proposez des offres pouvant être diffusées par le biais de systèmes de messagerie et ESP externes
 * Exécution de parcours cross-canal : offre une cohérence entre les canaux web, mobile, par e-mail et les autres canaux d’interaction par le biais d’Adobe Journey Optimizer
+
+>[!IMPORTANT]
+>
+>Pour les cas d’utilisation d’offres et de parcours qui nécessitent l’accès au profil pour plus d’informations et de contexte. Il est important de tenir compte de la latence associée de l’ingestion de données à profiler sur le hub pour s’assurer qu’elles sont disponibles au moment de la décision. Pour les scénarios où le contexte est en flux continu ou en ingestion dans un profil et où l’offre ou le parcours doit disposer de ce contexte dans les secondes ou minutes suivant la décision de l’offre, ces scénarios sont mieux servis avec la gestion de la décision sur le bord.
 
 <br>
 
