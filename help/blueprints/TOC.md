@@ -5,7 +5,7 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -40,6 +40,11 @@ ht-degree: 92%
       + [Centre d’activité client](/help/blueprints/audience-activation/customer-activity.md)
       + [Correspondance de segment](/help/blueprints/audience-activation/segment-match.md)
    + [Activation avec les applications Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
+   + Personnalisation web et mobile {#web-personalization}
+      + [Présentation](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [Personnalisation comportementale - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [Personnalisation des clients connus - Target et RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [Gestion des décisions](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 92%
    + [Présentation](/help/blueprints/data-insights/overview.md)
    + [Analyse des données et data intelligence](/help/blueprints/data-insights/analysis.md)
    + [Data science personnalisée pour l’enrichissement de profil](/help/blueprints/data-insights/data-science.md)
-+ Personnalisation web et mobile {#web-personalization}
-   + [Présentation](/help/blueprints/web-personalization/overview.md)
-   + [Personnalisation comportementale - Target](/help/blueprints/web-personalization/behavioral.md)
-   + [Personnalisation des clients connus - Target et RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [Gestion des décisions](/help/blueprints/web-personalization/decision-management-edge.md)
