@@ -7,7 +7,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 47ae9808a53fd59583bd26b70e58c34a15e47493
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 98%
@@ -40,8 +40,8 @@ Réalise une personnalisation en fonction du comportement en ligne et des donné
 
 Le plan directeur de personnalisation web / mobile peut être mis en œuvre par les approches suivantes, comme indiqué ci-dessous.
 
-1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network]. [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](../experience-platform/deployment/websdk.md)
-1. Utilisation de SDK traditionnels spécifiques à l’application (par exemple, AppMeasurement.js). [Reportez-vous au plan directeur des SDK spécifiques aux applications.](../experience-platform/deployment/appsdk.md)
+1. Utilisation du [!UICONTROL SDK web Experience Platform] ou du [!UICONTROL SDK mobile Experience Platform] et de [!UICONTROL Edge Network]. [Reportez-vous au plan directeur du SDK web et mobile d’Experience Platform](/experience-platform/deployment/websdk.md)
+1. Utilisation de SDK traditionnels spécifiques à l’application (par exemple, AppMeasurement.js). [Reportez-vous au plan directeur des SDK spécifiques aux applications.](/experience-platform/deployment/appsdk.md)
 
 ## Étapes de mise en œuvre
 
