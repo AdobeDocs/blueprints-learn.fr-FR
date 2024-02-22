@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 1ee81e6e2e9847f53f51bc96e55ea434a0a1cbda
+source-git-commit: b0f106c4dce59137086c8806def34e98b554bb61
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 98%
@@ -60,7 +60,7 @@ La personnalisation par client connu est prise en charge par plusieurs méthodes
 ### Modèle de mise en œuvre 1 - Edge Network avec le SDK web/mobile ou l’API Edge Network (approche recommandée)
 
 * Utilisation du réseau Edge avec le SDK web/mobile. La segmentation Edge en temps réel nécessite d’adopter le modèle d’implémentation du SDK web/mobile ou de l’API Edge.
-* [Reportez-vous au plan directeur SDK Web et mobile Experience Platform](//experience-platform/deployment/websdk.md) pour la mise en oeuvre basée sur le SDK.
+* [Reportez-vous au plan directeur SDK Web et mobile Experience Platform](..//experience-platform/deployment/websdk.md) pour la mise en oeuvre basée sur le SDK.
 * Pour une utilisation dans le SDK mobile, consultez la section [Adobe Journey Optimizer - L’extension Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) doit être installée dans le SDK mobile.
 * [Reportez-vous à l’API de serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr) pour une mise en œuvre d’Adobe Target avec le profil Edge et basée sur l’API.
 
@@ -68,7 +68,7 @@ La personnalisation par client connu est prise en charge par plusieurs méthodes
 
 Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.js et AppMeasurement.js). L’évaluation des segments Edge en temps réel n’est pas prise en charge dans cette méthode d’implémentation. Cependant, le partage des audiences en continu et par lots à partir du hub Experience Platform est pris en charge dans cette méthode d’implémentation.
 
-[Reportez-vous au plan directeur des SDK spécifiques aux applications.](//experience-platform/deployment/appsdk.md)
+[Reportez-vous au plan directeur des SDK spécifiques aux applications.](..//experience-platform/deployment/appsdk.md)
 
 ### Étapes de mise en œuvre
 
