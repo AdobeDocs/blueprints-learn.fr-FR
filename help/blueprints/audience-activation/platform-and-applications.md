@@ -4,10 +4,10 @@ description: Gérez les profils et les audiences dans Experience Platform et pa
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Consultez la [section Architecture d’Experience Platform et de ses applicatio
 
 ## Garde-fous
 
-Référez-vous aux [garde-fous décrits sur la page de présentation d’Audience et Profil Activation](overview.md)     et la page [Garde-fous de déploiement](../experience-platform/deployment/guardrails.md).
+Voir [Barrières de sécurité sur la page Aperçu de l’activation du profil et de l’audience](overview.md) et la variable [barrières de sécurité de déploiement](../experience-platform/deployment/guardrails.md) page.
 
 ## Considérations relatives à la mise en œuvre
 
@@ -67,7 +67,7 @@ Référez-vous aux [garde-fous décrits sur la page de présentation d’Audienc
 
 ### Partage d’audiences de Real-time Customer Data Platform vers Target
 
-* Consultez [Personnalisation des clients connus - Plan directeur Target et RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=fr) pour obtenir plus d’informations sur le partage de profils et d’audiences de Real-time Customer Data Platform vers Target.
+* Consultez [Personnalisation des clients connus - Plan directeur Target et RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html) pour obtenir plus d’informations sur le partage de profils et d’audiences de Real-time Customer Data Platform vers Target.
 
 ### Partage d’audiences de Real-time Customer Data Platform vers Campaign et Journey Optimizer
 
