@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Vous trouverez une liste complète des cas d’utilisation de Customer Journey 
 
 ## Architecture pour Customer Journey Analytics
 
-![Diagramme d’architecture](assets/CJA.svg){zoomable=&quot;yes&quot;}
+![Diagramme d&#39;architecture](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
 Voici quelques principaux cas d’utilisation.
 | Plan directeur | Description |  Applications Experience Cloud |
