@@ -1,13 +1,13 @@
 ---
-title: Secteur de la vente au détail - Activation avec des applications Experience Cloud
-description: Diffusion d’expériences client en temps réel sur les médias numériques, par e-mail, par notifications push et sur les canaux web.
+title: Secteur de vente au détail - Activation avec des applications Experience Cloud
+description: Découvrez comment proposer des expériences client en temps réel sur les médias numériques, les e-mails, les notifications push et les canaux web.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,6 @@ Cette entreprise d’expérience intégrée a cherché à personnaliser l’ense
 
 
 ## Plans directeurs associés
-
 
 | Cas d’utilisation/intégration  | Lien |
 |:----|:----|

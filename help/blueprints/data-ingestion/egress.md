@@ -1,23 +1,27 @@
 ---
 title: Plan directeur d’export et d’accès aux données
-description: Ce plan directeur présente un aperçu de toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
+description: Découvrez les méthodes d’accès et d’exportation des données à partir de Adobe Experience Platform et des applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # Plan directeur d’export et d’accès aux données
 
-Le plan directeur d’export et d’accès aux données décrit toutes les méthodes qui peuvent être mises en œuvre pour accéder à des données et les exporter à partir d’Adobe Experience Platform et des applications.
+Le plan directeur Accès aux données et Exportation décrit toutes les méthodes possibles pour accéder aux données ou les exporter à partir de [!DNL Experience Platform] et les applications.
 
-Le plan directeur est divisé en deux catégories pour l’accès aux données à partir d’Experience Platform et d’applications. Il y a, tout d’abord, les méthodes de sortie de données depuis Experience Platform et les applications ; cela serait considéré comme une méthode de sortie de données de type « push ». Viennent ensuite les méthodes d’accès aux données à partir d’Experience Platform et des applications ; cela serait considéré comme une méthode d’accès aux données de type « pull ».
+Le plan directeur est divisé en deux catégories pour l’accès aux données à partir de [!DNL Experience Platform] et les applications.
 
-Méthodes d’accès aux données
+La première comprend des approches pour extraire des données d’Experience Platform et d’applications. Cela serait considéré comme une _push_ type de méthode de sortie de données.
+
+La seconde comprend des approches pour accéder aux données d’Experience Platform et d’applications. Cela serait considéré comme une _pull_ type de méthode d’accès aux données.
+
+Méthodes d’accès aux données :
 
 * [API Real-time Customer Profile Access](#rtcp-profile-access-api)
 * [API Data Access](#data-access-api)
@@ -30,11 +34,11 @@ Méthodes d’export des données :
 * [Destinations Real-time Customer Data Platform](#RTCDP-destinations)
 * [Actions personnalisées de Journey Optimizer](#jo-custom-actions)
 
-## Architecture de présentation de l’export et de l’accès aux données
+## Architecture de la présentation de l’accès aux données et de l’exportation
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Architecture de référence pour le plan directeur de préparation et d’ingestion des données" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## Méthodes d’export et d’accès aux données
+## Accès aux données et méthodes d&#39;export
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
@@ -408,7 +412,7 @@ Pour plus d’informations, consultez la documentation [Présentation des balise
 
 ### Transfert d’événement {#event-forwarding}
 
-Les demandes de collecte de données sont collectées directement auprès du réseau Edge d’Adobe. À partir du réseau Edge, les demandes adressées à des points d’entrée RESTful externes peuvent être configurées pour être transférées vers la destination externe.
+Les demandes de collecte de données sont collectées directement auprès de l’Adobe [!DNL Edge Network]. Dans la [!DNL Edge Network] Les requêtes envoyées aux points d’entrée RESTful externes peuvent être configurées pour transférer ces requêtes vers la destination externe.
 
 Pour plus d’informations, consultez la documentation [Transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr).
 
@@ -418,7 +422,7 @@ Pour plus d’informations, consultez la documentation [Transfert d’événemen
 
 #### Considérations
 
-* Pour utiliser le transfert d’événement, les données doivent être envoyées au réseau Edge à l’aide du SDK web ou de MobileSDK.
+* Pour utiliser le transfert d’événement, les données doivent être envoyées à la variable [!DNL Edge Network] à l’aide du SDK Web ou du SDK Mobile.
 * La méthode de transfert d’événement réduit le poids et le temps de chargement de la page en raison des balises qui y sont ajoutées.
 * Aucun enrichissement du profil Edge ou d’autres sources de données n’est actuellement pris en charge.
 * Le filtrage limité des données et les transformations de mappage simples sont pris en charge.

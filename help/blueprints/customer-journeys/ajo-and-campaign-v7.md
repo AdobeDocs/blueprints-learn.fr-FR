@@ -3,10 +3,10 @@ title: Plan directeur Journey Optimizer avec Adobe Campaign v7
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 98%
+source-wordcount: '602'
+ht-degree: 97%
 
 ---
 
@@ -87,8 +87,8 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Adobe Experience Platform Edge Network
-   * Identité pour le réseau Edge
+   * Adobe Experience Platform [!DNL Edge Network]
+   * Identité pour [!DNL Edge Network]
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
 1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).

@@ -4,10 +4,10 @@ description: Découvrez comment les données collectées avec les SDK web et mob
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +44,7 @@ Le [!UICONTROL transfert d’événement] étant la méthode d’envoi de donné
 
 ### Trains de données et points d’entrée de streaming différents
 
-Comme les données transitent par les flux de données de [!UICONTROL Platform Edge Network], lors de l’utilisation du [!UICONTROL transfert d’événement] vers un autre sandbox AEP, une exigence consiste à ne jamais utiliser le même train de données ou point d’entrée de streaming que le train de données qui effectue la collecte initiale. Cela peut être préjudiciable à l’instance AEP et potentiellement déclencher une situation de déni de service.
+Lorsque les données transitent par les flux de données à partir de [!DNL Platform Edge Network], lors de l’utilisation de [!UICONTROL Transfert d’événement] dans un autre environnement de test AEP, vous devez ne jamais utiliser le même flux de données ou point de terminaison de diffusion en continu que celui qui crée la collection d’origine. Cela peut être préjudiciable à l’instance AEP et potentiellement déclencher une situation de déni de service.
 
 ### Volumes de trafic estimés
 
@@ -54,11 +54,11 @@ Les volumes de trafic doivent être examinés dans chaque cas d’utilisation. I
 
 ![[!UICONTROL Transfert d’événement]](assets/multi-sandbox-data-collection.png) multi-sandbox 
 
-1. La collecte et l’envoi de données d’événement à [!UICONTROL Platform Edge Network] sont nécessaires pour utiliser le [!UICONTROL transfert d’événement]. Les clientes et clients peuvent utiliser les balises Adobe pour l’API côté client ou l’[!UICONTROL API du serveur Platform Edge Network] pour la collecte de données de serveur à serveur. L’[!UICONTROL API Platform Edge Network] peut fournir une fonctionnalité de collecte de serveur à serveur. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Voir [Vue d’ensemble de l’API Platform Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
+1. Collecte et envoi de données d’événement à la variable [!DNL Platform Edge Network] est requis pour utiliser [!UICONTROL Transfert d’événement]. Les clients peuvent utiliser des balises Adobe pour le côté client ou le [!DNL Platform Edge Network Server API] pour la collecte de données serveur à serveur. La variable [!DNL Platform Edge Network API] peut fournir une fonctionnalité de collecte serveur à serveur. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Voir [Vue d’ensemble de l’API Platform Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
 
-1. Les payloads collectées sont envoyées de l’implémentation des balises au service [!UICONTROL Transfert d’événement] en passant par [!UICONTROL Platform Edge Network], et traitées par des [!UICONTROL éléments de données], [!UICONTROL règles] et [!UICONTROL actions] spécifiques. Pour en savoir plus sur les différences entre les balises et le [!UICONTROL transfert d’événement], cliquez [ici](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr#differences-from-tags).
+1. Les payloads collectées sont envoyées de l’implémentation des balises à l’ [!DNL Platform Edge Network] à la fonction [!UICONTROL Transfert d’événement] service et traité par lui-même [!UICONTROL Éléments de données], [!UICONTROL Règles] et [!UICONTROL Actions]. Pour en savoir plus sur les différences entre les balises et le [!UICONTROL transfert d’événement], cliquez [ici](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr#differences-from-tags).
 
-1. Une propriété de [!UICONTROL transfert d’événement] est également requise pour recevoir les données d’événement collectées à partir de [!UICONTROL Platform Edge Network], que ces données aient été envoyées à Platform Edge Network par une implémentation de balises déployée ou une collecte de serveur à serveur. Les auteurs définissent les éléments de données, les règles et les actions utilisés pour enrichir les données d’événement avant le transfert vers le second sandbox. Pensez à utiliser l’élément de données [!DNL JavaScript] Custom Code pour faciliter la structuration de vos données pour l’ingestion des sandbox. Avec les fonctionnalités de préparation de données Platform, vous disposez de plusieurs options pour gérer votre structure de données.
+1. Un [!UICONTROL Transfert d’événement] doit également recevoir les données d’événement collectées de la propriété [!DNL Platform Edge Network]. Si ces données d’événement ont été envoyées à la variable [!DNL Platform Edge Network] par une implémentation de balises déployée ou une collection serveur à serveur. Les auteurs définissent les éléments de données, les règles et les actions utilisés pour enrichir les données d’événement avant le transfert vers le second sandbox. Pensez à utiliser l’élément de données [!DNL JavaScript] Custom Code pour faciliter la structuration de vos données pour l’ingestion des sandbox. Avec les fonctionnalités de préparation de données Platform, vous disposez de plusieurs options pour gérer votre structure de données.
 
 1. Actuellement, l’utilisation de l’[!UICONTROL extension Adobe Cloud Connector] est requise dans la propriété de [!UICONTROL transfert d’événement]. Une fois que les règles traitent ou enrichissent les données d’événement, l’extension Cloud Connector est utilisée dans un appel de récupération configuré pour une méthode POST qui envoie la payload au deuxième sandbox.
 

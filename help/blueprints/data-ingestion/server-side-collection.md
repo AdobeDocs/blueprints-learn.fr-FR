@@ -4,16 +4,16 @@ description: Diffusez les données collectées par les SDK d’Adobe Experience
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 77%
 
 ---
 
 # Plan directeur du transfert d’événement
 
-Le plan directeur de transfert d’événements montre comment les données collectées avec les SDK web et mobile d’Adobe Experience Platform peuvent être transférées depuis Experience Platform Edge Network vers une destination de votre choix. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
+Le plan directeur de transfert d’événements indique comment les données collectées avec les SDK Web et mobiles Adobe Experience Platform peuvent être transférées à partir de [!DNL Experience Platform]. [!DNL Edge Network]] vers la destination souhaitée. Vous pouvez transférer toutes les données brutes collectées depuis les SDK ou bien des données spécifiques liées à des événements et des règles selon la configuration dans les propriétés des balises (auparavant dans Launch).
 
 ## Cas d’utilisation
 
@@ -36,11 +36,11 @@ Le plan directeur de transfert d’événements montre comment les données coll
 
 ## Articles de blog connexes
 
-* [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Adobe Experience Platform Web SDK — Adobe Target]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [[!DNL Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [[!DNL Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [[!DNL Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch]](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [[!DNL Simplifying Customer Workflows with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Amélioration des performances du site web avec le SDK web Adobe Experience Platform et [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Résolution des problèmes liés à l’implémentation avec le SDK Web de Adobe Experience Platform et [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [SDK web d’Adobe Experience Platform pour la gestion d’audience](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [SDK Web Adobe Experience Platform - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Scénarios de migration du SDK web d’Adobe Experience Platform pour Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Unifiez vos services Adobe Experience Platform avec le SDK web d’Adobe Experience Platform](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Accélérez le développement de votre application mobile avec le SDK mobile d’Adobe Experience Platform et Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Simplifiez les workflows client avec le SDK web d’Adobe Experience Platform](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

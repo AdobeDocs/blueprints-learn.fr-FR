@@ -3,25 +3,21 @@ title: Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
 description: Montre comment Adobe Experience Platform, son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign v8 pour diffuser des conversations personnalisées.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 72%
 
 ---
 
-# Modèle d’intégration de Real-Time CDP avec Adobe Campaign v8
+# [!DNL Real-Time CDP] avec Adobe [!DNL Campaign] Modèle d’intégration v8
 
-Présente comment Adobe Experience Platform, le profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées.
-
-<br>
+Présente comment l’Adobe [!DNL Experience Platform] et son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe Campaign pour diffuser des conversations personnalisées.
 
 ## Applications
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## Architecture
 
@@ -32,10 +28,10 @@ Présente comment Adobe Experience Platform, le profil client en temps réel e
 ## Conditions préalables
 
 * Le client doit disposer d’une session Experience Cloud configurée avec une organisation IMS valide
-* Il est recommandé d’allouer Adobe Experience Platform et Campaign dans la même organisation IMS pour une URL de connexion unique.
-* Le client doit se voir allouer l’instance V8 de Campaign.
+* Adobe Experience Platform et [!DNL Campaign] sont recommandés pour être configurés dans la même organisation IMS pour une URL de connexion unique.
+* Le client doit être configuré sur l’instance V8 de [!DNL Campaign]
 * Le client doit être éligible et avoir accès à RTCDP, aux sources et aux destinations.
-* Le contexte du produit Adobe Campaign doit exister
+* Adobe [!DNL Campaign] le contexte du produit doit exister
 <br>
 
 ## Étapes de mise en œuvre
