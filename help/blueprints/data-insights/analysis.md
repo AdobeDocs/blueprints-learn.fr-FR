@@ -1,24 +1,24 @@
 ---
-title: Plan directeur pour l’analyse des données et Data Intelligence
-description: Ce plan directeur montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
+title: Plan directeur pour l’analyse des données et la Data Intelligence
+description: Utiliser l’Adobe [!DNL Experience Platform] (AEM) pour effectuer une requête exploratoire et une analyse des données existant dans le lac de données.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 59%
 
 ---
 
-# Plan directeur pour l’analyse des données et Data Intelligence
+# Analyse des données et plan directeur du renseignement
 
-L’analyse des données et la Data Intelligence montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données qui existent dans un lac de données.
+L&#39;analyse des données et le renseignement constituent la capacité de la fonction [!DNL Experience Platform] pour effectuer des requêtes exploratoires et des analyses des données existant dans le lac de données.
 
-Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données.
+[!DNL Experience Platform]&#39;s [!UICONTROL Query Service] permet d’exécuter des requêtes SQL sur les données.
 
-Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI), leur donnant la possibilité d’accéder et d’interroger directement les données dans Experience Platform, par le biais du protocole [!DNL PostgreSQL].
+[!DNL Experience Platform] permet des connexions avec des clients SQL tiers, des interfaces et des outils Business Intelligence (BI) pour se connecter directement aux données dans , y accéder et les interroger dans [!DNL Experience Platform], à l’aide de la fonction [!DNL PostgreSQL] protocole .
 
 ## Cas d’utilisation
 
@@ -30,7 +30,7 @@ D’autres cas d’utilisation courants pour le Query Service sont décrits ici
 
 ## Applications
 
-* Adobe Experience Platform
+* Adobe [!DNL Experience Platform]
 
 ## Architecture
 
@@ -45,11 +45,11 @@ Reportez-vous à la documentation du produit Query Service pour plus d’informa
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
-1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans Experience Platform.
+1. [Ingestion de données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) into [!DNL Experience Platform].
 1. Vérifiez que les données sont disponibles pour [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=fr).
 1. [Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=fr) pour la visualisation, les requêtes de données et l’exploration.
 
 ## Documentation connexe
 
-* [Description d’Adobe Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Description du produit Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * Documentation sur [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)

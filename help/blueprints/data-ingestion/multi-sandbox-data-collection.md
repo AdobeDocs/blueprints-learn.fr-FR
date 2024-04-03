@@ -1,27 +1,25 @@
 ---
 title: Plan directeur de la collecte de données pour le transfert d’événement multi-sandbox
-description: Diffusion en continu des données collectées par les SDK Experience Platform vers plusieurs sandbox à l’aide du transfert d’événements
+description: Diffusez les données collectées en [!DNL Experience Platform] SDK (AEP) vers plusieurs environnements de test à l’aide du transfert d’événements
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 88%
+source-wordcount: '579'
+ht-degree: 60%
 
 ---
 
-# Plan directeur de la collecte de données pour le transfert d’événement multi-sandbox
+# Plan directeur de collecte de données de transfert d’événement multi-environnements de test
 
-Le plan directeur de la collecte de données de transfert d’événements multi-sandbox indique comment les données collectées avec les SDK web et mobiles Adobe Experience Platform peuvent être configurées pour collecter un seul événement et les transférer vers plusieurs sandbox AEP. Ce plan directeur est un cas d’utilisation spécifique qui utilise la fonctionnalité de transfert d’événement des balises d’Adobe.
+Le plan directeur de la collecte de données de transfert d’événement multi-environnement indique comment les données sont collectées avec Adobe. [!DNL Experience Platform] Les SDK web et mobiles peuvent être configurés pour collecter un seul événement et le transférer vers plusieurs [!DNL Experience Platform] (AEP) environnements de test. Ce plan directeur est un cas d’utilisation spécifique qui utilise la fonctionnalité de transfert d’événement des balises d’Adobe.
 
 En plus de répliquer l’événement, grâce aux fonctionnalités de transfert d’événement vous pouvez ajouter, filtrer ou manipuler les données collectées d’origine qui répondent aux exigences d’autres sandbox. Par exemple, la sandbox A doit recevoir tous les éléments de données d’événement et la sandbox B ne doit recevoir que des données autres que les informations d’identification personnelle.
 
-Le transfert d’événements utilise une propriété de balise distincte qui contient les éléments de données, les règles et les extensions nécessaires à vos besoins de données. Avec un événement entrant, votre propriété de transfert d’événement peut collecter les données et les gérer selon les besoins avant le transfert.
+Le transfert d’événements utilise une propriété Tag distincte qui contient les éléments de données, les règles et les extensions nécessaires pour répondre à vos besoins en données. Avec un événement entrant, votre propriété de transfert d’événement peut collecter les données et les gérer selon les besoins avant le transfert.
 
-La boîte de réception de votre destination nécessite un point de sortie de diffusion en continu HTTP qui serait utilisé par l’extension HTTPS de transfert d’événement.
-
-
+Votre environnement de test de destination doit avoir un point de terminaison HTTP Streaming qui sera utilisé par l’extension HTTPS de transfert d’événement.
 
 ## Cas d’utilisation
 
@@ -30,15 +28,15 @@ La boîte de réception de votre destination nécessite un point de sortie de di
 
 ## Applications
 
-* Collecte de données dʼAdobe Experience Platform
+* Adobe [!DNL Experience Platform] Collecte de données
 
 ## Architecture
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Architecture de référence pour le transfert d’événements multi-sandbox" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-1. Les auteurs de balises définissent une propriété de balise ainsi qu’une propriété de transfert d’événement. Les auteurs définissent par ce biais les éléments de données, les règles et les actions qui gèrent la collecte de données. Pour rappel, le code de propriété de balise s’exécute sur le client et est distribué par un hôte CDN. Le code de propriété de transfert d’événement s’exécute sur le serveur Adobe Edge.
+1. Les auteurs de balises définissent une propriété de balise ainsi qu’une propriété de transfert d’événement. Ici, les auteurs définissent les éléments de données, les règles et les actions qui gèrent la collecte de données. Pour rappel, le code de propriété de balise s’exécute sur le client et est distribué par un hôte CDN. La variable [!UICONTROL Propriété de transfert d’événement] s’exécute sur l’Adobe. [!DNL Edge Server].
 
-1. Les données collectées sur le client sont envoyées au [!DNL Edge Network]. Les clients ont également la possibilité d’envoyer des données à leur propre serveur en premier lieu en suivant la méthode de collecte côté serveur.  Le SDK web peut fournir une fonctionnalité de collecte entre les serveurs. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Consultez la documentation **[!DNL Edge Network]Présentation de l’API de serveur** below
+1. Les données collectées sur le client sont envoyées au [!DNL Edge Network]. Les clients ont également la possibilité d’envoyer des données à leur propre serveur en premier lieu en tant que méthode de collecte côté serveur. Le SDK web peut fournir une fonctionnalité de collecte entre les serveurs. Cela nécessite toutefois la mise en œuvre d’un modèle de programmation différent. Consultez la documentation **[!DNL Edge Network]Présentation de l’API de serveur** below
 
 1. Plateforme [!DNL Edge Network] reçoit les payloads de collecte de données et orchestre le flux de données vers les systèmes requis tels que Target et Analytics.
 
@@ -53,16 +51,16 @@ La boîte de réception de votre destination nécessite un point de sortie de di
 * [Documentation sur le transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr)
 * [Vidéos sur le transfert d’événement](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=fr)
 * Tutoriel relatif au [cours sur le transfert d’événement](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=fr) du SDK web
-* [Présentation du SDK web d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
+* [[!DNL Experience Platform] Présentation du SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr)
 * [[!DNL Edge Network] Présentation de l’API de serveur](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
 ## Articles de blog connexes
 
-* [Amélioration des performances du site web avec le SDK web Adobe Experience Platform et [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [Résolution des problèmes liés à l’implémentation avec le SDK Web de Adobe Experience Platform et [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [SDK web d’Adobe Experience Platform pour la gestion d’audience](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [SDK Web Adobe Experience Platform - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [Scénarios de migration du SDK web d’Adobe Experience Platform pour Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [Unifiez vos services Adobe Experience Platform avec le SDK web d’Adobe Experience Platform](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [Accélérez le développement de votre application mobile avec le SDK mobile d’Adobe Experience Platform et Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Amélioration des performances du site web avec Adobe [!DNL Experience Platform] SDK Web et [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Résoudre les problèmes de mise en oeuvre avec Adobe [!DNL Experience Platform] SDK Web et [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe [!DNL Experience Platform] SDK Web pour la gestion de l’audience](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe [!DNL Experience Platform] SDK Web - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe [!DNL Experience Platform] Scénarios de migration du SDK Web pour Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Unifier votre Adobe [!DNL Experience Platform] Services avec Adobe [!DNL Experience Platform] SDK Web](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Accélérer le développement de vos applications mobiles avec Adobe [!DNL Experience Platform] SDK Mobile et Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
 * [Simplifiez les workflows client avec le SDK web d’Adobe Experience Platform](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

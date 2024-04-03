@@ -4,22 +4,22 @@ description: Découvrez les méthodes d’accès et d’exportation des données
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
 
-# Plan directeur d’export et d’accès aux données
+# Accès aux données et plan directeur d’exportation
 
-Le plan directeur Accès aux données et Exportation décrit toutes les méthodes possibles pour accéder aux données ou les exporter à partir de [!DNL Experience Platform] et les applications.
+Le plan directeur de l’accès aux données et de l’exportation décrit toutes les méthodes possibles pour accéder aux données ou les exporter à partir de [!DNL Experience Platform] et les applications.
 
 Le plan directeur est divisé en deux catégories pour l’accès aux données à partir de [!DNL Experience Platform] et les applications.
 
-La première comprend des approches pour extraire des données d’Experience Platform et d’applications. Cela serait considéré comme une _push_ type de méthode de sortie de données.
+La première comprend des approches pour récupérer les données à partir de [!DNL Experience Platform] et les applications. Cela serait considéré comme une _push_ type de méthode de sortie de données.
 
-La seconde comprend des approches pour accéder aux données d’Experience Platform et d’applications. Cela serait considéré comme une _pull_ type de méthode d’accès aux données.
+La seconde comprend des approches pour accéder aux données de [!DNL Experience Platform] et les applications. Cela serait considéré comme une _pull_ type de méthode d’accès aux données.
 
 Méthodes d’accès aux données :
 

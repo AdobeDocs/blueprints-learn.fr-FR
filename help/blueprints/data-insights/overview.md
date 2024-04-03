@@ -1,24 +1,24 @@
 ---
-title: Plans directeurs d’analyse des données, Data Intelligence et IA/ML
-description: Ce plan directeur montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
+title: Analyse des données, intelligence et plans directeurs AI/ML
+description: Découvrez comment effectuer des requêtes exploratoires et des analyses des données existant dans le lac de données.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 22%
 
 ---
 
-# Plans directeurs d’analyse des données, Data Intelligence et IA/ML
+# Analyse des données, intelligence et plans directeurs AI/ML
 
-L’analyse des données, la data intelligence et l’IA / ML montre la capacité d’Adobe Experience Platform à effectuer des requêtes exploratoires et une analyse des données existant dans un lac de données.
+L’analyse des données, l’intelligence et l’intelligence artificielle et l’apprentissage automatique incluent les fonctionnalités d’Adobe. [!DNL Experience Platform] pour effectuer des requêtes exploratoires et des analyses des données existant dans le lac de données.
 
-Le service de requête [!UICONTROL Query Service] d’Experience Platform permet d’effectuer des requêtes SQL sur les données. En outre, Experience Platform permet des connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI), leur donnant la possibilité d’accéder et d’interroger directement les données dans Experience Platform, par le biais du protocole [!DNL PostgreSQL].
+[!DNL Experience Platform]&#39;s [!UICONTROL Query Service] permet d’exécuter des requêtes SQL sur les données. En outre, [!DNL Experience Platform] permet des connexions avec des clients SQL tiers, des interfaces et des outils Business Intelligence (BI) pour se connecter directement aux données dans , y accéder et les interroger dans [!DNL Experience Platform], à l’aide de la fonction [!DNL PostgreSQL] protocole .
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
-| **[Analyse des données et data intelligence](analysis.md)** | <ul><li>Le schéma directeur de l’analyse des données et de la data intelligence englobe les méthodes permettant d’interroger et d’analyser les données pour des informations plus approndies à l’aide d’Adobe Experience Platform</ul></li> | <ul><li> Intelligence d’Adobe Experience Platform</ul></li> |
-| **[Data science personnalisée pour l’enrichissement de profil](data-science.md)** | <ul><li>Former, évaluer et mettre en œuvre des modèles pour enrichir davantage les profils clients et les informations sur les modèles d’action orientés clients</li></ul> | <ul><li>Intelligence d’Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[Analyse des données et data intelligence](analysis.md)** | <ul><li>Data Analysis and Intelligence Blueprint englobe les méthodes par lesquelles les données peuvent être interrogées et analysées pour en savoir plus sur les [!DNL Experience Platform]</ul></li> | <ul><li> [!DNL Experience Platform] Intelligence</ul></li> |
+| **[Data science personnalisée pour l’enrichissement de profil](data-science.md)** | <ul><li>Former, évaluer et mettre en œuvre des modèles pour enrichir davantage les profils clients et les informations sur les modèles d’action orientés clients</li></ul> | <ul><li>[!DNL Experience Platform] Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
