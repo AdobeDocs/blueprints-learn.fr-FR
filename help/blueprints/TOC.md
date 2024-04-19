@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 55%
+source-wordcount: '240'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 55%
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Présentation](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation anonyme (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activation d’audience anonyme ](/help/blueprints/audience-activation/anonymous.md)
    + Activation des clients connus (RTCDP) {#known-customer-audience-activation}
       + [Présentation](/help/blueprints/audience-activation/known.md)
       + [Activation des canaux sociaux et publicitaires](/help/blueprints/audience-activation/advertising-activation.md)
@@ -53,7 +53,7 @@ ht-degree: 55%
       + [Inprise et création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Réviser et approuver](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Histoires de succès client](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Contenu et commerce{#content-commerce}
++ Contenu et Commerce{#content-commerce}
    + [Adobe Commerce et RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
