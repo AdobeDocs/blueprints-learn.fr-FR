@@ -3,7 +3,7 @@ title: Adobe Commerce - Plan directeur RTCDP
 description: Intégration de Adobe Experience Platform à Adobe Commerce pour créer une vue unique de clients et personnaliser intelligemment les expériences sur un storefront numérique et entre canaux.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Pour obtenir la liste complète des événements pris en charge, reportez-vous �
 |:----|:----|
 | Connecteur Platform | [Présentation du connecteur Adobe Commerce Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Destination Commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| Personnalisation Edge | [Activation des audiences vers des destinations de personnalisation de périphérie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| Personnalisation Edge | [Activation des audiences vers des destinations de personnalisation de périphérie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
