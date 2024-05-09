@@ -3,7 +3,7 @@ title: Adobe Commerce - Plan directeur RTCDP
 description: Intégration de Adobe Experience Platform à Adobe Commerce pour créer une vue unique de clients et personnaliser intelligemment les expériences sur un storefront numérique et entre canaux.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 8a47b73065a5591673804301c61a73947346813c
+source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -39,10 +39,10 @@ Pour utiliser la variable [!DNL Data Connection] , vous devez disposer des élé
 * [Créer ou mettre à jour](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) votre schéma XDM avec des groupes de champs spécifiques à Commerce.
 * [Création d’un jeu de données](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) en fonction du schéma que vous avez créé ou mis à jour. Ce jeu de données contiendra les données Commerce que vous envoyez.
 * [Création d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) et sélectionnez le schéma XDM contenant les groupes de champs spécifiques à Commerce.
-* [Connexion à Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+* [Connexion aux services Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
 * [Connexion à Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
 
-### Connexion à la destination Commerce de Adobe Experience Platform pour le partage d’audiences
+### Connexion à la destination Commerce à partir de Adobe Experience Platform pour le partage d’audiences
 
 Pour vous connecter à la destination Adobe Commerce :
 
@@ -57,7 +57,7 @@ Pour vous connecter à la destination Adobe Commerce :
 * Événements de back-office
 * Historique des données de commande
 
-Pour obtenir la liste complète des événements pris en charge, reportez-vous à [Événements de commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
+Pour obtenir la liste complète des événements pris en charge, reportez-vous à [Événements Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
 
 ## Architecture
 
@@ -68,5 +68,5 @@ Pour obtenir la liste complète des événements pris en charge, reportez-vous �
 | Guide | Lien |
 |:----|:----|
 | Connecteur Platform | [Présentation du connecteur Adobe Commerce Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
-| Destination du commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
+| Destination Commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
 | Personnalisation Edge | [Activation des audiences vers des destinations de personnalisation de périphérie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
