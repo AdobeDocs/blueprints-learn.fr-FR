@@ -1,6 +1,6 @@
 ---
 title: Plan directeur pour l’analyse des données et la Data Intelligence
-description: Utiliser l’Adobe [!DNL Experience Platform] (AEM) pour effectuer une requête exploratoire et une analyse des données existant dans le lac de données.
+description: Utilisez Adobe [!DNL Experience Platform] (AEM) pour effectuer une requête exploratoire et une analyse des données existant dans le lac de données.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -14,11 +14,11 @@ ht-degree: 59%
 
 # Analyse des données et plan directeur du renseignement
 
-L&#39;analyse des données et le renseignement constituent la capacité de la fonction [!DNL Experience Platform] pour effectuer des requêtes exploratoires et des analyses des données existant dans le lac de données.
+L’analyse des données et l’intelligence incluent la possibilité, au sein de [!DNL Experience Platform], d’effectuer des requêtes exploratoires et des analyses des données existant dans le lac de données.
 
-[!DNL Experience Platform]&#39;s [!UICONTROL Query Service] permet d’exécuter des requêtes SQL sur les données.
+[!UICONTROL Query Service] de [!DNL Experience Platform] permet d’exécuter des requêtes SQL sur les données.
 
-[!DNL Experience Platform] permet des connexions avec des clients SQL tiers, des interfaces et des outils Business Intelligence (BI) pour se connecter directement aux données dans , y accéder et les interroger dans [!DNL Experience Platform], à l’aide de la fonction [!DNL PostgreSQL] protocole .
+[!DNL Experience Platform] permet aux connexions avec des clients SQL tiers, des interfaces et des outils de Business Intelligence (BI) de se connecter directement aux données, d’y accéder et de les interroger dans [!DNL Experience Platform], à l’aide du protocole [!DNL PostgreSQL].
 
 ## Cas d’utilisation
 
@@ -45,11 +45,11 @@ Reportez-vous à la documentation du produit Query Service pour plus d’informa
 
 1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
-1. [Ingestion de données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) into [!DNL Experience Platform].
+1. [Ingérer des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans [!DNL Experience Platform].
 1. Vérifiez que les données sont disponibles pour [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=fr).
 1. [Connectez les outils de Business Intelligence et les clients SQL au [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=fr) pour la visualisation, les requêtes de données et l’exploration.
 
 ## Documentation connexe
 
-* [Adobe [!DNL Experience Platform] Description du produit Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Description du produit d’intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * Documentation sur [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)

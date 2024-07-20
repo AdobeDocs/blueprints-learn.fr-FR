@@ -6,8 +6,8 @@ kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
-workflow-type: ht
-source-wordcount: '398'
+workflow-type: tm+mt
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 ## Architecture des plans directeurs de Customer Journey Analytics
 
-![Diagramme d’architecture](assets/CJA.svg){zoomable=&quot;yes&quot;}
+![Diagramme d’architecture](assets/CJA.svg){zoomable="yes"}
 
 ## Diagramme des mécanismes de sécurisation pour les plans directeurs de Customer Journey Analytics
 
 * Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
-![Diagramme du mécanisme de sécurisation](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagramme des garde-fous](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Questions fréquentes
 

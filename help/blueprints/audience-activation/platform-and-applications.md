@@ -48,7 +48,7 @@ Consultez la [section Architecture d’Experience Platform et de ses applicatio
 
 ## Garde-fous
 
-Voir [Barrières de sécurité sur la page Aperçu de l’activation du profil et de l’audience](overview.md) et la variable [barrières de sécurité de déploiement](../experience-platform/deployment/guardrails.md) page.
+Reportez-vous aux [barrières de sécurité sur la page de présentation de l’activation des audiences et des profils](overview.md) et à la page [barrières de sécurité de déploiement](../experience-platform/deployment/guardrails.md) .
 
 ## Considérations relatives à la mise en œuvre
 

@@ -20,7 +20,7 @@ Journey Optimizer vous permet de proposer la meilleure offre et la meilleure ex
 
 La gestion des décisions peut être déployée de deux façons. La première par le biais du hub Adobe Experience Platform, qui est une architecture centrale de centre de données. L’approche « hub » permet d’exécuter, de personnaliser et de diffuser les offres avec une latence supérieure à 500 ms. L’architecture du hub est donc mieux adaptée aux expériences client qui ne demandent pas de latence inférieure à une seconde, par exemple pour les prises de décisions sur les offres pour les kiosques ou les expériences assistées par agent, telles que dans les centres d’appel ou les interactions en personne. Les offres insérées dans les e-mails et les campagnes sortantes sont également alimentées par l’approche hub.
 
-La seconde méthode consiste à utiliser Experience [!DNL [!DNL Edge Network]], qui est une infrastructure géographiquement distribuée à l’échelle mondiale pour proposer des expériences de sous-seconde et de milliseconde rapides. L’expérience client finale est exécutée par l’infrastructure Edge au plus proche de la localisation géographique des consommateurs afin de minimiser la latence. La gestion des décisions sur Edge est conçue pour fournir des expériences client en temps réel, telles que des demandes de personnalisation entrantes web ou mobile.
+La deuxième approche est via l’expérience [!DNL [!DNL Edge Network]], qui est une infrastructure géographiquement distribuée à l’échelle mondiale qui sert des expériences de sous-seconde et de milliseconde rapides. L’expérience client finale est exécutée par l’infrastructure Edge au plus proche de la localisation géographique des consommateurs afin de minimiser la latence. La gestion des décisions sur Edge est conçue pour fournir des expériences client en temps réel, telles que des demandes de personnalisation entrantes web ou mobile.
 
 Ce plan directeur couvre les détails de la gestion des décisions sur le hub.
 
@@ -37,7 +37,7 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 
 >[!IMPORTANT]
 >
->Pour les cas d’utilisation d’offres et de parcours qui nécessitent l’accès au profil pour plus d’informations et de contexte. Il est important de tenir compte de la latence associée de l’ingestion de données à profiler sur le hub pour s’assurer qu’elles sont disponibles au moment de la décision. Pour les scénarios où le contexte est en flux continu ou en ingestion dans un profil et où l’offre ou le parcours doit disposer de ce contexte dans les secondes ou minutes suivant la décision de l’offre, ces scénarios sont mieux servis avec la gestion de la décision sur le bord.
+>Pour les cas d’utilisation d’offres et de parcours qui nécessitent l’accès au profil pour plus d’informations et de contexte. Il est important de tenir compte de la latence associée de l’ingestion de données à profiler sur le hub pour s’assurer qu’elles sont disponibles au moment de la décision. Dans les cas où le contexte est en flux continu ou en ingestion dans un profil et où l’offre ou le parcours doit disposer de ce contexte dans les secondes ou minutes suivant la décision de l’offre, ces scénarios sont mieux servis avec la gestion de la décision dans Edge.
 
 <br>
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
 * Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Modèles de mise en œuvre
 

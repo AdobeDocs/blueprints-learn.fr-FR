@@ -16,7 +16,7 @@ ht-degree: 56%
 # Plans directeurs d’expérience digitale {#architecture}
 
 + [Plans directeurs des expériences numériques](/help/blueprints/overview.md)
-+ Plans directeurs verticaux{#vertical-blueprints}
++ Plans directeurs verticaux de l’industrie{#vertical-blueprints}
    + [Présentation](/help/blueprints/vertical-blueprints/overview.md)
    + [Habillement](/help/blueprints/vertical-blueprints/apparel.md)
    + [Vente au détail](/help/blueprints/vertical-blueprints/retail.md)
@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platform et applications](/help/blueprints/experience-platform/platform-applications.md)
    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
    + Déploiement {#deployment}
-      + [SDK Web Experience Platform et [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [SDK Web Experience Platform &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}

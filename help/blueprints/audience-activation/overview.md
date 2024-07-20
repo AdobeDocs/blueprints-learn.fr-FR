@@ -35,7 +35,7 @@ Plans directeurs dans Audience et Activation de profil
 
 Le schéma ci-dessous présente les principaux composants du profil client en temps réel d’Experience Platform.
 
-Pour plus d’informations sur le profil, la segmentation et l’activation, voir la section [Présentation de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) et la variable [Présentation de Real-Time Customer Profile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) pages.
+Pour plus d’informations sur les profils, la segmentation et l’activation, consultez la [documentation de présentation de la plateforme RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) et la [ présentation de Real-time Customer Profile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) .
 
 <img src="assets/profile_architecture.jpg" alt="Architecture de référence pour le profil client en temps réel" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

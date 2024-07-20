@@ -4,8 +4,8 @@ description: Ingestion et création – Plan directeur d’intégration de Mark
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fus
 
 Le workflow ci-dessous présente une requête de webinaire envoyée par un gestionnaire de campagne à l’aide d’un formulaire de requête Workfront. Les détails envoyés dans la requête déclenchent ensuite la création d’un programme et d’un e-mail dans Marketo Engage pour le webinaire. En outre, des détails sont fournis à partir du formulaire de requête pour renseigner le contenu de l’e-mail.
 
-![Plan directeur d’ingestion et de création](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Ingérer et créer un plan directeur](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Pour en savoir plus sur la création de votre propre centre d’excellence, cons
 
 Avec Marketo Engage, les jetons peuvent être utilisés pour renseigner le contenu dans les ressources de votre campagne. Par exemple, après avoir cloné un modèle d’e-mail provenant de votre centre d’excellence, Workfront Fusion peut prendre les détails de la requête de campagne dans Workfront et les transmettre à Mes jetons dans le programme Marketo Engage. Les valeurs de jeton peuvent ensuite être héritées directement dans l’e-mail pour générer l’e-mail.
 
-![Utilisation de jetons pour remplir le diagramme de contenu](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Utiliser des jetons pour remplir le diagramme de contenu](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Renseignement d’images à partir d’AEM Assets {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 ## Flux d’automatisation de l’ingestion et de la création {#intake-and-create-automation-flow}
 
-Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent d’accélérer l’automatisation.
+Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent de fournir l’automatisation plus rapidement.
 
 ![Flux d’automatisation de l’ingestion et de la création](assets/intake-and-create-3.png)
 

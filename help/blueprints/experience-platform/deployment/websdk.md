@@ -1,5 +1,5 @@
 ---
-title: SDK Web/Mobile, [!DNL Edge Network] Diagramme d'architecture de déploiement
+title: SDK Web/Mobile,  [!DNL Edge Network] Diagramme d’architecture de déploiement
 description: Ce plan directeur affiche l’architecture et l’ingestion par le biais du SDK Web et mobile Experience Platform et [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
@@ -13,13 +13,13 @@ ht-degree: 69%
 ---
 
 
-# SDK Web Experience Platform et [!DNL Edge Network] diagramme d&#39;architecture
+# Schéma d’architecture SDK Web Experience Platform et [!DNL Edge Network]
 
-Pour obtenir un aperçu et des détails sur le SDK Web et mobile, et la variable [!DNL Edge Network] L’API serveur voir ce qui suit.
+Pour obtenir un aperçu et des détails sur le SDK Web et Mobile et l’API serveur [!DNL Edge Network], voir ce qui suit.
 
 * [Présentation du SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=fr)
 * [Présentation du SDK mobile](https://developer.adobe.com/client-sdks/documentation/)
-* [[!DNL Edge Network] API du serveur](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
+* [[!DNL Edge Network] API serveur](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
 Pour une description détaillée des fonctionnalités de l’application prises en charge dans le SDK web, consultez la documentation suivante.
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur la migration des SDK spécifiques aux application
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=fr)
 
-## SDK Web/mobile Experience Platform ou [!DNL Edge Network] Déploiement de l’API serveur
+## Déploiement de l’API serveur/web Experience Platform ou [!DNL Edge Network]
 
 Le diagramme d’architecture ci-dessous illustre les processus de déploiement et de collecte de données à l’aide du SDK web d’Experience Platform.
 

@@ -116,7 +116,7 @@ Examinez les barrières de sécurité suivantes.
 
 ## Étapes de mise en œuvre
 
-Voir [Guide de démarrage](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=fr) pour implémenter Adobe Campaign v7.
+Consultez le [Guide de prise en main](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=fr) pour la mise en oeuvre d’Adobe Campaign v7.
 
 
 ## Documentation connexe

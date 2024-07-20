@@ -12,6 +12,6 @@ ht-degree: 64%
 
 # Journey Optimizer - Plan directeur de la gestion des décisions sur Edge
 
-Adobe Journey Optimizer [!UICONTROL Gestion des décisions] peut être utilisé pour personnaliser et diffuser des offres sur des canaux entrants tels que des sites web, des applications mobiles, des kiosques et sur d’autres points de contact clients.
+La [!UICONTROL gestion de décision] de Adobe Journey Optimizer peut être utilisée pour personnaliser et diffuser des offres sur les canaux entrants tels que les sites web, les applications mobiles, les kiosques et sur d’autres points de contact clients.
 
 Vous pouvez trouver le plan directeur pour la personnalisation web et mobile à l’aide de la gestion des décisions dans la section concernant le plan directeur de la gestion des décisions de parcours client [ICI](../../customer-journeys/decision_management/decision-management-edge.md).

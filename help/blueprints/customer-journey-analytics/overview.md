@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: b69e73349741b829f05d04cfac70aa0161ef7684
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 92%
+source-wordcount: '346'
+ht-degree: 93%
 
 ---
 
@@ -32,21 +32,21 @@ Vous trouverez une liste complète des cas d’utilisation de Customer Journey 
 
 ## Architecture pour Customer Journey Analytics
 
-![Diagramme d&#39;architecture](assets/CJA.svg){zoomable=&quot;yes&quot;}
+![Diagramme d’architecture](assets/CJA.svg){zoomable="yes"}
 
 Voici quelques exemples d’utilisation principaux.
 
 | Plan directeur | Description | Applications Experience Cloud |
 |---|---|---|
 | **[Analyse des Parcours cross-canal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr)** | <ul><li>Ayez une vue consolidée unique du comportement des clients sur différents canaux en unifiant les données de diverses propriétés web, mobiles et hors ligne.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (facultatif)</li></ul> |
-| **[Publication d’audiences sur Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr)** | <ul><li>Créez et publiez des audiences identifiées dans Customer Journey Analytics (CJA) vers le profil client en temps réel dans Adobe Experience Platform, pour le ciblage et la personnalisation des clients. Idéal pour créer des audiences à l’aide de données historiques ou des audiences plus affinées à partir d’un filtrage granulaire et de champs calculés dans Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
-| **[Analyse des Parcours par défaut des appels](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=fr)** | <ul><li>Déterminez les comportements les plus révélateurs pour aboutir à des appels assistés par un agent en regroupant les données du centre d’appel avec des données d’interaction web, mobiles et autres.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par agent grâce à un contenu et des outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Audiences Publish vers Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr)** | <ul><li>Créez et publiez des audiences identifiées dans Customer Journey Analytics (CJA) vers le profil client en temps réel dans Adobe Experience Platform, pour le ciblage et la personnalisation des clients. Idéal pour créer des audiences à l’aide de données historiques ou des audiences plus affinées à partir d’un filtrage granulaire et de champs calculés dans Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
+| **[Analyse de Parcours de la défection des appels](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=fr)** | <ul><li>Déterminez les comportements les plus révélateurs pour aboutir à des appels assistés par un agent en regroupant les données du centre d’appel avec des données d’interaction web, mobiles et autres.</li><li>Ces informations peuvent ensuite être utilisées pour optimiser l’expérience client et réduire le chemin vers les interactions assistées par agent grâce à un contenu et des outils en libre-service optimisés.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Diagramme des mécanismes de sécurisation pour les plans directeurs de Customer Journey Analytics
 
 * Pour des garde-fous détaillés et des latences de bout en bout, consultez le [document sur les garde-fous de déploiement](../experience-platform/deployment/guardrails.md)
 
-![Diagramme du mécanisme de sécurisation](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagramme des garde-fous](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Articles de blog connexes
 

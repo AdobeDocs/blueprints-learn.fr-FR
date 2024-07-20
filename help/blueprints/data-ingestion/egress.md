@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # Accès aux données et plan directeur d’exportation
 
-Le plan directeur de l’accès aux données et de l’exportation décrit toutes les méthodes possibles pour accéder aux données ou les exporter à partir de [!DNL Experience Platform] et les applications.
+Le plan directeur de l’accès aux données et de l’exportation décrit toutes les méthodes possibles pour accéder ou exporter des données à partir de [!DNL Experience Platform] et d’applications.
 
-Le plan directeur est divisé en deux catégories pour l’accès aux données à partir de [!DNL Experience Platform] et les applications.
+Le plan directeur est divisé en deux catégories pour l’accès aux données à partir de [!DNL Experience Platform] et des applications.
 
-La première comprend des approches pour récupérer les données à partir de [!DNL Experience Platform] et les applications. Cela serait considéré comme une _push_ type de méthode de sortie de données.
+La première comprend des approches pour récupérer des données de [!DNL Experience Platform] et des applications. On considère qu’il s’agit d’une méthode de sortie de données de type _push_.
 
-La seconde comprend des approches pour accéder aux données de [!DNL Experience Platform] et les applications. Cela serait considéré comme une _pull_ type de méthode d’accès aux données.
+La seconde comprend des approches pour accéder aux données de [!DNL Experience Platform] et aux applications. Cela serait considéré comme une méthode de type _pull_ de l’accès aux données.
 
 Méthodes d’accès aux données :
 
@@ -412,7 +412,7 @@ Pour plus d’informations, consultez la documentation [Présentation des balise
 
 ### Transfert d’événement {#event-forwarding}
 
-Les demandes de collecte de données sont collectées directement auprès de l’Adobe [!DNL Edge Network]. Dans la [!DNL Edge Network] Les requêtes envoyées aux points d’entrée RESTful externes peuvent être configurées pour transférer ces requêtes vers la destination externe.
+Les demandes de collecte de données sont collectées directement auprès de l’Adobe [!DNL Edge Network]. Des requêtes [!DNL Edge Network] aux points d’entrée RESTful externes peuvent être configurées pour transférer ces requêtes vers la destination externe.
 
 Pour plus d’informations, consultez la documentation [Transfert d’événement](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=fr).
 
@@ -422,7 +422,7 @@ Pour plus d’informations, consultez la documentation [Transfert d’événemen
 
 #### Considérations
 
-* Pour utiliser le transfert d’événement, les données doivent être envoyées à la variable [!DNL Edge Network] à l’aide du SDK Web ou du SDK Mobile.
+* Pour utiliser le transfert d’événement, les données doivent être envoyées à l’élément [!DNL Edge Network] à l’aide du SDK Web ou du SDK Mobile.
 * La méthode de transfert d’événement réduit le poids et le temps de chargement de la page en raison des balises qui y sont ajoutées.
 * Aucun enrichissement du profil Edge ou d’autres sources de données n’est actuellement pris en charge.
 * Le filtrage limité des données et les transformations de mappage simples sont pris en charge.

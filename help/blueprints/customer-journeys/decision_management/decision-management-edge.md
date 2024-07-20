@@ -10,17 +10,17 @@ ht-degree: 80%
 
 ---
 
-# JOURNEY OPTIMIZER - [!DNL Decision Management] sur le plan directeur Edge
+# Journey Optimizer - [!DNL Decision Management] sur le plan directeur Edge
 
-[!DNL Decision Management] est un service fourni dans le cadre d’ [!DNL Journey Optimizer]. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
+[!DNL Decision Management] est un service fourni dans le cadre de [!DNL Journey Optimizer]. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 
 >[!MORELIKETHIS]
 >
->Pour en savoir plus sur [!DNL Decision Management], voir [présentation du plan directeur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr) ou accéder à la fonction [documentation du produit](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr).
+>Pour en savoir plus sur [!DNL Decision Management], consultez la [présentation du plan directeur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=fr) ou consultez la [documentation du produit](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr).
 
-[!DNL Decision Management] peut être déployé de l’une des deux façons suivantes. La première est via le [!DNL Experience Platform] Hub, qui est une architecture de centre de données unique. L’approche de type « hub » permet d’exécuter, de personnaliser et de diffuser les offres avec une latence en secondes. L’architecture du hub est donc mieux adaptée aux expériences client qui ne demandent pas de latence inférieure à une seconde, par exemple pour les prises de décisions sur les offres pour les kiosques ou les expériences assistées par agent, telles que dans les centres d’appel ou les interactions en personne.
+[!DNL Decision Management] peut être déployé de l’une des deux façons suivantes. Le premier s’effectue via le [!DNL Experience Platform] Hub, qui est une architecture de centre de données unique. L’approche de type « hub » permet d’exécuter, de personnaliser et de diffuser les offres avec une latence en secondes. L’architecture du hub est donc mieux adaptée aux expériences client qui ne demandent pas de latence inférieure à une seconde, par exemple pour les prises de décisions sur les offres pour les kiosques ou les expériences assistées par agent, telles que dans les centres d’appel ou les interactions en personne.
 
-La seconde méthode consiste à utiliser l’Experience Platform [!DNL Edge Network], qui est une infrastructure géographiquement distribuée à l’échelle mondiale qui fournit des expériences de sous-seconde et de milliseconde rapides. Expérience client finale exécutée par l’infrastructure Edge la plus proche de la géolocalisation des consommateurs afin de minimiser la latence. [!DNL Decision Management] sur Edge est conçu pour offrir des expériences client en temps réel. Il s’agit notamment des expériences telles que les demandes de personnalisation entrantes web ou mobiles.
+La seconde approche est via l’Experience Platform [!DNL Edge Network], qui est une infrastructure géographiquement répartie mondialement et qui sert des expériences de sous-seconde et de millisecondes rapides. Expérience client finale exécutée par l’infrastructure Edge la plus proche de la géolocalisation des consommateurs afin de minimiser la latence. [!DNL Decision Management] sur Edge est conçu pour proposer des expériences client en temps réel. Il s’agit notamment des expériences telles que les demandes de personnalisation entrantes web ou mobiles.
 
 Ce plan directeur couvrira les détails de la gestion des décision sur Edge.
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 
 * Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## Modèles de mise en œuvre

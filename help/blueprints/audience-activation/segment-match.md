@@ -5,7 +5,7 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2118'
 ht-degree: 80%
 
 ---
@@ -44,7 +44,7 @@ Le service [!UICONTROL Correspondance de segment] permet aux équipes marketing 
 
 ## Architecture
 
-![Architecture de correspondance de segment](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Architecture du service Correspondance de segment](assets/architecture-segment-match.png){zoomable="yes"}
 
 Le service [!UICONTROL Correspondance de segment] n’est pas une place de marché de données où les données peuvent être achetées. Il s’agit plutôt d’une fonctionnalité AEP qui fonctionne avec des données propriétaires et des partenaires sélectionnés, en utilisant des contrôles de confidentialité et de consentement pour faciliter la collaboration. Le service [!UICONTROL Correspondance de segment] permet de concentrer les efforts sur l’amélioration des relations avec les clients et le développement de la marque. Il est bénéfique est bénéfique lorsqu’il existe des marques ou des relations de partenariat préexistantes. L’expérience [!UICONTROL Correspondance de segment] est facile à gérer, évolutive et permet aux administrateurs de partager des segments de manière consentie et contrôlable.
 
@@ -77,7 +77,7 @@ Les conditions préalables pour le service [!UICONTROL Correspondance de segment
 
 Le flux de gestion des partenaires du service [!UICONTROL Correspondance de segment] est sécurisé par RBAC. Seules les personnes disposant des autorisations adéquates peuvent initier, accepter ou gérer des partenaires. Cette opération peut être effectuée dans la section Ingestion de données du profil de produit. Les autorisations suivantes sont requises :
 
-![Connexion au partage d’audience](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Connexion du partage d’audience](assets/data-ingestion.png){zoomable="yes"}
 
 | Autorisation | Description |
 |---|---|
@@ -140,13 +140,13 @@ Dans le cadre de ce workflow de partage de segments, le partenaire émetteur peu
 
 Le flux du processus global est le suivant :
 
-![Partage de segments](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![Partage de segments](assets/segment-sharing.png){zoomable="yes"}
 
 Ces estimations de chevauchement offrent des informations clés, la découverte de partenaires et des données pour alimenter les accords de collaboration en matière de données. Aucune donnée sur les clients ou les segments n’est déplacée d’une sandbox vers une autre pour obtenir ces mesures d’estimation de chevauchement. Les identités applicables sélectionnées par le client et préhachées dans une sandbox donnée sont ajoutées à une structure de données probabiliste qui permet à Adobe d’effectuer des opérations d’union et d’intersection entre elles. Ces opérations permettent au service [!UICONTROL Correspondance de segment] d’obtenir l’intersection estimée de deux structures de données composées d’identités provenant de deux sandbox différentes sans avoir à comparer les valeurs réelles.
 
 Le processus de chevauchement d’identités dépend du jeu de données d’**exportation quotidienne de profil complet** des sandbox de l’émetteur et du récepteur afin d’identifier les profils communs qui appartiennent aux segments partagés. Le flux détaillé du processus de chevauchement est illustré ci-dessous :
 
-![Processus de chevauchement des identités](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![Processus de chevauchement des identités](assets/overlap-process.png){zoomable="yes"}
 
 Une fois le partage de segments terminé par le partenaire émetteur, le partenaire récepteur reçoit une notification sur le flux de segments partagé. Ce flux de segments doit être activé pour le profil au niveau du récepteur pour lancer le flux de données d’appartenance à un segment. Seule l’appartenance à un segment est ingérée dans les fragments de profil se chevauchant de l’organisation IMS réceptrice et aucune identité supplémentaire n’est transférée de l’émetteur vers le récepteur.
 
@@ -170,7 +170,7 @@ Avec les restrictions croissantes autour des cookies tiers et des identifiants d
 
 Vous pouvez utiliser la correspondance de segments Adobe Experience Platform dans le cadre d’une collaboration d’audience axée sur la confidentialité et améliorer les offres privées programmatiques entre les annonceurs et les éditeurs. Avec la correspondance de segment, vous pouvez :
 
-* Partage **Trafic publicitaire** et **Audience** workflows.
+* Fractionner les workflows **Trafic publicitaire** et **Audience** .
 * Permet aux marques partenaires de partager les métadonnées d’audience pour les identités communes et de consentement à l’aide d’identifiants durables tels que le courrier électronique haché et le numéro de téléphone haché dans le cadre d’un processus appliqué par le consentement.
 
 ### Cas d’utilisation
@@ -194,7 +194,7 @@ Vous pouvez utiliser la correspondance de segments Adobe Experience Platform dan
 
 >[!ENDSHADEBOX]
 
-![Un diagramme du workflow entre la marque et l’éditeur.](./assets/segment-match-blueprints.png)
+![Schéma du workflow entre la marque et l’éditeur.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >

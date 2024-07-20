@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Les garde-fous sont des seuils recommandés qui fournissent des conseils pour les données, les latences observées et l’utilisation du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service, les contrats de niveau de service sont documentés dans les Descriptions de produits ci-dessous et dans les contrats de licence client. Les garde-fous sont destinés à fournir des conseils pour la conception de solutions pour des cas d’utilisation spécifiques des clients afin d’assurer la stabilité et l’exécution.
 
-Pour plus d’informations sur les contrats de niveau de service spécifiques relatifs aux applications et fonctionnalités, reportez-vous à la section [Descriptions des applications et fonctionnalités](#application-feature-descriptions) au bas de cette page.
+Pour plus d’informations sur les contrats de niveau de service spécifiques pour les applications et fonctionnalités, reportez-vous à la section [Description des applications et fonctionnalités](#application-feature-descriptions) au bas de cette page.
 
 Notez que pour tout cas d’utilisation client ayant des exigences strictes en termes de latence ou de volume, Adobe recommande d’examiner votre cas d’utilisation en détail avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Dans certains cas, il est conseillé de tester et d’observer une mise en oeuvre d’un cas d’utilisation spécifique avant le lancement en production du cas d’utilisation afin d’observer et de comprendre le comportement attendu, car chaque mise en oeuvre client comporte différents facteurs en jeu, notamment la nature et la cadence de l’ingestion des données, les spécificités des règles de segment en cours de création et les différents canaux d’activation et payloads. Chaque mise en oeuvre de cas d’utilisation aura des performances observées variables. Il est donc préférable d’établir et de tester les performances attendues à l’avance afin d’assurer une architecture et une mise en oeuvre appropriées en fonction des besoins de latence et de performance du cas d’utilisation.
 
@@ -28,41 +28,41 @@ Les pages suivantes fournissent des informations sur les barrières de sécurit�
 
 * [Présentation des barrières de sécurité Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
 * [Barrières de sécurité de partage d’audience Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Protections de l’ingestion des données du Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Barrières de sécurité de l’ingestion des données du Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
 * [Barrières de sécurité Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Services Experience Platform**
 
 * [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
 * [[!DNL Edge Network] Barrières de sécurité de l’API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
-* [Barrières de sécurité de la segmentation et du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* [ Barrières de sécurité du profil client et de la segmentation en temps réel ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [Garde-fous des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=fr)
 * [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)
 * [Garde-fous de l’activation de la destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=fr)
 
 ## Diagrammes de latence de bout en bout {#end-to-end-latency}
 
-### Latences observées des Principal réseau et Hub Experience Platform {#edge-hub-latencies}
+### Latences observées des Edge Network Experience Platform et des Principal Hub {#edge-hub-latencies}
 
 Le diagramme suivant illustre les latences observées au niveau de la périphérie principale et du hub lors de l’architecture du cas d’utilisation sur l’Experience Platform et les applications.
 
-![Experience Platform [!DNL Edge Network] et hub des latences principales observées.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Réseau Edge Experience Platform et latences principales observées"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] et hub Principales latences observées.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Edge Network Experience Platform et hub Principales latences observées"){width="1000" zoomable="yes"}
 
 ### Ingestion de données {#data-ingestion}
 
-Le diagramme ci-dessous affiche les valeurs de latence d’ingestion de données attendues via [ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) et [ingestion par lots](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=fr) lors de l’importation de données dans Real-Time CDP. Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence d’ingestion de données attendues par [ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) et [ingestion par lots](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=fr) lors de l’importation de données dans Real-Time CDP. Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Présentation visuelle de haut niveau de l’ingestion de données.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Présentation visuelle de haut niveau de l’ingestion de données et valeurs de latence"){width="1000" zoomable="yes"}
 
 ### Segmentation {#segmentation}
 
-Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’utilisation d’audiences dans [Service de segmentation Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’utilisation d’audiences dans le [service de segmentation Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
 
-![Présentation visuelle de haut niveau de la segmentation.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Présentation visuelle de haut niveau de la segmentation et valeurs de latence"){width="1000" zoomable="yes"}
+![Présentation visuelle de haut niveau de segmentation.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Présentation visuelle de haut niveau de segmentation et valeurs de latence"){width="1000" zoomable="yes"}
 
-### REAL-TIME CUSTOMER DATA PLATFORM &amp; [!DNL Edge Network] {#adobe-edge-latency}
+### Real-time Customer Data Platform &amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’utilisation de la variable [!DNL Edge Network] - par exemple, pour exploiter les audiences RTCDP dans [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’utilisation de [!DNL Edge Network], par exemple pour exploiter les audiences RTCDP dans [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Présentation visuelle de haut niveau d’Adobe Edge Network et d’Experience Platform.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exportation d’audiences vers un aperçu visuel de haut niveau d’Adobe Target et latence"){width="1000" zoomable="yes"}
 
@@ -70,13 +70,13 @@ Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’uti
 
 Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Cliquez sur l’image pour afficher une version haute résolution.
 
-![Utilisation d’un aperçu visuel de haut niveau de Customer Journey Analytics.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Utilisation des valeurs de latence et d’aperçu visuel de haut niveau de Customer Journey Analytics"){width="1000" zoomable="yes"}
+![Utilisation d’un aperçu visuel de haut niveau de Customer Journey Analytics.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Utilisation de valeurs de latence et d’aperçu visuel de haut niveau de Customer Journey Analytics"){width="1000" zoomable="yes"}
 
 ### Journey Optimizer {#journey-optimizer}
 
 Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Cliquez sur l’image pour afficher une version haute résolution.
 
-![Utilisation d’un aperçu visuel de haut niveau de Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Utilisation des valeurs de latence et d’aperçu visuel de haut niveau de Adobe Journey Optimizer"){width="1000" zoomable="yes"}
+![Utilisation d’un aperçu visuel de haut niveau de Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Utilisation de la présentation visuelle de haut niveau de Adobe Journey Optimizer et des valeurs de latence"){width="1000" zoomable="yes"}
 
 ## Descriptions des applications et fonctionnalités {#application-feature-descriptions}
 
