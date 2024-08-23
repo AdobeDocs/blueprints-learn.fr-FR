@@ -4,7 +4,7 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ Les pages suivantes fournissent des informations sur les barrières de sécurit�
 
 Le diagramme suivant illustre les latences observées au niveau de la périphérie principale et du hub lors de l’architecture du cas d’utilisation sur l’Experience Platform et les applications.
 
-![Experience Platform [!DNL Edge Network] et hub Principales latences observées.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Edge Network Experience Platform et hub Principales latences observées"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] et hub Principales latences observées.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Edge Network Experience Platform et hub Principales latences observées"){width="1000" zoomable="yes"}
 
 ### Ingestion de données {#data-ingestion}
 
