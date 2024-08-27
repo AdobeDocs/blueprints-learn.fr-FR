@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
+source-git-commit: 5095a3aed75c727f0e28aaa07587994a23020448
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 56%
+source-wordcount: '243'
+ht-degree: 55%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 56%
 + Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
+   + [Activation du compte B2B](/help/blueprints/b2b/b2b-account-activation.md)
    + Plan directeur d’intégration de Marketo Engage et Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Présentation](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Inprise et création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
