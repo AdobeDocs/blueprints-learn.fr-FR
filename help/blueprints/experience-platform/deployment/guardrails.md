@@ -4,12 +4,13 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
+source-git-commit: 64d5e2514d54b3879b09a1dc49d37a2867e21deb
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 10%
 
 ---
+
 
 # Garde-fous
 Les barrières de sécurité reflètent les contraintes du système, les latences attendues et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation et d’assurer la stabilité, d’éviter les erreurs ou les résultats inattendus.
