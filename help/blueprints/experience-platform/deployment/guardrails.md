@@ -4,21 +4,30 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
+source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '603'
+ht-degree: 10%
 
 ---
 
 # Garde-fous
+Les barrières de sécurité reflètent les contraintes du système, les latences attendues et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation et d’assurer la stabilité, d’éviter les erreurs ou les résultats inattendus.
 
-Les garde-fous sont des seuils recommandés qui fournissent des conseils pour les données, les latences observées et l’utilisation du système dans Adobe Experience Platform et les applications. Les barrières de sécurité reflètent les contraintes de système et les attentes de performances afin d’optimiser l’architecture des clients et les performances des cas d’utilisation, et permettent d’éviter des erreurs ou des résultats inattendus. Les barrières de sécurité ne sont pas destinées à être des contrats de niveau de service, les contrats de niveau de service sont documentés dans les Descriptions de produits ci-dessous et dans les contrats de licence client. Les garde-fous sont destinés à fournir des conseils pour la conception de solutions pour des cas d’utilisation spécifiques des clients afin d’assurer la stabilité et l’exécution.
+## Types de garde-fous
 
-Pour plus d’informations sur les contrats de niveau de service spécifiques pour les applications et fonctionnalités, reportez-vous à la section [Description des applications et fonctionnalités](#application-feature-descriptions) au bas de cette page.
+| Type de protection | Description |
+|---|---|
+| Barrière de sécurité des performances (limite de soft) | Les barrières de performance sont des limites d’utilisation qui se rapportent à la portée de vos cas d’utilisation et mettent en avant les performances attendues dans des conditions normales. En cas de dépassement, vous pouvez subir une dégradation des performances et une latence. Les protections de performances sont documentées dans les documents Experience League sous les sections de barrières de sécurité pour chaque solution, comme indiqué ci-dessous. |
+| Limite statique (limite stricte) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées par contrat et décrites dans le contrat client et les [Descriptions des produits](https://helpx.adobe.com/legal/product-descriptions.html). |
 
-Notez que pour tout cas d’utilisation client ayant des exigences strictes en termes de latence ou de volume, Adobe recommande d’examiner votre cas d’utilisation en détail avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Dans certains cas, il est conseillé de tester et d’observer une mise en oeuvre d’un cas d’utilisation spécifique avant le lancement en production du cas d’utilisation afin d’observer et de comprendre le comportement attendu, car chaque mise en oeuvre client comporte différents facteurs en jeu, notamment la nature et la cadence de l’ingestion des données, les spécificités des règles de segment en cours de création et les différents canaux d’activation et payloads. Chaque mise en oeuvre de cas d’utilisation aura des performances observées variables. Il est donc préférable d’établir et de tester les performances attendues à l’avance afin d’assurer une architecture et une mise en oeuvre appropriées en fonction des besoins de latence et de performance du cas d’utilisation.
+>[!NOTE]
+>
+> Les barrières de sécurité ne sont pas destinées à être des accords de niveau de service, mais plutôt des conseils pour des configurations optimales et le comportement attendu du système. Toute barrière de sécurité qui est une limite du système ou contractuelle ou un accord de niveau de service sera documentée spécifiquement dans les contrats clients et les descriptions de produits. Si vous souhaitez en savoir plus sur les limites personnalisées, contactez votre représentant de l’assistance clientèle.
 
+>[!NOTE]
+>
+> Pour les cas d’utilisation présentant des besoins stricts en termes de latence ou de performances, Adobe vous suggère de discuter des détails avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Chaque configuration de client peut varier selon les schémas d’ingestion de données, les règles de segment et les canaux d’activation. Il est important de tester et de passer en revue votre cas d’utilisation avant de le lancer afin de comprendre comment il se comporte.
 
 ## Documentation de référence sur les garde-fous pour Adobe Experience Platform et les applications
 
@@ -77,19 +86,3 @@ Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous ut
 Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Utilisation d’un aperçu visuel de haut niveau de Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Utilisation de la présentation visuelle de haut niveau de Adobe Journey Optimizer et des valeurs de latence"){width="1000" zoomable="yes"}
-
-## Descriptions des applications et fonctionnalités {#application-feature-descriptions}
-
-Pour plus d’informations sur les contrats de niveau de service spécifiques à une fonctionnalité, reportez-vous aux descriptions de produit ci-dessous :
-
-* [Experience Platform Collection Enterprise](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Plateforme de données clients B2B](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Intelligent Services](https://helpx.adobe.com/fr/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/fr/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/fr/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe Journey Orchestration](https://helpx.adobe.com/fr/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html)
