@@ -4,9 +4,9 @@ description: Les garde-fous définissent les attentes en matière de performance
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Les barrières de sécurité reflètent les contraintes du système, les latence
 
 >[!NOTE]
 >
-> Pour les cas d’utilisation présentant des besoins stricts en termes de latence ou de performances, Adobe vous suggère de discuter des détails avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Chaque configuration de client peut varier selon les schémas d’ingestion de données, les règles de segment et les canaux d’activation. Il est important de tester et de passer en revue votre cas d’utilisation avant de le lancer afin de comprendre comment il se comporte.
+> Pour les cas d’utilisation présentant des besoins stricts en termes de latence ou de performances, Adobe vous suggère de discuter des détails avec votre équipe de compte d’Adobe et votre partenaire d’implémentation. Chaque configuration de client peut varier selon les schémas d’ingestion de données, le nombre et la richesse des profils, les règles de segment et les canaux d’activation. Il est donc important d’concevoir et de tester votre cas d’utilisation afin d’optimiser ses performances et de comprendre pleinement les caractéristiques de performances attendues.
 
 ## Documentation de référence sur les garde-fous pour Adobe Experience Platform et les applications
 
