@@ -3,16 +3,18 @@ title: Plans directeurs de la gestion des décisions
 description: Proposez des offres personnalisées sur l’ensemble des parcours clients.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer - Plans directeurs de la gestion des décisions
 
 Pour en savoir plus sur la gestion des décisions, consultez la [documentation produit](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr).
+
+Reportez-vous à la documentation suivante pour les garde-fous liés à la gestion de la décision. [Barrières de sécurité de la gestion de la décision](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 
@@ -42,8 +44,6 @@ La première par le biais du hub Adobe Experience Platform, qui est une archit
 
 ### Considérations techniques de la gestion des décisions sur le hub
 
-* Demandes par seconde = 2000.
-* Latence de la réponse &lt; 500 ms.
 * Accès au profil client en temps réel complet, y compris aux abonnements, aux attributs et aux événements d’expérience de l’audience.
 
 ## Gestion des décisions sur Edge   
@@ -57,10 +57,7 @@ La deuxième approche est via l’expérience [!DNL Edge Network], qui est une i
 
 ### Considérations techniques de la gestion des décisions sur le Edge
 
-* Demandes par seconde = 5 000.
-* Latence de la réponse &lt; 250 ms.
 * Accès au profil en temps réel Edge. Seules les audiences projetées et les attributs de profil sur Edge seront disponibles dans le profil.
-* Si la personnalisation est requise au cours des premières expériences, le hub sera la solution idéale car le profil complet est disponible. Le profil Edge doit être synchronisé à partir du hub pour la première expérience sur Edge. Par conséquent, la toute première expérience à partir du serveur Edge n’inclut pas les données de profil transférées au préalable vers le hub.
 
 ## Documentation connexe
 
