@@ -3,7 +3,7 @@ title: Journey Optimizer avec plan directeur Adobe Campaign v8
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -39,7 +39,7 @@ Vérifiez les conditions préalables suivantes pour chaque application.
 
 ## Garde-fous
 
-* [ Limites de produit des protections Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
+* [ Limites de produit des protections Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 * [Barrières de sécurité et conseils de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 

@@ -1,9 +1,9 @@
 ---
-title: "[!DNL Journey Optimizer] - Messagerie déclenchée et plan directeur Adobe Experience Platform"
+title: '[!DNL Journey Optimizer] - Messagerie déclenchée et plan directeur Adobe Experience Platform'
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 53%
@@ -66,7 +66,7 @@ Mobile Push :
 
 ## Garde-fous
 
-[[!DNL Journey Optimizer] Lien de produit de garde](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[[!DNL Journey Optimizer] Lien de produit de garde](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
