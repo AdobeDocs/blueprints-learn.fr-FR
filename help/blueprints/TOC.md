@@ -5,7 +5,7 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -25,13 +25,13 @@ ht-degree: 53%
       + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
    + {#known-customer-audience-activation} de Real-time Customer Data Platform (RTCDP)
       + [Activation des canaux sociaux et publicitaires](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activation vers des destinations de streaming de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Concentrateur d’activités client](/help/blueprints/audience-activation/customer-activity.md)
       + [Correspondance de segments](/help/blueprints/audience-activation/segment-match.md)
-      + [Target et RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
+      + [Target et RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + Activation et marketing B2B {#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)

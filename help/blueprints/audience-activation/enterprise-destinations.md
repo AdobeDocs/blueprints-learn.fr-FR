@@ -4,10 +4,10 @@ description: Activation d’audiences et de profils vers des destinations d’en
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Garde-fous
 
-[Référez-vous aux garde-fous tels que décrits sur la page de présentation d’Audience et Profil Activation](overview.md)
+[Reportez-vous aux mécanismes de sécurisation comme indiqué sur la page Mécanismes de sécurisation.](../experience-platform/deployment/guardrails.md)
 
 ## Étapes de mise en œuvre
 
