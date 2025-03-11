@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
+source-git-commit: 616f2ba96d18b682d92e58dc06ae1b61a6c46ab4
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 54%
+source-wordcount: '204'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 54%
       + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
-   + [Présentation](/help/blueprints/audience-activation/overview.md)
    + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
    + {#known-customer-audience-activation} de Real-time Customer Data Platform (RTCDP)
       + [Présentation](/help/blueprints/audience-activation/known.md)
