@@ -3,7 +3,7 @@ title: Plan directeur Journey Optimizer avec Adobe Campaign v7
 description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour envoyer des messages en mode natif à l’aide du serveur de messagerie en temps réel dans Campaign.
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 97%
@@ -45,7 +45,7 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 
 [Lien de produit pour les garde-fous de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Étapes de mise en œuvre
 
@@ -87,11 +87,11 @@ Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe Campaign pour 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Adobe Experience Platform [!DNL Edge Network]
+   * [!DNL Edge Network] Adobe Experience Platform
    * Identité pour [!DNL Edge Network]
    * Mobile Core
 1. Assurez-vous que vous disposez d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
-1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Pour plus d’informations, reportez-vous à la section [Guide d’Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/).
 
    >[!IMPORTANT]
    >Il se peut que les jetons mobiles doivent être collectés à la fois dans Journey Optimizer et Campaign si vous souhaitez envoyer des communications en temps réel via Journey Optimizer et des notifications push par lots via Campaign. Campaign v8 requiert l’utilisation exclusive du SDK Campaign pour capturer des jetons push.

@@ -4,10 +4,10 @@ description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -91,7 +91,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
    * Identité pour [!DNL Edge Network]
    * Mobile Core
 1. Assurez-vous de disposer d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
-1. Pour plus d&#39;informations, suivez le [Guide Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Pour plus d&#39;informations, suivez le [Guide Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/).
 
    >[!IMPORTANT]
    >Il se peut que les jetons mobiles doivent être collectés à la fois dans Journey Optimizer et Campaign si vous souhaitez envoyer des communications en temps réel via Journey Optimizer et des notifications push par lots via Campaign. Campaign v8 requiert l’utilisation exclusive du SDK Campaign pour capturer des jetons push.
