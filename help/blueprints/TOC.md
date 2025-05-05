@@ -26,7 +26,7 @@ ht-degree: 53%
       + [Garde-fous](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activation des audiences et des profils {#audience-activation}
    + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
-   + {#known-customer-audience-activation} de Real-time Customer Data Platform (RTCDP)
+   + de Real-time Customer Data Platform (RTCDP){#known-customer-audience-activation}
       + [Activation des canaux sociaux et publicitaires](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activation vers des destinations de streaming de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Concentrateur d’activités client](/help/blueprints/audience-activation/customer-activity.md)

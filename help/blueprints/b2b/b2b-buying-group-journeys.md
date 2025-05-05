@@ -68,11 +68,11 @@ La solution axée sur les comptes nécessite les applications et services suivan
 >
 >L’obtention de licences pour Journey Optimizer B2B edition doit inclure les éléments suivants :
 ><ul><li>Instance B2B edition Journey Optimizer connectée à l’Experience Platform B2B</li><li>Instance de Marketo Engage synchronisée avec RTCDP</li></ul>
-&gt;<br/>
-&gt;Pour les clients Marketo Engage existants, une connexion à l’instance existante est l’approche recommandée.
-&gt;<br/><br/>
-&gt;D’autres extensions sont disponibles pour la solution afin d’améliorer la richesse des profils :
-&gt;<ul><li>Sources supplémentaires vers la plateforme RTCDP pour enrichir le profil</li><li>Destination RTCDP vers Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Pour les clients Marketo Engage existants, une connexion à l’instance existante est l’approche recommandée.
+>&gt;<br/><br/>
+>&gt;D’autres extensions sont disponibles pour la solution afin d’améliorer la richesse des profils :
+>&gt;<ul><li>Sources supplémentaires vers la plateforme RTCDP pour enrichir le profil</li><li>Destination RTCDP vers Marketo Engage</li></ul>
 
 La mise en oeuvre de cette solution nécessite également une compréhension claire du concept de _compte_ et de _groupe d’achats_, ainsi que de la manière dont ils amplifient et accélèrent votre qualification de piste de vente. Grâce à cette compréhension, vous devez également identifier le score d’exhaustivité de groupe d’achats souhaité.
 

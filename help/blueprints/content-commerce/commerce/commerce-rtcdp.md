@@ -67,6 +67,6 @@ Pour obtenir la liste complète des événements pris en charge, reportez-vous �
 
 | Guide | Lien |
 |:----|:----|
-| Connecteur Platform | [ {Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
+| Connecteur Platform | [ &lbrace;Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Destination Commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
 | Edge Personalization | [Activer les audiences vers les destinations de personnalisation de périphérie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |

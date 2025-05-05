@@ -15,7 +15,7 @@ Le nombre de requêtes marketing qui entrent dans une équipe d’opérations ma
 
 À travers la mise en place d’un processus d’envoi de requêtes de campagne et l’automatisation de la création de campagnes marketing fréquemment demandées, vous pouvez : augmenter la vitesse de vos campagnes, réduire les erreurs, acheminer les requêtes vers le bon membre des opérations marketing, équilibrer et améliorer l’utilisation des ressources et concentrer davantage vos opérations marketing sur des tâches plus stratégiques.
 
-Avec Workfront et Marketo Engage, une connexion entre les deux systèmes permet de consulter les détails d’un [formulaire de requête Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr) pour créer un programme Marketo Engage. Il suffit ensuite de renseigner des variables clés telles que : lignes d’objet, copie d’e-mail, images, dates, heures, informations sur les événements, etc.{target="_blank"}
+Avec Workfront et Marketo Engage, une connexion entre les deux systèmes permet de consulter les détails d’un [formulaire de requête Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr){target="_blank"} pour créer un programme Marketo Engage. Il suffit ensuite de renseigner des variables clés telles que : lignes d’objet, copie d’e-mail, images, dates, heures, informations sur les événements, etc.
 
 Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fusion, un calque d’automatisation de travail qui vous permet d’automatiser les workflows entre Workfront et d’autres systèmes.
 
