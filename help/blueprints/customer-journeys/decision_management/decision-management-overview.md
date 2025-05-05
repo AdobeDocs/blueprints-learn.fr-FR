@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Pour en savoir plus sur la gestion des décisions, consultez la [documentation produit](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr).
 
-Reportez-vous à la documentation suivante pour les garde-fous liés à la gestion de la décision. [Barrières de sécurité de la gestion de la décision](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
+Reportez-vous à la documentation suivante pour les garde-fous liés à la gestion de la décision. [Barrières de sécurité de la gestion de la décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 

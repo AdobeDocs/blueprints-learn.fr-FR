@@ -21,7 +21,7 @@ Les barrières de sécurité reflètent les contraintes du système, les latence
 | Type de protection | Description |
 |---|---|
 | Barrière de sécurité des performances (limite de soft) | Les barrières de performance sont des limites d’utilisation qui se rapportent à la portée de vos cas d’utilisation et mettent en avant les performances attendues dans des conditions normales. En cas de dépassement, vous pouvez subir une dégradation des performances et une latence. Les protections de performances sont documentées dans les documents Experience League sous les sections de barrières de sécurité pour chaque solution, comme indiqué ci-dessous. |
-| Limite statique (limite stricte) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées par contrat et décrites dans le contrat client et les [Descriptions des produits](https://helpx.adobe.com/legal/product-descriptions.html). |
+| Limite statique (limite stricte) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées par contrat et décrites dans le contrat client et les [Descriptions des produits](https://helpx.adobe.com/fr/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ Les pages suivantes fournissent des informations sur les barrières de sécurit�
 
 **Applications Experience Platform**
 
-* [Présentation des barrières de sécurité Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Barrières de sécurité de partage d’audience Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Barrières de sécurité de l’ingestion des données du Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Barrières de sécurité Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Présentation des barrières de sécurité Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=fr)
+* [Barrières de sécurité de partage d’audience Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr#latency)
+* [Barrières de sécurité de l’ingestion des données du Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Barrières de sécurité Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr)
 
 **Services Experience Platform**
 
-* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] Barrières de sécurité de l’API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
+* [[!DNL Edge Network] Barrières de sécurité de l’API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 * [ Barrières de sécurité du profil client et de la segmentation en temps réel ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [Garde-fous des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=fr)
 * [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)
@@ -61,7 +61,7 @@ Le diagramme suivant illustre les latences observées au niveau de la périphér
 
 ### Ingestion de données {#data-ingestion}
 
-Le diagramme ci-dessous affiche les valeurs de latence d’ingestion de données attendues par [ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) et [ingestion par lots](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=fr) lors de l’importation de données dans Real-Time CDP. Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence d’ingestion de données attendues par [ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr) et [ingestion par lots](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=fr) lors de l’importation de données dans Real-Time CDP. Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Présentation visuelle de haut niveau de l’ingestion de données.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Présentation visuelle de haut niveau de l’ingestion de données et valeurs de latence"){width="1000" zoomable="yes"}
 
@@ -79,12 +79,12 @@ Le diagramme ci-dessous affiche les valeurs de latence attendues lors de l’uti
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
-Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Utilisation d’un aperçu visuel de haut niveau de Customer Journey Analytics.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Utilisation de valeurs de latence et d’aperçu visuel de haut niveau de Customer Journey Analytics"){width="1000" zoomable="yes"}
 
 ### Journey Optimizer {#journey-optimizer}
 
-Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Cliquez sur l’image pour afficher une version haute résolution.
+Le diagramme ci-dessous affiche les valeurs de latence attendues lorsque vous utilisez [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=fr). Cliquez sur l’image pour afficher une version haute résolution.
 
 ![Utilisation d’un aperçu visuel de haut niveau de Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Utilisation de la présentation visuelle de haut niveau de Adobe Journey Optimizer et des valeurs de latence"){width="1000" zoomable="yes"}

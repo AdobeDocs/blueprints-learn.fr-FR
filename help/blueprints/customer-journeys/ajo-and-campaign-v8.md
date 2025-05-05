@@ -40,9 +40,9 @@ Examinez les conditions préalables suivantes pour chaque application.
 
 ## Garde-fous
 
-* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
 
 ## Étapes de mise en œuvre
 
@@ -52,7 +52,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 #### Schéma/jeux de données
 
-1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
+1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
 1. (Facultatif) Créez des schémas basés sur la classe d’événements d’expérience pour les tables broadLog, trackingLog et d’adresses non délivrables d’Adobe Campaign.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
@@ -68,7 +68,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 #### Sources/destinations
 
-1. [Ingérer des données dans [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs source.
+1. [Ingérer des données dans [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs source.
 
 ### Journey Optimizer
 

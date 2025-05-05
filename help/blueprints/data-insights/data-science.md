@@ -33,9 +33,9 @@ Les insights modélisés peuvent être ingérés dans [!DNL Experience Platform]
 
 ## Étapes de mise en œuvre
 
-1. [Créez des schémas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
+1. [Créez des schémas](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) pour les données à ingérer.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) pour les données à ingérer.
-1. [Ingérer des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans [!DNL Experience Platform].
+1. [Ingérer des données](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) dans [!DNL Experience Platform].
 
 Pour que les résultats de modèle soient ingérés dans le profil client en temps réel, suivez les opérations suivantes avant d’ingérer des données :
 

@@ -18,7 +18,7 @@ Ces diagrammes d’architecture montrent la manière dont Experience Platform (A
 
 >[!MORELIKETHIS]
 >
->[Configurations d’intégration pour les intégrations d’applications Experience Cloud](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[Configurations d’intégration pour les intégrations d’applications Experience Cloud](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=fr).
 
 
 ## Diagramme d’architecture

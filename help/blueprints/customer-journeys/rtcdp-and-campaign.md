@@ -52,7 +52,7 @@ Les sections suivantes décrivent les étapes de mise en oeuvre de chaque applic
 
 #### Schéma/jeux de données
 
-1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
+1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
 1. Créez des schémas d&#39;Adobe [!DNL Campaign] pour broadLog, trackingLog, les adresses en échec et les préférences de profil (facultatif).
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
@@ -70,7 +70,7 @@ Les sections suivantes décrivent les étapes de mise en oeuvre de chaque applic
 
 1. [Experience Platform et  [!DNL Campaign] Sources et destinations standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=fr)
 1. [Experience Platform et  [!DNL Campaign] Sources et destinations v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=fr)
-1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
+1. [Ingérez des données dans Experience Platform](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs sources.
 1. Configurez la destination de stockage blob [!DNL Azure] à utiliser avec l&#39;Adobe [!DNL Campaign].
 
 #### Adobe [!DNL Campaign]

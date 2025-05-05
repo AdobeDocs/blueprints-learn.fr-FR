@@ -56,7 +56,7 @@ Pour ce faire, tenez compte des étapes ci-dessous pour réaliser une intégrati
 
 ### Configuration d’un projet Workfront avec une tâche Prêt pour la révision {#configure-a-workfront-project-with-a-ready-for-review-task}
 
-Utilisez des [modèles de projet](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html){target="_blank"} pour capturer la plupart des processus, informations et paramètres répétables associés aux projets de votre entreprise. Vous pouvez définir des tâches, des rubriques de file d’attente, créer des formulaires personnalisés et joindre des documents à votre modèle.
+Utilisez des [modèles de projet](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=fr){target="_blank"} pour capturer la plupart des processus, informations et paramètres répétables associés aux projets de votre entreprise. Vous pouvez définir des tâches, des rubriques de file d’attente, créer des formulaires personnalisés et joindre des documents à votre modèle.
 
 Dans votre modèle de projet dans Workfront, incluez des tâches pour examiner les ressources qui font partie de votre campagne marketing. De plus, vous pouvez ajouter un processus d’approbation pour gérer les approbations uniques ou les approbations à plusieurs niveaux plus complexes.
 
@@ -66,7 +66,7 @@ Si vous souhaitez lancer une nouvelle campagne par e-mail, vous devez disposer d
 
 ### Programmez le déclenchement de l’e-mail de votre Marketo Engage en synchronisation avec un changement de statut de la tâche dans Workfront {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
-Dans le cadre de votre processus de révision, vous pourriez vouloir synchroniser les e-mails avec votre projet Workfront une fois qu’ils seront prêts à être examinés par votre équipe marketing. Pour ce faire, nous vous recommandons de configurer une tâche Prêt pour la révision avec un [statut de la tâche](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html){target="_blank"} qui indique le moment où l’e-mail est prêt à être examiné. Dans notre exemple, nous avons ajouté à notre tâche le statut Réviser l’e-mail Marketo qui peut être sélectionné lorsque le brouillon d’e-mail est prêt à être examiné par les parties prenantes.
+Dans le cadre de votre processus de révision, vous pourriez vouloir synchroniser les e-mails avec votre projet Workfront une fois qu’ils seront prêts à être examinés par votre équipe marketing. Pour ce faire, nous vous recommandons de configurer une tâche Prêt pour la révision avec un [statut de la tâche](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=fr){target="_blank"} qui indique le moment où l’e-mail est prêt à être examiné. Dans notre exemple, nous avons ajouté à notre tâche le statut Réviser l’e-mail Marketo qui peut être sélectionné lorsque le brouillon d’e-mail est prêt à être examiné par les parties prenantes.
 
 Lorsque ce statut est inclus dans votre projet Workfront, vous pouvez configurer votre scénario de fusion Workfront pour voir la tâche Prêt pour la révision être mise à jour et devenir &quot;Réviser l’e-mail Marketo&quot;. Une fois la tâche mise à jour, votre scénario peut récupérer l’e-mail de Marketo Engage sous la forme d’un fichier HTML, le compresser et en enregistrer une copie dans les documents du projet Workfront à réviser.
 
@@ -78,7 +78,7 @@ Une fois que le statut de votre tâche Prêt pour la révision est mis à jour e
 
 ### Utilisation de la vérification de Workfront pour collaborer au moyen de commentaires et d’annotations {#use-workfront-proofing-to-collaborate}
 
-Les fonctionnalités de [vérification de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu’une image ou un email, et de collaborer par le biais de commentaires et d’annotations. Une fois qu’un BAT est prêt à être mis en service, les décideurs peuvent approuver la ressource à partir de l’outil de vérification.
+Les fonctionnalités de [vérification de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=fr){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu’une image ou un email, et de collaborer par le biais de commentaires et d’annotations. Une fois qu’un BAT est prêt à être mis en service, les décideurs peuvent approuver la ressource à partir de l’outil de vérification.
 
 ![Convertir l’écran d’un email](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

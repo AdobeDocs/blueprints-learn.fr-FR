@@ -66,9 +66,9 @@ Mobile Push :
 
 ## Garde-fous
 
-[[!DNL Journey Optimizer] Lien de produit de garde](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Lien de produit de garde](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 
-[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
 
 ## Documentation connexe
 
