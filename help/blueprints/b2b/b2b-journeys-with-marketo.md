@@ -121,7 +121,7 @@ Cette requête renvoie le nombre d’enregistrements de personne qui seront fusi
 >[!NOTE]
 >
 >La table du jeu de données marketo_person_ajo_b2b est utilisée pour fournir un exemple complet de la manière d’utiliser le jeu de données Personne de Marketo.
->>Le jeu de données de votre sandbox se trouve dans l’espace de travail [Jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
+>&#x200B;>Le jeu de données de votre sandbox se trouve dans l’espace de travail [Jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
 
 ```sql
 select
