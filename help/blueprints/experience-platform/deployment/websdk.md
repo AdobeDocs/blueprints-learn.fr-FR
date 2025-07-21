@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: adddd4105afc68379116d8d7208160689ee52c1d
+source-git-commit: 2a8027acb8cbac89aaf920c5143fd36e62d1eceb
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 68%
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 Pour obtenir une présentation et des détails sur le SDK web et mobile, ainsi que sur l’API [!DNL Edge Network] Server, reportez-vous aux sections suivantes.
 
-* [Présentation du SDK web](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
+* [Présentation du SDK web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 * [Présentation du SDK mobile](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network] API du serveur](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
 
