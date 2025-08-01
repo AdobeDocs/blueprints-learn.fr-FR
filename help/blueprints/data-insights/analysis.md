@@ -16,7 +16,7 @@ ht-degree: 50%
 
 L’analyse et l’intelligence des données comprennent la possibilité, au sein de [!DNL Experience Platform], d’effectuer une requête exploratoire et une analyse des données qui existent dans le lac de données.
 
-Le [!DNL Experience Platform]Query Service[!UICONTROL  d’] permet d’exécuter des requêtes SQL sur les données.
+Le [!DNL Experience Platform]Query Service[!UICONTROL &#x200B; d’] permet d’exécuter des requêtes SQL sur les données.
 
 [!DNL Experience Platform] permet d’établir des connexions avec des clients SQL, des interfaces et des outils Business Intelligence (BI) tiers pour se connecter directement aux données dans [!DNL Experience Platform], y accéder et les interroger à l’aide du protocole [!DNL PostgreSQL].
 
