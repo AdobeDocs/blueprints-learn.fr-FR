@@ -21,7 +21,7 @@ Les mécanismes de sécurisation reflètent les contraintes système, les latenc
 | Type de mécanisme de sécurisation | Description |
 |---|---|
 | Mécanisme de sécurisation des performances (limite soft) | Les mécanismes de sécurisation de performances sont des limites d’utilisation liées à la portée de vos cas d’utilisation et décrivent les performances attendues dans des conditions normales. Une fois dépassées, les performances peuvent se dégrader et une latence peut survenir. Les mécanismes de sécurisation de performances sont documentés dans les documents Experience League sous les sections de mécanisme de sécurisation pour chaque solution, comme indiqué ci-dessous. |
-| Limite statique (limite Hard) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées et décrites contractuellement dans le contrat client et la [Description du produit](https://helpx.adobe.com/legal/product-descriptions.html). |
+| Limite statique (limite Hard) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées et décrites contractuellement dans le contrat client et la [Description du produit](https://helpx.adobe.com/fr/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ Les pages suivantes fournissent des informations sur les mécanismes de sécuris
 
 **Applications Experience Platform**
 
-* [Présentation des mécanismes de sécurisation de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Mécanismes de sécurisation du partage d’audience Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Mécanismes de sécurisation de l’ingestion des données de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Présentation des mécanismes de sécurisation de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=fr)
+* [Mécanismes de sécurisation du partage d’audience Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr#latency)
+* [Mécanismes de sécurisation de l’ingestion des données de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr)
 
 **Services Experience Platform**
 
-* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network]  Mécanismes de sécurisation des API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
+* [[!DNL Edge Network]  Mécanismes de sécurisation des API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 * [Mécanismes de sécurisation du profil client et de la segmentation en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [Garde-fous des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=fr)
 * [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)
