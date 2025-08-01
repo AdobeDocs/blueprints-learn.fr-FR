@@ -3,7 +3,7 @@ title: Plan directeur de la gestion des décisions sur le hub
 description: Diffusez à vos clients des offres personnalisées sur plusieurs canaux, notamment des kiosques, des expériences assistées par les agents, ainsi que dans des e-mails et d’autres diffusions sortantes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 80%
@@ -20,7 +20,7 @@ Journey Optimizer vous permet de proposer la meilleure offre et la meilleure ex
 
 La gestion des décisions peut être déployée de deux façons. La première par le biais du hub Adobe Experience Platform, qui est une architecture centrale de centre de données. L’approche « hub » permet d’exécuter, de personnaliser et de diffuser les offres avec une latence supérieure à 500 ms. L’architecture du hub est donc mieux adaptée aux expériences client qui ne demandent pas de latence inférieure à une seconde, par exemple pour les prises de décisions sur les offres pour les kiosques ou les expériences assistées par agent, telles que dans les centres d’appel ou les interactions en personne. Les offres insérées dans les e-mails et les campagnes sortantes sont également alimentées par l’approche hub.
 
-La deuxième approche est via l’expérience [!DNL [!DNL Edge Network]], qui est une infrastructure géographiquement distribuée à l’échelle mondiale qui sert des expériences de sous-seconde et de milliseconde rapides. L’expérience client finale est exécutée par l’infrastructure Edge au plus proche de la localisation géographique des consommateurs afin de minimiser la latence. La gestion des décisions sur Edge est conçue pour fournir des expériences client en temps réel, telles que des demandes de personnalisation entrantes web ou mobile.
+La deuxième approche passe par l’Experience [!DNL [!DNL Edge Network]], qui est une infrastructure géographiquement distribuée à l’échelle mondiale permettant de fournir des expériences rapides pendant moins d’une seconde et pendant des millisecondes. L’expérience client finale est exécutée par l’infrastructure Edge au plus proche de la localisation géographique des consommateurs afin de minimiser la latence. La gestion des décisions sur Edge est conçue pour fournir des expériences client en temps réel, telles que des demandes de personnalisation entrantes web ou mobile.
 
 Ce plan directeur couvre les détails de la gestion des décisions sur le hub.
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 
 ## Cas d’utilisation de la gestion des décisions sur le hub
 
-* Cas d’utilisation de la diffusion en continu où la latence du contexte du profil n’est pas stricte : une latence de 15 minutes ou plus.
+* Cas d’utilisation de diffusion en continu où la latence du contexte de profil n’est pas stricte : latence de 15 minutes ou plus.
 * Offres personnalisées dans les kiosques et dans les expériences en magasin
 * Offres personnalisées par le biais d’une expérience assistée par agent, telles que des centres d’appel ou des interactions commerciales
 * Offres incluses dans les e-mails, SMS, notifications push mobiles ou autres interactions sortantes
@@ -37,7 +37,7 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 
 >[!IMPORTANT]
 >
->Pour les cas d’utilisation d’offres et de parcours qui nécessitent l’accès au profil pour plus d’informations et de contexte. Il est important de tenir compte de la latence associée de l’ingestion de données à profiler sur le hub pour s’assurer qu’elles sont disponibles au moment de la décision. Dans les cas où le contexte est en flux continu ou en ingestion dans un profil et où l’offre ou le parcours doit disposer de ce contexte dans les secondes ou minutes suivant la décision de l’offre, ces scénarios sont mieux servis avec la gestion de la décision dans Edge.
+>Pour les cas d’utilisation d’offres et de parcours qui nécessitent un accès au profil pour plus d’informations et de contexte. Il est important de prendre en compte la latence associée à l’ingestion de données vers le profil sur le hub pour vous assurer qu’elles sont disponibles au moment de la décision. Pour les scénarios où le contexte est en flux continu ou ingéré dans le profil et où l’offre ou le parcours doit disposer de ce contexte dans les secondes ou minutes suivant la décision d’offre, ces scénarios sont mieux pris en charge avec la gestion des décisions sur Edge.
 
 ## Architecture
 
@@ -48,7 +48,7 @@ Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au pla
 * Pour en savoir plus sur les garde-fous Journey Optimizer, consultez [Garde-fous Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=fr).
 * Pour en savoir plus sur les garde-fous de la gestion des décisions, consultez la [description du produit de gestion des décisions](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Barrières de sécurité et guide de latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Modèles de mise en œuvre
 

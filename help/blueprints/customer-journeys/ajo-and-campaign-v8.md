@@ -4,7 +4,7 @@ description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -40,9 +40,9 @@ Examinez les conditions préalables suivantes pour chaque application.
 
 ## Garde-fous
 
-* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
+* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
+* [Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Étapes de mise en œuvre
 
@@ -52,7 +52,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 #### Schéma/jeux de données
 
-1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=fr) dans Experience Platform, en fonction des données fournies par le client.
+1. [Configurez des profils individuels, des événements d’expérience et des schémas multi-entités](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=fr) dans Experience Platform, en fonction des données fournies par le client.
 1. (Facultatif) Créez des schémas basés sur la classe d’événements d’expérience pour les tables broadLog, trackingLog et d’adresses non délivrables d’Adobe Campaign.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
@@ -68,7 +68,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 #### Sources/destinations
 
-1. [Ingérer des données dans [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=fr&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=fr) à l’aide des API de streaming et des connecteurs source.
+1. [Ingérer des données dans [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=fr) à l’aide des API de streaming et des connecteurs source.
 
 ### Journey Optimizer
 
@@ -87,7 +87,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 1. Implémentez [!DNL Experience Platform] Mobile SDK pour collecter des jetons push et des informations de connexion à lier à des profils client connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * [!DNL Journey Optimizer] Adobe | [!DNL Campaign Classic] Adobe | [!DNL Campaign Standard] Adobe
-   * [!DNL Edge Network] de [!DNL Experience Platform] Adobe
+   * [!DNL Experience Platform] de [!DNL Edge Network] Adobe
    * Identité pour [!DNL Edge Network]
    * Mobile Core
 1. Assurez-vous de disposer d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.

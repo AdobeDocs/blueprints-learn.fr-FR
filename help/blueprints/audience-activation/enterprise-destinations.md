@@ -4,7 +4,7 @@ description: Activation d’audiences et de profils vers des destinations d’en
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Documentation connexe
 
-Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Garde-fous
 
-[Reportez-vous aux mécanismes de sécurisation comme indiqué sur la page Mécanismes de sécurisation .](../experience-platform/deployment/guardrails.md)
+[Reportez-vous aux mécanismes de sécurisation comme indiqué sur la page Mécanismes de sécurisation .](../experience-platform/guardrails.md)
