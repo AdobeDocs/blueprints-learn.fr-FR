@@ -68,7 +68,7 @@ Mobile Push :
 
 [[!DNL Journey Optimizer] Lien du produit Mécanismes de sécurisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
 
 ## Documentation connexe
 
