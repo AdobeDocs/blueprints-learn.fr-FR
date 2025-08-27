@@ -102,7 +102,7 @@ Les sections suivantes décrivent les étapes d’implémentation pour chaque ap
    * Vous avez besoin d’une connaissance pratique des balises d’Adobe et de la collecte de données.
    * Vous avez besoin d’une expérience du développement mobile avec les notifications push dans Android et iOS pour le déploiement du SDK, l’intégration avec FCM (Android) et APNS (iOS) pour obtenir un jeton push, la configuration de votre application pour recevoir des notifications push et gérer les interactions push.
 * [!DNL Campaign] Mobile SDK
-   * Voir la documentation de Campaign Classic SDK [](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
+   * Voir la documentation de Campaign Classic SDK [&#128279;](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
 
 >[!IMPORTANT]
 >
