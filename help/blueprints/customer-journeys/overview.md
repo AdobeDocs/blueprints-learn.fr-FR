@@ -1,27 +1,39 @@
 ---
 title: Plans directeurs du parcours client
-description: Procurez des expériences client individuelles et au moment opportun d’un type d’écran à l’autre.
+description: Proposez des expériences client individuelles, juste à temps et orchestrées sur plusieurs écrans.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 67%
+source-wordcount: '221'
+ht-degree: 13%
 
 ---
 
-# Plans directeurs du parcours client
+# Plans directeurs de Parcours client
 
-Les Parcours clients permettent aux marques d’interagir de manière proactive et de communiquer avec leurs clients par le biais de canaux tels que les e-mails, les SMS et les alertes mobiles.
+Les équipes marketing modernes ont besoin de plateformes capables de prendre en charge à la fois l’engagement réactif (en répondant aux comportements individuels des clients) et la sensibilisation proactive (en initiant des campagnes qui guident les audiences dans des entonnoirs de conversion). Ces cas d’utilisation s’étendent sur des canaux tels que les e-mails, les SMS, les notifications push et, de plus en plus, les expériences web et in-app.
 
-Les outils d’orchestration peuvent également s’intégrer à d’autres canaux d’interaction tels que les canaux entrants pour la personnalisation web et mobile en partageant l’état d’audience avec les autres moteurs de décision pour chaque canal en particulier. Un certain nombre de facteurs rentrent en compte lorsqu’il s’agit de déterminer quelles applications et quelles options de déploiement doivent être utilisées pour les Parcours client. Ils peuvent cependant se résumer dans deux approches différentes : réagir à un client lorsqu’il interagit (déclenché) OU réagir à un groupe de clients lorsqu’ils interagissent (planifié).
+Adobe Journey Optimizer et Adobe Campaign v8 prennent tous deux en charge deux modèles fondamentaux pour l’engagement des clients :
 
-Aujourd’hui, les clients peuvent choisir entre deux options Adobe lorsqu’ils souhaitent une solution de Parcours client :
+- Parcours déclenchés par le client ou la cliente : orchestration en temps réel pilotée par les événements en fonction des comportements et des signaux individuels.
+- Campagnes lancées par la marque : notifications push planifiées de manière stratégique qui introduisent des audiences dans les entonnoirs d’engagement en fonction de la segmentation ou de la logique commerciale.
 
-<ul><li>Adobe [!DNL Campaign] Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
+Les deux solutions permettent la communication sortante sur les canaux traditionnels et numériques. AJO prend également en charge l’intégration aux canaux entrants (par exemple, les applications web et mobiles) par le biais du partage de l’état de l’audience et des services de prise de décision, ce qui permet une personnalisation cross-canal unifiée.
+
+Le choix entre ces outils dépend de considérations architecturales telles que la tolérance à la latence, les exigences des canaux, la stratégie d’intégration des données et l’évolutivité.
+
+<br>
 
 | Plan directeur | Description | Architecture |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Créé de manière native sur le profil client en temps réel [!DNL Experience Platforms], ce qui permet aux équipes marketing de réagir en temps réel aux changements de comportement des clients et de les rencontrer où elles se trouvent dans n’importe quel canal à tout moment | <img src="assets/ajo-architecture.svg" alt="Architecture de référence du plan directeur Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | Outil de campagne de nouvelle génération optimisé pour la gestion des données et les processus de campagne extrêmement complexes. Permet aux clients de combiner des recherches et de créer des communications de campagne marketing enrichies. | <img src="assets/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | Outil de campagne traditionnel conçu pour les campagnes marketing par lots sur différents canaux tels que les e-mails, les SMS et le publipostage direct. Permet aux clients d’orchestrer et de gérer les différentes communications client au même endroit. | <img src="assets/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Associe une orchestration de profil 1:1 basée sur les événements à des communications de marque basées sur l’audience sur plusieurs canaux tels que les e-mails, les sms, le web, les notifications push, les messages in-app, les postes de travail, etc. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Architecture de référence du plan directeur Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | Axé sur la gestion de campagnes multicanal par lots, idéal pour les canaux marketing traditionnels tels que les e-mails, les SMS et le publipostage direct. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## Plans directeurs obsolètes
+
+| Plan directeur | Architecture |
+|---|:---:|
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Architecture de référence du plan directeur de Campaign v7" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
