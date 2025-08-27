@@ -47,7 +47,7 @@ Il comprend également un serveur de messagerie en temps réel évolutif qui per
 
 ## Diagrammes d’architecture
 
-En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr#ac-deployment){target="_blank"}.
 
 ### Déploiement Campaign Grands comptes (FFDA)
 
@@ -137,11 +137,11 @@ Les conditions préalables suivantes sont requises pour ce plan directeur.
 
 ## Étapes de mise en œuvre
 
-Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html).
+Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=fr).
 
 ## Documentation connexe
 
-- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)
 - [Description du produit Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentation pour les balises Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
-- [Documentation pour le SDK mobile d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html)
+- [Documentation pour les balises Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
+- [Documentation pour le SDK mobile d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
