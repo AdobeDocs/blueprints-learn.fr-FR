@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - Plan directeur des Parcours'
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 ## Cas d’utilisation
 
 >[!BEGINTABS]
->[!TAB Cas D’Utilisation De Parcours (Pilotés Par Les Événements, En Temps Réel)]
+>[!TAB Parcours (Piloté Par Les Événements, En Temps Réel)]
 
 - **Récupération des abandons :** déclenchez des messages personnalisés lorsqu’un utilisateur abandonne un panier, un formulaire ou une session par e-mail, push ou in-app.
 - **Inscription d’un nouvel utilisateur :** engagez les nouveaux utilisateurs immédiatement après leur enregistrement avec de nouvelles préférences de compte, des promotions ou des avantages pertinents
@@ -29,7 +29,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 - **Ciblage contextuel :** communiquer avec les utilisateurs sur le moment en fonction de leurs signaux et de leur emplacement pour les aider à orienter et à diriger leur expérience
 - **Vente contextuelle/vente croisée :** proposez des offres personnalisées basées sur des attributs de profil en temps réel et des interactions récentes.
 
->[!TAB Cas D’Utilisation De L’Orchestration Des Campagnes (Planifiés, Lancés Par La Marque)]
+>[!TAB Orchestration Des Campagnes (Planifiée, Lancée Par La Marque)]
 
 - **Campagnes promotionnelles** : lancez des campagnes à plusieurs étapes et multicanaux pour les lancements de produits, les offres saisonnières ou les événements de vente.
 - **Marketing tout au long du cycle de vie** : automatisez les campagnes récurrentes telles que les messages d’anniversaire, les rappels de renouvellement ou les jalons de fidélité.
@@ -94,12 +94,12 @@ Mobile Push :
 
 [[!DNL Journey Optimizer] Lien du produit Mécanismes de sécurisation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentation connexe
 
 - [[!DNL Experience Platform] documentation ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 - [[!DNL Experience Platform] Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-- [[!DNL Experience Platform Mobile SDK] documentation ](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-- [[!DNL Journey Optimizer] documentation ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+- [[!DNL Experience Platform Mobile SDK] documentation ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentation ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
