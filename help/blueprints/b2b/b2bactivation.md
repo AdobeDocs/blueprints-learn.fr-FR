@@ -38,7 +38,7 @@ Utilisez les informations de compte, d’opportunités et de prospects liées à
 
 * Notez que les garde-fous de sécurité et les étapes de mise en œuvre liées à Marketo Engage ne sont pertinentes que lorsque Marketo Engage est utilisé comme source ou comme destination.
 
-* Pour plus d’informations et les mécanismes de sécurisation pour le modèle de données, la taille et la segmentation, reportez-vous au document [ Mécanismes de sécurisation de déploiement ](../experience-platform/guardrails.md)
+* Pour plus d’informations et les mécanismes de sécurisation pour le modèle de données, la taille et la segmentation, reportez-vous au document [&#x200B; Mécanismes de sécurisation de déploiement &#x200B;](../experience-platform/guardrails.md)
 
 
 ### Prise en charge de plusieurs instances et de l’organisation IMS :

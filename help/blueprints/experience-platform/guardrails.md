@@ -45,7 +45,7 @@ Les pages suivantes fournissent des informations sur les mécanismes de sécuris
 **Services Experience Platform**
 
 * [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
-* [[!DNL Edge Network]  Mécanismes de sécurisation des API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
+* [[!DNL Edge Network]  Mécanismes de sécurisation des API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 * [Mécanismes de sécurisation du profil client et de la segmentation en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [Garde-fous des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=fr)
 * [Garde-fous de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=fr)

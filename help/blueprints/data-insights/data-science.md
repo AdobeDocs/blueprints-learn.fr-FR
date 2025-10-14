@@ -29,7 +29,7 @@ Les informations modélisées peuvent être ingérées dans [!DNL Experience Pla
 
 ## Garde-fous
 
-* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [ Mécanismes de sécurisation de déploiement ](../experience-platform/guardrails.md).
+* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [&#x200B; Mécanismes de sécurisation de déploiement &#x200B;](../experience-platform/guardrails.md).
 
 ## Considérations relatives à la mise en œuvre
 

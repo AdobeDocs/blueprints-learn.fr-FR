@@ -125,7 +125,7 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
 1. Définissez le schéma XDM qui va représenter votre vue commerciale des comptes et des prospects.
 
-   Dans un premier temps, vous définissez et créez un schéma d’expérience conçu pour répondre aux besoins du cas d’utilisation B2B et couvrant les sources de données, par lots et en temps réel. Cette conception doit représenter la manière dont l’entreprise conçoit les entités de compte et de personne, ainsi que les cas d’utilisation que vous souhaitez prendre en charge. Pour que le schéma soit un schéma B2B, il doit suivre les structures disponibles dans la documentation [Schéma B2B RTCDP ](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b).
+   Dans un premier temps, vous définissez et créez un schéma d’expérience conçu pour répondre aux besoins du cas d’utilisation B2B et couvrant les sources de données, par lots et en temps réel. Cette conception doit représenter la manière dont l’entreprise conçoit les entités de compte et de personne, ainsi que les cas d’utilisation que vous souhaitez prendre en charge. Pour que le schéma soit un schéma B2B, il doit suivre les structures disponibles dans la documentation [Schéma B2B RTCDP &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
    Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B. À court terme, la relation _plusieurs à plusieurs_ entre le compte et la personne par le biais de la relation compte-personne n’est pas prise en charge dans Journey Optimizer B2B. Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
 
@@ -166,7 +166,7 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
    Pour créer le groupe d&#39;achat, suivez les étapes décrites dans la [documentation sur les groupes d&#39;achat](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create).
 
-   À ce stade, vous êtes prêt à [créer un parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) et à commencer à travailler avec l’audience du compte pour constituer le groupe d’achats et le qualifier pour l’intérêt pour la solution.
+   À ce stade, vous êtes prêt à [créer un parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) et à commencer à travailler avec l’audience du compte pour constituer le groupe d’achats et le qualifier pour l’intérêt pour la solution.
 
 ### Activation de l’audience
 

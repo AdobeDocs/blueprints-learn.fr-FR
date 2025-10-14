@@ -42,7 +42,7 @@ Les sections suivantes décrivent les mécanismes de sécurisation pour cette in
 
 * Pour plus d&#39;informations, consultez la section Connecteur de destination RTCDP [!DNL Campaign] - [Connexion RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=fr)
 
-* Voir [ Mécanismes de sécurisation par défaut pour  [!DNL Real-Time Customer Profile Data]  segmentation ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* Voir [&#x200B; Mécanismes de sécurisation par défaut pour  [!DNL Real-Time Customer Profile Data]  segmentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 ## Étapes de mise en œuvre
 
@@ -110,8 +110,8 @@ Les sections suivantes décrivent les étapes d’implémentation pour chaque ap
 
 ## Documentation connexe
 
-* [Documentation Adobe [!DNL Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
-* [[!DNL Campaign Classic] documentation ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
-* [[!DNL Campaign Standard] documentation ](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
+* [Documentation Adobe [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+* [[!DNL Campaign Classic] documentation &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
+* [[!DNL Campaign Standard] documentation &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
 * [[!DNL Experience Platform] Documentation de Launch](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
 * [[!DNL Experience Platform] Documentation de Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)

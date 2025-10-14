@@ -34,11 +34,11 @@ Pour utiliser l’extension [!DNL Data Connection], vous devez disposer des él�
 
 ### Collecte de données d’Adobe Commerce vers Adobe Experience Platform
 
-* [Installez ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html?lang=fr) l’extension [!DNL Data Connection].
+* [Installez &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html?lang=fr) l’extension [!DNL Data Connection].
 * [Connectez-vous](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html) à votre compte d’Adobe et affichez-le pour confirmer l’ID d’organisation. L’ID d’organisation est l’ID associé à votre société Experience Cloud configurée. Cet identifiant est une chaîne alphanumérique de 24 caractères, suivie de @AdobeOrg (obligatoire).
-* [Créez ou mettez à jour ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html?lang=fr) votre schéma XDM avec des groupes de champs spécifiques à Commerce.
+* [Créez ou mettez à jour &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html?lang=fr) votre schéma XDM avec des groupes de champs spécifiques à Commerce.
 * [Créez un jeu de données](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html?lang=fr#create-a-dataset) basé sur le schéma que vous avez créé ou mis à jour. Ce jeu de données contiendra les données Commerce que vous envoyez.
-* [ Créez un flux de données ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr) et sélectionnez le schéma XDM contenant les groupes de champs spécifiques à Commerce.
+* [&#x200B; Créez un flux de données &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr) et sélectionnez le schéma XDM contenant les groupes de champs spécifiques à Commerce.
 * [Connexion aux services Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=fr).
 * [Connectez-vous à Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html?lang=fr).
 
@@ -67,6 +67,6 @@ Pour obtenir la liste complète des événements pris en charge, reportez-vous �
 
 | Guide | Lien |
 |:----|:----|
-| Connecteur Platform | [ &lbrace;Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html?lang=fr) |
+| Connecteur Platform | [&#x200B; &lbrace;Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html?lang=fr) |
 | Destination Commerce | [Connexion Adobe Commerce dans RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=fr) |
 | Edge Personalization | [Activer les audiences vers les destinations de personnalisation de périphérie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=fr) |

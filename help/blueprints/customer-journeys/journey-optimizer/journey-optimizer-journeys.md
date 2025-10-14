@@ -43,8 +43,8 @@ Les Parcours Adobe Journey Optimizer sont des workflows basés sur des événeme
 
 ## Documentation connexe
 
-- [[!DNL Experience Platform] documentation ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+- [[!DNL Experience Platform] documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 - [[!DNL Experience Platform] Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-- [[!DNL Experience Platform Mobile SDK] documentation ](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-- [[!DNL Journey Optimizer] documentation ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+- [[!DNL Experience Platform Mobile SDK] documentation &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+- [[!DNL Journey Optimizer] documentation &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
 - [[!DNL Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)

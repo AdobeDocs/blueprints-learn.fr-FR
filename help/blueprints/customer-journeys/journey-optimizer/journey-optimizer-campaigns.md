@@ -55,8 +55,8 @@ L’orchestration des campagnes d’AJO permet aux spécialistes marketing de co
 ## Documentation connexe
 
 - [[!DNL Journey Optimizer] Campagnes orchestrées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
-- [[!DNL Experience Platform] documentation ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+- [[!DNL Experience Platform] documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 - [[!DNL Experience Platform] Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-- [[!DNL Experience Platform Mobile SDK] documentation ](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-- [[!DNL Journey Optimizer] documentation ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+- [[!DNL Experience Platform Mobile SDK] documentation &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+- [[!DNL Journey Optimizer] documentation &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
 - [[!DNL Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)

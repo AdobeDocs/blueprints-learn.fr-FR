@@ -47,7 +47,7 @@ Ce guide complet décrit le processus d’intégration de Marketo Engage à Adob
 
 * Installez les schémas et les espaces de noms B2B à l’aide de l’une des options ci-dessous
    * Utilisation de la collection [Postman](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)
-   * Utilisation de [ modèles ](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/templates) dans l’interface utilisateur de Platform
+   * Utilisation de [&#x200B; modèles &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/templates) dans l’interface utilisateur de Platform
 * Créer un dictionnaire de données définissant le mappage entre les champs Marketo et le schéma XDM Experience Platform
    * Utiliser les [métadonnées d&#39;objet Marketo](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/field-management/export-all-object-metadata) comme point de départ
    * [Personnaliser le schéma XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/fields/overview) pour inclure vos champs personnalisés
@@ -151,7 +151,7 @@ from
 
 #### Adresses e-mail avec enregistrements en double
 
-Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [ présentation d’Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
+Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [&#x200B; présentation d’Identity Service &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
 
 ```sql
 select
