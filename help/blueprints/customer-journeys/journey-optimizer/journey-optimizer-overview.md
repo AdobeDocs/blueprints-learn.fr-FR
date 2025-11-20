@@ -33,7 +33,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 
 - **Campagnes promotionnelles** : lancez des campagnes à plusieurs étapes et multicanaux pour les lancements de produits, les offres saisonnières ou les événements de vente.
 - **Marketing tout au long du cycle de vie** : automatisez les campagnes récurrentes telles que les messages d’anniversaire, les rappels de renouvellement ou les jalons de fidélité.
-- **Entonnoirs basés sur l’audience** : segmentez et insérez des audiences dans des campagnes structurées en fonction de la logique commerciale ou des attributs CRM.
+- **Notifications push Funnel basées sur l’audience** : segmentez et insérez des audiences dans des campagnes structurées en fonction de la logique commerciale ou des attributs CRM.
 - **Newsletter et distribution de contenu** : planifiez et diffusez du contenu personnalisé aux audiences ciblées par e-mail et mobile.
 - **Campagnes de réengagement** : identifiez les utilisateurs inactifs et réintroduisez-les dans les flux d’engagement en fonction des seuils d’inactivité.
 
@@ -51,7 +51,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 
 | Scénario | Description |
 | :-- | :-- |
-| [Parcours &#x200B;](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
+| [Parcours ](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
 | [Orchestration des campagnes](journey-optimizer-campaigns.md) | L’orchestration des campagnes d’AJO permet aux spécialistes marketing de concevoir et d’exécuter des campagnes cross-canal personnalisées à l’aide de données en temps réel et d’informations sur les audiences. Elle prend en charge le ciblage dynamique, la diffusion des messages et la logique de parcours pour optimiser l’engagement des clients sur les canaux e-mail, SMS, Push et personnalisés. | |
 
 <br>
@@ -94,12 +94,12 @@ Mobile Push :
 
 [[!DNL Journey Optimizer] Lien du produit Mécanismes de sécurisation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentation connexe
 
-- [[!DNL Experience Platform] documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+- [[!DNL Experience Platform] documentation ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 - [[!DNL Experience Platform] Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-- [[!DNL Experience Platform Mobile SDK] documentation &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-- [[!DNL Journey Optimizer] documentation &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+- [[!DNL Experience Platform Mobile SDK] documentation ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentation ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)

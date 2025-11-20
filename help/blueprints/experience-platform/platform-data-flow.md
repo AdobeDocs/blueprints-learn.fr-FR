@@ -22,4 +22,4 @@ Le schéma ci-dessous illustre les différents chemins d’accès pour l’inges
 
 ## Modèles d’entrée et de sortie de données
 
-Pour obtenir une liste détaillée de tous les modèles d’ingestion, de collecte, d’entrée et de sortie de données, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home).
+Pour obtenir une liste détaillée de tous les modèles d’ingestion, de collecte, d’entrée et de sortie de données, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).
