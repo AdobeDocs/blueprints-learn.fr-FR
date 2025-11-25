@@ -42,7 +42,7 @@ Les sections suivantes décrivent les mécanismes de sécurisation pour cette in
 
 * Pour plus d&#39;informations, consultez la section Connecteur de destination RTCDP [!DNL Campaign] - [Connexion RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=fr)
 
-* Voir [ Mécanismes de sécurisation par défaut pour  [!DNL Real-Time Customer Profile Data]  segmentation ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* Voir [&#x200B; Mécanismes de sécurisation par défaut pour  [!DNL Real-Time Customer Profile Data]  segmentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 ## Étapes de mise en œuvre
 
@@ -102,7 +102,7 @@ Les sections suivantes décrivent les étapes d’implémentation pour chaque ap
    * Vous avez besoin d’une connaissance pratique des balises d’Adobe et de la collecte de données.
    * Vous avez besoin d’une expérience du développement mobile avec les notifications push dans Android et iOS pour le déploiement du SDK, l’intégration avec FCM (Android) et APNS (iOS) pour obtenir un jeton push, la configuration de votre application pour recevoir des notifications push et gérer les interactions push.
 * [!DNL Campaign] Mobile SDK
-   * Voir la documentation de Campaign Classic SDK [](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
+   * Voir la documentation de Campaign Classic SDK [&#128279;](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
 
 >[!IMPORTANT]
 >
@@ -110,8 +110,8 @@ Les sections suivantes décrivent les étapes d’implémentation pour chaque ap
 
 ## Documentation connexe
 
-* [Documentation Adobe [!DNL Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
-* [[!DNL Campaign Classic] documentation ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
-* [[!DNL Campaign Standard] documentation ](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
+* [Documentation Adobe [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+* [[!DNL Campaign Classic] documentation &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=fr)
+* [[!DNL Campaign Standard] documentation &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=fr)
 * [[!DNL Experience Platform] Documentation de Launch](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
 * [[!DNL Experience Platform] Documentation de Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
