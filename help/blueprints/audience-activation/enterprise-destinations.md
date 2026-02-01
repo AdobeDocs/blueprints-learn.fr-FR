@@ -29,7 +29,7 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Documentation connexe
 
-Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Garde-fous
 

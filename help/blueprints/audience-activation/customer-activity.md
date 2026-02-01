@@ -21,7 +21,7 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 >[!NOTE]
 >
->La recherche de profil sur le hub n’est pas destinée aux cas d’utilisation à débit élevé et à faible latence, tels que la personnalisation entrante web/mobile. La recherche de profil sur le hub est destinée aux scénarios de faible latence tels que l’assistance assistée par un agent ou les interactions de vente. Pour les scénarios à faible latence et à débit élevé, tels que la personnalisation web/mobile ou la prise de décision sur les offres en temps réel, le profil Edge doit être exploité. Le profil Edge permet un accès en temps réel via la [connexion Personalization personnalisée](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) de Real-time Customer Data Platform.
+>La recherche de profil sur le hub n’est pas destinée aux cas d’utilisation à débit élevé et à faible latence, tels que la personnalisation entrante web/mobile. La recherche de profil sur le hub est destinée aux scénarios de faible latence tels que l’assistance assistée par un agent ou les interactions de vente. Pour les scénarios à faible latence et à débit élevé, tels que la personnalisation web/mobile ou la prise de décision sur les offres en temps réel, le profil Edge doit être exploité. Le profil Edge permet un accès en temps réel via la [connexion Personalization personnalisée](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/custom-personalization) de Real-time Customer Data Platform.
 
 ## Cas d’utilisation
 
