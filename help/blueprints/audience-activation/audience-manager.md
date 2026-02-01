@@ -1,5 +1,5 @@
 ---
-title: Plan directeur d’Audience Manager
+title: Basé sur l’appareil - Ciblage d’audience anonyme avec Audience Manager
 description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales. Cette capacité permet des expériences client en temps réel personnalisées et cohérentes sur tous les appareils.
 landing-page-description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales.
 short-description: Apprenez à cibler des audiences sur le web et les canaux publicitaires en fonction de données client anonymes et comportementales.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Plan directeur d’Audience Manager
+# Basé sur l’appareil - Ciblage d’audience anonyme avec Audience Manager
 
 L’activation de l’audience anonyme permet de cibler et de personnaliser des audiences sur des canaux web, mobiles et publicitaires basés sur un appareil et des données comportementales anonymes.
 
@@ -44,4 +44,4 @@ Audience Manager et Real-time Customer Data Platform peuvent être utilisés 
 
 ## Procédure de mise en œuvre de Real-time Customer Data Platform
 
-* Pour connaître les étapes de mise en œuvre de Real-time Customer Data Platform, consultez la [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) suivante.
+* Pour connaître les étapes de mise en œuvre de Real-time Customer Data Platform, consultez la [documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) suivante.

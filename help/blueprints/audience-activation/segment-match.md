@@ -1,16 +1,16 @@
 ---
-title: Plan directeur de la correspondance de segments
+title: Audience Collaboration avec correspondance de segments
 description: Découvrez le service [!UICONTROL Correspondance de segment] pour Adobe Experience Platform (AEP). Le service [!UICONTROL Correspondance de segment] est un service de collaboration en matière de données qui vous permet d’échanger des données de segment selon des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2123'
 ht-degree: 80%
 
 ---
 
-# Plan directeur de la correspondance de segments
+# Audience Collaboration avec plan directeur de correspondance de segments
 
 La correspondance de segments permet aux marques partenaires de partager des audiences entre leurs environnements Experience Platform respectifs. L’essentiel pour les marques est d’interagir avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.
 
@@ -164,45 +164,45 @@ Pendant le processus quotidien de chevauchement des identités, si une identité
 
 La révocation/suppression de segments par l’émetteur est un processus à la demande où la liste de tous les profils avec les ID de segments révoqués est obtenue du récepteur. Les ID de segments sont supprimés de l’appartenance à un segment de ces identités et réingérés par le récepteur. Cette action remplace le fragment d’appartenance à un segment existant, ce qui supprime l’adhésion pour ce segment.
 
-## Utilisation de la correspondance de segment dans les affaires programmatiques
+## Utiliser la correspondance de segments dans les affaires programmatiques
 
-Avec les restrictions croissantes autour des cookies tiers et des identifiants d’appareil, la publicité programmée recherche de nouvelles façons de créer et de cibler des audiences. Un nombre croissant de solutions d&#39;&quot;identification universelle&quot; ont été proposées, mais le secteur évolue encore sans qu&#39;aucun accord n&#39;ait été trouvé sur la manière d&#39;atteindre le même niveau de ciblage tout en équilibrant les préoccupations de confidentialité applicables.
+Avec les restrictions croissantes concernant les cookies tiers et les identifiants d’appareils, la publicité programmatique cherche de nouvelles façons de créer et de cibler des audiences. Un nombre croissant de solutions d&#39;«identification universelle» ont été proposées, mais le secteur est toujours en pleine mutation, sans moyen convenu et évolutif d&#39;atteindre le même niveau de ciblage tout en équilibrant les préoccupations en matière de confidentialité applicables.
 
-Vous pouvez utiliser la correspondance de segments Adobe Experience Platform dans le cadre d’une collaboration d’audience axée sur la confidentialité et améliorer les offres privées programmatiques entre les annonceurs et les éditeurs. Avec la correspondance de segment, vous pouvez :
+Vous pouvez utiliser la correspondance de segments Adobe Experience Platform dans le cadre d’une collaboration axée sur la confidentialité des audiences et améliorer les contrats privés de programmation entre les annonceurs et les éditeurs. Avec la correspondance de segments, vous pouvez :
 
-* Fractionner les workflows **Trafic publicitaire** et **Audience** .
-* Permet aux marques partenaires de partager les métadonnées d’audience pour les identités communes et de consentement à l’aide d’identifiants durables tels que le courrier électronique haché et le numéro de téléphone haché dans le cadre d’un processus appliqué par le consentement.
+* Partagez les workflows **Trafic d’annonces** et **Audience**.
+* Autorisez les marques partenaires à partager des métadonnées d’audience pour les identités de consentement partagées entre elles à l’aide d’identifiants durables tels que des e-mails et des numéros de téléphone hachés dans le cadre d’un processus soumis à l’obligation de consentement.
 
 ### Cas d’utilisation
 
-* Ciblage des audiences propriétaires par le biais d’offres privées programmatiques.
-* Suppression d’une audience propriétaire par le biais d’offres privées programmatiques.
-* Ciblage des audiences semblables à partir des audiences propriétaires canalisées canalisées par le biais d’offres privées programmatiques.
+* Cibler des audiences propriétaires par le biais d’offres privées programmatiques.
+* Suppression de l’audience propriétaire au moyen d’offres privées programmatiques.
+* Cibler des audiences semblables à partir d’audiences propriétaires générées au moyen d’offres privées de programmation.
 
 >[!BEGINSHADEBOX]
 
-**Examinez l’exemple de workflow suivant entre une marque (Luma) et un réseau de médias (ACME) :**
+**Examinons l’exemple de workflow suivant entre une marque (Luma) et un réseau multimédia (ACME) :**
 
-1. Une marque (Luma) effectue une correspondance d’audience avec un réseau de médias (ACME) via la correspondance de segment.
-2. ACME envoie les audiences vers le serveur publicitaire ou SSP programmatique via Adobe Real-Time CDP Destination(s).
-3. ACME configure une opération d’inventaire privée (ID) avec les critères de ciblage applicables, y compris l’audience définie à l’étape précédente. L’ID d’opération d’inventaire privé est ensuite transmis au DSP de Luma.
-4. Luma configure une transaction d’inventaire privée et une campagne/création publicitaire de trafic.
-5. La campagne est ensuite distribuée par le biais d’un accord sur le stock privé programmatique.
-6. Ensuite, le serveur de publicités ou SSP diffuse des impressions publicitaires qui répondent aux critères de ciblage définis. (Des critères de ciblage supplémentaires, tels que la limitation de la fréquence, sont disponibles via le serveur d’annonces et/ou DSP, selon qu’une offre sous garantie ou une offre préférée a été établie ou non dans le contrat).
+1. Une marque (Luma) effectue une correspondance d’audience avec un réseau multimédia (ACME) via la correspondance de segment.
+2. ACME envoie la ou les audiences vers le serveur d’annonces ou le fournisseur de services partagés de programmation via les destinations Adobe Real-Time CDP.
+3. ACME configure un contrat d’inventaire privé (ID) avec les critères de ciblage applicables, y compris l’audience établie à l’étape précédente. L’ID d’opération d’inventaire privé est ensuite envoyé au DSP de Luma.
+4. Luma configure une offre d’inventaire privé et une campagne/publicité de trafic créative.
+5. La campagne effectue ensuite une diffusion par le biais d’une transaction d’inventaire privé programmatique.
+6. Ensuite, le serveur de publicités ou le SSP diffuse des impressions de publicités qui répondent aux critères de ciblage établis. (D’autres critères de ciblage, tels que le capping de la fréquence, sont disponibles via le serveur de publicités et/ou DSP, selon qu’une offre Garantie ou une offre Préférée a été établie dans l’accord).
 7. Le trafic est dirigé vers les propriétés de marque de Luma.
-8. ACME partage ensuite les informations ou les audiences post-campagne via la correspondance de segment pour le reciblage.
+8. ACME partage ensuite les informations ou les audiences post-campagne par le biais de la Correspondance de segments pour le reciblage.
 
 >[!ENDSHADEBOX]
 
-![Schéma du workflow entre la marque et l’éditeur.](./assets/segment-match-blueprints.png)
+![Diagramme du workflow entre la marque et l’éditeur.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >
-> Bien que la solution décrite ci-dessus fournisse un moyen facile de cibler les données propriétaires par le biais d’accords privés programmatiques, certaines considérations peuvent être prises en compte avant l’exécution, notamment, mais sans s’y limiter, les exemples suivants :
+> Bien que la solution décrite ci-dessus fournisse un moyen facile de cibler les données propriétaires par le biais d’offres privées par programmation, il peut y avoir certaines considérations avant l’exécution, notamment, mais sans s’y limiter, les exemples suivants :
 >
->* Consentement : collecte du consentement applicable par la marque, l’éditeur ou le réseau de médias de détail, pour exploiter les données de cette manière.
+>* Consentement : collecte de consentement applicable par la marque, l’éditeur ou le réseau de médias de vente au détail, pour exploiter les données de cette manière.
 >
->* Stratégies et contrats de licence : adhésion à toute politique applicable (y compris les politiques de confidentialité, les contrats avec des fournisseurs tiers) par la marque, l’éditeur ou le réseau de médias de détail, afin d’exploiter et d’activer les données de cette manière.
+>* Politiques et contrats de licence : respect de toutes les politiques applicables (y compris les politiques de confidentialité et les contrats de fournisseur tiers) par la marque, l’éditeur ou le réseau de médias de vente au détail, afin d’exploiter et d’activer les données de cette manière.
 
 
 

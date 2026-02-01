@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
+source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 41%
+source-wordcount: '231'
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 41%
       + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
 + Activation d’audience et de profil{#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+   + [Basé sur l’appareil - Ciblage d’audience anonyme avec Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Activation des canaux sociaux et publicitaires](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Activation vers des destinations de streaming de fichiers et d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [Concentrateur d’activités client](/help/blueprints/audience-activation/customer-activity.md)
-      + [Correspondance de segments](/help/blueprints/audience-activation/segment-match.md)
-      + [Target et RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Audience Activation vers les destinations sociales et Advertising](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Plan directeur de l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Accès au profil en temps réel pour les scénarios d’assistance et de vente](/help/blueprints/audience-activation/customer-activity.md)
+      + [Accès au profil Edge en temps réel pour les Personalization web et mobiles](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [Audience Collaboration avec correspondance de segments](/help/blueprints/audience-activation/segment-match.md)
+      + [Personalization client connu avec Target](/help/blueprints/audience-activation/rtcdp-target.md)
 + Activation et marketing B2B{#b2b-activation}
    + [Présentation](/help/blueprints/b2b/overview.md)
    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -66,8 +67,8 @@ ht-degree: 41%
       + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Plans directeurs obsolètes{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Analyse des données, data intelligence et IA / ML{#data-exploration}

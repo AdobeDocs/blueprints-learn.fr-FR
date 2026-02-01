@@ -1,19 +1,19 @@
 ---
-title: Activation vers des destinations sociales et publicitaires à partir de RTCDP
-description: Découvrez comment ingérer des données client provenant de plusieurs sources pour créer une vue de profil unique du client.
+title: Audience Activation vers les destinations sociales et Advertising
+description: Découvrez comment ingérer des données client provenant de plusieurs sources afin de créer une vue de profil unique du client.
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 92%
+source-wordcount: '1128'
+ht-degree: 93%
 
 ---
 
-# Activation vers des destinations sociales et publicitaires à partir de RTCDP
+# Audience Activation vers les destinations sociales et Advertising
 
-Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client. Vous pouvez segmenter ces profils en audiences créées à des fins de marketing et de personnalisation, partager ces audiences avec des réseaux publicitaires tels que Facebook et Google afin de cibler et de personnaliser des campagnes en fonction de ces audiences.
+Ingérez des données client à partir de plusieurs sources afin de créer une vue de profil unique du client. Vous pouvez segmenter ces profils afin de créer des audiences pour le marketing et la personnalisation. Partagez ensuite ces audiences avec les réseaux publicitaires tels que Facebook et Google pour cibler et personnaliser les campagnes par rapport à ces audiences.
 
 ## Cas d’utilisation
 

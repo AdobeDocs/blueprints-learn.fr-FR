@@ -1,5 +1,5 @@
 ---
-title: Real-time Customer Data Platform et Adobe Target
+title: Personalization client connu avec Target
 description: Intégrez des profils et des audiences RTCDP à Adobe Target.
 landing-page-description: Intégrez des profils et des audiences RTCDP à Adobe Target.
 short-description: Intégrez des profils et des audiences RTCDP à Adobe Target.
@@ -7,15 +7,15 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 32%
+source-wordcount: '943'
+ht-degree: 31%
 
 ---
 
 
-# Intégration de Real-time Customer Data Platform à Adobe Target
+# Personalization client connu avec Target
 
 ## Cas d’utilisation
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 ### Documentation de référence
 
-* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr)
+* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Configuration du flux de données Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=fr)
 
 ## Modèles d’intégration
@@ -71,7 +71,7 @@ La personnalisation par client connu est prise en charge par plusieurs méthodes
 
 Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.js et AppMeasurement.js). L’évaluation des segments Edge en temps réel n’est pas prise en charge dans cette méthode d’implémentation. Cependant, le partage des audiences en continu et par lots à partir du hub Experience Platform est pris en charge dans cette méthode d’implémentation.
 
-[Consultez la documentation du connecteur Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consultez la documentation du connecteur Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Reportez-vous au plan directeur SDK spécifique à l’application](../experience-platform/deployment/appsdk.md)
 
 ## Considérations relatives à la mise en œuvre
