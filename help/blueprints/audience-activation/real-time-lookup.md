@@ -134,7 +134,7 @@ La personnalisation Edge peut être mise en œuvre à l’aide de la destination
 ### Configurations de destination
 
 * [Connexion Personalization personnalisée](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - Guide de mise en œuvre du Principal
-* Présentation des destinations Personalization [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
+* Présentation des destinations Personalization [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
 * [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 * [Rechercher des attributs de profil sur le serveur Edge en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
