@@ -5,10 +5,10 @@ user-guide-description: Les plans directeurs sont des implémentations reproduct
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 35%
+source-wordcount: '230'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 35%
    + [Basé sur l’appareil - Ciblage d’audience anonyme avec Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [Audience Activation vers les destinations sociales et Advertising](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Plan directeur de l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Activation d’audiences et de profils vers des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Accès au profil en temps réel pour les scénarios d’assistance et de vente](/help/blueprints/audience-activation/customer-activity.md)
       + [Accès au profil Edge en temps réel pour les Personalization web et mobiles](/help/blueprints/audience-activation/real-time-lookup.md)
       + [Audience Collaboration avec correspondance de segments](/help/blueprints/audience-activation/segment-match.md)
@@ -67,8 +67,8 @@ ht-degree: 35%
       + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Plans directeurs obsolètes{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Analyse des données, data intelligence et IA / ML{#data-exploration}

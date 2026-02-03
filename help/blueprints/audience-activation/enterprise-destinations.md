@@ -1,17 +1,17 @@
 ---
-title: Plan directeur de l’activation des audiences et des profils vers les destinations d’entreprise
+title: Activation d’audiences et de profils vers des destinations d’entreprise
 description: Activation d’audiences et de profils vers des destinations d’entreprise
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 82%
 
 ---
 
-# Plan directeur de l’activation des audiences et des profils vers les destinations d’entreprise
+# Activation d’audiences et de profils vers des destinations d’entreprise
 
 Partagez les modifications et les événements de profil et d’audience en flux continu ou par lot de [!UICONTROL Real-time Customer Data Platform] vers les entrepôts de données et les applications d’entreprise. Ces événements de profil et d’audience peuvent être utilisés pour lancer une action de vente ou d’assistance client, telle que le suivi d’un processus de demande non finalisé ou d’enregistrement à un webinaire, ou pour mettre à jour les applications d’entreprise avec les derniers attributs du client et les dernières informations de [!UICONTROL Real-time Customer Data Platform].
 
@@ -29,7 +29,7 @@ Partagez les modifications et les événements de profil et d’audience en flux
 
 ## Documentation connexe
 
-Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Vous trouverez plus d’informations sur la configuration de l’espace de stockage et des destinations d’entreprise dans la [documentation sur les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Garde-fous
 
