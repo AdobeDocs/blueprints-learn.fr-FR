@@ -2,14 +2,17 @@
 title: Contrôleur de médias payants B2B AJO
 description: Priorité des campagnes et activation des comptes vers les destinations de médias payants
 solution: Journey Optimizer B2B Edition
-source-git-commit: dff5608af92fa1140419d6834d8374df75de98d3
+exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
+source-git-commit: 388beb1609384f266f0d80a7dd5a14b03ced3110
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
 
-# Présentation
+# AJO B2B - Account Journey Orchestration - Paid Media Controller
+
+## Présentation
 
 Les équipes marketing qui exécutent des médias achetés B2B à grande échelle sont confrontées à un problème récurrent : **les comptes se retrouvent dans plusieurs campagnes à la fois** (persona, conscience de la catégorie, mené par une solution, poursuite), ce qui dilue les messages, provoque la fatigue de l’audience et force le travail manuel de liste (chargements, exclusions et suppression) sur LinkedIn Account Match (destination du compte). Sans **hiérarchisation en cascade** et **affectation de campagne automatisée**, il n’y a pas d’emplacement unique pour décider quel compte reçoit quel message et les opérations ne sont pas dimensionnées.
 
@@ -71,8 +74,8 @@ Dans toute orchestration pilotée par les données, la conception de schémas es
 
 ### Garde-fous
 
-- **Journey Optimizer B2B edition** — Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html) pour connaître les limites de parcours, les limites de nœud et la prise en charge des destinations.
-- **Real-Time CDP** — Consultez la section [Mécanismes de sécurisation de RTCDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview) pour connaître les limites de segmentation et d’activation.
+- **Journey Optimizer B2B edition** — Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) pour connaître les limites de parcours, les limites de nœud et la prise en charge des destinations.
+- **Real-Time CDP** — Consultez la section [Mécanismes de sécurisation de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) pour connaître les limites de segmentation et d’activation.
 
 ## Implémentation
 
@@ -97,7 +100,7 @@ Les étapes suivantes fournissent des conseils pour la mise en œuvre du contrô
 1. **Création du parcours de contrôleur dans AJO B2B.**
 
    - **Lecture d’audience :** sélectionnez l’audience du compte qualifié dans Real-Time CDP.
-   - **Chemin de division :** ajoutez des nœuds dans l’ordre de la cascade. Chaque nœud évalue les conditions (par exemple, « dans l’audience de poursuite », « intérêt de la solution = X », « persona = Y », « catégorie d’intention = Z »). Les comptes qui correspondent sortent de l’activation correspondante ; d’autres passent à la division suivante.
+   - **Chemin d’accès partagé :** créez un chemin d’accès pour chaque audience de médias achetés, en commençant par le Chemin 1 comme votre priorité principale et en continuant par ordre de priorité. Pour chaque chemin d’accès, ajoutez des attributs pour définir les critères de qualification (par exemple, « dans l’audience de poursuite », « intérêt de la solution = X », « persona = Y », « catégorie d’intention = Z »). Les comptes sont évalués à l’aide du nœud de chemin de division a en cascade, qualifiés pour le premier chemin pour lequel ils répondent aux critères.
    - **Activer vers la destination :** pour chaque chemin d’accès, ajoutez un nœud Activer vers la destination à la campagne/destination LinkedIn (ou autre) appropriée.
 
 2. **Valider l’exclusivité mutuelle.**
@@ -109,7 +112,7 @@ Les étapes suivantes fournissent des conseils pour la mise en œuvre du contrô
 
 <img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Canevas de contrôleur de médias payants B2B AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-### 4.2.3. Activation de l’audience
+### Activation de l’audience
 
 1. **Activer vers LinkedIn (et d’autres destinations).**
 
@@ -125,6 +128,6 @@ Le plan directeur **Paid Media Controller** montre comment **AJO B2B et AEP** fo
 
 ## Documentation connexe
 
-- [Plan directeur de marketing et de gestion des Parcours basé sur les groupes d’achat](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — parcours de compte et de groupe d’achat dans AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b) — Documentation du produit.
+- [Plan directeur de marketing et de gestion des Parcours basé sur les groupes d’achat](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — parcours de compte et de groupe d’achat dans AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentation du produit.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Audiences de compte et activation.
