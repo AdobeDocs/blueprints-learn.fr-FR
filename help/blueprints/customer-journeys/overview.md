@@ -3,14 +3,14 @@ title: Plans directeurs du parcours client
 description: Proposez des expériences client individuelles, juste à temps et orchestrées sur plusieurs écrans.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Plans directeurs de Parcours client
+# Plans directeurs du parcours client
 
 Les équipes marketing modernes ont besoin de plateformes capables de prendre en charge à la fois l’engagement réactif (en répondant aux comportements individuels des clients) et la sensibilisation proactive (en initiant des campagnes qui guident les audiences dans des entonnoirs de conversion). Ces cas d’utilisation s’étendent sur des canaux tels que les e-mails, les SMS, les notifications push et, de plus en plus, les expériences web et in-app.
 
