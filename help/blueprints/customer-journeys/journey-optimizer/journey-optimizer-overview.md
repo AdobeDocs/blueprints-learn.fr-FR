@@ -51,7 +51,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 
 | Scénario | Description |
 | :-- | :-- |
-| [Parcours ](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
+| [Parcours &#x200B;](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
 | [Orchestration des campagnes](journey-optimizer-campaigns.md) | L’orchestration des campagnes d’AJO permet aux spécialistes marketing de concevoir et d’exécuter des campagnes cross-canal personnalisées à l’aide de données en temps réel et d’informations sur les audiences. Elle prend en charge le ciblage dynamique, la diffusion des messages et la logique de parcours pour optimiser l’engagement des clients sur les canaux e-mail, SMS, Push et personnalisés. |
 
 <br>

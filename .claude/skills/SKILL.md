@@ -99,7 +99,7 @@ Pour les pages de présentation ou de hub, utilisez une structure plus courte : 
 
 - **Quand créer un lien** : créez un lien vers Experience League pour accéder à la documentation du produit, aux références d’API, aux mécanismes de sécurisation, aux tutoriels et aux étapes de configuration. Ne dupliquez pas les longues procédures ; résumez et liez.
 - **Format d’URL** : utilisez des URL complètes. Préférez `https://experienceleague.adobe.com/docs/...` ou `https://experienceleague.adobe.com/en/docs/...`. Pour les documents destinés aux développeurs, `https://developer.adobe.com/...` est également valide.
-- **Texte du lien** : utilisez un texte descriptif (par exemple, « [Créer des schémas](url) » et non « Cliquer ici »). Pour les noms de produit dans le texte du lien, utilisez `[!DNL Product Name]` le cas échéant.
+- **Texte du lien** : utilisez un texte descriptif (par exemple, « [Créer des schémas] (url) » et non « Cliquer ici »). Pour les noms de produit dans le texte du lien, utilisez `[!DNL Product Name]` le cas échéant.
 - **Section de documentation connexe** : terminez les plans directeurs par une section « Documentation connexe » regroupant les liens par catégorie (par exemple, configurations de destination, documentation de SDK, profil et segmentation, tutoriels).
 
 Pour obtenir des modèles d’URL détaillés, un regroupement de liens et des exemples, voir [reference.md](reference.md).

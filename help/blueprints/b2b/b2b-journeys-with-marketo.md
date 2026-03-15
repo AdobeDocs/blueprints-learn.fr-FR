@@ -160,7 +160,7 @@ from
 
 #### Adresses e-mail avec enregistrements en double
 
-Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [ présentation d’Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
+Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [&#x200B; présentation d’Identity Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
 
 ```sql
 select

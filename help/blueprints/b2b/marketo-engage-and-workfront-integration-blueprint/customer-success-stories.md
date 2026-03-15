@@ -23,4 +23,4 @@ Les clients Adobe de plusieurs secteurs d’activité constatent la valeur de l�
 
 * Commvault (étude de cas) : [Commvault crée un centre d’excellence marketing avec Adobe Marketo Engage pour exécuter plus de 1 800 campagnes par an](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
 
-* Poly (blog) : [Comment Poly a changé d&#39;avis pour atteindre de nouveaux publics avec Adobe Experience Cloud ](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
+* Poly (blog) : [Comment Poly a changé d&#39;avis pour atteindre de nouveaux publics avec Adobe Experience Cloud &#x200B;](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}

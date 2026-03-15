@@ -34,17 +34,17 @@ Customer Journey Analytics B2B edition permet la création de rapports et l’an
 
 ## Architecture
 
-Architecture de ![Customer Journey Analytics avec données de compte B2B et d’opportunité unifiées pour l’analyse de parcours ](assets/CJA.svg){zoomable="yes"}
+Architecture de ![Customer Journey Analytics avec données de compte B2B et d’opportunité unifiées pour l’analyse de parcours &#x200B;](assets/CJA.svg){zoomable="yes"}
 
 Les flux de données d’Experience Platform (jeux de données B2B et d’événements) vers [!DNL Customer Journey Analytics] via une connexion CJA. Les dimensions B2B sont exposées dans les vues de données afin que l’analyse et les audiences puissent être créées au niveau du compte, de l’opportunité et de la personne.
 
 ## Garde-fous
 
 * Pour connaître les limites et les droits du produit B2B edition, consultez la description du produit B2B [Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
-* Pour les limites techniques d’Analytics Platform et de CJA, voir [ Mécanismes de sécurisation d’Analytics Platform ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
+* Pour les limites techniques d’Analytics Platform et de CJA, voir [&#x200B; Mécanismes de sécurisation d’Analytics Platform &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
 * Pour les limites d’ingestion de données et de connexion de CJA, consultez [Mécanismes de sécurisation d’ingestion de données de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
 * Si vous publiez des audiences CJA sur Real-time Customer Data Platform, consultez [Mécanismes de sécurisation du partage d’audiences Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency).
-* Pour connaître les latences de bout en bout et les mécanismes de sécurisation de plateforme, reportez-vous au document [ Mécanismes de sécurisation du déploiement ](../experience-platform/guardrails.md).
+* Pour connaître les latences de bout en bout et les mécanismes de sécurisation de plateforme, reportez-vous au document [&#x200B; Mécanismes de sécurisation du déploiement &#x200B;](../experience-platform/guardrails.md).
 
 ## Étapes de mise en œuvre
 
