@@ -38,9 +38,9 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 ## Garde-fous
 
-[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
 
 <br>
 
@@ -91,6 +91,6 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 * [Documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
-* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
