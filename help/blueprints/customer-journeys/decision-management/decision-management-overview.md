@@ -3,18 +3,18 @@ title: Plans directeurs de la gestion des décisions
 description: Proposez des offres personnalisées sur l’ensemble des parcours clients.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
+source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 78%
+source-wordcount: '731'
+ht-degree: 76%
 
 ---
 
-# Journey Optimizer - Plans directeurs de la gestion des décisions
+# Journey Optimizer - Plans directeurs de gestion des décisions
 
 Reportez-vous à la documentation suivante pour [Gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr)
 
-Reportez-vous à la documentation suivante pour connaître les mécanismes de sécurisation liés à la gestion des décisions. [&#x200B; Mécanismes De Sécurisation De La Gestion Des Décisions &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+Reportez-vous à la documentation suivante pour connaître les mécanismes de sécurisation liés à la gestion des décisions. [Mécanismes De Sécurisation De La Gestion Des Décisions ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 La gestion des décisions Adobe est un service fourni dans le cadre d’Adobe Journey Optimizer. Ce plan directeur décrit les cas d’utilisation et les fonctionnalités techniques de l’application et fournit une analyse approfondie des différents composants architecturaux et des considérations qui entrent en compte dans la gestion des décisions.
 
@@ -46,7 +46,7 @@ La première par le biais du hub Adobe Experience Platform, qui est une archit
 
 * Accès au profil client en temps réel complet, y compris aux abonnements, aux attributs et aux événements d’expérience de l’audience.
 
-## Gestion des décisions sur Edge   
+## Gestion des décisions sur Edge
 
 La deuxième approche passe par Experience [!DNL Edge Network], une infrastructure géographiquement distribuée à l’échelle mondiale qui permet de fournir des expériences rapides pendant moins d’une seconde et pendant des millisecondes. L’expérience client finale est exécutée par l’infrastructure Edge au plus proche de la localisation géographique des consommateurs afin de minimiser la latence. La gestion des décisions sur Edge est conçue pour fournir des expériences client en temps réel, telles que des demandes de personnalisation entrantes web ou mobile. Pour en savoir plus sur la gestion des décisions sur Edge, reportez-vous au plan directeur [Gestion des décisions sur Edge](decision-management-edge.md).
 
@@ -61,8 +61,8 @@ La deuxième approche passe par Experience [!DNL Edge Network], une infrastructu
 
 ## Documentation connexe
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
 * [Gestion des décisions Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=fr)
-* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Description du produit de gestion des décisions Adobe](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Description du produit Gestion des décisions Adobe](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html)

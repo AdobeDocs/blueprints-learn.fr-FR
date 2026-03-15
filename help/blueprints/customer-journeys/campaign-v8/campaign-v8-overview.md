@@ -4,10 +4,10 @@ description: Découvrez le plan directeur de Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 31%
+source-wordcount: '1045'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Il comprend également un serveur de messagerie en temps réel évolutif qui per
 
 ## Diagrammes d’architecture
 
-En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr#ac-deployment){target="_blank"}.
+En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Déploiement Campaign Grands comptes (FFDA)
 
@@ -137,11 +137,11 @@ Les conditions préalables suivantes sont requises pour ce plan directeur.
 
 ## Étapes de mise en œuvre
 
-Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=fr).
+Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html).
 
 ## Documentation connexe
 
-- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)
-- [Description du produit Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentation pour les balises Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
-- [Documentation pour le SDK mobile d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Description du produit Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+- [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html)
+- [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)

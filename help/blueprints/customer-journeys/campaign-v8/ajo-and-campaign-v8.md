@@ -4,10 +4,10 @@ description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 6ec61ae7e1cfe3bad7beff127dc2e80873424d53
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 52%
+source-wordcount: '795'
+ht-degree: 56%
 
 ---
 
@@ -42,9 +42,9 @@ Examinez les conditions préalables suivantes pour chaque application.
 
 ## Garde-fous
 
-* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
+* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
+* [Mécanismes de sécurisation et conseils de bout en bout sur la latence](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Étapes de mise en œuvre
 
@@ -90,7 +90,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 1. Implémentez [!DNL Experience Platform] Mobile SDK pour collecter des jetons push et des informations de connexion à lier à des profils client connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
    * [!DNL Journey Optimizer] Adobe | [!DNL Campaign Classic] Adobe | [!DNL Campaign Standard] Adobe
-   * [!DNL Experience Platform] de [!DNL Edge Network] Adobe
+   * [!DNL Edge Network] de [!DNL Experience Platform] Adobe
    * Identité pour [!DNL Edge Network]
    * Mobile Core
 1. Assurez-vous de disposer d’un flux de données dédié pour les déploiements d’applications mobiles par rapport aux déploiements web.
@@ -101,6 +101,6 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 ## Documentation connexe
 
-* [Documentation Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
-* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)
+* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)

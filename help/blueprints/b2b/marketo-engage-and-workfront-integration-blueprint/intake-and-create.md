@@ -2,10 +2,10 @@
 title: Plan directeur d’ingestion et de création
 description: Ingestion et création – Plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 97%
+source-wordcount: '1372'
+ht-degree: 92%
 
 ---
 
@@ -15,13 +15,13 @@ Le nombre de requêtes marketing qui entrent dans une équipe d’opérations ma
 
 À travers la mise en place d’un processus d’envoi de requêtes de campagne et l’automatisation de la création de campagnes marketing fréquemment demandées, vous pouvez : augmenter la vitesse de vos campagnes, réduire les erreurs, acheminer les requêtes vers le bon membre des opérations marketing, équilibrer et améliorer l’utilisation des ressources et concentrer davantage vos opérations marketing sur des tâches plus stratégiques.
 
-Avec Workfront et Marketo Engage, une connexion entre les deux systèmes permet de consulter les détails d’un [formulaire de requête Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr){target="_blank"} pour créer un programme Marketo Engage. Il suffit ensuite de renseigner des variables clés telles que : lignes d’objet, copie d’e-mail, images, dates, heures, informations sur les événements, etc.
+Avec Workfront et Marketo Engage, une connexion système à système permet d’obtenir des détails d’un formulaire de demande [Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=fr){target="_blank"} de créer un programme Marketo Engage, puis de renseigner des variables clés telles que : l’objet, la copie d’e-mail, les images, les dates, les heures, les informations sur l’événement, etc.
 
 Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fusion, un calque d’automatisation de travail qui vous permet d’automatiser les workflows entre Workfront et d’autres systèmes.
 
 Le workflow ci-dessous présente une requête de webinaire envoyée par un gestionnaire de campagne à l’aide d’un formulaire de requête Workfront. Les détails envoyés dans la requête déclenchent ensuite la création d’un programme et d’un e-mail dans Marketo Engage pour le webinaire. En outre, des détails sont fournis à partir du formulaire de requête pour renseigner le contenu de l’e-mail.
 
-![Ingérer et créer un plan directeur](assets/intake-and-create-1.png){zoomable="yes"}
+![Création d’un plan directeur](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -95,7 +95,7 @@ Le fait de construire votre centre d’excellence avec des modèles de programme
 
 Une fois que vous disposez d’un ensemble de modèles de programme réutilisables, vous pouvez augmenter davantage vos efforts à l’aide de l’automatisation décrite dans ce plan directeur afin d’accélérer davantage le développement de vos campagnes.
 
-Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} afin de connaître les bonnes pratiques.
+Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
 
 ### Utilisation de jetons pour renseigner du contenu {#use-tokens-to-populate-content}
 
@@ -147,7 +147,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 ## Flux d’automatisation de l’ingestion et de la création {#intake-and-create-automation-flow}
 
-Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} prédéfinis qui vous permettent de fournir l’automatisation plus rapidement.
+Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
 
 ![Flux d’automatisation de l’ingestion et de la création](assets/intake-and-create-3.png)
 
