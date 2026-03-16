@@ -179,7 +179,7 @@ Cette approche est simple et permet aux deux parties d&#39;exercer un contrôle 
 
 **Experience League:**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Dépannage de la correspondance de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Option B : distribution de segments multi-partenaires (un-à-plusieurs)
@@ -217,7 +217,7 @@ Cette approche utilise le même mécanisme de [!DNL Segment Match] sous-jacent q
 
 **Experience League:**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Option C : fédération d’audiences entre sandbox
 
@@ -254,7 +254,7 @@ Cette approche est particulièrement utile lorsque les exigences en matière de 
 
 **Experience League:**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Présentation des sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home)
 
 ### Comparaison des options
@@ -405,7 +405,7 @@ Cette phase établit la connexion [!DNL Segment Match] entre les organisations o
 
 **Documentation Experience League :**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Aperçu de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Application des politiques](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [Consentement et préférences](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
@@ -443,7 +443,7 @@ Cette phase exécute l’estimation du chevauchement entre les segments de l’e
 
 **Documentation Experience League :**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Phase 4 : partage des audiences
 
@@ -498,7 +498,7 @@ Exécutez le partage entre sandbox. L’audience correspondante apparaît dans l
 
 **Documentation Experience League :**
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Dépannage de la correspondance de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Phase 5 : activation des audiences correspondantes
@@ -568,7 +568,7 @@ Examinez les points suivants avant et pendant l’implémentation pour éviter d
 
 ### Mécanismes de sécurisation et limites
 
-- [!DNL Segment Match] utilise des identifiants hachés pour la correspondance ; aucune PII ne dépasse les limites de l’organisation. Voir [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview).
+- [!DNL Segment Match] utilise des identifiants hachés pour la correspondance ; aucune PII ne dépasse les limites de l’organisation. Voir [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview).
 - Seules les audiences évaluées par lots peuvent être partagées via [!DNL Segment Match]. Les segments en flux continu et évalués par Edge doivent être convertis en évaluation par lots avant partage.
 - Un maximum de 4 000 définitions de segment par sandbox s’applique aux segments source et reçus. Voir [&#x200B; Mécanismes de sécurisation de la segmentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
 - La précision de l’estimation du chevauchement dépend du volume des identifiants correspondants. Les petits publics peuvent présenter des estimations moins précises.
@@ -630,7 +630,7 @@ Les ressources suivantes fournissent des détails supplémentaires sur les fonct
 
 ### [!DNL Segment Match]
 
-- [Présentation de la Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Présentation de la Segment Match](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Dépannage de la correspondance de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Segmentation et audiences
@@ -675,7 +675,7 @@ Les ressources suivantes fournissent des détails supplémentaires sur les fonct
 
 ### Surveillance et observabilité
 
-- [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview)
 - [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
 
 ### Garde-fous
