@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: Référence pour la création et la modification de documents de plan directeur d’expérience digitale Adobe. À utiliser lors de la création de plans directeurs, de l’ajout de pages de plan directeur ou lorsque l’utilisateur pose des questions sur la structure, les sections, les modèles de plan directeur ou le référencement d’Adobe Experience League.
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Chaque page de plan directeur doit suivre cette structure. Inclure uniquement le
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,8 +98,8 @@ Pour les pages de présentation ou de hub, utilisez une structure plus courte : 
 ## Référencer Adobe Experience League
 
 - **Quand créer un lien** : créez un lien vers Experience League pour accéder à la documentation du produit, aux références d’API, aux mécanismes de sécurisation, aux tutoriels et aux étapes de configuration. Ne dupliquez pas les longues procédures ; résumez et liez.
-- **Format d’URL** : utilisez des URL complètes. Préférez `https://experienceleague.adobe.com/docs/?lang=fr...` ou `https://experienceleague.adobe.com/fr/docs/...`. Pour les documents destinés aux développeurs, `https://developer.adobe.com/...` est également valide.
-- **Texte du lien** : utilisez un texte descriptif (par exemple, « [Créer des schémas] (url) » et non « Cliquer ici »). Pour les noms de produit dans le texte du lien, utilisez `[!DNL Product Name]` le cas échéant.
+- **Format d’URL** : utilisez des URL complètes. Préférez `https://experienceleague.adobe.com/docs/...` ou `https://experienceleague.adobe.com/en/docs/...`. Pour les documents destinés aux développeurs, `https://developer.adobe.com/...` est également valide.
+- **Texte du lien** : utilisez un texte descriptif (par exemple, « [Créer des schémas](url) » et non « Cliquer ici »). Pour les noms de produit dans le texte du lien, utilisez `[!DNL Product Name]` le cas échéant.
 - **Section de documentation connexe** : terminez les plans directeurs par une section « Documentation connexe » regroupant les liens par catégorie (par exemple, configurations de destination, documentation de SDK, profil et segmentation, tutoriels).
 
 Pour obtenir des modèles d’URL détaillés, un regroupement de liens et des exemples, voir [reference.md](reference.md).
