@@ -99,9 +99,9 @@ Consultez la section Composition des modèles sous Considérations relatives à 
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Prise de décision** — Stratégies de sélection, modèles de classement, catalogues d’éléments et politiques de décision qui évaluent les signaux comportementaux et renvoient les éléments les plus pertinents pour chaque visiteur
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Accumulation des données de profil comportemental, évaluation de l’audience pour la portée des recommandations et attributs calculés pour la notation de l’affinité comportementale
-- **[!DNL Adobe Experience Platform](AEP)** — Ingestion d’événements comportementaux via [!DNL Web SDK] et [!DNL Mobile SDK], traitement des [!DNL Edge Network], gestion des schémas XDM pour les données d’événement et de catalogue
+- **[!DNL Adobe Journey Optimizer] (AJO) Prise de décision** — Stratégies de sélection, modèles de classement, catalogues d’éléments et politiques de décision qui évaluent les signaux comportementaux et renvoient les éléments les plus pertinents pour chaque visiteur
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Accumulation des données de profil comportemental, évaluation de l’audience pour la portée des recommandations et attributs calculés pour la notation de l’affinité comportementale
+- **[!DNL Adobe Experience Platform] (AEP)** — Ingestion d’événements comportementaux via [!DNL Web SDK] et [!DNL Mobile SDK], traitement des [!DNL Edge Network], gestion des schémas XDM pour les données d’événement et de catalogue
 
 ## Fonctions fondamentales
 
@@ -631,17 +631,17 @@ Examinez les mécanismes de sécurisation, les pièges à éviter, les bonnes pr
 
 ### Mécanismes de sécurisation et limites
 
-- Maximum de 10 000 offres personnalisées approuvées (éléments de décision) par sandbox — [ Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 10 000 offres personnalisées approuvées (éléments de décision) par sandbox — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 30 emplacements par décision
 - Maximum de 30 portées de collection par demande de décision
 - SLA du temps de réponse de diffusion des offres : moins de 500 ms à l’adresse P95 pour les requêtes Edge à portée unique
 - Les modèles de classement par l’IA nécessitent au moins 1 000 événements de conversion pour la formation
 - Les compteurs de limitation d’offre peuvent présenter un retard de quelques secondes maximum dans les scénarios à débit élevé
 - les décisions Edge sont limitées aux attributs de profil disponibles dans le magasin de profils edge
-- Une seule politique de fusion peut être active sur Edge par sandbox : [ Mécanismes de sécurisation de profil ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- Une seule politique de fusion peut être active sur Edge par sandbox : [&#x200B; Mécanismes de sécurisation de profil &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Maximum de 25 attributs calculés actifs par sandbox — [Mécanismes de sécurisation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 - Maximum de 4 000 définitions de segment par sandbox — [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Ingestion par flux : maximum de 20 000 enregistrements par seconde par connexion HTTP - [ Mécanismes de sécurisation d’ingestion ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- Ingestion par flux : maximum de 20 000 enregistrements par seconde par connexion HTTP - [&#x200B; Mécanismes de sécurisation d’ingestion &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 
 ### Pièges courants
 

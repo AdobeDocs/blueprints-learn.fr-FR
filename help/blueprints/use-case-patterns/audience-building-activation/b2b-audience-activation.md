@@ -100,7 +100,7 @@ Activez les audiences B2B basées sur les comptes sur les canaux web, e-mail et 
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
 - **[!DNL Real-Time CDP]B2B edition** : plateforme principale pour l’unification des profils de compte, la résolution des identités B2B, l’évaluation des audiences de compte, la configuration de destination spécifique au B2B et l’activation des audiences de compte
-- **[!DNL Adobe Experience Platform](AEP)** : infrastructure de base pour la modélisation des données XDM B2B, l’ingestion des données à partir de sources d’automatisation CRM et marketing, le service d’identités et la gouvernance
+- **[!DNL Adobe Experience Platform] (AEP)** : infrastructure de base pour la modélisation des données XDM B2B, l’ingestion des données à partir de sources d’automatisation CRM et marketing, le service d’identités et la gouvernance
 - **[!DNL Marketo Engage]** : destination d’automatisation du marketing B2B Principal pour les programmes de formation des prospects, la notation et l’exécution de campagnes alimentés par des audiences de compte activées
 
 ## Fonctions fondamentales

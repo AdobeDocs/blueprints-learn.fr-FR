@@ -84,9 +84,9 @@ Voir la section [Options d’implémentation](#implementation-options) pour savo
 
 Les applications Adobe suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
-- **[!DNL Adobe Experience Platform](AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
+- **[!DNL Adobe Experience Platform] (AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
 
 ## Fonctions fondamentales
 
@@ -635,7 +635,7 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 
 Tenez compte des mécanismes de sécurisation et limites de plateforme suivants lors de la planification de votre implémentation.
 
-- Maximum de 10 000 offres personnalisées approuvées par sandbox — [ Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 10 000 offres personnalisées approuvées par sandbox — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 30 emplacements par décision
 - Maximum de 30 portées de collection par demande de décision
 - Les modèles de classement par l’IA nécessitent au moins 1 000 événements de conversion pour la formation

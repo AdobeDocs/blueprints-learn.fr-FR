@@ -24,7 +24,7 @@ Les modèles suivants vous aident à créer, évaluer et activer des segments d�
 | Modèle | Fonction de Principal | Solutions principales |
 | --- | --- | --- |
 | [Audience Activation vers les destinations](audience-building-activation/audience-activation-to-destinations.md) | Évaluer et publier des segments d’audience vers des destinations externes à des fins de ciblage ou de suppression | [!DNL Real-Time CDP] |
-| [ Audience Collaboration avec correspondance de segments ](audience-building-activation/audience-collaboration-segment-match.md) | Partagez et faites correspondre des segments d’audience dans des sandbox ou des organisations à l’aide de la correspondance de segments | [!DNL Real-Time CDP], [!DNL Experience Platform] |
+| [&#x200B; Audience Collaboration avec correspondance de segments &#x200B;](audience-building-activation/audience-collaboration-segment-match.md) | Partagez et faites correspondre des segments d’audience dans des sandbox ou des organisations à l’aide de la correspondance de segments | [!DNL Real-Time CDP], [!DNL Experience Platform] |
 | [Transfert d’événement](audience-building-activation/event-forwarding.md) | Transférer les données d’événement en temps réel collectées via Edge Network vers des destinations hors Adobe | [!DNL Experience Platform] (Edge Network, transfert d’événement) |
 | [Activation d’audience B2B](audience-building-activation/b2b-audience-activation.md) | Activer les audiences B2B basées sur les comptes sur les canaux web, e-mail et publicitaires | [!DNL Real-Time CDP] B2B edition |
 

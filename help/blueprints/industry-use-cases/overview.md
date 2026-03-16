@@ -28,7 +28,7 @@ Parcourez les différents secteurs d’activité pour trouver des cas d’utilis
 | [Assurance](insurance/insurance-overview.md) | Renouvellement des politiques, expérience des réclamations, prévention des risques, optimisation des ventes croisées |
 | [Médias et divertissement](media-entertainment/media-entertainment-overview.md) | Recommandations de contenu, conservation des abonnements, conversion d’essai, engagement sur plusieurs plateformes |
 | [Vente au détail](retail/retail-overview.md) | Personnalisation des produits, récupération du panier, optimisation des ventes croisées, engagement de fidélité |
-| [ Télécommunications ](telecommunications/telecommunications-overview.md) | Mises à niveau des appareils, prévention de l’attrition, optimisation des plans, engagement du réseau |
+| [&#x200B; Télécommunications &#x200B;](telecommunications/telecommunications-overview.md) | Mises à niveau des appareils, prévention de l’attrition, optimisation des plans, engagement du réseau |
 | [Voyage et hébergement](travel-hospitality/travel-hospitality-overview.md) | Personnalisation des réservations, récupération des abandons, programmes de fidélité, campagnes saisonnières |
 
 ## Comment les cas d’utilisation se connectent aux conseils d’implémentation

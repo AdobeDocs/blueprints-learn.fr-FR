@@ -31,4 +31,4 @@ Les modèles de cas d’utilisation suivants prennent en charge cet objectif com
 | Modèle | Catégorie | Comment elle soutient cet objectif |
 | --- | --- | --- |
 | [Audience Activation vers les destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Création et activation d’audiences | Supprime les clients existants des campagnes d’acquisition et publie des audiences ciblées avec précision afin de réduire le gaspillage d’annonces |
-| [ Audience Collaboration avec correspondance de segments ](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Création et activation d’audiences | Permet l’analyse et le partage du chevauchement des audiences pour améliorer l’efficacité du ciblage entre les organisations |
+| [&#x200B; Audience Collaboration avec correspondance de segments &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Création et activation d’audiences | Permet l’analyse et le partage du chevauchement des audiences pour améliorer l’efficacité du ciblage entre les organisations |

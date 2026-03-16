@@ -102,9 +102,9 @@ Diffusez du contenu, des offres ou des promotions personnalisés à un visiteur 
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
-- **[!DNL Adobe Experience Platform](AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
+- **[!DNL Adobe Journey Optimizer] (AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
+- **[!DNL Adobe Experience Platform] (AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
 
 ## Fonctions fondamentales
 
@@ -654,7 +654,7 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 - Maximum de 4 000 définitions de segment par sandbox — [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Les segments Edge sont limités à de simples vérifications d’attributs et requêtes d’appartenance à un segment (aucune requête de série temporelle). [segmentation Edge](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - Une seule politique de fusion peut être active sur Edge par sandbox — [Politiques de fusion](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- Maximum de 10 000 offres personnalisées approuvées par sandbox — [ Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 10 000 offres personnalisées approuvées par sandbox — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 30 emplacements par décision - [Mécanismes de sécurisation Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Les modèles de classement par l’IA nécessitent au moins 1 000 événements de conversion pour la formation
 - Le temps de réponse de la diffusion des offres SLA est inférieur à 500 ms à l’adresse P95 pour les requêtes à portée unique

@@ -58,7 +58,7 @@ Optimisez l’allocation du budget marketing en identifiant les canaux et les ca
 
 - **KPI : Efficacité** revenus incrémentiels
 
-Consultez [ Optimiser les dépenses marketing et le retour sur investissement ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
+Consultez [&#x200B; Optimiser les dépenses marketing et le retour sur investissement &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
 
 ## Exemples de cas d’utilisation tactiques
 
@@ -101,8 +101,8 @@ Voir la section [Options d’implémentation](#implementation-options) pour obte
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Customer Journey Analytics](CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
-- **[!DNL Adobe Experience Platform](AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
+- **[!DNL Customer Journey Analytics] (CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
+- **[!DNL Adobe Experience Platform] (AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
 
 ## Fonctions fondamentales
 
@@ -111,7 +111,7 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | Profil de produit CJA configuré avec les autorisations de création d’espace de travail et d’accès aux vues de données. Jeux de données AEP accessibles à la connexion CJA. Utilisateurs affectés aux rôles CJA appropriés. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modélisation et préparation des données | Obligatoire | Les schémas et les jeux de données XDM qui seront connectés à CJA doivent exister dans AEP. La conception de schémas a un impact direct sur les dimensions et mesures disponibles dans les vues de données CJA. Les schémas d’événement nécessitent des champs d’horodatage ; les schémas de recherche nécessitent des champs clés. | [ Présentation du système XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Modélisation et préparation des données | Obligatoire | Les schémas et les jeux de données XDM qui seront connectés à CJA doivent exister dans AEP. La conception de schémas a un impact direct sur les dimensions et mesures disponibles dans les vues de données CJA. Les schémas d’événement nécessitent des champs d’horodatage ; les schémas de recherche nécessitent des champs clés. | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
 | Sources et collecte de données | Obligatoire | Les données doivent circuler dans les jeux de données AEP : événements web via Web SDK, événements d’application via Mobile SDK, événements de campagne AJO, données CRM via des connecteurs source. La richesse des analyses dépend de l’ampleur des données collectées. | [Présentation des sources](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | Configuration des identités et des profils | Obligatoire | La configuration de l’ID de personne dans la connexion CJA détermine la manière dont les événements sont regroupés dans les jeux de données. La combinaison d’identités entre appareils dans AEP améliore la capacité de CJA à créer des parcours client complets. L’espace de noms d’identité doit être configuré pour le champ ID de personne . | [Présentation d’Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Définition et segmentation de l’audience | Sans objet | CJA crée ses propres filtres et audiences dans le contexte d’analyse. Les audiences RT-CDP ne sont pas une condition préalable, bien que CJA puisse republier des audiences dans AEP via la publication d’audience (option C). | [Présentation de Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |

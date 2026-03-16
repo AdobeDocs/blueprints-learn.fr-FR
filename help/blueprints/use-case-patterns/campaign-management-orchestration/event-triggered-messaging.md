@@ -106,9 +106,9 @@ Détectez un événement système ou comportemental en temps réel, puis envoyez
 
 Les applications Adobe suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** orchestration des Parcours avec entrée unitaire d’événement, évaluation de condition, étapes d’attente, création de messages, configuration des canaux, gouvernance des fréquences et création de rapports de diffusion
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation de l’audience pour le filtrage basé sur les conditions dans les parcours, l’application du consentement et de la gouvernance, l’enrichissement des profils
-- **[!DNL Adobe Experience Platform](AEP)** — Ingestion d’événements en temps réel via Web SDK, Mobile SDK ou une API côté serveur ; modélisation des données ; résolution d’identité ; Edge Network
+- **[!DNL Adobe Journey Optimizer] (AJO)** orchestration des Parcours avec entrée unitaire d’événement, évaluation de condition, étapes d’attente, création de messages, configuration des canaux, gouvernance des fréquences et création de rapports de diffusion
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation de l’audience pour le filtrage basé sur les conditions dans les parcours, l’application du consentement et de la gouvernance, l’enrichissement des profils
+- **[!DNL Adobe Experience Platform] (AEP)** — Ingestion d’événements en temps réel via Web SDK, Mobile SDK ou une API côté serveur ; modélisation des données ; résolution d’identité ; Edge Network
 
 ## Fonctions fondamentales
 
