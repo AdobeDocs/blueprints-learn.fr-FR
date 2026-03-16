@@ -37,23 +37,228 @@ Après avoir exploré, conservez immédiatement les règles et instructions esse
 
 Bien que votre mémoire d’agent contienne l’ensemble des directives explorées, voici les catégories fondamentales que vous devez toujours vérifier :
 
-### &#x200B;1. Métadonnées et sujet principal- Les fichiers doivent inclure le recto YAML approprié avec les champs requis (titre, description, solution, rôle, niveau, etc.)- Le titre doit être concis, descriptif et suivre les bonnes pratiques d’optimisation pour les moteurs de recherche- La description doit comporter entre 60 et 160 caractères.
+### &#x200B;1. Métadonnées et sujet principal
+- Les fichiers doivent inclure le recto YAML approprié avec les champs requis (titre, description, solution, rôle, niveau, etc.)
+- Le titre doit être concis, descriptif et suivre les bonnes pratiques d’optimisation pour les moteurs de recherche
+- La description doit comporter entre 60 et 160 caractères.
 
-### &#x200B;2. Syntaxe De Markdown (Avec Un Goût Adobe)- Utiliser des extensions Markdown spécifiques à Adobe (par exemple, `>[!NOTE]`, `>[!TIP]`, `>[!WARNING]`, `>[!CAUTION]`, `>[!IMPORTANT]`)- Balises DNL (Do Not Localize) : `[!DNL ProductName]` les noms de produits qui ne doivent pas être traduits.- Balises UICONTROL : `[!UICONTROL Button Label]` pour les références d’élément d’interface utilisateur- Syntaxe des badges pour le marquage du statut du contenu- Hiérarchie d’en-tête appropriée (H1 une seule fois, imbrication séquentielle)
+### &#x200B;2. Syntaxe De Markdown (Avec Un Goût Adobe)
+- Utiliser des extensions Markdown spécifiques à Adobe (par exemple, `>[!NOTE]`, `>[!TIP]`, `>[!WARNING]`, `>[!CAUTION]`, `>[!IMPORTANT]`)
+- Balises DNL (Do Not Localize) : `[!DNL ProductName]` les noms de produits qui ne doivent pas être traduits.
+- Balises UICONTROL : `[!UICONTROL Button Label]` pour les références d’élément d’interface utilisateur
+- Syntaxe des badges pour le marquage du statut du contenu
+- Hiérarchie d’en-tête appropriée (H1 une seule fois, imbrication séquentielle)
 
-### &#x200B;3. Normes de formatage- Utiliser des en-têtes de type ATX (syntaxe `#`, pas de soulignement)- Un H1 par document (généralement généré automatiquement à partir des métadonnées de titre)- Formatage de liste ordonné et non ordonné- Alignement et mise en forme du tableau- Blocs de code avec identifiants de langue- Échappement correct des caractères spéciaux
+### &#x200B;3. Normes de formatage
+- Utiliser des en-têtes de type ATX (syntaxe `#`, pas de soulignement)
+- Un H1 par document (généralement généré automatiquement à partir des métadonnées de titre)
+- Formatage de liste ordonné et non ordonné
+- Alignement et mise en forme du tableau
+- Blocs de code avec identifiants de langue
+- Échappement correct des caractères spéciaux
 
-### &#x200B;4. Liens et références- Liens relatifs vers la documentation interne- Syntaxe des références croisées appropriée- Les liens externes doivent s’ouvrir dans de nouveaux onglets, le cas échéant.- Éviter les liens rompus ou morts- Utiliser des modèles de liens définis
+### &#x200B;4. Liens et références
+- Liens relatifs vers la documentation interne
+- Syntaxe des références croisées appropriée
+- Les liens externes doivent s’ouvrir dans de nouveaux onglets, le cas échéant.
+- Éviter les liens rompus ou morts
+- Utiliser des modèles de liens définis
 
-### &#x200B;5. Images et médias- Texte de remplacement requis pour toutes les images- Conventions de chemin d’accès aux images appropriées- Conventions de dénomination des fichiers images (minuscules, tirets)- Dimensionnement et format d’image appropriés
+### &#x200B;5. Images et médias
+- Texte de remplacement requis pour toutes les images
+- Conventions de chemin d’accès aux images appropriées
+- Conventions de dénomination des fichiers images (minuscules, tirets)
+- Dimensionnement et format d’image appropriés
 
-### &#x200B;6. Qualité du contenu- Voix active préférée- Deuxième personne (« vous ») pour le contenu pédagogique- Terminologie cohérente- Majuscules correctes du nom du produit- Éviter le jargon sans explication- Les étapes doivent être numérotées et exploitables
+### &#x200B;6. Qualité du contenu
+- Voix active préférée
+- Deuxième personne (« vous ») pour le contenu pédagogique
+- Terminologie cohérente
+- Majuscules correctes du nom du produit
+- Éviter le jargon sans explication
+- Les étapes doivent être numérotées et exploitables
 
-### &#x200B;7. Conventions relatives aux fichiers et aux dossiers- Noms de fichiers en minuscules avec des tirets (sans espaces ni traits de soulignement)- Hiérarchie de dossiers logiques- Conformité de la structure de fichiers de la table des matières
+### &#x200B;7. Conventions relatives aux fichiers et aux dossiers
+- Noms de fichiers en minuscules avec des tirets (sans espaces ni traits de soulignement)
+- Hiérarchie de dossiers logiques
+- Conformité de la structure de fichiers de la table des matières
 
-### &#x200B;8. Valeurs de produit valides« product »:- « adobe analytics »- « Adobe Analytics »- « analytics »- « Analytics »- « aa »- « adobe audience manager »- « Adobe Audience Manager »- « audience manager »- « Audience Manager »- « adobe campaign »- « Adobe Campaign »- « campaign »- « Campagne »- « ac »- « adobe experience manager »- « Adobe Experience Manager »- « experience manager »- « Experience Manager »- « aem »- « adobe experience manager cloud manager »- « Adobe Experience Manager Cloud Manager »- « experience manager cloud manager »- « Experience Manager Cloud Manager »- « cm »- « adobe livefyre »- « Adobe Livefyre »- « livefyre »- « Livefyre »- « moitié »- « adobe marketing cloud »- « experience cloud »- « experience-cloud »- « experience cloud »- « Experience Cloud »- « services principaux »- « amc »- « adobe advertising cloud »- « Adobe Advertising cloud »- « advertising cloud »- « Advertising Cloud »- « adc »- « adobe media optimizer »- « Adobe Media Optimizer »- « media optimizer »- « Adobe Media Optimizer »- « amo »- « adobe target »- « Adobe Target »- « cible »- « Cible »- « à »- « adobe dynamic tag management »- « dynamic tag management »- « dtm »- « adobe experience platform »- « Adobe Experience Platform »- « experience platform »- « Experience Platform »- « plateforme »- « Plateforme »- « adobe customer parcours analytics »- « Adobe Customer Journey Analytics »- « customer parcours analytics »- « Customer Journey Analytics »- « cja »- « adobe intelligent services »- « Adobe Intelligent Services »- « services intelligents »- « Services intelligents »- « is »- « adobe real time customer data platform »- « Adobe Real-Time Customer Data Platform »- « real time cdp »- « Real Time CDP »- « rtcdp »- « adobe marketo »- « Adobe Marketo »- « marketo »- « Marketo »- « amk »- « adobe bizible »- « Adobe Bizible »- « bizible »- « Bizible »- « entreprise »- « adobe magento »- « Adobe Magento »- magento- « Magento »- « mag »- « adobe acrobat »- « Adobe Acrobat »- « acrobat »- « Acrobat »- « acr »- « adobe sign »- « Adobe Sign »- « signer »- « Signer »- « asi »- « adobe document cloud »- « Adobe Document Cloud »- « document cloud »- « Document Cloud »- « dcl »- « adobe search and promote »- « Adobe Search and Promote »- « rechercher et promouvoir »- « Rechercher et promouvoir »- « asp »- « adobe dynamic media classic »- « Adobe Dynamic Media Classic »- « dynamic media classic »- « Dynamic Media Classic »- « dmc »- « adobe launch »- « Adobe Launch »- « lancement »- « Launch »- « adobe primetime »- « Adobe Primetime »- « primetime »- « Primetime »- « adobe social »- « social »- « auditeur »- « Auditor »- « adobe parcours orchestration »- « Adobe Journey Orchestration »- « Orchestration des parcours »- « Journey Orchestration »- « jo »- « adobe device co-op »- « Adobe Device Co-op »- « device co-op »- « Device Co-op »- « dcp »- « adobe debugger »- « Adobe Debugger »- « debugger »- « Débogueur »- « dbg »- « sdk web adobe »- « Adobe Web SDK »- « sdk web »- « Web SDK »- « sdk »- « service adobe places »- « Service Adobe Places »- « service places »- « Places Service »- « aps »- « service adobe id »- « Service Adobe ID »- « service d’id »- « Service d’ID »- « ids »- « sdk adobe mobile »- « Adobe Mobile SDK »- « sdk mobile »- « Mobile SDK »- « mdk »- « Journey Optimizer »- « parcours optimizer »
+### &#x200B;8. Valeurs de produit valides
+« product »:
+- « adobe analytics »
+- « Adobe Analytics »
+- « analytics »
+- « Analytics »
+- « aa »
+- « adobe audience manager »
+- « Adobe Audience Manager »
+- « audience manager »
+- « Audience Manager »
+- « adobe campaign »
+- « Adobe Campaign »
+- « campaign »
+- « Campagne »
+- « ac »
+- « adobe experience manager »
+- « Adobe Experience Manager »
+- « experience manager »
+- « Experience Manager »
+- « aem »
+- « adobe experience manager cloud manager »
+- « Adobe Experience Manager Cloud Manager »
+- « experience manager cloud manager »
+- « Experience Manager Cloud Manager »
+- « cm »
+- « adobe livefyre »
+- « Adobe Livefyre »
+- « livefyre »
+- « Livefyre »
+- « moitié »
+- « adobe marketing cloud »
+- « experience cloud »
+- « experience-cloud »
+- « experience cloud »
+- « Experience Cloud »
+- « services principaux »
+- « amc »
+- « adobe advertising cloud »
+- « Adobe Advertising cloud »
+- « advertising cloud »
+- « Advertising Cloud »
+- « adc »
+- « adobe media optimizer »
+- « Adobe Media Optimizer »
+- « media optimizer »
+- « Adobe Media Optimizer »
+- « amo »
+- « adobe target »
+- « Adobe Target »
+- « cible »
+- « Cible »
+- « à »
+- « adobe dynamic tag management »
+- « dynamic tag management »
+- « dtm »
+- « adobe experience platform »
+- « Adobe Experience Platform »
+- « experience platform »
+- « Experience Platform »
+- « plateforme »
+- « Plateforme »
+- « adobe customer parcours analytics »
+- « Adobe Customer Journey Analytics »
+- « customer parcours analytics »
+- « Customer Journey Analytics »
+- « cja »
+- « adobe intelligent services »
+- « Adobe Intelligent Services »
+- « services intelligents »
+- « Services intelligents »
+- « is »
+- « adobe real time customer data platform »
+- « Adobe Real-Time Customer Data Platform »
+- « real time cdp »
+- « Real Time CDP »
+- « rtcdp »
+- « adobe marketo »
+- « Adobe Marketo »
+- « marketo »
+- « Marketo »
+- « amk »
+- « adobe bizible »
+- « Adobe Bizible »
+- « bizible »
+- « Bizible »
+- « entreprise »
+- « adobe magento »
+- « Adobe Magento »
+- magento
+- « Magento »
+- « mag »
+- « adobe acrobat »
+- « Adobe Acrobat »
+- « acrobat »
+- « Acrobat »
+- « acr »
+- « adobe sign »
+- « Adobe Sign »
+- « signer »
+- « Signer »
+- « asi »
+- « adobe document cloud »
+- « Adobe Document Cloud »
+- « document cloud »
+- « Document Cloud »
+- « dcl »
+- « adobe search and promote »
+- « Adobe Search and Promote »
+- « rechercher et promouvoir »
+- « Rechercher et promouvoir »
+- « asp »
+- « adobe dynamic media classic »
+- « Adobe Dynamic Media Classic »
+- « dynamic media classic »
+- « Dynamic Media Classic »
+- « dmc »
+- « adobe launch »
+- « Adobe Launch »
+- « lancement »
+- « Launch »
+- « adobe primetime »
+- « Adobe Primetime »
+- « primetime »
+- « Primetime »
+- « adobe social »
+- « social »
+- « auditeur »
+- « Auditor »
+- « adobe parcours orchestration »
+- « Adobe Journey Orchestration »
+- « Orchestration des parcours »
+- « Journey Orchestration »
+- « jo »
+- « adobe device co-op »
+- « Adobe Device Co-op »
+- « device co-op »
+- « Device Co-op »
+- « dcp »
+- « adobe debugger »
+- « Adobe Debugger »
+- « debugger »
+- « Débogueur »
+- « dbg »
+- « sdk web adobe »
+- « Adobe Web SDK »
+- « sdk web »
+- « Web SDK »
+- « sdk »
+- « service adobe places »
+- « Service Adobe Places »
+- « service places »
+- « Places Service »
+- « aps »
+- « service adobe id »
+- « Service Adobe ID »
+- « service d’id »
+- « Service d’ID »
+- « ids »
+- « sdk adobe mobile »
+- « Adobe Mobile SDK »
+- « sdk mobile »
+- « Mobile SDK »
+- « mdk »
+- « Journey Optimizer »
+- « parcours optimizer »
 
-### &#x200B;9. Valider les valeurs de rôle« rôle » :- « Admin »- « Architecte »- « Architecte de données »- « Ingénieur de données »- « Développeur »- « Leader »- « Utilisateur »
+### &#x200B;9. Valider les valeurs de rôle
+« rôle » :
+- « Admin »
+- « Architecte »
+- « Architecte de données »
+- « Ingénieur de données »
+- « Développeur »
+- « Leader »
+- « Utilisateur »
 
 ## Processus de révision
 
@@ -74,11 +279,20 @@ Lors de l’examen d’un fichier, procédez de manière systématique :
 
 Pour chaque révision, fournissez les éléments suivants :
 
-### RésuméUne brève évaluation globale (réussite/changements des besoins/problèmes majeurs)
+### Résumé
+Une brève évaluation globale (réussite/changements des besoins/problèmes majeurs)
 
-### Problèmes détectésPour chaque événement :- **Gravité** : erreur 🔴 (doit être corrigée) | Avertissement 🟡 (doit être corrigé) | 🔵 Suggestion (agréable à avoir)- **Ligne/Section** : emplacement du problème- **Règle** : quelle directive est enfreinte ?- **Actuel** : caractéristiques actuelles du fichier- **Attendu** : ce que cela doit être- **Correctif** : correction spécifique à appliquer
+### Problèmes détectés
+Pour chaque événement :
+- **Gravité** : erreur 🔴 (doit être corrigée) | Avertissement 🟡 (doit être corrigé) | 🔵 Suggestion (agréable à avoir)
+- **Ligne/Section** : emplacement du problème
+- **Règle** : quelle directive est enfreinte ?
+- **Actuel** : caractéristiques actuelles du fichier
+- **Attendu** : ce que cela doit être
+- **Correctif** : correction spécifique à appliquer
 
-### ChecklistUne liste de contrôle de conformité rapide indiquant les réussites/échecs pour chaque catégorie principale.
+### Checklist
+Une liste de contrôle de conformité rapide indiquant les réussites/échecs pour chaque catégorie principale.
 
 ## Comportements importants
 
