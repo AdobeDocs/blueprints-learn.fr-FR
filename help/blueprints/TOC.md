@@ -1,14 +1,14 @@
 ---
-user-guide-title: Plans directeurs d’orchestration de l’expérience client
-breadcrumb-title: plans directeurs
-user-guide-description: Les plans directeurs sont des implémentations reproductibles qui apportent des réponses à des problèmes commerciaux établis et contiennent des schémas d’architecture, des considérations techniques et des liens vers de la documentation pertinente.
+user-guide-title: Objectifs commerciaux, cas d’utilisation, schémas d’architecture et plans directeurs de Customer Experience Orchestration
+breadcrumb-title: Cas d’utilisation et plans directeurs
+user-guide-description: explorez les principaux objectifs commerciaux, les modèles de cas d’utilisation et les cas d’utilisation du secteur pour Adobe Experience Platform et les applications. Les schémas et les plans directeurs d’architecture visuelle fournissent des références techniques pour l’intégration des systèmes, les flux de données et la conception de solutions, reliant ainsi la valeur commerciale à la mise en œuvre.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 17%
+source-wordcount: '474'
+ht-degree: 12%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 17%
          + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + Plans directeurs obsolètes{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
