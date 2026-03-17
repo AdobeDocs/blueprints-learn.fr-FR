@@ -3,7 +3,7 @@ title: Cas d’utilisation, schémas d’architecture et plans directeurs de Cus
 description: Explorez les principaux objectifs commerciaux, les modèles d’utilisation et les cas d’utilisation du secteur pour Adobe Experience Platform et les applications. Les schémas et les plans directeurs d’architecture visuelle fournissent des références techniques pour l’intégration des systèmes, les flux de données et la conception de solutions, reliant ainsi la valeur commerciale à la mise en œuvre.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
+source-git-commit: 63154ca158b773287f0d1a7f88a81ac3181c43a0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Cas d’utilisation adaptés à des secteurs spécifiques, chacun associé à de
 </tr>
 </table>
 
-[Afficher tous les cas d’utilisation du secteur](industry-use-cases/overview.md)
+[Afficher tous les cas d’utilisation du secteur](industry-use-cases/use-case-catalog.md)
 
 ## Diagrammes et plans directeurs d’architecture
 
