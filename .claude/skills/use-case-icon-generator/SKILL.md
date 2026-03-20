@@ -117,9 +117,9 @@ Vérifiez la section d’inventaire des icônes existantes du guide de style et 
 
 Mettez en forme la sortie de manière claire avec les sections suivantes :
 
----
+&#x200B;---
 
-### Spécification d’icône : {Use Case Name}
+### Spécification d’icône : &lbrace;Use Case Name&rbrace;
 
 **Industrie:** {Industry}
 
@@ -151,7 +151,7 @@ Mettez en forme la sortie de manière claire avec les sections suivantes :
 6. Vérifiez que l’icône est claire et reconnaissable au format d’affichage de 40 pixels.
 7. Utilisez le fragment de code HTML de catalogue lors de l’ajout de ce cas d’utilisation au tableau de catalogue.
 
----
+&#x200B;---
 
 ## l’enquête
 

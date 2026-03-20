@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Ce fichier contient le modèle Markdown complet pour une page de modèle de cas d’utilisation. Remplacez toutes les valeurs `{{placeholder}}` par le contenu réel lors de la génération d’un nouveau modèle.
 
----
+&#x200B;---
 
 ## Modèle
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## Remarques sur l’utilisation de ce modèle
 
