@@ -106,9 +106,9 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 
 | Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
-| Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations de création et de publication de parcours. Les surfaces de tous les canaux utilisés dans le parcours doivent être configurées. Les utilisateurs doivent disposer des rôles appropriés (marketeur, responsable de Parcours) avec des autorisations de parcours et de campagne. | [Présentation des sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modélisation et préparation des données | Obligatoire | Schéma de profil XDM avec les attributs utilisés pour l’embranchement et la personnalisation des conditions sur plusieurs messages (par exemple, le niveau de fidélité, l’intérêt du produit, le score d’engagement). Les schémas d’événement d’expérience pour les événements de conversion qui génèrent les critères de sortie et l’évaluation des conditions (par exemple, les événements d’achat, les envois de formulaire). | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Sources et collecte de données | Supposé en place | La diffusion en continu d’événements doit être active si les critères ou conditions de sortie dépendent d’événements en temps réel (par exemple, un événement d’achat pour quitter le parcours). Ingestion par lots pour les attributs de profil utilisés dans l’embranchement. Web SDK ou API côté serveur pour la collecte d’événements comportementaux. | [Présentation de l’ingestion par flux](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview), [Présentation des sources](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations de création et de publication de parcours. Les surfaces de tous les canaux utilisés dans le parcours doivent être configurées. Les utilisateurs doivent disposer des rôles appropriés (marketeur, responsable de Parcours) avec des autorisations de parcours et de campagne. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
+| Modélisation et préparation des données | Obligatoire | Schéma de profil XDM avec les attributs utilisés pour l’embranchement et la personnalisation des conditions sur plusieurs messages (par exemple, le niveau de fidélité, l’intérêt du produit, le score d’engagement). Les schémas d’événement d’expérience pour les événements de conversion qui génèrent les critères de sortie et l’évaluation des conditions (par exemple, les événements d’achat, les envois de formulaire). | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition) |
+| Sources et collecte de données | Supposé en place | La diffusion en continu d’événements doit être active si les critères ou conditions de sortie dépendent d’événements en temps réel (par exemple, un événement d’achat pour quitter le parcours). Ingestion par lots pour les attributs de profil utilisés dans l’embranchement. Web SDK ou API côté serveur pour la collecte d’événements comportementaux. | [Présentation de l’ingestion par flux](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/streaming/overview), [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home) |
 | Configuration des identités et des profils | Supposé en place | Les profils doivent pouvoir être résolus sur tous les canaux utilisés dans le parcours (e-mail, SMS, notification push). Les identités entre appareils doivent être configurées si le parcours s’étend sur des points de contact web et mobiles. La politique de fusion doit être configurée pour le sandbox. | [présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview) |
 | Définition et segmentation de l’audience | Obligatoire | L’audience d’entrée doit être définie pour les parcours lus par l’audience. Les segments peuvent également être utilisés dans les nœuds de condition pour l’embranchement. La méthode d’évaluation (par lots ou par flux) doit correspondre aux exigences d’entrée du parcours. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home), [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder) |
 
@@ -119,9 +119,9 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que les scores d’engagement, les jours depuis la dernière activité ou la valeur d’achat de durée de vie améliorent la logique d’embranchement des conditions, permettant des décisions de chemin de parcours plus intelligentes. | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview) |
-| Gestion du cycle de vie des données | Recommandé | La conservation des données des événements de parcours doit être configurée avec des politiques d’expiration des jeux de données pour gérer le stockage et respecter les réglementations de conservation des données. L’application du consentement garantit que seuls les profils inscrits reçoivent des messages à chaque point de contact de canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Expiration des jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| Gestion du cycle de vie des données | Recommandé | La conservation des données des événements de parcours doit être configurée avec des politiques d’expiration des jeux de données pour gérer le stockage et respecter les réglementations de conservation des données. L’application du consentement garantit que seuls les profils inscrits reçoivent des messages à chaque point de contact de canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home), [Expiration des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les étiquettes de gouvernance assurent une personnalisation conforme sur plusieurs points de contact de message, ce qui est particulièrement important lorsque les parcours utilisent des informations d’identification personnelles ou des données sensibles pour la personnalisation sur plusieurs canaux. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
-| Surveillance et observabilité | Inclus | Alertes de surveillance de l’exécution des parcours sur les échecs de traitement, les goulets d’étranglement des entrées de profil et les problèmes de diffusion. Essentiel pour les parcours de production où les retards ou les échecs ont une incidence sur l’expérience client. | [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Surveillance et observabilité | Inclus | Alertes de surveillance de l’exécution des parcours sur les échecs de traitement, les goulets d’étranglement des entrées de profil et les problèmes de diffusion. Essentiel pour les parcours de production où les retards ou les échecs ont une incidence sur l’expérience client. | [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
 | Rapports et analyses | Inclus | Le funnel CJA et l’analyse des abandons sur l’ensemble du parcours fournissent des rapports insight plus détaillés que les rapports natifs AJO seuls. Permet l’analyse de conversion étape par étape, la comparaison de cohortes et l’optimisation des parcours. | [Présentation de CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Fonctions d&#39;application
@@ -199,8 +199,8 @@ L’audience est évaluée au moment de l’exécution de l’activité Lecture 
 
 **Experience League:**
 
-- [Activité Lecture d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Créer un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Activité Lecture d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
+- [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 
 ### Option B : parcours orchestré déclenché par un événement
 
@@ -235,8 +235,8 @@ L’événement déclencheur doit être configuré en tant qu’événement de p
 
 **Experience League:**
 
-- [Événements généraux](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Événements de qualification d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [Événements de qualification d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
 
 ### Option C : parcours orchestré multicanal
 
@@ -368,8 +368,8 @@ Configurez les surfaces des canaux pour CHAQUE canal utilisé dans le parcours (
 
 #### Documentation Experience League
 
-- [Configurer des surfaces de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [Prise en main de la configuration du canal e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Configurer des surfaces de canal](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Prise en main de la configuration du canal e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [Configurer le canal SMS](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Configuration du canal de notification push](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [Plans de préchauffage d’adresses IP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
@@ -436,8 +436,8 @@ Les blocs de contenu partagés (en-têtes, pieds de page, texte juridique) doive
 - [Contenu dynamique](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Utiliser des modèles de contenu d’e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Utilisation des fragments de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Créer un SMS](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
-- [Concevoir une notification push](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
+- [Créer un SMS](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/create-sms)
+- [Concevoir une notification push](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/push/design-push)
 - [Prévisualiser et tester votre contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 
@@ -553,18 +553,18 @@ Quelle est la durée maximale pendant laquelle un profil peut rester dans le par
 
 #### Documentation Experience League
 
-- [Créer un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [Propriétés du parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [Activité Lecture d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Événements généraux](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Événements de qualification d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [Activité Lecture d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
+- [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [Événements de qualification d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
 - [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
-- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [Activité Attente](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Activité de fin](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/end-activity)
 - [gestion des entrées de parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
-- [Tester votre parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [Tester votre parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [Publication du parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 
@@ -680,7 +680,7 @@ Quelles défaillances de parcours devraient déclencher des alertes ?
 - [Rapport dynamique sur les parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Parcours du rapport global](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Utilisation de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview)
 - [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home)
 - [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
@@ -690,7 +690,7 @@ Examinez les mécanismes de sécurisation, les pièges à éviter, les bonnes pr
 
 ### Mécanismes de sécurisation et limites
 
-- Maximum de **500 parcours actifs** par sandbox — [Mécanismes de sécurisation Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de **500 parcours actifs** par sandbox — [Mécanismes de sécurisation Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 - La durée maximale de **parcours est de 91 jours** (délai d’expiration global) : les profils toujours dans le parcours au moment de la temporisation sont automatiquement fermés
 - Maximum de **50 activités** par zone de travail de parcours
 - Lire les parcours d’audience traitant jusqu’à 20 000 profils **par seconde** (ralentissement par défaut)
@@ -768,22 +768,22 @@ Les ressources suivantes apportent des détails supplémentaires sur les fonctio
 
 ### Parcours
 
-- [Prise en main des parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [Créer un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [Propriétés du parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Publication du parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
-- [Tester votre parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [Tester votre parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 
 ### Activités de parcours
 
-- [Activité Lecture d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Événements généraux](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Événements de qualification d’audience](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [Activité Attente](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [Activité Lecture d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
+- [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [Événements de qualification d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Activité de fin](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/end-activity)
-- [Configurer une action personnalisée](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions)
+- [Configurer une action personnalisée](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions)
 
 ### Gestion des entrées et des sorties
 
@@ -792,8 +792,8 @@ Les ressources suivantes apportent des détails supplémentaires sur les fonctio
 
 ### Configuration des canaux
 
-- [Prise en main de la configuration du canal e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [Configurer des surfaces de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Prise en main de la configuration du canal e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Configurer des surfaces de canal](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [Délégation de sous-domaines](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [Créer des groupes d’adresses IP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [Plans de préchauffage d’adresses IP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
