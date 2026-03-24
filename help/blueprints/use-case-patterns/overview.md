@@ -25,7 +25,7 @@ Les modèles suivants vous aident à créer, évaluer et activer des segments d�
 | --- | --- | --- |
 | [Activation des audiences vers les destinations](audience-building-activation/audience-activation-to-destinations.md) | Évaluer et publier des segments d’audience vers des destinations externes à des fins de ciblage ou de suppression | [!DNL Real-Time CDP] |
 | [Audience Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | Partagez et faites correspondre des segments d’audience dans des sandbox ou des organisations à l’aide de la correspondance de segments | [!DNL Real-Time CDP], [!DNL Experience Platform] |
-| [Transfert d’événement ](audience-building-activation/event-forwarding.md) | Transférer les données d’événement en temps réel collectées via Edge Network vers des destinations hors Adobe | [!DNL Experience Platform] (Edge Network, transfert d’événement) |
+| [Transfert d’événement &#x200B;](audience-building-activation/event-forwarding.md) | Transférer les données d’événement en temps réel collectées via Edge Network vers des destinations hors Adobe | [!DNL Experience Platform] (Edge Network, transfert d’événement) |
 | [Activation de l’audience B2B](audience-building-activation/b2b-audience-activation.md) | Activer les audiences B2B basées sur les comptes sur les canaux web, e-mail et publicitaires | [!DNL Real-Time CDP] B2B edition |
 
 ## Personnalisation
@@ -47,8 +47,8 @@ Les modèles suivants couvrent la diffusion de messages planifiée, déclenchée
 | --- | --- | --- |
 | [Activation des messages sortants par lots](campaign-management-orchestration/batch-outbound-message-activation.md) | Évaluez une audience, puis diffusez un message sortant planifié dans une seule exécution par lots | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Messages déclenchés par un événement](campaign-management-orchestration/event-triggered-messaging.md) | Détecter un événement système ou comportemental en temps réel, puis envoyer un message contextuel au profil de déclenchement | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| parcours orchestré à plusieurs étapes](campaign-management-orchestration/multi-step-orchestrated-journey.md)[ | Guidez un profil à travers un parcours multi-touch de branchement avec des attentes, des conditions et plusieurs actions de message | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| parcours cross-canal avec prise de décision](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)[ | Orchestrer un parcours à plusieurs étapes intégrant une prise de décision en temps réel pour sélectionner un canal, un contenu ou une offre optimal | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| parcours orchestré à plusieurs étapes[&#128279;](campaign-management-orchestration/multi-step-orchestrated-journey.md) | Guidez un profil à travers un parcours multi-touch de branchement avec des attentes, des conditions et plusieurs actions de message | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| parcours cross-canal avec prise de décision[&#128279;](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Orchestrer un parcours à plusieurs étapes intégrant une prise de décision en temps réel pour sélectionner un canal, un contenu ou une offre optimal | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Marketing et gestion de parcours par groupe d&#39;achat](campaign-management-orchestration/buying-group-based-marketing.md) | Développez des parcours au niveau du compte qui qualifient les prospects en groupes d’achat afin d’améliorer l’efficacité du marketing B2B | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 
 ## Analyse
@@ -66,7 +66,7 @@ Les modèles suivants permettent des interactions conversationnelles sécurisée
 
 | Modèle | Fonction de Principal | Solutions principales |
 | --- | --- | --- |
-| [Expérience de conversation ](conversational-experience/brand-concierge-conversational-experience.md) | Transformer les propriétés numériques en expériences de conversation optimisées par l’IA et sécurisées par la marque qui guident la découverte des clients | [!DNL Brand Concierge], [!DNL Experience Platform], [!DNL Real-Time CDP] |
+| [Expérience de conversation &#x200B;](conversational-experience/brand-concierge-conversational-experience.md) | Transformer les propriétés numériques en expériences de conversation optimisées par l’IA et sécurisées par la marque qui guident la découverte des clients | [!DNL Brand Concierge], [!DNL Experience Platform], [!DNL Real-Time CDP] |
 
 ## Sélecteur de scénario
 

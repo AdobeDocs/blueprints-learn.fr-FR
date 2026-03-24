@@ -90,9 +90,9 @@ Diffusez du contenu, des offres ou des promotions personnalisés à un visiteur 
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
-- **[!DNL Adobe Experience Platform](AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
+- **[!DNL Adobe Journey Optimizer] (AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
+- **[!DNL Adobe Experience Platform] (AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
 
 ## Fonctions fondamentales
 
@@ -116,7 +116,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les politiques de conservation des données de profil et d’événement garantissent que des données récentes et pertinentes alimentent les décisions de personnalisation. L’application du consentement garantit que la personnalisation respecte les préférences de l’utilisateur. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Consentement dans Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les étiquettes de gouvernance sur les attributs de profil utilisés pour la personnalisation (en particulier les attributs adjacents aux informations d’identification personnelle tels que l’historique des achats, l’emplacement et les données financières) garantissent la conformité aux politiques d’utilisation des données. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
 | Surveillance et observabilité | Recommandé | La surveillance des performances de diffusion et de personnalisation d’Edge permet de détecter les problèmes de latence, les échecs de diffusion ou les problèmes de fraîcheur des données qui dégradent l’expérience personnalisée. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Rapports et analyses | Inclus | Le rapport de performances de Personalization fait partie de l’étape 6 de la chaîne de fonctions. [!DNL Customer Journey Analytics] l’analyse permet d’étudier en détail l’impact de la personnalisation sur la conversion, l’engagement et le chiffre d’affaires des segments de visiteurs. | [Présentation de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Rapports et analyses | Inclus | Le rapport de performances de Personalization fait partie de l’étape 6 de la chaîne de fonctions. [!DNL Customer Journey Analytics] l’analyse permet d’étudier en détail l’impact de la personnalisation sur la conversion, l’engagement et le chiffre d’affaires des segments de visiteurs. | [Présentation de &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Fonctions d&#39;application
 
@@ -244,7 +244,7 @@ Cette approche prend en charge des scénarios de personnalisation sophistiqués,
 
 **En quoi cela diffère-t-il de l’option B:** d’Offer Decisioning ?
 
-L’infrastructure est identique : les deux utilisent AJO Decisioning à la périphérie avec Web SDK et une politique de fusion Edge-active. La différence réside dans ce qui est sélectionné. Cette option gère les éléments de contenu pour lesquels le critère de sélection est la personnalisation (appartenance à un segment, classement comportemental). [Offer Decisioning ](offer-decisioning.md) l’option B gère un catalogue d’offres régi où les règles d’éligibilité, les limites de limitation et les fenêtres de validité sont des exigences commerciales. Si votre jeu d’éléments nécessite une limitation des impressions par profil, des contraintes d’éligibilité réglementaires ou une gestion du cycle de vie des offres, utilisez plutôt l’option B d’Offer Decisioning.
+L’infrastructure est identique : les deux utilisent AJO Decisioning à la périphérie avec Web SDK et une politique de fusion Edge-active. La différence réside dans ce qui est sélectionné. Cette option gère les éléments de contenu pour lesquels le critère de sélection est la personnalisation (appartenance à un segment, classement comportemental). [Offer Decisioning &#x200B;](offer-decisioning.md) l’option B gère un catalogue d’offres régi où les règles d’éligibilité, les limites de limitation et les fenêtres de validité sont des exigences commerciales. Si votre jeu d’éléments nécessite une limitation des impressions par profil, des contraintes d’éligibilité réglementaires ou une gestion du cycle de vie des offres, utilisez plutôt l’option B d’Offer Decisioning.
 
 ### Option C : personnalisation multi-surface (web + in-app + carte de contenu)
 
@@ -646,11 +646,11 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 - Maximum de 4 000 définitions de segment par sandbox — [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Les segments Edge sont limités à de simples vérifications d’attributs et requêtes d’appartenance à un segment (aucune requête de série temporelle). [segmentation Edge](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - Une seule politique de fusion peut être active sur Edge par sandbox — [Politiques de fusion](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- Maximum de 10 000 offres personnalisées approuvées par sandbox — [ Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- Maximum de 30 emplacements par décision - [Mécanismes de sécurisation ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 10 000 offres personnalisées approuvées par sandbox — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 30 emplacements par décision - [Mécanismes de sécurisation &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Les modèles de classement par l’IA nécessitent au moins 1 000 événements de conversion pour la formation
 - Le temps de réponse de la diffusion des offres SLA est inférieur à 500 ms à l’adresse P95 pour les requêtes à portée unique
-- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 25 attributs calculés actifs par sandbox — [Mécanismes de sécurisation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 ### Pièges courants

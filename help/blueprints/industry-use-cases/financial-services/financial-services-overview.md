@@ -24,7 +24,7 @@ Les entreprises qui mettent en œuvre des méthodes d’entretien de prospect à
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des séquences de maturation automatisées qui s’adaptent en fonction de l’engagement des prospects et des signaux de préparation. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les mesures d’engagement. Un message déclenché unique ne peut pas s’adapter à la logique d’entretien adaptative ou à la logique de dépendance entre les étapes de qualification.
+Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des séquences de maturation automatisées qui s’adaptent en fonction de l’engagement des prospects et des signaux de préparation. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les mesures d’engagement. Un message déclenché unique ne peut pas s’adapter à la logique d’entretien adaptative ou à la logique de dépendance entre les étapes de qualification.
 
 ### Considérations techniques
 
@@ -44,7 +44,7 @@ Les recommandations de produits personnalisées augmentent les taux d’adoption
 
 ### Mise en œuvre
 
-Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour évaluer en temps réel chaque client par rapport aux offres de produits éligibles, en classant les recommandations par pertinence et priorité commerciale. Il s’agit du bon modèle lorsque la sélection des offres doit tenir compte des règles d’adéquation financière et des contraintes d’éligibilité réglementaires, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinités comportementales uniquement.
+Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour évaluer en temps réel chaque client par rapport aux offres de produits éligibles, en classant les recommandations par pertinence et priorité commerciale. Il s’agit du bon modèle lorsque la sélection des offres doit tenir compte des règles d’adéquation financière et des contraintes d’éligibilité réglementaires, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinités comportementales uniquement.
 
 ### Considérations techniques
 
@@ -104,7 +104,7 @@ Les offres déclenchées par l’étape de vie atteignent des taux d’adoption 
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour détecter les indicateurs d’étape de vie et orchestrer des parcours multi-touch avec une sélection d’offres incorporée adaptée à chaque jalon. [Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux au cours de moments financiers critiques et lorsque la sélection des offres nécessite des contrôles d’adéquation et des règles métier. En effet, l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision nécessaire pour assurer la conformité et la pertinence.
+Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour détecter les indicateurs d’étape de vie et orchestrer des parcours multi-touch avec une sélection d’offres incorporée adaptée à chaque jalon. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux au cours de moments financiers critiques et lorsque la sélection des offres nécessite des contrôles d’adéquation et des règles métier. En effet, l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision nécessaire pour assurer la conformité et la pertinence.
 
 ### Considérations techniques
 
@@ -204,7 +204,7 @@ L’engagement de fidélité personnalisé augmente la participation au programm
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour orchestrer des communications de fidélité sur plusieurs canaux, avec une prise de décision intégrée pour sélectionner la récompense ou l’offre la plus pertinente pour chaque membre. [Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux pour éviter la fatigue des messages et les offres en conflit, et lorsque la sélection d’offres nécessite des règles basées sur le niveau et des contraintes de membre - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour respecter les règles de fidélité et le traitement différencié des membres.
+Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour orchestrer des communications de fidélité sur plusieurs canaux, avec une prise de décision intégrée pour sélectionner la récompense ou l’offre la plus pertinente pour chaque membre. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux pour éviter la fatigue des messages et les offres en conflit, et lorsque la sélection d’offres nécessite des règles basées sur le niveau et des contraintes de membre - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour respecter les règles de fidélité et le traitement différencié des membres.
 
 ### Considérations techniques
 
@@ -224,7 +224,7 @@ Les campagnes ciblées de pré-approbation des prêts hypothécaires augmentent 
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour guider les prospects hypothécaires à travers une séquence de maturation multi-touch, de la sensibilisation à la pré-approbation, en les adaptant en fonction des signaux d’engagement et de qualification. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages sur une chronologie étendue avec un embranchement conditionnel basé sur des signaux d’engagement et de qualification. Un message déclenché unique ne peut pas s’adapter à la logique d’entretien adaptative ou au transfert vers des processus d’application formels.
+Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour guider les prospects hypothécaires à travers une séquence de maturation multi-touch, de la sensibilisation à la pré-approbation, en les adaptant en fonction des signaux d’engagement et de qualification. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages sur une chronologie étendue avec un embranchement conditionnel basé sur des signaux d’engagement et de qualification. Un message déclenché unique ne peut pas s’adapter à la logique d’entretien adaptative ou au transfert vers des processus d’application formels.
 
 ### Considérations techniques
 
@@ -244,7 +244,7 @@ Le contenu de formation personnalisé augmente les taux d’engagement du conten
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour diffuser une séquence organisée de contenu éducatif sur plusieurs canaux, à l’aide de la prise de décision pour faire correspondre les sujets à la situation financière et aux intérêts de chaque client. [Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux avec des parcours d’apprentissage progressif et lorsque la sélection de sujet nécessite des règles d’éligibilité basées sur le profil financier (l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision nécessaire pour faire correspondre le contenu à la situation financière du client ou pour empêcher les violations préalables).
+Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour diffuser une séquence organisée de contenu éducatif sur plusieurs canaux, à l’aide de la prise de décision pour faire correspondre les sujets à la situation financière et aux intérêts de chaque client. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux avec des parcours d’apprentissage progressif et lorsque la sélection de sujet nécessite des règles d’éligibilité basées sur le profil financier (l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision nécessaire pour faire correspondre le contenu à la situation financière du client ou pour empêcher les violations préalables).
 
 ### Considérations techniques
 
@@ -264,7 +264,7 @@ La découverte conversationnelle guidée améliore les taux de démarrage des ap
 
 ### Mise en œuvre
 
-Utilisez le modèle [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport à la bibliothèque de contenu de produit et à la base de connaissances approuvées, en utilisant AEP Agent Orchestrator et les données de profil client en temps réel pour guider les clients vers les produits appropriés par le biais d&#39;un dialogue à plusieurs tours fondé sur un contenu régi par la marque et révisé par la conformité. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours pour aider les clients à comprendre et à sélectionner eux-mêmes les produits financiers, ce qui se distingue des messages déclenchés par un événement, qui sont unidirectionnels et répondent à des événements de compte discrets, ainsi que des expériences web personnalisées, qui font apparaître le contenu du produit de manière passive sans impliquer les clients dans un dialogue de qualification. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
+Utilisez le modèle [Expérience de conversation &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport à la bibliothèque de contenu de produit et à la base de connaissances approuvées, en utilisant AEP Agent Orchestrator et les données de profil client en temps réel pour guider les clients vers les produits appropriés par le biais d&#39;un dialogue à plusieurs tours fondé sur un contenu régi par la marque et révisé par la conformité. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours pour aider les clients à comprendre et à sélectionner eux-mêmes les produits financiers, ce qui se distingue des messages déclenchés par un événement, qui sont unidirectionnels et répondent à des événements de compte discrets, ainsi que des expériences web personnalisées, qui font apparaître le contenu du produit de manière passive sans impliquer les clients dans un dialogue de qualification. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
 
 ### Considérations techniques
 
@@ -303,7 +303,7 @@ Les organisations de services financiers qui utilisent la meilleure Offer Decisi
 
 ### Mise en œuvre
 
-Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour créer un moteur de décision centralisé qui évalue l’éligibilité des clients, applique des contraintes métier et utilise le classement par l’IA pour sélectionner l’offre optimale pour chaque interaction client sur les canaux web, app et sortants. Il s’agit du modèle approprié lorsque la sélection des offres est trop complexe pour la seule personnalisation basée sur des règles, ce qui nécessite une combinaison de logique d’éligibilité, de règles de priorité et de classement adaptatif pour effectuer la sélection optimale à partir d’un catalogue d’offres.
+Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour créer un moteur de décision centralisé qui évalue l’éligibilité des clients, applique des contraintes métier et utilise le classement par l’IA pour sélectionner l’offre optimale pour chaque interaction client sur les canaux web, app et sortants. Il s’agit du modèle approprié lorsque la sélection des offres est trop complexe pour la seule personnalisation basée sur des règles, ce qui nécessite une combinaison de logique d’éligibilité, de règles de priorité et de classement adaptatif pour effectuer la sélection optimale à partir d’un catalogue d’offres.
 
 ### Considérations techniques
 

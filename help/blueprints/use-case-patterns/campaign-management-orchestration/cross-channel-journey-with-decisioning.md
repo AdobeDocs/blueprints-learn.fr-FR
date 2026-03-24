@@ -84,7 +84,7 @@ Utilisez les indicateurs de performance clés suivants pour mesurer l’efficaci
 
 ## Modèle de cas d’utilisation
 
-parcours cross-canal avec prise de décision ****
+parcours cross-canal avec prise de décision **&#x200B;**
 
 Orchestrez un parcours multicanal à plusieurs étapes qui incorpore la prise de décision en temps réel sur un ou plusieurs nœuds pour sélectionner le canal, le contenu ou l’offre optimal.
 
@@ -94,10 +94,10 @@ Orchestrez un parcours multicanal à plusieurs étapes qui incorpore la prise de
 
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** : orchestration des Parcours (conception de zone de travail à plusieurs étapes, conditions d’entrée, attentes, conditions, critères de sortie), création de messages sur plusieurs canaux, configuration de la surface de canal, gestion des conflits et des priorités
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** : orchestration des Parcours (conception de zone de travail à plusieurs étapes, conditions d’entrée, attentes, conditions, critères de sortie), création de messages sur plusieurs canaux, configuration de la surface de canal, gestion des conflits et des priorités
 - **[!DNL Adobe Journey Optimizer]Decisioning** — Gestion des offres et des éléments de contenu, règles d&#39;éligibilité, stratégies de classement (priorité, formule, IA), politiques de décision, emplacements, offres de secours
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** — Évaluation des audiences pour les segments d’entrée sur le parcours et d’éligibilité des offres, enrichissement du profil avec des attributs calculés et des scores de propension, application du consentement et de la gouvernance
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — Banque de profils client en temps réel, Service d’identités pour la résolution cross-canal, la modélisation des données et l’infrastructure d’ingestion
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — Évaluation des audiences pour les segments d’entrée sur le parcours et d’éligibilité des offres, enrichissement du profil avec des attributs calculés et des scores de propension, application du consentement et de la gouvernance
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — Banque de profils client en temps réel, Service d’identités pour la résolution cross-canal, la modélisation des données et l’infrastructure d’ingestion
 
 ## Fonctions fondamentales
 
@@ -121,7 +121,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les données d’historique des offres et d’événement de décision s’accumulent au fil du temps et doivent avoir des politiques de conservation. L’application du consentement sur plusieurs canaux est essentielle : les profils sans consentement valide pour un canal doivent être exclus du chemin de diffusion de ce canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Consentement dans Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Étiquetage et application de l’utilisation des données | Recommandé | L’application de la gouvernance sur plusieurs canaux et types d’offres est importante lorsque la prise de décision peut acheminer des profils vers différents canaux avec différentes restrictions d’utilisation des données. Garantit la conformité de la diffusion des offres sur tous les canaux. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Application des politiques](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
 | Surveillance et observabilité | Inclus | La surveillance du parcours et de la prise de décision est essentielle pour les opérations de production. Les alertes pour les échecs d’entrée de parcours, les pics de secours de prise de décision et les erreurs de diffusion permettent de résoudre rapidement les problèmes. | [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapports et analyses | Inclus | Les rapports de parcours et de prise de décision sont traités dans la phase de création de rapports. L’analyse CJA de l’efficacité de la prise de décision, de l’optimisation de la combinaison de canaux, des performances des offres et du retour sur investissement des parcours fournit les informations nécessaires pour affiner les stratégies de classement et optimiser le parcours au fil du temps. | [Présentation de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Rapports et analyses | Inclus | Les rapports de parcours et de prise de décision sont traités dans la phase de création de rapports. L’analyse CJA de l’efficacité de la prise de décision, de l’optimisation de la combinaison de canaux, des performances des offres et du retour sur investissement des parcours fournit les informations nécessaires pour affiner les stratégies de classement et optimiser le parcours au fil du temps. | [Présentation de &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Fonctions d&#39;application
 

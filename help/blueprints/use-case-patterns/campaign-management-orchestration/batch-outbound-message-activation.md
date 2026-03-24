@@ -90,9 +90,9 @@ Le tableau suivant définit les KPI utilisés pour mesurer l’efficacité des c
 
 Les applications suivantes sont utilisées pour implémenter ce modèle.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Création de messages, configuration des canaux, exécution de campagnes, orchestration des parcours, expérimentation de contenu, règles de fréquence et création de rapports
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation de l’audience, consentement et application de la gouvernance
-- **[!DNL Adobe Experience Platform](AEP)** — Banque de profils, service d’identités, schémas, jeux de données, collecte de données
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Création de messages, configuration des canaux, exécution de campagnes, orchestration des parcours, expérimentation de contenu, règles de fréquence et création de rapports
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation de l’audience, consentement et application de la gouvernance
+- **[!DNL Adobe Experience Platform] (AEP)** — Banque de profils, service d’identités, schémas, jeux de données, collecte de données
 
 ## Fonctions fondamentales
 
@@ -116,7 +116,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Des politiques de conservation des données (expiration) doivent être en place pour les jeux de données d’événements qui pilotent le suivi des conversions. Les champs de schéma de consentement doivent être configurés pour l’application d’opt-in/opt-out au niveau du canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Groupe de champs Consentement et préférences](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les libellés de gouvernance des champs PII utilisés dans la personnalisation garantissent la conformité lors de l’activation. Empêche l’utilisation non autorisée de données de profil sensibles dans le contenu des messages ou les exportations d’audience. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
 | Surveillance et observabilité | Inclus | La surveillance des envois en temps réel fait partie de la phase de création de rapports . Les alertes au niveau de la plateforme sur les échecs d’ingestion ou l’utilisation des licences offrent une visibilité opérationnelle au-delà des mesures au niveau de la campagne. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Rapports et analyses | Inclus | Les rapports de campagne et de parcours sont traités dans la phase de création de rapports. Pour une analyse cross-canal plus approfondie, l’intégration de CJA fournit une analyse funnel, une modélisation d’attribution et une analyse des cohortes qui vont au-delà des rapports intégrés d’AJO. | [Présentation de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Rapports et analyses | Inclus | Les rapports de campagne et de parcours sont traités dans la phase de création de rapports. Pour une analyse cross-canal plus approfondie, l’intégration de CJA fournit une analyse funnel, une modélisation d’attribution et une analyse des cohortes qui vont au-delà des rapports intégrés d’AJO. | [Présentation de &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Fonctions d&#39;application
 
@@ -654,7 +654,7 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 
 ### Mécanismes de sécurisation et limites
 
-- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 4 000 définitions de segment par sandbox — [Mécanismes de sécurisation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Maximum de 10 surfaces de canal par type de canal par sandbox
 - Les campagnes déclenchées par API prennent en charge jusqu’à 20 destinataires de profil par requête de déclencheur
