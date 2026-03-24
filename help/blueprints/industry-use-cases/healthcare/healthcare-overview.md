@@ -2,17 +2,20 @@
 title: Cas d’utilisation des soins de santé
 description: Découvrez comment les organismes de santé utilisent Adobe Experience Platform pour améliorer l'engagement des patients, rationaliser la coordination des soins et obtenir de meilleurs résultats en matière de santé.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 1%
+source-wordcount: '3818'
+ht-degree: 0%
 
 ---
-
 
 # Cas d’utilisation des soins de santé
 
 Les établissements de santé utilisent Adobe Experience Platform pour créer des profils de patients unifiés et fournir des communications personnalisées et opportunes sur chaque point de contact. En reliant les données cliniques, comportementales et de préférences au même endroit, les équipes soignantes peuvent impliquer les patients plus efficacement, tout en maintenant les normes les plus élevées en matière de confidentialité et de conformité.
+
+>[!IMPORTANT]
+>Les cas d’utilisation liés aux soins de santé impliquent des informations de santé protégées (IPS) soumises à la loi HIPAA et aux autres réglementations en vigueur. Avant d’implémenter l’un de ces modèles, assurez-vous que [!DNL Adobe Experience Platform] est configuré en tant que service éligible au HIPAA et qu’un accord d’association commerciale (BAA) est en place avec Adobe. Les considérations techniques de chaque section mettent en évidence les principales exigences de conformité, mais ne sont pas exhaustives. Collaborez avec vos équipes juridiques, de conformité et de sécurité pour valider votre mise en œuvre par rapport à toutes les exigences réglementaires applicables.
 
 ## Automatisation des rappels de rendez-vous
 
@@ -20,11 +23,11 @@ Envoyer des rappels de rendez-vous personnalisés par e-mail, SMS et notificatio
 
 ### Impact commercial
 
-Les organisations qui mettent en œuvre des rappels de rendez-vous automatisés constatent généralement une amélioration de 30 à 40 % des taux de présentation des rendez-vous et une réduction significative des absences coûteuses.
+Les organisations qui mettent en œuvre des rappels de rendez-vous automatisés constatent des améliorations mesurables dans les taux de présentation des rendez-vous et une réduction significative des absences coûteuses.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de création de rendez-vous et de mise à jour du système de planification servent de déclencheurs naturels pour des messages de rappel opportuns et pertinents.
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de création de rendez-vous et de mise à jour du système de planification servent de déclencheurs naturels pour des messages de rappel opportuns et pertinents. Il s’agit du modèle approprié lorsqu’un événement de rendez-vous discret est le déclencheur et que la réponse requise est une notification unique et urgente, plutôt qu’une séquence d’engagement soutenue, car les patients ont besoin d’une confirmation immédiate sans étapes de suivi.
 
 ### Considérations techniques
 
@@ -40,11 +43,11 @@ Envoyer des rappels personnalisés et du contenu éducatif pour aider les patien
 
 ### Impact commercial
 
-Les campagnes personnalisées d&#39;observance des médicaments entraînent généralement une amélioration de 20 à 30 % des taux d&#39;observance, ce qui se traduit par de meilleurs résultats de santé mesurables et moins de réadmissions à l&#39;hôpital.
+Les campagnes personnalisées d&#39;observance des médicaments contribuent à améliorer les taux d&#39;observance, ce qui se traduit par de meilleurs résultats de santé et moins de réadmissions à l&#39;hôpital.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). L’observance médicamenteuse nécessite une approche multipoint soutenue, avec des rappels croissants, des points de contact éducatifs et des bilans de suivi tout au long du plan de traitement.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [L’observance médicamenteuse nécessite une approche multipoint soutenue, avec des rappels croissants, des points de contact éducatifs et des bilans de suivi tout au long du plan de traitement. Il s’agit du schéma approprié, car la gestion des médicaments nécessite un flux séquentiel de plusieurs messages sur plusieurs jours ou semaines, avec une ramification conditionnelle basée sur les événements de remplissage et les signaux d’engagement. Un seul message déclenché ne peut pas s’adapter à la logique de dépendance entre les étapes éducatives et les chemins d’escalade.
 
 ### Considérations techniques
 
@@ -60,11 +63,11 @@ Rappeler de manière proactive aux patients les soins préventifs recommandés t
 
 ### Impact commercial
 
-La diffusion proactive des soins préventifs se traduit généralement par une augmentation de 25 à 35 % des taux d’achèvement des soins préventifs, contribuant ainsi à améliorer la santé de la population et à réduire les coûts de traitement à long terme.
+La sensibilisation proactive en matière de soins préventifs permet d’améliorer les taux d’achèvement des soins préventifs, contribuant ainsi à améliorer la santé de la population et à réduire les coûts de traitement à long terme.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Activation des messages sortants par lots](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Les rappels de soins préventifs sont mieux diffusés par le biais de campagnes par lots planifiées qui évaluent l&#39;éligibilité des patients par rapport aux directives cliniques à une cadence régulière.
+Utilisez le modèle [Activation des messages sortants par lots](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Les rappels de soins préventifs sont mieux diffusés par le biais de campagnes par lots planifiées qui évaluent l&#39;éligibilité des patients par rapport aux directives cliniques à une cadence régulière. Il s’agit du modèle approprié lorsque l’audience est prédéfinie par des critères de directives cliniques, que le timing de diffusion est planifié à une cadence régulière plutôt que selon un événement et qu’aucun embranchement ou prise de décision en temps réel n’est nécessaire.
 
 ### Considérations techniques
 
@@ -80,11 +83,11 @@ Envoyez automatiquement des enquêtes post-visite, des instructions de soins et 
 
 ### Impact commercial
 
-Les campagnes automatisées de suivi post-visite permettent généralement d&#39;obtenir une amélioration de 40 à 50 % des taux de réponse à l&#39;enquête et des scores de satisfaction des patients sensiblement plus élevés.
+Les campagnes automatisées de suivi post-visite permettent d’améliorer les taux de réponse aux questionnaires et les scores de satisfaction des patients.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de fin de visite du système de dossiers de santé électroniques constituent un déclencheur naturel et opportun pour des communications de suivi adaptées au type de rencontre.
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de fin de visite du système de dossiers de santé électroniques constituent un déclencheur naturel et opportun pour des communications de suivi adaptées au type de rencontre. Il s’agit du modèle approprié lorsqu’un événement de fin de visite distinct est le déclencheur et que la réponse requise est un suivi immédiat adapté au type de rencontre, plutôt qu’une séquence à plusieurs étapes, puisque chaque visite génère son propre besoin de suivi indépendant.
 
 ### Considérations techniques
 
@@ -100,11 +103,11 @@ Personnalisez les communications relatives à la prise en charge des maladies ch
 
 ### Impact commercial
 
-Les programmes personnalisés de prise en charge des maladies chroniques voient généralement une augmentation de 30 à 40 % des taux d’engagement dans les programmes, ce qui entraîne une amélioration des résultats de prise en charge des maladies et une réduction de l’utilisation des soins d’urgence.
+Les programmes personnalisés de prise en charge des maladies chroniques voient augmenter les taux d’engagement des programmes, ce qui permet d’améliorer les résultats de la prise en charge des maladies et de réduire le recours aux soins d’urgence.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). La prise en charge des maladies chroniques est intrinsèquement une expérience de longue durée et à points de contact multiples qui nécessite des messages adaptatifs basés sur l’engagement des patients et les jalons de santé.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [La prise en charge des maladies chroniques est intrinsèquement une expérience de longue durée et à points de contact multiples qui nécessite des messages adaptatifs basés sur l’engagement des patients et les jalons de santé. Il s’agit du modèle approprié, car la prise en charge des maladies chroniques nécessite des messages adaptatifs sur une longue période avec une ramification conditionnelle basée sur les mesures cliniques et les schémas d’engagement. Les messages déclenchés par un événement ne peuvent pas gérer la réévaluation dynamique en cours nécessaire pour ajuster les interventions en fonction de l’évolution des données de santé.
 
 ### Considérations techniques
 
@@ -120,11 +123,11 @@ Automatisez un parcours d&#39;intégration en plusieurs étapes pour les nouveau
 
 ### Impact commercial
 
-Les nouveaux parcours automatisés d&#39;intégration des patients améliorent généralement de 50 à 60 % les taux d&#39;activation du portail et augmentent considérablement l&#39;engagement précoce des patients.
+Les nouveaux parcours automatisés d’intégration des patients contribuent à améliorer les taux d’activation du portail et à renforcer l’engagement précoce des patients.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). L’intégration du patient est un processus naturellement séquentiel à plusieurs étapes où chaque communication s’appuie sur la précédente et s’adapte selon que le patient a terminé ou non des actions clés.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [L’intégration du patient est un processus naturellement séquentiel à plusieurs étapes où chaque communication s’appuie sur la précédente et s’adapte selon que le patient a terminé ou non des actions clés. Il s’agit du modèle approprié, car l’intégration nécessite un flux dépendant séquencé sur plusieurs jours avec embranchement en fonction des actions du patient (activation du portail, achèvement du formulaire). Une approche par message unique ou par lots ne peut pas s’adapter aux interdépendances entre les étapes ni à l’achèvement progressif.
 
 ### Considérations techniques
 
@@ -140,11 +143,11 @@ Fournir du contenu personnalisé d&#39;éducation sanitaire, des conseils de bie
 
 ### Impact commercial
 
-La diffusion personnalisée de contenus de santé entraîne généralement une augmentation de 35 à 45 % des taux d’engagement dans le contenu, ce qui entraîne une amélioration mesurable de l’éducation des patients et des connaissances en matière de santé.
+La diffusion personnalisée de contenu médical permet d’obtenir des taux d’engagement plus élevés, ce qui améliore l’éducation des patients et les connaissances en santé.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). La diffusion des contenus relatifs à l’intégrité s’appuie sur une prise de décision en temps réel qui sélectionne les contenus les plus pertinents pour chaque patient en fonction de ses affections, préférences et engagements passés, diffusés par le biais de son canal préféré.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). [La diffusion des contenus relatifs à l’intégrité s’appuie sur une prise de décision en temps réel qui sélectionne les contenus les plus pertinents pour chaque patient en fonction de ses affections, préférences et engagements passés, diffusés par le biais de son canal préféré. Il s’agit du modèle approprié lorsque la sélection de contenu doit tenir compte des conditions du patient, des préférences de consentement et des préférences de canal, tout en empêchant la diffusion en double ou fastidieuse. L’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour faire correspondre l’inventaire de contenu dynamique aux besoins individuels des patients.
 
 ### Considérations techniques
 
@@ -160,11 +163,11 @@ Avertissez les patients lorsque les résultats de laboratoire sont disponibles v
 
 ### Impact commercial
 
-Les notifications automatisées de résultats de laboratoire entraînent généralement une augmentation de 60 à 70 % des taux d&#39;affichage des résultats, améliorant ainsi la communication avec les patients et permettant un suivi clinique plus rapide lorsque les résultats nécessitent une action.
+Les notifications automatisées de résultats de laboratoire permettent d&#39;augmenter les taux de visualisation des résultats, d&#39;améliorer la communication avec les patients et d&#39;accélérer le suivi clinique lorsque les résultats nécessitent une action.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). La disponibilité des résultats de laboratoire est un événement discret qui nécessite une notification immédiate et unique via le canal préféré du patient.
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). La disponibilité des résultats de laboratoire est un événement discret qui nécessite une notification immédiate et unique via le canal préféré du patient. Il s&#39;agit du bon schéma lorsqu&#39;un événement de résultat de laboratoire discret est le déclencheur et que la réponse requise est une notification unique et immédiate, plutôt qu&#39;une séquence de messages multiples, puisque les patients ont besoin d&#39;une alerte rapide pour vérifier leur portail sans communications de suivi supplémentaires.
 
 ### Considérations techniques
 
@@ -180,11 +183,11 @@ Vérifiez et communiquez de manière proactive les informations de couverture d&
 
 ### Impact commercial
 
-La vérification proactive de la couverture d&#39;assurance se traduit généralement par une amélioration de 25 à 35 % des taux de confirmation de la couverture avant la visite et par une réduction significative des litiges de facturation et des plaintes des patients.
+La vérification proactive de la couverture d&#39;assurance se traduit par une amélioration des taux de confirmation de la couverture avant la visite et une réduction significative des litiges de facturation et des plaintes des patients.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de planification des rendez-vous servent de déclencheur pour lancer la vérification de la couverture et communiquer les résultats au patient avant la visite.
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de planification des rendez-vous servent de déclencheur pour lancer la vérification de la couverture et communiquer les résultats au patient avant la visite. Il s’agit du schéma approprié lorsqu’un événement de planification de rendez-vous discret est le déclencheur et que la réponse requise est une notification unique et urgente concernant la couverture, plutôt qu’une séquence d’engagement à plusieurs étapes, puisque le patient a besoin d’un message clair avant son rendez-vous.
 
 ### Considérations techniques
 
@@ -200,11 +203,11 @@ Envoyer des rappels personnalisés pour les rendez-vous de télésanté qui comp
 
 ### Impact commercial
 
-Les rappels de rendez-vous de télésanté personnalisés entraînent généralement une amélioration de 40 à 50 % des taux de visites virtuelles et accélèrent l&#39;adoption globale de la télésanté dans la population de patients.
+Les rappels de rendez-vous de télésanté personnalisés aident à améliorer les taux de visites virtuelles et à accélérer l&#39;adoption globale de la télésanté dans la population de patients.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les rendez-vous de télésanté fournissent un déclencheur naturel pour des rappels opportuns qui incluent des détails de connexion et des conseils de préparation.
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les rendez-vous de télésanté fournissent un déclencheur naturel pour des rappels opportuns qui incluent des détails de connexion et des conseils de préparation. C&#39;est la bonne façon de procéder lorsqu&#39;un événement de rendez-vous de télésanté distinct est le déclencheur et que la réponse requise est un rappel unique et immédiat accompagné de conseils techniques, plutôt qu&#39;une séquence à plusieurs étapes, puisque les patients ont besoin d&#39;instructions claires avant le rendez-vous sans message de suivi ultérieur.
 
 ### Considérations techniques
 
@@ -220,11 +223,11 @@ Personnalisez les communications, les défis et les récompenses du programme de
 
 ### Impact commercial
 
-Les campagnes de mobilisation personnalisées du programme de mieux-être permettent généralement d&#39;augmenter de 30 à 40 % les taux de participation au programme, ce qui contribue à améliorer les résultats en matière de santé et à fidéliser davantage les patients.
+Les campagnes d&#39;engagement personnalisées du programme de mieux-être permettent d&#39;augmenter les taux de participation au programme, contribuant ainsi à de meilleurs résultats de santé et à une plus grande fidélisation des patients.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Les programmes de bien-être sont des expériences d’engagement soutenu avec plusieurs jalons, défis et points de contact de récompense qui nécessitent une orchestration adaptative basée sur la participation et les progrès du patient.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Les programmes de bien-être sont des expériences d’engagement soutenu avec plusieurs jalons, défis et points de contact de récompense qui nécessitent une orchestration adaptative basée sur la participation et les progrès du patient. Il s’agit du modèle approprié, car les programmes de bien-être nécessitent un flux séquentiel et multi-messages sur une période prolongée avec embranchement conditionnel basé sur les jalons de participation et les schémas d’engagement. Les messages déclenchés par un événement ne peuvent pas gérer l’orchestration adaptative prolongée nécessaire pour ajuster les défis et les récompenses en fonction du suivi continu des progrès.
 
 ### Considérations techniques
 
@@ -240,11 +243,11 @@ Permettre une communication et une coordination personnalisées entre les patien
 
 ### Impact commercial
 
-Des communications efficaces de coordination des équipes de soins se traduisent généralement par une amélioration de 35 à 45 pour cent de l&#39;engagement des équipes de soins et par de meilleurs résultats mesurables de coordination des soins dans les plans de soins multi-prestataires.
+Des communications efficaces de coordination des équipes de soins permettent d&#39;améliorer l&#39;engagement des équipes de soins et les résultats de la coordination des soins dans les plans de soins multi-prestataires.
 
 ### Mise en œuvre
 
-Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). La coordination de l&#39;équipe de soins implique plusieurs parties prenantes et des flux de communication continus qui doivent s&#39;adapter en fonction des jalons du plan de soins, des changements de statut du patient et des actions du fournisseur.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [La coordination de l&#39;équipe de soins implique plusieurs parties prenantes et des flux de communication continus qui doivent s&#39;adapter en fonction des jalons du plan de soins, des changements de statut du patient et des actions du fournisseur. Il s’agit du modèle approprié, car la coordination des soins nécessite des flux de messages adaptatifs à plusieurs étapes qui se divisent en fonction des jalons du plan de soins et des actions des prestataires de services de plusieurs parties prenantes. Un message unique ou un modèle plus simple ne peut pas s’adapter aux interdépendances complexes et au routage des messages en fonction des rôles nécessaires entre les équipes cliniques.
 
 ### Considérations techniques
 
@@ -252,3 +255,62 @@ Utilisez le modèle [Parcours orchestré à plusieurs étapes](/help/blueprints/
 - Intégrer aux systèmes de gestion des soins et de dossiers de santé électroniques pour recevoir les mises à jour des plans de soins, les recommandations terminées et les événements de transition des soins qui déclenchent des messages de coordination.
 - Concevez des voies de communication distinctes pour les messages destinés aux patients et aux fournisseurs, en veillant à ce que la terminologie clinique soit utilisée de manière appropriée pour les fournisseurs tout en maintenant les messages des patients clairs et accessibles.
 - Tenez un journal d’audit complet de toutes les communications de coordination des soins pour assurer la conformité aux réglementations en matière de continuité des soins et aux exigences d’accréditation.
+
+
+## Analyse des écarts entre les soins et la Funnel du Parcours des patients
+
+Cartographier le parcours de bout en bout des patients à partir de la recherche initiale sur le Web, en passant par la planification des rendez-vous, la prestation des soins et le suivi pour déterminer où les patients se désengagent et quelles populations présentent des lacunes dans les soins préventifs ou chroniques recommandés. Les systèmes de santé qui manquent de visibilité sur le parcours cross-canal ne peuvent pas faire la distinction entre la friction en matière d’horaires et le désengagement des patients, ce qui limite leur capacité à améliorer l’accès et à combler les lacunes en matière de soins à grande échelle.
+
+### Impact commercial
+
+Comprendre où les patients abandonnent les parcours de soins et quels segments des membres ont la plus forte concentration de lacunes en matière de soins permet aux équipes de gestion des soins et de marketing de concentrer les ressources de sensibilisation sur les populations et les points de friction qui produiront la plus grande amélioration de l&#39;observance des soins.
+
+### Mise en œuvre
+
+Utilisez le modèle [Customer Analytics et génération d’Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Cette approche connecte les données comportementales web et de portail, les enregistrements de système de rendez-vous et les données de demandes de soins à Customer Journey Analytics, où l’analyse des abandons mesure la chute à chaque planification ou étape de soins et l’analyse des cohortes identifie les segments de membres ayant les taux d’observance des soins les plus faibles. Il s’agit du bon modèle lorsque l’objectif est la génération d’insight et l’analyse au niveau de la population (comprendre où les parcours se répartissent et qui est le plus à risque), plutôt que de déclencher des actions de sensibilisation ou d’activer une liste de suppression.
+
+### Considérations techniques
+
+- Les données de rendez-vous et de demandes de remboursement des systèmes cliniques doivent être mappées aux schémas XDM conformes à la loi HIPAA avant l’ingestion dans AEP. Les libellés d’utilisation des données doivent également être appliqués pour restreindre l’accès aux informations de santé protégées dans les vues de données CJA.
+- Les identifiants du patient ou du membre sur le portail web, le système de planification et le dossier de santé électronique doivent être résolus en un ID de personne cohérent dans la connexion CJA pour produire une vue cohérente du parcours sur l’ensemble du système sans dupliquer les individus.
+- L’analyse des lacunes en matière de soins nécessite des jeux de données de recherche qui codent des définitions de lignes directrices cliniques, telles que les intervalles de dépistage recommandés par âge et par état, de sorte que les champs dérivés de CJA puissent signaler les membres qui n’ont pas terminé les soins recommandés dans la fenêtre des lignes directrices.
+- L’analyse du funnel de planification doit capturer les sessions de planification terminées et abandonnées, y compris les points de sortie dans les flux de planification à plusieurs étapes, de sorte que les points de friction soient visibles au niveau de l’étape plutôt que sous la forme de taux de déperdition agrégés.
+
+
+## Personalization de contenu du portail patient
+
+Personnalisez l&#39;expérience du portail patient authentifié en affichant le contenu, les outils et les ressources les plus pertinents en fonction du comportement de navigation et de l&#39;historique d&#39;engagement de chaque patient au cours de la session. Un portail qui s&#39;adapte à ce qu&#39;un patient recherche activement — plutôt que de présenter la même expérience statique à chaque visiteur — permet aux patients de trouver plus facilement ce dont ils ont besoin et encourage un engagement plus profond avec les ressources de santé disponibles.
+
+### Impact commercial
+
+La personnalisation de l&#39;expérience du portail patient en fonction du comportement de l&#39;engagement améliore les taux de découverte de contenu et d&#39;achèvement du libre-service, aidant les patients à parcourir leurs soins plus en confiance sans nécessiter l&#39;intervention de l&#39;équipe soignante.
+
+### Mise en œuvre
+
+Utilisez le modèle [recommandation comportementale](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Les signaux comportementaux en session émis à partir du portail authentifié, notamment les pages vues du contenu, l&#39;utilisation des outils de santé, l&#39;engagement sur les sujets les plus fréquemment abordés et l&#39;activité de planification des rendez-vous, forment un modèle de recommandation qui permet d&#39;afficher les ressources les plus pertinentes pour chaque patient en fonction de ce qu&#39;il explore activement, sans avoir besoin de données cliniques comme entrée. Il s’agit du modèle approprié lorsque la personnalisation est pilotée par des signaux comportementaux implicites au sein d’une session authentifiée et que l’objectif est le classement de pertinence d’un catalogue de contenu et de ressources, plutôt que la prise de décision d’éligibilité régie, ce qui est plus approprié lorsque les critères cliniques doivent déterminer ce qu’un patient voit.
+
+### Considérations techniques
+
+- Limitez les signaux comportementaux utilisés pour les recommandations aux données d’interaction du portail (vues de contenu, utilisation des outils et schémas de navigation) et implémentez des libellés d’utilisation des données qui empêchent tout intérêt présumé pour la santé de circuler en dehors de la session du portail authentifié ou dans les canaux marketing.
+- Implémentez une bibliothèque de contenu examinée cliniquement comme pool de recommandations afin que le modèle puisse uniquement afficher des documents d’éducation à la santé préapprouvés, en veillant à ce que chaque ressource recommandée ait été validée pour son exactitude avant son déploiement.
+- S’assurer que le système de recommandation répond aux exigences de protection technique de la loi HIPAA pour l’environnement de portail authentifié, y compris les contrôles de temporisation de session et la journalisation d’audit du contenu présenté à chaque patient et à quel moment.
+- Fournir aux patients des contrôles visibles pour effacer l’historique de navigation de leur portail et se désabonner de la personnalisation comportementale, en maintenant la transparence et la confiance dans la manière dont leurs données d’engagement sont utilisées dans l’expérience du portail.
+
+## Rappels sur l’engagement et les rendez-vous des patients
+
+Envoyez des rappels de rendez-vous personnalisés, des conseils de santé et des communications de suivi par le biais de parcours multicanaux conformes et tenant compte du consentement. Les rappels de rendez-vous personnalisés et automatisés réduisent les taux de non-présentation tout en veillant à ce que les communications soient conformes aux réglementations de confidentialité des soins de santé et aux préférences de consentement des patients.
+
+### Impact commercial
+
+Les établissements de santé disposant de programmes automatisés de rappels de rendez-vous observent des réductions significatives des taux de non-présentation et d&#39;annulation tardive, améliorant l&#39;utilisation du calendrier des prestataires et les résultats de santé des patients grâce à une meilleure observance des rendez-vous.
+
+### Mise en œuvre
+
+Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pour répondre aux événements de planification de rendez-vous avec des rappels personnalisés et opportuns programmés à intervalles optimaux avant la date du rendez-vous. Il s’agit du modèle approprié lorsque la communication est déclenchée par un événement spécifique d’interaction avec le patient et que la réponse est un message personnalisé sensible au temps, plutôt qu’une séquence d’évolution de plusieurs semaines ou une sélection d’offres complexe.
+
+### Considérations techniques
+
+- Toutes les communications des patients doivent respecter les réglementations applicables en matière de confidentialité des soins de santé ; le contenu des messages doit éviter d&#39;inclure des informations de santé protégées au-delà de ce qui est strictement nécessaire pour la communication.
+- La gestion du consentement doit être appliquée au niveau du canal : les patients qui n’ont pas opté pour les rappels par SMS ne doivent pas recevoir de SMS, même si les SMS sont le canal de rappel le plus efficace pour leur population.
+- L&#39;intégration au système d&#39;ordonnancement doit fournir des événements de rendez-vous en temps quasi réel pour permettre un minutage de rappel précis par rapport à l&#39;horaire réel de rendez-vous, y compris les replanifications et les annulations le même jour.
+- Les séquences de rappels multicanaux doivent inclure une logique de suppression afin que les patients qui confirment leur rendez-vous ne continuent pas à recevoir des messages de rappel pour ce rendez-vous.
