@@ -3,9 +3,9 @@ title: Cas d’utilisation d’assurance
 description: Découvrez comment les compagnies d’assurance utilisent Adobe Experience Platform pour personnaliser la gestion des polices, améliorer l’expérience des sinistres et stimuler la fidélisation des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Les entreprises qui mettent en œuvre des campagnes de renouvellement de politiq
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Cette approche crée une séquence de renouvellement temporelle qui progresse à partir de l’avis initial par le biais de rappels progressifs et, si nécessaire, d’un message d’urgence final, en adaptant le rythme et l’offre selon que le titulaire de la police a consulté ou non des contacts précédents. Il s’agit du modèle approprié lorsque le minutage est déterminé par une date de contrat plutôt que par un événement client discret et que l’intention commerciale nécessite un flux séquentiel de plusieurs messages sur 30 jours ou plus avec un embranchement conditionnel basé sur l’engagement ; la messagerie déclenchée par un événement gère les réponses réactives aux événements discrets, mais ne peut pas s’adapter à la logique de planification basée sur le calendrier ou aux dépendances de réaffectation requises pour une campagne de renouvellement.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Cette approche crée une séquence de renouvellement temporelle qui progresse à partir de l’avis initial par le biais de rappels progressifs et, si nécessaire, d’un message d’urgence final, en adaptant le rythme et l’offre selon que le titulaire de la police a consulté ou non des contacts précédents. Il s’agit du modèle approprié lorsque le minutage est déterminé par une date de contrat plutôt que par un événement client discret et que l’intention commerciale nécessite un flux séquentiel de plusieurs messages sur 30 jours ou plus avec un embranchement conditionnel basé sur l’engagement ; la messagerie déclenchée par un événement gère les réponses réactives aux événements discrets, mais ne peut pas s’adapter à la logique de planification basée sur le calendrier ou aux dépendances de réaffectation requises pour une campagne de renouvellement.
 
 ### Considérations techniques
 
@@ -44,7 +44,7 @@ Les recommandations personnalisées de ventes croisées entraînent une amélior
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). La prise de décision en temps réel évalue la couverture existante, l’étape de vie et les signaux comportementaux de chaque client afin de sélectionner la recommandation de produit la plus pertinente dans le catalogue disponible. C&#39;est le bon modèle lorsque la sélection d&#39;un produit doit tenir compte des règles d&#39;éligibilité, des directives de souscription et des exigences d&#39;adéquation réglementaires - des contraintes qui nécessitent une logique de prise de décision régie plutôt qu&#39;un classement par affinité comportementale seul.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). La prise de décision en temps réel évalue la couverture existante, l’étape de vie et les signaux comportementaux de chaque client afin de sélectionner la recommandation de produit la plus pertinente dans le catalogue disponible. C&#39;est le bon modèle lorsque la sélection d&#39;un produit doit tenir compte des règles d&#39;éligibilité, des directives de souscription et des exigences d&#39;adéquation réglementaires - des contraintes qui nécessitent une logique de prise de décision régie plutôt qu&#39;un classement par affinité comportementale seul.
 
 ### Considérations techniques
 
@@ -64,7 +64,7 @@ Les communications personnalisées des réclamations permettent d&#39;obtenir de
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Le processus de réclamation est une expérience en plusieurs étapes comportant des phases distinctes — dépôt, enquête, rajustement et règlement — qui nécessitent chacune des communications adaptées et un calendrier adaptatif. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements de statut de revendication. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les phases de revendications séquentielles.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Le processus de réclamation est une expérience en plusieurs étapes comportant des phases distinctes — dépôt, enquête, rajustement et règlement — qui nécessitent chacune des communications adaptées et un calendrier adaptatif. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements de statut de revendication. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les phases de revendications séquentielles.
 
 ### Considérations techniques
 
@@ -84,7 +84,7 @@ La sensibilisation personnalisée à la prévention des risques améliore l’en
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). L’éducation à la prévention des risques est plus efficace sous la forme d’un parcours multipoint soutenu qui fournit des conseils pertinents au fil du temps et s’adapte en fonction de l’engagement des clients et des facteurs de risque saisonniers. Il s’agit du modèle approprié lorsque le parcours doit diffuser du contenu sur de longues périodes avec des ajustements de durée saisonniers et un embranchement basé sur l’engagement : les messages déclenchés par un événement ne peuvent pas gérer la planification prédictive ou la cadence à plusieurs étapes nécessaire à une formation continue.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [L’éducation à la prévention des risques est plus efficace sous la forme d’un parcours multipoint soutenu qui fournit des conseils pertinents au fil du temps et s’adapte en fonction de l’engagement des clients et des facteurs de risque saisonniers. Il s’agit du modèle approprié lorsque le parcours doit diffuser du contenu sur de longues périodes avec des ajustements de durée saisonniers et un embranchement basé sur l’engagement : les messages déclenchés par un événement ne peuvent pas gérer la planification prédictive ou la cadence à plusieurs étapes nécessaire à une formation continue.
 
 ### Considérations techniques
 
@@ -134,26 +134,6 @@ Utilisez le modèle [Message déclenché par un événement](/help/blueprints/us
 - Incluez des liens profonds qui renvoient directement le prospect à son devis enregistré au lieu de l’obliger à relancer le processus depuis le début.
 
 
-## Offres De Produits Basées Sur Les Étapes De Vie
-
-Identifiez les clients qui entrent dans de nouvelles étapes de leur vie (comme le mariage, l’achat d’une maison, la croissance de la famille ou la retraite) et proposez des produits d’assurance adaptés à leurs besoins de protection en constante évolution. Le ciblage des étapes de la vie permet aux assurés d’obtenir la bonne couverture au bon moment.
-
-### Impact commercial
-
-Les offres de produits basées sur les étapes de vie permettent d’améliorer les taux d’adoption des produits aux étapes de vie, approfondissant ainsi les relations client lors des moments clés de la prise de décision.
-
-### Mise en œuvre
-
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Les transitions d’étape de vie bénéficient d’une orchestration cross-canal combinée à une prise de décision en temps réel pour sélectionner le produit le plus pertinent et le diffuser via le canal préféré du client au moment optimal. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion sur plusieurs canaux pour assurer des offres cohérentes tout en tirant parti de la prise de décision pour sélectionner le produit le plus approprié pour l’étape de vie détectée. Une orchestration en plusieurs étapes ne peut pas à elle seule fournir l’évaluation d’éligibilité et d’adéquation en temps réel requise pour les recommandations de produits d’assurance.
-
-### Considérations techniques
-
-- Construire des modèles de détection des étapes de la vie en utilisant des signaux comportementaux tels que les changements d&#39;adresse, les mises à jour des bénéficiaires et les modèles de recherche en ligne, combinés à des événements de changement de politique.
-- Configurez le moteur de prise de décision avec des règles d&#39;éligibilité et d&#39;adéquation de produit qui correspondent à chaque étape de vie aux recommandations de couverture appropriées.
-- Coordonnez les offres à l’étape de la vie avec l’agent ou le courtier désigné afin qu’il soit prêt à aider le client par une conversation consultative lors de la livraison de l’offre.
-- Appliquez des étiquettes de gouvernance des données à toutes les sources de données tierces utilisées pour l’inférence de l’étape de vie afin de garantir la conformité aux réglementations de confidentialité des données et aux pratiques marketing équitables.
-
-
 ## Opportunités de remise et d’épargne
 
 Identifiez et communiquez les opportunités de réduction personnalisées (telles que le regroupement, le chauffeur sécurisé, la fidélité et les remises de facturation sans support papier) en fonction du profil et du comportement de chaque client. Les communications proactives sur l’épargne démontrent la valeur et renforcent la relation prix-valeur.
@@ -164,7 +144,7 @@ Les communications personnalisées sur les remises et les économies améliorent
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Real-Time Decisioning évalue l’éligibilité de chaque client aux remises disponibles et sélectionne l’opportunité d’épargne la plus performante à présenter au bon moment. C&#39;est le bon modèle lorsque la sélection des remises doit tenir compte des limites de cumul, des restrictions réglementaires et des calculs actuariels précis — des contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples contrôles d&#39;éligibilité.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Real-Time Decisioning évalue l’éligibilité de chaque client aux remises disponibles et sélectionne l’opportunité d’épargne la plus performante à présenter au bon moment. C&#39;est le bon modèle lorsque la sélection des remises doit tenir compte des limites de cumul, des restrictions réglementaires et des calculs actuariels précis — des contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples contrôles d&#39;éligibilité.
 
 ### Considérations techniques
 
@@ -204,7 +184,7 @@ Les communications personnalisées des programmes de mieux-être et de préventi
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Les programmes de bien-être sont des expériences d’engagement soutenu avec des jalons, des défis et des récompenses qui nécessitent une orchestration adaptative en fonction de l’activité et des progrès de chaque participant. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux à long terme et à messages multiples avec un embranchement basé sur l’engagement et des ajustements de synchronisation adaptatifs : la messagerie déclenchée par un événement ne peut pas gérer la logique complexe des jalons ou le besoin d’ajuster le rythme des communications en fonction du suivi continu des activités.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Les programmes de bien-être sont des expériences d’engagement soutenu avec des jalons, des défis et des récompenses qui nécessitent une orchestration adaptative en fonction de l’activité et des progrès de chaque participant. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux à long terme et à messages multiples avec un embranchement basé sur l’engagement et des ajustements de synchronisation adaptatifs : la messagerie déclenchée par un événement ne peut pas gérer la logique complexe des jalons ou le besoin d’ajuster le rythme des communications en fonction du suivi continu des activités.
 
 ### Considérations techniques
 
