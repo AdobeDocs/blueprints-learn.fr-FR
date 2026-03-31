@@ -2,21 +2,23 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
+landing-page-name: home-tutorials
+landing-page-breadcrumb-title: Tutorials
 type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/blueprints-learn.fr-FR
+git-repo: https://github.com/AdobeDocs/blueprints-learn.en
 index: true
-source-git-commit: f673054b9e0c459daed08157b4e05d2bda100470
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 343911ea0a701ab9689b4939d508b54dca1ceecb
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 19%
 
 ---
 
 
 # Métadonnées à usage interne
 
-Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers du guide de l’utilisateur TOC.md dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour n’importe quel guide d’utilisateur, faites-le dans n’importe quel fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier du contenu metadata.md pour n’importe quel guide de l’utilisateur, effectuez vos modifications dans n’importe quel fichier TOC.md.
 
-Voir [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=fr) pour une liste des valeurs que peuvent prendre **solution**, **produit**, et **type**.
+Consultez [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=fr) pour obtenir une liste de valeurs valides pour **solution**, **produit** et **type**.
