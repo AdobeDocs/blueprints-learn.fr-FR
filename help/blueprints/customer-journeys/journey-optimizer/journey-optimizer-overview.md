@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - Plan directeur des Parcours'
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 - **Récupération des abandons :** déclenchez des messages personnalisés lorsqu’un utilisateur abandonne un panier, un formulaire ou une session par e-mail, push ou in-app.
 - **Inscription d’un nouvel utilisateur :** engagez les nouveaux utilisateurs immédiatement après leur enregistrement avec de nouvelles préférences de compte, des promotions ou des avantages pertinents
 - **Messages transactionnels :** envoyez des confirmations, des alertes ou des mises à jour en temps réel (par exemple, la commande envoyée, la réinitialisation du mot de passe) à l’aide de déclencheurs d’événement.
-- **Ciblage contextuel :** communiquer avec les utilisateurs sur le moment en fonction de leurs signaux et de leur emplacement pour les aider à orienter et à diriger leur expérience
+- **Ciblage contextuel :** communiquez avec les utilisateurs sur le moment en fonction de leurs signaux et de leur emplacement pour les aider à orienter et à diriger leur expérience
 - **Vente contextuelle/vente croisée :** proposez des offres personnalisées basées sur des attributs de profil en temps réel et des interactions récentes.
 
 >[!TAB Orchestration Des Campagnes (Planifiée, Lancée Par La Marque)]
@@ -51,7 +51,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 
 | Scénario | Description |
 | :-- | :-- |
-| [Parcours &#x200B;](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
+| [Parcours ](journey-optimizer-journeys.md) | Les Parcours AJO dans Adobe Journey Optimizer sont des expériences client personnalisées et automatisées déclenchées par des événements en temps réel ou des segments d’audience. Ils permettent aux spécialistes marketing de diffuser des messages pertinents sur plusieurs canaux tels que les e-mails, les SMS et les notifications push. |
 | [Orchestration des campagnes](journey-optimizer-campaigns.md) | L’orchestration des campagnes d’AJO permet aux spécialistes marketing de concevoir et d’exécuter des campagnes cross-canal personnalisées à l’aide de données en temps réel et d’informations sur les audiences. Elle prend en charge le ciblage dynamique, la diffusion des messages et la logique de parcours pour optimiser l’engagement des clients sur les canaux e-mail, SMS, Push et personnalisés. |
 
 <br>
@@ -94,12 +94,12 @@ Mobile Push :
 
 [Lien du produit Mécanismes de sécurisation [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentation connexe
 
 - [Documentation [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 - [Documentation sur les balises [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-- [Documentation [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-- [Documentation [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+- [Documentation [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html)
+- [Documentation [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [Description du produit [!DNL Journey Optimizer]](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
