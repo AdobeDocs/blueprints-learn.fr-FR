@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - Plan directeur des Parcours'
 description: Exécutez des expériences et messages déclenchés à l’aide d’Adobe Experience Platform, que vous pouvez utiliser comme une plateforme centrale pour la diffusion en continu des données, les profils client et la segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Ce plan directeur décrit les fonctionnalités techniques de l’application et 
 - **Récupération des abandons :** déclenchez des messages personnalisés lorsqu’un utilisateur abandonne un panier, un formulaire ou une session par e-mail, push ou in-app.
 - **Inscription d’un nouvel utilisateur :** engagez les nouveaux utilisateurs immédiatement après leur enregistrement avec de nouvelles préférences de compte, des promotions ou des avantages pertinents
 - **Messages transactionnels :** envoyez des confirmations, des alertes ou des mises à jour en temps réel (par exemple, la commande envoyée, la réinitialisation du mot de passe) à l’aide de déclencheurs d’événement.
-- **Ciblage contextuel :** communiquer avec les utilisateurs sur le moment en fonction de leurs signaux et de leur emplacement pour les aider à orienter et à diriger leur expérience
+- **Ciblage contextuel :** communiquez avec les utilisateurs sur le moment en fonction de leurs signaux et de leur emplacement pour les aider à orienter et à diriger leur expérience
 - **Vente contextuelle/vente croisée :** proposez des offres personnalisées basées sur des attributs de profil en temps réel et des interactions récentes.
 
 >[!TAB Orchestration Des Campagnes (Planifiée, Lancée Par La Marque)]
