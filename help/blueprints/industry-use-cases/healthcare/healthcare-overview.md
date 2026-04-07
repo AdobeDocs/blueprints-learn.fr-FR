@@ -3,9 +3,9 @@ title: Cas d’utilisation des soins de santé
 description: Découvrez comment les organismes de santé utilisent Adobe Experience Platform pour améliorer l'engagement des patients, rationaliser la coordination des soins et obtenir de meilleurs résultats en matière de santé.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -95,26 +95,6 @@ Utilisez le modèle [Message déclenché par un événement](/help/blueprints/us
 - Appliquez des libellés d’utilisation des données à tout contenu d’instructions de soins pour vous assurer que les informations de santé protégées ne sont partagées que par le biais de canaux sécurisés autorisés par le patient.
 - Configurer des règles de durée qui tiennent compte du type de visite — par exemple, les suivis post-chirurgicaux peuvent nécessiter une durée différente de celle des examens de routine.
 - Inclure des liens sécurisés vers le portail des patients pour l&#39;achèvement de l&#39;enquête et la planification des rendez-vous plutôt que de collecter des informations de santé par des canaux non sécurisés.
-
-
-## Programmes De Prise En Charge Des Maladies Chroniques
-
-Personnalisez les communications relatives à la prise en charge des maladies chroniques, le contenu éducatif et les rappels de surveillance en fonction de l’état spécifique et du plan de traitement de chaque patient. Un engagement durable et pertinent aide les patients à jouer un rôle actif dans la gestion de leur santé au fil du temps.
-
-### Impact commercial
-
-Les programmes personnalisés de prise en charge des maladies chroniques voient augmenter les taux d’engagement des programmes, ce qui permet d’améliorer les résultats de la prise en charge des maladies et de réduire le recours aux soins d’urgence.
-
-### Mise en œuvre
-
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). La prise en charge des maladies chroniques est intrinsèquement une expérience de longue durée et à points de contact multiples qui nécessite des messages adaptatifs basés sur l’engagement des patients et les jalons de santé. Il s’agit du modèle approprié, car la prise en charge des maladies chroniques nécessite des messages adaptatifs sur une longue période avec une ramification conditionnelle basée sur les mesures cliniques et les schémas d’engagement. Les messages déclenchés par un événement ne peuvent pas gérer la réévaluation dynamique en cours nécessaire pour ajuster les interventions en fonction de l’évolution des données de santé.
-
-### Considérations techniques
-
-- Concevez une logique d’embranchement des parcours qui s’adapte en fonction de mesures spécifiques à la maladie (par exemple, les tendances de glycémie pour la prise en charge du diabète ou les mesures de pression artérielle pour les programmes d’hypertension).
-- Implémentez une gouvernance stricte des données avec des libellés d’utilisation des données [!DNL Adobe Experience Platform] pour classer et protéger les données d’intégrité spécifiques aux conditions dans l’ensemble du parcours.
-- Intégrer aux dispositifs de surveillance à distance des patients et aux systèmes de résultats signalés par les patients pour alimenter en temps réel les données de santé en points de décision parcours.
-- Établir des voies d’escalade pour l’équipe de soins au sein du parcours afin que les tendances de non-engagement ou préoccupantes en matière de santé déclenchent des alertes pour le personnel clinique approprié.
 
 
 ## Nouveau Parcours d’intégration des patients

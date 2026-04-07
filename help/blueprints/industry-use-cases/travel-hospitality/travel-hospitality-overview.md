@@ -3,9 +3,9 @@ title: Cas d’utilisation des voyages et de l’hébergement
 description: Découvrez comment les agences de voyage et d’accueil utilisent Adobe Experience Platform pour personnaliser les expériences de réservation, récupérer les réservations abandonnées et fidéliser les clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '4015'
+source-wordcount: '3744'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,6 @@ Utilisez le modèle Personalization Web de visiteur anonyme[&#128279;](/help/blu
 - Les règles de Personalization doivent tenir compte des tendances saisonnières des voyages par région, en faisant apparaître les destinations par temps chaud aux visiteurs dans des climats froids pendant les mois d&#39;hiver, par exemple.
 - Les stratégies de contenu de secours sont essentielles pour les visiteurs dont l’emplacement ne peut pas être déterminé ou qui arrivent par le biais de services d’anonymisation.
 - L’intégration au flux de disponibilité du système de réservation garantit que les propriétés et les itinéraires présentés sont en fait réservables, évitant ainsi la frustration de promouvoir les options épuisées.
-
-
-## Parcours de récupération après abandon de panier
-
-Détecter automatiquement lorsqu’un client abandonne son panier de réservation et déclencher un parcours d’e-mail à plusieurs étapes avec des offres personnalisées pour encourager l’achèvement de l’opération. Les réservations abandonnées représentent l&#39;une des plus importantes fuites de revenus en matière de voyages et d&#39;accueil, et le suivi opportun pendant que l&#39;intention de voyage est encore fraîche récupère une part significative de ces réservations.
-
-### Impact commercial
-
-Les programmes de récupération des réservations efficaces atteignent des taux de récupération des paniers significatifs et peuvent générer un revenu incrémentiel significatif en fonction du volume de réservation et de la valeur moyenne du voyage.
-
-### Mise en œuvre
-
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Cette approche répond à un événement d’abandon de panier en temps réel, en envoyant un rappel en temps opportun pendant que l’intention de voyage du client est toujours élevée. Il s’agit du modèle approprié lorsque le déclencheur est un événement de comportement client en temps réel et que la réponse requise est un message unique et sensible au temps, plutôt qu’une séquence d’entretien à plusieurs étapes ou une sélection d’offres dynamique qui change en fonction de la réponse du client.
-
-### Considérations techniques
-
-- Les seuils de détection d’abandon de panier devraient tenir compte des cycles de réflexion plus longs typiques dans les achats de voyage ; un délai de 2 à 4 heures avant le premier rappel est souvent plus approprié que les 30 à 60 minutes utilisées dans la vente au détail.
-- Le contenu des e-mails doit extraire dynamiquement le prix actuel, la disponibilité des chambres ou des cabines et les images du système de réservation au moment de l’envoi, car l’inventaire et les tarifs des voyages changent fréquemment.
-- Les incentives personnalisés, tels que les mises à niveau ou les crédits de séjour gratuits, doivent être gérés au moyen de règles commerciales qui tiennent compte de la marge, de la saisonnalité et du niveau de fidélité du client.
-- La logique de suppression doit exclure les clients qui ont effectué leur réservation par un autre canal, tel qu’un centre d’appel ou une agence de voyages, afin d’éviter les messages de suivi non pertinents.
 
 
 ## Ciblage des visiteurs à forte intention

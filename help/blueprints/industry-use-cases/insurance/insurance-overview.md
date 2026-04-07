@@ -3,9 +3,9 @@ title: Cas d’utilisation d’assurance
 description: Découvrez comment les compagnies d’assurance utilisent Adobe Experience Platform pour personnaliser la gestion des polices, améliorer l’expérience des sinistres et stimuler la fidélisation des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -152,46 +152,6 @@ Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalizati
 - Configurez des règles de prise de décision qui tiennent compte des limites de cumul des remises et assurez-vous que les montants d’épargne communiqués sont précis sur le plan actuariel et approuvés par l’équipe de tarification.
 - Appliquer des règles réglementaires spécifiques aux États pour les communications sur les remises, car certains États ont des restrictions sur la façon dont les remises d&#39;assurance peuvent être commercialisées et appliquées.
 - Suivez les résultats de l’adoption des remises pour affiner en permanence le modèle de prise de décision et donner la priorité aux messages d’épargne qui trouvent le plus d’écho auprès des différents segments de clientèle.
-
-
-## Prévention de la fraude liée aux réclamations
-
-Utilisez la détection intelligente des fraudes pour identifier les schémas de réclamations suspectes et personnaliser les communications d&#39;enquête tout en préservant la confiance des clients. Une prévention efficace de la fraude protège les souscripteurs honnêtes en maintenant des primes équitables et en veillant à ce que les réclamations légitimes soient traitées rapidement.
-
-### Impact commercial
-
-Les programmes intelligents de prévention des fraudes permettent d&#39;améliorer les taux de détection des fraudes, de réduire les paiements frauduleux et de réduire les coûts globaux des réclamations.
-
-### Mise en œuvre
-
-Utilisez le modèle [Message déclenché par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Les événements de notation du risque de fraude déclenchent des communications appropriées sur les enquêtes et des ajustements du processus en temps réel, ce qui garantit que les demandes signalées reçoivent une attention immédiate. Il s’agit du modèle approprié lorsqu’un événement dérivé du système (score de risque de fraude) est le déclencheur et que l’action requise est un ajustement immédiat des processus internes avec une communication client attentive, plutôt qu’un parcours à plusieurs étapes ou un scénario de prise de décision.
-
-### Considérations techniques
-
-- Intégrez les scores de risque de fraude du système d’analyse des réclamations au profil client tout en appliquant des étiquettes de gouvernance des données strictes pour empêcher l’affichage des données d’enquête de fraude dans les communications avec les clients.
-- Concevez des voies de communication qui conservent un ton professionnel et respectueux pour les clients dont les réclamations sont en cours d’examen, en préservant la relation quel que soit le résultat de l’enquête.
-- Mettez en œuvre des contrôles d’accès basés sur les rôles pour vous assurer que les indicateurs de fraude ne sont visibles que par les équipes d’enquête autorisées et ne sont jamais affichés dans les vues standard de l’agent ou du service client.
-- Coordonnez-vous avec le service de résolution d’identité [!DNL Adobe Experience Platform] pour détecter des motifs sur les profils associés, tels que des adresses partagées ou des numéros de téléphone liés à plusieurs réclamations suspectes.
-
-
-## Programmes de mieux-être et de prévention
-
-Personnalisez les communications du programme de bien-être, les rappels de participation et les notifications de récompense pour les clients des assurances santé et vie en fonction de leurs objectifs et de leur niveau d’engagement. Les programmes actifs de mieux-être améliorent les résultats de santé des assurés et permettent d&#39;établir une clientèle plus forte et plus engagée.
-
-### Impact commercial
-
-Les communications personnalisées des programmes de mieux-être et de prévention entraînent une amélioration des taux de participation aux programmes, contribuant ainsi à de meilleurs résultats en matière de santé et à une réduction de la fréquence des réclamations.
-
-### Mise en œuvre
-
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Les programmes de bien-être sont des expériences d’engagement soutenu avec des jalons, des défis et des récompenses qui nécessitent une orchestration adaptative en fonction de l’activité et des progrès de chaque participant. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux à long terme et à messages multiples avec un embranchement basé sur l’engagement et des ajustements de synchronisation adaptatifs : la messagerie déclenchée par un événement ne peut pas gérer la logique complexe des jalons ou le besoin d’ajuster le rythme des communications en fonction du suivi continu des activités.
-
-### Considérations techniques
-
-- Intégrez aux flux de données des appareils portables et des applications de santé en utilisant l’ingestion par flux [!DNL Adobe Experience Platform], en appliquant des étiquettes de gouvernance des données claires pour distinguer les données de bien-être des données de souscription ou de réclamations.
-- Mettre en œuvre des mécanismes de consentement distincts pour la collecte de données sur le mieux-être afin de s&#39;assurer que les participants comprennent comment leurs données sur les activités de santé sont utilisées et peuvent se désinscrire sans affecter leur politique.
-- Concevez une logique de parcours qui ajuste l&#39;intensité du programme et la fréquence de communication en fonction du niveau d&#39;engagement de chaque participant afin de prévenir la fatigue et d&#39;encourager une participation soutenue.
-- Demandez à vos équipes juridiques et de conformité d’examiner les structures d’incitation au bien-être et les programmes de réduction premium pour assurer la conformité aux réglementations d’assurance d’État applicables avant le lancement.
 
 
 ## Coordination des agents et des courtiers
