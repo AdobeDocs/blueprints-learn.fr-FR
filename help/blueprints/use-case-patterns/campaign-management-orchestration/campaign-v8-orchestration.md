@@ -3,24 +3,14 @@ title: Plan directeur de Campaign v8, Campaign et Platform
 description: Découvrez le plan directeur de Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
-exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1045'
 ht-degree: 29%
 
 ---
 
 # Plan directeur de Campaign v8
-
->[!TIP]
->Ce plan directeur est également disponible en tant que [ modèle de cas d’utilisation ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) sous Gestion et orchestration des campagnes.
 
 Adobe Campaign v8 est une plateforme de gestion de campagnes de nouvelle génération conçue pour les canaux marketing traditionnels tels que les e-mails et le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour prendre en charge une segmentation et un ciblage d’audience complexes, ainsi qu’un puissant moteur d’orchestration pour créer des programmes marketing multipoint pilotés par lots.
 
@@ -60,13 +50,13 @@ En savoir plus sur les [modèles de déploiement de Campaign v8](https://experie
 
 ### Déploiement Campaign Grands comptes (FFDA)
 
-<img src="images/campaign-v8-ffda.svg" alt="Architecture de référence pour le plan directeur de déploiement de Campaign v8 (FFDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-ffda.svg" alt="Architecture de référence pour le plan directeur de déploiement de Campaign v8 (FFDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ### Déploiement FDA Campaign v8
 
-<img src="images/campaign-v8-fda.svg" alt="Architecture de référence pour le plan directeur de Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-fda.svg" alt="Architecture de référence pour le plan directeur de Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -74,8 +64,8 @@ En savoir plus sur les [modèles de déploiement de Campaign v8](https://experie
 
 | Scénario | Description | Considérations techniques |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] avec Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Montre comment Adobe Experience Platform, ainsi que son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe [!DNL Campaign] pour proposer des conversations personnalisées | <ul><li>Partage des profils et des audiences du [!DNL Real-Time CDP] vers Adobe [!DNL Campaign] à l&#39;aide de l&#39;échange de fichiers dans le cloud et des workflows d&#39;ingestion de [!DNL Campaign] Adobe </li><li>Partagez facilement les données de diffusion et d’interaction des conversations client dans le [!DNL Real-Time CDP] à partir d’Adobe [!DNL Campaign] pour améliorer le profil client en temps réel et fournir des rapports cross-canal sur les campagnes de messagerie</li></ul> |
-| [[!DNL Journey Optimizer] avec Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et tirer parti du système de messagerie transactionnelle Adobe [!DNL Campaign] natif pour envoyer le message | <ul><li>Il peut envoyer jusqu’à 1 million de messages par heure via le serveur de messagerie en temps réel.<li>Aucune limitation n’est effectuée à partir de [!DNL Journey Optimizer]. Assurez-vous donc que l’architecte d’entreprise avant-vente procède à une vérification technique.</li><li>La gestion des décisions n’est pas pris en charge dans les payloads de Campaign v8.</li></ul> |
+| [[!DNL Real-time Customer Data Platform] avec Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | Montre comment Adobe Experience Platform, ainsi que son profil client en temps réel et son outil de segmentation centralisé peuvent être utilisés avec Adobe [!DNL Campaign] pour proposer des conversations personnalisées | <ul><li>Partage des profils et des audiences du [!DNL Real-Time CDP] vers Adobe [!DNL Campaign] à l&#39;aide de l&#39;échange de fichiers dans le cloud et des workflows d&#39;ingestion de [!DNL Campaign] Adobe </li><li>Partagez facilement les données de diffusion et d’interaction des conversations client dans le [!DNL Real-Time CDP] à partir d’Adobe [!DNL Campaign] pour améliorer le profil client en temps réel et fournir des rapports cross-canal sur les campagnes de messagerie</li></ul> |
+| [[!DNL Journey Optimizer] avec Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | Indique comment utiliser Adobe Journey Optimizer pour orchestrer des expériences 1:1 à l’aide du profil client en temps réel et tirer parti du système de messagerie transactionnelle Adobe [!DNL Campaign] natif pour envoyer le message | <ul><li>Il peut envoyer jusqu’à 1 million de messages par heure via le serveur de messagerie en temps réel.<li>Aucune limitation n’est effectuée à partir de [!DNL Journey Optimizer]. Assurez-vous donc que l’architecte d’entreprise avant-vente procède à une vérification technique.</li><li>La gestion des décisions n’est pas pris en charge dans les payloads de Campaign v8.</li></ul> |
 
 <br>
 

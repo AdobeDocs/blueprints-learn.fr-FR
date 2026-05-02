@@ -2,13 +2,13 @@
 title: Augmenter la génération de leads
 description: Découvrez comment générer des prospects plus qualifiés pour le pipeline de vente par le biais de formulaires, d’événements, de contenu et d’un engagement multicanal.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
-
 
 # Augmenter la génération de leads
 
@@ -30,6 +30,6 @@ Les modèles de cas d’utilisation suivants prennent en charge cet objectif com
 
 | Modèle | Catégorie | Comment elle soutient cet objectif |
 | --- | --- | --- |
-| [Activation d’audience B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Création et activation d’audiences | Active les audiences basées sur un compte pour générer des prospects à partir des comptes cibles |
-| [Marketing et gestion de Parcours par groupe d’achats](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Gestion et orchestration des campagnes | Orchestre des campagnes multipartites ciblant des groupes d’achat pour générer des prospects B2B qualifiés. |
+| [Activation d’audience B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Création et activation d’audiences | Active les audiences basées sur un compte pour générer des prospects à partir des comptes cibles |
+| [Marketing et gestion de Parcours par groupe d’achats](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Gestion et orchestration des campagnes | Orchestre des campagnes multipartites ciblant des groupes d’achat pour générer des prospects B2B qualifiés. |
 | [Activation des messages sortants par lots](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Gestion et orchestration des campagnes | Diffuse des campagnes par lots ciblées aux segments de prospects pour stimuler la capture de prospects. |

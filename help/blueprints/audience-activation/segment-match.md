@@ -1,16 +1,24 @@
 ---
 title: Audience Collaboration avec correspondance de segments
-description: En savoir plus sur [!UICONTROL &#x200B; Correspondance de segments &#x200B;] pour Adobe Experience Platform (AEP). [!UICONTROL Correspondance de segments &#x200B;] est un service de collaboration de données qui vous permet d’échanger des données de segment basées sur des identifiants communs du secteur d’une manière sécurisée, régulée et respectueuse de la vie privée.
+description: Découvrez le service [!UICONTROL Correspondance de segment] pour Adobe Experience Platform (AEP). Le service [!UICONTROL Correspondance de segment] est un service de collaboration en matière de données qui vous permet d’échanger des données de segment selon des identifiants de secteur communs d’une manière sécurisée, régie et respectueuse de la vie privée.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/RnmmHdxJbt0Ljjovo0rYwGvYilcihcqeeI5KOkP4VmU
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 72%
+source-wordcount: 2249
+ht-degree: 80%
 
 ---
 
 # Audience Collaboration avec plan directeur de correspondance de segments
+
+>[!TIP]
+>Ce plan directeur est également disponible en tant que [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) sous Création et activation d’audience.
 
 La correspondance de segments permet aux marques partenaires de partager des audiences entre leurs environnements Experience Platform respectifs. L’essentiel pour les marques est d’interagir avec les clients en fonction des données collectées à partir de leurs relations directes avec les consommateurs. Grâce à de meilleurs systèmes de gouvernance, d’autorisations et de gestion des préférences, les marketeurs peuvent améliorer davantage leurs audiences authentifiées propriétaires par des partenaires clés.
 
@@ -30,7 +38,7 @@ Le service [!UICONTROL Correspondance de segment] utilise la gouvernance des don
 
 Marque vers éditeur :
 
-L’obsolescence des cookies tiers et des données d’ID de publicité mobile a le plus d’impact sur le « cas pratique de l’éditeur ». Ce cas pratique a un impact majeur sur le secteur des médias et du divertissement, qui se concentre sur la vente de publicité en tant que modèle d’entreprise. [!UICONTROL Correspondance de segments &#x200B;] est un chemin d’accès pour les éditeurs disposant d’audiences propriétaires importantes qui cherchent à collaborer directement avec leurs annonceurs. Les annonceurs peuvent collaborer directement avec les éditeurs pour faire de la publicité auprès d’audiences correspondantes sur les propriétés des éditeurs pour des campagnes de ciblage ou de prospection granulaires.
+L’obsolescence des cookies tiers et des données d’ID de publicité mobile a le plus d’impact sur le « cas pratique de l’éditeur ». Ce cas pratique a un impact majeur sur le secteur des médias et du divertissement, dont le modèle commercial repose sur la vente de publicité. Le service [!UICONTROL Correspondance de segment] est une voie pour les éditeurs disposant de vastes audiences propriétaires qui souhaitent collaborer directement avec leurs annonceurs. Les annonceurs peuvent collaborer directement avec les éditeurs pour faire de la publicité auprès d’audiences correspondantes sur les propriétés des éditeurs pour des campagnes de ciblage ou de prospection granulaires.
 
 ### Marque à marque
 
@@ -46,7 +54,7 @@ Le service [!UICONTROL Correspondance de segment] permet aux équipes marketing 
 
 ![Architecture du service Correspondance de segment](assets/architecture-segment-match.png){zoomable="yes"}
 
-Le service [!UICONTROL Correspondance de segment] n’est pas une place de marché de données où les données peuvent être achetées. Il s’agit plutôt d’une fonctionnalité d’AEP qui fonctionne avec les données propriétaires de certains partenaires, en utilisant des contrôles de confidentialité et de consentement pour faciliter la collaboration. [!UICONTROL Correspondance de segments &#x200B;] permet de concentrer les efforts sur l’amélioration des relations client et le développement de la marque. Elle est bénéfique lorsqu’il existe des marques ou des relations de partenaire préexistantes. [!UICONTROL Correspondance de segments &#x200B;] l’expérience est facile à gérer, évolutive et permet aux administrateurs de partager des segments de manière volontaire et contrôlable.
+Le service [!UICONTROL Correspondance de segment] n’est pas une place de marché de données où les données peuvent être achetées. Il s’agit plutôt d’une fonctionnalité AEP qui fonctionne avec des données propriétaires et des partenaires sélectionnés, en utilisant des contrôles de confidentialité et de consentement pour faciliter la collaboration. Le service [!UICONTROL Correspondance de segment] permet de concentrer les efforts sur l’amélioration des relations avec les clients et le développement de la marque. Il est bénéfique est bénéfique lorsqu’il existe des marques ou des relations de partenariat préexistantes. L’expérience [!UICONTROL Correspondance de segment] est facile à gérer, évolutive et permet aux administrateurs de partager des segments de manière consentie et contrôlable.
 
 Le service [!UICONTROL Correspondance de segment] offre les avantages suivants :
 
@@ -104,7 +112,7 @@ Les paramètres de consentement pour le service [!UICONTROL Correspondance de se
 
 * En définissant l’attribut de partage spécifique aux identités (idSpecific) à l’aide de [Groupe de champs Consentements et Préférences](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr).
 
-  Ce groupe de champs fournit un seul champ de type objet, consentements, pour capturer les informations de consentement et de préférence. [!UICONTROL Correspondance de segments &#x200B;], par défaut, inclut toutes les identités qui n’ont pas été explicitement exclues, par exemple :
+  Ce groupe de champs fournit un champ de type objet unique, consentements, pour capturer les informations de consentement et de préférence. Par défaut, le service [!UICONTROL Correspondance de segment] inclut toutes les identités qui n’ont pas été explicitement exclues, par exemple :
 
   ```
   "share": {
