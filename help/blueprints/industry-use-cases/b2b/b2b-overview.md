@@ -3,7 +3,7 @@ title: Cas D’Utilisation B2B
 description: Découvrez comment les entreprises B2B utilisent Adobe Experience Platform pour accélérer le pipeline, améliorer la qualité du prospect et stimuler l’expansion des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Les organisations qui mettent en œuvre la personnalisation marketing basée sur
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pour créer des audiences au niveau du compte et activer du contenu personnalisé sur plusieurs canaux. Ce modèle est spécialement conçu pour les stratégies basées sur les comptes, prenant en charge le ciblage au niveau du compte et de la personne. Il s’agit du modèle approprié lorsque le ciblage doit fonctionner au niveau du compte plutôt qu’au niveau individuel ; l’activation standard des audiences RT-CDP ne prend pas en charge le modèle de données basé sur le compte requis pour les stratégies ABM.
+Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des audiences au niveau du compte et activer du contenu personnalisé sur plusieurs canaux. Ce modèle est spécialement conçu pour les stratégies basées sur les comptes, prenant en charge le ciblage au niveau du compte et de la personne. Il s’agit du modèle approprié lorsque le ciblage doit fonctionner au niveau du compte plutôt qu’au niveau individuel ; l’activation standard des audiences RT-CDP ne prend pas en charge le modèle de données basé sur le compte requis pour les stratégies ABM.
 
 ### Considérations techniques
 
@@ -267,7 +267,7 @@ Les organisations B2B avec activation des audiences basée sur les comptes bén�
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pour créer des segments au niveau du compte à l’aide des relations compte-personne et les activer dans des destinations de médias achetés compatibles B2B. Il s’agit du bon schéma lorsque la construction de l’audience doit se faire au niveau du compte (en combinant les signaux de plusieurs contacts au sein d’une organisation d’achat) plutôt qu’au niveau de chaque personne.
+Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des segments au niveau du compte à l’aide des relations compte-personne et les activer dans des destinations de médias achetés compatibles B2B. Il s’agit du bon schéma lorsque la construction de l’audience doit se faire au niveau du compte (en combinant les signaux de plusieurs contacts au sein d’une organisation d’achat) plutôt qu’au niveau de chaque personne.
 
 ### Considérations techniques
 
@@ -287,7 +287,7 @@ Les organisations B2B qui utilisent l’orchestration des parcours de groupe d�
 
 ### Mise en œuvre
 
-Utilisez le modèle [Marketing basé sur les groupes d’achat](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) pour créer des parcours qualifiés pour le compte qui segmentent les membres du groupe d’achat par rôle, évaluent les signaux d’engagement au niveau du groupe et orchestrent des campagnes coordonnées multi-personnes et multi-contacts avec un embranchement conditionnel en fonction du statut du compte. Il s’agit du modèle approprié lorsque la logique de parcours doit fonctionner au niveau du groupe de comptes plutôt qu’au niveau de la personne individuelle : l’orchestration de parcours standard au niveau de la personne ne peut pas gérer les exigences de qualification de groupe et de coordination interpersonnelle de la gestion des groupes d’achats B2B.
+Utilisez le modèle [Marketing basé sur les groupes d’achat](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) pour créer des parcours qualifiés pour le compte qui segmentent les membres du groupe d’achat par rôle, évaluent les signaux d’engagement au niveau du groupe et orchestrent des campagnes coordonnées multi-personnes et multi-contacts avec un embranchement conditionnel en fonction du statut du compte. Il s’agit du modèle approprié lorsque la logique de parcours doit fonctionner au niveau du groupe de comptes plutôt qu’au niveau de la personne individuelle : l’orchestration de parcours standard au niveau de la personne ne peut pas gérer les exigences de qualification de groupe et de coordination interpersonnelle de la gestion des groupes d’achats B2B.
 
 ### Considérations techniques
 
@@ -307,7 +307,7 @@ Les organisations B2B avec une personnalisation au niveau du compte signalent un
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pour activer les profils au niveau du compte en vue de la personnalisation sur les canaux web et sortants. Il s’agit du modèle approprié lorsque l’exigence principale est le ciblage au niveau du compte pour la personnalisation, plutôt que l’orchestration du parcours au niveau du contact. Les données de profil de compte orientent les décisions de personnalisation, plutôt que les signaux comportementaux individuels.
+Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour activer les profils au niveau du compte en vue de la personnalisation sur les canaux web et sortants. Il s’agit du modèle approprié lorsque l’exigence principale est le ciblage au niveau du compte pour la personnalisation, plutôt que l’orchestration du parcours au niveau du contact. Les données de profil de compte orientent les décisions de personnalisation, plutôt que les signaux comportementaux individuels.
 
 ### Considérations techniques
 

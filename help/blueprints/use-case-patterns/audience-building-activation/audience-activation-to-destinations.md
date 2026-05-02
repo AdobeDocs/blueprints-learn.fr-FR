@@ -3,9 +3,9 @@ title: Activation de l’audience vers les destinations
 description: Découvrez comment évaluer et publier des segments d’audience vers des destinations externes à des fins de ciblage ou de suppression à l’aide d’Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '7043'
+source-wordcount: '7080'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Ce modèle s’applique chaque fois que l’objectif est d’envoyer les donnée
 Les parties prenantes incluent généralement les équipes de marketing numérique qui gèrent les médias achetés, les équipes de données qui enrichissent les entrepôts, les équipes de gestion de la relation client qui préparent les listes de contacts pour les campagnes et les équipes de confidentialité qui assurent la conformité de la gouvernance sur les flux de données sortants.
 
 >[!NOTE]
->Si votre organisation utilise [!DNL Real-Time CDP] B2B edition et active les audiences vers des destinations basées sur un compte, voir [Activation des audiences B2B](b2b-audience-activation.md). Ce modèle partage les mêmes mécanismes d’activation, mais utilise un modèle de données compte-personne B2B et nécessite la licence B2B edition.
+>Si votre organisation utilise [!DNL Real-Time CDP] B2B edition et active les audiences vers des destinations basées sur un compte, voir [Activation des audiences B2B](../b2b/account-audience-activation.md). Ce modèle partage les mêmes mécanismes d’activation, mais utilise un modèle de données compte-personne B2B et nécessite la licence B2B edition.
 
 ## Objectifs commerciaux clés
 
@@ -89,6 +89,12 @@ Améliorez le retour sur investissement marketing grâce à un meilleur ciblage,
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)** — Évaluation de l’audience, gestion de la destination, activation de l’audience, consentement et application de la gouvernance
 - **Adobe [!DNL Experience Platform] (AEP)** — Banque de profils, service d’identités, moteur de segmentation, gouvernance des données
+
+## Architecture
+
+L’architecture de référence suivante illustre la manière dont les données d’audience et de profil circulent de Real-Time CDP vers les destinations d’entreprise, y compris l’espace de stockage, les points d’entrée de flux continu et les applications SaaS.
+
+![Architecture de référence pour l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## Fonctions fondamentales
 
@@ -707,7 +713,7 @@ Examinez les points suivants avant et pendant l’implémentation.
 
 **Collecte de données et sources**
 
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 - [Présentation de Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home)
 - [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
 

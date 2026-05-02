@@ -3,7 +3,7 @@ title: Audience Activation B2B
 description: Découvrez comment activer les audiences B2B basées sur un compte sur les canaux web, e-mail et publicitaires.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Les équipes de marketing B2B doivent cibler et activer les audiences au niveau 
 Les audiences de compte activées alimentent les cas d’utilisation dans toute la funnel de génération de la demande : campagnes de sensibilisation en haut de funnel sur la publicité [!DNL LinkedIn] et display, programmes de culture mid-funnel en [!DNL Marketo Engage] et activation des ventes en bas de la funnel grâce à l’intégration de la gestion de la relation client (CRM). Les audiences de suppression de compte empêchent les dépenses inutiles en excluant les clients existants, les comptes fermés et perdus ou les comptes figurant déjà dans des cycles de vente actifs.
 
 >[!NOTE]
->Si votre cas d’utilisation implique l’activation des audiences au niveau de la personne (B2C) plutôt qu’au niveau du compte, consultez la section [Activation des audiences vers les destinations](audience-activation-to-destinations.md). Ce modèle utilise le modèle de données RT-CDP standard et ne nécessite pas B2B edition.
+>Si votre cas d’utilisation implique l’activation des audiences au niveau de la personne (B2C) plutôt qu’au niveau du compte, consultez la section [Activation des audiences vers les destinations](../audience-building-activation/audience-activation-to-destinations.md). Ce modèle utilise le modèle de données RT-CDP standard et ne nécessite pas B2B edition.
 
 ## Objectifs commerciaux clés
 
@@ -181,7 +181,7 @@ Les options suivantes décrivent différentes approches pour mettre en œuvre ce
 
 **Fonctionnement :**
 
-Cette option utilise le connecteur de destination [!DNL Marketo Engage] natif dans [!DNL RT-CDP] pour diffuser directement vers [!DNL Marketo Engage] les modifications d’appartenance à une audience de compte. Lorsqu’un compte est éligible ou quitte un segment d’audience, les prospects et contacts associés dans [!DNL Marketo] sont mis à jour avec les attributs d’appartenance au segment. [!DNL Marketo] les campagnes intelligentes peuvent ensuite se déclencher en fonction de ces modifications d’abonnement.
+Cette option utilise le connecteur de destination [!DNL Marketo Engage] natif dans [!DNL RT-CDP] pour diffuser directement vers [!DNL Marketo Engage] les modifications d’appartenance à une audience de compte. Lorsqu’un compte est éligible ou quitte un segment d’audience, les prospects et contacts associés dans [!DNL Marketo] sont mis à jour avec les attributs d’appartenance au segment. [!DNL Marketo] campagnes intelligentes peuvent alors se déclencher en fonction de ces modifications d’abonnement.
 
 La destination [!DNL Marketo Engage] est une destination de diffusion en continu, ce qui signifie que les modifications d’appartenance à une audience sont envoyées de manière incrémentielle au fur et à mesure qu’elles se produisent plutôt que par lots planifiés. Les campagnes qui doivent répondre aux modifications de qualification des comptes bénéficient ainsi d’un délai d’action plus rapide. Les mappages de champs connectent [!DNL RT-CDP] attributs de profil aux champs de lead/contact [!DNL Marketo], ce qui permet d’enrichir les enregistrements [!DNL Marketo] avec les données au niveau du compte provenant de [!DNL RT-CDP].
 
@@ -767,7 +767,7 @@ Les ressources suivantes fournissent un contexte supplémentaire et des conseils
 
 **Sources de données et connecteurs**
 
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 - [Connecteur Marketo Engage](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Connecteur Salesforce](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/crm/salesforce)
 

@@ -3,14 +3,33 @@ title: Plan directeur de marketing et de gestion des Parcours basé sur les grou
 description: Découvrez comment idéaliser, concevoir et créer un parcours qui qualifie les prospects pour un groupe d’achats dans Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
 
 # Plan directeur de marketing et de gestion des Parcours basé sur les achats de groupe
+
+>[!TIP]
+>Ce plan directeur est également disponible en tant que [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) sous Activation et marketing B2B.
 
 Les équipes marketing sont actuellement confrontées à de nombreux défis pour fournir aux ventes des prospects qualifiés. L’un de ces défis est de travailler avec les bonnes personnes au sein de l’organisation, et il est généralement évident que les efforts et l’exactitude sont suffisants. Avec la _notation des prospects_, le groupe est trop étroit et les équipes peuvent ne pas trouver les bonnes personnes. Avec la _notation des comptes_, un effort plus important est nécessaire pour identifier la bonne personne ayant une vue aussi large d’un compte.
 
@@ -48,7 +67,7 @@ Lorsqu’un prospect montre clairement l’intérêt de la solution, il indique 
 
 Comme l’illustre le diagramme suivant, vous pouvez collecter des détails dans des formulaires ou par le biais de l’activation LinkedIn et qualifier une intention de solution lorsqu’une interaction avec un chat-robot s’est produite.
 
-![parcours du groupe d&#39;achat](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+parcours du groupe d&#39;achat![&#128279;](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
 
 Lorsque le pourcentage d&#39;achèvement du groupe d&#39;achats est suffisamment élevé, vous partagez le groupe avec l&#39;équipe des ventes via SQL ou un SOL pour convertir les leads du compte en une vente terminée.
 
@@ -109,7 +128,7 @@ Mécanismes de sécurisation liés à la mise en œuvre
 * Tous les mécanismes de sécurisation des audiences B2B sont décrits dans le [plan directeur de l’activation des audiences et des profils B2B](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) sont directement transposés au succès du B2B edition Journey Optimizer.
 * Si l’activation est requise via les canaux Marketo Engage du parcours de compte ou si la synchronisation CRM est utilisée pour enrichir le compte, les [mécanismes de sécurisation liés à Marketo Engage](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) sont pertinents.
 
-Consultez la documentation sur les [mécanismes de sécurisation de Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview) pour plus d’informations sur les mécanismes de sécurisation de RTCDP.
+Consultez la documentation sur les [mécanismes de sécurisation de &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview) pour plus d’informations sur les mécanismes de sécurisation de RTCDP.
 
 ### Attribution des privilèges d’accès
 
@@ -129,7 +148,7 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
    Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B. À court terme, la relation _plusieurs à plusieurs_ entre le compte et la personne par le biais de la relation compte-personne n’est pas prise en charge dans Journey Optimizer B2B. Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
 
-   * Utilisez le script de création de schéma B2B [RTCDP](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) pour générer le schéma initial
+   * Utilisez le script de création de schéma B2B [&#128279;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) pour générer le schéma initial
    * Ajoutez des champs spécifiques aux cas d’utilisation aux schémas générés afin de compléter le schéma en fonction des besoins de l’organisation.
 
    À ce stade, vous disposez de la connexion entre Marketo Engage et RTCDP et la structure du schéma pour accepter les données du compte et de la personne afin de renseigner les jeux de données pour que les segments de compte soient définis. L’étape suivante consiste à connecter RTCDP à Marketo Engage et Journey Optimizer B2B edition.

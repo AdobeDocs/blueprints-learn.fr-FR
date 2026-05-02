@@ -3,7 +3,7 @@ title: Analyses B2B
 description: Découvrez comment inclure des informations au niveau du compte B2B dans l’analyse des parcours client cross-canal.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | --- | --- | --- | --- |
 | Administration et gouvernance | Obligatoire | Sandbox configuré avec [!DNL CJA] droits B2B edition et [!DNL RT-CDP] B2B edition. Rôles configurés pour les ingénieurs de données, les analystes et les utilisateurs des opérations marketing ayant accès à [!DNL CJA] et au modèle de données B2B. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home) |
 | Modélisation et préparation des données | Obligatoire | Schémas XDM B2B configurés à l’aide des classes B2B : compte professionnel XDM, opportunité commerciale XDM, relation de la personne avec le compte professionnel XDM, relation de la personne avec l’opportunité commerciale XDM et membres de la liste marketing professionnelle XDM. Les groupes de champs pour les attributs de compte, les étapes d&#39;opportunité et les rôles de groupe d&#39;achat doivent être définis. Jeux de données créés et activés pour le profil. | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Schémas B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/schemas/b2b) |
-| Sources et collecte de données | Obligatoire | Sources de données B2B connectées, généralement via le connecteur source [!DNL Marketo Engage] ou [!DNL Salesforce] connecteur source CRM. Les enregistrements de compte, les enregistrements d’opportunité, les relations personne-compte et les événements d’engagement comportemental doivent circuler dans les jeux de données AEP. [!DNL Web SDK] ou [!DNL Marketo] intégration doit capturer des événements comportementaux avec l’association de compte. | [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home), [Connecteur Marketo Engage](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Sources et collecte de données | Obligatoire | Sources de données B2B connectées, généralement via le connecteur source [!DNL Marketo Engage] ou [!DNL Salesforce] connecteur source CRM. Les enregistrements de compte, les enregistrements d’opportunité, les relations personne-compte et les événements d’engagement comportemental doivent circuler dans les jeux de données AEP. L’intégration [!DNL Web SDK] ou [!DNL Marketo] doit capturer des événements comportementaux avec l’association de compte. | [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home), [Connecteur Marketo Engage](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | Configuration des identités et des profils | Obligatoire | Résolution d’identité B2B configurée pour résoudre les relations personne à compte. L’ID de compte, l’ID de personne (ID de lead [!DNL Marketo] ou ID de contact CRM) et les identités inter-appareils (ECID, adresse électronique) doivent être liés. Le graphique d’identité doit prendre en charge le mappage plusieurs-à-plusieurs entre une personne et un compte inhérent aux modèles de données B2B. | [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [résolution d’identité B2B](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/schemas/b2b) |
 | Définition et segmentation de l’audience | Supposé en place | Les définitions d’audience au niveau du compte doivent être disponibles si les segments B2B seront publiés de [!DNL CJA] vers AEP pour activation. Pour les cas d’utilisation d’analyses uniquement, il ne s’agit pas d’un strict prérequis, mais cela est recommandé pour l’analyse basée sur les segments. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home) |
 
@@ -708,7 +708,7 @@ Les ressources suivantes apportent des informations supplémentaires sur l’imp
 **AEP data foundation**
 
 - [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 - [Connecteur Marketo Engage](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)
 - [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home)

@@ -1,32 +1,14 @@
 ---
 title: Plan directeur d’ingestion et de création
 description: Ingestion et création – Plan directeur d’intégration de Marketo Engage et Workfront
-exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-TQID: https://experienceleague.adobe.com/p0lDMluV6wyWfV7TzUEnPWhycpIImpl3z5Erooy2Bxk
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: '1372'
 ht-degree: 86%
 
 ---
 
 # Plan directeur d’ingestion et de création {#intake-and-create}
-
->[!TIP]
->Ce plan directeur est également disponible en tant que [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md) sous Activation et marketing B2B.
 
 Le nombre de requêtes marketing qui entrent dans une équipe d’opérations marketing pour lancer de nouvelles campagnes peut transformer une équipe performante en un tourniquet de tâches répétitives, ce qui provoque un épuisement et une innovation stagnante.
 
@@ -38,7 +20,7 @@ Pour réaliser cette intégration, il est nécessaire d’utiliser Workfront Fus
 
 Le workflow ci-dessous présente une requête de webinaire envoyée par un gestionnaire de campagne à l’aide d’un formulaire de requête Workfront. Les détails envoyés dans la requête déclenchent ensuite la création d’un programme et d’un e-mail dans Marketo Engage pour le webinaire. En outre, des détails sont fournis à partir du formulaire de requête pour renseigner le contenu de l’e-mail.
 
-![Création d’un plan directeur](assets/intake-and-create-1.png){zoomable="yes"}
+![Création d’un plan directeur](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -118,7 +100,7 @@ Pour en savoir plus sur la création de votre propre centre d’excellence, cons
 
 Avec Marketo Engage, les jetons peuvent être utilisés pour renseigner le contenu dans les ressources de votre campagne. Par exemple, après avoir cloné un modèle d’e-mail provenant de votre centre d’excellence, Workfront Fusion peut prendre les détails de la requête de campagne dans Workfront et les transmettre à Mes jetons dans le programme Marketo Engage. Les valeurs de jeton peuvent ensuite être héritées directement dans l’e-mail pour générer l’e-mail.
 
-![Utiliser des jetons pour remplir le diagramme de contenu](assets/intake-and-create-2.png){zoomable="yes"}
+![Utiliser des jetons pour remplir le diagramme de contenu](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Renseignement d’images à partir d’AEM Assets {#populate-images-from-aem-assets}
 
@@ -166,7 +148,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
 
-![Flux d’automatisation de l’ingestion et de la création](assets/intake-and-create-3.png)
+![Flux d’automatisation de l’ingestion et de la création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
 
 ## Ressources {#resources}
 

@@ -2,13 +2,13 @@
 title: Activer la prise de décision pilotée par les données
 description: Découvrez comment doter les équipes d’analyses en libre-service, d’informations sur les clients en temps réel et de prédictions optimisées par l’IA pour guider la stratégie.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # Activer la prise de décision pilotée par les données
 
@@ -30,4 +30,4 @@ Les modèles de cas d’utilisation suivants prennent en charge cet objectif com
 | Modèle | Catégorie | Comment elle soutient cet objectif |
 | --- | --- | --- |
 | [Customer Analytics et génération Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Fournit des espaces de travail d’analyse en libre-service et des workflows d’analyse guidés pour les informations basées sur les données |
-| [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analyse | Permet une prise de décision B2B pilotée par les données grâce à l’analyse au niveau du compte et aux informations sur le groupe d’achat |
+| [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Analyse | Permet une prise de décision B2B pilotée par les données grâce à l’analyse au niveau du compte et aux informations sur le groupe d’achat |

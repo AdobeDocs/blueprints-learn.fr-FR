@@ -2,13 +2,13 @@
 title: Augmenter le chiffre d’affaires et les ventes
 description: Découvrez comment stimuler la croissance du chiffre d’affaires de premier plan grâce à des canaux numériques, des campagnes et des parcours client optimisés.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
-
 
 # Augmenter le chiffre d’affaires et les ventes
 
@@ -32,4 +32,4 @@ Les modèles de cas d’utilisation suivants prennent en charge cet objectif com
 | --- | --- | --- |
 | [Activation des messages sortants par lots](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Gestion et orchestration des campagnes | Diffuse des campagnes par lots ciblées pour stimuler les ventes par e-mail, SMS et canaux push |
 | [Messagerie déclenchée par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Gestion et orchestration des campagnes | Capture les opportunités de chiffre d’affaires par le biais de messages de réponse comportementale en temps réel |
-| [Marketing et gestion de Parcours par groupe d’achats](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Gestion et orchestration des campagnes | Orchestre les parcours du groupe d’achat B2B pour accélérer la progression du pipeline des ventes |
+| [Marketing et gestion de Parcours par groupe d’achats](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Gestion et orchestration des campagnes | Orchestre les parcours du groupe d’achat B2B pour accélérer la progression du pipeline des ventes |

@@ -2,13 +2,13 @@
 title: Personalization Web de visiteur anonyme
 description: Découvrez comment diffuser du contenu web personnalisé aux visiteurs et visiteuses non identifiés en fonction de signaux comportementaux au cours de la session.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
-
 
 # Personnalisation web des visiteurs anonymes
 
@@ -104,17 +104,23 @@ Les applications suivantes sont utilisées dans ce modèle de cas d’utilisatio
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** : segmentation Edge pour l’évaluation d’audiences en temps réel en fonction de signaux comportementaux en session ; gestion anonyme des profils Edge
 - **[!DNL Adobe Experience Platform] (AEP)** : [!DNL Web SDK] pour la collecte de signaux comportementaux, [!DNL Edge Network] pour le routage des données en temps réel et la diffusion de la personnalisation, configuration des trains de données
 
+## Architecture
+
+L’architecture de référence suivante illustre la manière dont les signaux de visiteur anonyme sont collectés en périphérie, évalués par rapport aux règles d’audience et utilisés pour diffuser du contenu personnalisé.
+
+![Architecture de référence pour l’activation et la personnalisation anonymes des audiences](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## Fonctions fondamentales
 
 Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
 | Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
-| Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations de canal web configurées. [!DNL Web SDK] autorisations d’implémentation et accès au flux de données accordés à l’équipe d’implémentation. Les utilisateurs et utilisatrices dotés de rôles qui permettent la configuration des canaux web, la gestion des audiences et l’exécution des campagnes. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
+| Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations de canal web configurées. [!DNL Web SDK] les autorisations d’implémentation et l’accès aux flux de données accordés à l’équipe d’implémentation. Les utilisateurs et utilisatrices dotés de rôles qui permettent la configuration des canaux web, la gestion des audiences et l’exécution des campagnes. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Obligatoire | Schéma d’événement d’expérience capturant des signaux comportementaux web (pages vues, clics, profondeur de défilement, données de référence, paramètres UTM). Le schéma doit inclure des groupes de champs d’interaction web standard et être activé pour que le profil Edge prenne en charge l’évaluation en temps réel. Un jeu de données correspondant doit être créé et activé pour Profil. | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) |
 | Sources et collecte de données | Obligatoire | [!DNL Web SDK] doit être implémenté sur toutes les propriétés web de target avec un flux de données configuré pour acheminer les données vers [!DNL AEP Edge Network]. Les services [!DNL Adobe Experience Platform] et [!DNL Adobe Journey Optimizer] doivent être activés pour le flux de données. Il s’agit d’une dépendance critique : sans [!DNL Web SDK], aucune collecte de signaux comportementaux ni diffusion d’expérience n’est possible. | [Présentation du SDK web](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home) |
 | Configuration des identités et des profils | Obligatoire | ECID ([!DNL Experience Cloud ID]) configuré comme espace de noms d’identité principal pour les visiteurs anonymes. La politique de fusion Edge doit être configurée avec `isActiveOnEdge: true` pour résoudre les données de profil anonymes en périphérie. Une seule politique de fusion peut être active sur le serveur Edge par sandbox. | [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) |
-| Définition et segmentation de l’audience | Obligatoire | Segments d’audience évalués par Edge définis en fonction de signaux comportementaux en session. La segmentation d’Edge est obligatoire pour la latence d’évaluation de la sous-seconde. Les règles de segmentation ne doivent utiliser que des expressions de règle de segmentation éligibles à Edge (vérifications d’attributs simples et appartenance à un segment : aucune requête de série temporelle ni agrégation complexe). | [segmentation Edge](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/edge-segmentation) |
+| Définition et segmentation de l’audience | Obligatoire | Segments d’audience évalués par Edge définis en fonction de signaux comportementaux en session. La segmentation d’Edge est obligatoire pour la latence d’évaluation de la sous-seconde. Les règles de segmentation ne doivent utiliser que des expressions de règle de segmentation éligibles à Edge (vérifications d’attributs simples et appartenance à un segment : aucune requête de série temporelle ni agrégation complexe). | [segmentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
 ## Fonctions annexes
 
@@ -126,7 +132,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | L’expiration des profils anonymes doit être configurée pour que les profils Edge anonymes gèrent le stockage et respectent les exigences de confidentialité. Les profils ECID uniquement peuvent être définis pour expirer entre 14 et 365 jours. Les politiques de consentement des cookies doivent être appliquées à la collecte de données comportementales. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les libellés de gouvernance sur les données comportementales assurent la conformité, en particulier pour le géociblage (libellé géographique sensible S2) et la personnalisation basée sur les appareils. Les libellés empêchent l’utilisation de données comportementales restreintes dans des contextes de personnalisation non autorisés. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home) |
 | Surveillance et observabilité | Recommandé | La surveillance des flux de données [!DNL Edge Network] et [!DNL Web SDK] permet de détecter les problèmes de diffusion de personnalisation. Configurez des alertes pour les échecs de flux de données, les erreurs d’ingestion et les anomalies de diffusion Edge. Critique pour les déploiements d’exploitation où les échecs de personnalisation dégradent l’expérience des visiteurs. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
-| Rapports et analyses | Inclus | Les rapports de performances Personalization font partie de la chaîne de fonctions (phase 5). L’analyse CJA de l’efficacité de la personnalisation des visiteurs anonymes permet une analyse funnel approfondie, une comparaison des cohortes et une mesure de l’impact de la conversion au-delà de ce que fournissent les rapports natifs AJO. | Présentation de [CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Rapports et analyses | Inclus | Les rapports de performances Personalization font partie de la chaîne de fonctions (phase 5). L’analyse CJA de l’efficacité de la personnalisation des visiteurs anonymes permet une analyse funnel approfondie, une comparaison des cohortes et une mesure de l’impact de la conversion au-delà de ce que fournissent les rapports natifs AJO. | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Fonctions d&#39;application
 
@@ -542,7 +548,7 @@ Créez une campagne qui incorpore la politique de décision configurée au cours
 
 **Documentation Experience League :**
 
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Diffuser des offres dans les messages](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
@@ -604,10 +610,10 @@ Examinez les mécanismes de sécurisation suivants avant et pendant la mise en �
 - Les segments Edge sont limités à des vérifications d’attributs simples et à l’appartenance à un segment (aucune requête de série temporelle ou agrégation complexe). [Éligibilité de la segmentation Edge](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/edge-segmentation)
 - Une seule politique de fusion peut être active sur le serveur Edge par sandbox : [&#x200B; Mécanismes de sécurisation de profil &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
 - Maximum de 4 000 définitions de segment par sandbox — [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
-- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 500 campagnes actives en direct par sandbox — [Mécanismes de sécurisation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 10 variantes de traitement par expérience de contenu — [limites de l’expérience de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 10 000 offres personnalisées approuvées par sandbox (option C) — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
-- Maximum de 30 emplacements par décision (option C) — [Mécanismes de sécurisation Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 30 emplacements par décision (option C) — [Mécanismes de sécurisation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
 - Les modèles de classement AI nécessitent au moins 1 000 événements de conversion pour la formation (option C)
 - [!DNL Edge Network] du temps de réponse SLA : &lt; 200 ms pour les segments évalués par Edge
 - Expiration de profil pseudonyme : configurable de 14 à 365 jours pour les profils ECID uniquement
@@ -707,7 +713,7 @@ Les ressources Experience League ci-après fournissent des détails supplémenta
 
 - [Présentation de la gestion des décisions](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Créer des emplacements](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Création de règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Créer des règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Création d’offres personnalisées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Créer des offres de secours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Créer des collections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -718,7 +724,7 @@ Les ressources Experience League ci-après fournissent des détails supplémenta
 **Campagnes**
 
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 **[!DNL Web SDK]et collecte de données**
 

@@ -2,15 +2,18 @@
 title: Plan directeur B2B Customer Journey Analytics
 description: Incluez les données sur les comptes, les opportunités et les groupes d’achats B2B dans Customer Journey Analytics pour les rapports basés sur les comptes et l’analyse de parcours.
 solution: Customer Journey Analytics
-source-git-commit: 10e54d97082143b61e43bae56250a524d1759d45
+exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '743'
 ht-degree: 7%
 
 ---
 
-
 # Plan directeur B2B Customer Journey Analytics
+
+>[!TIP]
+>Ce plan directeur est également disponible en tant que [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/b2b/account-analytics.md) sous Activation et marketing B2B.
 
 Customer Journey Analytics B2B edition permet la création de rapports et l’analyse basés sur les comptes pour les organisations B2B. Contrairement à l’analyse B2C centrée sur la personne, ce plan directeur place le **compte** au centre du modèle de données afin que vous puissiez analyser des parcours d’achat B2B complexes sur plusieurs parties prenantes, groupes d’achat et cycles de vente. Utilisez [!DNL Customer Journey Analytics] pour unifier les données comportementales avec les dimensions B2B (comptes, opportunités, campagnes et listes marketing) afin d’obtenir des informations basées sur le parcours et de créer des audiences.
 

@@ -5,10 +5,10 @@ user-guide-description: explorez les principaux objectifs commerciaux, les modè
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: abed39b6b6f63f2eef6cb36b400319910f8cf472
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 25%
+source-wordcount: '539'
+ht-degree: 23%
 
 ---
 
@@ -50,21 +50,32 @@ ht-degree: 25%
       + [Audience Activation vers les destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
       + [Audience Collaboration avec correspondance de segments](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
       + [Transfert d’événement](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
-      + [Audience Activation B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+      + [Recherche de profil en temps réel pour l’assistance et les ventes](/help/blueprints/use-case-patterns/audience-building-activation/real-time-profile-lookup.md)
+      + [Science des données personnalisées pour l’enrichissement des profils](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)
    + Personnalisation{#personalization-patterns}
       + [Personalization Web de visiteur anonyme](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
       + [Personalization Web/App Connu Des Visiteurs](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
       + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
       + [Recommandation comportementale](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+      + [Accès au profil Edge pour Web/Mobile Personalization](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)
+      + [Partage d’audiences avec Adobe Target](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md)
    + Gestion et orchestration des campagnes{#campaign-orchestration-patterns}
       + [Activation des messages sortants par lots](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
       + [Messagerie déclenchée par événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
       + [Parcours Orchestré À Plusieurs Étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
       + [Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-      + [Marketing et gestion de Parcours par groupe d&#39;achats](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+      + [Orchestration par lots et messagerie transactionnelle de Campaign v8](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
+      + [Intégration de la messagerie tierce à Journey Optimizer](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
    + Analyse{#analysis-patterns}
       + [Génération de Customer Analytics et d’Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
-      + [Analyses B2B](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+   + Activation et marketing B2B{#b2b-patterns}
+      + [Audience Activation B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)
+      + [Marketing et gestion de Parcours par groupe d&#39;achats](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)
+      + [Analyses B2B](/help/blueprints/use-case-patterns/b2b/account-analytics.md)
+      + [Parcours B2B à l’aide des données Marketo](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)
+      + [Contrôleur de médias payants B2B AJO](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)
+      + [Marketo et Workfront Intake et Create](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md)
+      + [Marketo et Workfront - Vérifier et approuver](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md)
    + Expérience de conversation{#conversational-experience-patterns}
       + [Expérience de conversation Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + Exemples de cas d’utilisation du secteur{#industry-use-cases}

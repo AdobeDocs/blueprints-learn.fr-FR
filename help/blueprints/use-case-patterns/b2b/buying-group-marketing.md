@@ -3,7 +3,7 @@ title: Marketing et gestion de Parcours par groupe d'achats
 description: Découvrez comment développer des parcours au niveau du compte qui qualifient les prospects en groupes d’achats afin d’améliorer l’efficacité du marketing B2B.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -397,7 +397,7 @@ Créez un centre d’intérêt pour la solution et un modèle de rôle. Insistez
 **Pour L’Option B (Intérêts Multiples De La Solution) :**
 Créez plusieurs centres d’intérêt de solution, chacun ayant son propre modèle de rôle. Mappez chaque intérêt de solution au type de produit/opportunité CRM approprié pour le suivi du pipeline en aval.
 
-**Pour l’option C (qualification assistée par l’IA) :**
+**Pour l’option C (qualification assistée par IA) :**
 Configurez les intérêts de la solution et les modèles de rôle comme dans l’option B, mais configurez également l’agent de qualification de l’IA avec des données historiques sur les compositions de groupes d’achats réussies et les résultats des affaires pour entraîner le modèle de qualification.
 
 **Documentation Experience League :**
@@ -506,7 +506,7 @@ Concevez un parcours linéaire avec des étapes séquentielles. L&#39;entrée es
 **Pour L’Option B (Intérêts Multiples De La Solution) :**
 Concevez un parcours avec des branches parallèles par intérêt de solution. Utilisez les nœuds de condition pour acheminer les comptes vers la piste d&#39;acquisition appropriée en fonction des groupes d&#39;achat existants. Chaque branche possède son propre contenu et ses propres seuils de notation.
 
-**Pour l’option C (qualification assistée par l’IA) :**
+**Pour l’option C (qualification assistée par IA) :**
 Concevez un parcours dans lequel les nœuds de condition évaluent le score de qualification de l’IA plutôt que (ou en plus) des seuils basés sur des règles. Incluez la sélection dynamique de chemins d’accès où l’IA détermine s’il faut accélérer, maintenir ou modifier la priorité d’un compte.
 
 **Documentation Experience League :**
@@ -566,7 +566,7 @@ Quand les ventes doivent-elles être informées du statut du groupe d&#39;achats
 
 **Fonctions d’application :** [!DNL AJO B2B] : tableaux de bord B2B Analytics
 
-Cette phase établit le cadre de reporting et d&#39;analyse pour mesurer le rendement des groupes d&#39;achats, l&#39;efficacité des parcours de comptes et l&#39;impact des pipelines. [!DNL AJO B2B Edition] fournit des tableaux de bord analytics intégrés ; [!DNL CJA B2B Edition] (sous licence) étend l’analyse avec des informations cross-canal plus précises au niveau du compte.
+Cette phase établit le cadre de reporting et d&#39;analyse pour mesurer le rendement des groupes d&#39;achats, l&#39;efficacité des parcours de comptes et l&#39;impact des pipelines. [!DNL AJO B2B Edition] fournit des tableaux de bord d’analyse intégrés ; [!DNL CJA B2B Edition] (si disponible sous licence) étend l’analyse avec des informations plus précises au niveau du compte cross-canal.
 
 #### Décision : approche en matière de rapports
 
@@ -695,7 +695,7 @@ Les ressources suivantes apportent des détails supplémentaires sur les applica
 
 - [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home)
 - [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 - [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home)
 
 ### Configuration des canaux
