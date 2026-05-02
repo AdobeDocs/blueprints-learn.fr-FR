@@ -57,7 +57,7 @@ Lorsque les relocalisations et les nouveaux schémas ont tous atterri :
 
 - [TOC.md](../help/blueprints/TOC.md) `Use Case Patterns` section gagnera un `B2B Activation & Marketing{#b2b-patterns}`
 (emplacement à déterminer avec le rédacteur).
-- [](../help/blueprints/use-case-patterns/overview.md) recevra une table de catégorie B2B.
+- [&#128279;](../help/blueprints/use-case-patterns/overview.md) recevra une table de catégorie B2B.
 - Les modèles déplacés seront supprimés de `audience-building-activation`,
   `campaign-management-orchestration` et `analysis` tableaux de présentation ; leurs anciennes URL sont conservées
 actif via les redirections dans [migration-redirections.csv](migration-redirects.csv).

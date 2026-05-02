@@ -3,11 +3,18 @@ title: Révision et approbation du plan directeur
 description: Révision et approbation du plan directeur - Plan directeur d’intégration Marketo Engage et Workfront
 exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
 TQID: https://experienceleague.adobe.com/Tr0ZR0G6UFCb5KzWwzOkcFzsmmYa3fJTguTr8TUY-CE
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2:
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
 source-wordcount: 1290
@@ -87,7 +94,7 @@ Une fois que le statut de votre tâche Prêt pour la révision est mis à jour e
 
 ### Utiliser la relecture Workfront pour collaborer via des commentaires et des annotations {#use-workfront-proofing-to-collaborate}
 
-Les fonctionnalités de [relecture de ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu&#39;une image ou un e-mail, et de collaborer via des commentaires et des annotations. Une fois qu’une épreuve est prête à être publiée, les décideurs peuvent approuver la ressource à partir de l’outil de relecture.
+Les fonctionnalités de [relecture de &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu&#39;une image ou un e-mail, et de collaborer via des commentaires et des annotations. Une fois qu’une épreuve est prête à être publiée, les décideurs peuvent approuver la ressource à partir de l’outil de relecture.
 
 ![écran convertir l’e-mail](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

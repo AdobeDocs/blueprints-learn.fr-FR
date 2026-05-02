@@ -77,7 +77,7 @@ Une fois que le statut de votre tâche Prêt pour la révision est mis à jour e
 
 ### Utiliser la relecture Workfront pour collaborer via des commentaires et des annotations {#use-workfront-proofing-to-collaborate}
 
-Les fonctionnalités de [relecture de ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu&#39;une image ou un e-mail, et de collaborer via des commentaires et des annotations. Une fois qu’une épreuve est prête à être publiée, les décideurs peuvent approuver la ressource à partir de l’outil de relecture.
+Les fonctionnalités de [relecture de &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permettent à votre équipe marketing de prendre une nouvelle ressource, telle qu&#39;une image ou un e-mail, et de collaborer via des commentaires et des annotations. Une fois qu’une épreuve est prête à être publiée, les décideurs peuvent approuver la ressource à partir de l’outil de relecture.
 
 ![écran convertir l’e-mail](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

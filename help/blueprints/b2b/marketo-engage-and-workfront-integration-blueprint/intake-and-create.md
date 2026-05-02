@@ -3,11 +3,19 @@ title: Plan directeur d’ingestion et de création
 description: Ingestion et création – Plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 TQID: https://experienceleague.adobe.com/p0lDMluV6wyWfV7TzUEnPWhycpIImpl3z5Erooy2Bxk
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2:
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
 source-wordcount: 1386
@@ -104,7 +112,7 @@ Le fait de construire votre centre d’excellence avec des modèles de programme
 
 Une fois que vous disposez d’un ensemble de modèles de programme réutilisables, vous pouvez augmenter davantage vos efforts à l’aide de l’automatisation décrite dans ce plan directeur afin d’accélérer davantage le développement de vos campagnes.
 
-Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté ](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
+Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté &#x200B;](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
 
 ### Utilisation de jetons pour renseigner du contenu {#use-tokens-to-populate-content}
 
@@ -156,7 +164,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 ## Flux d’automatisation de l’ingestion et de la création {#intake-and-create-automation-flow}
 
-Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
+Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
 
 ![Flux d’automatisation de l’ingestion et de la création](assets/intake-and-create-3.png)
 

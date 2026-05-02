@@ -4,11 +4,32 @@ description: Plan directeur pour le déploiement rapide de Journey Optimizer B2B
 solution: Journey Optimizer B2B Edition
 exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
 TQID: https://experienceleague.adobe.com/C1YHOokFyO9UCtTyu0ynDUYg133kP2mHMLfPZHHffpU
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e935834c-48b7-43d8-b754-a815196a1b05
-subfeature_v2: id: c3d6e661-d372-4e98-9fd9-eac771e7e4eeid: d5e018de-9479-48a8-96a8-176c73166631id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
 source-wordcount: 2093
@@ -29,7 +50,7 @@ Ce guide complet décrit le processus d’intégration de Marketo Engage à Adob
 * **Automatiser l’affectation des membres** : affectez automatiquement des membres aux rôles des groupes d’achats en fonction de critères définis, tels que la consommation de contenu et les données CRM
 * Parcours personnalisés **: concevez et visualisez des parcours à plusieurs étapes adaptés à chaque groupe d’achats et membre en fonction de son rôle, de son compte, de l’intérêt du produit et de l’étape de son cycle de vie**
 * **Automatisation en temps réel** : automatisez la progression des comptes et des groupes d’achats par le biais de parcours avec des déclencheurs d’engagement en temps réel et le score de qualification
-* **** : engagez des groupes d&#39;achats sur plusieurs canaux, notamment les e-mails, les SMS, les publicités, le chat, les événements et les webinaires, afin de rationaliser la génération et la qualification de la demande
+* **&#x200B;**&#x200B;: engagez des groupes d&#39;achats sur plusieurs canaux, notamment les e-mails, les SMS, les publicités, le chat, les événements et les webinaires, afin de rationaliser la génération et la qualification de la demande
 * **Informations basées sur l’IA** : utilisez les informations basées sur l’IA pour optimiser la diffusion de contenu et les stratégies d’engagement pour les acheteurs individuels et les groupes d’achats entiers
 * **Activation des données unifiées** : activez les listes de comptes unifiées d’Adobe Real-Time Customer Data Platform afin de fournir les données les plus récentes et complètes pour la création et la gestion des groupes d’achats
 * **Enhanced Collaboration** : coordonner les efforts de marketing et de vente pour créer des opportunités de vente plus précises et accélérer la création de pipelines
@@ -44,7 +65,7 @@ Ce guide complet décrit le processus d’intégration de Marketo Engage à Adob
 
 | Intégration | Description |
 | :-- | :--- |
-| [Connecteur ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platform facilite l’ingestion des données à partir de Marketo et offre des fonctionnalités pour structurer, étiqueter et améliorer les données à l’aide de ses services. |
+| [Connecteur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platform facilite l’ingestion des données à partir de Marketo et offre des fonctionnalités pour structurer, étiqueter et améliorer les données à l’aide de ses services. |
 | [Journey Optimizer B2B edition - Actions de Marketo Engage](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | Synchronisez Account-Based Marketing dans Journey Optimizer B2B edition avec les efforts basés sur les prospects dans Marketo Engage à l’aide d’actions basées sur les personnes pour gérer les appartenances aux listes et demander des campagnes. |
 
 ## Architecture
@@ -54,7 +75,7 @@ Ce guide complet décrit le processus d’intégration de Marketo Engage à Adob
 ## Étapes de mise en œuvre
 
 1. Installez les schémas et les espaces de noms B2B à l’aide de l’une des options suivantes :
-   * Utiliser la collection [](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
+   * Utiliser la collection [&#128279;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
    * Utilisation de [modèles](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) dans l’interface utilisateur de Platform
 1. Créez des schémas relationnels selon les besoins pour représenter les entités commerciales, telles que les achats, les licences ou les enregistrements d’événement pour la prise de décision par parcours et la personnalisation des e-mails.
 1. Terminez la [configuration XDM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
@@ -73,7 +94,7 @@ Ce guide complet décrit le processus d’intégration de Marketo Engage à Adob
    * Configurez les événements d’expérience que vous souhaitez utiliser dans les parcours.
       * Sélectionnez l’onglet **[!UICONTROL Événements]**, puis cliquez sur **[!UICONTROL Sélectionner un événement d’expérience]**.
       * Sélectionnez l’événement d’expérience et les champs que vous souhaitez utiliser.
-1. Configurez le connecteur source [](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+1. Configurez le connecteur source [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
    * Utilisez le dictionnaire de données pour définir le [mappage d’importation](https://experienceleague.adobe.com/fr/docs/experience-platform/data-prep/ui/mapping#import-mapping) pour le connecteur source.
    * Il est recommandé de ne pas activer le profil avant de prendre en compte les [considérations d’implémentation](#implementation-considerations).
    * Il est également recommandé d’ingérer Personnes, Entreprises, Opportunités et Activités au minimum, car ces objets sont les plus utiles lors de la création des audiences de votre compte.
@@ -169,7 +190,7 @@ from
 
 #### Adresses e-mail avec enregistrements en double
 
-Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [ présentation d’Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
+Cette requête renvoie les e-mails avec le plus grand nombre d’enregistrements en double dans le jeu de données.  Cette liste peut être utilisée pour vérifier certains de ces enregistrements afin de mieux comprendre l’impact de la liaison des identités sur Marketo et CRM.  Consultez la [&#x200B; présentation d’Identity Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) pour plus d’informations sur le fonctionnement de la liaison d’identités.
 
 ```sql
 select

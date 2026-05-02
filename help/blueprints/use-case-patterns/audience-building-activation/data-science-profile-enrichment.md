@@ -28,7 +28,7 @@ Les informations modélisées peuvent être ingérées dans [!DNL Experience Pla
 
 ## Garde-fous
 
-* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [ Mécanismes de sécurisation de déploiement ](/help/blueprints/experience-platform/guardrails.md).
+* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [&#x200B; Mécanismes de sécurisation de déploiement &#x200B;](/help/blueprints/experience-platform/guardrails.md).
 
 ## Considérations relatives à la mise en œuvre
 
@@ -38,7 +38,7 @@ Les informations modélisées peuvent être ingérées dans [!DNL Experience Pla
 ## Documentation connexe
 
 * [Description  [!DNL Experience Platform]  produit Adobe Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [ [!DNL Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
+* [&#x200B; [!DNL Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
 ## Articles de blog connexes
 

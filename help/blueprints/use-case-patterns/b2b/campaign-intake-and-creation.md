@@ -94,7 +94,7 @@ Le fait de construire votre centre d’excellence avec des modèles de programme
 
 Une fois que vous disposez d’un ensemble de modèles de programme réutilisables, vous pouvez augmenter davantage vos efforts à l’aide de l’automatisation décrite dans ce plan directeur afin d’accélérer davantage le développement de vos campagnes.
 
-Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté ](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
+Pour en savoir plus sur la création de votre propre centre d’excellence, consultez la [Communauté &#x200B;](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} pour connaître les bonnes pratiques.
 
 ### Utilisation de jetons pour renseigner du contenu {#use-tokens-to-populate-content}
 
@@ -146,7 +146,7 @@ Voici quelques informations de base à inclure dans votre bibliothèque de reche
 
 ## Flux d’automatisation de l’ingestion et de la création {#intake-and-create-automation-flow}
 
-Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
+Voici un exemple de la manière dont la logique de workflow peut être assemblée dans Fusion à l’aide de modules [&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=fr){target="_blank"} et [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=fr){target="_blank"} préconfigurés qui vous permettent de fournir une automatisation plus rapide.
 
 ![Flux d’automatisation de l’ingestion et de la création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
 
