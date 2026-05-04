@@ -3,11 +3,17 @@ title: Vue d’ensemble du plan directeur d’intégration de Marketo Engage et
 description: Vue d’ensemble – Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2:
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
 source-wordcount: 1797
@@ -159,7 +165,7 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Gestion des noms de campagne Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
-La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est essentielle pour une gestion précise des programmes dans Marketo Engage. Cela contribue également à un processus plus cohérent dans le cycle de vie de développement des campagnes. Si vous recherchez des outils pour vous aider, nous vous recommandons de consulter certains outils open source gratuits issus des [Services de succès ](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente de la création et de la gestion de campagnes Marketo Engage et des URL associées.
+La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est essentielle pour une gestion précise des programmes dans Marketo Engage. Cela contribue également à un processus plus cohérent dans le cycle de vie de développement des campagnes. Si vous recherchez des outils pour vous aider, nous vous recommandons de consulter certains outils open source gratuits issus des [Services de succès &#x200B;](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente de la création et de la gestion de campagnes Marketo Engage et des URL associées.
 
 ### Ressources {#resources}
 
