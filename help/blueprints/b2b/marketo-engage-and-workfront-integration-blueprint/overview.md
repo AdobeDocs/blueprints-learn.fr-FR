@@ -2,10 +2,16 @@
 title: Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 description: Vue d’ensemble – Vue d’ensemble du plan directeur d’intégration de Marketo Engage et Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 81%
+source-wordcount: 1797
+ht-degree: 89%
 
 ---
 
@@ -71,37 +77,37 @@ Il est important de comprendre comment mapper votre gestion commerciale à ces o
   </tr>
   <tr> 
    <td>Portfolio</td>
-   <td>Vous pouvez utiliser des portfolios et programmes dans Workfront pour organiser les projets. En organisant des projets, vous pouvez comparer des projets similaires et déterminer où les ressources seront le mieux utilisées.<br /><br />
+   <td>Vous pouvez utiliser des portfolios et programmes dans Workfront pour organiser les projets. À travers l’organisation des projets, vous pouvez comparer des projets similaires et déterminer les ressources qui seront les mieux dépensées.<br /><br />
    (par exemple, une Portfolio est créée pour une unité commerciale au sein d’une société axée sur la vente de services et/ou de produits.)</td>
   </tr>
   <tr>
    <td>Programme</td>
-   <td>Vous pouvez utiliser les programmes Workfront pour organiser les projets. En organisant des projets, vous pouvez comparer des projets similaires et déterminer où les ressources seront le mieux utilisées.<br /><br />
+   <td>Vous pouvez utiliser les programmes Workfront pour organiser les projets. À travers l’organisation des projets, vous pouvez comparer des projets similaires et déterminer les ressources qui seront les mieux dépensées.<br /><br />
    (p. ex., Une stratégie de marketing avec un objectif de haut niveau, comme la sensibilisation et la stimulation de la demande pour un lancement de nouveau produit.)</td>
   </tr>
   <tr>
    <td>Projet</td>
-   <td>Les projets Workfront sont un ensemble d’éléments de travail qui doivent être terminés pour atteindre un objectif spécifique, un livrable, un produit, etc.<br /><br />
-   (par exemple, une tactique marketing telle qu’une explosion d’e-mail, une campagne de sensibilisation, un webinaire ou un événement en personne. Un projet unique peut également être plus complexe en englobant plusieurs tactiques, telles qu’un e-mail, une publicité display, une page de destination et un livre blanc téléchargeable, destinées à générer le même résultat.)</td>
+   <td>Les projets Workfront sont un ensemble d’éléments de travail qui doivent être remplis pour atteindre un objectif spécifique, un livrable, un produit, etc.<br /><br />
+   (Par exemple, une tactique marketing telle qu’un e-mail, une campagne pédagogique, un webinaire ou un événement en présentiel). Un projet unique peut également être plus complexe en englobant plusieurs tactiques, telles qu’un e-mail, une publicité display, une page de destination et un livre blanc téléchargeable, destinées à générer le même résultat.)</td>
   </tr>
   <tr>
    <td>Tâche</td>
-   <td>Les tâches Workfront sont des tâches planifiées qui peuvent faire partie d’un projet ou d’une initiative. Les tâches sont affectées aux utilisateurs ou aux équipes pour être terminées.<br /><br />
+   <td>Les tâches Workfront sont des tâches planifiées qui peuvent faire partie d’un projet ou d’une initiative. Les tâches sont attribuées aux utilisateurs ou aux équipes pour être exécutées.<br /><br />
    (par exemple, une tâche de création d’un segment d’audience ou de création d’un brouillon d’e-mail peut être une tâche associée à un projet de développement d’un programme de messagerie Marketo Engage.)</td>
   </tr>
   <tr>
    <td>Problème</td>
-   <td>Les problèmes sont des éléments de travail non planifié dans Workfront. Il peut s’agir de problèmes qui se produisent au cours d’un projet, ou de demandes envoyées par le biais d’une file d’attente de demandes.<br /><br />
+   <td>Les problèmes sont des éléments de travail non planifié dans Workfront. Il peut s’agir de problèmes survenant pendant un projet ou de requêtes envoyées par le biais d’une file d’attente des demandes.<br /><br />
    (par exemple, Un problème est signalé, car l’image de bannière d’e-mail présente des dimensions incorrectes.)</td>
   </tr>
   <tr>
    <td>Document</td>
-   <td>Les documents peuvent être des documents traditionnels comme des documents écrits ou des présentations. Il peut également s’agir de fichiers image. Workfront permet la vérification des ressources par le biais de commentaires et d’annotations sur les documents et les images, afin de permettre une collaboration entre les équipes.<br /><br />
+   <td>Les documents peuvent être des documents traditionnels comme des documents écrits ou des présentations. Il peut également s’agir de fichiers image. Workfront permet la vérification des ressources au moyen de commentaires et d’annotations sur les documents et les images, afin de permettre la collaboration entre les équipes.<br /><br />
    (par exemple, une image d’en-tête d’e-mail qui doit être révisée.)</td>
   </tr>
   <tr>
    <td>Mise à jour</td>
-   <td>Inclut des commentaires et des journaux d’audit pour suivre le travail et faciliter la collaboration dans Workfront.<br /><br />
+   <td>Elle inclut des commentaires et des logs d’audit permettant de suivre le travail et de faciliter la collaboration dans Workfront.<br /><br />
    (par exemple, journal d’audit de la nouvelle version de l’image.)</td>
   </tr>
   </tbody>
@@ -153,7 +159,7 @@ Maintenant que vous disposez d’une compréhension fondamentale de la manière 
 
 ### Gestion des noms de campagne Marketo Engage et de leurs URL associées {#managing-marketo-engage-campaign-names}
 
-La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est essentielle pour une gestion précise des programmes dans Marketo Engage. Cela contribue également à un processus plus cohérent dans le cycle de vie de développement des campagnes. Si vous recherchez des outils pour vous aider, nous vous recommandons de consulter certains outils open source gratuits issus des [Services de succès Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente de la création et de la gestion de campagnes Marketo Engage et des URL associées.
+La normalisation de vos conventions d’affectation de noms pour les campagnes et les URL est essentielle pour une gestion précise des programmes dans Marketo Engage. Cela contribue également à un processus plus cohérent dans le cycle de vie de développement des campagnes. Si vous recherchez des outils pour vous aider, nous vous recommandons de consulter certains outils open source gratuits issus des [Services de succès ](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} qui vous permettent de créer une approche cohérente de la création et de la gestion de campagnes Marketo Engage et des URL associées.
 
 ### Ressources {#resources}
 
