@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -245,7 +245,7 @@ Cette approche réduit les messages inutiles en donnant aux clients le temps de 
 **Experience League:**
 
 - [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### Option C : Déclenché par un événement avec gouvernance des fréquences
@@ -596,9 +596,9 @@ Configurez les limites de fréquence au niveau de l’organisation via Administr
 - [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [gestion des entrées de parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Règles de fréquence](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
@@ -759,14 +759,14 @@ Les ressources suivantes apportent des détails supplémentaires sur les fonctio
 
 ### Orchestration des parcours
 
-- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Commencer avec les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Événements de qualification d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [gestion des entrées de parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Tester votre parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
