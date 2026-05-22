@@ -115,7 +115,7 @@ Exemple :
 ## Référentiel et table des matières
 
 - **Chemin d’accès du contenu de plan directeur** : `help/blueprints/` (avec des sous-dossiers par zone, par exemple `audience-activation/`, `customer-journeys/journey-optimizer/`).
-- **Assets** : colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
+- **&#x200B;**&#x200B;: colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
 - **TABLE DES MATIÈRES** : modifiez les `help/blueprints/TOC.md` lors de l’ajout, du changement de nom ou du déplacement de pages de plan directeur. Conserver le frontmaterial (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) et la hiérarchie `+`.
 
 &#x200B;---

@@ -284,7 +284,7 @@ Une brève évaluation globale (réussite/changements des besoins/problèmes maj
 
 ### Problèmes détectés
 Pour chaque événement :
-- **Gravité** : erreur 🔴 (doit être corrigée) | Avertissement 🟡 (doit être corrigé) | 🔵 Suggestion (agréable à avoir)
+- **Gravité** : erreur 🔴 (doit être corrigée) | Avertissement 🟡 (doit être corrigé) | Suggestion 🔵 (agréable à avoir)
 - **Ligne/Section** : emplacement du problème
 - **Règle** : quelle directive est enfreinte ?
 - **Actuel** : caractéristiques actuelles du fichier
