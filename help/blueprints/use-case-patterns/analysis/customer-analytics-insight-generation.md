@@ -957,7 +957,7 @@ Les ressources suivantes apportent des informations supplémentaires sur ce mod�
 
 - [Présentation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview)
 - [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 - [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)
 - [Présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal)
 

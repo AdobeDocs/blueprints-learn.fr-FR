@@ -116,7 +116,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les politiques de conservation des données de profil et d’événement garantissent que des données récentes et pertinentes alimentent les décisions de personnalisation. L’application du consentement garantit que la personnalisation respecte les préférences de l’utilisateur. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home), [Consentement dans Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les étiquettes de gouvernance sur les attributs de profil utilisés pour la personnalisation (en particulier les attributs adjacents aux informations d’identification personnelle tels que l’historique des achats, l’emplacement et les données financières) garantissent la conformité aux politiques d’utilisation des données. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
 | Surveillance et observabilité | Recommandé | La surveillance des performances de diffusion et de personnalisation d’Edge permet de détecter les problèmes de latence, les échecs de diffusion ou les problèmes de fraîcheur des données qui dégradent l’expérience personnalisée. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home), [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview) |
-| Rapports et analyses | Inclus | Le rapport de performances de Personalization fait partie de l’étape 6 de la chaîne de fonctions. [!DNL Customer Journey Analytics] l’analyse permet d’étudier en détail l’impact de la personnalisation sur la conversion, l’engagement et le chiffre d’affaires des segments de visiteurs. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Rapports et analyses | Inclus | Le rapport de performances de Personalization fait partie de l’étape 6 de la chaîne de fonctions. L’analyse [!DNL Customer Journey Analytics] permet d’étudier en détail l’impact de la personnalisation sur la conversion, l’engagement et le chiffre d’affaires des segments de visiteurs. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Fonctions d&#39;application
 
@@ -244,7 +244,7 @@ Cette approche prend en charge des scénarios de personnalisation sophistiqués,
 
 **En quoi cela diffère-t-il de l’option B:** d’Offer Decisioning ?
 
-L’infrastructure est identique : les deux utilisent AJO Decisioning à la périphérie avec Web SDK et une politique de fusion Edge-active. La différence réside dans ce qui est sélectionné. Cette option gère les éléments de contenu pour lesquels le critère de sélection est la personnalisation (appartenance à un segment, classement comportemental). [Offer Decisioning &#x200B;](offer-decisioning.md) l’option B gère un catalogue d’offres régi où les règles d’éligibilité, les limites de limitation et les fenêtres de validité sont des exigences commerciales. Si votre jeu d’éléments nécessite une limitation des impressions par profil, des contraintes d’éligibilité réglementaires ou une gestion du cycle de vie des offres, utilisez plutôt l’option B d’Offer Decisioning.
+L’infrastructure est identique : les deux utilisent AJO Decisioning à la périphérie avec Web SDK et une politique de fusion Edge-active. La différence réside dans ce qui est sélectionné. Cette option gère les éléments de contenu pour lesquels le critère de sélection est la personnalisation (appartenance à un segment, classement comportemental). [Offer Decisioning](offer-decisioning.md) L’option B gère un catalogue d’offres régi où les règles d’éligibilité, les limites de limitation et les fenêtres de validité sont des exigences commerciales. Si votre jeu d’éléments nécessite une limitation des impressions par profil, des contraintes d’éligibilité réglementaires ou une gestion du cycle de vie des offres, utilisez plutôt l’option B d’Offer Decisioning.
 
 ### Option C : personnalisation multi-surface (web + in-app + carte de contenu)
 
@@ -410,7 +410,7 @@ Cette section décrit en détail chaque phase de l’implémentation.
 **Documentation Experience League :**
 
 - [Créer des emplacements](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Création de règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Créer des règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Création d’offres personnalisées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Créer des offres de secours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Créer des collections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -570,7 +570,7 @@ Cette section décrit en détail chaque phase de l’implémentation.
 
 **Documentation Experience League :**
 
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Règles de fréquence](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Prise en main de l’expérience de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
@@ -724,7 +724,7 @@ Les ressources suivantes apportent des détails supplémentaires sur les technol
 
 - [Présentation de la gestion des décisions](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Créer des emplacements](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Création de règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Créer des règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Création d’offres personnalisées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Créer des offres de secours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Créer des collections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -768,7 +768,7 @@ Les ressources suivantes apportent des détails supplémentaires sur les technol
 ### Campagnes et expérimentation
 
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Prise en main de l’expérience de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Créer une expérience de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Rapport d’expérience de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)

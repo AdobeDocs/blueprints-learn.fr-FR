@@ -46,7 +46,7 @@ Améliorez l’efficacité du ciblage, supprimez les clients existants des campa
 
 ### Optimiser les dépenses marketing et le retour sur investissement
 
-Améliorez le retour sur investissement marketing grâce à un meilleur ciblage, une meilleure attribution, la suppression de l’audience et une affectation budgétaire plus efficace. [!DNL Segment Match] permet la suppression des audiences entre les organisations et le ciblage conjoint, ce qui réduit la duplication et améliore la précision.
+Améliorez le retour sur investissement marketing grâce à un meilleur ciblage, une meilleure attribution, la suppression de l’audience et une affectation budgétaire plus efficace. [!DNL Segment Match] permet la suppression des audiences entre organisations et le ciblage conjoint, ce qui réduit la duplication et améliore la précision.
 
 - **KPI :** économies de coûts, coût d’acquisition client, revenus incrémentiels
 - [Optimiser les dépenses marketing et le retour sur investissement](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
@@ -113,7 +113,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les politiques de consentement et de conservation des données garantissent que les segments partagés respectent les réglementations de confidentialité. Les politiques d’expiration des jeux de données permettent de gérer le cycle de vie des données d’audience reçues. L’application du consentement empêche le partage des profils qui se sont désinscrits. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
 | Étiquetage et application de l’utilisation des données | Inclus | Les politiques de gouvernance des données doivent être évaluées avant de partager des segments pour garantir leur conformité. Les libellés des champs d’identité et des attributs de profil déterminent ce qui peut être partagé. L’application de la gouvernance empêche l’inclusion de données non autorisées dans les partages de segment. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home) |
 | Surveillance et observabilité | Recommandé | La surveillance du processus de partage de [!DNL Segment Match], des tâches d’estimation de chevauchement et des flux de données d’activation permet de détecter rapidement les échecs. Les alertes peuvent être configurées pour les échecs de partage ou les taux de correspondance inattendus. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
-| Rapports et analyses | Recommandé | La mesure des performances des campagnes qui utilisent des audiences correspondantes valide la valeur de la collaboration. [!DNL Customer Journey Analytics] l’analyse peut comparer les performances des campagnes d’audience correspondantes aux populations témoins. | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Rapports et analyses | Recommandé | La mesure des performances des campagnes qui utilisent des audiences correspondantes valide la valeur de la collaboration. [!DNL Customer Journey Analytics] analyse peut comparer les performances des campagnes d’audience correspondantes aux populations témoins. | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Fonctions d&#39;application
 
@@ -333,7 +333,7 @@ Cette phase implique de définir et d’évaluer les segments d’audience qui s
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Partage De Segment Direct) :**
+**Pour L’Option A (Partage Direct De Segment) :**
 Préparez les segments spécifiques que vous avez l’intention de partager avec votre partenaire unique. Privilégiez la qualité plutôt que la quantité : organisez des segments qui apportent une valeur incontestable au partenariat.
 
 **Pour L’Option B (Distribution Multi-Partenaires) :**
@@ -394,7 +394,7 @@ Cette phase établit la connexion [!DNL Segment Match] entre les organisations o
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Partage De Segment Direct) :**
+**Pour L’Option A (Partage Direct De Segment) :**
 Établir une connexion de partenaire unique. Configurez des espaces de noms d’identité avec votre partenaire spécifique. L&#39;examen de la gouvernance est axé sur la relation bilatérale.
 
 **Pour L’Option B (Distribution Multi-Partenaires) :**
@@ -487,7 +487,7 @@ Cette phase exécute le partage de segment réel de l’expéditeur au destinata
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Partage De Segment Direct) :**
+**Pour L’Option A (Partage Direct De Segment) :**
 Exécutez un seul partage avec votre partenaire. Surveillez le statut du partage et vérifiez l’audience correspondante côté récepteur.
 
 **Pour L’Option B (Distribution Multi-Partenaires) :**
@@ -546,7 +546,7 @@ Cette phase active l’audience correspondante (côté récepteur) vers des dest
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Partage De Segment Direct) :**
+**Pour L’Option A (Partage Direct De Segment) :**
 Le destinataire active l’audience correspondante par le biais de son workflow de destination standard. Aucune configuration spéciale n’est nécessaire au-delà de l’activation de destination normale.
 
 **Pour L’Option B (Distribution Multi-Partenaires) :**

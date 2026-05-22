@@ -20,7 +20,7 @@ Il couvre toutes les approches viables pour déployer des expériences de conver
 
 ## Présentation du cas d’utilisation
 
-Les entreprises cherchent de plus en plus à transformer les expériences digitales statiques en conversations dynamiques basées sur l’IA qui guident les clients tout au long de la découverte, de la sélection de produits et des décisions d’achat. [!DNL Adobe Brand Concierge] Pour résoudre ce problème, fournit une couche d’IA conversationnelle orchestrée qui se trouve au-dessus des propriétés numériques existantes, optimisées par AEP Agent Orchestrator.
+Les entreprises cherchent de plus en plus à transformer les expériences digitales statiques en conversations dynamiques basées sur l’IA qui guident les clients tout au long de la découverte, de la sélection de produits et des décisions d’achat. [!DNL Adobe Brand Concierge] résout ce problème en fournissant une couche d’IA conversationnelle orchestrée qui se trouve au-dessus des propriétés numériques existantes, optimisées par AEP Agent Orchestrator.
 
 Ce modèle se distingue des implémentations de chatbot traditionnelles, car il est nativement intégré au profil unifié d’AEP, utilise des mécanismes de sécurisation de la gouvernance de marque pour s’assurer que chaque réponse s’aligne sur les normes de la marque et renvoie des signaux de conversation à la plateforme de données client pour la personnalisation et l’activation en aval.
 
@@ -350,7 +350,7 @@ Détails de configuration clés :
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Grille De Produits) :**
+**Pour L’Option A (Conseiller Produit) :**
 Activez la spécialisation de la grille de produits et configurez sa connexion à la source de données du catalogue de produits. Définissez les paramètres de recommandation de produit, notamment le nombre maximal de recommandations par réponse, les préférences d’affichage des attributs de produit et les règles de gestion des comparaisons.
 
 **Pour L’Option B (Avis Sur Le Site) :**
@@ -450,7 +450,7 @@ Détails de configuration clés :
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Grille De Produits) :**
+**Pour L’Option A (Conseiller Produit) :**
 Insistez sur l’intégration du catalogue de produits avec le mappage d’attributs de produit riches. Configurez la logique de recommandation de Product Advisor Agent, notamment le nombre de produits à suggérer, la manière de gérer les articles en rupture de stock, de présenter des comparaisons de produits et d’incorporer des données de profil client (historique d’achat, comportement de navigation) dans le classement de recommandation.
 
 **Pour L’Option B (Avis Sur Le Site) :**
@@ -464,7 +464,7 @@ Configurez le catalogue de produits et les sources de contenu du site. Assurez-v
 - [Configuration du contenu Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Conseiller de produit Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge site advisor](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 
 ### Phase 4 : déploiement de l’expérience de conversation
 
@@ -699,7 +699,7 @@ Les ressources suivantes apportent des informations supplémentaires sur l’imp
 - [Présentation de Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
 - [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
 - [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 
 **Identité et profil**
 
