@@ -6,7 +6,7 @@ exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '8246'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -196,7 +196,7 @@ La configuration complète se produit dans l’interface des campagnes AJO : il 
 **Experience League:**
 
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 ### Option B : parcours déclenché par l’audience
 
@@ -232,7 +232,7 @@ Le parcours est configuré dans l’interface AJO Parcours à l’aide de l’é
 
 **Experience League:**
 
-- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Commencer avec les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Lecture du parcours d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Option C : campagne déclenchée par API
@@ -282,7 +282,7 @@ Le tableau suivant compare les trois options de mise en œuvre selon des critèr
 | Idéal pour | Envois ancrés dans la date (promotions, lancements, newsletters) | Envois basés sur le comportement (événements de qualification, jalons) | Envois déclenchés par le système (confirmations de commande, transactionnels) |
 | Complexité | Faible | Moyenne | Medium-Grand |
 | Type de déclencheur | Date/heure du calendrier ou planning récurrent | Qualification de l’audience ou événement métier | Appel API du système externe |
-| Logique de pré-diffusion | Aucune | Attente, condition, nœuds partagés disponibles | Aucun (logique dans le système appelant) |
+| Logique de pré-diffusion | Aucun | Attente, condition, nœuds partagés disponibles | Aucun (logique dans le système appelant) |
 | Liaison d’audience | Audience RT-CDP prédéfinie | Audience RT-CDP prédéfinie | Destinataires spécifiés dans la payload de l&#39;API |
 | Données contextuelles | Attributs de profil uniquement | Attributs de profil uniquement | Attributs de profil + données de payload d’API |
 | Expérimentation de contenu | Pris en charge | Pris en charge (sur l’action de message) | Non pris en charge |
@@ -586,10 +586,10 @@ Quel niveau de priorité cette campagne doit-elle avoir par rapport aux autres c
 
 #### Documentation Experience League
 
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Campagnes déclenchées par API](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
-- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Commencer avec les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Lecture du parcours d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Prise en main de l’expérience de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Créer une expérience de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
@@ -740,12 +740,12 @@ Cette section fournit des liens complets vers [!DNL Experience League] documenta
 ### Campagnes
 
 - [Commencer avec les campagnes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
-- [Création d’une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
+- [Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Campagnes déclenchées par API](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### Parcours
 
-- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Commencer avec les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Lecture du parcours d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Configuration des canaux

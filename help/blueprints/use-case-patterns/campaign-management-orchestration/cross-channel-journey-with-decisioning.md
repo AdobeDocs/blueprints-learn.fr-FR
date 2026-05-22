@@ -40,21 +40,21 @@ Le public cible comprend des spécialistes du marketing qui gèrent des programm
 
 Les objectifs commerciaux suivants sont pris en charge par ce modèle de cas d’utilisation.
 
-**[Offrir des expériences personnalisées aux clients](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Offrir des expériences client personnalisées](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Adaptez le contenu, les offres et les messages aux préférences, aux comportements et à l’étape du cycle de vie des individus.
-**KPI : engagement**, taux de conversion, satisfaction de la clientèle (CSAT)
+**KPI :** engagement, taux de conversion, satisfaction de la clientèle (CSAT)
 
 **[Augmenter la fidélité du client et la valeur de durée de vie](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Approfondissez les relations client et optimisez la valeur à long terme par le biais de programmes de fidélité, de récompenses et d’un engagement personnalisé.
-**KPI :** valeur de durée de vie du client, conservation, pourcentage de ventes incitatives/croisées
+**KPI :** de la valeur de durée de vie du client, conservation, montée en gamme/vente croisée %
 
-**[Améliorez la fidélisation client](../../business-objectives/customer-experience/improve-customer-retention.md)**
+**[Améliorer la fidélisation client](../../business-objectives/customer-experience/improve-customer-retention.md)**
 Maintenez l’engagement et le renouvellement des clients existants grâce à des expériences axées sur la valeur et à l’entretien continu des relations.
-**KPI** rétention, valeur pour la durée de vie du client, engagement
+**KPI : rétention** valeur client sur toute la durée de vie, engagement
 
 **[Stimuler les ventes croisées et les ventes incitatives](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 Promouvoir des produits ou services complémentaires et de qualité auprès des clients existants en fonction du comportement et de l’historique d’achat.
-**KPI :** % de ventes incitatives/croisées, chiffre d’affaires incrémentiel, valeur durée de vie du client
+**KPI :** % de montée en gamme/ventes croisées, chiffre d’affaires incrémentiel, valeur durée de vie du client
 
 ## Exemples de cas d’utilisation tactiques
 
@@ -239,7 +239,7 @@ Cette approche optimise le canal de diffusion tout en conservant une cohérence 
 
 #### Références Experience League
 
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 
 ### Option C : parcours adaptatif complet (canal dynamique + contenu dynamique)
@@ -454,7 +454,7 @@ Doit-il y avoir des limites au nombre d’affichages d’une offre ?
 
 #### Là où les options divergent
 
-**Pour L’Option A (Offer Decisioning) :**
+**Pour l’option A (Offer Decisioning) :**
 Créez des emplacements et des offres axés sur la personnalisation du contenu dans chaque canal (par exemple, offre de bannière de héros d’e-mail, offre de pied de page d’e-mail, offre de corps de notification push). Les politiques de décision sélectionnent le meilleur contenu pour chaque emplacement dans le message.
 
 **Pour L’Option B (Sélection Dynamique De Canaux) :**
@@ -467,7 +467,7 @@ Configurez deux couches de prise de décision : un ensemble de politiques de dé
 
 - [Présentation de la gestion des décisions](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Créer des emplacements](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Création de règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Créer des règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Création d’offres personnalisées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Créer des offres de secours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Créer des collections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -514,7 +514,7 @@ Quel niveau de personnalisation les messages doivent-ils inclure au-delà de la 
 
 #### Là où les options divergent
 
-**Pour L’Option A (Offer Decisioning) :**
+**Pour l’option A (Offer Decisioning) :**
 Chaque message comprend des emplacements d’offre où apparaît le contenu sélectionné pour la prise de décision. La disposition des messages est cohérente, mais la zone d’offre affiche dynamiquement la meilleure offre pour chaque profil.
 
 **Pour L’Option B (Sélection Dynamique De Canaux) :**
@@ -596,7 +596,7 @@ Ce parcours doit-il avoir une notation prioritaire pour la résolution de confli
 
 #### Là où les options divergent
 
-**Pour L’Option A (Offer Decisioning) :**
+**Pour l’option A (Offer Decisioning) :**
 Le canevas de parcours est linéaire avec les politiques de décision intégrées dans chaque nœud d’action de message. Aucun embranchement pour la sélection de canal. La décision d’offre est prise au moment du rendu du message dans le nœud d’action.
 
 **Pour L’Option B (Sélection Dynamique De Canaux) :**
@@ -610,9 +610,9 @@ Combinez les nœuds de condition de sélection de canal avec les nœuds d’acti
 - [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Activité Lecture d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [gestion des entrées de parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Tester votre parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -751,15 +751,15 @@ Les ressources suivantes fournissent des détails supplémentaires sur les fonct
 
 ### Orchestration des parcours
 
-- [Prise en main des parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Commencer avec les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Créer un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriétés du parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Activité Lecture d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Événements généraux](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Événements de qualification d’audience](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Activité de condition](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Activité de condition](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Activité Attente](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Ajouter un message dans un parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critères de sortie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [gestion des entrées de parcours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Tester votre parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -769,7 +769,7 @@ Les ressources suivantes fournissent des détails supplémentaires sur les fonct
 
 - [Présentation de la gestion des décisions](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Créer des emplacements](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Création de règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Créer des règles de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Création d’offres personnalisées](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Créer des offres de secours](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Créer des collections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
