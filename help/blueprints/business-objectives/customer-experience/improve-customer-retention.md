@@ -2,13 +2,13 @@
 title: Amélioration de la fidélisation client
 description: Découvrez comment maintenir l’engagement et le renouvellement des clients existants grâce à des expériences axées sur la valeur et à l’entretien continu des relations.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
-
 
 # Amélioration de la fidélisation client
 

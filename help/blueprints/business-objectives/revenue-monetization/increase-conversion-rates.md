@@ -2,13 +2,13 @@
 title: Augmenter les taux de conversion
 description: Découvrez comment améliorer le pourcentage de visiteurs et de prospects qui effectuent les actions souhaitées telles que les achats, les inscriptions ou les envois de formulaire.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
-
 
 # Augmentation des taux de conversion
 
@@ -33,4 +33,4 @@ Les modèles de cas d’utilisation suivants prennent en charge cet objectif com
 | [Personalization Web de visiteur anonyme](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | Personnalisation | Personnalise les expériences web pour les visiteurs inconnus afin d’améliorer la conversion sur site. |
 | [Web/App Personalization pour visiteurs connus](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | Personnalisation | Diffuse du contenu et des offres personnalisés aux visiteurs et visiteuses connus en fonction des données de profil afin de générer des conversions |
 | [Messagerie déclenchée par un événement](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Gestion et orchestration des campagnes | Envoie des messages contextuels en temps réel en réponse à des signaux comportementaux pour capturer la conversion au moment de l’intention |
-| [Expérience de conversation Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | Expérience de conversation | Guide les visiteurs à travers des conversations optimisées par l’IA pour réduire les frictions et accélérer la conversion |
+| [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | Expérience de conversation | Guide les visiteurs à travers des conversations optimisées par l’IA pour réduire les frictions et accélérer la conversion |

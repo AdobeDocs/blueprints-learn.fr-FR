@@ -28,7 +28,7 @@ Les organisations qui mettent en œuvre la personnalisation marketing basée sur
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des audiences au niveau du compte et activer du contenu personnalisé sur plusieurs canaux. Ce modèle est spécialement conçu pour les stratégies basées sur les comptes, prenant en charge le ciblage au niveau du compte et de la personne. Il s’agit du modèle approprié lorsque le ciblage doit fonctionner au niveau du compte plutôt qu’au niveau individuel ; l’activation standard des audiences RT-CDP ne prend pas en charge le modèle de données basé sur le compte requis pour les stratégies ABM.
+Utilisez le modèle Audience Activation B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des audiences au niveau du compte et activer du contenu personnalisé sur plusieurs canaux. [Ce modèle est spécialement conçu pour les stratégies basées sur les comptes, prenant en charge le ciblage au niveau du compte et de la personne. Il s’agit du modèle approprié lorsque le ciblage doit fonctionner au niveau du compte plutôt qu’au niveau individuel ; l’activation standard des audiences RT-CDP ne prend pas en charge le modèle de données basé sur le compte requis pour les stratégies ABM.
 
 ### Considérations techniques
 
@@ -48,7 +48,7 @@ Les entreprises qui mettent en œuvre la notation comportementale des prospects 
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour concevoir des parcours d’alimentation par embranchement qui répondent aux modifications du score du prospect et aux déclencheurs comportementaux. Ce modèle prend en charge la logique conditionnelle nécessaire pour acheminer les prospects entre les suivis de maturation et les workflows de remise des ventes. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les modifications du score du prospect et les événements comportementaux. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les étapes de notation et les décisions de routage.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour concevoir des parcours d’alimentation par embranchement qui répondent aux modifications du score du prospect et aux déclencheurs comportementaux. [Ce modèle prend en charge la logique conditionnelle nécessaire pour acheminer les prospects entre les suivis de maturation et les workflows de remise des ventes. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les modifications du score du prospect et les événements comportementaux. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les étapes de notation et les décisions de routage.
 
 ### Considérations techniques
 
@@ -88,7 +88,7 @@ Les workflows de communication d’événements personnalisés et automatisés a
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer le cycle de vie complet de l’événement, depuis l’enregistrement jusqu’à la maturation post-événement. Ce modèle prend en charge les déclencheurs temporels, l’embranchement conditionnel par type d’événement et les séquences de suivi multicanaux. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur l’enregistrement et la présence à l’événement. La messagerie temporelle seule ne peut pas gérer la logique d’embranchement complexe entre les chemins enregistrés, fréquentés et absents.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer le cycle de vie complet de l’événement, depuis l’enregistrement jusqu’à la maturation post-événement. [Ce modèle prend en charge les déclencheurs temporels, l’embranchement conditionnel par type d’événement et les séquences de suivi multicanaux. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur l’enregistrement et la présence à l’événement. La messagerie temporelle seule ne peut pas gérer la logique d’embranchement complexe entre les chemins enregistrés, fréquentés et absents.
 
 ### Considérations techniques
 
@@ -108,7 +108,7 @@ Les entreprises qui déploient des campagnes de conversion d’évaluation perso
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des parcours de conversion temporels et comportementaux pour les utilisateurs en version d’essai. Ce modèle prend en charge les chemins conditionnels en fonction des jalons d’utilisation du produit, ce qui permet des rebonds ciblés au bon moment. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages déclenché par des jalons d’utilisation avec embranchement conditionnel : les messages déclenchés par un événement ne peuvent pas gérer le timing prédictif et la logique de dépendance nécessaires à la formation basée sur les jalons.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des parcours de conversion temporels et comportementaux pour les utilisateurs en version d’essai. [Ce modèle prend en charge les chemins conditionnels en fonction des jalons d’utilisation du produit, ce qui permet des rebonds ciblés au bon moment. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages déclenché par des jalons d’utilisation avec embranchement conditionnel : les messages déclenchés par un événement ne peuvent pas gérer le timing prédictif et la logique de dépendance nécessaires à la formation basée sur les jalons.
 
 ### Considérations techniques
 
@@ -128,7 +128,7 @@ Les entreprises disposant de programmes d’intégration personnalisés voient l
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer des séquences d’intégration adaptées au produit, au niveau de plan et au segment client. Ce modèle prend en charge la progression basée sur des jalons, ce qui garantit que les clients reçoivent les conseils appropriés à chaque étape de leur intégration. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages avec une avancement conditionnel basé sur les jalons d’utilisation du produit. La messagerie déclenchée par un événement ne peut pas prendre en charge la logique d’évaluation complexe requise pour la progression guidée de l’intégration.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer des séquences d’intégration adaptées au produit, au niveau de plan et au segment client. [Ce modèle prend en charge la progression basée sur des jalons, ce qui garantit que les clients reçoivent les conseils appropriés à chaque étape de leur intégration. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages avec une avancement conditionnel basé sur les jalons d’utilisation du produit. La messagerie déclenchée par un événement ne peut pas prendre en charge la logique d’évaluation complexe requise pour la progression guidée de l’intégration.
 
 ### Considérations techniques
 
@@ -148,7 +148,7 @@ Les entreprises qui mettent en œuvre des campagnes de renouvellement personnali
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour diffuser la bonne offre de renouvellement par le bon canal au bon moment. Ce modèle associe l’orchestration des parcours à Offer Decisioning, ce qui permet des incitations de renouvellement dynamiques basées sur la valeur et l’utilisation du compte. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux et que la sélection des offres nécessite des contraintes de valeur de compte et d’utilisation. L’orchestration des parcours seule ne fournit pas la couche de prise de décision en temps réel nécessaire pour correspondre dynamiquement aux incentives de renouvellement.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour diffuser la bonne offre de renouvellement par le bon canal au bon moment. [Ce modèle associe l’orchestration des parcours à Offer Decisioning, ce qui permet des incitations de renouvellement dynamiques basées sur la valeur et l’utilisation du compte. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux et que la sélection des offres nécessite des contraintes de valeur de compte et d’utilisation. L’orchestration des parcours seule ne fournit pas la couche de prise de décision en temps réel nécessaire pour correspondre dynamiquement aux incentives de renouvellement.
 
 ### Considérations techniques
 
@@ -168,7 +168,7 @@ Les entreprises qui identifient et agissent systématiquement sur les signaux d�
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour proposer des offres de montée en gamme et d’extension personnalisées basées sur l’utilisation en temps réel et les signaux du compte. Ce modèle utilise la prise de décision pour faire correspondre chaque compte à l’offre d’extension la plus pertinente sur l’ensemble des canaux. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux et que la sélection des offres nécessite des règles d’éligibilité régissant les offres d’extension qui correspondent à des comptes spécifiques. L’orchestration des parcours seule ne fournit pas la couche de prise de décision nécessaire à la correspondance des offres pilotée par les contraintes.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour proposer des offres de montée en gamme et d’extension personnalisées basées sur l’utilisation en temps réel et les signaux du compte. [Ce modèle utilise la prise de décision pour faire correspondre chaque compte à l’offre d’extension la plus pertinente sur l’ensemble des canaux. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux et que la sélection des offres nécessite des règles d’éligibilité régissant les offres d’extension qui correspondent à des comptes spécifiques. L’orchestration des parcours seule ne fournit pas la couche de prise de décision nécessaire à la correspondance des offres pilotée par les contraintes.
 
 ### Considérations techniques
 
@@ -188,7 +188,7 @@ Les entreprises B2B qui mènent des campagnes de remplacement concurrentielles c
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer des campagnes concurrentielles multipoint adaptées au profil spécifique du concurrent et du prospect. Ce modèle prend en charge l’embranchement conditionnel basé sur la concurrence identifiée, ce qui permet d’envoyer un message qui résout les problèmes uniques de chaque scénario concurrentiel. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages avec embranchement conditionnel basé sur le profil spécifique du concurrent et du prospect. La messagerie déclenchée par un événement ne peut pas gérer la complexité de la logique d’embranchement spécifique au concurrent sur plusieurs points de contact.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer des campagnes concurrentielles multipoint adaptées au profil spécifique du concurrent et du prospect. [Ce modèle prend en charge l’embranchement conditionnel basé sur la concurrence identifiée, ce qui permet d’envoyer un message qui résout les problèmes uniques de chaque scénario concurrentiel. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages avec embranchement conditionnel basé sur le profil spécifique du concurrent et du prospect. La messagerie déclenchée par un événement ne peut pas gérer la complexité de la logique d’embranchement spécifique au concurrent sur plusieurs points de contact.
 
 ### Considérations techniques
 
@@ -248,7 +248,7 @@ Les programmes structurés de défense des clients favorisent une meilleure part
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des workflows d’identification et d’engagement de plaidoyer qui répondent aux signaux de satisfaction et d’utilisation. Ce modèle appuie les demandes de promotion progressive, en commençant par une participation légère (p. ex., un examen) et en passant à des engagements plus profonds (p. ex., un appel de référence ou une étude de cas). Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages avec une avancement conditionnel basé sur la satisfaction et les signaux d’utilisation. Un message déclenché unique ne peut pas répondre à la logique d’engagement progressive nécessaire pour réaffecter les demandes de sensibilisation au fil du temps.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer des workflows d’identification et d’engagement de plaidoyer qui répondent aux signaux de satisfaction et d’utilisation. [Ce modèle appuie les demandes de promotion progressive, en commençant par une participation légère (p. ex., un examen) et en passant à des engagements plus profonds (p. ex., un appel de référence ou une étude de cas). Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel et multi-messages avec une avancement conditionnel basé sur la satisfaction et les signaux d’utilisation. Un message déclenché unique ne peut pas répondre à la logique d’engagement progressive nécessaire pour réaffecter les demandes de sensibilisation au fil du temps.
 
 ### Considérations techniques
 
@@ -267,7 +267,7 @@ Les organisations B2B avec activation des audiences basée sur les comptes bén�
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des segments au niveau du compte à l’aide des relations compte-personne et les activer dans des destinations de médias achetés compatibles B2B. Il s’agit du bon schéma lorsque la construction de l’audience doit se faire au niveau du compte (en combinant les signaux de plusieurs contacts au sein d’une organisation d’achat) plutôt qu’au niveau de chaque personne.
+Utilisez le modèle Audience Activation B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour créer des segments au niveau du compte à l’aide des relations compte-personne et les activer dans des destinations de médias achetés compatibles B2B. [Il s’agit du bon schéma lorsque la construction de l’audience doit se faire au niveau du compte (en combinant les signaux de plusieurs contacts au sein d’une organisation d’achat) plutôt qu’au niveau de chaque personne.
 
 ### Considérations techniques
 
@@ -307,7 +307,7 @@ Les organisations B2B avec une personnalisation au niveau du compte signalent un
 
 ### Mise en œuvre
 
-Utilisez le modèle Audience Activation B2B[&#128279;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour activer les profils au niveau du compte en vue de la personnalisation sur les canaux web et sortants. Il s’agit du modèle approprié lorsque l’exigence principale est le ciblage au niveau du compte pour la personnalisation, plutôt que l’orchestration du parcours au niveau du contact. Les données de profil de compte orientent les décisions de personnalisation, plutôt que les signaux comportementaux individuels.
+Utilisez le modèle Audience Activation B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pour activer les profils au niveau du compte en vue de la personnalisation sur les canaux web et sortants. [Il s’agit du modèle approprié lorsque l’exigence principale est le ciblage au niveau du compte pour la personnalisation, plutôt que l’orchestration du parcours au niveau du contact. Les données de profil de compte orientent les décisions de personnalisation, plutôt que les signaux comportementaux individuels.
 
 ### Considérations techniques
 
