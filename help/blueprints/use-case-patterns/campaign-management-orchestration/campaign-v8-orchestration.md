@@ -112,7 +112,7 @@ Les conditions préalables suivantes sont requises pour ce plan directeur.
    - La prise en charge du chargement des données d’API est principalement destinée à la gestion des profils ou des objets simples dans la base de données (c’est-à-dire la création et la mise à jour). Il n’est pas destiné à être utilisé pour le chargement de gros volumes de données ou d’opérations de type batch.
    - L’utilisation d’API pour lire des données à des fins d’application personnalisée n’est pas prise en charge.
    - Les données chargées via l’API sont mises en scène dans la base de données de l’application, puis répliquées toutes les heures dans la base de données Cloud.
-- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Dimensionnement du serveur de messagerie par lots
 
