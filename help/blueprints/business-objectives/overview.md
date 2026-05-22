@@ -3,13 +3,13 @@ title: Objectifs commerciaux clés
 description: Découvrez les principaux objectifs commerciaux que les modèles de cas d’utilisation Adobe Experience Platform aident les organisations à atteindre.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
 
 ---
-
 
 # Objectifs commerciaux clés
 
