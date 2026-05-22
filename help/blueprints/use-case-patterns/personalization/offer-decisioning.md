@@ -84,9 +84,9 @@ Voir la section [Options d’implémentation](#implementation-options) pour savo
 
 Les applications Adobe suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
-- **[!DNL Adobe Experience Platform](AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
+- **[!DNL Adobe Experience Platform] (AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
 
 ## Fonctions fondamentales
 
@@ -110,7 +110,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les données d’historique des offres et d’événement de décision s’accumulent au fil du temps. Les politiques de conservation (expiration) doivent être configurées pour les jeux de données d’événements d’interaction d’offres afin de gérer le stockage et de respecter les exigences de conservation des données. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Expiration des jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les étiquettes de gouvernance garantissent que les offres avec des critères de ciblage sensibles (par exemple, statut financier, conditions d’intégrité) sont conformes aux politiques d’utilisation des données. Les libellés des champs utilisés dans les règles d&#39;éligibilité empêchent le ciblage des offres non conformes. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
 | Surveillance et observabilité | Recommandé | Les performances du moteur de décision, les taux de secours et l&#39;intégrité de la diffusion des offres doivent être surveillés. Les alertes relatives à des taux de secours élevés peuvent indiquer une mauvaise configuration des règles d’éligibilité ou des problèmes d’actualisation des données. | [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapports et analyses | Inclus | Le rapport des performances des offres fait partie de la chaîne de fonctions (phase 7). L’analyse CJA permet de mesurer l’efficacité des offres cross-canal, d’attribuer l’impact du chiffre d’affaires et d’identifier les opportunités d’optimisation. | [Présentation de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Rapports et analyses | Inclus | Le rapport des performances des offres fait partie de la chaîne de fonctions (phase 7). L’analyse CJA permet de mesurer l’efficacité des offres cross-canal, d’attribuer l’impact du chiffre d’affaires et d’identifier les opportunités d’optimisation. | [Présentation de &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Fonctions d&#39;application
 
@@ -639,7 +639,7 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 
 Tenez compte des mécanismes de sécurisation et limites de plateforme suivants lors de la planification de votre implémentation.
 
-- Maximum de 10 000 offres personnalisées approuvées par sandbox — [ Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum de 10 000 offres personnalisées approuvées par sandbox — [&#x200B; Mécanismes de sécurisation de la gestion des décisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - Maximum de 30 emplacements par décision
 - Maximum de 30 portées de collection par demande de décision
 - Les modèles de classement par l’IA nécessitent au moins 1 000 événements de conversion pour la formation
