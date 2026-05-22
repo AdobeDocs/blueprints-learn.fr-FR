@@ -2,13 +2,13 @@
 title: Amélioration de l’attribution marketing
 description: Découvrez comment mesurer avec précision l’impact des points de contact, des canaux et des campagnes marketing sur les résultats de conversion et de chiffre d’affaires.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 67686f67-15ee-4beb-919e-36a0c0c371a3
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
-
 
 # Amélioration de l’attribution marketing
 

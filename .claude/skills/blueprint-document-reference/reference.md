@@ -15,7 +15,7 @@ ht-degree: 1%
 | **Plan directeur du scénario** | Cas pratique unique : architecture, étapes, mécanismes de sécurisation | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TABLE DES MATIÈRES** | Navigation ; ne pas utiliser comme modèle de contenu | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## Référence de section complète
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 - **Scénarios de plan directeur** ou **Modèles d’intégration** : tableau avec le nom du scénario, une brève description et un lien vers le plan directeur du scénario.
 - **Conditions préalables**, **Mécanismes de sécurisation**, **Documentation connexe** : Comme ci-dessus, soyez concis.
 
-&#x200B;---
+---
 
 ## Adobe Experience League - Instructions de l’agent
 
@@ -65,7 +65,7 @@ Ne collez pas de procédures longues d’Experience League dans le plan directeu
 | Type de contenu | URL de base | Exemple de chemin |
 |--------------|----------|--------------|
 | Documentation Experience Platform | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/fr/docs/` | Même structure que ci-dessus avec `/en/`. |
+| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | Même structure que ci-dessus avec `/en/`. |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | SDK web | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | API du serveur Edge Network | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +77,7 @@ Utilisez le chemin canonique qui correspond au site Experience League actuel (pr
 
 ### Formatage des liens en markdown
 
-- **Texte du lien descriptif** : `[Create schemas](https://experienceleague.adobe.com/fr...)` pas « cliquez ici ».
+- **Texte du lien descriptif** : `[Create schemas](https://experienceleague.adobe.com/...)` pas « cliquez ici ».
 - **Noms de produits dans le texte** : utilisez des `[!DNL Product Name]` selon le style Adobe (par exemple, `[!DNL Real-time Customer Profile]`).
 - **Liens externes** : ajoutez des `{target="_blank"}` uniquement lorsque le modèle ou le pipeline le requiert (vérifiez les plans directeurs existants dans le référentiel).
 
@@ -98,27 +98,27 @@ Exemple :
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=fr)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## Référentiel et table des matières
 
 - **Chemin d’accès du contenu de plan directeur** : `help/blueprints/` (avec des sous-dossiers par zone, par exemple `audience-activation/`, `customer-journeys/journey-optimizer/`).
-- **&#x200B;**&#x200B;: colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
+- **** : colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
 - **TABLE DES MATIÈRES** : modifiez les `help/blueprints/TOC.md` lors de l’ajout, du changement de nom ou du déplacement de pages de plan directeur. Conserver le frontmaterial (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) et la hiérarchie `+`.
 
-&#x200B;---
+---
 
 ## Exemples de références dans ce référentiel
 

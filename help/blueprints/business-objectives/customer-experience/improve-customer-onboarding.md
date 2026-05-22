@@ -2,13 +2,13 @@
 title: Améliorer l’intégration des clients
 description: Découvrez comment accélérer le délai de rentabilisation pour les nouveaux clients avec des expériences de bienvenue et des parcours d’activation rationalisés et personnalisés.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3a156fbb-b078-469a-8604-0d6d340e9941
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
-
 
 # Améliorer l’intégration des clients
 

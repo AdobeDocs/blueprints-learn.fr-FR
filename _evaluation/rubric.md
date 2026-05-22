@@ -42,11 +42,11 @@ juste un bref aperçu.
 
 ### Signaux du diagramme (chacun = +1 Diagramme)
 
-&#x200B;6. **Image de l’architecture/du flux de données présente** — `.svg`, `.png` ou `.jpg` montrant la topologie du système,
+6. **Image de l’architecture/du flux de données présente** — `.svg`, `.png` ou `.jpg` montrant la topologie du système,
 flux de données ou flèches d’intégration.
-&#x200B;7. **topologie d’intégration système à système, forme de déploiement ou mécanismes de sécurisation** — décrit comment
+7. **topologie d’intégration système à système, forme de déploiement ou mécanismes de sécurisation** — décrit comment
 les composants se connectent, selon l’emplacement des données, les modèles de déploiement (edge par rapport au hub) ou les limites de capacité.
-&#x200B;8. **L’audience est l’architecte des solutions** — le cadrage utilise le déploiement, SDK, Edge, hub ou similaire
+8. **L’audience est l’architecte des solutions** — le cadrage utilise le déploiement, SDK, Edge, hub ou similaire
 une terminologie axée sur l’architecte plutôt que sur le marketeur (campagnes, parcours,
 audiences).
 
