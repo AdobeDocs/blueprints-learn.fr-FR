@@ -37,9 +37,9 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 ## Garde-fous
 
-[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
+[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -49,7 +49,7 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 #### Schéma/jeux de données
 
-1. [&#x200B; Configurer des schémas &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=fr) dans Experience Platform, en fonction des données fournies par le client ou la cliente.
+1. [ Configurer des schémas ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=fr) dans Experience Platform, en fonction des données fournies par le client ou la cliente.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
 1. [Créez des stratégies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=fr) pour appliquer la gouvernance sur les destinations.
@@ -90,6 +90,6 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 * [Documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)

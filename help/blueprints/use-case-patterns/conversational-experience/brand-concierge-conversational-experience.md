@@ -20,7 +20,7 @@ Il couvre toutes les approches viables pour déployer des expériences de conver
 
 ## Présentation du cas d’utilisation
 
-Les entreprises cherchent de plus en plus à transformer les expériences digitales statiques en conversations dynamiques basées sur l’IA qui guident les clients tout au long de la découverte, de la sélection de produits et des décisions d’achat. [!DNL Adobe Brand Concierge] Pour résoudre ce problème, fournit une couche d’IA conversationnelle orchestrée qui se trouve au-dessus des propriétés numériques existantes, optimisées par AEP Agent Orchestrator.
+Les entreprises cherchent de plus en plus à transformer les expériences digitales statiques en conversations dynamiques basées sur l’IA qui guident les clients tout au long de la découverte, de la sélection de produits et des décisions d’achat. [!DNL Adobe Brand Concierge] résout ce problème en fournissant une couche d’IA conversationnelle orchestrée qui se trouve au-dessus des propriétés numériques existantes, optimisées par AEP Agent Orchestrator.
 
 Ce modèle se distingue des implémentations de chatbot traditionnelles, car il est nativement intégré au profil unifié d’AEP, utilise des mécanismes de sécurisation de la gouvernance de marque pour s’assurer que chaque réponse s’aligne sur les normes de la marque et renvoie des signaux de conversation à la plateforme de données client pour la personnalisation et l’activation en aval.
 
@@ -107,8 +107,8 @@ Transformez les propriétés numériques en expériences conversationnelles séc
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
 - **[!DNL Brand Concierge]** : application d’expérience de conversation optimisée par l’IA fournissant l’agent orchestrator, Product Advisor Agent, l’agent de conseil sur le site, la gouvernance de marque et l’analyse de conversation
-- **[!DNL Adobe Experience Platform] (AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
+- **[!DNL Adobe Experience Platform](AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
 
 ## Fonctions fondamentales
 
@@ -116,11 +116,11 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 
 | Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
-| Administration et gouvernance | Obligatoire | Sandbox avec droits d’accès [!DNL Brand Concierge] activés ; rôles configurés pour les administrateurs d’expérience de conversation, les gestionnaires de contenu et les utilisateurs d’analyses ; politiques ABAC en place pour les données de conversation contenant des informations d’identification personnelles ou des signaux clients sensibles | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
-| Modélisation et préparation des données | Obligatoire | Schémas XDM pour les événements conversationnels (classe ExperienceEvent avec groupes de champs spécifiques à la conversation capturant l’intention, le sentiment, les interactions de produit et les événements de transfert) ; schéma de profil étendu avec les attributs de préférence et d’intention de conversation ; schéma de recherche de catalogue de produits pour les recommandations de mise à la terre | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) |
-| Sources et collecte de données | Obligatoire | [!DNL Web SDK] ou [!DNL Mobile SDK] configurés avec des flux de données acheminant des données d’événement conversationnel vers des jeux de données AEP ; intégration [!DNL Edge Network] pour la capture d’événements en temps réel lors de conversations ; données de catalogue de produits ingérées par le biais de connecteurs source ou par ingestion par lots | [Présentation du SDK web](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home) |
-| Configuration des identités et des profils | Obligatoire | Espaces de noms d’identité configurés pour l’identification des visiteurs (ECID pour les utilisateurs anonymes, ID CRM ou e-mail pour les utilisateurs authentifiés) ; politique de fusion configurée avec l’activation Edge pour la recherche de profil en temps réel pendant les conversations ; règles de liaison d’identité pour la continuité de la conversation entre appareils | [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) |
-| Définition et segmentation de l’audience | Supposé en place | Les audiences ne sont pas requises pour le déploiement conversationnel de base, mais elles sont nécessaires pour les stratégies de conversation personnalisées (par exemple, les segments de clients à forte valeur ajoutée reçoivent différents flux de conversation). Une évaluation Edge ou en flux continu est recommandée pour la personnalisation de la conversation en temps réel | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home) |
+| Administration et gouvernance | Obligatoire | Sandbox avec droits d’accès [!DNL Brand Concierge] activés ; rôles configurés pour les administrateurs d’expérience de conversation, les gestionnaires de contenu et les utilisateurs d’analyses ; politiques ABAC en place pour les données de conversation contenant des informations d’identification personnelles ou des signaux clients sensibles | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Modélisation et préparation des données | Obligatoire | Schémas XDM pour les événements conversationnels (classe ExperienceEvent avec groupes de champs spécifiques à la conversation capturant l’intention, le sentiment, les interactions de produit et les événements de transfert) ; schéma de profil étendu avec les attributs de préférence et d’intention de conversation ; schéma de recherche de catalogue de produits pour les recommandations de mise à la terre | [ Présentation du système XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Sources et collecte de données | Obligatoire | [!DNL Web SDK] ou [!DNL Mobile SDK] configurés avec des flux de données acheminant des données d’événement conversationnel vers des jeux de données AEP ; intégration [!DNL Edge Network] pour la capture d’événements en temps réel lors de conversations ; données de catalogue de produits ingérées par le biais de connecteurs source ou par ingestion par lots | [Présentation du SDK web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| Configuration des identités et des profils | Obligatoire | Espaces de noms d’identité configurés pour l’identification des visiteurs (ECID pour les utilisateurs anonymes, ID CRM ou e-mail pour les utilisateurs authentifiés) ; politique de fusion configurée avec l’activation Edge pour la recherche de profil en temps réel pendant les conversations ; règles de liaison d’identité pour la continuité de la conversation entre appareils | [Présentation d’Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| Définition et segmentation de l’audience | Supposé en place | Les audiences ne sont pas requises pour le déploiement conversationnel de base, mais elles sont nécessaires pour les stratégies de conversation personnalisées (par exemple, les segments de clients à forte valeur ajoutée reçoivent différents flux de conversation). Une évaluation Edge ou en flux continu est recommandée pour la personnalisation de la conversation en temps réel | [Présentation de Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## Fonctions annexes
 
@@ -128,11 +128,11 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 
 | Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
-| Création d’attributs calculés/dérivés | Recommandé | Agrégez les signaux de conversation en attributs au niveau du profil (par exemple, le nombre total de conversations, les intérêts dominants du produit, le score moyen du sentiment) à utiliser dans la segmentation et la personnalisation en aval | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview) |
-| Gestion du cycle de vie des données | Recommandé | Configurez des politiques de conservation des données d’événement de conversation, gérez le consentement pour l’enregistrement et le profilage des conversations et prenez en charge les demandes de suppression des informations personnelles pour les transcriptions des conversations | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
-| Étiquetage et application de l’utilisation des données | Recommandé | Étiqueter les champs de données de conversation contenant des signaux d’informations d’identification personnelles, de sentiment ou d’intention ; appliquer des politiques de gouvernance empêchant les données de conversation sensibles d’atteindre des destinations non autorisées | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home) |
-| Surveillance et observabilité | Recommandé | Surveillez les pipelines d’ingestion d’événements de conversation, suivez les taux de réussite de l’enrichissement des profils et alertez sur les échecs de flux de données qui peuvent affecter la qualité de la personnalisation des conversations | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
-| Rapports et analyses | Inclus | Analysez les performances des conversations, les commentaires des clients, l’attribution des conversions et l’efficacité des agents à l’aide d’analyses et de [!DNL CJA] intégrées [!DNL Brand Concierge] pour l’analyse de l’impact des conversations cross-canal | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Création d’attributs calculés/dérivés | Recommandé | Agrégez les signaux de conversation en attributs au niveau du profil (par exemple, le nombre total de conversations, les intérêts dominants du produit, le score moyen du sentiment) à utiliser dans la segmentation et la personnalisation en aval | [Présentation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Gestion du cycle de vie des données | Recommandé | Configurez des politiques de conservation des données d’événement de conversation, gérez le consentement pour l’enregistrement et le profilage des conversations et prenez en charge les demandes de suppression des informations personnelles pour les transcriptions des conversations | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Étiquetage et application de l’utilisation des données | Recommandé | Étiqueter les champs de données de conversation contenant des signaux d’informations d’identification personnelles, de sentiment ou d’intention ; appliquer des politiques de gouvernance empêchant les données de conversation sensibles d’atteindre des destinations non autorisées | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Surveillance et observabilité | Recommandé | Surveillez les pipelines d’ingestion d’événements de conversation, suivez les taux de réussite de l’enrichissement des profils et alertez sur les échecs de flux de données qui peuvent affecter la qualité de la personnalisation des conversations | [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Rapports et analyses | Inclus | Analysez les performances des conversations, les commentaires des clients, l’attribution des conversions et l’efficacité des agents à l’aide d’analyses et de [!DNL CJA] intégrées [!DNL Brand Concierge] pour l’analyse de l’impact des conversations cross-canal | Présentation de [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Fonctions d&#39;application
 
@@ -350,7 +350,7 @@ Détails de configuration clés :
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Grille De Produits) :**
+**Pour L’Option A (Conseiller Produit) :**
 Activez la spécialisation de la grille de produits et configurez sa connexion à la source de données du catalogue de produits. Définissez les paramètres de recommandation de produit, notamment le nombre maximal de recommandations par réponse, les préférences d’affichage des attributs de produit et les règles de gestion des comparaisons.
 
 **Pour L’Option B (Avis Sur Le Site) :**
@@ -362,7 +362,7 @@ Activez les deux spécialisations et configurez la logique de routage d’intent
 **Documentation Experience League :**
 
 - [Présentation de Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Présentation de l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home)
+- [Présentation de l’assistant AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 - [AEP Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 
 ### Phase 2 : configuration de la gouvernance de marque
@@ -408,7 +408,7 @@ Détails de configuration clés :
 **Documentation Experience League :**
 
 - [Gouvernance de marque de Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Informations opérationnelles sur l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home)
+- [Informations opérationnelles sur l’assistant AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 ### Phase 3 : intégration de contenu
 
@@ -450,7 +450,7 @@ Détails de configuration clés :
 
 **Là où les options divergent :**
 
-**Pour L’Option A (Grille De Produits) :**
+**Pour L’Option A (Conseiller Produit) :**
 Insistez sur l’intégration du catalogue de produits avec le mappage d’attributs de produit riches. Configurez la logique de recommandation de Product Advisor Agent, notamment le nombre de produits à suggérer, la manière de gérer les articles en rupture de stock, de présenter des comparaisons de produits et d’incorporer des données de profil client (historique d’achat, comportement de navigation) dans le classement de recommandation.
 
 **Pour L’Option B (Avis Sur Le Site) :**
@@ -464,7 +464,7 @@ Configurez le catalogue de produits et les sources de contenu du site. Assurez-v
 - [Configuration du contenu Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Conseiller de produit Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge site advisor](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 ### Phase 4 : déploiement de l’expérience de conversation
 
@@ -519,10 +519,10 @@ Détails de configuration clés :
 **Documentation Experience League :**
 
 - [Déploiement de Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Présentation de Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home)
-- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview)
-- [Point d’entrée des entités d’API de profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/api/entities)
-- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home)
+- [Présentation de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [Point d’entrée des entités d’API de profil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/api/entities)
+- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### Phase 5 : enrichissement du profil
 
@@ -564,11 +564,11 @@ Détails de configuration clés :
 
 **Documentation Experience League :**
 
-- [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview)
-- [Guide de l’interface utilisateur des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/ui)
-- [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder)
-- [Segmentation par flux](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home)
+- [Présentation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [Guide de l’interface utilisateur des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Segmentation par flux](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### Phase 6 : analyse et optimisation
 
@@ -601,9 +601,9 @@ Détails de configuration clés :
 **Documentation Experience League :**
 
 - [Brand Concierge analytics](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Présentation de CJA Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home)
-- [Création ou modification d’une connexion CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/create-connection)
-- [Création ou modification d’une vue de données CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Présentation de CJA Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Création ou modification d’une connexion CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [Création ou modification d’une vue de données CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Considérations relatives à la mise en œuvre
 
@@ -612,11 +612,11 @@ Les sections suivantes couvrent les mécanismes de sécurisation, les pièges co
 ### Mécanismes de sécurisation et limites
 
 - [!DNL Brand Concierge] expériences de conversation sont soumises à des limites de taux de génération de réponse de l’IA ; la capacité de conversation simultanée dépend du niveau de droits
-- La recherche de profil en temps réel au cours des conversations est soumise aux limites de débit de l’API Profile par sandbox [mécanismes de sécurisation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
-- L’ingestion des données d’événement de conversation suit les limites standard d’ingestion en flux continu d’AEP — [&#x200B; Mécanismes de sécurisation d’ingestion](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails)
+- La recherche de profil en temps réel au cours des conversations est soumise aux limites de débit de l’API Profile par sandbox [mécanismes de sécurisation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- L’ingestion des données d’événement de conversation suit les limites standard d’ingestion en flux continu d’AEP — [ Mécanismes de sécurisation d’ingestion](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 - La taille du catalogue de produits et le volume de l’index de contenu sont soumis à des limites d’intégration de contenu [!DNL Brand Concierge]
-- Un maximum de 25 attributs calculés par sandbox s’applique aux agrégations de signaux conversationnels — [&#x200B; Mécanismes de sécurisation des attributs calculés &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview)
-- Un maximum de 4 000 définitions de segment par sandbox s’applique aux audiences conversationnelles — [Mécanismes de sécurisation de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
+- Un maximum de 25 attributs calculés par sandbox s’applique aux agrégations de signaux conversationnels — [ Mécanismes de sécurisation des attributs calculés ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- Un maximum de 4 000 définitions de segment par sandbox s’applique aux audiences conversationnelles — [Mécanismes de sécurisation de segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 ### Pièges courants
 
@@ -684,57 +684,57 @@ Les ressources suivantes apportent des informations supplémentaires sur l’imp
 - [Présentation de Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Conseiller de produit Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge site advisor](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Présentation de l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home)
+- [Présentation de l’assistant AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 **[!DNL Adobe Experience Platform]**
 
-- [Présentation d’AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home)
-- [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home)
-- [Principes de base de la composition de schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition)
-- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home)
+- [Présentation d’AEP](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
+- [Présentation du système XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Principes de base de la composition de schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Présentation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 **Collecte de données et intégration**
 
-- [Présentation de Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home)
+- [Présentation de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 - [Présentation de Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
-- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview)
-- [Présentation des sources](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+- [Configurer les flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [Vue d’ensemble des sources](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 **Identité et profil**
 
-- [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)
+- [Présentation d’Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [Présentation des espaces de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)
-- [Présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview)
-- [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview)
+- [Présentation des politiques de fusion](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Présentation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 **Audiences et segmentation**
 
-- [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home)
-- [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder)
-- [Segmentation par flux](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Présentation de Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Segmentation par flux](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 **Gouvernance et confidentialité des données**
 
-- [Aperçu de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home)
-- [Groupe de champs Consentement et préférences](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/consents)
-- [Présentation de Privacy Service](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/home)
-- [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home)
+- [Aperçu de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Groupe de champs Consentement et préférences](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Présentation de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home)
+- [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 **Surveillance et observabilité**
 
-- [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home)
-- [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview)
+- [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 **Analyses et rapports**
 
-- [Présentation de CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Présentation de CJA Connections](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview)
-- [Présentation des vues de données CJA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home)
+- [Présentation de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Présentation de CJA Connections](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Présentation des vues de données CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 
 **Mécanismes de sécurisation**
 
-- [Mécanismes de sécurisation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
-- [Mécanismes de sécurisation de l’ingestion](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails)
-- [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
+- [Mécanismes de sécurisation du profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Mécanismes de sécurisation de l’ingestion](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Mécanismes de sécurisation de la segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)

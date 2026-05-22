@@ -112,7 +112,7 @@ Les conditions préalables suivantes sont requises pour ce plan directeur.
    - La prise en charge du chargement des données d’API est principalement destinée à la gestion des profils ou des objets simples dans la base de données (c’est-à-dire la création et la mise à jour). Il n’est pas destiné à être utilisé pour le chargement de gros volumes de données ou d’opérations de type batch.
    - L’utilisation d’API pour lire des données à des fins d’application personnalisée n’est pas prise en charge.
    - Les données chargées via l’API sont mises en scène dans la base de données de l’application, puis répliquées toutes les heures dans la base de données Cloud.
-- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Dimensionnement du serveur de messagerie par lots
 
@@ -136,11 +136,11 @@ Les conditions préalables suivantes sont requises pour ce plan directeur.
 
 ## Étapes de mise en œuvre
 
-Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=fr).
+Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html).
 
 ## Documentation connexe
 
-- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)
+- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Description du produit Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
-- [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+- [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html)
+- [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)

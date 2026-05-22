@@ -63,7 +63,7 @@ Des stratégies de vente croisée et de montée en gamme bien exécutées augmen
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer toutes les offres disponibles et sélectionner la meilleure option de vente croisée ou de vente incitative pour chaque client et contexte. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de la marge, de la disponibilité des stocks et des règles de relation avec les produits, des contraintes commerciales qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale seul.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer toutes les offres disponibles et sélectionner la meilleure option de vente croisée ou de vente incitative pour chaque client et contexte. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de la marge, de la disponibilité des stocks et des règles de relation avec les produits, des contraintes commerciales qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale seul.
 
 ### Considérations techniques
 
@@ -101,7 +101,7 @@ Les programmes de rappel de réapprovisionnement augmentent les taux d’achat r
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Ce parcours planifié récurrent utilise les prédictions de fréquence d’achat pour envoyer des rappels à l’heure optimale avant qu’un client ait besoin d’un renouvellement. Il s’agit du modèle approprié en l’absence d’événement déclencheur discret et le timing doit être calculé à partir de modèles de fréquence d’achat qui se recalibrent dynamiquement ; les messages déclenchés par un événement ne peuvent pas gérer la planification prédictive ni les ajustements de timing lorsque les clients réorganisent leurs commandes de manière anticipée ou tardive.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Ce parcours planifié récurrent utilise les prédictions de fréquence d’achat pour envoyer des rappels à l’heure optimale avant qu’un client ait besoin d’un renouvellement. Il s’agit du modèle approprié en l’absence d’événement déclencheur discret et le timing doit être calculé à partir de modèles de fréquence d’achat qui se recalibrent dynamiquement ; les messages déclenchés par un événement ne peuvent pas gérer la planification prédictive ni les ajustements de timing lorsque les clients réorganisent leurs commandes de manière anticipée ou tardive.
 
 ### Considérations techniques
 
@@ -139,7 +139,7 @@ Des campagnes post-achat efficaces augmentent les taux de soumission de révisio
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Ce flux post-achat en plusieurs étapes utilise une logique d’embranchement pour adapter les messages de suivi en fonction du type de produit, du segment client et de l’engagement avec les e-mails précédents de la série. Il s’agit du modèle approprié, car le suivi s’étend sur plusieurs jours, dépend des événements de statut d’exécution et des branches en fonction de la catégorie de produits et des événements de retour. Un seul message déclenché ne peut pas prendre en charge la logique conditionnelle requise sur l’ensemble du calendrier post-achat.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Ce flux post-achat en plusieurs étapes utilise une logique d’embranchement pour adapter les messages de suivi en fonction du type de produit, du segment client et de l’engagement avec les e-mails précédents de la série. Il s’agit du modèle approprié, car le suivi s’étend sur plusieurs jours, dépend des événements de statut d’exécution et des branches en fonction de la catégorie de produits et des événements de retour. Un seul message déclenché ne peut pas prendre en charge la logique conditionnelle requise sur l’ensemble du calendrier post-achat.
 
 ### Considérations techniques
 
@@ -158,7 +158,7 @@ Les programmes VIP génèrent un engagement fort de la part des clients de premi
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Cette approche associe l’orchestration des parcours à la prise de décision en temps réel pour la sélection des offres, ce qui permet de s’assurer que chaque client VIP reçoit l’offre exclusive la plus pertinente sur chaque canal. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres en double et lorsque la sélection d’offres nécessite des règles d’éligibilité et des contraintes métier - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour régir l’offre exclusive que chaque VIP reçoit.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). [Cette approche associe l’orchestration des parcours à la prise de décision en temps réel pour la sélection des offres, ce qui permet de s’assurer que chaque client VIP reçoit l’offre exclusive la plus pertinente sur chaque canal. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres en double et lorsque la sélection d’offres nécessite des règles d’éligibilité et des contraintes métier - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour régir l’offre exclusive que chaque VIP reçoit.
 
 ### Considérations techniques
 
@@ -197,7 +197,7 @@ Les détaillants qui utilisent la découverte conversationnelle guidée constate
 
 ### Mise en œuvre
 
-Utilisez le modèle [Expérience de conversation &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport à un catalogue de produits structuré, en utilisant AEP Agent Orchestrator et des données de profil client en temps réel pour générer des recommandations de produits personnalisées et sécurisées par la marque grâce à un dialogue naturel. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours pilotée par les besoins exprimés par le client ou la cliente, et qui se distingue des messages déclenchés par un événement, qui sont unidirectionnels et réactifs à une action spécifique, ainsi que des expériences web personnalisées, qui affichent des recommandations de manière passive plutôt que d’engager la conversation avec les clientes et clients. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
+Utilisez le modèle [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport à un catalogue de produits structuré, en utilisant AEP Agent Orchestrator et des données de profil client en temps réel pour générer des recommandations de produits personnalisées et sécurisées par la marque grâce à un dialogue naturel. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours pilotée par les besoins exprimés par le client ou la cliente, et qui se distingue des messages déclenchés par un événement, qui sont unidirectionnels et réactifs à une action spécifique, ainsi que des expériences web personnalisées, qui affichent des recommandations de manière passive plutôt que d’engager la conversation avec les clientes et clients. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
 
 ### Considérations techniques
 
@@ -294,7 +294,7 @@ Les détaillants qui proposent des expériences personnalisées aux visiteurs an
 
 ### Mise en œuvre
 
-Utilisez le modèle Personalization Web de visiteur anonyme[&#128279;](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) pour évaluer les signaux comportementaux en session à la périphérie et diffuser des variations de contenu pertinentes sans nécessiter d’authentification. Il s’agit du modèle approprié lorsque la personnalisation doit fonctionner immédiatement à partir de la première interaction sans dépendre d’un profil persistant, en particulier pour le trafic d’acquisition et les visiteurs qui ne se sont pas encore connectés.
+Utilisez le modèle Personalization Web de visiteur anonyme](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) pour évaluer les signaux comportementaux en session à la périphérie et diffuser des variations de contenu pertinentes sans nécessiter d’authentification. [Il s’agit du modèle approprié lorsque la personnalisation doit fonctionner immédiatement à partir de la première interaction sans dépendre d’un profil persistant, en particulier pour le trafic d’acquisition et les visiteurs qui ne se sont pas encore connectés.
 
 ### Considérations techniques
 
@@ -313,7 +313,7 @@ Les programmes de la série de bienvenue entraînent des améliorations signific
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour concevoir une séquence d’intégration de plusieurs jours avec des étapes d’attente, l’embranchement des canaux en fonction de l’engagement et la suppression lorsque le premier objectif d’achat est atteint. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux de communication séquencé et espacé dans le temps avec une logique conditionnelle. Un seul message déclenché est insuffisant pour guider un nouveau client tout au long de l’expérience d’intégration.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour concevoir une séquence d’intégration de plusieurs jours avec des étapes d’attente, l’embranchement des canaux en fonction de l’engagement et la suppression lorsque le premier objectif d’achat est atteint. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux de communication séquencé et espacé dans le temps avec une logique conditionnelle. Un seul message déclenché est insuffisant pour guider un nouveau client tout au long de l’expérience d’intégration.
 
 ### Considérations techniques
 
@@ -352,7 +352,7 @@ Les détaillants disposant de parcours post-achat structurés constatent une am�
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer une séquence de communications après achat programmées selon des jalons clés : confirmation de commande, expédition, livraison et suivi après livraison. Il s’agit du modèle approprié lorsque le cas d’utilisation s’étend sur plusieurs jours avec plusieurs objectifs : un seul message déclenché ne peut pas s’adapter au processus allant de la confirmation transactionnelle à la création de fidélité, en passant par la révision de la sollicitation.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour orchestrer une séquence de communications après achat programmées selon des jalons clés : confirmation de commande, expédition, livraison et suivi après livraison. [Il s’agit du modèle approprié lorsque le cas d’utilisation s’étend sur plusieurs jours avec plusieurs objectifs : un seul message déclenché ne peut pas s’adapter au processus allant de la confirmation transactionnelle à la création de fidélité, en passant par la révision de la sollicitation.
 
 ### Considérations techniques
 
@@ -371,7 +371,7 @@ Les campagnes de mise à niveau du niveau de fidélité augmentent le volume des
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une campagne de proximité au niveau qui rejoint les clients lorsqu&#39;ils atteignent un seuil de dépenses défini sous leur niveau suivant et les guide à travers une séquence de messages d&#39;avantages et d&#39;offres d&#39;incentives. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite de surveiller un attribut de profil calculé au fil du temps et d’orchestrer une campagne à plusieurs étapes liée à la progression du client ou de la cliente vers un objectif.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une campagne de proximité au niveau qui rejoint les clients lorsqu&#39;ils atteignent un seuil de dépenses défini sous leur niveau suivant et les guide à travers une séquence de messages d&#39;avantages et d&#39;offres d&#39;incentives. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite de surveiller un attribut de profil calculé au fil du temps et d’orchestrer une campagne à plusieurs étapes liée à la progression du client ou de la cliente vers un objectif.
 
 ### Considérations techniques
 
@@ -390,7 +390,7 @@ Les détaillants disposant de fonctionnalités d’orchestration cross-canal enr
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour créer des campagnes qui acheminent les clients par le biais de séquences de canal personnalisées en fonction de leur historique d’engagement, de leurs préférences de canal et de signaux de réponse en temps réel. Il s’agit du modèle approprié lorsque la campagne nécessite une sélection d’offres régie, un routage des préférences de canal et un embranchement dynamique basé sur l’engagement en parcours, plutôt qu’une séquence fixe envoyée à tous les destinataires de la campagne.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour créer des campagnes qui acheminent les clients par le biais de séquences de canal personnalisées en fonction de leur historique d’engagement, de leurs préférences de canal et de signaux de réponse en temps réel. [Il s’agit du modèle approprié lorsque la campagne nécessite une sélection d’offres régie, un routage des préférences de canal et un embranchement dynamique basé sur l’engagement en parcours, plutôt qu’une séquence fixe envoyée à tous les destinataires de la campagne.
 
 ### Considérations techniques
 
@@ -409,7 +409,7 @@ Les détaillants disposant de capacités de conciergerie IA signalent une améli
 
 ### Mise en œuvre
 
-Utilisez le modèle [Expérience de conversation &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) pour déployer un agent d’IA régi basé sur les données de catalogue de produits, les directives de marque et le contexte du profil client en temps réel. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite une interaction en langage naturel sur un ensemble de produits dynamique volumineux, plutôt qu’un chatbot scripté avec des intentions fixes ou un modèle correspondant à un canal spécifique comme l’e-mail.
+Utilisez le modèle [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) pour déployer un agent d’IA régi basé sur les données de catalogue de produits, les directives de marque et le contexte du profil client en temps réel. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite une interaction en langage naturel sur un ensemble de produits dynamique volumineux, plutôt qu’un chatbot scripté avec des intentions fixes ou un modèle correspondant à un canal spécifique comme l’e-mail.
 
 ### Considérations techniques
 

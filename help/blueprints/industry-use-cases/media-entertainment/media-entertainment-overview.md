@@ -44,7 +44,7 @@ Des programmes efficaces de prévention du taux de résiliation permettent de r�
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Cette approche associe l&#39;orchestration des parcours à la prise de décision en temps réel afin de sélectionner la meilleure offre de rétention ou la meilleure recommandation de contenu pour chaque abonné à risque sur chaque canal. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres de conservation en double et lorsque la sélection de l’offre nécessite des règles d’éligibilité en fonction de la valeur de l’abonné et du niveau de risque - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). [Cette approche associe l&#39;orchestration des parcours à la prise de décision en temps réel afin de sélectionner la meilleure offre de rétention ou la meilleure recommandation de contenu pour chaque abonné à risque sur chaque canal. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres de conservation en double et lorsque la sélection de l’offre nécessite des règles d’éligibilité en fonction de la valeur de l’abonné et du niveau de risque - l’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire.
 
 ### Considérations techniques
 
@@ -124,7 +124,7 @@ Des campagnes de conversion d’essai bien conçues permettent d’améliorer de
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Ce parcours d’évaluation multipoint guide les utilisateurs à travers une séquence de messages de découverte de contenu, de démonstration de valeur et de conversion, en s’adaptant en fonction de leur engagement tout au long de l’évaluation. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements d’engagement et le temps d’essai restant. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les étapes ou au besoin d’ajustements de cadence.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Ce parcours d’évaluation multipoint guide les utilisateurs à travers une séquence de messages de découverte de contenu, de démonstration de valeur et de conversion, en s’adaptant en fonction de leur engagement tout au long de l’évaluation. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements d’engagement et le temps d’essai restant. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les étapes ou au besoin d’ajustements de cadence.
 
 ### Considérations techniques
 
@@ -224,7 +224,7 @@ Les campagnes de montée en gamme premium personnalisées favorisent l’adoptio
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer les schémas d’utilisation de chaque abonné et sélectionner l’offre premium la plus pertinente au bon moment. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte des contraintes de modèle d’utilisation et des règles d’éligibilité de niveau Premium, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale seul.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer les schémas d’utilisation de chaque abonné et sélectionner l’offre premium la plus pertinente au bon moment. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte des contraintes de modèle d’utilisation et des règles d’éligibilité de niveau Premium, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale seul.
 
 ### Considérations techniques
 

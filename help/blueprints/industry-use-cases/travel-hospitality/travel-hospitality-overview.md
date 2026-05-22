@@ -24,7 +24,7 @@ La personnalisation de la page d’accueil pour les nouveaux visiteurs entraîne
 
 ### Mise en œuvre
 
-Utilisez le modèle Personalization Web de visiteur anonyme[&#128279;](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md). Cette approche fournit du contenu personnalisé aux visiteurs qui ne se sont pas encore identifiés, en utilisant les signaux disponibles tels que la géolocalisation, le type d’appareil et la source de référence pour personnaliser l’expérience à partir de la toute première page. Il s’agit du modèle approprié lorsque le visiteur ne s’est pas encore identifié et que la personnalisation doit s’appuyer sur les signaux disponibles tels que la géolocalisation, le type d’appareil et la source de référence. La personnalisation d’un visiteur connu nécessite un profil authentifié qui n’existe pas encore.
+Utilisez le modèle Personalization Web de visiteur anonyme](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md). [Cette approche fournit du contenu personnalisé aux visiteurs qui ne se sont pas encore identifiés, en utilisant les signaux disponibles tels que la géolocalisation, le type d’appareil et la source de référence pour personnaliser l’expérience à partir de la toute première page. Il s’agit du modèle approprié lorsque le visiteur ne s’est pas encore identifié et que la personnalisation doit s’appuyer sur les signaux disponibles tels que la géolocalisation, le type d’appareil et la source de référence. La personnalisation d’un visiteur connu nécessite un profil authentifié qui n’existe pas encore.
 
 ### Considérations techniques
 
@@ -64,7 +64,7 @@ Les campagnes de montée en gamme après réservation augmentent la valeur moyen
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Ce parcours en plusieurs étapes guide les clients qui ont réservé dans une séquence temporelle d’opportunités de montée en gamme, en adaptant les offres en fonction de ce que le client a déjà acheté et de son engagement par rapport à des messages précédents. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements d’engagement et la disponibilité de l’inventaire. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les moments de montée en gamme ou les ajustements de minutage basés sur la proximité de la date de voyage.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Ce parcours en plusieurs étapes guide les clients qui ont réservé dans une séquence temporelle d’opportunités de montée en gamme, en adaptant les offres en fonction de ce que le client a déjà acheté et de son engagement par rapport à des messages précédents. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur les événements d’engagement et la disponibilité de l’inventaire. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance entre les moments de montée en gamme ou les ajustements de minutage basés sur la proximité de la date de voyage.
 
 ### Considérations techniques
 
@@ -84,7 +84,7 @@ Des campagnes de reconquête bien ciblées permettent d’obtenir des taux de r�
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Ce parcours en plusieurs étapes réengage les clients obsolètes avec une série progressive de messages qui évoluent de l’inspiration à l’incitation en fonction de la réponse du client. Il s’agit du bon modèle lorsqu’il n’y a pas d’événement déclencheur distinct et que le timing doit être calculé à partir des modèles de cycle de vie du client et des modèles de réservation saisonniers. Les messages déclenchés par un événement ne peuvent pas gérer la logique d’escalade progressive ni la nécessité de chronométrer les offres autour des fenêtres de planification de voyage standard.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Ce parcours en plusieurs étapes réengage les clients obsolètes avec une série progressive de messages qui évoluent de l’inspiration à l’incitation en fonction de la réponse du client. Il s’agit du bon modèle lorsqu’il n’y a pas d’événement déclencheur distinct et que le timing doit être calculé à partir des modèles de cycle de vie du client et des modèles de réservation saisonniers. Les messages déclenchés par un événement ne peuvent pas gérer la logique d’escalade progressive ni la nécessité de chronométrer les offres autour des fenêtres de planification de voyage standard.
 
 ### Considérations techniques
 
@@ -144,7 +144,7 @@ Les modèles d’intention de sortie avec des offres de voyage personnalisées r
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer toutes les offres disponibles et sélectionner la plus pertinente pour le visiteur sortant en fonction du comportement de sa session et des données de profil. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de l’éligibilité du niveau de fidélité et des contraintes commerciales autour du capping de la fréquence, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’une simple recommandation comportementale ou un message déclenché unique.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Cette approche utilise une logique de décision centralisée pour évaluer toutes les offres disponibles et sélectionner la plus pertinente pour le visiteur sortant en fonction du comportement de sa session et des données de profil. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de l’éligibilité du niveau de fidélité et des contraintes commerciales autour du capping de la fréquence, contraintes qui nécessitent une logique de prise de décision régie plutôt qu’une simple recommandation comportementale ou un message déclenché unique.
 
 ### Considérations techniques
 
@@ -164,7 +164,7 @@ La personnalisation basée sur les niveaux entraîne une amélioration de l’en
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Cette approche associe l’orchestration des parcours à la prise de décision en temps réel afin de diffuser la bonne offre par le bon canal pour chaque membre du programme de fidélité, en s’adaptant à son niveau, à ses préférences et à son activité récente. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres en double et lorsque la sélection des offres nécessite des règles d’éligibilité et des contraintes de remboursement basées sur le niveau - l’orchestration des parcours seule ne fournit pas la couche de prise de décision multicanal nécessaire.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). [Cette approche associe l’orchestration des parcours à la prise de décision en temps réel afin de diffuser la bonne offre par le bon canal pour chaque membre du programme de fidélité, en s’adaptant à son niveau, à ses préférences et à son activité récente. Il s’agit du modèle approprié lorsque le parcours doit coordonner la diffusion entre les canaux pour éviter les offres en double et lorsque la sélection des offres nécessite des règles d’éligibilité et des contraintes de remboursement basées sur le niveau - l’orchestration des parcours seule ne fournit pas la couche de prise de décision multicanal nécessaire.
 
 ### Considérations techniques
 
@@ -244,7 +244,7 @@ Les conseils de réservation par conversation améliorent les taux d&#39;achève
 
 ### Mise en œuvre
 
-Utilisez le modèle [Expérience de conversation &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie le Product Advisor Agent par rapport au catalogue de propriétés et d’itinéraires, en utilisant AEP Agent Orchestrator et les données de profil client en temps réel pour faire apparaître des options personnalisées et des recommandations relatives à la fidélité par le biais d’une boîte de dialogue guidée multi-tour. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours qui s’oriente vers une décision de réservation complexe, distincte des messages déclenchés par un événement, qui réagissent aux actions discrètes des voyageurs par une sensibilisation unidirectionnelle, et des expériences web personnalisées, qui font apparaître des recommandations passivement sans impliquer le client dans le dialogue. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
+Utilisez le modèle [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie le Product Advisor Agent par rapport au catalogue de propriétés et d’itinéraires, en utilisant AEP Agent Orchestrator et les données de profil client en temps réel pour faire apparaître des options personnalisées et des recommandations relatives à la fidélité par le biais d’une boîte de dialogue guidée multi-tour. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours qui s’oriente vers une décision de réservation complexe, distincte des messages déclenchés par un événement, qui réagissent aux actions discrètes des voyageurs par une sensibilisation unidirectionnelle, et des expériences web personnalisées, qui font apparaître des recommandations passivement sans impliquer le client dans le dialogue. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
 
 ### Considérations techniques
 
