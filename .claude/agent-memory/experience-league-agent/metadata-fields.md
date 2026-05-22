@@ -9,7 +9,7 @@ ht-degree: 1%
 
 *Provenant du Guide de création Adobe ExL (exploré en février 2026) + analyse du référentiel de blueprints-learn.en*
 
----
+&#x200B;---
 
 ## Hiérarchie des métadonnées
 
@@ -18,7 +18,7 @@ Les métadonnées se présentent en cascade dans cet ordre (l’article remplace
 2. Table des matières.md dans le guide de l’utilisateur
 3. metadata.md à la racine du référentiel (priorité la plus faible)
 
----
+&#x200B;---
 
 ## Champs au niveau de l’article
 
@@ -69,7 +69,7 @@ Les métadonnées se présentent en cascade dans cet ordre (l’article remplace
 | `source-git-url` | URL du référentiel Source. | URL GitHub complète |
 | `cloud` | Remplacement de la catégorie de cloud au niveau de l’article. | Casse du titre ; doit correspondre à cloud.html. |
 
----
+&#x200B;---
 
 ## Champs TOC.md
 
@@ -83,7 +83,7 @@ Les métadonnées se présentent en cascade dans cet ordre (l’article remplace
 | `role` | Rôle d’audience par défaut pour le guide. | Mêmes valeurs que l’article `role` ; séparées par des virgules |
 | `index` | Indique si le guide est indexé. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## Champs metadata.md au niveau du référentiel
 
@@ -98,7 +98,7 @@ Les métadonnées se présentent en cascade dans cet ordre (l’article remplace
 | `git-repo` | URL du référentiel GitHub ; active les boutons « Modifier cette page » et « Consigner le problème ». |
 | `index` | Paramètre d’index par défaut |
 
----
+&#x200B;---
 
 ## Valeurs De Solution Valides (Sensible À La Casse)
 
@@ -123,7 +123,7 @@ Valeurs courantes utilisées dans ce référentiel :
 
 Valeurs multiples : séparées par des virgules, par exemple `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## Valeurs de produit valides (pour `product` champ — suivi Analytics)
 
@@ -137,7 +137,7 @@ Voir l’invite système pour obtenir la liste complète. Valeurs clés :
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## Valeurs de rôle valides
 
@@ -149,7 +149,7 @@ Voir l’invite système pour obtenir la liste complète. Valeurs clés :
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## Règles de validation des clés
 
