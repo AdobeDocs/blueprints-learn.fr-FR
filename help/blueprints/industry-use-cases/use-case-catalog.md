@@ -3,10 +3,10 @@ title: Catalogue de cas d’utilisation
 description: Parcourez les cas d’utilisation du secteur par ordre vertical pour trouver le bon point de départ pour votre parcours Adobe Experience Platform et Applications, avec des liens vers des modèles d’implémentation et des objectifs commerciaux.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 Les cas d’utilisation du secteur montrent comment les organisations de secteurs spécifiques appliquent Adobe Experience Platform et les applications pour obtenir des résultats commerciaux mesurables. Chaque cas d’utilisation décrit un scénario commercial concret, son impact attendu et fournit des liens vers le [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/overview.md) qui fournit des conseils détaillés sur la mise en œuvre.
 
-Parcourez les différents secteurs d’activité pour trouver des cas d’utilisation pertinents pour votre organisation, puis suivez les liens pour obtenir des références d’implémentation, y compris des conseils de décision, des chaînes de fonction et la documentation d’Experience League.
+Parcourez les différents secteurs d’activité pour trouver des cas d’utilisation pertinents pour votre organisation, puis suivez les liens pour obtenir des références d’implémentation, y compris des conseils de décision, des plans d’exécution et la documentation d’Experience League.
 
 | Industrie | Thèmes Clés |
 | --- | --- |
@@ -31,7 +31,7 @@ Parcourez les différents secteurs d’activité pour trouver des cas d’utilis
 
 ## Comment les cas d’utilisation se connectent aux conseils d’implémentation
 
-Chaque cas d’utilisation est associé à un **modèle de cas d’utilisation**, une approche d’implémentation répétable qui décrit la chaîne de fonctions, les points de décision et les étapes de configuration nécessaires pour donner vie au cas d’utilisation. Les modèles de cas d’utilisation se connectent à leur tour aux [objectifs commerciaux clés](/help/blueprints/business-objectives/overview.md), ce qui vous permet d’aligner le travail d’implémentation sur les résultats stratégiques.
+Chaque cas d’utilisation renvoie à un **modèle de cas d’utilisation**, une approche d’implémentation répétable qui décrit le plan d’exécution, les points de décision et les étapes de configuration nécessaires pour donner vie au cas d’utilisation. Les modèles de cas d’utilisation se connectent à leur tour aux [objectifs commerciaux clés](/help/blueprints/business-objectives/overview.md), ce qui vous permet d’aligner le travail d’implémentation sur les résultats stratégiques.
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

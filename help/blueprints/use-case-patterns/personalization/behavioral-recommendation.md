@@ -3,7 +3,7 @@ title: Recommandation comportementale
 description: Découvrez comment générer des recommandations d’éléments et de contenu à l’aide de stratégies de sélection et de modèles de classement.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7545'
 ht-degree: 2%
@@ -79,7 +79,7 @@ Les indicateurs de performance clés suivants permettent de mesurer l’efficaci
 
 Générez des recommandations au niveau de l’élément ou du contenu en fonction de signaux comportementaux, à l’aide de stratégies de sélection et de modèles de classement AJO Decisioning pour diffuser du contenu contextuel.
 
-**Chaîne de fonction :** Ingestion de signaux comportementaux > Évaluation de la stratégie de prise de décision > Diffusion de recommandations > Rapports
+**Plan d’exécution :** Ingestion des signaux comportementaux > Évaluation de la stratégie de prise de décision > Diffusion des recommandations > Rapports
 
 Consultez la section Composition des modèles sous Considérations relatives à l’implémentation pour obtenir des conseils sur la combinaison de modèles.
 
@@ -91,11 +91,11 @@ Les applications suivantes sont utilisées dans ce modèle de cas d’utilisatio
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Accumulation des données de profil comportemental, évaluation de l’audience pour la portée des recommandations et attributs calculés pour la notation de l’affinité comportementale
 - **[!DNL Adobe Experience Platform] (AEP)** — Ingestion d’événements comportementaux via [!DNL Web SDK] et [!DNL Mobile SDK], traitement des [!DNL Edge Network], gestion des schémas XDM pour les données d’événement et de catalogue
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction Fondamentale | Etat | Éléments devant être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Éléments devant être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations Decisioning activées. Rôles utilisateur configurés avec un accès à la gestion du catalogue d&#39;articles, à la configuration de la stratégie de sélection et à l&#39;administration de la surface de canal. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Obligatoire | Schéma d’événement d’expérience capturant des signaux comportementaux (consultations de produits, ajout au panier, achats, interactions de contenu) avec des identifiants d’article/de produit. Schéma de catalogue d&#39;articles (attributs de produit, catégories, images, prix) pour le jeu d&#39;articles de recommandation. Schéma de profil avec champs d’identité. Tous les schémas activés pour [!DNL Real-Time Customer Profile]. | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition), [Créer un jeu de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/create) |
@@ -103,25 +103,25 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Configuration des identités et des profils | Obligatoire | Les signaux comportementaux doivent être associés à une identité (connue ou anonyme via ECID) pour créer des profils comportementaux. Pour les recommandations de visiteurs connus, l’identité authentifiée (identifiant CRM, adresse e-mail) doit être configurée. Politique de fusion activée sur Edge pour la diffusion de recommandations en temps réel. | [présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview) |
 | Définition et segmentation de l’audience | Recommandé | Les audiences peuvent être utilisées pour définir la portée des recommandations (par exemple, recommander uniquement des produits Premium aux membres Premium) ou pour le filtrage. Non strictement requis si les recommandations sont purement comportementales. Obligatoire pour les recommandations par e-mail (option C) afin de définir l’audience cible. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home), [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Importance de la résolution | Référence Experience League |
+| Fonctionnalité de prise en charge | Etat | Importance de la résolution | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que les scores d’affinité de catégorie, la fréquence d’interaction de produit, la récence d’achat et les dépenses totales améliorent la qualité du classement des recommandations. [!DNL Customer AI] scores de propension peuvent encore améliorer la pertinence en prédisant la probabilité d’achat. | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview), [Présentation de l’IA dédiée aux clients](https://experienceleague.adobe.com/fr/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Gestion du cycle de vie des données | Recommandé | Les données comportementales doivent avoir des politiques d’expiration appropriées — la pertinence des recommandations se dégrade avec les données obsolètes. La définition de politiques d’expiration de jeu de données sur les jeux de données d’événements comportementaux garantit l’actualisation et gère le stockage. L’application du consentement garantit la conformité de l’utilisation des données comportementales. | [Expiration des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les libellés de gouvernance sur les données comportementales garantissent une utilisation conforme de l’historique des interactions pour les recommandations. Particulièrement important lorsque les données comportementales incluent les habitudes de navigation, l’historique d’achat ou les signaux d’intérêt pour les produits de santé/financiers. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home), [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview) |
 | Surveillance et observabilité | Recommandé | La latence de diffusion des recommandations, les taux de secours et l’intégrité de l’ingestion du catalogue d’articles doivent être surveillés. Les alertes sur les échecs d’ingestion d’événements comportementaux et les erreurs de prise de décision permettent de maintenir la qualité des recommandations. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home), [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview) |
-| Rapports et analyses | Inclus | Les rapports de rendement recommandés font partie de l&#39;étape 4 de la chaîne de fonction. [!DNL Customer Journey Analytics]’analyse de l’efficacité des recommandations, de l’impact sur le chiffre d’affaires et des performances au niveau des éléments sur les surfaces et les segments fournit des informations d’optimisation. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) |
+| Rapports et analyses | Inclus | Les rapports de performances recommandés font partie de l&#39;Étape 4 du Plan d&#39;exécution. [!DNL Customer Journey Analytics]’analyse de l’efficacité des recommandations, de l’impact sur le chiffre d’affaires et des performances au niveau des éléments sur les surfaces et les segments fournit des informations d’optimisation. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Prise de décision. | Configuration du catalogue d&#39;articles et de la stratégie de sélection | Configurez des catalogues d’éléments (éléments de décision), des stratégies de sélection avec des modèles de classement comportementaux, des règles de filtrage et des recommandations de secours |
 | Configuration de canal | Configuration des canaux et de la surface | Configurez des surfaces de diffusion pour les canaux web (expériences basées sur du code), in-app, de carte de contenu ou d’e-mail où des recommandations seront rendues |
@@ -130,7 +130,7 @@ Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#3
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Évaluation d’audience | Définition De La Portée De L’Audience (Option C) | Évaluez les segments d’audience utilisés pour définir la portée des recommandations ou la population cible des campagnes de recommandations par e-mail. |
 | Enrichissement de profil | Enrichissement Du Signal Comportemental | Enrichir les profils avec des attributs calculés (scores d’affinité de catégorie, fréquence d’interaction) qui améliorent le classement des recommandations |
@@ -288,7 +288,7 @@ Les phases suivantes vous guident tout au long de l’implémentation de bout en
 
 ### Phase 1 : configuration du schéma d’événement comportemental et de la collecte de données
 
-**Fonction d’application :** AEP : modélisation et préparation des données (F2), AEP : sources et collecte de données (F3)
+**Fonctionnalité d’application :** AEP : modélisation et préparation des données (F2), AEP : sources et collecte de données (F3)
 
 Cette phase établit les schémas XDM, les jeux de données et les mécanismes de collecte de données qui capturent les signaux comportementaux et les données de catalogue d’articles. Toute logique de recommandation dépend de cette base de données.
 
@@ -331,7 +331,7 @@ Comment le catalogue de produits ou de contenu sera-t-il ingéré dans AEP ?
 
 ### Phase 2 : configuration de l’identité et du profil
 
-**Fonction D’Application :** AEP : Configuration D’Identité Et De Profil (F4)
+**Fonctionnalité de l’application :** AEP : Configuration de l’identité et du profil (F4)
 
 Cette phase met en place des espaces de noms d’identité, des désignations d’identité principale et des politiques de fusion qui garantissent que les signaux comportementaux sont correctement associés aux profils des visiteurs et qu’ils sont disponibles pour la diffusion de recommandations en temps réel.
 
@@ -372,7 +372,7 @@ Comment les signaux comportementaux provenant de visiteurs anonymes doivent-ils 
 
 ### Phase 3 : configuration du catalogue d&#39;articles et de la stratégie de sélection
 
-**Fonction d’application :** AJO : prise de décision
+**Fonctionnalité de l’application :** AJO : prise de décision
 
 Cette phase configure le catalogue d&#39;éléments (éléments de décision), les stratégies de sélection qui combinent des signaux comportementaux avec des attributs d&#39;élément pour le classement, les règles de filtrage pour exclure les éléments inéligibles et les recommandations de secours pour les profils de démarrage à froid.
 
@@ -442,7 +442,7 @@ Que doit-on montrer aux nouveaux visiteurs qui n’ont aucun historique comporte
 
 ### Phase 4 : configuration du canal et de la surface
 
-**Fonction d’application :** AJO : configuration de canal
+**Fonctionnalité d’application :** AJO : Configuration de canal
 
 Cette phase configure les surfaces de diffusion sur lesquelles des recommandations seront rendues. La configuration varie considérablement selon l’option d’implémentation.
 
@@ -480,7 +480,7 @@ Configurez une surface de canal e-mail avec la délégation de sous-domaine, l�
 
 ### Phase 5 : configuration du contenu et de la diffusion
 
-**Fonction d’application :** AJO : création de messages
+**Fonctionnalité de l’application :** AJO : création de messages
 
 Cette phase définit les modèles de rendu de recommandation qui contrôlent l’affichage des éléments recommandés pour le visiteur. Cela inclut la conception de mise en page des articles, les expressions de personnalisation qui extraient les attributs d’article (nom, image, prix, lien) et la conception globale de l’expérience de recommandation.
 
@@ -539,7 +539,7 @@ Concevoir du contenu d’e-mail à l’aide du Designer d’e-mail. Insérez des
 
 ### Phase 6 : configurer la portée de l’audience et la campagne/le parcours (option C uniquement)
 
-**Fonction de l’application :** RT-CDP : évaluation de l’audience, AJO : exécution de campagne ou Journey Orchestration
+**Fonctionnalité d’application** RT-CDP : évaluation de l’audience, AJO : exécution de campagne ou Journey Orchestration
 
 Pour les recommandations par e-mail (option C), cette phase définit l’audience cible et configure la campagne ou le parcours qui diffuse l’e-mail de recommandation. Les options A et B ignorent cette phase, car les recommandations sont diffusées en temps réel au chargement de la page ou de l’écran.
 
@@ -579,7 +579,7 @@ L’e-mail doit-il être diffusé via une campagne ou un parcours ?
 
 ### Phase 7 : configuration des rapports et de l’optimisation
 
-**Fonction d’application :** AJO : Rapports et analyse des performances, S5 : Rapports et analyses
+**Fonctionnalité d’application :** AJO : Rapports et analyse des performances, S5 : Rapports et analyses
 
 Cette phase établit la surveillance des performances pour les mesures de clics publicitaires, de conversion et de chiffre d’affaires relatives aux recommandations. Il crée l’infrastructure de création de rapports pour mesurer l’efficacité des recommandations et identifier les opportunités d’optimisation.
 

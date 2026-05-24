@@ -4,7 +4,7 @@ description: Découvrez les modèles de cas d’utilisation pour l’implémenta
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Modèles de cas d’utilisation
 
-Les modèles de cas d’utilisation définissent des approches d’implémentation répétables pour Adobe Experience Platform et les applications. Chaque modèle décrit une fonctionnalité spécifique, la chaîne de fonctions qui la fournit, les applications impliquées et les [objectifs commerciaux clés](/help/blueprints/business-objectives/overview.md) qu’il prend en charge.
+Les modèles de cas d’utilisation définissent des approches d’implémentation répétables pour Adobe Experience Platform et les applications. Chaque modèle décrit une fonctionnalité spécifique, le plan d’exécution qui la fournit, les applications impliquées et les [objectifs commerciaux clés](/help/blueprints/business-objectives/overview.md) qu’il prend en charge.
 
 Utilisez les tableaux ci-dessous pour déterminer le modèle correspondant à vos besoins en matière d’implémentation, puis suivez le lien vers la référence complète d’implémentation, y compris les options, les phases, les conseils de décision et la documentation d’Experience League.
 

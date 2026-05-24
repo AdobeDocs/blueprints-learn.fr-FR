@@ -3,7 +3,7 @@ title: Messagerie déclenchée par événement
 description: Découvrez comment diffuser des messages contextuels en temps réel en réponse à des événements comportementaux ou système.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9040'
 ht-degree: 2%
@@ -94,13 +94,13 @@ Les KPI suivants permettent de mesurer l’efficacité des implémentations de m
 
 ## Modèle de cas d’utilisation
 
-Cette section décrit le modèle de base et la chaîne de fonction qui génère la messagerie déclenchée par un événement.
+Cette section décrit le modèle de base et le plan d’exécution qui génère la messagerie déclenchée par un événement.
 
 **Messagerie déclenchée par un événement**
 
 Détectez un événement système ou comportemental en temps réel, puis envoyez un message contextuel au profil de déclenchement.
 
-**Chaîne de fonction :** Ingestion d’événement > Entrée de Parcours > Évaluation de condition > Diffusion de message > Rapports
+**Plan D&#39;Exécution :** Ingestion D&#39;Événement > Entrée De Parcours > Évaluation De Condition > Diffusion De Message > Reporting
 
 ## Applications
 
@@ -110,11 +110,11 @@ Les applications Adobe suivantes sont utilisées dans ce modèle de cas d’util
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation de l’audience pour le filtrage basé sur les conditions dans les parcours, l’application du consentement et de la gouvernance, l’enrichissement des profils
 - **[!DNL Adobe Experience Platform] (AEP)** — Ingestion d’événements en temps réel via Web SDK, Mobile SDK ou une API côté serveur ; modélisation des données ; résolution d’identité ; Edge Network
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction Fondamentale | Etat | Éléments devant être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Éléments devant être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | sandbox AJO configuré avec la configuration de canal active. Autorisations de création et de publication de parcours attribuées à l’équipe d’implémentation. Rôles utilisateur configurés pour la gestion de parcours, la création de contenu et l’administration des canaux. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Obligatoire | Un schéma XDM ExperienceEvent doit capturer l’événement déclencheur avec tous les champs contextuels nécessaires à l’évaluation des conditions et à la personnalisation des messages (par exemple, `commerce.productListAdds` pour les événements de panier, les détails de produit, la valeur du panier). Le schéma doit être activé pour le profil client en temps réel. Un jeu de données correspondant doit être créé et activé pour Profil. | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition) |
@@ -122,11 +122,11 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Configuration des identités et des profils | Obligatoire | L’événement déclencheur doit être associé à une identité connue (e-mail, ID CRM ou session authentifiée) afin que le parcours puisse résoudre le profil et diffuser le message. Des espaces de noms d’identité doivent exister pour les identifiants utilisés par l’événement déclencheur. Les événements anonymes nécessitent un regroupement des identités via le graphique d’identités avant qu’un message puisse être diffusé. Une politique de fusion doit être configurée. | [présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview) |
 | Définition et segmentation de l’audience | Recommandé | Bien que cela ne soit pas strictement nécessaire pour les parcours déclenchés par un événement (l’entrée est basée sur un événement, et non sur une audience), les segments d’audience peuvent être utilisés pour l’évaluation de la condition dans le parcours (par exemple, envoyer uniquement si le profil se trouve dans un segment « client à forte valeur » ou supprimer si le profil se trouve dans un segment « contacté récemment »). L’évaluation en flux continu est recommandée pour les contrôles d’appartenance à un segment en temps réel dans les parcours. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home), [Segmentation par flux](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Importance de la résolution | Référence Experience League |
+| Fonctionnalité de prise en charge | Etat | Importance de la résolution | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que le nombre d’abandons de panier, les jours depuis le dernier achat, la valeur de commande moyenne et le total d’achat de la durée de vie améliorent l’évaluation de la condition et la personnalisation dans les parcours déclenchés. Ces agrégats comportementaux permettent de prendre des décisions de ciblage plus précises (p. ex., distinguer les personnes qui abandonnent pour la première fois de celles qui abandonnent à répétition). | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview) |
 | Gestion du cycle de vie des données | Recommandé | L’expiration des données d’événement doit être configurée pour les événements comportementaux transitoires (pages vues, recherches, clics) afin de gérer les coûts de stockage et la conformité. Les champs de schéma de consentement doivent être présents pour l’application d’opt-in/opt-out spécifique au canal pendant la diffusion du message. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home), [Expiration des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -134,13 +134,13 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Surveillance et observabilité | Inclus | La surveillance de l’exécution des parcours fait partie de la phase de création de rapports. En outre, configurez des alertes pour les échecs d’ingestion d’événement ou les retards de traitement des parcours afin de détecter les problèmes de pipeline qui empêcheraient l’envoi des messages déclenchés. | [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
 | Rapports et analyses | Inclus | Les rapports sur la performance des parcours sont traités dans la phase de reporting. Pour une analyse plus approfondie de l’efficacité des messages déclenchés sur plusieurs canaux et au fil du temps, configurez les connexions et espaces de travail CJA pour analyser l’attribution de la conversion, le délai de conversion et les performances du canal. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Journey Orchestration | Création et configuration de parcours | Créez un parcours avec une entrée d’événement unitaire, configurez l’événement de qualification, ajoutez des nœuds de condition, des étapes d’attente, des actions de message, des critères de sortie et des règles de rentrée |
 | Configuration de canal | Configuration de la surface de canal | Configurer ou valider des surfaces de canal (e-mail, SMS, notification push), y compris la délégation de sous-domaines, les pools d&#39;adresses IP, les paramètres d&#39;expéditeur et la gestion des listes de suppression |
@@ -151,7 +151,7 @@ Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#3
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Évaluation d’audience | Configuration de base (F5) | Évaluez les segments d’audience utilisés pour le filtrage basé sur des conditions dans le parcours (par exemple, les segments de clients à forte valeur ajoutée, les segments de suppression). |
 | Application du consentement et de la gouvernance | Configuration De Base (S2/S3) | Appliquez les préférences de consentement et les politiques de gouvernance d’utilisation des données lors de la diffusion des messages pour garantir des communications conformes |
@@ -322,7 +322,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de la messag
 
 ### Phase 1 : configuration du schéma d’événement et de la collecte de données
 
-**Fonction d’application :** AEP : modélisation des données (F2), AEP : sources et collecte de données (F3)
+**Fonctionnalité d’application :** AEP : Modélisation des données (F2), AEP : Sources et collecte de données (F3)
 
 **Ce que vous allez configurer :** le schéma XDM ExperienceEvent qui capture l’événement déclencheur, le jeu de données qui stocke ces événements et le pipeline de collecte de données en temps réel (Web SDK, Mobile SDK ou API du serveur) qui diffuse les événements dans AEP. Cette phase établit la base de données que le parcours écoutera.
 
@@ -374,7 +374,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de la messag
 
 ### Phase 2 : configuration de l’identité et du profil
 
-**Fonction D’Application :** AEP : Configuration D’Identité Et De Profil (F4)
+**Fonctionnalité de l’application :** AEP : Configuration de l’identité et du profil (F4)
 
 **Éléments à configurer :** espaces de noms d’identité pour les identifiants sur l’événement déclencheur, désignation de l’identité principale sur le schéma d’événement, règles de liaison d’identité pour la résolution sur l’ensemble des appareils et une politique de fusion pour l’unification des profils. Cela permet de s’assurer que l’événement de déclenchement est associé à un profil client unifié afin que le parcours puisse résoudre les informations de contact et diffuser le message.
 
@@ -409,7 +409,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de la messag
 
 ### Phase 3 : configuration des surfaces de canal
 
-**Fonction d’application :** AJO : configuration de canal
+**Fonctionnalité d’application :** AJO : Configuration de canal
 
 **Ce que vous allez configurer :** la surface de canal (préréglage) qui définit l&#39;infrastructure d&#39;envoi pour le message déclenché (délégation de sous-domaine, groupe d&#39;adresses IP, identité de l&#39;expéditeur, adresse de réponse, gestion des désabonnements et informations d&#39;identification spécifiques au canal (fournisseur de SMS, certificats push). Une surface de canal valide doit exister avant que le contenu du message puisse être créé ou que les parcours puissent être publiés.
 
@@ -460,7 +460,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de la messag
 
 ### Phase 4 : création du contenu du message
 
-**Fonction d’application :** AJO : création de messages
+**Fonctionnalité de l’application :** AJO : création de messages
 
 **Ce que vous allez configurer :** le contenu du message qui sera diffusé par le parcours, notamment la conception de la disposition, les jetons de personnalisation à l’aide d’attributs de profil et d’événement, les blocs de contenu conditionnel, les fragments réutilisables (en-têtes, pieds de page, clauses de non-responsabilité), ainsi que l’aperçu et le test du contenu.
 
@@ -513,7 +513,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de la messag
 
 ### Phase 5 : création et configuration du parcours
 
-**Fonction de l’application :** AJO : Journey Orchestration, AJO : Fréquence et règles métier (option C), AJO : gestion des conflits et des priorités
+**Fonctionnalité d’application :** AJO : Journey Orchestration, AJO : Fréquence et règles métier (option C), AJO : Gestion des conflits et des priorités
 
 **Ce que vous allez configurer :** le parcours qui écoute l’événement déclencheur et orchestre la diffusion des messages. Il s’agit de la phase d’implémentation principale au cours de laquelle la zone de travail du parcours est conçue avec le nœud d’entrée d’événement, les nœuds de condition, les étapes d’attente (pour l’option B), les nœuds d’action de message et les critères de sortie. Cette phase couvre également la gouvernance des fréquences (option C) et la configuration des conflits/priorités.
 
@@ -607,7 +607,7 @@ Configurez les limites de fréquence au niveau de l’organisation via Administr
 
 ### Phase 6 : test et déploiement du parcours
 
-**Fonction d’application :** AJO : Journey Orchestration
+**Fonctionnalité de l’application :** AJO : Journey Orchestration
 
 **Ce que vous allez configurer :** validation du mode test pour vérifier que le parcours se comporte comme prévu avec les profils de test, suivie de la publication du parcours pour le rendre actif.
 
@@ -630,7 +630,7 @@ Configurez les limites de fréquence au niveau de l’organisation via Administr
 
 ### Phase 7 : Surveillance et rapports sur le rendement
 
-**Fonction d’application :** AJO : Rapports et analyse des performances, S4 : surveillance et observabilité, S5 : rapports et analyses
+**Fonctionnalité d’application :** AJO : Rapports et analyse des performances, S4 : surveillance et observabilité, S5 : rapports et analyses
 
 **Ce que vous allez configurer :** des rapports de parcours dynamiques et historiques pour le suivi de la diffusion et de l’engagement, des alertes de plateforme pour les échecs d’ingestion d’événements et de traitement des parcours et, éventuellement, des espaces de travail CJA pour une analyse cross-canal plus approfondie de l’efficacité des messages déclenchés.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Si vous vous trouvez à rédiger l’un des documents suivants, redirigez-vous v
 | KPI et formules de mesure | Les modèles de cas d’utilisation mesurent les résultats, contrairement aux pages d’architecture |
 | Objectifs commerciaux, impact sur l’entreprise | Le contenu KBO vit sous `/help/blueprints/business-objectives/` ; les modèles le référencent |
 | Exemples de cas d’utilisation tactiques | « Rappel d’abandon de panier », « Héros de page d’accueil personnalisée », etc. - il s’agit de contenu de modèle |
-| Chaînes de fonctions (`A > B > C > D`) | Le concept de chaîne de fonction fait partie du modèle de modèle de cas d’utilisation |
+| Fonctionnalités (`A > B > C > D`) | Le concept des fonctionnalités fait partie du modèle de cas d’utilisation |
 | Histoires personnelles | « Maria, la spécialiste marketing, veut... » les scénarios de style appartiennent aux modèles et non aux références d’architecture |
 | Options de mise en œuvre | Les conseils de mise en œuvre à options multiples (idéal pour les utilisateurs, fonctionnement, avantages, limites) sont une construction de modèle |
 | Tables de fonctions de base/annexes | Il s’agit de sections de page de motifs |
@@ -47,7 +47,7 @@ Si l’utilisateur ou l’utilisatrice fournit l’une de ces expressions lors d
 - « KPI »
 - « impact commercial » / « résultats commerciaux »
 - « cas d’utilisation tactiques » / « exemples de scénarios »
-- « chaîne de fonction »
+- « fonctionnalités »
 - « options d’implémentation »
 - « idéal pour »
 - « avantages et limites »

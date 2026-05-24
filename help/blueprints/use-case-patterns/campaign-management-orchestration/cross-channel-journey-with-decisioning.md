@@ -3,7 +3,7 @@ title: Parcours cross-canal avec prise de décision
 description: Découvrez comment orchestrer un parcours à plusieurs étapes incorporant la prise de décision en temps réel pour sélectionner un canal, un contenu ou une offre optimal.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9029'
 ht-degree: 2%
@@ -88,7 +88,7 @@ parcours cross-canal avec prise de décision **&#x200B;**
 
 Orchestrez un parcours multicanal à plusieurs étapes qui incorpore la prise de décision en temps réel sur un ou plusieurs nœuds pour sélectionner le canal, le contenu ou l’offre optimal.
 
-**Chaîne de fonctions :** évaluation d’audience > exécution de Parcours > nœud de décision > sélection de canal > diffusion de message > compte rendu des performances
+**Plan d’exécution :** Évaluation de l’audience > Exécution du Parcours > Nœud de décision > Sélection du canal > Diffusion des messages > Reporting
 
 ## Applications
 
@@ -99,11 +99,11 @@ Les applications suivantes sont utilisées pour implémenter ce modèle de cas d
 - **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — Évaluation des audiences pour les segments d’entrée sur le parcours et d’éligibilité des offres, enrichissement du profil avec des attributs calculés et des scores de propension, application du consentement et de la gouvernance
 - **[!DNL Adobe Experience Platform] ([!DNL AEP])** — Banque de profils client en temps réel, Service d’identités pour la résolution cross-canal, la modélisation des données et l’infrastructure d’ingestion
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | [!DNL AJO] sandbox avec des autorisations de parcours, de campagne et de prise de décision configurées. Surfaces de canal pour tous les canaux de diffusion possibles. Rôles utilisateur pour les concepteurs de parcours, les responsables de prise de décision et les auteurs de contenu. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Obligatoire | Le schéma du profil doit inclure les attributs utilisés pour la prise de décision (par exemple, le niveau de fidélité, l’historique d’achats, les préférences de canal, les scores d’engagement). Les schémas Catalogue d&#39;offres et Élément de décision doivent être configurés. Les schémas ExperienceEvent doivent capturer des signaux comportementaux utilisés par les règles d’éligibilité et les formules de classement. | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition) |
@@ -111,11 +111,11 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Configuration des identités et des profils | Obligatoire | La résolution d’identité cross-canal est essentielle : le parcours doit résoudre les profils par e-mail, push, SMS et web. Les politiques de fusion doivent produire un profil unifié pour la prise de décision. Les espaces de noms d’identité de tous les identifiants client (identifiant CRM, e-mail, ECID, téléphone) doivent être configurés. | [présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview) |
 | Définition et segmentation de l’audience | Obligatoire | Définition de l&#39;audience d&#39;entrée pour le parcours. Segments supplémentaires utilisés pour les règles d’éligibilité des offres et l’embranchement des conditions dans le parcours. La méthode d’évaluation doit correspondre aux exigences de latence (diffusion en continu pour l’entrée en temps réel, traitement par lots pour le planning). | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home), [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
+| Fonctionnalité de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que les scores de propension de Customer AI, les scores d’engagement, les scores de préférence de canal et les calculs de valeur de durée de vie améliorent considérablement la qualité de la prise de décision. Ces attributs de profil enrichis permettent des règles d’éligibilité et des formules de classement plus sophistiquées. | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview), [Présentation de l’IA dédiée aux clients](https://experienceleague.adobe.com/fr/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Gestion du cycle de vie des données | Recommandé | Les données d’historique des offres et d’événement de décision s’accumulent au fil du temps et doivent avoir des politiques de conservation. L’application du consentement sur plusieurs canaux est essentielle : les profils sans consentement valide pour un canal doivent être exclus du chemin de diffusion de ce canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home), [Consentement dans Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
@@ -123,13 +123,13 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Surveillance et observabilité | Inclus | La surveillance du parcours et de la prise de décision est essentielle pour les opérations de production. Les alertes pour les échecs d’entrée de parcours, les pics de secours de prise de décision et les erreurs de diffusion permettent de résoudre rapidement les problèmes. | [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
 | Rapports et analyses | Inclus | Les rapports de parcours et de prise de décision sont traités dans la phase de création de rapports. L’analyse CJA de l’efficacité de la prise de décision, de l’optimisation de la combinaison de canaux, des performances des offres et du retour sur investissement des parcours fournit les informations nécessaires pour affiner les stratégies de classement et optimiser le parcours au fil du temps. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Guide d’intégration d’AJO + CJA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Journey Optimizer] ([!DNL AJO])
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Configuration de canal | Phase 2 : configuration des canaux | Configurez des surfaces de canal pour tous les canaux que la prise de décision peut sélectionner ou que le parcours utilise (e-mail, SMS, notification push, in-app) |
 | Création de messages | Phase 4 : création de messages | Créez le contenu des messages pour chaque canal et intégrez la sortie de décision : emplacements d’offres, blocs de contenu dynamiques, jetons de personnalisation des offres sélectionnées |
@@ -141,7 +141,7 @@ Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#3
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP])
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Évaluation d’audience | Phase 1 : évaluation de l’audience | Définir et évaluer l’audience d’entrée ou l’événement d’entrée éligible ; créer des segments d’éligibilité utilisés par la prise de décision |
 | Enrichissement de profil | Prérequis/Prise en charge | Enrichir les profils avec des attributs calculés et des scores de propension qui améliorent la qualité de la prise de décision |
@@ -316,7 +316,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout de ce modèl
 
 ### Phase 1 : évaluation de l’audience
 
-**Fonction d’application :** [!DNL RT-CDP] : évaluation de l’audience
+**Fonctionnalité de l’application :** [!DNL RT-CDP] : évaluation de l’audience
 
 Cette phase configure l’audience d’entrée qui détermine les profils qui rejoignent le parcours et les segments supplémentaires utilisés pour les règles d’éligibilité de l’offre ou l’embranchement des conditions dans le parcours. La définition de l’audience est la base de toute logique de parcours et de prise de décision en aval.
 
@@ -361,7 +361,7 @@ Comment les profils doivent-ils entrer sur le parcours par le biais d’une lect
 
 ### Phase 2 : configuration des canaux
 
-**Fonction d’application :** [!DNL AJO] : configuration de canal
+**Fonctionnalité de l’application :** [!DNL AJO] : configuration du canal
 
 Cette phase configure les surfaces des canaux pour chaque canal que le parcours peut utiliser pour la diffusion des messages. Tous les canaux candidats doivent avoir des surfaces actives vérifiées avant que les messages puissent être créés ou que le parcours puisse être publié. Pour ce modèle, vous configurez généralement des surfaces pour les e-mails, SMS et notifications push au minimum, et potentiellement in-app ou web si la prise de décision peut sélectionner ces canaux.
 
@@ -405,7 +405,7 @@ Comment le sous-domaine d’envoi doit-il être délégué à Adobe ?
 
 ### Phase 3 : configuration de la prise de décision
 
-**Fonction d’application :** [!DNL AJO] : prise de décision
+**Fonctionnalité de l’application :** [!DNL AJO] : prise de décision
 
 Cette phase configure l’ensemble du cadre de prise de décision, y compris les emplacements, les règles d’éligibilité, les offres personnalisées, les offres de secours, les qualificateurs de collection, les collections, les stratégies de classement et les politiques de décision. Cette phase permet de créer la logique de décision qui sera appelée aux points de décision du parcours.
 
@@ -476,7 +476,7 @@ Configurez deux couches de prise de décision : un ensemble de politiques de dé
 
 ### Phase 4 : création de messages
 
-**Fonction d’application :** [!DNL AJO] : création de messages
+**Fonctionnalité de l’application :** [!DNL AJO] : création de messages
 
 Cette phase configure le contenu du message pour chaque canal et point de contact du parcours, en intégrant la sortie de prise de décision (contenu d’offre sélectionné) dans les modèles de message. Chaque nœud d’action de message du parcours nécessite du contenu créé avec la surface de canal appropriée, des jetons de personnalisation et des intégrations d’emplacements d’offres.
 
@@ -536,7 +536,7 @@ Chaque canal possède son propre contenu de message avec des emplacements d’of
 
 ### Phase 5 : conception et activation du Parcours
 
-**Fonction d’application :** [!DNL AJO] : Journey Orchestration, [!DNL AJO] : Gestion des conflits et des priorités, [!DNL AJO] : Fréquence et règles métier.
+**Fonctionnalité d’application :** [!DNL AJO] : Journey Orchestration, [!DNL AJO] : Gestion des conflits et des priorités, [!DNL AJO] : Fréquence et règles métier.
 
 Cette phase configure la zone de travail de parcours complète, y compris la configuration d’entrée, les nœuds de décision liés aux politiques de décision configurées, les divisions de condition pour le routage du canal (options B/C), les nœuds d’action de message pour chaque chemin de canal, les nœuds d’attente entre les points de contact, les critères de sortie, les paramètres de conflit/priorité et les règles de limitation de fréquence. Cette phase assemble tous les composants précédemment configurés dans le flux de parcours orchestré et l’active.
 
@@ -623,7 +623,7 @@ Combinez les nœuds de condition de sélection de canal avec les nœuds d’acti
 
 ### Phase 6 : Rapports et suivi
 
-**Fonction d’application :** [!DNL AJO] : Rapports et analyse des performances
+**Fonctionnalité de l’application :** [!DNL AJO] : Rapports et analyse des performances
 
 Cette phase configure le suivi des performances du parcours et de la prise de décision par le biais de rapports dynamiques (pendant l’exécution) et de rapports historiques (après l’achèvement). Mesures spécifiques à Decisioning, notamment la distribution de la sélection des offres, les taux de secours et l&#39;efficacité du classement. Facultativement, l’analyse de l’espace de travail CJA pour le parcours cross-canal profond et l’analyse du retour sur investissement des décisions.
 

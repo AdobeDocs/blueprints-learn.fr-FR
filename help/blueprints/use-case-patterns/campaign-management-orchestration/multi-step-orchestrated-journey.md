@@ -3,7 +3,7 @@ title: Parcours Orchestré À Plusieurs Étapes
 description: Découvrez comment guider un profil à travers un parcours d’embranchement multipoint avec des attentes, des conditions et plusieurs actions de message au fil du temps.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8211'
 ht-degree: 2%
@@ -95,7 +95,7 @@ Utilisez les KPI suivants pour mesurer l’efficacité de votre mise en œuvre d
 
 Guidez un profil à travers un parcours multi-touch d’embranchement avec des attentes, des conditions et plusieurs actions de message au fil du temps.
 
-**Chaîne de fonctions :** Évaluation d’audience > Exécution de Parcours (multi-nœud) > Branchement de condition > Diffusion de message (xN) > Critères de sortie > Rapports
+**Plan d’exécution :** Évaluation d’audience > Exécution de Parcours (multi-nœud) > Branchement de condition > Diffusion de message (xN) > Critères de sortie > Rapports
 
 ## Applications
 
@@ -105,11 +105,11 @@ Les applications suivantes sont utilisées pour implémenter ce modèle de cas d
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation et définition de l’audience pour les audiences d’entrée de parcours, les données de profil pour la personnalisation et l’embranchement des conditions
 - **[!DNL Adobe Experience Platform] (AEP)** — Banque de profils, service d’identités, ingestion des données d’événement et infrastructure de données de base
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | Sandbox AJO avec autorisations de création et de publication de parcours. Les surfaces de tous les canaux utilisés dans le parcours doivent être configurées. Les utilisateurs doivent disposer des rôles appropriés (marketeur, responsable de Parcours) avec des autorisations de parcours et de campagne. | [Présentation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home), [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Obligatoire | Schéma de profil XDM avec les attributs utilisés pour l’embranchement et la personnalisation des conditions sur plusieurs messages (par exemple, le niveau de fidélité, l’intérêt du produit, le score d’engagement). Les schémas d’événement d’expérience pour les événements de conversion qui génèrent les critères de sortie et l’évaluation des conditions (par exemple, les événements d’achat, les envois de formulaire). | [Présentation du système XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home), [Principes de base de la composition des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition) |
@@ -117,11 +117,11 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Configuration des identités et des profils | Supposé en place | Les profils doivent pouvoir être résolus sur tous les canaux utilisés dans le parcours (e-mail, SMS, notification push). Les identités entre appareils doivent être configurées si le parcours s’étend sur des points de contact web et mobiles. La politique de fusion doit être configurée pour le sandbox. | [présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview) |
 | Définition et segmentation de l’audience | Obligatoire | L’audience d’entrée doit être définie pour les parcours lus par l’audience. Les segments peuvent également être utilisés dans les nœuds de condition pour l’embranchement. La méthode d’évaluation (par lots ou par flux) doit correspondre aux exigences d’entrée du parcours. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home), [Guide de l’interface utilisateur du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
+| Fonctionnalité de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que les scores d’engagement, les jours depuis la dernière activité ou la valeur d’achat de durée de vie améliorent la logique d’embranchement des conditions, permettant des décisions de chemin de parcours plus intelligentes. | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview) |
 | Gestion du cycle de vie des données | Recommandé | La conservation des données des événements de parcours doit être configurée avec des politiques d’expiration des jeux de données pour gérer le stockage et respecter les réglementations de conservation des données. L’application du consentement garantit que seuls les profils inscrits reçoivent des messages à chaque point de contact de canal. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home), [Expiration des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -129,13 +129,13 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Surveillance et observabilité | Inclus | Alertes de surveillance de l’exécution des parcours sur les échecs de traitement, les goulets d’étranglement des entrées de profil et les problèmes de diffusion. Essentiel pour les parcours de production où les retards ou les échecs ont une incidence sur l’expérience client. | [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview), [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
 | Rapports et analyses | Inclus | Le funnel CJA et l’analyse des abandons sur l’ensemble du parcours fournissent des rapports insight plus détaillés que les rapports natifs AJO seuls. Permet l’analyse de conversion étape par étape, la comparaison de cohortes et l’optimisation des parcours. | [Présentation de &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Présentation d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Configuration de canal | Phase 1 : configuration du canal | Configurer des surfaces de canal (e-mail, SMS, notification push) pour chaque point de contact de messagerie du parcours |
 | Création de messages | Phase 2 : création de contenu de message | Créez du contenu de message avec de la personnalisation, du contenu dynamique et des modèles pour chaque nœud d’action de parcours |
@@ -147,7 +147,7 @@ Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#3
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Évaluation d’audience | Phase 1 : configuration du canal (prérequis) | Définir et évaluer l’audience d’entrée pour les parcours lus par l’audience ; définir des audiences sous condition pour l’embranchement |
 | Application du consentement et de la gouvernance | Phase 4 : gouvernance et optimisation | Application des préférences de consentement et des politiques d’utilisation des données aux actions de message de parcours |
@@ -311,7 +311,7 @@ Les phases suivantes décrivent l’implémentation de bout en bout d’un parco
 
 ### Phase 1 : configurer des canaux et préparer les audiences
 
-**Fonctions d’application :** AJO : Configuration de canal, RT-CDP : Évaluation d’audience
+**Fonctionnalités de l’application :** AJO : Configuration du canal, RT-CDP : Évaluation de l’audience
 
 Avant de concevoir le parcours, toutes les surfaces de canal doivent être actives et l’audience d’entrée (pour l’option A) doit être définie et évaluée. Cette phase permet de s’assurer que l’infrastructure est prête pour la diffusion des messages.
 
@@ -383,7 +383,7 @@ Configurez les surfaces des canaux pour CHAQUE canal utilisé dans le parcours (
 
 ### Phase 2 : création du contenu du message
 
-**Fonction d’application :** AJO : création de messages
+**Fonctionnalité de l’application :** AJO : création de messages
 
 Créez le contenu du message pour chaque point de contact du parcours. Chaque message peut avoir un contenu, une profondeur de personnalisation et un canal différents. Cette phase crée tout le contenu livrable que les nœuds d’action de parcours référenceront.
 
@@ -448,7 +448,7 @@ Les blocs de contenu partagés (en-têtes, pieds de page, texte juridique) doive
 
 ### Phase 3 : conception et activation du parcours
 
-**Fonction d’application :** AJO : Journey Orchestration
+**Fonctionnalité de l’application :** AJO : Journey Orchestration
 
 Concevez la zone de travail de parcours à plusieurs étapes, y compris le nœud d’entrée, les nœuds d’action (messages), les nœuds de condition (embranchement), les nœuds d’attente (retards) et les critères de sortie. Ensuite, effectuez des tests avec les profils de test et publiez.
 
@@ -575,7 +575,7 @@ Quelle est la durée maximale pendant laquelle un profil peut rester dans le par
 
 ### Phase 4 : configuration de la gouvernance et de l’optimisation
 
-**Fonctions d’application :** AJO : Fréquence et règles métier, AJO : Gestion des conflits et des priorités, AJO : Expérimentation de contenu, RT-CDP : Application du consentement et de la gouvernance
+**Fonctionnalités d’application :** AJO : Fréquence et règles métier, AJO : Gestion des conflits et des priorités, AJO : Expérimentation de contenu, RT-CDP : Application du consentement et de la gouvernance
 
 Appliquez des limites de fréquence pour éviter les messages excessifs, attribuez des scores de priorité pour la résolution de conflits avec d’autres communications actives, configurez éventuellement des tests A/B dans les messages de parcours et vérifiez l’application du consentement.
 
@@ -637,7 +637,7 @@ Un message de parcours doit-il inclure un test A/B ou multivarié ?
 
 ### Phase 5 : configuration des rapports et de la surveillance
 
-**Fonctions d’application :** AJO : Rapports et analyse des performances, surveillance et observabilité, Rapports et analyses
+**Fonctionnalités de l’application :** AJO : Rapports et analyse des performances, Surveillance et observabilité, Rapports et analyses
 
 Surveillez l’exécution du parcours pendant et après l’activation, examinez les mesures de diffusion et d’engagement par étape, configurez des alertes pour les échecs de traitement de parcours et, éventuellement, créez une analyse de l’espace de travail CJA pour une visualisation approfondie de la funnel et des abandons.
 

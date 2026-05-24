@@ -3,7 +3,7 @@ title: Audience Collaboration
 description: Découvrez comment partager et faire correspondre des segments d’audience dans des sandbox ou des organisations à l’aide de la correspondance de segments.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: 7014849c-5e32-4ec3-a531-c0e8ce896f44
-source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6232'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Ce cas d’utilisation suit le modèle d’Audience Collaboration.
 
 Partagez et faites correspondre des segments d’audience dans des sandbox ou des organisations à l’aide de [!DNL Segment Match].
 
-**Chaîne de fonctions :** sélection de segments > Configuration des correspondances > Estimation des chevauchements > Partage d’audience > Activation
+**Plan d’exécution : sélection de segments** > Configuration des correspondances > Estimation des chevauchements > Partage d’audience > Activation
 
 ## Applications
 
@@ -91,11 +91,11 @@ Les applications suivantes sont utilisées dans ce modèle de cas d’utilisatio
 - **[!DNL Real-Time CDP]** — Fournit la fonctionnalité [!DNL Segment Match] pour le partage d&#39;audience sécurisé par la confidentialité, l&#39;évaluation d&#39;audience pour la création de segments et l&#39;activation de destination pour l&#39;utilisation en aval des audiences correspondantes.
 - **[!DNL Adobe Experience Platform]** : fournit l’infrastructure de données de base, notamment la résolution d’identité, l’unification des profils, la gouvernance des données et l’application du consentement dont [!DNL Segment Match] dépend.
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Obligatoire | Les organisations d’expéditeur et de destinataire doivent disposer de sandbox configurés avec des rôles et des autorisations appropriés. Les utilisateurs qui gèrent les [!DNL Segment Match] doivent disposer des autorisations nécessaires pour afficher et partager des segments, configurer des connexions et gérer les flux des partenaires. Les politiques ABAC doivent être configurées pour contrôler quels utilisateurs peuvent initier et accepter des partages de segments. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
 | Modélisation et préparation des données | Supposé en place | Les schémas XDM pour les profils et les événements doivent exister avec les groupes de champs requis. Les jeux de données de profil et d’événement doivent être créés et activés pour [!DNL Real-Time Customer Profile]. Le modèle de données doit prendre en charge les espaces de noms d’identité utilisés pour la correspondance de segments (généralement e-mail ou téléphone haché). | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) |
@@ -103,11 +103,11 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Configuration des identités et des profils | Obligatoire | Les espaces de noms d’identité doivent être configurés pour les identifiants utilisés dans la correspondance de segments. L’expéditeur et le destinataire doivent utiliser des espaces de noms d’identité compatibles. Les politiques de fusion doivent être configurées pour unifier correctement les profils. Des règles de liaison d’identités doivent être établies pour garantir une résolution précise des profils. | [Présentation d’Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) |
 | Définition et segmentation de l’audience | Obligatoire | Les audiences Source doivent être définies et évaluées avant de pouvoir être partagées via [!DNL Segment Match]. Les audiences doivent être créées à l’aide de [!DNL Segment Builder] ou [!DNL Audience Composition] une fois l’évaluation des lots terminée. Seules les audiences évaluées par lots sont éligibles au partage de [!DNL Segment Match]. | [Présentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home) |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
+| Fonctionnalité de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Recommandé | Les attributs calculés tels que la valeur d’achat de durée de vie, le score d’engagement ou l’affinité du produit peuvent créer des segments plus précis à partager. Des segments d’entrée de meilleure qualité conduisent à une collaboration d’audience plus précieuse. | [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview) |
 | Gestion du cycle de vie des données | Recommandé | Les politiques de consentement et de conservation des données garantissent que les segments partagés respectent les réglementations de confidentialité. Les politiques d’expiration des jeux de données permettent de gérer le cycle de vie des données d’audience reçues. L’application du consentement empêche le partage des profils qui se sont désinscrits. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
@@ -115,13 +115,13 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Surveillance et observabilité | Recommandé | La surveillance du processus de partage de [!DNL Segment Match], des tâches d’estimation de chevauchement et des flux de données d’activation permet de détecter rapidement les échecs. Les alertes peuvent être configurées pour les échecs de partage ou les taux de correspondance inattendus. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/home) |
 | Rapports et analyses | Recommandé | La mesure des performances des campagnes qui utilisent des audiences correspondantes valide la valeur de la collaboration. [!DNL Customer Journey Analytics] analyse peut comparer les performances des campagnes d’audience correspondantes aux populations témoins. | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Real-Time CDP]
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Évaluation d’audience | Phase 1 : sélection et préparation du segment | Évaluez l’appartenance à un segment à l’aide de l’évaluation par lots pour générer les audiences qui seront partagées via [!DNL Segment Match] |
 | Composition de l’audience | Phase 1 : sélection et préparation du segment | Vous pouvez éventuellement composer des audiences dérivées (classer, fractionner, exclure, enrichir) pour créer des segments plus ciblés à partager |
@@ -292,7 +292,7 @@ Les phases suivantes décrivent le processus de mise en œuvre de bout en bout d
 
 ### Phase 1 : sélection et préparation des segments
 
-**Fonction d’application :** [!DNL Real-Time CDP] : évaluation de l’audience, [!DNL Real-Time CDP] : composition de l’audience
+**Fonctionnalité d’application :** [!DNL Real-Time CDP] : évaluation de l’audience, [!DNL Real-Time CDP] : composition de l’audience
 
 Cette phase implique de définir et d’évaluer les segments d’audience qui seront partagés via [!DNL Segment Match]. Les segments sources doivent être entièrement évalués avec des populations non nulles avant de pouvoir être sélectionnés pour le partage. Cette phase couvre également la composition facultative de l’audience pour affiner les segments avant le partage.
 
@@ -351,7 +351,7 @@ Assurez-vous que les audiences sources dans le sandbox d’envoi utilisent des e
 
 ### Phase 2 : configuration de la correspondance et de la gouvernance
 
-**Fonction d’application :** [!DNL Real-Time CDP] : application du consentement et de la gouvernance
+**Fonctionnalité d’application :** [!DNL Real-Time CDP] : application du consentement et de la gouvernance
 
 Cette phase établit la connexion [!DNL Segment Match] entre les organisations ou les sandbox, configure les espaces de noms d’identité utilisés pour la correspondance et s’assure que les politiques de gouvernance des données permettent le partage. L’application de la gouvernance agit comme un point de contrôle de politique qui doit être effacé avant le partage des données de segment.
 
@@ -412,7 +412,7 @@ Cette phase établit la connexion [!DNL Segment Match] entre les organisations o
 
 ### Phase 3 : chevauchement des estimations
 
-**Fonction d’application :** [!DNL Real-Time CDP] : évaluation de l’audience (pour estimer le chevauchement)
+**Fonctionnalité d’application :** [!DNL Real-Time CDP] : évaluation d’audience (pour estimer le chevauchement)
 
 Cette phase exécute l’estimation du chevauchement entre les segments de l’expéditeur et la base de profils du destinataire. L’estimation du chevauchement fournit aux deux parties le volume et le pourcentage de correspondance attendus avant de s’engager à partager l’intégralité du segment, ce qui permet de prendre des décisions éclairées sur la valeur de la collaboration.
 
@@ -447,7 +447,7 @@ Cette phase exécute l’estimation du chevauchement entre les segments de l’e
 
 ### Phase 4 : partage des audiences
 
-**Fonction d’application :** [!DNL Real-Time CDP] : évaluation d’audience (pour l’exécution de partage)
+**Fonctionnalité d’application :** [!DNL Real-Time CDP] : évaluation d’audience (pour l’exécution de partage)
 
 Cette phase exécute le partage de segment réel de l’expéditeur au destinataire. L’expéditeur lance le partage pour les segments sélectionnés et le destinataire accepte le partage entrant. Une fois acceptée, l’audience correspondante apparaît dans la liste des audiences du destinataire en tant que nouvelle audience disponible pour l’activation en aval.
 
@@ -503,7 +503,7 @@ Exécutez le partage entre sandbox. L’audience correspondante apparaît dans l
 
 ### Phase 5 : activation des audiences correspondantes
 
-**Fonction d’application :** [!DNL Real-Time CDP]: Configuration de destination, [!DNL Real-Time CDP]: Audience Activation
+**Fonctionnalité d’application :** [!DNL Real-Time CDP] : Configuration de destination, [!DNL Real-Time CDP] : Audience Activation
 
 Cette phase active l’audience correspondante (côté récepteur) vers des destinations externes pour le ciblage, la suppression ou une utilisation en aval. L’audience correspondante est traitée comme toute autre audience dans le sandbox du destinataire et peut être activée via le workflow d’activation de destination standard.
 
