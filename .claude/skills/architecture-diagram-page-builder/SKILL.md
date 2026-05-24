@@ -71,7 +71,7 @@ Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informa
 
 8. **Flux de données de Principal/points d’intégration** — 3 à 7 puces décrivant les flux clés et les limites d’intégration affichés sur les diagrammes (par exemple, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Liens Experience League** — 3 à 6 liens vers la documentation Experience League pertinente pour une lecture plus approfondie. Chaque doit commencer par `https://experienceleague.adobe.com/`.
+9. **Liens Experience League** — 3 à 6 liens vers la documentation Experience League pertinente pour une lecture plus approfondie. Chaque doit commencer par `https://experienceleague.adobe.com/fr`.
 
    **Recommander les candidats en premier.** En fonction des solutions Adobe et de l’objectif de la page, proposez 4 à 8 articles Experience League plausibles (par exemple, les pages de destination ou d’aperçu canoniques pour chaque solution nommée, les guides d’intégration clés, les références de déploiement). Pour chaque suggestion, présentez :
    - Titre de l’article
@@ -176,7 +176,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 2. **Liens de modèle de cas d’utilisation** — Chaque lien de modèle dans le fichier pointe vers un fichier Markdown existant sous `/help/blueprints/use-case-patterns/`. Utilisez `Read` ou glob pour confirmer que chaque cible existe.
 
-3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/`.
+3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/fr`.
 
 4. **Emplacement de l&#39;entrée de table des matières** — La nouvelle entrée se trouve à l&#39;intérieur de la sous-section appropriée, utilise une mise en retrait de 4 espaces et le chemin correspond exactement à l&#39;emplacement du fichier généré.
 

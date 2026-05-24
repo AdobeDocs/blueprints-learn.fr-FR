@@ -157,7 +157,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 5. **Exhaustivité de FrontMATTER** — Le fichier de motifs comprend le titre, la description, la solution et l&#39;exl-id dans son frontMATTER YAML.
 
-6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/`).
+6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/fr`).
 
 Signalez à l’utilisateur les échecs de validation et corrigez-les avant de considérer la tâche comme terminée.
 
