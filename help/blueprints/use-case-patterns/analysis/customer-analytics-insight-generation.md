@@ -58,7 +58,7 @@ Optimisez l’allocation du budget marketing en identifiant les canaux et les ca
 
 - **KPI : Efficacité** revenus incrémentiels
 
-Consultez [ Optimiser les dépenses marketing et le retour sur investissement ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
+Consultez [&#x200B; Optimiser les dépenses marketing et le retour sur investissement &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
 
 ## Exemples de cas d’utilisation tactiques
 
@@ -101,8 +101,8 @@ Voir la section [Options d’implémentation](#implementation-options) pour obte
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Customer Journey Analytics](CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
-- **[!DNL Adobe Experience Platform](AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
+- **[!DNL Customer Journey Analytics] (CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
+- **[!DNL Adobe Experience Platform] (AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
 
 ## Fonctionnalités fondamentales
 
@@ -111,7 +111,7 @@ Les fonctionnalités fondamentales suivantes doivent être en place pour ce mod�
 | Fonctionnalité fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
 | Administration et gouvernance | Supposé en place | Profil de produit CJA configuré avec les autorisations de création d’espace de travail et d’accès aux vues de données. Jeux de données AEP accessibles à la connexion CJA. Utilisateurs affectés aux rôles CJA appropriés. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modélisation et préparation des données | Obligatoire | Les schémas et les jeux de données XDM qui seront connectés à CJA doivent exister dans AEP. La conception de schémas a un impact direct sur les dimensions et mesures disponibles dans les vues de données CJA. Les schémas d’événement nécessitent des champs d’horodatage ; les schémas de recherche nécessitent des champs clés. | [ Présentation du système XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Modélisation et préparation des données | Obligatoire | Les schémas et les jeux de données XDM qui seront connectés à CJA doivent exister dans AEP. La conception de schémas a un impact direct sur les dimensions et mesures disponibles dans les vues de données CJA. Les schémas d’événement nécessitent des champs d’horodatage ; les schémas de recherche nécessitent des champs clés. | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
 | Sources et collecte de données | Obligatoire | Les données doivent circuler dans les jeux de données AEP : événements web via Web SDK, événements d’application via Mobile SDK, événements de campagne AJO, données CRM via des connecteurs source. La richesse des analyses dépend de l’ampleur des données collectées. | [Présentation des sources](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | Configuration des identités et des profils | Obligatoire | La configuration de l’ID de personne dans la connexion CJA détermine la manière dont les événements sont regroupés dans les jeux de données. La combinaison d’identités entre appareils dans AEP améliore la capacité de CJA à créer des parcours client complets. L’espace de noms d’identité doit être configuré pour le champ ID de personne . | [Présentation d’Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Définition et segmentation de l’audience | Sans objet | CJA crée ses propres filtres et audiences dans le contexte d’analyse. Les audiences RT-CDP ne sont pas une condition préalable, bien que CJA puisse republier des audiences dans AEP via la publication d’audience (option C). | [Présentation de Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
@@ -126,7 +126,7 @@ Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, ma
 | Gestion du cycle de vie des données | Recommandé | Les politiques de conservation des jeux de données affectent les données historiques disponibles dans CJA. La rétention à long terme est généralement souhaitée pour Analytics afin d’activer les comparaisons d’une année sur l’autre et l’analyse des tendances à long terme. Configurez les TTL de jeux de données pour garantir une profondeur historique adéquate. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Étiquetage et application de l’utilisation des données | Recommandé | Les libellés de gouvernance sur les champs sensibles peuvent restreindre ce qui apparaît dans les vues de données CJA. Si des informations d’identification personnelles ou des données sensibles sont incluses dans la connexion CJA, les étiquettes de gouvernance des données garantissent un accès conforme et empêchent toute exposition non autorisée dans les tableaux de bord partagés. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | Surveillance et observabilité | Recommandé | L’intégrité de la connexion CJA et l’actualisation des données doivent être surveillées. Configurez des alertes pour les échecs de flux de données source et les problèmes d’ingestion afin de vous assurer que le CJA d’alimentation des données est fiable et à jour. | [Présentation d’Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapports et analyses | Inclus | Il s’agit de la mise en œuvre des rapports et des analyses. Lorsqu’un plan de référence pour un autre modèle inclut S5, utilisez ce plan de génération Customer Analytics et insight pour l’implémentation d’Analytics. | Présentation de [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Rapports et analyses | Inclus | Il s’agit de la mise en œuvre des rapports et des analyses. Lorsqu’un plan de référence pour un autre modèle inclut S5, utilisez ce plan de génération Customer Analytics et insight pour l’implémentation d’Analytics. | Présentation de [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Fonctionnalités de l’application
 
@@ -784,7 +784,7 @@ Cette section couvre les mécanismes de sécurisation, les pièges courants, les
 
 Les mécanismes de sécurisation et limites suivants s’appliquent à cette implémentation.
 
-- **Limites de connexion :** le nombre maximal de connexions par organisation est limité par les droits de SKU CJA. Une seule connexion peut inclure des jeux de données provenant d’un seul sandbox AEP. — [Mécanismes de sécurisation de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- **Limites de connexion :** le nombre maximal de connexions par organisation est limité par les droits de SKU CJA. Une seule connexion peut inclure des jeux de données provenant d’un seul sandbox AEP. — [Mécanismes de sécurisation de &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - **Limites des vues de données :** 5 000 dimensions et 5 000 mesures au maximum par vue de données. Maximum de 100 champs dérivés par vue de données avec jusqu’à 5 niveaux de fonctions imbriquées.
 - **Limites de Workspace :** maximum de 40 panneaux par projet. Les tableaux à structure libre prennent en charge jusqu’à 10 répartitions de dimension profondes. 50 000 lignes maximum par demande de rapport.
 - **Limites des cartes de performance :** 16 vignettes au maximum par carte de performance mobile.
