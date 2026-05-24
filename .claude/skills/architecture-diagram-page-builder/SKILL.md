@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Guidez la création de pages de diagramme d’architecture pour le référentiel de blueprints Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau diagramme d’architecture de niveau supérieur, d’une page d’architecture d’intégration ou d’une présentation de l’architecture d’application. Les pages Architecture couvrent les architectures AEP et d’application de niveau supérieur, ainsi que les points d’intégration principaux, mais pas les cas d’utilisation détaillés (ceux-ci appartiennent au créateur de modèles de cas d’utilisation). Gère l’ensemble du workflow : collecte des informations sur la page, génération du fichier Markdown, placement dans le dossier de rubrique approprié et mise à jour du fichier TOC.md.'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Les pages du diagramme d’architecture sont des **pages de style de référence
 - Une courte liste des flux de données principaux et des points d’intégration illustrés
 - Liens Experience League pour une lecture plus approfondie sur le domaine de l’application
 
-Ils ne sont **pas** l’endroit pour le contenu de cas d’utilisation en profondeur. Les KPI, les objectifs commerciaux, les exemples de cas d’utilisation tactique, les chaînes de fonctions et les récits personnels appartiennent plutôt aux pages de modèle de cas d’utilisation, générés via la compétence `use-case-pattern-builder`. Voir `references/scope-guardrails.md` pour les mécanismes de sécurisation complets.
+Ils ne sont **pas** l’endroit pour le contenu de cas d’utilisation en profondeur. Les KPI, les objectifs commerciaux, les exemples de cas d’utilisation tactique, les fonctionnalités et les récits personnels appartiennent plutôt aux pages de modèle de cas d’utilisation, générées via la compétence `use-case-pattern-builder`. Voir `references/scope-guardrails.md` pour les mécanismes de sécurisation complets.
 
 ## Lecture requise avant de commencer
 
@@ -71,7 +71,7 @@ Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informa
 
 8. **Flux de données de Principal/points d’intégration** — 3 à 7 puces décrivant les flux clés et les limites d’intégration affichés sur les diagrammes (par exemple, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Liens Experience League** — 3 à 6 liens vers la documentation Experience League pertinente pour une lecture plus approfondie. Chaque doit commencer par `https://experienceleague.adobe.com/fr`.
+9. **Liens Experience League** — 3 à 6 liens vers la documentation Experience League pertinente pour une lecture plus approfondie. Chaque doit commencer par `https://experienceleague.adobe.com/`.
 
    **Recommander les candidats en premier.** En fonction des solutions Adobe et de l’objectif de la page, proposez 4 à 8 articles Experience League plausibles (par exemple, les pages de destination ou d’aperçu canoniques pour chaque solution nommée, les guides d’intégration clés, les références de déploiement). Pour chaque suggestion, présentez :
    - Titre de l’article
@@ -95,7 +95,7 @@ Si l’un des éléments suivants apparaît dans le contenu prévu, avertissez l
 - KPI ou formules de mesure
 - Objectifs commerciaux ou narratifs de l’impact commercial
 - Exemples de cas d’utilisation tactiques (scénarios de personnalisation spécifiques, exemples de campagnes, etc.)
-- Chaînes de fonctions (style `A > B > C > D`)
+- Fonctionnalités (style `A > B > C > D`)
 - Storytelling piloté par les personas
 
 Si le contenu prévu reste dans la portée architecture-page (architecture de niveau supérieur, flux de données système, points d’intégration, topologie de déploiement, edge par rapport au hub), confirmez auprès de l’utilisateur et passez à la Phase 3.
@@ -176,7 +176,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 2. **Liens de modèle de cas d’utilisation** — Chaque lien de modèle dans le fichier pointe vers un fichier Markdown existant sous `/help/blueprints/use-case-patterns/`. Utilisez `Read` ou glob pour confirmer que chaque cible existe.
 
-3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/fr`.
+3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/`.
 
 4. **Emplacement de l&#39;entrée de table des matières** — La nouvelle entrée se trouve à l&#39;intérieur de la sous-section appropriée, utilise une mise en retrait de 4 espaces et le chemin correspond exactement à l&#39;emplacement du fichier généré.
 
@@ -192,4 +192,4 @@ Résolvez les problèmes de validation avant de considérer la tâche comme term
 - Les diagrammes d’architecture sont généralement SVG (préférés pour leur netteté et leur mise à l’échelle), mais PNG est acceptable pour les illustrations à source matricielle.
 - Les `class="modal-image"` et la chaîne de style intégrée `<img>` (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) sont nécessaires ; ils activent l’interaction modale-zoom d’Experience League.
 - Si l’utilisateur crée une page pour un tout nouveau dossier de rubrique qui n’existe pas encore, avertissez-le que TOC.md requiert une nouvelle sous-section de niveau supérieur sous `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Gérer cela comme une étape distincte avec l’approbation explicite de l’utilisateur.
-- Si le diagramme d’architecture documente de manière exhaustive un *cas d’utilisation unique de bout en bout* (avec des indicateurs de performance clés, des objectifs commerciaux, une chaîne de fonctions), redirigez l’utilisateur vers `use-case-pattern-builder`, qui n’est pas une page d’architecture.
+- Si le diagramme d’architecture documente de manière exhaustive un *cas d’utilisation unique de bout en bout* (avec des indicateurs de performance clés, des objectifs commerciaux et des fonctionnalités), redirigez l’utilisateur vers `use-case-pattern-builder`, qui n’est pas une page d’architecture.

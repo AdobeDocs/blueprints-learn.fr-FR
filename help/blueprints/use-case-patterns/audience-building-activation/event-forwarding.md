@@ -3,7 +3,7 @@ title: Transfert d’événement
 description: Découvrez comment transférer des données d’événement en temps réel collectées via Edge Network vers des destinations autres qu’Adobe à des fins d’analyse, de stockage ou de publicité.
 solution: Experience Platform
 exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6342'
 ht-degree: 0%
@@ -70,51 +70,51 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 
 ## Modèle de cas d’utilisation
 
-Cette section décrit le modèle et la chaîne de fonctions utilisés pour implémenter le transfert d’événement.
+Cette section décrit le modèle et le plan d’exécution utilisés pour implémenter le transfert d’événement.
 
 **Transfert d’événement** — Transférez les données d’événement en temps réel collectées via Edge Network vers des destinations autres qu’Adobe à des fins d’analyse, de stockage ou de publicité.
 
-**Chaîne De Fonctions:** Configuration De Flux De Données > Définition De Règle D’Événement > Mappage De Destination > Exécution Du Transfert > Surveillance
+**Plan D’Exécution : Configuration Du Flux De Données** > Définition De Règle D’Événement > Mappage De Destination > Transfert De L’Exécution > Surveillance
 
 ## Applications
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Experience Platform] (Edge Network)** : reçoit et achemine les données d’événement en temps réel depuis Web SDK, Mobile SDK ou l’API du serveur via les flux de données configurés
-- **[!DNL Adobe Experience Platform] (Transfert d’événement)** — Fournit le moteur de règles côté serveur pour évaluer, filtrer, transformer et transférer des données d’événement vers des destinations externes
-- **[!DNL Adobe Experience Platform] (Balises/Collecte de données)** — Gère le cycle de vie des propriétés de transfert d&#39;événement, les extensions, les règles et le workflow de publication
+- **[!DNL Adobe Experience Platform](Edge Network)** : reçoit et achemine les données d’événement en temps réel depuis Web SDK, Mobile SDK ou l’API du serveur via les flux de données configurés
+- **[!DNL Adobe Experience Platform](Transfert d’événement)** — Fournit le moteur de règles côté serveur pour évaluer, filtrer, transformer et transférer des données d’événement vers des destinations externes
+- **[!DNL Adobe Experience Platform](Balises/Collecte de données)** — Gère le cycle de vie des propriétés de transfert d&#39;événement, les extensions, les règles et le workflow de publication
 
-## Fonctions fondamentales
+## Fonctionnalités fondamentales
 
-Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonction, le statut indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
+Les fonctionnalités fondamentales suivantes doivent être en place pour ce modèle de cas d’utilisation. Pour chaque fonctionnalité, l’état indique si elle est généralement requise, supposée être préconfigurée ou non applicable.
 
-| Fonction fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
+| Fonctionnalité fondamentale | Etat | Ce qui doit être en place | Référence Experience League |
 | --- | --- | --- | --- |
-| Administration et gouvernance | Obligatoire | Un sandbox doit être actif avec les rôles utilisateur et les autorisations appropriés configurés. Les utilisateurs gérant le transfert d’événement ont besoin d’autorisations de collecte de données dans [!DNL Adobe Admin Console], notamment de droits pour gérer les propriétés, les extensions et les règles de transfert d’événement. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) |
-| Modélisation et préparation des données | Obligatoire | Les schémas XDM doivent être définis pour les données d’événement qui transitent par Edge Network. Le flux de données doit référencer un schéma XDM ExperienceEvent valide afin que les règles de transfert d’événement puissent accéder aux champs structurés pour le filtrage, la transformation et le mappage. | [&#x200B; Présentation du système XDM &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) |
-| Sources et collecte de données | Obligatoire | Un mécanisme de collecte de données doit être actif (Web SDK, Mobile SDK ou l’API Edge Network Server) et envoyer des événements par le biais d’un flux de données configuré. Le flux de données est la couche de routage de base qui connecte la collecte côté client au transfert d’événement côté serveur. | [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) |
+| Administration et gouvernance | Obligatoire | Un sandbox doit être actif avec les rôles utilisateur et les autorisations appropriés configurés. Les utilisateurs gérant le transfert d’événement ont besoin d’autorisations de collecte de données dans [!DNL Adobe Admin Console], notamment de droits pour gérer les propriétés, les extensions et les règles de transfert d’événement. | [Présentation du contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Modélisation et préparation des données | Obligatoire | Les schémas XDM doivent être définis pour les données d’événement qui transitent par Edge Network. Le flux de données doit référencer un schéma XDM ExperienceEvent valide afin que les règles de transfert d’événement puissent accéder aux champs structurés pour le filtrage, la transformation et le mappage. | [ Présentation du système XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Sources et collecte de données | Obligatoire | Un mécanisme de collecte de données doit être actif (Web SDK, Mobile SDK ou l’API Edge Network Server) et envoyer des événements par le biais d’un flux de données configuré. Le flux de données est la couche de routage de base qui connecte la collecte côté client au transfert d’événement côté serveur. | [Configurer les flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
 | Configuration des identités et des profils | Sans objet | Le transfert d’événement fonctionne sur les données d’événement brutes au niveau de la couche Edge Network, avant que la résolution d’identité ou l’unification de profil ne se produise. Les espaces de noms d’identité et les politiques de fusion ne sont pas requis, sauf si les événements transférés doivent également contribuer au profil client en temps réel (qui est une configuration de service de flux de données distincte, et non une préoccupation de transfert d’événement). | |
-| Définition et segmentation de l’audience | Sans objet | Le transfert d’événement traite les événements individuels en temps réel et n’évalue pas l’appartenance à l’audience. Le filtrage basé sur l’audience ne fait pas partie de la chaîne de fonctions de transfert d’événement. Si l’activation basée sur l’audience est nécessaire, consultez le plan de référence d’Audience Activation vers les destinations . | |
+| Définition et segmentation de l’audience | Sans objet | Le transfert d’événement traite les événements individuels en temps réel et n’évalue pas l’appartenance à l’audience. Le filtrage basé sur l’audience ne fait pas partie du plan d’exécution du transfert d’événement. Si l’activation basée sur l’audience est nécessaire, consultez le plan de référence d’Audience Activation vers les destinations . | |
 
-## Fonctions annexes
+## Fonctionnalités de prise en charge
 
 Les fonctionnalités suivantes complètent ce modèle de cas d’utilisation, mais ne sont pas requises pour l’exécution principale.
 
-| Fonction de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
+| Fonctionnalité de support | Etat | Pourquoi est-ce important ? | Référence Experience League |
 | --- | --- | --- | --- |
 | Création d’attributs calculés/dérivés | Sans objet | Le transfert d’événement fonctionne sur les données d’événement brutes, et non sur les attributs calculés au niveau du profil. Les attributs calculés ne sont pas disponibles dans le contexte du transfert d’événement. | |
-| Gestion du cycle de vie des données | Recommandé | Si des données d’événement sont également ingérées dans des jeux de données AEP (via le même flux de données), des politiques de conservation des données (expiration) doivent être configurées pour ces jeux de données afin de gérer les coûts de stockage et la conformité à la réglementation. Le transfert d’événement lui-même ne stocke pas de données, contrairement au chemin d’ingestion AEP parallèle. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/home) |
-| Étiquetage et application de l’utilisation des données | Recommandé | Bien que les règles de transfert d’événement fournissent un filtrage au niveau du champ (vous permettant d’exclure des données sensibles des payloads transférées), l’application de libellés d’utilisation des données aux schémas et jeux de données sous-jacents garantit que les politiques de gouvernance sont appliquées si les mêmes données sont utilisées pour l’activation ou la personnalisation de l’audience. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home) |
-| Surveillance et observabilité | Inclus | La surveillance est essentielle pour le transfert d’événement. Le tableau de bord de surveillance du transfert d’événement offre une visibilité sur les taux de succès du transfert, les taux d’erreur et les codes de réponse de destination. Les alertes doivent être configurées pour les échecs de destination. | [Surveillance du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/monitoring) |
-| Rapports et analyses | Recommandé | Si les événements transférés alimentent une plateforme d’analyse tierce, pensez à connecter les mêmes jeux de données d’événement AEP à CJA pour obtenir une vue cross-canal unifiée. Cela permet de comparer les analyses côté Adobe et côté tiers. | Présentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Gestion du cycle de vie des données | Recommandé | Si des données d’événement sont également ingérées dans des jeux de données AEP (via le même flux de données), des politiques de conservation des données (expiration) doivent être configurées pour ces jeux de données afin de gérer les coûts de stockage et la conformité à la réglementation. Le transfert d’événement lui-même ne stocke pas de données, contrairement au chemin d’ingestion AEP parallèle. | [Présentation de la gestion avancée du cycle de vie des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Étiquetage et application de l’utilisation des données | Recommandé | Bien que les règles de transfert d’événement fournissent un filtrage au niveau du champ (vous permettant d’exclure des données sensibles des payloads transférées), l’application de libellés d’utilisation des données aux schémas et jeux de données sous-jacents garantit que les politiques de gouvernance sont appliquées si les mêmes données sont utilisées pour l’activation ou la personnalisation de l’audience. | [Présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Surveillance et observabilité | Inclus | La surveillance est essentielle pour le transfert d’événement. Le tableau de bord de surveillance du transfert d’événement offre une visibilité sur les taux de succès du transfert, les taux d’erreur et les codes de réponse de destination. Les alertes doivent être configurées pour les échecs de destination. | [Surveillance du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
+| Rapports et analyses | Recommandé | Si les événements transférés alimentent une plateforme d’analyse tierce, pensez à connecter les mêmes jeux de données d’événement AEP à CJA pour obtenir une vue cross-canal unifiée. Cela permet de comparer les analyses côté Adobe et côté tiers. | Présentation de [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Fonctions d&#39;application
+## Fonctionnalités de l’application
 
-Ce plan exerce les fonctions suivantes à partir du catalogue des fonctions d&#39;application. Les fonctions sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
+Ce plan utilise les fonctionnalités suivantes du catalogue des fonctionnalités de l&#39;application. Les fonctionnalités sont associées à des phases d’implémentation plutôt qu’à des étapes numérotées.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-| Fonction | Phase de mise en œuvre | Description |
+| Fonctionnalité | Phase de mise en œuvre | Description |
 | --- | --- | --- |
 | Configuration du flux de données | Phase 1 : configuration du flux de données | Configurer un flux de données pour recevoir des événements Edge Network et activer le service de transfert d’événement |
 | Configuration de la propriété Transfert d’événement | Phase 2 : propriété de transfert d’événement et extensions | Créer une propriété de transfert d’événement et installer des extensions spécifiques à la destination |
@@ -153,7 +153,7 @@ L’inconvénient est que la disponibilité de l’extension détermine les dest
 
 **Considérations principales :**
 
-- La disponibilité des extensions varie : consultez le [catalogue d’extensions de la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/overview) avant de planifier.
+- La disponibilité des extensions varie : consultez le [catalogue d’extensions de la collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview) avant de planifier.
 - Les extensions sont conservées par Adobe ou ses partenaires ; les mises à jour peuvent introduire des modifications importantes qui nécessitent des ajustements de règles
 - Certaines extensions ne prennent en charge que des types d’événements spécifiques ou nécessitent des mappages de champs XDM spécifiques
 - Les extensions gèrent l’authentification et la gestion des informations d’identification dans leur interface utilisateur de configuration
@@ -175,11 +175,11 @@ L’inconvénient est que la disponibilité de l’extension détermine les dest
 
 **Experience League:**
 
-- [Catalogue des extensions de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/overview)
-- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extension Google Cloud Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extension AWS](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extension Snowflake](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Catalogue des extensions de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extension Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extension AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extension Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### Option B : transfert d’événement webhook personnalisé (API de récupération)
 
@@ -218,8 +218,8 @@ Le compromis est un effort de mise en œuvre plus important et une maintenance c
 
 **Experience League:**
 
-- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Secrets de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Secrets de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### Option C : hybride (extensions + webhooks personnalisés)
 
@@ -253,8 +253,8 @@ Cette approche optimise la couverture tout en réduisant le développement perso
 
 **Experience League:**
 
-- [Présentation du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/overview)
-- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Présentation du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### Comparaison des options
 
@@ -286,7 +286,7 @@ Les phases suivantes décrivent le processus de mise en œuvre de bout en bout d
 
 ### Phase 1 : configuration du flux de données
 
-**Fonction d’application :** AEP : configuration du flux de données
+**Fonctionnalité de l’application :** AEP : configuration du flux de données
 
 **Ce que vous allez configurer :** un flux de données qui reçoit des événements de votre implémentation de SDK Web, de Mobile SDK ou de l’API Server et les achemine vers Edge Network où les règles de transfert d’événement peuvent les traiter. Si le transfert d’événement est ajouté à un déploiement de collecte de données existant, vous activerez le transfert d’événement sur le flux de données existant.
 
@@ -325,13 +325,13 @@ Les phases suivantes décrivent le processus de mise en œuvre de bout en bout d
 
 **Documentation Experience League :**
 
-- [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
-- [Présentation des flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview)
-- [Présentation du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/overview)
+- [Configurer les flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Présentation des flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
+- [Présentation du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
 
 ### Phase 2 : propriété et extensions du transfert d’événement
 
-**Fonction d’application :** AEP : configuration de la propriété de transfert d’événement
+**Fonctionnalité d’application :** AEP : configuration de la propriété de transfert d’événement
 
 **Ce que vous allez configurer :** une propriété de transfert d’événement dans l’interface utilisateur de la collecte de données, ainsi que les extensions nécessaires à vos destinations cibles. La propriété de transfert d’événement est le conteneur de toutes les règles, de tous les éléments de données et de toutes les extensions qui définissent votre logique de transfert côté serveur.
 
@@ -372,14 +372,14 @@ Les phases suivantes décrivent le processus de mise en œuvre de bout en bout d
 
 **Documentation Experience League :**
 
-- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Catalogue des extensions de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/overview)
-- [Secrets de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/secrets)
-- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Catalogue des extensions de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [Secrets de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Phase 3 : définition des règles d’événement
 
-**Fonction d’application :** AEP : Définition de règle d’événement, AEP : Mappage de destination
+**Fonctionnalité d’application :** AEP : Définition de règle d’événement, AEP : Mappage de destination
 
 **Éléments à configurer :** règles qui évaluent les données d’événement entrantes, appliquent des conditions pour filtrer les événements à transférer et définissent des actions qui envoient les données aux points d’entrée de destination. Chaque règle se compose de conditions (quand déclencher) et d’actions (que faire). Les éléments de données extraient et transforment des valeurs de la payload d’événement XDM pour les utiliser dans des conditions de règle et des configurations d’action.
 
@@ -448,14 +448,14 @@ Créez des règles distinctes pour chaque destination. Les règles basées sur d
 
 **Documentation Experience League :**
 
-- [Règles de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/overview)
-- [Éléments de données dans le transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/data-elements)
-- [Règles de la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/rules)
-- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Règles de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Éléments de données dans le transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
+- [Règles de la collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
+- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Phase 4 : publication et activation
 
-**Fonction d’application :** AEP : transfert d’exécution
+**Fonctionnalité de l’application :** AEP : transfert d’exécution
 
 **Ce que vous allez configurer :** workflow de publication qui promeut vos règles de transfert d’événement du développement à la production en passant par l’évaluation. Le transfert d’événement utilise le même modèle de publication basé sur une bibliothèque que les balises, avec des environnements et des artefacts de build qui contrôlent la configuration active au niveau d’Edge Network.
 
@@ -484,14 +484,14 @@ Créez des règles distinctes pour chaque destination. Les règles basées sur d
 
 **Documentation Experience League :**
 
-- [Présentation de la publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview)
-- [Bibliothèques](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/libraries)
+- [Présentation de la publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
+- [Bibliothèques](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
 - [Environnements](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
-- [Versions](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/builds)
+- [Versions](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
 
 ### Phase 5 : suivi et validation
 
-**Fonction d’application :** AEP : Surveillance
+**Fonctionnalité de l’application :** AEP : Surveillance
 
 **Éléments à configurer :** surveiller les tableaux de bord et les processus de validation pour confirmer que les événements sont transférés avec succès, diagnostiquer les échecs et maintenir l’intégrité opérationnelle du déploiement du transfert d’événement.
 
@@ -521,9 +521,9 @@ Créez des règles distinctes pour chaque destination. Les règles basées sur d
 
 **Documentation Experience League :**
 
-- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home)
-- [Présentation des alertes](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview)
+- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
+- [Présentation des alertes](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 ## Considérations relatives à la mise en œuvre
 
@@ -605,26 +605,26 @@ Les ressources suivantes apportent des détails supplémentaires sur les sujets 
 
 **Transfert d’événement**
 
-- [Présentation du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/overview)
-- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Secrets de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/secrets)
+- [Présentation du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Secrets de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
 
 **Extensions de transfert d’événement**
 
-- [Catalogue des extensions côté serveur](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/overview)
-- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extension Google Cloud Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extension AWS](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extension Snowflake](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Extension Google Ads Enhanced Conversions](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Extension Mailchimp](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [Catalogue des extensions côté serveur](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extension Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extension AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extension Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Extension Google Ads Enhanced Conversions](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Extension Mailchimp](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **Collecte de données et Edge Network**
 
-- [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
-- [Présentation des flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview)
-- [Présentation de Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home)
-- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview)
-- [Présentation des balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home)
+- [Configurer les flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Présentation des flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
+- [Présentation de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [Présentation des balises](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)

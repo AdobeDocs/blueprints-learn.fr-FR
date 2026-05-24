@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Guidez la création de contenu de modèle de cas d’utilisation pour le référentiel de plans directeurs Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau modèle de cas d’utilisation, de la création de contenu de guide d’implémentation ou lorsque l’utilisateur mentionne l’ajout de modèles au site de plans directeurs. Gère l’ensemble du workflow : collecte des informations de modèle, génération du fichier Markdown avec la structure de modèle appropriée et mise à jour de toutes les pages de référence croisée (TOC.md, overview.md).'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informa
 
 4. **Solutions Adobe principales** — Les produits Adobe sont au cœur de ce modèle. Choisissez l’une des options suivantes : Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition ou d’autres, selon les besoins.
 
-5. **Étapes de chaîne de fonction** : 3 à 6 phases séquentielles qui décrivent le flux d’exécution du modèle, séparées par des `>`. Exemple : « Ingestion D’Événements > Entrée De Parcours > Évaluation De Conditions > Diffusion De Messages > Rapports ».
+5. **Étapes du plan d’exécution** : 3 à 6 phases séquentielles qui décrivent le flux d’exécution du modèle, séparées par des `>`. Exemple : « Ingestion D’Événements > Entrée De Parcours > Évaluation De Conditions > Diffusion De Messages > Rapports ».
 
 6. **Objectifs commerciaux pris en charge** — Un ou plusieurs objectifs commerciaux de l’ensemble existant visé par le `/help/blueprints/business-objectives/`. Chaque doit inclure le nom de l’objectif, le sous-dossier de la catégorie et le nom de fichier. Vérifiez que les fichiers référencés existent avant de générer le contenu.
 
@@ -58,12 +58,12 @@ Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informa
 
 - Paragraphes de présentation des cas d’utilisation (3 à 5 paragraphes ; si ces paragraphes ne sont pas fournis, rédigez-les à partir des autres informations)
 - Liste des applications avec des descriptions du rôle de chaque application Adobe
-- Tableau des fonctions de base (fonction, statut, ce qui doit être en place, référence Experience League)
-- Table des fonctions annexes (fonction, statut, pourquoi cela importe, référence Experience League)
-- Tables des fonctions d&#39;application (une par application, avec fonction, phase d&#39;implémentation, description)
+- Tableau des fonctionnalités de base (fonctionnalité, statut, ce qui doit être en place, référence Experience League)
+- Tableau des fonctionnalités de prise en charge (fonctionnalité, statut, pourquoi est-ce important, référence Experience League)
+- Tableaux des fonctionnalités de l’application (un par application, avec fonctionnalité, phase d’implémentation, description)
 - Liste de contrôle des conditions préalables
 
-Si l’utilisateur ne fournit pas les éléments facultatifs , générez des valeurs par défaut raisonnables en fonction de la catégorie de modèle, des solutions et de la chaîne de fonction.
+Si l’utilisateur ne fournit pas les éléments facultatifs , générez des valeurs par défaut raisonnables en fonction de la catégorie de modèle, des solutions et du plan d’exécution.
 
 ## Phase 2 : génération de contenu
 
@@ -89,15 +89,15 @@ Utilisez le modèle de `references/pattern-template.md` et renseignez toutes les
 
 6. **Indicateurs clés de performance** — Tableau avec indicateurs clés de performance, description, colonnes de mesure.
 
-7. **Modèle de cas d’utilisation** — Paragraphe de description et chaîne de fonction.
+7. **Modèle de cas d’utilisation** — Paragraphe de description et plan d’exécution.
 
 8. **Applications** — Liste des applications Adobe avec formatage et descriptions `[!DNL ...]`.
 
-9. **Fonctions fondamentales** — Tableau avec colonnes : Fonction fondamentale, Statut, Ce qui doit être en place, Référence Experience League. Valeurs de statut : Obligatoire, Supposé en place, Sans objet.
+9. **Fonctionnalités fondamentales** — Tableau avec colonnes : Fonctionnalité fondamentale, Statut, Ce qui doit être en place, Référence Experience League. Valeurs de statut : Obligatoire, Supposé en place, Sans objet.
 
-10. **Fonctions annexes** — Tableau avec colonnes : fonction annexe, statut, pourquoi est-ce important, référence Experience League. Valeurs de statut : Recommandé, Inclus, Sans objet.
+10. **Fonctionnalités de prise en charge** — Tableau avec colonnes : Fonctionnalité de prise en charge, Statut, Pourquoi est-ce important, Référence Experience League. Valeurs de statut : Recommandé, Inclus, Sans objet.
 
-11. **Fonctions d’application** — Une table par application avec des colonnes : fonction, phase d’implémentation, description.
+11. **Fonctionnalités de l’application** — Un tableau par application avec des colonnes : fonctionnalité, phase d’implémentation, description.
 
 12. **Conditions préalables** — Liste de contrôle utilisant la syntaxe `- [ ]`.
 
@@ -157,7 +157,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 5. **Exhaustivité de FrontMATTER** — Le fichier de motifs comprend le titre, la description, la solution et l&#39;exl-id dans son frontMATTER YAML.
 
-6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/fr`).
+6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/`).
 
 Signalez à l’utilisateur les échecs de validation et corrigez-les avant de considérer la tâche comme terminée.
 

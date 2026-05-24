@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # Pages à mettre à jour lors de l’ajout d’un modèle de cas d’utilisation
@@ -64,5 +64,5 @@ Lorsqu’un nouveau modèle de cas d’utilisation est créé, les pages suivant
 - [ Le fichier ] utilise la convention de dénomination kebab-case
 - [ ] Tous les liens Experience League sont des URL valides
 - [ ] noms de produits Adobe utilisent la syntaxe `[!DNL ...]`
-- [ ] chaîne de fonction utilise ` > ` format de séparateur
+- [ ] plan d&#39;exécution utilise ` > ` format séparateur
 - [ ] fichier pattern comprend toutes les sections requises (voir pattern-template.md)

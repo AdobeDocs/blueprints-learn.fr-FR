@@ -4,25 +4,20 @@ description: Explorez les principaux objectifs commerciaux, les modèles d’uti
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# Objectifs commerciaux, cas d’utilisation et diagrammes d’architecture de Customer Experience Orchestration
+# Cas d’utilisation et diagrammes d’architecture de Customer Experience Orchestration
 
-Ce site contient **Objectifs commerciaux clés** qui décrivent des exemples de valeur commerciale principale et d’objectifs pouvant être atteints avec Adobe Experience Platform et les applications. **Modèles de cas d’utilisation** décrivez les fonctionnalités courantes des plateformes et des applications avec des approches d’implémentation répétables. **Cas d’utilisation du secteur** appliquez des modèles à des scénarios d’entreprise spécifiques à la verticale. Les **schémas et plans directeurs d’architecture** sont des schémas de référence d’architecture visuelle et de flux de données qui illustrent les points d’intégration du système, les flux de données et de contenu et la séquence d’opérations, fournissant ainsi une référence technique pour la conception de solutions. Ensemble, ces couches relient la valeur commerciale aux dépendances et à l’architecture d’implémentation.
+Ce site contient **Objectifs commerciaux clés** qui décrivent des exemples de valeur commerciale principale et d’objectifs pouvant être atteints avec Adobe Experience Platform et les applications. **Modèles de cas d’utilisation** décrivez les fonctionnalités courantes des plateformes et des applications avec des approches d’implémentation répétables. **Exemples de cas d’utilisation du secteur** appliquez des modèles à des scénarios métier verticaux spécifiques. Les **schémas et plans directeurs d’architecture** sont des schémas de référence d’architecture visuelle et de flux de données qui illustrent les points d’intégration du système, les flux de données et de contenu et la séquence d’opérations, fournissant ainsi une référence technique pour la conception de solutions. Ensemble, ces couches relient la valeur commerciale aux dépendances et à l’architecture d’implémentation.
 
 ## Objectifs commerciaux clés
 
@@ -45,7 +40,7 @@ Résultats stratégiques que les organisations cherchent à atteindre par le bia
 
 ## Modèles de cas d’utilisation
 
-Approches d’implémentation reproductibles qui décrivent des fonctionnalités spécifiques, la chaîne de fonction qui les fournit et les applications impliquées.
+Approches de mise en œuvre reproductibles qui décrivent comment obtenir un résultat spécifique avec les fonctionnalités associées et les composants d’application qui les fournissent.
 
 <table>
 <tr>
@@ -62,7 +57,7 @@ Approches d’implémentation reproductibles qui décrivent des fonctionnalités
 
 [Afficher tous les modèles de cas d’utilisation](use-case-patterns/overview.md)
 
-## Explorer par secteur
+## Explorer des exemples de cas d’utilisation par secteur
 
 Cas d’utilisation adaptés à des secteurs spécifiques, chacun associé à des modèles d’implémentation et à des objectifs métier.
 
