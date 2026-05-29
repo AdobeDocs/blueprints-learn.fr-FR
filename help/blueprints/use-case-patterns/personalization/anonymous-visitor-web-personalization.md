@@ -3,7 +3,7 @@ title: Personalization Web de visiteur anonyme
 description: Découvrez comment diffuser du contenu web personnalisé aux visiteurs et visiteuses non identifiés en fonction de signaux comportementaux au cours de la session.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -108,7 +108,7 @@ Les applications suivantes sont utilisées dans ce modèle de cas d’utilisatio
 
 L’architecture de référence suivante illustre la manière dont les signaux de visiteur anonyme sont collectés en périphérie, évalués par rapport aux règles d’audience et utilisés pour diffuser du contenu personnalisé.
 
-![Architecture de référence pour l’activation et la personnalisation anonymes des audiences](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+![Architecture de référence pour l’activation et la personnalisation anonymes des audiences](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Fonctionnalités fondamentales
 

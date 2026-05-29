@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 157
 ht-degree: 100%
@@ -35,7 +35,7 @@ Consultez la documentation suivante pour obtenir des conseils sur la mise en œu
 
 ## Architecture des plans directeurs de Customer Journey Analytics
 
-![Diagramme d’architecture](assets/CJA.svg){zoomable="yes"}
+![Diagramme d’architecture](assets/CJA.png){zoomable="yes"}
 
 ## Diagramme des mécanismes de sécurisation pour les plans directeurs de Customer Journey Analytics
 

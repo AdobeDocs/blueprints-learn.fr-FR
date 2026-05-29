@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Lorsqu’un prospect montre clairement l’intérêt de la solution, il indique 
 
 Comme l’illustre le diagramme suivant, vous pouvez collecter des détails dans des formulaires ou par le biais de l’activation LinkedIn et qualifier une intention de solution lorsqu’une interaction avec un chat-robot s’est produite.
 
-parcours du groupe d&#39;achat![&#128279;](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+parcours du groupe d&#39;achat![&#128279;](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 Lorsque le pourcentage d&#39;achèvement du groupe d&#39;achats est suffisamment élevé, vous partagez le groupe avec l&#39;équipe des ventes via SQL ou un SOL pour convertir les leads du compte en une vente terminée.
 

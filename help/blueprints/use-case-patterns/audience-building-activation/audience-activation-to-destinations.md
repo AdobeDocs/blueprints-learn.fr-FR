@@ -3,7 +3,7 @@ title: Activation de l’audience vers les destinations
 description: Découvrez comment évaluer et publier des segments d’audience vers des destinations externes à des fins de ciblage ou de suppression à l’aide d’Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Améliorez le retour sur investissement marketing grâce à un meilleur ciblage,
 
 L’architecture de référence suivante illustre la manière dont les données d’audience et de profil circulent de Real-Time CDP vers les destinations d’entreprise, y compris l’espace de stockage, les points d’entrée de flux continu et les applications SaaS.
 
-![Architecture de référence pour l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/assets/known_activation.svg)
+![Architecture de référence pour l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## Fonctionnalités fondamentales
 

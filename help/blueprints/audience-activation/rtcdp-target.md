@@ -34,7 +34,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 37%
@@ -75,15 +75,15 @@ ht-degree: 37%
 
 Architecture
 
-![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/RTCDP+Target.svg)
+![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/RTCDP+Target.png)
 
 Détails de la séquence
 
-![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/RTCDP+Target_flow.svg)
+![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/RTCDP+Target_flow.png)
 
 Architecture d’aperçu
 
-![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/personalization_with_apps.svg)
+![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](assets/personalization_with_apps.png)
 
 ## Documentation connexe
 
