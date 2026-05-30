@@ -62,7 +62,7 @@ Grâce à l’engagement basé sur les comptes, les spécialistes marketing peuv
 
 * Pour connaître les étapes d’implémentation de Real-time Customer Data Platform B2B edition, consultez la documentation [Prise en main de Real-Time Customer Data Platform B2B Editiond](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
 * Pour connaître les étapes de création d’une audience de compte, consultez la documentation [Audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
-* Pour connaître les étapes d’Audience Activation de compte, consultez la documentation [ Activer les audiences de compte ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
+* Pour connaître les étapes d’Audience Activation de compte, consultez la documentation [&#x200B; Activer les audiences de compte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
    * Mappage obligatoire pour la destination [(Entreprises) Audiences appariées LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Considérations relatives à la mise en œuvre
