@@ -78,9 +78,9 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** : reçoit et achemine les données d’événement en temps réel depuis Web SDK, Mobile SDK ou l’API du serveur via les flux de données configurés
-- **[!DNL Adobe Experience Platform](Transfert d’événement)** — Fournit le moteur de règles côté serveur pour évaluer, filtrer, transformer et transférer des données d’événement vers des destinations externes
-- **[!DNL Adobe Experience Platform](Balises/Collecte de données)** — Gère le cycle de vie des propriétés de transfert d&#39;événement, les extensions, les règles et le workflow de publication
+- **[!DNL Adobe Experience Platform] (Edge Network)** : reçoit et achemine les données d’événement en temps réel depuis Web SDK, Mobile SDK ou l’API du serveur via les flux de données configurés
+- **[!DNL Adobe Experience Platform] (Transfert d’événement)** — Fournit le moteur de règles côté serveur pour évaluer, filtrer, transformer et transférer des données d’événement vers des destinations externes
+- **[!DNL Adobe Experience Platform] (Balises/Collecte de données)** — Gère le cycle de vie des propriétés de transfert d&#39;événement, les extensions, les règles et le workflow de publication
 
 ## Documentation connexe
 

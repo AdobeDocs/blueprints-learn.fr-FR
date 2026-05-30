@@ -18,7 +18,7 @@ Le parcours cross-canal avec prise de décision est le modèle d’orchestration
 
 ## Modèle de cas d’utilisation
 
-parcours cross-canal avec prise de décision ****
+parcours cross-canal avec prise de décision **&#x200B;**
 
 Orchestrez un parcours multicanal à plusieurs étapes qui incorpore la prise de décision en temps réel sur un ou plusieurs nœuds pour sélectionner le canal, le contenu ou l’offre optimal.
 
@@ -92,10 +92,10 @@ Utilisez les indicateurs de performance clés suivants pour mesurer l’efficaci
 
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** : orchestration des Parcours (conception de zone de travail à plusieurs étapes, conditions d’entrée, attentes, conditions, critères de sortie), création de messages sur plusieurs canaux, configuration de la surface de canal, gestion des conflits et des priorités
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** : orchestration des Parcours (conception de zone de travail à plusieurs étapes, conditions d’entrée, attentes, conditions, critères de sortie), création de messages sur plusieurs canaux, configuration de la surface de canal, gestion des conflits et des priorités
 - **[!DNL Adobe Journey Optimizer]Decisioning** — Gestion des offres et des éléments de contenu, règles d&#39;éligibilité, stratégies de classement (priorité, formule, IA), politiques de décision, emplacements, offres de secours
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** — Évaluation des audiences pour les segments d’entrée sur le parcours et d’éligibilité des offres, enrichissement du profil avec des attributs calculés et des scores de propension, application du consentement et de la gouvernance
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — Banque de profils client en temps réel, Service d’identités pour la résolution cross-canal, la modélisation des données et l’infrastructure d’ingestion
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — Évaluation des audiences pour les segments d’entrée sur le parcours et d’éligibilité des offres, enrichissement du profil avec des attributs calculés et des scores de propension, application du consentement et de la gouvernance
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — Banque de profils client en temps réel, Service d’identités pour la résolution cross-canal, la modélisation des données et l’infrastructure d’ingestion
 
 ## Documentation connexe
 

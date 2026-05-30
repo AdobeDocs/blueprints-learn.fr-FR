@@ -9,7 +9,7 @@ ht-degree: 48%
 
 Ce fichier contient le modèle Markdown complet pour une page de modèle de cas d’utilisation. Remplacez toutes les valeurs `{{placeholder}}` par le contenu réel lors de la génération d’un nouveau modèle.
 
----
+&#x200B;---
 
 ## Modèle
 
@@ -103,7 +103,7 @@ The following resources provide additional detail on the capabilities used in th
 - [{{Link text}}]({{URL}})
 ````
 
----
+&#x200B;---
 
 ## Remarques sur l’utilisation de ce modèle
 

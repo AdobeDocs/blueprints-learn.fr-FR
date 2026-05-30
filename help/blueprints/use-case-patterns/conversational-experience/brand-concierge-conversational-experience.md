@@ -105,9 +105,9 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
 - **[!DNL Brand Concierge]** : application d’expérience de conversation optimisée par l’IA fournissant l’agent orchestrator, Product Advisor Agent, l’agent de conseil sur le site, la gouvernance de marque et l’analyse de conversation
-- **[!DNL Adobe Experience Platform](AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
-- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
+- **[!DNL Adobe Experience Platform] (AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
+- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
 
 ## Documentation connexe
 
-Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.
+Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [&#128279;](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.

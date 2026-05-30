@@ -88,9 +88,9 @@ Les indicateurs de performance clés suivants permettent de mesurer l’efficaci
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
-- **[!DNL Adobe Experience Platform](AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
+- **[!DNL Adobe Journey Optimizer] (AJO)** : configuration du canal web, configuration du canal in-app, configuration du canal de carte de contenu, prise de décision (sélection d’offres et classement), création de messages (création de contenu personnalisé), exécution de campagnes, expérimentation de contenu et création de rapports
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation d’audience (Edge, streaming et lot), recherche de profil en temps réel via Edge Network, enrichissement du profil avec des attributs calculés et des scores de propension
+- **[!DNL Adobe Experience Platform] (AEP)** — Banque de profils, service d’identités, Web SDK, Mobile SDK, configuration des flux de données, diffusion sur le réseau Edge
 
 ## Documentation connexe
 

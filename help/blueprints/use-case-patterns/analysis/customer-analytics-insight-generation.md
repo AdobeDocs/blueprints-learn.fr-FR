@@ -66,7 +66,7 @@ Optimisez l’allocation du budget marketing en identifiant les canaux et les ca
 
 - **KPI : Efficacité** revenus incrémentiels
 
-Consultez [ Optimiser les dépenses marketing et le retour sur investissement ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
+Consultez [&#x200B; Optimiser les dépenses marketing et le retour sur investissement &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) pour plus d’informations sur cet objectif commercial.
 
 ## Exemples de cas d’utilisation tactiques
 
@@ -99,8 +99,8 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Customer Journey Analytics](CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
-- **[!DNL Adobe Experience Platform](AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
+- **[!DNL Customer Journey Analytics] (CJA)** : connexions, vues de données, analyse de l’espace de travail, analyse guidée, mesures calculées, tableaux de bord, publication d’audiences et analyse de contenu
+- **[!DNL Adobe Experience Platform] (AEP)** : lac de données, jeux de données, schémas XDM, données de profil et d’événement qui alimentent les connexions CJA
 
 ## Documentation connexe
 

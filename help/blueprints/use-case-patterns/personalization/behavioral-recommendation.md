@@ -85,9 +85,9 @@ Les indicateurs de performance clés suivants permettent de mesurer l’efficaci
 
 Les applications suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Prise de décision** — Stratégies de sélection, modèles de classement, catalogues d’éléments et politiques de décision qui évaluent les signaux comportementaux et renvoient les éléments les plus pertinents pour chaque visiteur
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Accumulation des données de profil comportemental, évaluation de l’audience pour la portée des recommandations et attributs calculés pour la notation de l’affinité comportementale
-- **[!DNL Adobe Experience Platform](AEP)** — Ingestion d’événements comportementaux via [!DNL Web SDK] et [!DNL Mobile SDK], traitement des [!DNL Edge Network], gestion des schémas XDM pour les données d’événement et de catalogue
+- **[!DNL Adobe Journey Optimizer] (AJO) Prise de décision** — Stratégies de sélection, modèles de classement, catalogues d’éléments et politiques de décision qui évaluent les signaux comportementaux et renvoient les éléments les plus pertinents pour chaque visiteur
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Accumulation des données de profil comportemental, évaluation de l’audience pour la portée des recommandations et attributs calculés pour la notation de l’affinité comportementale
+- **[!DNL Adobe Experience Platform] (AEP)** — Ingestion d’événements comportementaux via [!DNL Web SDK] et [!DNL Mobile SDK], traitement des [!DNL Edge Network], gestion des schémas XDM pour les données d’événement et de catalogue
 
 ## Documentation connexe
 

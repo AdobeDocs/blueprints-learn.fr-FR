@@ -80,9 +80,9 @@ Les KPI suivants permettent de mesurer l’efficacité d’une implémentation d
 
 Les applications Adobe suivantes sont utilisées dans ce modèle de cas d’utilisation.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
-- **[!DNL Adobe Experience Platform](AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Moteur de gestion des décisions pour la création d’offres, les règles d’éligibilité, les stratégies de classement, les emplacements et les politiques de décision ; la configuration des canaux et la création de messages pour la diffusion d’offres ; l’exécution de campagnes et de parcours
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Évaluation des audiences pour les segments d’éligibilité des offres ; données de profil et attributs calculés utilisés dans l’éligibilité et le classement
+- **[!DNL Adobe Experience Platform] (AEP)** : banque de profils unifiée, résolution d’identité et base de données prenant en charge AJO et RT-CDP
 
 ## Documentation connexe
 
