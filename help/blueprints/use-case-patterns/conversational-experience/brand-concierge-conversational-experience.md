@@ -3,20 +3,26 @@ title: Expérience de conversation Brand Concierge
 description: Découvrez comment transformer les propriétés numériques en expériences de conversation optimisées par l’IA et sécurisées par la marque qui guident la découverte des clients.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: fe4353cfe34855ad91ccb5698e30030322246c08
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
 # Expérience de conversation Brand Concierge
 
-Ce guide fournit une référence d’implémentation complète pour les expériences de conversation optimisées par l’IA utilisant [!DNL Adobe Brand Concierge], intégré à [!DNL Adobe Experience Platform] (AEP) et [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Il est conçu pour les architectes de solution, les technologues marketing et les ingénieurs d’implémentation qui ont besoin de déployer des agents de conversation sécurisés par la marque sur des propriétés numériques.
-
-Il couvre toutes les approches viables pour déployer des expériences de conversation, des chatbots de conseil sur les produits aux assistants de navigation de site complets, avec des conseils sur le moment de choisir chaque option. Le plan traite de la configuration des agents, de la gouvernance de marque, de l’intégration de contenu, des stratégies de déploiement, de l’enrichissement des profils à partir des signaux de conversation et de l’optimisation des analyses.
+Ce guide présente les expériences conversationnelles optimisées par l’IA utilisant [!DNL Adobe Brand Concierge], intégré à [!DNL Adobe Experience Platform] (AEP) et [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Il est conçu pour les architectes de solution, les technologues marketing et les ingénieurs d’implémentation qui ont besoin de déployer des agents de conversation sécurisés par la marque sur des propriétés numériques.
 
 [!DNL Brand Concierge] permet aux marques de déployer des agents conversationnels intelligents qui comprennent la voix de la marque, d&#39;accéder à des catalogues de produits et à du contenu approuvés, de fournir des recommandations personnalisées basées sur des données de profil en temps réel et de capturer des signaux d&#39;intention et de sentiment dans le profil client unifié. Le résultat est une expérience de conversation qui semble naturelle et sur la marque tout en enrichissant la compréhension de chaque client par l&#39;organisation.
+
+## Modèle de cas d’utilisation
+
+**Expérience de conversation**
+
+Transformez les propriétés numériques en expériences conversationnelles sécurisées, optimisées par l’IA, qui guident la découverte des clients par le biais d’un dialogue naturel, enrichissent les profils avec des signaux d’intention et de sentiment et fournissent des recommandations de produits personnalisées.
+
+**Plan d’exécution :** Configuration de l’agent > Configuration de la gouvernance de marque > Intégration de contenu > Déploiement de l’expérience de conversation > Enrichissement du profil > Analyses et optimisation
 
 ## Présentation du cas d’utilisation
 
@@ -94,22 +100,14 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 | Chiffre d’affaires influencé par la conversation | Chiffre d’affaires des achats pour lesquels une conversation [!DNL Brand Concierge] a précédé la conversion | Analyse de l’attribution sur les parcours de conversation-achat |
 | Délai de résolution | Durée moyenne du début de la conversation à la résolution ou à la remise | Analyse de l’horodatage pour les événements de conversation |
 
-## Modèle de cas d’utilisation
-
-**Expérience de conversation**
-
-Transformez les propriétés numériques en expériences conversationnelles sécurisées, optimisées par l’IA, qui guident la découverte des clients par le biais d’un dialogue naturel, enrichissent les profils avec des signaux d’intention et de sentiment et fournissent des recommandations de produits personnalisées.
-
-**Chaîne de fonctions :** Configuration de l’agent > Configuration de la gouvernance de marque > Intégration de contenu > Déploiement de l’expérience de conversation > Enrichissement du profil > Analyses et optimisation
-
 ## Applications
 
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
 - **[!DNL Brand Concierge]** : application d’expérience de conversation optimisée par l’IA fournissant l’agent orchestrator, Product Advisor Agent, l’agent de conseil sur le site, la gouvernance de marque et l’analyse de conversation
-- **[!DNL Adobe Experience Platform] (AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
+- **[!DNL Adobe Experience Platform](AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
 
 ## Documentation connexe
 
-Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.
+Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.

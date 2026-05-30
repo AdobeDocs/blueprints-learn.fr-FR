@@ -1,7 +1,7 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Guidez la création de contenu de modèle de cas d’utilisation pour le référentiel de plans directeurs Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau modèle de cas d’utilisation, de la création de contenu de guide d’implémentation ou lorsque l’utilisateur mentionne l’ajout de modèles au site de plans directeurs. Gère l’ensemble du workflow : collecte des informations de modèle, génération du fichier Markdown avec la structure de modèle appropriée et mise à jour de toutes les pages de référence croisée (TOC.md, overview.md).'
-source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 94%
@@ -68,15 +68,15 @@ Utilisez le modèle de `references/pattern-template.md` et renseignez toutes les
 
 2. **Section d&#39;ouverture** — `# {Pattern name}` titre suivi d&#39;un paragraphe d&#39;introduction et du guide « Utilisez ce guide pour comprendre... » phrase.
 
-3. **Présentation des cas d’utilisation** : 3 à 5 paragraphes décrivant la portée du modèle, le moment où il s’applique, ce qu’il fait ou ne fait pas et qui sont les parties prenantes standard.
+3. **Modèle de cas d’utilisation** — Paragraphe de description et plan d’exécution.
 
-4. **Objectifs commerciaux clés** — Chaque objectif est un en-tête lié avec une brève description et une ligne de résumé des indicateurs de performance clés.
+4. **Présentation des cas d’utilisation** : 3 à 5 paragraphes décrivant la portée du modèle, le moment où il s’applique, ce qu’il fait ou ne fait pas et qui sont les parties prenantes standard.
 
-5. **Exemples de cas d’utilisation tactique** — Liste à puces de 6 à 10 scénarios.
+5. **Objectifs commerciaux clés** — Chaque objectif est un en-tête lié avec une brève description et une ligne de résumé des indicateurs de performance clés.
 
-6. **Indicateurs clés de performance** — Tableau avec indicateurs clés de performance, description, colonnes de mesure.
+6. **Exemples de cas d’utilisation tactique** — Liste à puces de 6 à 10 scénarios.
 
-7. **Modèle de cas d’utilisation** — Paragraphe de description et plan d’exécution.
+7. **Indicateurs clés de performance** — Tableau avec indicateurs clés de performance, description, colonnes de mesure.
 
 8. **Applications** — Liste des applications Adobe avec formatage et descriptions `[!DNL ...]`.
 
@@ -132,7 +132,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 5. **Exhaustivité de FrontMATTER** — Le fichier de motifs comprend le titre, la description, la solution et l&#39;exl-id dans son frontMATTER YAML.
 
-6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/fr`).
+6. **Liens Experience League** — Vérifiez que toutes les URL Experience League sont plausibles (en commençant par `https://experienceleague.adobe.com/`).
 
 Signalez à l’utilisateur les échecs de validation et corrigez-les avant de considérer la tâche comme terminée.
 
