@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Guidez la création de contenu de modèle de cas d’utilisation pour le référentiel de plans directeurs Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau modèle de cas d’utilisation, de la création de contenu de guide d’implémentation ou lorsque l’utilisateur mentionne l’ajout de modèles au site de plans directeurs. Gère l’ensemble du workflow : collecte des informations de modèle, génération du fichier Markdown avec la structure de modèle appropriée et mise à jour de toutes les pages de référence croisée (TOC.md, overview.md).'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 88%
+source-wordcount: '923'
+ht-degree: 94%
 
 ---
 
@@ -37,31 +37,18 @@ Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informa
 
 4. **Solutions Adobe principales** — Les produits Adobe sont au cœur de ce modèle. Choisissez l’une des options suivantes : Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition ou d’autres, selon les besoins.
 
-5. **Étapes du plan d’exécution** : 3 à 6 phases séquentielles qui décrivent le flux d’exécution du modèle, séparées par des `>`. Exemple : « Ingestion D’Événements > Entrée De Parcours > Évaluation De Conditions > Diffusion De Messages > Rapports ».
+5. **Objectifs commerciaux pris en charge** — Un ou plusieurs objectifs commerciaux de l’ensemble existant visé par le `/help/blueprints/business-objectives/`. Chaque doit inclure le nom de l’objectif, le sous-dossier de la catégorie et le nom de fichier. Vérifiez que les fichiers référencés existent avant de générer le contenu.
 
-6. **Objectifs commerciaux pris en charge** — Un ou plusieurs objectifs commerciaux de l’ensemble existant visé par le `/help/blueprints/business-objectives/`. Chaque doit inclure le nom de l’objectif, le sous-dossier de la catégorie et le nom de fichier. Vérifiez que les fichiers référencés existent avant de générer le contenu.
+6. **Exemples de cas d’utilisation tactiques** — Scénarios à 6-10 puces décrivant comment ce modèle peut être appliqué à différents contextes d’entreprise. Chaque scénario doit comporter un nom en gras suivi d’une description.
 
-7. **Exemples de cas d’utilisation tactiques** — Scénarios à 6-10 puces décrivant comment ce modèle peut être appliqué à différents contextes d’entreprise. Chaque scénario doit comporter un nom en gras suivi d’une description.
+7. **KPIs** — Un tableau avec trois colonnes : KPI (nom), Description (ce qu&#39;il mesure), Mesure (formule ou approche).
 
-8. **KPIs** — Un tableau avec trois colonnes : KPI (nom), Description (ce qu&#39;il mesure), Mesure (formule ou approche).
-
-9. **Options de mise en œuvre** — 2 à 4 options de mise en œuvre. Pour chaque option, collectez :
-   - Nom de l’option
-   - Idéal pour (quand utiliser cette option)
-   - Fonctionnement (2 à 4 paragraphes)
-   - Considérations principales (liste à puces)
-   - Avantages (liste à puces)
-   - Limites (liste à puces)
-   - Liens d’Experience League (URL vers la documentation pertinente)
+8. **Liens de référence** : liens de référence vers des documents Experience League principaux couvrant les applications et les fonctionnalités du modèle de cas d’utilisation.
 
 ### Facultatif mais recommandé
 
 - Paragraphes de présentation des cas d’utilisation (3 à 5 paragraphes ; si ces paragraphes ne sont pas fournis, rédigez-les à partir des autres informations)
 - Liste des applications avec des descriptions du rôle de chaque application Adobe
-- Tableau des fonctionnalités de base (fonctionnalité, statut, ce qui doit être en place, référence Experience League)
-- Tableau des fonctionnalités de prise en charge (fonctionnalité, statut, pourquoi est-ce important, référence Experience League)
-- Tableaux des fonctionnalités de l’application (un par application, avec fonctionnalité, phase d’implémentation, description)
-- Liste de contrôle des conditions préalables
 
 Si l’utilisateur ne fournit pas les éléments facultatifs , générez des valeurs par défaut raisonnables en fonction de la catégorie de modèle, des solutions et du plan d’exécution.
 
@@ -81,29 +68,17 @@ Utilisez le modèle de `references/pattern-template.md` et renseignez toutes les
 
 2. **Section d&#39;ouverture** — `# {Pattern name}` titre suivi d&#39;un paragraphe d&#39;introduction et du guide « Utilisez ce guide pour comprendre... » phrase.
 
-3. **Présentation des cas d’utilisation** : 3 à 5 paragraphes décrivant la portée du modèle, le moment où il s’applique, ce qu’il fait ou ne fait pas et qui sont les parties prenantes standard.
+3. **Modèle de cas d’utilisation** — Paragraphe de description et plan d’exécution.
 
-4. **Objectifs commerciaux clés** — Chaque objectif est un en-tête lié avec une brève description et une ligne de résumé des indicateurs de performance clés.
+4. **Présentation des cas d’utilisation** : 3 à 5 paragraphes décrivant la portée du modèle, le moment où il s’applique, ce qu’il fait ou ne fait pas et qui sont les parties prenantes standard.
 
-5. **Exemples de cas d’utilisation tactique** — Liste à puces de 6 à 10 scénarios.
+5. **Objectifs commerciaux clés** — Chaque objectif est un en-tête lié avec une brève description et une ligne de résumé des indicateurs de performance clés.
 
-6. **Indicateurs clés de performance** — Tableau avec indicateurs clés de performance, description, colonnes de mesure.
+6. **Exemples de cas d’utilisation tactique** — Liste à puces de 6 à 10 scénarios.
 
-7. **Modèle de cas d’utilisation** — Paragraphe de description et plan d’exécution.
+7. **Indicateurs clés de performance** — Tableau avec indicateurs clés de performance, description, colonnes de mesure.
 
 8. **Applications** — Liste des applications Adobe avec formatage et descriptions `[!DNL ...]`.
-
-9. **Fonctionnalités fondamentales** — Tableau avec colonnes : Fonctionnalité fondamentale, Statut, Ce qui doit être en place, Référence Experience League. Valeurs de statut : Obligatoire, Supposé en place, Sans objet.
-
-10. **Fonctionnalités de prise en charge** — Tableau avec colonnes : Fonctionnalité de prise en charge, Statut, Pourquoi est-ce important, Référence Experience League. Valeurs de statut : Recommandé, Inclus, Sans objet.
-
-11. **Fonctionnalités de l’application** — Un tableau par application avec des colonnes : fonctionnalité, phase d’implémentation, description.
-
-12. **Conditions préalables** — Liste de contrôle utilisant la syntaxe `- [ ]`.
-
-13. **Options d’implémentation** — 2 à 4 options détaillées, chacune avec les liens Meilleur pour, Fonctionnement, Considérations principales, Avantages, Limites et Experience League.
-
-14. **Comparaison des options** — Tableau récapitulatif de comparaison à la fin.
 
 ## Phase 3 : Mises À Jour Des Références Croisées
 
