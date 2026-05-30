@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ Utilisez les informations de compte, d’opportunités et de prospects liées à
 
 * Créez des audiences de personnes pour le ciblage et la personnalisation sur plusieurs canaux liées aux données B2B, parmi lesquelles des informations de comptes, d’opportunités et de prospects.
 * Activez les audiences vers n’importe quelle destination Experience Platform à des fins de ciblage et de personnalisation.
-* Créez des audiences de comptes (par exemple, des listes d’entreprises) et ciblez ces entreprises via des destinations comme LinkedIn qui acceptent des listes d’entreprises comme entrées ou exportations vers des destinations d’espace de stockage pour le ciblage et la sensibilisation aux ventes.
+* Créez des audiences de comptes (par exemple, des listes d’entreprises) et ciblez ces entreprises via des destinations telles que LinkedIn ou l’espace de stockage dans le cloud. Pour plus d’informations, connaître les exigences et les mécanismes de sécurisation compte-audience, consultez [Activation de compte B2B vers des destinations Advertising et des destinations de fichier](b2b-account-activation.md).
 
 ## Applications
 

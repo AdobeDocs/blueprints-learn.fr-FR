@@ -3,9 +3,9 @@ title: Activation du compte B2B vers des destinations Advertising et des destina
 description: Utilisez l’engagement basé sur un compte pour créer des audiences et les cibler via des destinations.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '735'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Grâce à l’engagement basé sur les comptes, les spécialistes marketing peuv
 * Les attributs de compte sont disponibles pour l’exportation.
 * Événements de personnes.
    * Jusqu’à 30 jours de recherche en amont d’événement, aucun ordre de prédicats d’événement.
-   * ET / OU sont pris en charge (de sorte que vous pouvez dire « A et B doivent se produire »,  mais on ne peut pas dire « A doit arriver 3 jours avant B »).
+   * ET / OU sont pris en charge (vous pouvez donc dire « A et B doivent se produire », mais vous ne pouvez pas dire « A doit se produire 3 jours avant B »).
 * Pour les destinations de stockage dans le cloud, le planning d’exportation prend en charge l’option « Après l’évaluation du segment ».
 * Mécanismes de sécurisation [Profil B2B et segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
@@ -71,6 +71,7 @@ Les audiences correspondantes LinkedIn ont quelques exigences, notamment la tail
 
 ## Documentation connexe
 
+* [Plan directeur d’activation des audiences et des profils B2B](b2bactivation.md) — Plan directeur parent couvrant l’activation B2B au niveau des personnes et des comptes.
 * [B2B edition de Real-time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Tutoriel vidéo sur la création et l’activation d’audiences de compte](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
 * [Créer des audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/account-audiences)
