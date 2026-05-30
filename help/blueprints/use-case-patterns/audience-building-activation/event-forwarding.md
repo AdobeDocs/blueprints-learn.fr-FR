@@ -88,26 +88,26 @@ Les ressources suivantes apportent des détails supplémentaires sur les sujets 
 
 **Transfert d’événement**
 
-- [Présentation du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Secrets de transfert d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Présentation du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/overview)
+- [Prise en main du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Surveillance du transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Secrets de transfert d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/event-forwarding/secrets)
 
 **Extensions de transfert d’événement**
 
-- [Catalogue des extensions côté serveur](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extension Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extension AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extension Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Extension Google Ads Enhanced Conversions](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Extension Mailchimp](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [Catalogue des extensions côté serveur](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/overview)
+- [Extension Adobe Cloud Connector](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Extension de l’API de conversions Meta](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extension Google Cloud Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extension AWS](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extension Snowflake](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Extension Google Ads Enhanced Conversions](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Extension Mailchimp](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **Collecte de données et Edge Network**
 
-- [Configurer les flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Présentation des flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Présentation de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [Présentation des balises](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [Configurer les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
+- [Présentation des flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview)
+- [Présentation de Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home)
+- [Présentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview)
+- [Présentation des balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home)

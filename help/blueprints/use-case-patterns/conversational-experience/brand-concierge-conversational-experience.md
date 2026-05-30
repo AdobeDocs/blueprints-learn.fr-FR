@@ -110,4 +110,4 @@ Les applications suivantes sont utilisées pour implémenter ce modèle de cas d
 
 ## Documentation connexe
 
-Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [&#128279;](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.
+Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.
