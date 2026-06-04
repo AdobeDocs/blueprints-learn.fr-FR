@@ -1,10 +1,10 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Guidez la création de pages de diagramme d’architecture pour le référentiel de blueprints Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau diagramme d’architecture de niveau supérieur, d’une page d’architecture d’intégration ou d’une présentation de l’architecture d’application. Les pages Architecture couvrent les architectures AEP et d’application de niveau supérieur, ainsi que les points d’intégration principaux, mais pas les cas d’utilisation détaillés (ceux-ci appartiennent au créateur de modèles de cas d’utilisation). Gère l’ensemble du workflow : collecte des informations sur la page, génération du fichier Markdown, placement dans le dossier de rubrique approprié et mise à jour du fichier TOC.md.'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 2%
+source-wordcount: '1556'
+ht-degree: 1%
 
 ---
 
@@ -34,57 +34,53 @@ Lisez les fichiers de référence suivants pour connaître les modèles et les r
 
 ## Phase 1 : Collecte d&#39;informations
 
-Interrogez l’utilisateur ou l’utilisatrice pour collecter toutes les informations requises avant de générer des fichiers. Ne passez pas à la génération de contenu tant que chaque élément requis n’est pas fourni ou explicitement différé.
+**Utilisez des formulaires, et non une interview linéaire.** Collectez toutes les informations requises en présentant les formulaires `AskUserQuestion` par lots logiques au lieu de poser une question à la fois. Cela permet à l’utilisateur de disposer d’une expérience rapide et analysable.
 
-### Informations requises
+### Contraintes AskUserQuestion
 
-1. **Titre de la page** — Titre lisible par l’utilisateur (par exemple, `Adobe Journey Optimizer architecture diagrams`).
+- Nombre maximal de questions **4** par appel `AskUserQuestion`.
+- Options **4 maximum** par question.
+- Si une question comporte plus de 4 options plausibles, divisez-la en deux appels (par exemple, posez les 4 premières options, puis suivez avec un oui/non sur le cinquième).
+- Utilisez des `multiSelect: true` pour les questions auxquelles plusieurs réponses s’appliquent (solutions, modèles, flux de données).
 
-2. **Dossier de rubrique** — Emplacement de la page. Choisissez-en un exactement en fonction du domaine principal du diagramme :
-   - `experience-platform/` : diagrammes AEP de niveau supérieur, multi-applications ou de niveau plateforme
-   - `customer-journeys/` — AJO, Campaign, orchestration des parcours
-   - `customer-journey-analytics/` — Architectures CJA
-   - `audience-activation/` — RTCDP, activation des audiences et des profils
-   - `b2b/` : architectures spécifiques au B2B
+### Première session — Informations sur la page principale (un appel AskUserQuestion, jusqu’à 4 questions)
 
-3. **Nom de fichier** — Majuscule, dérivé du titre de la page (par exemple, `Journey Optimizer architecture` -> `journey-optimizer-architecture.md`). Confirmez avec l’utilisateur.
+Demandez tous les éléments suivants dans un seul formulaire :
 
-4. **Objectif de la page** — 1 à 2 phrases décrivant ce que les diagrammes illustrent collectivement. Utilisé pour le champ de front-issue `description` et le paragraphe d’ouverture.
+1. **Titre de la page** — présentez 2 à 3 variantes suggérées dérivées de ce que l’utilisateur vous a déjà dit, plus une trappe d’échappement « Autre ».
+2. **Dossier de sujets** — Présentez les 5 dossiers valides comme options ; recommandez le plus probable en fonction de l&#39;entrée de l&#39;utilisateur.
+3. **Solutions Adobe** - sélection multiple ; suggérez les candidats les plus probables en fonction du sujet de la page.
+4. **Nombre de diagrammes** — Nombre de diagrammes inclus dans la page (1/2/3/4+).
 
-5. **Solutions Adobe** — Liste séparée par des virgules des produits Adobe centraux dans la page. Utilisé pour le champ de frontMATTER `solution`. Exemples : `Experience Platform, Journey Optimizer, Customer Journey Analytics`.
+### Deuxième session — Détails du diagramme (un appel AskUserQuestion, jusqu’à 4 questions)
 
-6. **Diagrammes** — Un ou plusieurs diagrammes. Pour chaque diagramme, collectez :
-   - **Nom du fichier image** (par exemple, `aep_data_flow.svg`). SVG préféré ; PNG acceptable.
-   - **Titre de la section** — devient l&#39;en-tête H2 du diagramme (par exemple `Data flow diagram`, `Detailed architecture diagram`).
-   - **Explication de l’objectif** — 1 à 2 phrases décrivant ce que le diagramme montre.
-   - **Texte de remplacement** — Description courte accessible.
+Demandez le nom de fichier image de chaque diagramme et l’objectif de la page dans un seul formulaire :
 
-7. **Modèles de cas d’utilisation pris en charge** — 2 à 5 modèles existants activés par cette architecture.
+- Pour chaque diagramme (jusqu’à 2 dans un seul tour de formulaire), demandez le **nom de fichier de l’image** sous la forme d’une question avec 2 à 3 noms de fichier suggérés (dérivés du titre de la page) plus une option « Autre ».
+- Demandez la **fonction de la page** (description de 1 à 2 phrases) sous forme de question avec 2 à 3 phrases suggérées plus « Autre ».
+- Demandez si une légende **est nécessaire (Oui/Non).**`>[!MORELIKETHIS]` Si oui, collectez l’URL et le texte du lien dans un message de relance.
 
-   **Recommander les candidats en premier.** Avant de demander à l’utilisateur de fournir des modèles, numérisez les `/help/blueprints/use-case-patterns/` et proposez 3 à 6 correspondances probables en fonction du titre de la page, de l’objectif de la page et des solutions Adobe collectées ci-dessus. Pour chaque suggestion, présentez :
-   - Nom du modèle (avec le chemin d’accès lié)
-   - Explication en une seule phrase expliquant pourquoi il s’adapte à cette architecture
+> **Titres de section et texte de remplacement :** lorsque le nom de fichier de l’image est descriptif (par exemple, `fac-architecture.svg`, `fac-dataflow.svg`), déduisez le titre de la section H2 et le texte de remplacement ; il n’est pas nécessaire de demander à l’utilisateur. Utilisez la tige du nom de fichier, avec la casse du titre et l’humanisation, comme titre de section (par exemple, `Architecture diagram`, `Data flow diagram`). Ne demandez que si le nom de fichier est ambigu.
 
-   Présentez les suggestions sous forme de liste restreinte numérotée et demandez à l’utilisateur (a) d’accepter les suggestions, (b) de les rejeter et (c) d’ajouter les modèles que vous avez manqués. Générez uniquement des suggestions qui pointent vers des fichiers réels — glob/read pour confirmer avant de suggérer. Ne pas halluciner les noms des motifs.
+### Troisième session : modèles de cas d’utilisation (AskUserQuestion après analyse)
 
-   Pour chaque modèle accepté, capturez la catégorie et le nom de fichier. Vérifiez que chaque fichier existe à l’emplacement `/help/blueprints/use-case-patterns/{category}/{pattern-file}.md` avant de le générer.
+Avant de présenter ce formulaire, **obtenez un`/help/blueprints/use-case-patterns/`** et identifiez 3 à 5 modèles correspondants probables en fonction du titre de la page, de l’objectif et des solutions. Vérifiez que chaque fichier existe avant de le suggérer.
 
-8. **Flux de données de Principal/points d’intégration** — 3 à 7 puces décrivant les flux clés et les limites d’intégration affichés sur les diagrammes (par exemple, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
+Présentez les 4 meilleurs candidats comme une question `multiSelect`. S&#39;il existe un cinquième candidat solide, répondez par oui ou par non à une autre question. Invitez également l’utilisateur à nommer le modèle que vous avez manqué.
 
-9. **Liens Experience League** — 3 à 6 liens vers la documentation Experience League pertinente pour une lecture plus approfondie. Chaque doit commencer par `https://experienceleague.adobe.com/fr`.
+N’incluez que les modèles dont l’existence des fichiers est confirmée. Ne pas halluciner les noms des motifs.
 
-   **Recommander les candidats en premier.** En fonction des solutions Adobe et de l’objectif de la page, proposez 4 à 8 articles Experience League plausibles (par exemple, les pages de destination ou d’aperçu canoniques pour chaque solution nommée, les guides d’intégration clés, les références de déploiement). Pour chaque suggestion, présentez :
-   - Titre de l’article
-   - URL
-   - Justification en une ligne de la pertinence de la page
+### Round 4 : flux de données et liens Experience League (un appel AskUserQuestion)
 
-   Marquez les suggestions comme **non vérifiées** à moins que vous n’ayez réellement récupéré l’URL. L’utilisateur doit confirmer ou remplacer chacune d’elles avant qu’elle n’arrive dans le fichier généré. Demandez à l’utilisateur ou à l’utilisatrice de (a) accepter, (b) remplacer toute URL par une URL vérifiée qu’il ou elle a déjà et (c) ajouter la sienne. N’inventez jamais des URL que vous n’avez pas vues. Si vous n’êtes pas sûr, suggérez le titre de l’article et laissez l’utilisateur ou l’utilisatrice fournir l’URL.
+**Flux de données :** proposez 3 à 5 puces de flux de données préécrites comme question `multiSelect` (dérivée de la rubrique de page). L’utilisateur ou l’utilisatrice sélectionne l’application. Conservez chaque option dans une phrase concise. Si l’utilisateur a besoin de flux personnalisés qui ne figurent pas dans votre liste, il peut les fournir dans une relance.
 
-### Facultatif
+**Liens Experience League :** après le formulaire, présentez un tableau Markdown de 4 à 6 liens suggérés avec le titre de l’article, l’URL et une justification en une ligne. Marquez chaque URL comme **non vérifiée**. Demandez à l’utilisateur (a) d’accepter, (b) de remplacer par une URL vérifiée, ou (c) d’ajouter la sienne. Utilisez un `AskUserQuestion` de suivi avec jusqu’à 4 options si la liste est longue ; sinon, acceptez la confirmation en texte brut.
 
-- **Légende du contenu associé** : lien unique rendu sous forme `>[!MORELIKETHIS]` bloc en haut de la page. Utile lorsqu’il existe un guide d’intégration ou de configuration frère sur Experience League que le lecteur doit connaître.
+N’inventez jamais d’URL que vous n’avez pas récupérées. Si vous n’êtes pas sûr, suggérez le titre de l’article et laissez l’utilisateur fournir l’URL.
 
-Si l’utilisateur ne fournit pas tous les éléments requis, demandez les éléments manquants avant de continuer. Ne fabriquez pas de diagrammes, de modèles ou de liens.
+### Lorsque tous les tours sont terminés
+
+Confirmez la totalité des informations définies avec l’utilisateur avant de générer des fichiers. Si un élément requis est toujours manquant ou marqué comme « Autre » sans valeur, demandez-le avant de continuer. Ne fabriquez pas de diagrammes, de modèles ou de liens.
 
 ## Phase 2 : vérification de la portée
 
@@ -167,6 +163,8 @@ Format d’entrée (retrait de 4 espaces + `+`) :
 ```
 
 Ajoutez la nouvelle entrée en tant que dernier élément de la sous-section correspondante, sauf si l&#39;utilisateur spécifie un autre poste. Conserver la mise en retrait exacte de 4 espaces ; l’analyse de la table des matières en dépend.
+
+**Rechercher les sous-groupes imbriqués avant de placer.** Certaines sous-sections (notamment `Audience & Profile Activation`) contiennent des regroupements imbriqués (par exemple, `Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}`). Lisez la sous-section concernée du fichier TOC.md avant de la modifier. Les nouvelles pages d’architecture de niveau supérieur appartiennent au niveau de retrait de 4 espaces de la sous-section , **pas** à l’intérieur d’un sous-groupe imbriqué (qui utilise un retrait de 6 espaces). Placez la nouvelle entrée après la dernière entrée de sous-groupe imbriquée et avant l’en-tête de sous-groupe de niveau supérieur suivant.
 
 ## Phase 5 : validation
 
