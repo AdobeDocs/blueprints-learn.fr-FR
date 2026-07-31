@@ -5,22 +5,12 @@ solution: Experience Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 TQID: https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
-  - id: ee602049-8a18-43df-9299-a689a025a371
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74id: ee602049-8a18-43df-9299-a689a025a371
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -36,7 +26,7 @@ Les mécanismes de sécurisation reflètent les contraintes système, les latenc
 | Type de mécanisme de sécurisation | Description |
 |---|---|
 | Mécanisme de sécurisation des performances (limite soft) | Les mécanismes de sécurisation de performances sont des limites d’utilisation liées à la portée de vos cas d’utilisation et décrivent les performances attendues dans des conditions normales. Une fois dépassées, les performances peuvent se dégrader et une latence peut survenir. Les mécanismes de sécurisation de performances sont documentés dans les documents Experience League sous les sections de mécanisme de sécurisation pour chaque solution, comme indiqué ci-dessous. |
-| Limite statique (limite Hard) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées et décrites contractuellement dans le contrat client et la [Description du produit](https://helpx.adobe.com/fr/legal/product-descriptions.html). |
+| Limite statique (limite Hard) | Il s’agit de limites appliquées par le système qui ne peuvent pas être dépassées. Les limites statiques sont généralement liées et décrites contractuellement dans le contrat client et la [Description du produit](https://helpx.adobe.com/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -52,14 +42,14 @@ Les pages suivantes fournissent des informations sur les mécanismes de sécuris
 
 **Applications**
 
-* [Présentation des mécanismes de sécurisation de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=fr)
-* [Mécanismes de sécurisation du partage d’audiences Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=fr#latency)
-* [Mécanismes de sécurisation de l’ingestion des données de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr)
+* [Présentation des mécanismes de sécurisation de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
+* [Mécanismes de sécurisation du partage d’audiences Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Mécanismes de sécurisation de l’ingestion des données de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Services**
 
-* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=fr)
+* [Mécanismes de sécurisation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
 * [Mécanismes de sécurisation de l’API [!DNL Edge Network]](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Mécanismes de sécurisation du profil client et de la segmentation en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 * [Mécanismes de sécurisation des identités](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=fr)
@@ -72,4 +62,4 @@ Les pages suivantes fournissent des informations sur les mécanismes de sécuris
 
 Le diagramme suivant illustre les latences principales observées sur les serveurs Edge et le hub à prendre en compte lors de l’architecture du cas d’utilisation sur Experience Platform et les applications.
 
-![Latences observées principales des [!DNL Edge Network] Experience Platform et du hub.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Latences principales observées pour Experience Platform Edge Network et le hub"){width="1000" zoomable="yes"}
+![Latences observées principales des [!DNL Edge Network] Experience Platform et du hub.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Latences principales observées pour Experience Platform Edge Network et le hub"){width="1000" zoomable="yes"}
