@@ -3,9 +3,9 @@ title: Recommandation comportementale
 description: Découvrez comment générer des recommandations d’éléments et de contenu à l’aide de stratégies de sélection et de modèles de classement.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ L’audience cible de ce modèle comprend les équipes de marchandisage e, les �
 
 Les objectifs commerciaux suivants sont pris en charge par ce modèle de cas d’utilisation.
 
-### [Stimuler les ventes croisées et les ventes incitatives](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### Stimuler les ventes croisées et les ventes incitatives
+
+[Stimuler les ventes croisées et les ventes incitatives](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 Promouvoir des produits ou services complémentaires et de qualité auprès des clients existants en fonction du comportement et de l’historique d’achat.
 
 **KPI :** % de montée en gamme/ventes croisées, chiffre d’affaires incrémentiel, valeur durée de vie du client
 
-### [Augmentation des taux de conversion](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### Augmentation des taux de conversion
+
+[Augmentation des taux de conversion](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 Améliorez le pourcentage de visiteurs et de prospects qui effectuent les actions souhaitées telles que les achats, les inscriptions ou les envois de formulaire.
 
 **KPI :** taux de conversion, conversion de lead, coût par lead
 
-### [Offrir des expériences personnalisées aux clients](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### Offrir des expériences personnalisées aux clients
+
+[Offrir des expériences personnalisées aux clients](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 Adaptez le contenu, les offres et les messages aux préférences, aux comportements et à l’étape du cycle de vie des individus.
 

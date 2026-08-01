@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -72,4 +72,4 @@ Les pages suivantes fournissent des informations sur les mécanismes de sécuris
 
 Le diagramme suivant illustre les latences principales observées sur les serveurs Edge et le hub à prendre en compte lors de l’architecture du cas d’utilisation sur Experience Platform et les applications.
 
-![Latences observées principales des [!DNL Edge Network] Experience Platform et du hub.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Latences principales observées pour Experience Platform Edge Network et le hub"){width="1000" zoomable="yes"}
+![Latences observées principales des [!DNL Edge Network] Experience Platform et du hub.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Latences principales observées pour Experience Platform Edge Network et le hub"){width="1000" zoomable="yes"}
