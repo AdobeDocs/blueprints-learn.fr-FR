@@ -6,7 +6,7 @@ short-description: Intégrez des profils et des audiences RTCDP à Adobe Target
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -30,7 +30,7 @@ ht-degree: 33%
 
 ### Documentation de référence
 
-* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr)
+* [Connexion Adobe Target pour Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Configuration du flux de données Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=fr)
 
 ## Modèles d’intégration
@@ -45,11 +45,11 @@ ht-degree: 33%
 
 Architecture
 
-![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
+![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
 
 Détails de la séquence
 
-![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
+![Architecture de référence du plan directeur de Personalization web en ligne/hors ligne](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
 
 Architecture d’aperçu
 
@@ -70,7 +70,7 @@ La personnalisation par client connu est prise en charge par plusieurs méthodes
 
 Utilisation de SDK traditionnels spécifiques aux applications (par exemple, AT.js et AppMeasurement.js). L’évaluation des segments Edge en temps réel n’est pas prise en charge dans cette méthode d’implémentation. Cependant, le partage des audiences en continu et par lots à partir du hub Experience Platform est pris en charge dans cette méthode d’implémentation.
 
-[Consultez la documentation du connecteur Adobe Target .](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consultez la documentation du connecteur Adobe Target .](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Reportez-vous au plan directeur SDK spécifique à l’application](/help/blueprints/experience-platform/deployment/appsdk.md)
 
 ## Considérations relatives à la mise en œuvre
