@@ -71,14 +71,14 @@ Flux de haut niveau :
 
 ## Modélisation des données dans B2B AEP
 
-Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez [Schémas B2B de &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [Documentation de Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
+Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez [Schémas B2B de &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [Documentation de Journey Optimizer B2B edition](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Remarque :** la logique de chemin partagé dans le parcours utilise les données de profil et, lorsqu’elles sont prises en charge, les données relationnelles. Assurez-vous que les champs dont vous avez besoin pour la logique de cascade sont disponibles dans le parcours.
 
 ### Garde-fous
 
-- **Journey Optimizer B2B edition** — Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) pour connaître les limites de parcours, les limites de nœud et la prise en charge des destinations.
-- **Real-Time CDP** — Consultez la section [Mécanismes de sécurisation de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) pour connaître les limites de segmentation et d’activation.
+- **Journey Optimizer B2B edition** — Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html) pour connaître les limites de parcours, les limites de nœud et la prise en charge des destinations.
+- **Real-Time CDP** — Consultez la section [Mécanismes de sécurisation de RTCDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview) pour connaître les limites de segmentation et d’activation.
 
 ## Implémentation
 
@@ -131,6 +131,6 @@ Le plan directeur **Paid Media Controller** montre comment **AJO B2B et AEP** fo
 
 ## Documentation connexe
 
-- [Plan directeur de marketing et de gestion des Parcours basé sur les groupes d’achat](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — parcours de compte et de groupe d’achat dans AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentation du produit.
+- [Plan directeur de marketing et de gestion des Parcours basé sur les groupes d’achat](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — parcours de compte et de groupe d’achat dans AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b) — Documentation du produit.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Audiences de compte et activation.
