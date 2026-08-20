@@ -4,25 +4,15 @@ description: Découvrez comment idéaliser, concevoir et créer un parcours qui 
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-  - id: d5e018de-9479-48a8-96a8-176c73166631
-  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68id: d5e018de-9479-48a8-96a8-176c73166631id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -67,7 +57,7 @@ Lorsqu’un prospect montre clairement l’intérêt de la solution, il indique 
 
 Comme l’illustre le diagramme suivant, vous pouvez collecter des détails dans des formulaires ou par le biais de l’activation LinkedIn et qualifier une intention de solution lorsqu’une interaction avec un chat-robot s’est produite.
 
-parcours du groupe d&#39;achat![&#128279;](./assets/buying-group-journey-diagram.png){zoomable="yes"}
+parcours du groupe d&#39;achat](./assets/buying-group-journey-diagram.png){zoomable="yes"}![
 
 Lorsque le pourcentage d&#39;achèvement du groupe d&#39;achats est suffisamment élevé, vous partagez le groupe avec l&#39;équipe des ventes via SQL ou un SOL pour convertir les leads du compte en une vente terminée.
 
@@ -87,11 +77,11 @@ La solution axée sur les comptes nécessite les applications et services suivan
 >
 >L’obtention d’une licence pour Journey Optimizer B2B edition doit inclure les éléments suivants :
 ><ul><li>Instance Journey Optimizer B2B edition connectée à Experience Platform B2B</li><li>Instance de Marketo Engage synchronisée avec RTCDP</li></ul>
->&gt;<br/>
->&gt;Pour les clients Marketo Engage existants, une connexion à l’instance existante est l’approche recommandée.
->&gt;<br/><br/>
->&gt;D’autres extensions sont disponibles pour la solution afin d’améliorer la richesse du profil :
->&gt;<ul><li>Sources supplémentaires à RTCDP pour enrichir le profil</li><li>Destination RTCDP vers Marketo Engage</li></ul>
+&gt;<br/>
+&gt;Pour les clients Marketo Engage existants, une connexion à l’instance existante est l’approche recommandée.
+&gt;<br/><br/>
+&gt;D’autres extensions sont disponibles pour la solution afin d’améliorer la richesse du profil :
+&gt;<ul><li>Sources supplémentaires à RTCDP pour enrichir le profil</li><li>Destination RTCDP vers Marketo Engage</li></ul>
 
 La mise en œuvre de cette solution nécessite également une compréhension claire du concept de _Compte_ et _Groupe d&#39;achat_, ainsi que de la manière dont ils amplifient et accélèrent votre qualification de prospect commercial. Cela étant, vous devez également déterminer le score d&#39;exhaustivité du groupe d&#39;achats souhaité.
 
@@ -101,11 +91,11 @@ La mise en œuvre de cette solution nécessite également une compréhension cla
 
 ### Schéma de données
 
-Dans toute mise en œuvre de l’automatisation du marketing pilotée par les données, la conception de schémas est essentielle à la réussite de l’implémentation. Avant de concevoir votre schéma, passez en revue les espaces de noms et schémas [B2B](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) et assurez-vous de comprendre l’utilitaire de génération automatique disponible pour générer un nouveau schéma dans un nouveau scénario d’implémentation.
+Dans toute mise en œuvre de l’automatisation du marketing pilotée par les données, la conception de schémas est essentielle à la réussite de l’implémentation. Avant de concevoir votre schéma, passez en revue les espaces de noms et schémas [B2B](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) et assurez-vous de comprendre l’utilitaire de génération automatique disponible pour générer un nouveau schéma dans un nouveau scénario d’implémentation.
 
 Les schémas sont spécifiquement enrichis d’éléments de données B2B pour prendre en charge la relation riche en profils et inclure la perspective de compte à travers le `sourceKey` pour lier les événements et les profils au schéma de compte. Les schémas sont une représentation des exigences de votre organisation et des données collectées et profilées. Pour répondre à ces besoins, les schémas B2B sont flexibles et constituent une extension des éléments B2B requis.
 
-Lors de la conception du schéma de données pour votre organisation, il est recommandé de représenter et d’étiqueter les principales entités de votre ERD avec les entités de haut niveau. (Reportez-vous au premier diagramme de la documentation sur le schéma B2B RTCDP [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b)). Ce processus est très utile pour comprendre les éléments de données requis que vous devez définir dans chaque schéma.
+Lors de la conception du schéma de données pour votre organisation, il est recommandé de représenter et d’étiqueter les principales entités de votre ERD avec les entités de haut niveau. (Reportez-vous au premier diagramme de la documentation sur le schéma B2B RTCDP [](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)). Ce processus est très utile pour comprendre les éléments de données requis que vous devez définir dans chaque schéma.
 
 À ce stade, les événements d’expérience ne sont pas encore en mesure d’influencer les parcours. Outre les schémas Événement d’expérience , il est recommandé d’ajouter des propriétés au compte qui représentent des décisions majeures basées sur les activités de l’utilisateur. Ces propriétés sont utilisées pour les éléments de chemin de division dans le concepteur de parcours.
 
@@ -117,24 +107,24 @@ Lors de la conception du schéma de données pour votre organisation, il est rec
 
 Pour enrichir les éléments de données de compte, vous pouvez utiliser Marketo Engage et ses données B2B afin d’enrichir la vue de compte RTCDP et Journey Optimizer B2B edition. La configuration du connecteur Source Marketo Engage et le mappage des données Marketo Engage aux attributs de schéma RTCDP permettent aux données de circuler de Marketo Engage vers RTCDP et, si cela est désigné, vers le profil.
 
-Pour plus d’informations sur la configuration du connecteur et le mappage des champs obligatoire au schéma, consultez la documentation du connecteur Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+Pour plus d’informations sur la configuration du connecteur et le mappage des champs obligatoire au schéma, consultez la documentation du connecteur Marketo Engage [](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ### Garde-fous
 
-Les mécanismes de sécurisation de Journey Optimizer B2B edition sont détaillés dans la [page de description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
+Les mécanismes de sécurisation de Journey Optimizer B2B edition sont détaillés dans la [page de description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
 
 Mécanismes de sécurisation liés à la mise en œuvre
 
-* Tous les mécanismes de sécurisation des audiences B2B sont décrits dans le [plan directeur de l’activation des audiences et des profils B2B](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) sont directement transposés au succès du B2B edition Journey Optimizer.
-* Si l’activation est requise via les canaux Marketo Engage du parcours de compte ou si la synchronisation CRM est utilisée pour enrichir le compte, les [mécanismes de sécurisation liés à Marketo Engage](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) sont pertinents.
+* Tous les mécanismes de sécurisation des audiences B2B sont décrits dans le [plan directeur de l’activation des audiences et des profils B2B](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) sont directement transposés au succès du B2B edition Journey Optimizer.
+* Si l’activation est requise via les canaux Marketo Engage du parcours de compte ou si la synchronisation CRM est utilisée pour enrichir le compte, les [mécanismes de sécurisation liés à Marketo Engage](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) sont pertinents.
 
-Consultez la documentation sur les [mécanismes de sécurisation de &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview) pour plus d’informations sur les mécanismes de sécurisation de RTCDP.
+Consultez la documentation sur les [mécanismes de sécurisation de ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) pour plus d’informations sur les mécanismes de sécurisation de RTCDP.
 
 ### Attribution des privilèges d’accès
 
 * Toutes les instances doivent se trouver sur la même organisation IMS.
 * Une seule instance Journey Optimizer B2B edition peut être liée à un sandbox Experience Platform.
-* Nous vous recommandons vivement de mettre en œuvre le connecteur Marketo Source [vers Real-time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+* Nous vous recommandons vivement de mettre en œuvre le connecteur Marketo Source [vers Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ## Implémentation
 
@@ -144,18 +134,18 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
 1. Définissez le schéma XDM qui va représenter votre vue commerciale des comptes et des prospects.
 
-   Dans un premier temps, vous définissez et créez un schéma d’expérience conçu pour répondre aux besoins du cas d’utilisation B2B et couvrant les sources de données, par lots et en temps réel. Cette conception doit représenter la manière dont l’entreprise conçoit les entités de compte et de personne, ainsi que les cas d’utilisation que vous souhaitez prendre en charge. Pour que le schéma soit un schéma B2B, il doit suivre les structures disponibles dans la documentation [Schéma B2B RTCDP &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b).
+   Dans un premier temps, vous définissez et créez un schéma d’expérience conçu pour répondre aux besoins du cas d’utilisation B2B et couvrant les sources de données, par lots et en temps réel. Cette conception doit représenter la manière dont l’entreprise conçoit les entités de compte et de personne, ainsi que les cas d’utilisation que vous souhaitez prendre en charge. Pour que le schéma soit un schéma B2B, il doit suivre les structures disponibles dans la documentation [Schéma B2B RTCDP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B. À court terme, la relation _plusieurs à plusieurs_ entre le compte et la personne par le biais de la relation compte-personne n’est pas prise en charge dans Journey Optimizer B2B. Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
+   Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B.  Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
 
-   * Utilisez le script de création de schéma B2B [&#128279;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) pour générer le schéma initial
+   * Utilisez le script de création de schéma B2B [](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) pour générer le schéma initial
    * Ajoutez des champs spécifiques aux cas d’utilisation aux schémas générés afin de compléter le schéma en fonction des besoins de l’organisation.
 
    À ce stade, vous disposez de la connexion entre Marketo Engage et RTCDP et la structure du schéma pour accepter les données du compte et de la personne afin de renseigner les jeux de données pour que les segments de compte soient définis. L’étape suivante consiste à connecter RTCDP à Marketo Engage et Journey Optimizer B2B edition.
 
 1. Configurez le connecteur Marketo Engage, y compris le mappage de Marketo Engage à la structure XDM.
 
-   Une fois la structure et les champs XDM en place, connectez Marketo Engage à RTCDP à l’aide du connecteur , qui alimente les jeux de données avec des données provenant de Marketo Engage et de Journey Optimizer B2B. Commencez par organiser le mappage des champs des classes Marketo Engage aux classes RTCDP. Utilisez les informations de la [documentation du connecteur](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) pour identifier les champs que vous souhaitez inclure à partir de votre implémentation Marketo Engage.
+   Une fois la structure et les champs XDM en place, connectez Marketo Engage à RTCDP à l’aide du connecteur , qui alimente les jeux de données avec des données provenant de Marketo Engage et de Journey Optimizer B2B. Commencez par organiser le mappage des champs des classes Marketo Engage aux classes RTCDP. Utilisez les informations de la [documentation du connecteur](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) pour identifier les champs que vous souhaitez inclure à partir de votre implémentation Marketo Engage.
 
 ### Configuration du groupe d&#39;achat
 
@@ -163,7 +153,7 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
    Activez l’option Planification de toutes les audiences de la page de navigation → Audiences → du client pour activer les audiences du compte. (Dans les cas où cela ne fonctionne pas, vous devez créer un segment de profil client pour pouvoir activer la création d’audiences de compte.)
 
-   Pour créer un segment, suivez les étapes décrites dans la documentation [audiences de compte](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). L’utilisation du créateur de segments avec les champs de données que vous avez identifiés comme clés pour l’audience de votre compte serait l’activité clé pour définir l’audience.
+   Pour créer un segment, suivez les étapes décrites dans la documentation [audiences de compte](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). L’utilisation du créateur de segments avec les champs de données que vous avez identifiés comme clés pour l’audience de votre compte serait l’activité clé pour définir l’audience.
 
    À ce stade, vous savez que le compte permet de se concentrer sur via RTCDP et d’utiliser pour les blocs de création du groupe d’achat.
 
@@ -171,21 +161,21 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
    Dans chaque groupe d&#39;achat, identifiez les rôles qui représentent le rôle que les individus jouent dans le groupe que vous souhaitez traiter. Par exemple, vous pouvez utiliser _décideur_, _influenceur_ et _champion_. Définissez également le poids et les conditions de ce rôle dans le groupe d&#39;achat.
 
-   La [documentation sur les modèles de rôles](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) décrit ce processus et comment définir des conditions spéciales.
+   La [documentation sur les modèles de rôles](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) décrit ce processus et comment définir des conditions spéciales.
 
 1. Définissez l’intérêt de la solution.
 
    Un intérêt pour une solution est un moyen d’indiquer l’objectif des groupes d’achat pour vos activités et votre stratégie marketing.
 
-   Pour définir un intérêt de solution, suivez les étapes de la documentation [intérêts de solution](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/buying-groups/solution-interests). Gardez à l&#39;esprit que vous l&#39;utilisez pour faire correspondre le groupe d&#39;achat à une initiative de vente dans l&#39;organisation.
+   Pour définir un intérêt de solution, suivez les étapes de la documentation [intérêts de solution](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests). Gardez à l&#39;esprit que vous l&#39;utilisez pour faire correspondre le groupe d&#39;achat à une initiative de vente dans l&#39;organisation.
 
 1. Configurez le groupe d&#39;achat.
 
    Une fois les blocs de création du groupe d’achat prêts, configurez le groupe d’achat pour l’audience de compte et d’intérêt de la solution avec une cible pour compléter le modèle de rôles avec les membres appropriés du compte. Avec cette configuration, affectez un intérêt pour la solution au modèle de rôles que vous avez identifié et donnez à chaque rôle un poids dans le succès commercial pour ce produit spécifique.
 
-   Pour créer le groupe d&#39;achat, suivez les étapes décrites dans la [documentation sur les groupes d&#39;achat](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create).
+   Pour créer le groupe d&#39;achat, suivez les étapes décrites dans la [documentation sur les groupes d&#39;achat](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create).
 
-   À ce stade, vous êtes prêt à [créer un parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) et à commencer à travailler avec l’audience du compte pour constituer le groupe d’achats et le qualifier pour l’intérêt pour la solution.
+   À ce stade, vous êtes prêt à [créer un parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) et à commencer à travailler avec l’audience du compte pour constituer le groupe d’achats et le qualifier pour l’intérêt pour la solution.
 
 ### Activation de l’audience
 
@@ -195,7 +185,7 @@ Augmentez l’exhaustivité du groupe d’achat par l’activation de l’audien
 
    En plus des activités de courrier électronique et de remplissage de formulaire, Journey Optimizer B2B edition offre une fonctionnalité d’annonce LinkedIn pour élargir votre compte et soutenir l’effort de finalisation d’un groupe d’achat par l’extension de l’étendue des prospects du compte et l’augmentation de la portée de vos activités marketing.
 
-   Pour utiliser les médias payants LinkedIn afin de communiquer avec les comptes lorsque les groupes d&#39;achats ne sont pas suffisamment renseignés ou engagés, développez ou engagez l&#39;audience du compte, utilisez la fonctionnalité [Audiences appariées aux comptes LinkedIn](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) pour générer des audiences d&#39;annonces LinkedIn par l&#39;intermédiaire des audiences appariées aux comptes.
+   Pour utiliser les médias payants LinkedIn afin de communiquer avec les comptes lorsque les groupes d&#39;achats ne sont pas suffisamment renseignés ou engagés, développez ou engagez l&#39;audience du compte, utilisez la fonctionnalité [Audiences appariées aux comptes LinkedIn](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) pour générer des audiences d&#39;annonces LinkedIn par l&#39;intermédiaire des audiences appariées aux comptes.
 
 1. Activez l&#39;audience pour les groupes d&#39;achats.
 
