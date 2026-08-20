@@ -1,16 +1,16 @@
 ---
-title: Contrôleur de médias payants B2B AJO
+title: Journey Orchestration du compte - Contrôleur de médias payants
 description: Priorité des campagnes et activation des comptes vers les destinations de médias payants
 solution: Journey Optimizer B2B Edition
 exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
 
-# AJO B2B - Account Journey Orchestration - Paid Media Controller
+# Journey Orchestration du compte - Contrôleur de médias payants
 
 >[!TIP]
 >Ce plan directeur est également disponible en tant que [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md) sous Activation et marketing B2B.
@@ -71,7 +71,7 @@ Flux de haut niveau :
 
 ## Modélisation des données dans B2B AEP
 
-Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez les [schémas RTCDP B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [la documentation AJO B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez [Schémas B2B de &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [Documentation de Journey Optimizer B2B edition](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Remarque :** la logique de chemin partagé dans le parcours utilise les données de profil et, lorsqu’elles sont prises en charge, les données relationnelles. Assurez-vous que les champs dont vous avez besoin pour la logique de cascade sont disponibles dans le parcours.
 
