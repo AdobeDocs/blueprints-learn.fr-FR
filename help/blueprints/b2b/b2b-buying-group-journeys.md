@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ Les étapes suivantes fournissent des conseils pour activer les groupes d’acha
 
    Dans un premier temps, vous définissez et créez un schéma d’expérience conçu pour répondre aux besoins du cas d’utilisation B2B et couvrant les sources de données, par lots et en temps réel. Cette conception doit représenter la manière dont l’entreprise conçoit les entités de compte et de personne, ainsi que les cas d’utilisation que vous souhaitez prendre en charge. Pour que le schéma soit un schéma B2B, il doit suivre les structures disponibles dans la documentation [Schéma B2B RTCDP &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B. À court terme, la relation _plusieurs à plusieurs_ entre le compte et la personne par le biais de la relation compte-personne n’est pas prise en charge dans Journey Optimizer B2B. Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
+   Une pratique utile consiste à prendre les noms d’entités du diagramme et à identifier ces entités dans votre schéma en les étiquetant de la même manière. Notez que certains schémas nécessitent des clés spécifiques, telles que `sourceKey`, pour fonctionner dans RTCDP B2B.  Utilisez les scripts d’accélérateur pour obtenir le meilleur point de départ :
 
    * Utilisez le script de création de schéma B2B [&#128279;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) pour générer le schéma initial
    * Ajoutez des champs spécifiques aux cas d’utilisation aux schémas générés afin de compléter le schéma en fonction des besoins de l’organisation.
