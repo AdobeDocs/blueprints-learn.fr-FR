@@ -51,7 +51,7 @@ Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’
 4. Sélectionnez le champ **Objet**.
 5. Cliquez sur l’icône **Assistant IA**. (voir ci-dessous)
 
-   ![ Icône Assistant IA dans la barre d’outils du champ Objet ](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   ![&#x200B; Icône Assistant IA dans la barre d’outils du champ Objet &#x200B;](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. Notez que Brand Guideline est sélectionné par défaut.
 7. Saisissez l’invite :
@@ -159,7 +159,7 @@ Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des 
 
    ![Sélection de l’espace réservé de l’image pour accéder aux options de Firefly](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-3. Sous ****, cliquez sur **Générer et sélectionnez l’image**.
+3. Sous **&#x200B;**, cliquez sur **Générer et sélectionnez l’image**.
 
 ![Option Générer et sélectionner une image sous Firefly](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 

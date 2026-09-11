@@ -30,7 +30,7 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
 ## Création du message
 
-1. Cliquez sur le bouton **** pour créer votre message.
+1. Cliquez sur le bouton **&#x200B;**&#x200B;pour créer votre message.
 
    Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-personalization-button.png)
 

@@ -38,7 +38,7 @@ Le pack de démonstration AEP Foundations est déployé sur votre sandbox à l�
 
 - **Droits de licence.** Privilèges d’administration pour une organisation IMS avec Real-Time CDP (avec segmentation en flux continu)
 - **Droits d’accès.** Un rôle Adobe Experience Platform avec toutes les autorisations sur le sandbox cible, y compris les informations d’identification d’API que vous avez créées à partir de la configuration de [Developer Console](developer-console-setup.md).
-- **Informations d’identification Developer Console.** Un projet qui comprend des API Adobe Experience Platform. Si vous ne les avez pas encore, suivez d’abord la configuration de [](developer-console-setup.md)
+- **Informations d’identification Developer Console.** Un projet qui comprend des API Adobe Experience Platform. Si vous ne les avez pas encore, suivez d’abord la configuration de [&#128279;](developer-console-setup.md)
 - **Sandbox.** Vide, de type `dev` et à l’état « Prêt » pendant au moins 60 minutes avant le démarrage du déploiement
 - **Node.js.** Toute version récente de LTS, sous Windows ou Mac
 
@@ -57,7 +57,7 @@ Le pack de démonstration AEP Foundations est déployé sur votre sandbox à l�
 L’interface de ligne de commande déploie sur le sandbox vers lequel pointe votre fichier d’environnement. Par conséquent, cette configuration doit être correcte avant toute exécution.
 
 1. Copiez `envFiles/sample-env.json` et donnez-lui un nouveau nom, par exemple `my-env.json`
-1. Ouvrez le fichier et renseignez les champs suivants à l&#39;aide des valeurs de la configuration de [Developer Console ](developer-console-setup.md) :
+1. Ouvrez le fichier et renseignez les champs suivants à l&#39;aide des valeurs de la configuration de [Developer Console &#x200B;](developer-console-setup.md) :
 
    | **Champ** | **Valeur** |
    | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

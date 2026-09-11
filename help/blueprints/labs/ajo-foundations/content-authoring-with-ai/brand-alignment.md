@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Introduction
 
-Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **** qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
+Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **&#x200B;**&#x200B;qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
 
 Cela permet d’assurer les éléments suivants :
 
@@ -106,7 +106,7 @@ Interprétez les résultats pour comprendre à quel point votre e-mail correspon
 
 3. Utilisez les modifications suggérées fournies par l’IA. Cliquez sur l’icône comme illustré ci-dessous.
 
-   ![ Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
+   ![&#x200B; Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
 
 4. Cliquez sur le bouton **Corriger avec l’IA** comme illustré ci-dessous.
 

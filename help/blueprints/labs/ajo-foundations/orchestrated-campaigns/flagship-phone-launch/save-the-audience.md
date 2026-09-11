@@ -74,7 +74,7 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
    - **Doublons à conserver :** `1`
    - **Méthode de déduplication :** `Random selection`
 
-   ![Paramètres de déduplication avec doublons à conserver et méthode ](assets/save-the-audience-deduplication-settings.png)
+   ![Paramètres de déduplication avec doublons à conserver et méthode &#x200B;](assets/save-the-audience-deduplication-settings.png)
 
    >[!NOTE]
    >

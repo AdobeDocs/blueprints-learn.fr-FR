@@ -20,7 +20,7 @@ Créez un parcours unitaire qui commence par l’événement de commande expédi
 
 ## Créer un parcours
 
-Accédez à **** puis cliquez sur **Créer un Parcours - Créer en partant de zéro**
+Accédez à **&#x200B;**&#x200B;puis cliquez sur **Créer un Parcours - Créer en partant de zéro**
 
 ![Créer un Parcours - Créer à partir de zéro dans Adobe Journey Optimizer](assets/build-journey-create-journey-from-scratch.png)
 
@@ -62,7 +62,7 @@ Accédez à **** puis cliquez sur **Créer un Parcours - Créer en partant de z�
 
 2. Si tout semble correct, cliquez sur le bouton **Enregistrer**
 
-![Bouton Enregistrer pour le panneau Propriétés du Parcours ](assets/build-journey-save-journey-properties.png)
+![Bouton Enregistrer pour le panneau Propriétés du Parcours &#x200B;](assets/build-journey-save-journey-properties.png)
 
 
 
@@ -73,11 +73,11 @@ Accédez à **** puis cliquez sur **Créer un Parcours - Créer en partant de z�
 
 Dans le volet de gauche du menu **Événements** faites glisser l’événement **orderShipped** et déposez-le sur la zone de travail, comme illustré ci-dessous
 
-![Faites glisser l’événement orderShipped du menu Événements vers la zone de travail du parcours ](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
+![Faites glisser l’événement orderShipped du menu Événements vers la zone de travail du parcours &#x200B;](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
 
 
-![Événement Commande envoyée placé sur la zone de travail du parcours ](assets/build-journey-drag-order-shipped-event-onto-canvas--2.png)
+![Événement Commande envoyée placé sur la zone de travail du parcours &#x200B;](assets/build-journey-drag-order-shipped-event-onto-canvas--2.png)
 
 
 
@@ -188,7 +188,7 @@ Pour le contenu, vous allez garder les choses simples. Comme stupide simple.
 
 ![Bouton Enregistrer et flèche vers l’arrière en haut à droite et à gauche](assets/build-journey-save-and-back-arrow.png)
 
-12. Enfin, cliquez sur l’icône **\&lt; Précédent** en haut à gauche pour revenir à la zone de travail de Parcours
+&#x200B;12. Enfin, cliquez sur l’icône **\&lt; Précédent** en haut à gauche pour revenir à la zone de travail de Parcours
 
 ![Icône Précédent en haut à gauche pour revenir au Parcours de la zone de travail](assets/build-journey-back-icon-to-journey-canvas.png)
 
@@ -202,7 +202,7 @@ Pour le contenu, vous allez garder les choses simples. Comme stupide simple.
 
 De retour sur la zone de travail de Parcours principale, sur le nœud E-mail, assurez-vous que vous pouvez voir les champs en lecture seule (vous devrez peut-être cliquer sur l’icône **Afficher les champs en lecture seule**)
 
-![Champs en lecture seule affichés sur le nœud E-mail dans la zone de travail du Parcours ](assets/build-journey-show-read-only-fields-email-node.png)
+![Champs en lecture seule affichés sur le nœud E-mail dans la zone de travail du Parcours &#x200B;](assets/build-journey-show-read-only-fields-email-node.png)
 
 1. Faites défiler jusqu’à **Paramètres d’e-mail** et cliquez sur l’icône **Activer le remplacement du paramètre**
 
@@ -220,7 +220,7 @@ De retour sur la zone de travail de Parcours principale, sur le nœud E-mail, as
 
 3. Cliquez sur le bouton **Enregistrer** en haut à droite, puis sur la **flèche retour** \&lt;- en haut à gauche pour **fermer** le Parcours
 
-![Bouton Enregistrer et flèche arrière pour fermer le Parcours ](assets/build-journey-save-and-close-journey.png)
+![Bouton Enregistrer et flèche arrière pour fermer le Parcours &#x200B;](assets/build-journey-save-and-close-journey.png)
 
 ## Récapituler
 

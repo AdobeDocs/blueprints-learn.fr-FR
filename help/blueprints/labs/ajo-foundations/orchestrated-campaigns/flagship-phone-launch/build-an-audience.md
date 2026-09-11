@@ -95,7 +95,7 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 1. Cliquez sur le bouton **Ajouter une condition** et sélectionnez le schéma **dep-rel:** **Product \[Lookup]** en cliquant sur l’icône **>**
 
-   ![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > ](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)
 
 
 2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
@@ -104,7 +104,7 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 
 
-3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **** pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
+3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **&#x200B;**&#x200B;pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
 
    ![Valeur Apple sélectionnée avec le bouton Sélectionner un attribut et une valeur](assets/build-an-audience-select-apple-attribute-value.png)
 

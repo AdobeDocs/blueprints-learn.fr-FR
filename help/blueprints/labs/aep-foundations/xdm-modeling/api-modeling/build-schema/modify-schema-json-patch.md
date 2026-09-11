@@ -135,7 +135,7 @@ Le chemin entièrement composé ressemble à ce que vous voyez ci-dessous.  Copi
 2. Mettez à jour le corps de la requête avec les informations suivantes
 
    - **op** ->` add`
-   - **path** -> `path from previous step +`` the new field name`
+   - **path** -> `path from previous step +`&#x200B;` the new field name`
    - **value** ->
      - **title** -> `Plan Description`
      - **type** -> `string`

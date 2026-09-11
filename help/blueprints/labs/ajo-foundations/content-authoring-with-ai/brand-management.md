@@ -63,7 +63,7 @@ Vous commencerez avec le document Guide de la marque Connection 5G, vous le tél
 1. Dans Adobe Journey Optimizer, accédez au volet de navigation de gauche, puis cliquez sur **Marques**.
 2. Cliquez sur **Créer une marque**.
 
-   ![ Bouton Créer une marque dans la section Marques ](assets/brand-management-click-create-brand-button.png)
+   ![&#x200B; Bouton Créer une marque dans la section Marques &#x200B;](assets/brand-management-click-create-brand-button.png)
 
 3. Dans le champ **Nom**, saisissez `Connection 5G Brand Guidelines`
 4. Dans la zone de chargement, effectuez un glisser-déposer du fichier **Connection5g Brand Guidelines.pdf** (ou cliquez sur **Sélectionner des fichiers** et sélectionnez-le sur votre ordinateur).
@@ -95,7 +95,7 @@ Vous commencerez avec le document Guide de la marque Connection 5G, vous le tél
 
 9. Cliquez à nouveau sur la page principale de la marque pour voir que votre marque est maintenant en ligne (cela doit être indiqué par un point vert avec le libellé **« En ligne »**).
 
-![Liste des marques affichant la nouvelle marque avec un libellé vert Statut en ligne ](assets/brand-management-brand-live-status-label.png)
+![Liste des marques affichant la nouvelle marque avec un libellé vert Statut en ligne &#x200B;](assets/brand-management-brand-live-status-label.png)
 
 
 ## Consulter les onglets des marques
@@ -199,7 +199,7 @@ Ensuite, améliorez la marque en ajoutant une règle qui garantit que les bouton
 
 3. Sous la zone **Ne pas**, cliquez sur l’icône **plus** pour ajouter une nouvelle règle.
 
-   Icône ![ Plus sous la zone Ne pas ajouter de nouvelle règle](assets/brand-management-add-donts-rule-plus-icon.png)
+   Icône ![&#x200B; Plus sous la zone Ne pas ajouter de nouvelle règle](assets/brand-management-add-donts-rule-plus-icon.png)
 
 4. Configurez la règle comme suit :
    - **Exclusion:** `Be pushy`
@@ -249,7 +249,7 @@ Une fois que vous êtes satisfait(e) de la configuration :
 5. Cliquez sur **Précédent** pour revenir à la liste Marques.
 6. Vérifiez qu’une nouvelle carte s’affiche pour les directives de la marque **Connection 5G** avec un statut indiquant qu’elle est en ligne et disponible.
 
-![Carte des directives de la marque Connection 5G affichant le statut Actif ](assets/brand-management-brand-guidelines-card-live-status.png)
+![Carte des directives de la marque Connection 5G affichant le statut Actif &#x200B;](assets/brand-management-brand-guidelines-card-live-status.png)
 
 Votre marque est maintenant en ligne et prête à être utilisée dans Adobe Journey Optimizer.
 

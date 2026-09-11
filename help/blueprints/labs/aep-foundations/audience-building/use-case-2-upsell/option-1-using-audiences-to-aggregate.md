@@ -108,15 +108,15 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-5. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
+&#x200B;5. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
 
    ![Faites glisser les audiences d’utilisation de facturation à côté du nom du plan](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copiez le pseudo code dans la description
+&#x200B;6. Copiez le pseudo code dans la description
 
-7. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
+&#x200B;7. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-8. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
+&#x200B;8. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
 
    ![Remplacez Nom du plan (Nom du plan) par le champ Nom du plan dénormalisé](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +142,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-9. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
+&#x200B;9. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
 
 >[!NOTE]
 >

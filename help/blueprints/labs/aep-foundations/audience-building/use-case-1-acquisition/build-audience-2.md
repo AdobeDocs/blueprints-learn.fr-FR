@@ -162,7 +162,7 @@ Le marketing est arrivé aujourd’hui et nous a donné l’exigence d’avoir c
 >
 >Considérations sur les raisons de sélectionner Lot par rapport à Diffusion en continu ou Edge :
 >
->Derniers mécanismes de sécurisation : [](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+>Derniers mécanismes de sécurisation : [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 >[!TIP]
 >

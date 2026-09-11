@@ -77,7 +77,7 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 
 3. Laissez l’opérateur défini sur « Est égal à » et, dans la zone de texte restante, saisissez le nom de l’élément d’offre de niveau supérieur **iphone:17\:ultra**. Après avoir saisi le texte, l’interface utilisateur se met à jour et indique que la condition correspondante a été acceptée.
 4. Cliquez sur **+Ajouter une condition** puis cliquez dans la zone de texte **nouveau qui apparaît** (elle contient le texte « *Cliquez pour créer un élément de décision...* »)
-5. Cliquez sur l’option désormais disponible **Sélectionner un attribut****.**
+5. Cliquez sur l’option désormais disponible **Sélectionner un attribut**&#x200B;**.**
 6. Lorsque la boîte de dialogue « Sélectionner un attribut » s’ouvre, cliquez sur **Attributs de profil > Personne** (vous devrez probablement faire défiler la page vers le bas) **> Année de naissance**. Une fois sélectionné, cliquez sur **Enregistrer.**
 
    >[!NOTE]
@@ -144,7 +144,7 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 >- Les utilisateurs nés en 1990 avec un **ID de plan = 1** verront leurs offres Ultra et Pro supprimées, même s&#39;ils occupent la première place. L&#39;utilisateur ne voit que les offres de base et génériques car les niveaux Ultra et Pro sont assortis d&#39;une condition supplémentaire : seuls les utilisateurs possédant les **ID de plan 2 ou 3** peuvent les voir.
 >- Comme l&#39;offre générique ne comporte aucune règle de limitation de la fréquence, l&#39;utilisateur de l&#39;année de naissance **1970** ne verra jamais l&#39;offre Ultra, car son score de priorité est inférieur au score boosté de l&#39;offre générique.
 
-5. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
+&#x200B;5. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
 
 >[!TIP]
 >

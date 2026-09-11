@@ -52,7 +52,7 @@ Dans la liste déroulante **Sous-domaine**, sélectionnez **email.dep-labs.com**
 
 Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing**
 
-![Liste déroulante du groupe d’adresses IP avec les détails du groupe d’adresses IP sélectionnées ](assets/configure-for-profile-select-marketing-ip-pool.png " marketing")
+![Liste déroulante du groupe d’adresses IP avec les détails du groupe d’adresses IP sélectionnées &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " marketing")
 
 ## Configurer le désabonnement de la liste
 
@@ -116,7 +116,7 @@ Conserver les paramètres par défaut
    - **Diffuser un message par :** `Target Dimension`
    - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
 
-   Dimension Target](assets/configure-for-profile-target-dimension-settings.png)![
+   Dimension Target![&#128279;](assets/configure-for-profile-target-dimension-settings.png)
 
 7. Sous Adresse d’exécution , configurez les éléments suivants :
    - **Source:** `Profile`

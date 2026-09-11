@@ -31,7 +31,7 @@ Dans l’ensemble d’étapes suivant, vous créez le shell d’une campagne orc
 2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
 3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
 
-   ![ Bouton Créer une campagne dans la navigation Campagnes ](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![&#x200B; Bouton Créer une campagne dans la navigation Campagnes &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 

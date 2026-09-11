@@ -174,7 +174,7 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 
 
 
-1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [](https://webhook.site/)
+1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [&#128279;](https://webhook.site/)
 2. Copiez l’URL unique qui s’affiche et enregistrez-la en lieu sûr.
 
    ![Page Webhook.site avec l’URL unique mise en surbrillance pour la copie](assets/create-property-webhooksite-copy-url.png)
@@ -190,7 +190,7 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 | Méthode | Message |
 | URL | Utilisez la même URL de webhook que celle utilisée lors de la configuration de la destination de diffusion en streaming. Pour le trouver, ouvrez un nouvel onglet dans le navigateur et accédez à Destinations -> Parcourir . |
 | Corps | Raw |
-| Données du corps | \{ « data »: \{ « event »: « \{\{Data Object\}\} » } |
+| Données du corps | \&lbrace; « data »: \{ « event »: « \{\{Data Object\}\} » } |
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Lorsque vous avez terminé, vérifiez que votre écran ressemble à ce qui suit,
 
 
 
-4. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
+&#x200B;4. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
 
 ![Éditeur de règles affichant l’action configurée avec le bouton Enregistrer mis en surbrillance](assets/create-property-save-rule-button.png "Enregistrez votre règle")
 

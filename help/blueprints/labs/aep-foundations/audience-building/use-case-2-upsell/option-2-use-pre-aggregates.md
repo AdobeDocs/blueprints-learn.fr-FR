@@ -36,15 +36,15 @@ Créez une audience de tous les profils dont l’utilisation des données de fac
 
 
 
-3. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
+&#x200B;3. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
 
    ![Sélectionner Le Nom Du Plan N’Est Pas Égal À Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
+&#x200B;4. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
 
-5. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
+&#x200B;5. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
 
 >[!NOTE]
 >

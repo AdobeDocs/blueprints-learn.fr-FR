@@ -25,7 +25,7 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 
 
 
-3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
+&#x200B;3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
 
 ![Rechercher une utilisation dans les événements - aucune description affichée](assets/pre-work-search-usage-in-events.png)
 

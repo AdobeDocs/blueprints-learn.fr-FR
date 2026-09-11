@@ -48,7 +48,7 @@ Cette partie de l’exercice permet de garder la personnalisation simple. Ajoute
 
    ![Icône de personnalisation dans la barre d’outils de texte des e-mails](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Recherchez **F****prénom**.
+4. Recherchez **F**&#x200B;**prénom**.
 
    ![Recherche de l’attribut Prénom dans le panneau de personnalisation](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

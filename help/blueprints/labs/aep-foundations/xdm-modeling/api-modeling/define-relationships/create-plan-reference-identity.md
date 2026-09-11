@@ -53,9 +53,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-4. Exécutez l’API en cliquant sur le bouton `Send` .
+&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
 

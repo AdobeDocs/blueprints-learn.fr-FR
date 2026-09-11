@@ -46,7 +46,7 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 1. Une nouvelle fenêtre doit s’afficher, qui affiche tous les appels API dans le dossier . Définissez le **Délai** sur **500 ms**, puis cliquez sur le bouton **Exécuter**.
 
-   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter ](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
+   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter &#x200B;](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
 
 
 

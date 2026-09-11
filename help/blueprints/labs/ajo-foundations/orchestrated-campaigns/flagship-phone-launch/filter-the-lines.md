@@ -36,7 +36,7 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 3. Dans le rail de droite, développez la section Segment par défaut **Sous-ensemble** et cliquez sur le bouton **Créer un filtre**
 
-   ![Bouton Créer un filtre dans la section Sous-ensemble ](assets/filter-the-lines-create-filter-button.png)
+   ![Bouton Créer un filtre dans la section Sous-ensemble &#x200B;](assets/filter-the-lines-create-filter-button.png)
 
 
 

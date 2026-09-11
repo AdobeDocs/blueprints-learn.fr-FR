@@ -95,7 +95,7 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
 
-![ Payload de réponse affichée avec le bouton Enregistrer ](assets/configure-custom-action-save-response-payload.png)
+![&#x200B; Payload de réponse affichée avec le bouton Enregistrer &#x200B;](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >

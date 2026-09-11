@@ -69,27 +69,27 @@ Cette étape montre comment les modèles peuvent être réutilisés sur plusieur
 
 ![Option Modifier l’e-mail pour l’activité d’e-mail de campagne](assets/creating-the-email-click-edit-email.png)
 
-11. Cliquez sur l’onglet **Action** et sélectionnez **votre** configuration d’e-mail. Votre sandbox peut l’afficher comme E-mail relationnel. (Sélectionnez-en un)
+&#x200B;11. Cliquez sur l’onglet **Action** et sélectionnez **votre** configuration d’e-mail. Votre sandbox peut l’afficher comme E-mail relationnel. (Sélectionnez-en un)
 
 ![Onglet Action avec la configuration d’e-mail sélectionnée](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Cliquez sur **onglet Contenu**
+&#x200B;12. Cliquez sur **onglet Contenu**
 
 ![Onglet Contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-content-tab.png)
 
-13. Cliquez sur **Appliquer le modèle de contenu**
+&#x200B;13. Cliquez sur **Appliquer le modèle de contenu**
 
 ![Option Appliquer le modèle de contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-apply-content-template.png)
 
-14. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé, puis cliquez sur **Confirmer**
+&#x200B;14. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé, puis cliquez sur **Confirmer**
 
 ![Sélection du modèle promotionnel et clic sur Confirmer](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Cliquez sur **Modifier le corps de l’e-mail**
+&#x200B;15. Cliquez sur **Modifier le corps de l’e-mail**
 
 ![Option Modifier le corps de l’e-mail après application du modèle](assets/creating-the-email-click-edit-email-body.png)
 
-16. Vérifiez que les nouveaux blocs d’en-tête, de héros, de pied de page et de contenu s’affichent correctement.
+&#x200B;16. Vérifiez que les nouveaux blocs d’en-tête, de héros, de pied de page et de contenu s’affichent correctement.
 
 ![En-tête, héros, pied de page et blocs de contenu apparaissant correctement dans l’e-mail](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

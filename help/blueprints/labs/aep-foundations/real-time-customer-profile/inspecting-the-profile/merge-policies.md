@@ -64,7 +64,7 @@ Créez une politique de fusion qui n’utilise pas le graphique d’identités a
 1. Cliquez sur **Politiques de fusion** dans la barre de navigation supérieure.
 1. Cliquez sur **Créer une politique de fusion** à l’extrémité droite de votre écran
 
-![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion ](assets/merge-policies-click-create-merge-policy-button.png)
+![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Configuration
 
@@ -133,7 +133,7 @@ Ouvrez la visionneuse de profils en procédant comme suit :
 1. Cliquez sur le bouton **Afficher** pour rechercher le profil
 1. Cliquez sur le **lien** vers le profil pour afficher les détails du profil
 
-![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants ](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
+![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants &#x200B;](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
 
 En comparant les deux vues du profil, vous remarquerez qu’elles sont très différentes. Certains attributs et identités sont manquants dans la version qui utilise la politique de fusion **Pas de combinaison d’identités**.
 

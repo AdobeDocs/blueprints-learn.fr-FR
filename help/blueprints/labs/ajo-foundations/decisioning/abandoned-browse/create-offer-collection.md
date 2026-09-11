@@ -39,7 +39,7 @@ Maintenant que vos offres ont été créées, elles doivent être organisées en
    >
    >Notez que les options disponibles sont les mêmes champs configurables que ceux utilisés lors de la création des éléments d’offre. Étant donné qu’une collection est un regroupement d’éléments d’offre, il est logique que les règles permettant de les regrouper dépendent de leurs attributs.
 
-7. Laissez l’opérateur « Est égal à » en place et saisissez le texte **** dans le champ de valeur, et vous verrez que le nombre d’éléments passe à 4, indiquant que tous les éléments de votre offre répondent à ce critère
+7. Laissez l’opérateur « Est égal à » en place et saisissez le texte **&#x200B;**&#x200B;dans le champ de valeur, et vous verrez que le nombre d’éléments passe à 4, indiquant que tous les éléments de votre offre répondent à ce critère
 
    ![Règle de collection présentant quatre éléments d&#39;offre correspondant aux critères d&#39;iPhone](assets/create-offer-collection-four-matching-offers.png)
 

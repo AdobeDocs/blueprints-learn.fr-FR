@@ -134,17 +134,17 @@ Cette audience doit être directe.  Nous avons peut-être plusieurs pages de pro
 
 
 
-5. Fournissez une description.
+&#x200B;5. Fournissez une description.
 
-6. Passer à la diffusion en continu
+&#x200B;6. Passer à la diffusion en continu
 
-7. Enregistrer en tant que « *Page iPhone 14 visitée mais non possédée/commandée* »
+&#x200B;7. Enregistrer en tant que « *Page iPhone 14 visitée mais non possédée/commandée* »
 
-8. Cliquez sur le bouton bleu **Activer l’audience** vers la destination
+&#x200B;8. Cliquez sur le bouton bleu **Activer l’audience** vers la destination
 
-9. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur Suivant
+&#x200B;9. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur Suivant
 
-10. Cliquez sur Suivant et Terminer
+&#x200B;10. Cliquez sur Suivant et Terminer
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ Cette audience doit être directe.  Nous avons peut-être plusieurs pages de pro
 >
 >Nous avons divisé ce qui est une exigence simple en de nombreuses audiences pour quelques raisons. L’exigence concerne la diffusion en continu, mais ces deux exigences transforment notre audience en lot. Plus de détails ici sur les règles d’éligibilité de diffusion en continu ici :
 >
->[](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Cette audience doit être directe.  Nous avons peut-être plusieurs pages de pro
 >
 >Nous devons comprendre que lors de l’utilisation d’une audience dans une audience , AEP tentera de séquencer le moment venu. Dans certains cas particuliers, cela n’est pas possible, par exemple. Si une Audience d’audiences est utilisée, la disqualification du profil se produit toutes les 24 heures.
 >
->[](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 

@@ -86,7 +86,7 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
    ![Section Gestion de contenu avec l’option Assets dans le volet de navigation de gauche](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. Cliquez sur **** dans la section Gestion Assets.
+2. Cliquez sur **&#x200B;**&#x200B;dans la section Gestion Assets.
 
    ![Option Assets dans la section Gestion Assets](assets/building-content-fragments-assets-under-assets-management.png)
 
@@ -136,11 +136,11 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 ![Cliquez sur Suivant après avoir sélectionné le chargement du logo](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. Sélectionnez le **dossier de ressources** créé, puis cliquez sur **Importer**. Le fichier est enregistré dans votre dossier.
+&#x200B;11. Sélectionnez le **dossier de ressources** créé, puis cliquez sur **Importer**. Le fichier est enregistré dans votre dossier.
 
 ![Sélection du dossier de ressources créé et clic sur Importer](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Style** et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
+&#x200B;12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Style** et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 ![Curseur de largeur d’onglet Style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Cliquez sur **« Enregistrer »** et votre fragment est enregistré. Une barre verte s’affiche lors de la confirmation.
+&#x200B;13. Cliquez sur **« Enregistrer »** et votre fragment est enregistré. Une barre verte s’affiche lors de la confirmation.
 
 ![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **précédent**.
+&#x200B;14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **précédent**.
 
 ![Bouton Précédent pour conserver le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
+&#x200B;15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
 
 ![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
 

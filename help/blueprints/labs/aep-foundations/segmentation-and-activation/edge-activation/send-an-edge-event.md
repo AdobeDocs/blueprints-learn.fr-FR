@@ -109,7 +109,7 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 1. Cliquez sur **Afficher** pour rechercher le profil
 1. Cliquez sur le **Identifiant du profil** pour ouvrir le profil
 
-   ![Profil Parcourez les résultats de la recherche avec le lien Afficher pour ouvrir le profil ](assets/send-an-edge-event-lookup-profile.png " recherche correspondant")
+   ![Profil Parcourez les résultats de la recherche avec le lien Afficher pour ouvrir le profil &#x200B;](assets/send-an-edge-event-lookup-profile.png " recherche correspondant")
 
 1. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
 

@@ -108,7 +108,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
    >[!NOTE]
    >
-   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, vous pouvez consulter la documentation ici -> [](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, vous pouvez consulter la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -179,7 +179,7 @@ Effectuez les mêmes étapes que précédemment et utilisez le tableau ci-dessou
 
 Le résultat final doit ressembler à la capture d’écran ci-dessous lorsque vous avez terminé
 
-![ Schéma de compte client avec le champ customerID ajouté à la racine ](assets/model-custom-objects-customerid-field-added.png)
+![&#x200B; Schéma de compte client avec le champ customerID ajouté à la racine &#x200B;](assets/model-custom-objects-customerid-field-added.png)
 
 
 

@@ -39,7 +39,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
- le compte et copiez son point d’entrée de diffusion en continu](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
+ le compte et copiez son point d’entrée de diffusion en continu&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
 
 ## Rechercher un identifiant de flux de données web
 
@@ -51,7 +51,7 @@ Collectez d&#39;abord les valeurs suivantes :
 >
 >Cliquez dans un espace vide sur la ligne.  NE CLIQUEZ PAS sur les liens bleus !
 
-![Copiez l’ID de flux de données pour le dep : ID de flux de données web (flux](assets/send-web-event-to-hub-web-stream-dataflow-id.png "Web)")
+![Copiez l’ID de flux de données pour le dep : ID de flux de données web (flux] (assets/send-web-event-to-hub-web-stream-dataflow-id.png "Web)")
 
 ## Créer une requête API finale
 

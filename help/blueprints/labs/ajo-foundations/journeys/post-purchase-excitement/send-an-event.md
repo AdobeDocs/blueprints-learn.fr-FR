@@ -41,7 +41,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
-![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion ](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
+![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
 
 
 ### Rechercher un ID de flux de données

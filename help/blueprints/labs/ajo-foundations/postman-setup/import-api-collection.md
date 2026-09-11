@@ -60,7 +60,7 @@ Pour vous assurer que l’environnement et la collection fonctionnent correcteme
 
 4. Lorsque l’environnement approprié est sélectionné, la variable EDGE\_REGION prend désormais une couleur bleu clair. Cela indique que la variable possède désormais une valeur pour l’environnement sélectionné. La variable DATASTREAM\_CONFIG reste rouge, car vous n’avez pas encore créé le flux de données. Vous ne disposez donc pas encore d’une valeur pour cette variable d’environnement. Pointez sur EDGE\_REGION pour afficher la valeur de la valeur de l’environnement.
 
-![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez ](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
+![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez &#x200B;](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
 
 ## Récapituler
 
