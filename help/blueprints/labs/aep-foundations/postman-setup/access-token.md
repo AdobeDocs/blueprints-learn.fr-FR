@@ -117,4 +117,4 @@ Cette erreur se produit lorsque vous oubliez de définir votre environnement Pos
 >
 >N’oubliez pas de définir votre environnement Postman lors de l’exécution des appels API
 >
->![Sélection de l’environnement du Bootcamp AEP dans le menu déroulant Environnement Postman ](assets/access-token-set-postman-environment.png)
+>![Sélection de l’environnement du Bootcamp AEP dans le menu déroulant Environnement Postman &#x200B;](assets/access-token-set-postman-environment.png)

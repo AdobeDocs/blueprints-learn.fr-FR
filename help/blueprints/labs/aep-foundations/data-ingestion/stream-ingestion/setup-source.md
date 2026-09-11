@@ -80,7 +80,7 @@ Effectuez les étapes suivantes :
 
 1. Créez un jeu de données et nommez-le -> `Customer Account Stream - <Your Initials>`
 1. Choisissez le **Schéma** comme ->`dep: Customer Account`
-1. Assurez-vous que le bouton (bascule) **Jeu de données de profil** est **activé**.  Si ce n’est pas le cas **** activez-le.
+1. Assurez-vous que le bouton (bascule) **Jeu de données de profil** est **activé**.  Si ce n’est pas le cas **&#x200B;**&#x200B;activez-le.
 1. Mettez à jour le **nom du flux de données** comme suit :
    - `Customer Account Stream - <Your Initials>`
 1. Cliquez sur le bouton **Suivant** pour continuer
