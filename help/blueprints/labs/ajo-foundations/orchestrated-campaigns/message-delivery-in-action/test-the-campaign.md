@@ -111,4 +111,4 @@ Cliquez sur le bouton **Arrêter** pour arrêter le **Mode test** de la campagne
 
 Vous avez maintenant vu comment tester la campagne créée pour comprendre le flux et le comportement. Ici, les nuances de l’utilisation des différents paramètres de configuration du canal e-mail ont été bien comprises lors de l’exécution du flux de test.
 
-Vous pouvez en savoir plus sur le mode test de la campagne [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), si vous êtes intéressé.
+Vous pouvez en savoir plus sur le mode test de la campagne [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), si vous êtes intéressé.

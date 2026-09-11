@@ -158,7 +158,7 @@ Cette audience doit être directe.  Nous avons peut-être plusieurs pages de pro
 >
 >Nous avons divisé ce qui est une exigence simple en de nombreuses audiences pour quelques raisons. L’exigence concerne la diffusion en continu, mais ces deux exigences transforment notre audience en lot. Plus de détails ici sur les règles d’éligibilité de diffusion en continu ici :
 >
->[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Cette audience doit être directe.  Nous avons peut-être plusieurs pages de pro
 >
 >Nous devons comprendre que lors de l’utilisation d’une audience dans une audience , AEP tentera de séquencer le moment venu. Dans certains cas particuliers, cela n’est pas possible, par exemple. Si une Audience d’audiences est utilisée, la disqualification du profil se produit toutes les 24 heures.
 >
->[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=fr)
 
 
 

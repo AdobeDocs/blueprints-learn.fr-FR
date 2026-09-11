@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configurer une destination Personalization personnalisée
 
-L’utilisation d’une [Destination Personalization personnalisée](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) permet de rendre les audiences disponibles sur Edge pour une utilisation par un tiers, généralement à l’aide de l’API du serveur réseau, à des fins de personnalisation.
+L’utilisation d’une [Destination Personalization personnalisée](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/custom-personalization) permet de rendre les audiences disponibles sur Edge pour une utilisation par un tiers, généralement à l’aide de l’API du serveur réseau, à des fins de personnalisation.
 
 Cet atelier configure la destination Personalization personnalisée afin que nous puissions envoyer des attributs de profil à Edge.
 
@@ -25,7 +25,7 @@ Cet atelier configure la destination Personalization personnalisée afin que nou
 
 >[!NOTE]
 >
->Pour la personnalisation à l’aide d’Adobe Target, nous utilisons la [Destination Adobe Target.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Le comportement est identique à celui de Custom Personalization.
+>Pour la personnalisation à l’aide d’Adobe Target, nous utilisons la [Destination Adobe Target.](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Le comportement est identique à celui de Custom Personalization.
 
 1. Dans le rail de gauche, cliquez sur **Destinations**
 1. Dans le rail supérieur, cliquez sur **Catalogue**
@@ -121,7 +121,7 @@ Lorsque vous avez terminé, l’écran doit ressembler à l’image ci-dessous. 
 
 >[!NOTE]
 >
->Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
+>Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
 
 
 ### Révision
@@ -132,4 +132,4 @@ Sur le dernier écran, vous pouvez consulter les détails de votre configuration
 
 >[!NOTE]
 >
->C’est à ce moment que [Application automatique](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement) vérifie vos [politiques d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Il vérifie vos actions marketing avec les règles que vous avez créées et génère d’éventuelles erreurs.
+>C’est à ce moment que [Application automatique](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement) vérifie vos [politiques d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/policies/overview). Il vérifie vos actions marketing avec les règles que vous avez créées et génère d’éventuelles erreurs.
