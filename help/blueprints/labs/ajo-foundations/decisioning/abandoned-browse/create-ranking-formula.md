@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une formule de classement
 description: Créez une formule de classement qui booste de manière dynamique les scores de priorité des offres en fonction des attributs de profil tels que l’âge.
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
@@ -28,16 +27,16 @@ Dans ce scénario de laboratoire, nous allons prétendre que l&#39;équipe marke
 1. Si nécessaire, développez **Prise de décision** dans le rail de gauche, puis cliquez sur **Configuration de la stratégie**. Vous accédez à la page « Règles de prise de décision » et voyez la règle de décision « Plans de niveau supérieur » que vous avez précédemment créée et utilisée comme conditions d’éligibilité pour les articles d’offre téléphonique de niveau supérieur.
 2. Cliquez sur **Formules de classement** dans le menu &#39;Méthodes de classement&#39;. Cette action ouvre une page vide, car vous ne disposez pas encore de formule de classement.
 
-![Page Formules de classement vide avant de créer une formule](assets/create-ranking-formula-empty-ranking-formulas-page.png)
+   ![Page Formules de classement vide avant de créer une formule](assets/create-ranking-formula-empty-ranking-formulas-page.png)
 
-&#x200B;3. Cliquez sur le bouton bleu **Créer une formule** pour commencer à créer une formule de classement
-&#x200B;4. Nommez la formule de classement **Formule de classement iPhone 17**
+3. Cliquez sur le bouton bleu **Créer une formule** pour commencer à créer une formule de classement
+4. Nommez la formule de classement **Formule de classement iPhone 17**
 
->[!NOTE]
->
->Lorsqu’un événement d’expérience est envoyé à la collecte de données Edge avec les paramètres requis pour demander une offre à partir d’un package Decisioning actif, toutes les offres de ce package sont évaluées à l’aide de la formule de classement. Chaque offre conserve sa priorité d’origine ou sa priorité est ajustée dynamiquement en fonction du profil qui a déclenché l’événement d’expérience.
+   >[!NOTE]
+   >
+   >Lorsqu’un événement d’expérience est envoyé à la collecte de données Edge avec les paramètres requis pour demander une offre à partir d’un package Decisioning actif, toutes les offres de ce package sont évaluées à l’aide de la formule de classement. Chaque offre conserve sa priorité d’origine ou sa priorité est ajustée dynamiquement en fonction du profil qui a déclenché l’événement d’expérience.
 
-&#x200B;5. Faites défiler la page jusqu’au bas de la section « Critères », cliquez sur l’icône **\&lt;/>** de la zone de texte située le plus bas, puis sélectionnez la variable **Score de priorité de l’offre**.
+5. Faites défiler la page jusqu’au bas de la section « Critères », cliquez sur l’icône **\&lt;/>** de la zone de texte située le plus bas, puis sélectionnez la variable **Score de priorité de l’offre**.
 
 ![Variable de score de priorité des offres sélectionnée dans les critères de la formule de classement](assets/create-ranking-formula-select-offer-priority-score.png)
 
@@ -67,31 +66,31 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 
 1. Commencez par créer la règle de classement pour l&#39;élément d&#39;offre de niveau Ultra. Cliquez dans la première zone de texte de la section **Critère 1**, puis cliquez sur le bouton **Sélectionner un attribut** lorsqu’il apparaît.
 
-![Sélectionner l’option d’attribut affichée pour le critère 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
+   ![Sélectionner l’option d’attribut affichée pour le critère 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
 
-&#x200B;2. Lorsque la boîte de dialogue &#39;Sélectionner un attribut&#39; s&#39;ouvre, cliquez sur **Nom de l&#39;offre**. Une fois sélectionné, cliquez sur **Enregistrer.**
+2. Lorsque la boîte de dialogue &#39;Sélectionner un attribut&#39; s&#39;ouvre, cliquez sur **Nom de l&#39;offre**. Une fois sélectionné, cliquez sur **Enregistrer.**
 
->[!NOTE]
->
->L’« attribut de décision » fait référence aux éléments de l’élément d’offre. Puisque c’est là que vous indiquez les éléments d’offre auxquels les critères s’appliqueront, les seules options disponibles sont les attributs de l’élément d’offre.
->
+   >[!NOTE]
+   >
+   >L’« attribut de décision » fait référence aux éléments de l’élément d’offre. Puisque c’est là que vous indiquez les éléments d’offre auxquels les critères s’appliqueront, les seules options disponibles sont les attributs de l’élément d’offre.
+   >
 
-&#x200B;3. Laissez l’opérateur défini sur « Est égal à » et, dans la zone de texte restante, saisissez le nom de l’élément d’offre de niveau supérieur **iphone:17\:ultra**. Après avoir saisi le texte, l’interface utilisateur se met à jour et indique que la condition correspondante a été acceptée.
-&#x200B;4. Cliquez sur **+Ajouter une condition** puis cliquez dans la zone de texte **nouveau qui apparaît** (elle contient le texte « *Cliquez pour créer un élément de décision...* »)
-&#x200B;5. Cliquez sur l’option désormais disponible **Sélectionner un attribut**&#x200B;**.**
-&#x200B;6. Lorsque la boîte de dialogue « Sélectionner un attribut » s’ouvre, cliquez sur **Attributs de profil > Personne** (vous devrez probablement faire défiler la page vers le bas) **> Année de naissance**. Une fois sélectionné, cliquez sur **Enregistrer.**
+3. Laissez l’opérateur défini sur « Est égal à » et, dans la zone de texte restante, saisissez le nom de l’élément d’offre de niveau supérieur **iphone:17\:ultra**. Après avoir saisi le texte, l’interface utilisateur se met à jour et indique que la condition correspondante a été acceptée.
+4. Cliquez sur **+Ajouter une condition** puis cliquez dans la zone de texte **nouveau qui apparaît** (elle contient le texte « *Cliquez pour créer un élément de décision...* »)
+5. Cliquez sur l’option désormais disponible **Sélectionner un attribut****.**
+6. Lorsque la boîte de dialogue « Sélectionner un attribut » s’ouvre, cliquez sur **Attributs de profil > Personne** (vous devrez probablement faire défiler la page vers le bas) **> Année de naissance**. Une fois sélectionné, cliquez sur **Enregistrer.**
 
->[!NOTE]
->
-> « Attributs de profil » fait référence à l’utilisateur ou au profil qui a envoyé l’événement d’expérience, tandis que « Données contextuelles » fait référence aux éléments de l’événement d’expérience lui-même, tels que l’URL, le nom de page ou d’autres attributs de la payload de l’événement d’expérience.
+   >[!NOTE]
+   >
+   > « Attributs de profil » fait référence à l’utilisateur ou au profil qui a envoyé l’événement d’expérience, tandis que « Données contextuelles » fait référence aux éléments de l’événement d’expérience lui-même, tels que l’URL, le nom de page ou d’autres attributs de la payload de l’événement d’expérience.
 
-&#x200B;7. Remplacez l’opérateur par **Supérieur à** et saisissez l’année de naissance **1986** (l’interface utilisateur place une virgule dans l’année, ce qui est attendu). Après la saisie, l’interface utilisateur se met à jour pour refléter le fait que la condition a été acceptée. Comme le cas d’utilisation commerciale est d’offrir le niveau Ultra à toute personne de moins de 40 ans, la priorité est ajustée pour toute personne née après 1986.
+7. Remplacez l’opérateur par **Supérieur à** et saisissez l’année de naissance **1986** (l’interface utilisateur place une virgule dans l’année, ce qui est attendu). Après la saisie, l’interface utilisateur se met à jour pour refléter le fait que la condition a été acceptée. Comme le cas d’utilisation commerciale est d’offrir le niveau Ultra à toute personne de moins de 40 ans, la priorité est ajustée pour toute personne née après 1986.
 
->[!NOTE]
->
->Comme mentionné précédemment, l’interface utilisateur indique que ces conditions supplémentaires sont « facultatives ». Cela est vrai, car il est possible d’ajuster dynamiquement la priorité d’un ensemble d’éléments d’offre sans aucun critère supplémentaire. Il se peut que les mêmes éléments d’offre puissent être utilisés dans une collection différente et classés avec un ensemble différent de règles de classement. Comme cet atelier n’utilise qu’un seul ensemble d’éléments d’offre, des conditions supplémentaires sont utilisées pour ajuster la priorité.
+   >[!NOTE]
+   >
+   >Comme mentionné précédemment, l’interface utilisateur indique que ces conditions supplémentaires sont « facultatives ». Cela est vrai, car il est possible d’ajuster dynamiquement la priorité d’un ensemble d’éléments d’offre sans aucun critère supplémentaire. Il se peut que les mêmes éléments d’offre puissent être utilisés dans une collection différente et classés avec un ensemble différent de règles de classement. Comme cet atelier n’utilise qu’un seul ensemble d’éléments d’offre, des conditions supplémentaires sont utilisées pour ajuster la priorité.
 
-&#x200B;8. La priorité d&#39;origine pour l&#39;élément d&#39;offre de niveau Ultra est 4. Pour augmenter la priorité, multipliez ce chiffre par 100. Pour ce faire, cliquez sur l’icône **\&lt;/>** en regard de la dernière zone de texte et sélectionnez la variable **Score de priorité des offres**. Ajoutez un **\*100** après le texte automatiquement saisi. Cette expression multiplie la priorité d’origine (4) par 100 et lui donne une nouvelle priorité de 400.
+8. La priorité d&#39;origine pour l&#39;élément d&#39;offre de niveau Ultra est 4. Pour augmenter la priorité, multipliez ce chiffre par 100. Pour ce faire, cliquez sur l’icône **\&lt;/>** en regard de la dernière zone de texte et sélectionnez la variable **Score de priorité des offres**. Ajoutez un **\*100** après le texte automatiquement saisi. Cette expression multiplie la priorité d’origine (4) par 100 et lui donne une nouvelle priorité de 400.
 
    Votre règle doit maintenant ressembler à ceci :
 
@@ -110,9 +109,9 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 1. Juste en dessous de la règle d’ajustement que vous venez de créer, cliquez sur le bouton **+ Ajouter un critère**.
 2. Créez une condition correspondante pour laquelle le **Nom de l’offre** n’est PAS égal à **iphone:17\:ultra**.
 
->[!WARNING]
->
->Cette règle est destinée à s&#39;appliquer à tous les autres éléments d&#39;offre. Vous trouverez plus de détails sur les raisons de ce choix sur cette page, mais faites très attention à utiliser ce type de logique en pratique, car il s’appliquerait à chaque offre de la collection qui n’a pas cette valeur. Dans notre cas, c&#39;est très bien, mais ce n&#39;est peut-être pas le cas dans d&#39;autres cas d&#39;utilisation.
+   >[!WARNING]
+   >
+   >Cette règle est destinée à s&#39;appliquer à tous les autres éléments d&#39;offre. Vous trouverez plus de détails sur les raisons de ce choix sur cette page, mais faites très attention à utiliser ce type de logique en pratique, car il s’appliquerait à chaque offre de la collection qui n’a pas cette valeur. Dans notre cas, c&#39;est très bien, mais ce n&#39;est peut-être pas le cas dans d&#39;autres cas d&#39;utilisation.
 
 3. Ajoutez la condition selon laquelle cette règle doit s&#39;appliquer à toute personne dont l&#39;année de naissance est supérieure à **1966** (toute personne de moins de 60 ans).
 4. Comme pour la règle précédente, multipliez par 100 le score de priorité par défaut de l’élément de l’offre. Lorsque vous avez terminé, votre règle « Critère 2 » ressemble à ceci :
@@ -145,12 +144,13 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 >- Les utilisateurs nés en 1990 avec un **ID de plan = 1** verront leurs offres Ultra et Pro supprimées, même s&#39;ils occupent la première place. L&#39;utilisateur ne voit que les offres de base et génériques car les niveaux Ultra et Pro sont assortis d&#39;une condition supplémentaire : seuls les utilisateurs possédant les **ID de plan 2 ou 3** peuvent les voir.
 >- Comme l&#39;offre générique ne comporte aucune règle de limitation de la fréquence, l&#39;utilisateur de l&#39;année de naissance **1970** ne verra jamais l&#39;offre Ultra, car son score de priorité est inférieur au score boosté de l&#39;offre générique.
 
-&#x200B;5. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
+5. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
 
 >[!TIP]
 >
 >Vous revenez maintenant à la page « Configuration de la stratégie », et la formule de classement unique que vous venez de créer s’affiche.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Que se passe-t-il si deux offres génèrent la même priorité ? Les offres ayant le même score de priorité sont choisies au hasard pour être renvoyées au système demandeur.
 

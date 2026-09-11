@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Afficher le schéma
 description: Affichez un schéma client nouvellement créé dans l’interface utilisateur d’Experience Platform et via un appel de l’API Get Schema.
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -19,9 +18,9 @@ ht-degree: 0%
 
 1. Ouvrez votre navigateur et revenez à la section `Schema -> Browse` .
 
->[!NOTE]
->
->Actualisez l’interface utilisateur pour la voir, car vous venez de la créer et vous devez interroger à nouveau le registre des schémas
+   >[!NOTE]
+   >
+   >Actualisez l’interface utilisateur pour la voir, car vous venez de la créer et vous devez interroger à nouveau le registre des schémas
 
 2. Rechercher le `Sample Customer Schema - <your sandbox number>` de schéma
 

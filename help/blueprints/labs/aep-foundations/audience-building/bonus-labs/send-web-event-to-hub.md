@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envoyer l’événement web au hub
 description: Découvrez comment envoyer un événement web directement au Hub à l’aide de Postman et vérifier qu’il atteint le profil et se qualifie pour les segments en flux continu.
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -40,7 +39,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
- le compte et copiez son point d’entrée de diffusion en continu&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
+ le compte et copiez son point d’entrée de diffusion en continu](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
 
 ## Rechercher un identifiant de flux de données web
 
@@ -52,7 +51,7 @@ Collectez d&#39;abord les valeurs suivantes :
 >
 >Cliquez dans un espace vide sur la ligne.  NE CLIQUEZ PAS sur les liens bleus !
 
-![Copiez l’ID de flux de données pour le dep : ID de flux de données web (flux] (assets/send-web-event-to-hub-web-stream-dataflow-id.png "Web)")
+![Copiez l’ID de flux de données pour le dep : ID de flux de données web (flux](assets/send-web-event-to-hub-web-stream-dataflow-id.png "Web)")
 
 ## Créer une requête API finale
 
@@ -63,7 +62,7 @@ Copiez les valeurs enregistrées lors des étapes précédentes dans les emplace
 
 Votre requête d’API finale doit ressembler à ceci une fois terminée
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NE PAS EXÉCUTER POUR LE MOMENT
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer une destination de diffusion en continu
 description: Configurez une destination de diffusion en continu d’API HTTP avec un point d’entrée webhook, une politique de gouvernance, des audiences et des mappages de champs pour tester l’activation des segments.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 >
 >Nous allons utiliser un webhook ici afin de voir si les données sont arrivées à la destination vers laquelle nous envoyons. Dans un scénario réel, nous nous connecterions à cette destination et utiliserions ses outils pour voir ce qui est arrivé.
 
-1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [&#128279;](https://webhook.site/)
+1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [](https://webhook.site/)
 1. Copiez l’URL unique qui s’affiche et enregistrez-la en lieu sûr.
 
 ![Webhook.site copier votre URL unique](assets/setup-streaming-destination-webhooksite-copy-your-unique-url.png "Webhook.site copier votre URL unique")
@@ -55,15 +54,15 @@ Dans l’interface utilisateur d’Experience Platform, accédez au catalogue de
 1. Type de connexion **Aucune**
 1. Cliquez sur **Se connecter à la destination**
 
-![Connexion à la destination](assets/setup-streaming-destination-connect-to-destination.png "Connexion à la destination")
+   ![Connexion à la destination](assets/setup-streaming-destination-connect-to-destination.png "Connexion à la destination")
 
->[!NOTE]
->
->En règle générale, nous ajoutons des informations d’authentification à ce stade, mais aucune n’est requise pour ce webhook.
+   >[!NOTE]
+   >
+   >En règle générale, nous ajoutons des informations d’authentification à ce stade, mais aucune n’est requise pour ce webhook.
 
 
 
-&#x200B;3. Renseignez les détails de configuration de la destination comme suit :
+3. Renseignez les détails de configuration de la destination comme suit :
 
 - **Nom** -> `Streaming DEP Webhook - [Your Initials]`
 - **Description** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ Lorsque vous avez terminé, assurez-vous que votre configuration correspond à c
 >
 >Vous pouvez en savoir plus sur les politiques de gouvernance dans Experience League
 >
->[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr#core-actions)
+>[](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Sélectionner des audiences
 

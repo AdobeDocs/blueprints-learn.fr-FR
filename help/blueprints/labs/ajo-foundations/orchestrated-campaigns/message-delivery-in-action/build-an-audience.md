@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience pour cibler les membres du plan de base à partir d’un schéma relationnel et vérifier le nombre de lignes obtenu.
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -23,53 +22,53 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 1. Une fois la campagne générée, cliquez sur le **+** dans la zone de travail pour ouvrir le menu d’options, puis sélectionnez **Créer une audience** dans les **Activités de ciblage**
 
-![Sélectionnez Créer une audience dans les activités de ciblage](assets/build-an-audience-select-build-audience-activity.png)
+   ![Sélectionnez Créer une audience dans les activités de ciblage](assets/build-an-audience-select-build-audience-activity.png)
 
-&#x200B;2. L’activité **Créer une audience** ouvre le volet de détails à droite. Cliquez ensuite sur l’icône Rechercher pour sélectionner la **dimension de ciblage**.
+2. L’activité **Créer une audience** ouvre le volet de détails à droite. Cliquez ensuite sur l’icône Rechercher pour sélectionner la **dimension de ciblage**.
 
-![Sélectionner la dimension de ciblage](assets/build-an-audience-select-targeting-dimension.png)
+   ![Sélectionner la dimension de ciblage](assets/build-an-audience-select-targeting-dimension.png)
 
-&#x200B;3. Sélectionnez `dep-rel: Customer Account` dans la liste et cliquez sur **Confirmer**
+3. Sélectionnez `dep-rel: Customer Account` dans la liste et cliquez sur **Confirmer**
 
-![Sélectionner dep-rel : schéma de compte client](assets/build-an-audience-select-customer-account-schema.png)
+   ![Sélectionner dep-rel : schéma de compte client](assets/build-an-audience-select-customer-account-schema.png)
 
-&#x200B;4. Une fois la **dimension de ciblage** configurée, cliquez sur Créer une audience pour lancer le processus de création de l’audience à partir du schéma relationnel
+4. Une fois la **dimension de ciblage** configurée, cliquez sur Créer une audience pour lancer le processus de création de l’audience à partir du schéma relationnel
 
-![Cliquez sur le bouton Créer une audience](assets/build-an-audience-create-audience-button.png)
+   ![Cliquez sur le bouton Créer une audience](assets/build-an-audience-create-audience-button.png)
 
-&#x200B;5. Le volet Créer une audience s’ouvre. Cliquez sur **Ajouter une condition**
+5. Le volet Créer une audience s’ouvre. Cliquez sur **Ajouter une condition**
 
-![Cliquez sur Ajouter une condition dans le volet Créer une audience](assets/build-an-audience-add-condition.png)
+   ![Cliquez sur Ajouter une condition dans le volet Créer une audience](assets/build-an-audience-add-condition.png)
 
-&#x200B;6. Faites défiler vers le bas et développez le `dep-rel: Plan Lookup` en cliquant sur le **>** en regard de celui-ci
+6. Faites défiler vers le bas et développez le `dep-rel: Plan Lookup` en cliquant sur le **>** en regard de celui-ci
 
-![Développer dep-rel : planifier la recherche](assets/build-an-audience-expand-plan-lookup.png)
+   ![Développer dep-rel : planifier la recherche](assets/build-an-audience-expand-plan-lookup.png)
 
-&#x200B;7. Sélectionnez `dep-rel: Plan Name` et cliquez sur **Confirmer**
+7. Sélectionnez `dep-rel: Plan Name` et cliquez sur **Confirmer**
 
-![Sélectionner dep-rel : nom du plan](assets/build-an-audience-select-plan-name.png)
+   ![Sélectionner dep-rel : nom du plan](assets/build-an-audience-select-plan-name.png)
 
-&#x200B;8. Dans le panneau Condition personnalisée , laissez l’opérateur sur « égal à » et, pour Valeur, sélectionnez De base dans la liste déroulante.
+8. Dans le panneau Condition personnalisée , laissez l’opérateur sur « égal à » et, pour Valeur, sélectionnez De base dans la liste déroulante.
 
-![Condition personnalisée avec nom de plan égal à De base](assets/build-an-audience-plan-name-equals-basic.png)
+   ![Condition personnalisée avec nom de plan égal à De base](assets/build-an-audience-plan-name-equals-basic.png)
 
->[!NOTE]
->
->Notez que toutes les valeurs distinctes disponibles pour la colonne sélectionnée s’affichent dans la liste déroulante, ce qui facilite la création de conditions personnalisées.
-
-
-
-&#x200B;9. Une fois la condition personnalisée configurée, cliquez sur l’icône Actualiser pour calculer et afficher le nombre. Il existe deux emplacements pour faciliter le calcul des résultats
-
-![Cliquez sur icône Actualiser pour calculer le nombre de lignes attendu](assets/build-an-audience-refresh-row-counts.png)
-
->[!NOTE]
->
->L’opération d’actualisation évalue la condition par rapport aux données relationnelles et affiche les résultats attendus. Cette opération ne prend généralement que quelques secondes et est extrêmement utile pour affiner les critères et s’assurer qu’ils répondent aux attentes.
+   >[!NOTE]
+   >
+   >Notez que toutes les valeurs distinctes disponibles pour la colonne sélectionnée s’affichent dans la liste déroulante, ce qui facilite la création de conditions personnalisées.
 
 
 
-&#x200B;10. Les nombres (**38**) indiquent le nombre de lignes du magasin relationnel qui correspondent à la condition spécifiée. Cliquez sur **Confirmer** pour quitter le volet **Créer une audience**
+9. Une fois la condition personnalisée configurée, cliquez sur l’icône Actualiser pour calculer et afficher le nombre. Il existe deux emplacements pour faciliter le calcul des résultats
+
+   ![Cliquez sur icône Actualiser pour calculer le nombre de lignes attendu](assets/build-an-audience-refresh-row-counts.png)
+
+   >[!NOTE]
+   >
+   >L’opération d’actualisation évalue la condition par rapport aux données relationnelles et affiche les résultats attendus. Cette opération ne prend généralement que quelques secondes et est extrêmement utile pour affiner les critères et s’assurer qu’ils répondent aux attentes.
+
+
+
+10. Les nombres (**38**) indiquent le nombre de lignes du magasin relationnel qui correspondent à la condition spécifiée. Cliquez sur **Confirmer** pour quitter le volet **Créer une audience**
 
 ![Confirmer le nombre de lignes et quitter le volet Créer une audience](assets/build-an-audience-confirm-row-count.png)
 
@@ -81,4 +80,4 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 Vous avez maintenant vu à quel point il est facile d’utiliser l’activité Créer une audience dans la campagne en choisissant la dimension de ciblage appropriée dans le schéma relationnel. Vous avez ensuite ajouté une condition pour affiner les critères de création de l’audience et utilisé l’option actualiser pour vérifier le nombre de lignes attendu.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si cela vous intéresse.

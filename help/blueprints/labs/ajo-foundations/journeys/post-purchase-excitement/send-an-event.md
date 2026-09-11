@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envoi d’un événement
 description: Utilisez Postman pour diffuser directement un événement de commande expédiée simulé vers le Hub afin de déclencher le parcours, plutôt que de l’envoyer à Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
-![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
+![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion ](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
 
 
 ### Rechercher un ID de flux de données
@@ -51,7 +50,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Recherchez l’enregistrement de **dep: Orders (flux)** puis cliquez sur le lien flux de données .
 1. Dans le rail de droite, copiez et enregistrez les valeurs **ID de flux de données** à un emplacement auquel vous pourrez faire référence ultérieurement
 
-&#x200B;> [!WARNING]
+>[!WARNING]
 >
 >Cliquez dans un espace vide sur la ligne.  NE CLIQUEZ PAS sur les liens bleus !
 
@@ -80,7 +79,7 @@ Lancez Postman sur votre ordinateur et accédez à l’appel API suivant :
    - **Vert** —> `Dataflow ID`
      - La valeur ressemble à un GUID (ne commence pas par http)
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NE PAS EXÉCUTER POUR LE MOMENT
 

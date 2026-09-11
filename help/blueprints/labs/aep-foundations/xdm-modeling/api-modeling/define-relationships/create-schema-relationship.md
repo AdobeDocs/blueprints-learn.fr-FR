@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une relation de schéma
 description: Utilisez l’API Schema Registry pour créer un descripteur de relation un-à-un liant le schéma Compte client à un schéma de plan de recherche.
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. Cliquez sur la requête d’API `Step 2 - Relationship Descriptor Customer Account To Plan` dans le dossier `XDM Schema Lab -> Create Relationship Descriptors` .
 
->[!CAUTION]
->
->Ne pas exécuter la requête... pour l’instant
+   >[!CAUTION]
+   >
+   >Ne pas exécuter la requête... pour l’instant
 
-![Étape 2 - Compte client du descripteur de relation avec la demande d’API de plan](assets/create-schema-relationship-step-2-descriptor-request.png "Étape 2 - Compte client du descripteur de relation avec la planification")
+   ![Étape 2 - Compte client du descripteur de relation avec la demande d’API de plan](assets/create-schema-relationship-step-2-descriptor-request.png "Étape 2 - Compte client du descripteur de relation avec la planification")
 
 
 
-&#x200B;2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
+2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
 
 - Définissez la valeur de la propriété `xdm:sourceSchema` sur la `$id` du schéma de compte client que vous avez enregistré à partir de l’étape [Créer un schéma](../build-schema/create-schema.md) de l’atelier
 - Définissez la valeur du `xdm:sourceProperty` sur le chemin d’accès du champ `planID` à partir du schéma de compte client.
@@ -58,9 +57,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
+4. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
 

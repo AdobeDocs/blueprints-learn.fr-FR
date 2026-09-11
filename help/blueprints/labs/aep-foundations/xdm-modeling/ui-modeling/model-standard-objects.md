@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Objets standard du modèle
 description: Créez un schéma Profil individuel dans l’interface utilisateur et ajoutez et supprimez des groupes de champs standard tels que Détails démographiques et Consentement et préférences.
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 1. Cliquez sur l’onglet **Schémas** dans le rail de gauche
 
-![Onglet Schémas dans le volet de navigation du rail de gauche](assets/model-standard-objects-schemas-tab-left-rail.png "Accédez aux schémas à l’aide du rail de gauche")
+   ![Onglet Schémas dans le volet de navigation du rail de gauche](assets/model-standard-objects-schemas-tab-left-rail.png "Accédez aux schémas à l’aide du rail de gauche")
 
 
 
@@ -36,13 +35,13 @@ ht-degree: 0%
 
 1. Commencez par cliquer sur **Créer un schéma**
 
-![bouton Créer un schéma](assets/model-standard-objects-create-schema-button.png "Créer un schéma")
+   ![bouton Créer un schéma](assets/model-standard-objects-create-schema-button.png "Créer un schéma")
 
 
 
 1. Sélectionnez **Manuel**
 
-![Sélectionner l’option de création manuelle de schéma](assets/model-standard-objects-select-manual-option.png "Sélectionner manuelle")
+   ![Sélectionner l’option de création manuelle de schéma](assets/model-standard-objects-select-manual-option.png "Sélectionner manuelle")
 
 
 
@@ -68,24 +67,24 @@ Il existe de nombreux groupes de champs qui existent en tant que XDM standard da
 
 1. Cliquez sur le **+ (ajouter)** sur le rail de gauche dans la section groupe de champs .
 
-![Bouton Ajouter un groupe de champs dans le rail de gauche](assets/model-standard-objects-add-field-group-button.png "Ajouter un groupe de champs")
+   ![Bouton Ajouter un groupe de champs dans le rail de gauche](assets/model-standard-objects-add-field-group-button.png "Ajouter un groupe de champs")
 
 
 
 1. Recherchez **Détails démographiques** ou trouvez-les en parcourant la liste.
 
-- Lorsque vous trouvez le groupe de champs, cliquez sur la loupe située à droite du groupe de champs pour en afficher la structure.  Il s’agit d’une méthode utile pour prévisualiser ce que vous êtes sur le point d’ajouter à votre schéma sans réellement l’ajouter.
-- Fermer l’aperçu une fois la révision terminée
+   - Lorsque vous trouvez le groupe de champs, cliquez sur la loupe située à droite du groupe de champs pour en afficher la structure.  Il s’agit d’une méthode utile pour prévisualiser ce que vous êtes sur le point d’ajouter à votre schéma sans réellement l’ajouter.
+   - Fermer l’aperçu une fois la révision terminée
 
 
 
-![Cliquez sur la loupe pour prévisualiser la structure du groupe de champs](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Cliquez sur la loupe pour prévisualiser la structure du groupe de champs")
+   ![Cliquez sur la loupe pour prévisualiser la structure du groupe de champs](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Cliquez sur la loupe pour prévisualiser la structure du groupe de champs")
 
-![Aperçu de la structure du groupe de champs Détails démographiques](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![Aperçu de la structure du groupe de champs Détails démographiques](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
+3. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
 
 ![Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma](assets/model-standard-objects-select-demographic-details-field-group.png "Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma")
 
@@ -126,24 +125,24 @@ Pour supprimer des champs de n’importe quel groupe de champs standard d’Adob
 1. Sélectionnez l’objet **personne** dans le schéma
 1. Cliquez sur le **Gérer les champs associés** dans le rail de droite
 
-![Option Gérer les champs associés pour l’objet de personne dans le groupe de champs Détails démographiques](assets/model-standard-objects-manage-related-fields-person-object.png "Gérer les champs associés pour l’objet de personne dans le cadre du groupe de champs Détails démographiques")
+   ![Option Gérer les champs associés pour l’objet de personne dans le groupe de champs Détails démographiques](assets/model-standard-objects-manage-related-fields-person-object.png "Gérer les champs associés pour l’objet de personne dans le cadre du groupe de champs Détails démographiques")
 
 
 
 1. Développez l’objet personne en cliquant sur le chevron à gauche de personne et développez l’objet nom complet en cliquant sur le chevron à gauche de l’objet nom. Conserver uniquement les champs suivants :
 
-- person.name.firstName
-- person.name.lastName
-- person.bornDayAndMonth
-- person.bornYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.bornDayAndMonth
+   - person.bornYear
 
-Lorsque vous avez terminé, cliquez sur le bouton **Confirmer** dans le coin supérieur droit.
+   Lorsque vous avez terminé, cliquez sur le bouton **Confirmer** dans le coin supérieur droit.
 
-![Boîte de dialogue Gérer les champs associés affichant les champs de personne Détails démographiques sélectionnés](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Gérer les champs associés de l’objet de personne Détails démographiques")
+   ![Boîte de dialogue Gérer les champs associés affichant les champs de personne Détails démographiques sélectionnés](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Gérer les champs associés de l’objet de personne Détails démographiques")
 
->[!NOTE]
->
->Vous pouvez cocher la case située en haut de l’écran pour **Détails démographiques** afin de désélectionner automatiquement tous les objets enfants, puis de ne sélectionner à nouveau que ceux dont vous avez besoin.
+   >[!NOTE]
+   >
+   >Vous pouvez cocher la case située en haut de l’écran pour **Détails démographiques** afin de désélectionner automatiquement tous les objets enfants, puis de ne sélectionner à nouveau que ceux dont vous avez besoin.
 
 
 

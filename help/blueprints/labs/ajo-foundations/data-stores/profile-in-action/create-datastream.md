@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un flux de données
 description: Découvrez comment créer et configurer un flux de données avec les services Adobe Experience Platform, Offer Decisioning et Journey Optimizer pour activer le traitement des événements Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -59,15 +58,15 @@ Vous pouvez ainsi envoyer des données au hub et accéder à un jeu de données 
 
 1. Cliquez sur le bouton bleu **Ajouter un service** situé au milieu de l’écran
 
-![Bouton Ajouter un service sur l’écran de configuration du flux de données](assets/create-datastream-add-service-button.png)
+   ![Bouton Ajouter un service sur l’écran de configuration du flux de données](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. Configurez les éléments suivants :
+2. Configurez les éléments suivants :
    - **Service** -> `Adobe Experience Platform`
    - **Jeu de données d’événement** -> `dep: Web`
    - **Jeu de données de profil** -> `dep: Customer Account`
    - **Sélectionner une case à cocher** -> `Offer Decisioning`
    - **Sélectionner une case à cocher** -> `Adobe Journey Optimizer`
-&#x200B;3. Lorsque vous avez terminé, cliquez sur **Enregistrer**
+3. Lorsque vous avez terminé, cliquez sur **Enregistrer**
 
 Boîte de dialogue de configuration du service Adobe Experience Platform ![avec les champs d’événement et de jeu de données de profil](assets/create-datastream-configure-aep-service.png)
 

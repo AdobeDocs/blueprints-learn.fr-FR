@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Filtrer les lignes
 description: Découvrez comment filtrer les lignes client exclues avec une activité Partage et utiliser Modifier la dimension pour aligner la dimension cible d’un workflow avec la configuration du canal SMS.
 doc-type: article
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -25,33 +24,33 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 1. Cliquez sur l’icône **+** sur la transition inférieure de l’activité Branchement et sélectionnez l’activité **Partage** dans la fenêtre contextuelle.
 
-![Ajoutez une activité Partage à la branche de branchement inférieure](assets/filter-the-lines-add-split-activity.png)
+   ![Ajoutez une activité Partage à la branche de branchement inférieure](assets/filter-the-lines-add-split-activity.png)
 
 
 
-&#x200B;2. Dans le rail de droite, mettez à jour le Libellé pour indiquer ce qui suit : `Filter out opt'd out lines`
+2. Dans le rail de droite, mettez à jour le Libellé pour indiquer ce qui suit : `Filter out opt'd out lines`
 
-![Fractionner le libellé d&#39;activité défini pour filtrer les lignes exclues](assets/filter-the-lines-set-split-label.png)
-
-
-
-&#x200B;3. Dans le rail de droite, développez la section Segment par défaut **Sous-ensemble** et cliquez sur le bouton **Créer un filtre**
-
-![Bouton Créer un filtre dans la section Sous-ensemble &#x200B;](assets/filter-the-lines-create-filter-button.png)
+   ![Fractionner le libellé d&#39;activité défini pour filtrer les lignes exclues](assets/filter-the-lines-set-split-label.png)
 
 
 
-&#x200B;4. Ajoutez une condition pour vous assurer de supprimer toutes les lignes client exclues de la messagerie SMS, puis cliquez sur **Confirmer**.
+3. Dans le rail de droite, développez la section Segment par défaut **Sous-ensemble** et cliquez sur le bouton **Créer un filtre**
 
-![Condition de suppression des lignes client exclues des SMS](assets/filter-the-lines-sms-optin-condition.png)
-
->[!NOTE]
->
->Vous devez comprendre comment créer la condition, mais le résultat final correspond à la capture d’écran ci-dessus.  C&#39;est bon !
+   ![Bouton Créer un filtre dans la section Sous-ensemble ](assets/filter-the-lines-create-filter-button.png)
 
 
 
-&#x200B;5. Cliquez sur le bouton Enregistrer en haut à droite pour enregistrer votre travail.  Votre zone de travail ressemble à ceci maintenant\...
+4. Ajoutez une condition pour vous assurer de supprimer toutes les lignes client exclues de la messagerie SMS, puis cliquez sur **Confirmer**.
+
+   ![Condition de suppression des lignes client exclues des SMS](assets/filter-the-lines-sms-optin-condition.png)
+
+   >[!NOTE]
+   >
+   >Vous devez comprendre comment créer la condition, mais le résultat final correspond à la capture d’écran ci-dessus.  C&#39;est bon !
+
+
+
+5. Cliquez sur le bouton Enregistrer en haut à droite pour enregistrer votre travail.  Votre zone de travail ressemble à ceci maintenant\...
 
 ![Zone de travail du workflow après l’enregistrement de l’activité de partage](assets/filter-the-lines-canvas-after-split-save.png)
 
@@ -61,19 +60,19 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 1. Dans la zone de travail du workflow, cliquez sur l’icône **+** après la condition de partage que vous avez ajoutée et sélectionnez l’activité **SMS**
 
-![Ajoutez l&#39;activité SMS après la condition de partage](assets/filter-the-lines-add-sms-activity.png)
+   ![Ajoutez l&#39;activité SMS après la condition de partage](assets/filter-the-lines-add-sms-activity.png)
 
-![Activité SMS ajoutée à la zone de travail du workflow](assets/filter-the-lines-sms-activity-on-canvas.png)
-
-
-
-&#x200B;2. Dans le rail de droite, cliquez sur le bouton Modifier le SMS pour démarrer la configuration du SMS
-
-![Bouton Modifier le SMS dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
+   ![Activité SMS ajoutée à la zone de travail du workflow](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
-&#x200B;3. Dans le volet de navigation supérieur, cliquez sur l’élément de menu Actions , puis dans la liste déroulante Configuration des SMS , sélectionnez le canal que vous avez précédemment créé.
+2. Dans le rail de droite, cliquez sur le bouton Modifier le SMS pour démarrer la configuration du SMS
+
+   ![Bouton Modifier le SMS dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. Dans le volet de navigation supérieur, cliquez sur l’élément de menu Actions , puis dans la liste déroulante Configuration des SMS , sélectionnez le canal que vous avez précédemment créé.
 
 ![Liste déroulante de configuration des SMS n’affichant aucune erreur de résultats](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -109,25 +108,25 @@ Comment faire pour que ça marche ?  Ajout d’un 😀 de changement de dimensio
 
 1. Cliquez sur le bouton Précédent dans l’écran de modification des SMS
 
-![Bouton Précédent pour quitter l’écran de modification du SMS](assets/filter-the-lines-exit-sms-editor.png)
+   ![Bouton Précédent pour quitter l’écran de modification du SMS](assets/filter-the-lines-exit-sms-editor.png)
 
 
 
-&#x200B;2. Dans la zone de travail du workflow, cliquez sur le **+** **icône** entre les activités Filtrer et SMS et sélectionnez **Modifier la dimension**.
+2. Dans la zone de travail du workflow, cliquez sur le **+** **icône** entre les activités Filtrer et SMS et sélectionnez **Modifier la dimension**.
 
-![Ajoutez une activité Modifier la dimension entre Filtrer et SMS](assets/filter-the-lines-add-change-dimension.png)
+   ![Ajoutez une activité Modifier la dimension entre Filtrer et SMS](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-&#x200B;3. Dans la partie droite, mettez à jour la dimension de changement avec les informations suivantes :
+3. Dans la partie droite, mettez à jour la dimension de changement avec les informations suivantes :
    - **Libellé :** `Convert Line to Account`
    - **Nouvelle dimension cible :**`dep-rel: Customer Account`
 
-![Modifier la dimension configurée pour convertir la ligne en compte](assets/filter-the-lines-change-dimension-settings.png)
+   ![Modifier la dimension configurée pour convertir la ligne en compte](assets/filter-the-lines-change-dimension-settings.png)
 
 
 
-&#x200B;4. Cliquez sur le bouton **Enregistrer** en haut à droite de la zone de travail pour enregistrer votre travail. Une fois terminé, votre workflow ressemble désormais à ceci...
+4. Cliquez sur le bouton **Enregistrer** en haut à droite de la zone de travail pour enregistrer votre travail. Une fois terminé, votre workflow ressemble désormais à ceci...
 
 ![Zone de travail du workflow après l’ajout de la dimension de changement](assets/filter-the-lines-workflow-after-change-dimension.png)
 
@@ -141,17 +140,17 @@ Maintenant que vous avez corrigé le workflow, reconfigurez le SMS.
 
 1. Cliquez sur l’activité SMS dans la zone de travail du workflow, puis, dans le rail de gauche, cliquez sur le bouton **Modifier le SMS**
 
-![Bouton Modifier le SMS pour reconfigurer le SMS](assets/filter-the-lines-edit-sms-button.png)
+   ![Bouton Modifier le SMS pour reconfigurer le SMS](assets/filter-the-lines-edit-sms-button.png)
 
->[!NOTE]
->
->Le chargement de cet écran prend un certain temps.  Je sais que c&#39;est ennuyeux, croyez-moi, c&#39;est en train d&#39;être réparé
-
-
+   >[!NOTE]
+   >
+   >Le chargement de cet écran prend un certain temps.  Je sais que c&#39;est ennuyeux, croyez-moi, c&#39;est en train d&#39;être réparé
 
 
 
-&#x200B;2. Dans le volet de navigation supérieur, cliquez sur l’élément de menu **Actions**, puis, dans la liste déroulante Configuration des SMS , sélectionnez le canal que vous avez précédemment créé.
+
+
+2. Dans le volet de navigation supérieur, cliquez sur l’élément de menu **Actions**, puis, dans la liste déroulante Configuration des SMS , sélectionnez le canal que vous avez précédemment créé.
 
 ![Configuration des SMS affichant le canal sélectionné](assets/filter-the-lines-sms-configuration-selected.png)
 

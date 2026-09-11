@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Afficher le schéma
 description: Affichez la relation de recherche du schéma de compte client avec le schéma de plan au moyen de l’interface utilisateur du schéma et de l’API Get Schema.
 doc-type: article
 solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -28,19 +27,19 @@ ht-degree: 0%
 
 1. Sélectionnez l’API `Step 4 - Get Customer Account Schema and its descriptors` en cliquant dessus.
 
-![Étape 4 - Obtenir le schéma du compte client et son appel API de descripteurs](assets/view-schema-step-4-get-schema-and-descriptors.png "Étape 4 - Obtenir le schéma du compte client et ses descripteurs")
+   ![Étape 4 - Obtenir le schéma du compte client et son appel API de descripteurs](assets/view-schema-step-4-get-schema-and-descriptors.png "Étape 4 - Obtenir le schéma du compte client et ses descripteurs")
 
 
 
-&#x200B;2. Dans l’URL de la requête, remplacez la `<replace me>` par la `$meta:altId` que vous avez enregistrée dans la section précédente [Créer un schéma](../build-schema/create-schema.md) comme illustré ci-dessous
+2. Dans l’URL de la requête, remplacez la `<replace me>` par la `$meta:altId` que vous avez enregistrée dans la section précédente [Créer un schéma](../build-schema/create-schema.md) comme illustré ci-dessous
 
-![Requête de l’étape 4 avec le méta:altId ajoutée à la requête URL](assets/view-schema-final-step-4-request.png "Étape finale 4")
+   ![Requête de l’étape 4 avec le méta:altId ajoutée à la requête URL](assets/view-schema-final-step-4-request.png "Étape finale 4")
 
 
 
-&#x200B;3. Enregistrez la demande à l’aide du bouton `Save` .
+3. Enregistrez la demande à l’aide du bouton `Save` .
 
-&#x200B;4. Exécutez la requête en cliquant sur le bouton `Send` .
+4. Exécutez la requête en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `200 OK` et vous devriez être en mesure de naviguer jusqu’à la fin du schéma que vous avez créé pour voir l’identité à travers le prisme de la structure JSON XDM
 

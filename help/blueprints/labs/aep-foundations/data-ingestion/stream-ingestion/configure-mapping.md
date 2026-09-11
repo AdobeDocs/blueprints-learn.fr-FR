@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer le mappage
 description: Importez le jeu de mappages à partir du Lab d’ingestion par lots et mettez à jour les champs de date calculés pour qu’ils correspondent au format de date de la source de diffusion en continu.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configurer le mappage
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Ne suivez cette section que si vous avez terminé avec succès l’atelier d’ingestion par lots.  Sinon, suivez les étapes [Mappage de données](../batch-ingestion/mapping-data/overview.md) qui se trouvent dans le Lab d’ingestion par lots.
 
@@ -27,7 +26,7 @@ Effectuez les étapes suivantes :
 
 1. Cliquez sur le bouton **Importer le mappage** sur l’écran du mappage
 
-![Bouton Importer le mappage sur l’écran du mappage](assets/configure-mapping-import-mapping-button.png)
+   ![Bouton Importer le mappage sur l’écran du mappage](assets/configure-mapping-import-mapping-button.png)
 
 
 

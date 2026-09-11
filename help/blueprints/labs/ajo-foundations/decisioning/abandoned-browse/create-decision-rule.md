@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une règle de décision
 description: Créez une règle de prise de décision qui limite l’éligibilité des offres téléphoniques Premium aux clients disposant de plans de niveau supérieur.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -24,22 +23,22 @@ L&#39;éligibilité étant l&#39;un des éléments clés d&#39;une offre, la pre
 1. Si nécessaire, connectez-vous à Adobe Experience Cloud et accédez à **Adobe Journey Optimizer.**
 2. Développez l’élément de menu **Prise de décision** dans le rail de gauche si nécessaire, puis cliquez sur **Configuration de la stratégie**.
 
->[!WARNING]
->
->Assurez-vous que vous êtes dans le menu Prise de décision et NON dans le menu Gestion des décisions . Si le menu Gestion des décisions est développé, réduisez-le pour éviter toute confusion de navigation au cours de cet atelier.
+   >[!WARNING]
+   >
+   >Assurez-vous que vous êtes dans le menu Prise de décision et NON dans le menu Gestion des décisions . Si le menu Gestion des décisions est développé, réduisez-le pour éviter toute confusion de navigation au cours de cet atelier.
 
 3. Cliquez sur **Règles de prise de décision** dans le menu « Éligibilité », suivi du bouton **Créer une règle** dans le coin supérieur droit.
 
-![Page Règles de prise de décision avec le bouton Créer une règle](assets/create-decision-rule-create-rule-button.png)
+   ![Page Règles de prise de décision avec le bouton Créer une règle](assets/create-decision-rule-create-rule-button.png)
 
-&#x200B;4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail.
-&#x200B;5. Modifiez la liste déroulante de égal à **contient.**
-&#x200B;6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez une valeur **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
-&#x200B;7. Utilisez la zone de texte **Nom** dans le rail de droite pour nommer la règle de décision **Plans de niveau supérieur**. Ajoutez une description, le cas échéant. Lorsque vous avez terminé, votre règle de décision doit se présenter comme suit :
+4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail.
+5. Modifiez la liste déroulante de égal à **contient.**
+6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez une valeur **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
+7. Utilisez la zone de texte **Nom** dans le rail de droite pour nommer la règle de décision **Plans de niveau supérieur**. Ajoutez une description, le cas échéant. Lorsque vous avez terminé, votre règle de décision doit se présenter comme suit :
 
-![Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3")
+   ![Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3")
 
-&#x200B;8. Une fois que la règle est correcte, cliquez sur le bouton bleu **Créer** dans le coin supérieur droit, et vous revenez à la page Configuration de la stratégie avec la règle de décision que vous venez de créer répertoriée comme la seule règle de décision.
+8. Une fois que la règle est correcte, cliquez sur le bouton bleu **Créer** dans le coin supérieur droit, et vous revenez à la page Configuration de la stratégie avec la règle de décision que vous venez de créer répertoriée comme la seule règle de décision.
 
 >[!NOTE]
 >

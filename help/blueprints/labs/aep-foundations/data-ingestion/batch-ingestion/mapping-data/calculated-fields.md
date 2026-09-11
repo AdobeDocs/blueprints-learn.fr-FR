@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Champs calculés
 description: Créez des expressions de champ calculé pour renvoyer les valeurs de consentement SMS manquantes et fractionner une date de naissance en champs jour, mois et année.
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -27,17 +26,17 @@ Le champ sms\_optIn est obligatoire dans le schéma Compte client . Le problème
 
 1. Créez un champ calculé en cliquant sur l’icône **Nouveau type de champ** puis sélectionnez **Ajouter un champ calculé**. Pour toutes les valeurs manquantes, le consentement est supposé ne pas avoir été donné et est marqué comme **« n »**. Notez que les champs calculés apparaissent dans la colonne de gauche, car la transformation via le champ calculé est l’entrée de ce nouveau mappage.
 
-![Menu icône Nouveau type de champ avec l’option Ajouter un champ calculé sélectionnée](assets/calculated-fields-add-a-calculated-field.png "Ajouter un champ calculé")
+   ![Menu icône Nouveau type de champ avec l’option Ajouter un champ calculé sélectionnée](assets/calculated-fields-add-a-calculated-field.png "Ajouter un champ calculé")
 
 
 
 1. Dans la boîte de dialogue Créer un champ calculé , ajoutez l’expression suivante, puis cliquez sur **Aperçu**
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![Boîte de dialogue Créer un champ calculé avec l’expression sms_optIn et prévisualisez le résultat](assets/calculated-fields-sms-optin-calculated-field.png "champ calculé sms_optIn")
+   ![Boîte de dialogue Créer un champ calculé avec l’expression sms_optIn et prévisualisez le résultat](assets/calculated-fields-sms-optin-calculated-field.png "champ calculé sms_optIn")
 
 
 
@@ -55,13 +54,13 @@ Un nouveau champ est ajouté à l’écran de mappage, mais avec un chemin d’a
 1. Dans le volet de droite, le panneau du schéma cible s’ouvre. Saisissez **sms** dans la zone de recherche
 1. Sélectionnez le champ **val**
 
-![Panneau Schéma cible avec le champ sms.val sélectionné pour le mapping des champs calculés](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![Panneau Schéma cible avec le champ sms.val sélectionné pour le mapping des champs calculés](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-Votre mappage final doit se présenter comme suit :
+   Votre mappage final doit se présenter comme suit :
 
-![Écran de mappage final avec le champ calculé sms_optin mappé au schéma cible](assets/calculated-fields-final-mapping-screen.png)
+   ![Écran de mappage final avec le champ calculé sms_optin mappé au schéma cible](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -84,21 +83,21 @@ Il est nécessaire de séparer le jour, le mois et l&#39;année de naissance dan
 1. Ajoutez un nouveau champ calculé pour capturer le jour et le mois de naissance des profils
 1. Utilisez le code suivant pour le champ calculé :
 
->[!NOTE]
->
->Au lieu de simplement copier le code ci-dessus, essayez de comprendre ce qui se passe en exécutant les éléments de code séparément pour voir comment il a été composé afin de créer des champs calculés plus complexes sur une seule ligne, car la multiligne n’est pas autorisée. Essayez ce qui suit :
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >Au lieu de simplement copier le code ci-dessus, essayez de comprendre ce qui se passe en exécutant les éléments de code séparément pour voir comment il a été composé afin de créer des champs calculés plus complexes sur une seule ligne, car la multiligne n’est pas autorisée. Essayez ce qui suit :
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. Cliquez sur Aperçu et vous devriez voir le résultat suivant. Si tout semble correct, cliquez sur **Enregistrer**
 
-![Prévisualiser le résultat de l’expression du champ calculé jour et mois de naissance](assets/calculated-fields-birth-day-month-preview.png)
+   ![Prévisualiser le résultat de l’expression du champ calculé jour et mois de naissance](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -112,9 +111,9 @@ Il est nécessaire de séparer le jour, le mois et l&#39;année de naissance dan
 
 1. Créez un champ calculé pour capturer l’année de naissance du profil à l’aide du code ci-dessous
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. Mappez le champ calculé à l’emplacement cible de **person.bornYear**.
 

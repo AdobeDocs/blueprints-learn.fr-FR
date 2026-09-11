@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer des groupes de champs personnalisés
 description: Utilisez l’API Schema Registry pour créer un groupe de champs personnalisé Détails du compte client et enregistrer son $id en vue de l’utiliser dans un schéma ultérieur.
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -69,17 +68,17 @@ Notez également comment chaque champ spécifique de la feuille de mappage est j
 
 
 
-&#x200B;2. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
+2. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
 
 
 
-![Exemple de titre et de description renseigné pour le groupe de champs personnalisés](assets/create-custom-field-groups-field-group-title-description-example.png "Groupe de champs Titre et description Exemple")
+   ![Exemple de titre et de description renseigné pour le groupe de champs personnalisés](assets/create-custom-field-groups-field-group-title-description-example.png "Groupe de champs Titre et description Exemple")
 
 
 
-&#x200B;3. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
+3. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
 
-&#x200B;4. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
+4. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
 
 ![Réponse API réussie après la création du groupe de champs personnalisés](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Étape 2 - Création réussie du groupe de champs personnalisés")
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Valider le profil sur le hub
 description: Découvrez comment rechercher un profil sur le Hub de profils clients en temps réel et vérifier ses événements et l’appartenance à un segment après un événement diffusé en continu.
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -53,9 +52,9 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 1. Cliquez sur l’en-tête **Attributs** et Afficher **JSON**.
 
-![Vue JSON des attributs de profil affichant segmentMembership](assets/validate-profile-on-hub-json-view.png)
+   ![Vue JSON des attributs de profil affichant segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. Recherchez **segmentMembership**.  Il doit ressembler à ceci (vos identifiants seront différents) :
+2. Recherchez **segmentMembership**.  Il doit ressembler à ceci (vos identifiants seront différents) :
 
 ```json
   "segmentMembership": {
@@ -75,7 +74,7 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 >
 >**Comment lire segmentMembership ?**
 >
->[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups :** il s’agit de la clé de mappage pour les différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
 >

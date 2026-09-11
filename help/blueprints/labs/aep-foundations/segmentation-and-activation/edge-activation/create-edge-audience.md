@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Création d’une audience Edge
 description: Créez et publiez une audience évaluée par Edge avec un équivalent de lot pour comparer la manière dont chaque audience répond aux événements entrants en temps réel.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Cette audience sera utilisée pour qualifier une personne lorsqu’une payload (
 1. Accédez à **Audiences** et cliquez sur le dossier **Experience Platform**
 1. Faites glisser et déposez l’audience nommée **dep: Any Event Streaming (dans l’heure)** sur la zone de travail
 
-![Faire glisser l’audience Dep : toute audience de diffusion en continu d’événements (au cours de l’heure) sur la zone de travail du créateur de règles](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Faire glisser l’audience Dep : toute audience de diffusion en continu d’événements (au cours de l’heure) sur la zone de travail du créateur de règles](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un
 description: Créez une audience de diffusion en continu qui trouve les profils qui ont passé une commande pour un iPhone 14 aujourd’hui, en explorant la sélection de sources d’événements et les conteneurs de tableaux.
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -48,9 +47,9 @@ Vous obtenez de nombreux objets liés à une commande
 
 >[!NOTE]
 >
->&#x200B;* Il n’y a pas de « i » pour l’ordre « dossier ». Même si notre description a été renseignée, elle ne l’a pas et cela peut être une source de confusion pour votre spécialiste marketing, car il peut essayer de l’utiliser ou vouloir en connaître la nature.
->&#x200B;* Le « i » des cartes d’événement répète simplement le type, car le type d’événement est un champ et non plusieurs.
->&#x200B;* Les données récapitulatives s’affichent uniquement si la valeur est présente dans plus de 2 % des profils fusionnés. Cela génère également une saisie semi-automatique lors du filtrage sur une chaîne.
+>* Il n’y a pas de « i » pour l’ordre « dossier ». Même si notre description a été renseignée, elle ne l’a pas et cela peut être une source de confusion pour votre spécialiste marketing, car il peut essayer de l’utiliser ou vouloir en connaître la nature.
+>* Le « i » des cartes d’événement répète simplement le type, car le type d’événement est un champ et non plusieurs.
+>* Les données récapitulatives s’affichent uniquement si la valeur est présente dans plus de 2 % des profils fusionnés. Cela génère également une saisie semi-automatique lors du filtrage sur une chaîne.
 
 
 
@@ -58,7 +57,7 @@ Utilisez la carte Type d’événement de commande passée et faites-la glisser 
 
 ![Faites glisser la carte Type d’événement Ordre de placement sur la zone de travail](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Facultatif:**
 >
@@ -74,7 +73,7 @@ Utilisez la carte Type d’événement de commande passée et faites-la glisser 
 >
 >Le filtrage à l’aide de cartes Type d’événement est identique au filtrage à l’aide du champ Type d’événement
 >
->![Le filtrage à l’aide d’une carte Type d’événement est identique au filtrage à l’aide du champ Type d’événement &#x200B;](assets/build-audience-1-event-type-card-vs-field-comparison.png)
+>![Le filtrage à l’aide d’une carte Type d’événement est identique au filtrage à l’aide du champ Type d’événement ](assets/build-audience-1-event-type-card-vs-field-comparison.png)
 >
 >Avantages de l’utilisation des cartes de type événement :
 >
@@ -247,7 +246,7 @@ Ne modifiez pas le mappage, cliquez sur Suivant puis sur Terminer
 >
 >Les conteneurs sont un moyen de référencer une variable d’événement ou un élément de tableau. Vous pouvez en savoir plus sur les ramifications de cette opération dans ce blog, mais pour plus de simplicité, cela vous permet de spécifier si un seul élément du tableau répond aux deux conditions ou si la condition peut être répartie sur deux éléments.
 >
->[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=fr)
+>[](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

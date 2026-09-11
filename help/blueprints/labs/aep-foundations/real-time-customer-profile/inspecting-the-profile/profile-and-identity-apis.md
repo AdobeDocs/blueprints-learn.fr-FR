@@ -1,11 +1,10 @@
 ---
-hold: true
 title: API de profil et d’identité
 description: Utilisez l’API Profile Entity et l’API de cluster du service d’identités dans Postman pour rechercher les attributs de profil, les événements et les identités liées.
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -76,21 +75,21 @@ Chaque requête nécessite également les en-têtes suivants :
 
 Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode de profondeur de l’atelier précédent.
 
-1. Ouvrez **&#x200B;**&#x200B;et accédez au dossier **Profile Lab**
+1. Ouvrez **** et accédez au dossier **Profile Lab**
 1. Cliquez sur la requête **Recherche d’entité (attributs)** pour l’ouvrir
 1. Exécutez l’appel en cliquant sur le bouton **Envoyer**
 
-![Volet de requêtes Postman pour l&#39;appel de recherche d&#39;entité (attributs) avant l&#39;envoi](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "de l&#39;API de recherche d&#39;entité de profil (attributs)")
+   ![Volet de requêtes Postman pour l&#39;appel de recherche d&#39;entité (attributs) avant l&#39;envoi](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "de l&#39;API de recherche d&#39;entité de profil (attributs)")
 
-Une requête réussie doit répondre par une `200 OK` et vous devriez voir un résultat contenant tous les attributs pour le profil de mode de vérification.
+   Une requête réussie doit répondre par une `200 OK` et vous devriez voir un résultat contenant tous les attributs pour le profil de mode de vérification.
 
-Réponse OK ![200 contenant tous les attributs pour la réponse de l’API profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) du mode de rendu")
+   Réponse OK ![200 contenant tous les attributs pour la réponse de l’API profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) du mode de rendu")
 
->[!NOTE]
->
->Par défaut, si aucune politique de fusion n’est spécifiée dans une demande d’entité de profil, elle utilise la politique de fusion par défaut dans le sandbox
+   >[!NOTE]
+   >
+   >Par défaut, si aucune politique de fusion n’est spécifiée dans une demande d’entité de profil, elle utilise la politique de fusion par défaut dans le sandbox
 
-Avec l’API Entity, vous pouvez utiliser un certain nombre de paramètres de requête pour modifier ce qui est renvoyé en réponse.
+   Avec l’API Entity, vous pouvez utiliser un certain nombre de paramètres de requête pour modifier ce qui est renvoyé en réponse.
 
 1. Dans la requête de recherche d’entité (attributs), cliquez sur l’option **Params** de la requête
 1. Cochez la case en regard de **Clé** nommée **champs**
@@ -106,7 +105,7 @@ Une requête réussie doit répondre par une `200 OK` et vous ne devriez voir qu
 
 ![Réponse OK filtrée 200 affichant uniquement les champs Prénom, Nom et Produits actifs](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Réponse de l’API de recherche d’entité de profil réussie (attributs) avec filtre activé")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Félicitations !  Vous avez réussi à rechercher les attributs d’un profil à l’aide de l’API Profile Entity
 
@@ -143,7 +142,7 @@ Vous pouvez essayer quelques-unes d’entre elles en les activant dans la sectio
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur toutes les options des paramètres de requête ici -> [&#128279;](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>Vous pouvez en savoir plus sur toutes les options des paramètres de requête ici -> [](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 

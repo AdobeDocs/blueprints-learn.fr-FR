@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Gestion des marques
 description: Découvrez comment créer une marque dans Adobe Journey Optimizer en chargeant un PDF de directives sur la marque, en affinant les détails extraits et en le publiant pour l’utiliser dans les outils de contenu.
 doc-type: article
 solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 0%
@@ -49,9 +48,9 @@ Vous commencerez avec le document Guide de la marque Connection 5G, vous le tél
 
 1. Ouvrez le PDF **Connection 5G Brand Guideline** à partir du dossier toolkit (veillez d’abord à le décompresser).
 
-![Connexion 5G Brand Guideline PDF ouverte à partir du dossier toolkit](assets/brand-management-open-brand-guideline-pdf.png)
+   ![Connexion 5G Brand Guideline PDF ouverte à partir du dossier toolkit](assets/brand-management-open-brand-guideline-pdf.png)
 
-&#x200B;2. Consultez le document pour comprendre le contenu utilisé pour la connexion 5G :
+2. Consultez le document pour comprendre le contenu utilisé pour la connexion 5G :
    - Ton de la voix
    - Couleurs et style visuel
    - Exemples de style d’écriture et de message
@@ -64,39 +63,39 @@ Vous commencerez avec le document Guide de la marque Connection 5G, vous le tél
 1. Dans Adobe Journey Optimizer, accédez au volet de navigation de gauche, puis cliquez sur **Marques**.
 2. Cliquez sur **Créer une marque**.
 
-![&#x200B; Bouton Créer une marque dans la section Marques &#x200B;](assets/brand-management-click-create-brand-button.png)
+   ![ Bouton Créer une marque dans la section Marques ](assets/brand-management-click-create-brand-button.png)
 
-&#x200B;3. Dans le champ **Nom**, saisissez `Connection 5G Brand Guidelines`
-&#x200B;4. Dans la zone de chargement, effectuez un glisser-déposer du fichier **Connection5g Brand Guidelines.pdf** (ou cliquez sur **Sélectionner des fichiers** et sélectionnez-le sur votre ordinateur).
+3. Dans le champ **Nom**, saisissez `Connection 5G Brand Guidelines`
+4. Dans la zone de chargement, effectuez un glisser-déposer du fichier **Connection5g Brand Guidelines.pdf** (ou cliquez sur **Sélectionner des fichiers** et sélectionnez-le sur votre ordinateur).
 
-![Glissez-déposez le PDF Connection5g Brand Guidelines dans la zone de chargement](assets/brand-management-upload-brand-guideline-pdf.png)
+   ![Glissez-déposez le PDF Connection5g Brand Guidelines dans la zone de chargement](assets/brand-management-upload-brand-guideline-pdf.png)
 
-&#x200B;5. Cliquez sur **Créer une marque** pour commencer l’extraction.
+5. Cliquez sur **Créer une marque** pour commencer l’extraction.
 
-Un écran de progression s’affiche pendant que AJO analyse votre fichier. Cette opération peut prendre plusieurs minutes en fonction de la taille du document.
+   Un écran de progression s’affiche pendant que AJO analyse votre fichier. Cette opération peut prendre plusieurs minutes en fonction de la taille du document.
 
-![Écran de progression affiché pendant l’analyse par AJO du fichier de recommandations de marque](assets/brand-management-extraction-progress-screen.png)
+   ![Écran de progression affiché pendant l’analyse par AJO du fichier de recommandations de marque](assets/brand-management-extraction-progress-screen.png)
 
-&#x200B;6. Une fois l’extraction terminée :
+6. Une fois l’extraction terminée :
    - Une barre de confirmation verte s’affiche en haut.
    - Vous êtes automatiquement redirigé vers l’écran de configuration de la marque .
    - Les normes de création visuelle et de contenu sont désormais automatiquement renseignées en fonction du fichier Brand Guidelines chargé.
 
-![L’écran de configuration de la marque est renseigné une fois l’extraction terminée](assets/brand-management-brand-configuration-populated.png)
+   ![L’écran de configuration de la marque est renseigné une fois l’extraction terminée](assets/brand-management-brand-configuration-populated.png)
 
-&#x200B;7. Cliquez sur le bouton **Publier** pour publier les directives de la marque.
+7. Cliquez sur le bouton **Publier** pour publier les directives de la marque.
 
-![Bouton Publier pour les directives de la marque](assets/brand-management-click-publish-button.png)
+   ![Bouton Publier pour les directives de la marque](assets/brand-management-click-publish-button.png)
 
-&#x200B;8. Confirmez en appuyant sur le bouton « Publier » pour confirmer.
+8. Confirmez en appuyant sur le bouton « Publier » pour confirmer.
 
-![Boîte de dialogue Confirmer la publication pour les directives de la marque](assets/brand-management-confirm-publish-dialog.png)
+   ![Boîte de dialogue Confirmer la publication pour les directives de la marque](assets/brand-management-confirm-publish-dialog.png)
 
-Une barre de confirmation verte s’affiche au bas de la page pour indiquer que votre marque a été publiée.
+   Une barre de confirmation verte s’affiche au bas de la page pour indiquer que votre marque a été publiée.
 
-&#x200B;9. Cliquez à nouveau sur la page principale de la marque pour voir que votre marque est maintenant en ligne (cela doit être indiqué par un point vert avec le libellé **« En ligne »**).
+9. Cliquez à nouveau sur la page principale de la marque pour voir que votre marque est maintenant en ligne (cela doit être indiqué par un point vert avec le libellé **« En ligne »**).
 
-![Liste des marques affichant la nouvelle marque avec un libellé vert Statut en ligne &#x200B;](assets/brand-management-brand-live-status-label.png)
+![Liste des marques affichant la nouvelle marque avec un libellé vert Statut en ligne ](assets/brand-management-brand-live-status-label.png)
 
 
 ## Consulter les onglets des marques
@@ -153,33 +152,33 @@ Dans le contenu extrait, certains principes directeurs peuvent être incomplets.
 
 1. Cliquez sur la marque que vous venez de créer
 
-![Cliquant sur la nouvelle carte de marque Connection 5G](assets/brand-management-click-created-brand-card.png)
+   ![Cliquant sur la nouvelle carte de marque Connection 5G](assets/brand-management-click-created-brand-card.png)
 
-&#x200B;2. Cliquez sur **Modifier la marque**. Un onglet de confirmation s’affiche ; cliquez de nouveau sur **Modifier la marque** pour confirmer.
+2. Cliquez sur **Modifier la marque**. Un onglet de confirmation s’affiche ; cliquez de nouveau sur **Modifier la marque** pour confirmer.
 
-![Bouton Modifier la marque et onglet de confirmation](assets/brand-management-click-edit-brand-button.png)
+   ![Bouton Modifier la marque et onglet de confirmation](assets/brand-management-click-edit-brand-button.png)
 
-&#x200B;3. Accédez à l’onglet **À propos de la marque**.
+3. Accédez à l’onglet **À propos de la marque**.
 
-![Accès à l’onglet À propos de la marque en cours de modification](assets/brand-management-about-the-brand-tab-edit.png)
+   ![Accès à l’onglet À propos de la marque en cours de modification](assets/brand-management-about-the-brand-tab-edit.png)
 
-&#x200B;4. Recherchez la section **Principes directeurs**, **Vision** ou une description générale similaire dans cette section.
+4. Recherchez la section **Principes directeurs**, **Vision** ou une description générale similaire dans cette section.
 
-![Section Principes directeurs et vision de l’onglet À propos de la marque](assets/brand-management-guiding-principles-vision-section.png)
+   ![Section Principes directeurs et vision de l’onglet À propos de la marque](assets/brand-management-guiding-principles-vision-section.png)
 
-&#x200B;5. Ajoutez le texte suivant :
+5. Ajoutez le texte suivant :
 
-**Vision:**
+   **Vision:**
 
->Donnez à chaque individu une connectivité instantanée et fiable qui améliore sa vie, son travail et ses loisirs, où qu&#39;il se trouve.
+   >Donnez à chaque individu une connectivité instantanée et fiable qui améliore sa vie, son travail et ses loisirs, où qu&#39;il se trouve.
 
-**Positionnement sur le marché :**
+   **Positionnement sur le marché :**
 
->La connexion 5G offre un service mobile haut débit conçu pour les modes de vie numériques, se démarquant par une fiabilité, une simplicité et une innovation sans précédent.
+   >La connexion 5G offre un service mobile haut débit conçu pour les modes de vie numériques, se démarquant par une fiabilité, une simplicité et une innovation sans précédent.
 
-![Ajout de texte sur la vision et le positionnement sur le marché à la marque](assets/brand-management-vision-market-positioning-added.png)
+   ![Ajout de texte sur la vision et le positionnement sur le marché à la marque](assets/brand-management-vision-market-positioning-added.png)
 
-&#x200B;6. Cliquez sur **Enregistrer**. (Si vous ne voyez pas le bouton **Enregistrer**, cliquez d’abord sur l’onglet **Aperçu**, puis sur **Enregistrer**.)
+6. Cliquez sur **Enregistrer**. (Si vous ne voyez pas le bouton **Enregistrer**, cliquez d’abord sur l’onglet **Aperçu**, puis sur **Enregistrer**.)
 
 >[!TIP]
 >
@@ -192,36 +191,36 @@ Ensuite, améliorez la marque en ajoutant une règle qui garantit que les bouton
 
 1. Accédez à l’onglet **Style d’écriture**.
 
-![Onglet Style d’écriture ouvert pour ajouter une règle d’exclusion](assets/brand-management-writing-style-tab-exclusion.png)
+   ![Onglet Style d’écriture ouvert pour ajouter une règle d’exclusion](assets/brand-management-writing-style-tab-exclusion.png)
 
-&#x200B;2. Vérifiez que vous vous trouvez dans la section **Style de communication de la marque**.
+2. Vérifiez que vous vous trouvez dans la section **Style de communication de la marque**.
 
-![Section Style de communication de marque dans l’onglet Style d’écriture](assets/brand-management-brand-communication-style-section.png)
+   ![Section Style de communication de marque dans l’onglet Style d’écriture](assets/brand-management-brand-communication-style-section.png)
 
-&#x200B;3. Sous la zone **Ne pas**, cliquez sur l’icône **plus** pour ajouter une nouvelle règle.
+3. Sous la zone **Ne pas**, cliquez sur l’icône **plus** pour ajouter une nouvelle règle.
 
-Icône ![&#x200B; Plus sous la zone Ne pas ajouter de nouvelle règle](assets/brand-management-add-donts-rule-plus-icon.png)
+   Icône ![ Plus sous la zone Ne pas ajouter de nouvelle règle](assets/brand-management-add-donts-rule-plus-icon.png)
 
-&#x200B;4. Configurez la règle comme suit :
+4. Configurez la règle comme suit :
    - **Exclusion:** `Be pushy`
 
->[!NOTE]
->
->Elle est ajoutée en tant que règle « Ne pas utiliser », ce qui signifie que la marque ne souhaite pas d’appels à l’action poussés
+   >[!NOTE]
+   >
+   >Elle est ajoutée en tant que règle « Ne pas utiliser », ce qui signifie que la marque ne souhaite pas d’appels à l’action poussés
 
-**Canal:** E-mail
+   **Canal:** E-mail
 
-**Element:** Button
+   **Element:** Button
 
-&#x200B;5. Cliquez sur **Ajouter**.
+5. Cliquez sur **Ajouter**.
 
-![Bouton Ajouter pour la règle d’exclusion Be push](assets/brand-management-click-add-rule-button.png)
+   ![Bouton Ajouter pour la règle d’exclusion Be push](assets/brand-management-click-add-rule-button.png)
 
-&#x200B;6. Vérifiez que la nouvelle règle Ne pas afficher apparaît comme `Be pushy` dans la liste.
+6. Vérifiez que la nouvelle règle Ne pas afficher apparaît comme `Be pushy` dans la liste.
 
-![Soyez insistant Ne pas confirmer la règle dans la liste des règles](assets/brand-management-be-pushy-dont-rule-confirmed.png)
+   ![Soyez insistant Ne pas confirmer la règle dans la liste des règles](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-&#x200B;7. Cliquez sur **Enregistrer**.
+7. Cliquez sur **Enregistrer**.
 
 Cette règle s’applique partout où l’assistant AI ou les auteurs travaillent sur la copie des boutons d’e-mail, en alignant les CTA sur le ton de la connexion 5G.
 
@@ -240,17 +239,17 @@ Une fois que vous êtes satisfait(e) de la configuration :
 1. Revenez à l’onglet **Aperçu**. Cliquez sur **Enregistrer**.
 2. Dans le coin supérieur droit, cliquez sur **Publier**.
 
-![Bouton Publier dans le coin supérieur droit](assets/brand-management-click-publish-top-right.png)
+   ![Bouton Publier dans le coin supérieur droit](assets/brand-management-click-publish-top-right.png)
 
-&#x200B;3. Une boîte de dialogue de confirmation s’affiche pour vous informer que vous êtes sur le point de publier les directives de marque mises à jour pour la connexion 5G. Cliquez de nouveau sur **Publier** pour confirmer.
+3. Une boîte de dialogue de confirmation s’affiche pour vous informer que vous êtes sur le point de publier les directives de marque mises à jour pour la connexion 5G. Cliquez de nouveau sur **Publier** pour confirmer.
 
-![Boîte de dialogue de confirmation pour publier les directives de marque mises à jour](assets/brand-management-confirm-publish-updated-guidelines.png)
+   ![Boîte de dialogue de confirmation pour publier les directives de marque mises à jour](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-&#x200B;4. Attendez que la barre de confirmation verte apparaisse.
-&#x200B;5. Cliquez sur **Précédent** pour revenir à la liste Marques.
-&#x200B;6. Vérifiez qu’une nouvelle carte s’affiche pour les directives de la marque **Connection 5G** avec un statut indiquant qu’elle est en ligne et disponible.
+4. Attendez que la barre de confirmation verte apparaisse.
+5. Cliquez sur **Précédent** pour revenir à la liste Marques.
+6. Vérifiez qu’une nouvelle carte s’affiche pour les directives de la marque **Connection 5G** avec un statut indiquant qu’elle est en ligne et disponible.
 
-![Carte des directives de la marque Connection 5G affichant le statut Actif &#x200B;](assets/brand-management-brand-guidelines-card-live-status.png)
+![Carte des directives de la marque Connection 5G affichant le statut Actif ](assets/brand-management-brand-guidelines-card-live-status.png)
 
 Votre marque est maintenant en ligne et prête à être utilisée dans Adobe Journey Optimizer.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: null
 description: Créez une audience entièrement en flux continu en utilisant des attributs d’utilisation préagrégés calculés en amont au lieu d’agréger les événements dans la règle d’audience.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -33,19 +32,19 @@ Créez une audience de tous les profils dont l’utilisation des données de fac
 1. Création d’une audience
 1. Recherchez « Agg » dans l’onglet Attributs et non Événement et faites glisser les deux Agrégats sur la zone de travail. Définissez les opérateurs et les valeurs appropriés pour chacun d’eux.
 
-![Définissez les opérateurs et les valeurs appropriés pour chaque agrégat](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
+   ![Définissez les opérateurs et les valeurs appropriés pour chaque agrégat](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-&#x200B;3. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
+3. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
 
-![Sélectionner Le Nom Du Plan N’Est Pas Égal À Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![Sélectionner Le Nom Du Plan N’Est Pas Égal À Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
+4. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
 
-&#x200B;5. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
+5. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
 
 >[!NOTE]
 >

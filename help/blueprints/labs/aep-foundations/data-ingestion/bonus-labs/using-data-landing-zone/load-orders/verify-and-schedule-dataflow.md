@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Vérifier et planifier le flux de données
 description: Vérifiez le jeu de mappages Commandes complet, prévisualisez la sortie et planifiez l’exécution du flux de données toutes les 15 minutes.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -57,7 +56,7 @@ ht-degree: 7%
 
 1. Prévisualisez la sortie du mappage. Faites défiler tous les attributs pour vous assurer qu’il n’y a pas d’exclamation rouge en regard de l’un des attributs du côté droit.
 
-![Prévisualiser l’écran de mappage sans erreur sur les attributs mappés](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "L’écran de mappage de prévisualisation se présente comme suit ")
+   ![Prévisualiser l’écran de mappage sans erreur sur les attributs mappés](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "L’écran de mappage de prévisualisation se présente comme suit ")
 
 1. Dans le volet de navigation de gauche de l’aperçu, sélectionnez le tableau d’objets **productListItems**. Le côté droit se met à jour pour afficher uniquement les attributs de ce tableau d’objets.
 
@@ -71,9 +70,9 @@ ht-degree: 7%
 
 1. Définissez la planification pour qu’elle s’exécute **toutes les 15 minutes** en définissant la Fréquence sur Minute et l’Intervalle sur 15. Vérifiez le flux et cliquez sur Terminer.
 
->[!CAUTION]
->
->Assurez-vous que la planification est définie sur 15 minutes. Si vous planifiez l’exécution en tant que **Exécuter une fois**, vous ne pouvez pas l’exécuter à nouveau, même si vous apportez des modifications au mappage ultérieurement.
+   >[!CAUTION]
+   >
+   >Assurez-vous que la planification est définie sur 15 minutes. Si vous planifiez l’exécution en tant que **Exécuter une fois**, vous ne pouvez pas l’exécuter à nouveau, même si vous apportez des modifications au mappage ultérieurement.
 
 1. L’exécution du flux de données ne démarre pas immédiatement et prend quelques minutes. Ainsi, le dernier statut d’exécution du flux de données est défini sur « *Aucune exécution* ».
 

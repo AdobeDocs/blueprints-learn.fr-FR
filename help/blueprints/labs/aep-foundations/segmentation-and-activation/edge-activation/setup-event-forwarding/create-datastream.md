@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un flux de données
 description: Créez et configurez un flux de données avec les services Transfert d’événement et Adobe Experience Platform pour acheminer les événements Edge entrants.
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -58,13 +57,13 @@ Vous pouvez ainsi utiliser le transfert d’événement pour les données reçue
 
 1. Cliquez sur **Ajouter un service**
 
-![Page des détails du flux de données avec le bouton Ajouter un service en surbrillance](assets/create-datastream-add-service-button.png "Ajouter un service")
+   ![Page des détails du flux de données avec le bouton Ajouter un service en surbrillance](assets/create-datastream-add-service-button.png "Ajouter un service")
 
 1. Configurez les éléments suivants :
 
-- Service -> Transfert d’événement
-- Propriété -> Sélectionnez la propriété que vous avez créée à l’étape précédente.  Son nom doit être le suivant : Propriété de transfert d’événement SB + \&lt;votre numéro de sandbox>
-- Environnement -> Développement
+   - Service -> Transfert d’événement
+   - Propriété -> Sélectionnez la propriété que vous avez créée à l’étape précédente.  Son nom doit être le suivant : Propriété de transfert d’événement SB + \&lt;votre numéro de sandbox>
+   - Environnement -> Développement
 
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**
 
@@ -80,17 +79,17 @@ Vous pouvez ainsi envoyer des données au hub et accéder à un jeu de données 
 
 1. Cliquez sur **Ajouter un service**
 
-![Page des détails du flux de données avec le bouton Ajouter un service mis en surbrillance pour ajouter le service Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Ajoutez un nouveau service")
+   ![Page des détails du flux de données avec le bouton Ajouter un service mis en surbrillance pour ajouter le service Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Ajoutez un nouveau service")
 
 1. Configurez les éléments suivants :
 
-- Service -> Adobe Experience Platform
-- Jeu de données d’événement -> dep : Web
-- Jeu de données de profil -> prop : compte client
-- Sélectionnez Case à cocher -> Segmentation Edge .
-- Sélectionner la case à cocher -> Destination Personalization
+   - Service -> Adobe Experience Platform
+   - Jeu de données d’événement -> dep : Web
+   - Jeu de données de profil -> prop : compte client
+   - Sélectionnez Case à cocher -> Segmentation Edge .
+   - Sélectionner la case à cocher -> Destination Personalization
 
-Configuration du service ![Adobe Experience Platform avec jeu de données d’événement, jeu de données de profil et cases à cocher de segmentation définis](assets/create-datastream-aep-service-config.png "Configurer le service")
+   Configuration du service ![Adobe Experience Platform avec jeu de données d’événement, jeu de données de profil et cases à cocher de segmentation définis](assets/create-datastream-aep-service-config.png "Configurer le service")
 
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 

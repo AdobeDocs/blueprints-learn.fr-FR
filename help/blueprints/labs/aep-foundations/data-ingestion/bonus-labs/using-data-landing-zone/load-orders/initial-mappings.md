@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Mappages initiaux
 description: Mappez manuellement les champs _id et timestamp requis pour un jeu de données d’événement d’expérience à l’aide des expressions de champ calculées.
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -31,23 +30,23 @@ Comme dans l’exercice précédent, vous devrez vérifier le mappage et, dans c
 
 1. Pour mapper **\_id,** écrivez l’expression de champ calculé suivante, puis cliquez sur Aperçu
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![Le champ calculé pour le mappage _id, prêt à être enregistré](assets/initial-mappings-calculated-field-for-id-mapping.png "Le champ calculé pour le mappage _id ressemblera à ceci. Cliquez sur Enregistrer pour enregistrer le champ calculé")
+   ![Le champ calculé pour le mappage _id, prêt à être enregistré](assets/initial-mappings-calculated-field-for-id-mapping.png "Le champ calculé pour le mappage _id ressemblera à ceci. Cliquez sur Enregistrer pour enregistrer le champ calculé")
 
-![Mapper le champ calculé à l’attribut _id](assets/initial-mappings-map-calculated-field-to-id.png "Mapper le champ calculé à _id")
+   ![Mapper le champ calculé à l’attribut _id](assets/initial-mappings-map-calculated-field-to-id.png "Mapper le champ calculé à _id")
 
 1. Assurez-vous que le champ **horodatage** du schéma cible est mappé au champ calculé suivant :
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![Aperçu de l’expression du champ calculé pour le mappage d’horodatage](assets/initial-mappings-expression-preview.png "Écrivez l’expression suivante et cliquez sur Aperçu. NOTEZ que cette valeur est sensible à la casse et doit être écrite exactement comme suit ")
+   ![Aperçu de l’expression du champ calculé pour le mappage d’horodatage](assets/initial-mappings-expression-preview.png "Écrivez l’expression suivante et cliquez sur Aperçu. NOTEZ que cette valeur est sensible à la casse et doit être écrite exactement comme suit ")
 
-![Mappage de l’expression de champ calculée « inStore » à order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![Mappage de l’expression de champ calculée « inStore » à order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. Mappez l’expression de champ calculée **« inStore »** sur **order.\_devbc.acqSource**
 
@@ -57,7 +56,7 @@ lastOrderStatusUpdate
 
 Si l’écran de mappage se plaint désormais qu’il existe un mappage en double, tel que **orderStatus** mappé à **order.\_devbc.acqSource,** cliquez sur l’icône « - » pour supprimer le mappage.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >N’oubliez pas que plusieurs champs d’entrée ne peuvent pas être mappés au même champ de sortie, car cela rend le mappage ambigu. Cependant, un seul champ d’entrée peut être mappé à plusieurs champs de sortie dans le schéma XDM.
 

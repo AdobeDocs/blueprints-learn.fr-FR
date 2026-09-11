@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Résumé
 description: Consultez les principaux points à retenir et une liste de contrôle d’achèvement pour créer des campagnes personnalisées et conformes à la marque avec des fragments, des outils d’IA et une simulation dans Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -22,7 +21,7 @@ Tout au long de ce cours, vous avez exploré le parcours complet de la création
 - Vous pouvez créer, configurer et tester en toute confiance des communications de marque dans Adobe Journey Optimizer (AJO).
 - L’utilisation de **fragments** et **modèles** simplifie la création de contenu et assure la cohérence de la marque entre les messages.
 - Les outils **Assistant IA** et **Score d’alignement des marques** permettent de maintenir le ton, la qualité et la conformité avant le lancement.
-- **&#x200B;**&#x200B;vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
+- **** vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
 - Le **contenu dynamique** permet de faire varier les messages entre les segments à l’aide de règles de ciblage et d’une logique conditionnelle.
 - Tester avec des **profils de simulation** et exécuter des **contrôles de conformité** garantit que les messages s’affichent correctement et correspondent aux normes de la marque avant leur mise en ligne.
 
@@ -36,7 +35,7 @@ Tout au long de ce cours, vous avez exploré le parcours complet de la création
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

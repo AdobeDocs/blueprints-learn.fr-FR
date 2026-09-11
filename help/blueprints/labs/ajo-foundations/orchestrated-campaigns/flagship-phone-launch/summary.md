@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Résumé
 description: Récapitulez la création d’une campagne orchestrée avec un canal SMS qui cible les comptes clients et les lignes individuelles et enregistre une audience sur le portail d’audiences.
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -36,7 +35,7 @@ Si vous aviez essayé cela dans des Parcours, vous n&#39;auriez pas été en mes
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

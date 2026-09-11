@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Prétravail
 description: Examinez les champs de schéma pour l’utilisation de la facturation et le nom du plan, en soulignant comment les descriptions manquantes et les champs en double peuvent perturber les créateurs d’audience.
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,15 +21,15 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 1. Création d’une audience
 1. Recherchez « usage » dans Attributs. Cliquez sur le « i » pour consulter la description (il n’y en a pas).
 
-![Rechercher une utilisation dans les attributs - Aucune description affichée](assets/pre-work-search-usage-in-attributes.png)
+   ![Rechercher une utilisation dans les attributs - Aucune description affichée](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
+3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
 
 ![Rechercher une utilisation dans les événements - aucune description affichée](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Aucune de ces descriptions n’étant fournie, le spécialiste marketing peut émettre des hypothèses et faire des suppositions erronées.
 >
@@ -41,7 +40,8 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 >- Recommandé/préféré dans des cas d’utilisation spécifiques ?
 >
 >En fournissant ces informations dans des descriptions, nous pouvons mieux les guider.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Recherchez « Facturation ».  Notez qu’il ne s’affiche pas en tant qu’attribut de profil.  Elle s’affiche sous la forme d’une carte Type d’événement avec le champ « Utilisation des données de facturation ».
 >

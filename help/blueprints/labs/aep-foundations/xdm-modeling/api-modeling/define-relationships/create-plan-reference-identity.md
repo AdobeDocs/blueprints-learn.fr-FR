@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une identité de référence de plan
 description: Utilisez l’API Schema Registry pour créer un descripteur d’identité de référence sur le schéma de recherche afin qu’il puisse être utilisé dans la segmentation par lots.
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. Cliquez sur la requête d’API `Step 3 - Reference Descriptor for Plan` dans le dossier `XDM Schema Lab -> Create Relationship Descriptors` .
 
->[!CAUTION]
->
->Ne pas exécuter la requête... pour l’instant
+   >[!CAUTION]
+   >
+   >Ne pas exécuter la requête... pour l’instant
 
-![Étape 3 - Descripteur de référence pour la requête API de schéma de plan](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Étape 3 - Descripteur de référence pour le schéma de plan")
+   ![Étape 3 - Descripteur de référence pour la requête API de schéma de plan](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Étape 3 - Descripteur de référence pour le schéma de plan")
 
 
 
-&#x200B;2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
+2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
 
 - Mettez à jour la valeur de la propriété `xdm:sourceSchema` sur la `$id` du schéma `Customer Account` que vous avez enregistré à partir de l’étape [Créer un schéma](../build-schema/create-schema.md)
 - Mettez à jour la valeur du `xdm:sourceProperty` vers le chemin du champ `planID` à partir du schéma `Customer Account`
@@ -54,9 +53,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
+4. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
 

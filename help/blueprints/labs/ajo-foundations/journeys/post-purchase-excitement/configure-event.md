@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer l’événement
 description: Créez et configurez un événement unitaire Commande envoyée, y compris les paramètres d’espace de noms d’identité, pour servir de déclencheur d’entrée pour un parcours.
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -33,49 +32,49 @@ Pour créer un Parcours qui utilise un événement unitaire, nous devons d’abo
 
 1. Dans le rail de gauche, sous le menu Administration, cliquez sur **Configurations** puis, sur la mosaïque Événements, cliquez sur le bouton **Gérer**
 
-![Bouton Gérer sur la mosaïque Événements sous Configurations](assets/configure-event-open-events-manage.png)
+   ![Bouton Gérer sur la mosaïque Événements sous Configurations](assets/configure-event-open-events-manage.png)
 
-&#x200B;2. Dans le coin supérieur droit, cliquez sur le bouton **Créer un événement**
+2. Dans le coin supérieur droit, cliquez sur le bouton **Créer un événement**
 
-![Bouton Créer un événement en haut à droite](assets/configure-event-click-create-event-button.png)
+   ![Bouton Créer un événement en haut à droite](assets/configure-event-click-create-event-button.png)
 
-&#x200B;3. Mettez à jour les paramètres de l’événement comme suit :
+3. Mettez à jour les paramètres de l’événement comme suit :
    - **Name** = `orderShipped`
    - **Type** = `Unitary`
    - **Type d’identifiant d’événement** = `Rule based`
    - **Schéma** = `dep: Orders v.1`
 
-![événement orderShipped configuré avec le type Unitaire et dep : schéma Orders v.1](assets/configure-event-set-name-type-schema.png)
+   ![événement orderShipped configuré avec le type Unitaire et dep : schéma Orders v.1](assets/configure-event-set-name-type-schema.png)
 
-&#x200B;4. Dans la zone de saisie `Fields`, cliquez sur l’icône **Crayon**
+4. Dans la zone de saisie `Fields`, cliquez sur l’icône **Crayon**
 
-![Icône en forme de crayon dans la zone de saisie Champs](assets/configure-event-click-fields-pencil-icon.png)
+   ![Icône en forme de crayon dans la zone de saisie Champs](assets/configure-event-click-fields-pencil-icon.png)
 
-&#x200B;5. Sélectionnez les champs suivants à ajouter à l’événement et, lorsque vous avez terminé, cliquez sur le bouton **OK**
+5. Sélectionnez les champs suivants à ajouter à l’événement et, lorsque vous avez terminé, cliquez sur le bouton **OK**
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-![Champs Type d’événement et ID de commande sélectionnés à ajouter à l’événement](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![Champs Type d’événement et ID de commande sélectionnés à ajouter à l’événement](assets/configure-event-select-eventtype-orderid-fields.png)
 
->[!NOTE]
->
->Veillez à sélectionner uniquement le champ ID de commande et non tous les champs du 😁 de commande
+   >[!NOTE]
+   >
+   >Veillez à sélectionner uniquement le champ ID de commande et non tous les champs du 😁 de commande
 
 
 
-&#x200B;6. Dans la `Event Id condition input`, cliquez sur l’icône **Crayon**
+6. Dans la `Event Id condition input`, cliquez sur l’icône **Crayon**
 
-![Icône en forme de crayon dans l’entrée de condition d’identifiant d’événement](assets/configure-event-click-event-id-condition-pencil.png)
+   ![Icône en forme de crayon dans l’entrée de condition d’identifiant d’événement](assets/configure-event-click-event-id-condition-pencil.png)
 
-&#x200B;7. **Faire glisser** le champ `Event Type` sur la zone de travail
+7. **Faire glisser** le champ `Event Type` sur la zone de travail
 
-![Faites glisser le champ Type d’événement sur la zone de travail de condition](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![Faites glisser le champ Type d’événement sur la zone de travail de condition](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-&#x200B;8. Dans la zone de sélection qui s’affiche, recherchez et vérifiez la valeur intitulée **orders.shipping.**. Cliquez ensuite sur le bouton **OK**.
+8. Dans la zone de sélection qui s’affiche, recherchez et vérifiez la valeur intitulée **orders.shipping.**. Cliquez ensuite sur le bouton **OK**.
 
-![valeur orders.shipping cochée dans la case de sélection](assets/configure-event-select-orders-shipped-value.png)
+   ![valeur orders.shipping cochée dans la case de sélection](assets/configure-event-select-orders-shipped-value.png)
 
-&#x200B;9. Mettez ensuite à jour les deux dernières valeurs d’Espace de noms et d’Identifiant de profil avec les valeurs affichées ci-dessous :
+9. Mettez ensuite à jour les deux dernières valeurs d’Espace de noms et d’Identifiant de profil avec les valeurs affichées ci-dessous :
    - **Espace de noms** —> `Email`
    - **Identifiant de profil** —> `personalEmail`
 

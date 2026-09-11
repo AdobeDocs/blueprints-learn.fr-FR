@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erreurs de surveillance et de débogage
 description: Utilisez le tableau de bord de surveillance de bout en bout de la diffusion en continu pour identifier et interpréter les erreurs INGEST, DCVS et MAPPER dans un flux de données en continu.
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 1. Accédez à **Surveillance->Streaming de bout en bout** et localisez votre **Flux de données** :
 
-![Recherche du flux de données en continu dans la section Surveillance](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "Recherchez votre flux de données dans Surveillance")
+   ![Recherche du flux de données en continu dans la section Surveillance](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "Recherchez votre flux de données dans Surveillance")
 
 
 
@@ -43,29 +42,29 @@ ht-degree: 0%
 
 1. Si votre flux de données comportait des erreurs car vous n’aviez pas suivi les instructions, les éléments suivants s’affichent.
 
-![Échecs signalés pour un flux de données en continu avec des erreurs de mappage](assets/monitoring-and-debugging-errors-failures-reported.png "Échecs signalés")
+   ![Échecs signalés pour un flux de données en continu avec des erreurs de mappage](assets/monitoring-and-debugging-errors-failures-reported.png "Échecs signalés")
 
 
 
 1. Si vous cliquez sur les Échecs, vous obtenez l&#39;écran suivant :
 
-![Écran de diagnostics d’erreur affichant les détails des erreurs INGEST, DCVS et MAPPER](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "Aperçu des diagnostics d’erreur")
+   ![Écran de diagnostics d’erreur affichant les détails des erreurs INGEST, DCVS et MAPPER](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "Aperçu des diagnostics d’erreur")
 
->[!NOTE]
->
->Un microlot réussi peut prendre plus de 15 minutes, car il peut s’avérer nécessaire de disposer de temps pour écrire les enregistrements dans le lac de données.
+   >[!NOTE]
+   >
+   >Un microlot réussi peut prendre plus de 15 minutes, car il peut s’avérer nécessaire de disposer de temps pour écrire les enregistrements dans le lac de données.
 
 
 
 1. Analysez le message d&#39;erreur, identifiez les **champs source/cible** et recherchez le code :
 
-- **INGEST XXXX** - Il s’agit d’une erreur grave due à une corruption des données ou à des problèmes de formatage, c’est-à-dire qu’il ne suit pas un format RegEx.
-- **DCVS XXXX** - Cette erreur s’affiche avec les champs `required`. Si les valeurs n’existent pas ou sont mappées de manière incorrecte (et non dans la liste d’énumérations), ces lignes sont ignorées.
-- **MAPPEUR XXXX** - Avertissements et aucune ligne n’est ignorée. Cependant, les valeurs peuvent avoir été rendues « nulles ». Vous devez donc vérifier qu’elles n’ont pas d’impact sur les activités en aval.
+   - **INGEST XXXX** - Il s’agit d’une erreur grave due à une corruption des données ou à des problèmes de formatage, c’est-à-dire qu’il ne suit pas un format RegEx.
+   - **DCVS XXXX** - Cette erreur s’affiche avec les champs `required`. Si les valeurs n’existent pas ou sont mappées de manière incorrecte (et non dans la liste d’énumérations), ces lignes sont ignorées.
+   - **MAPPEUR XXXX** - Avertissements et aucune ligne n’est ignorée. Cependant, les valeurs peuvent avoir été rendues « nulles ». Vous devez donc vérifier qu’elles n’ont pas d’impact sur les activités en aval.
 
 1. Pour récupérer après les erreurs, vous devez accéder à **Sources->Flux de données->Nom du flux de données->Mettre à jour le flux de données** et corriger vos mappages.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Vous devez charger à nouveau le fichier d’exemple JSON en le supprimant d’abord et en l’ajoutant de nouveau, de sorte que le mappeur soit maintenant actualisé avec une nouvelle copie pour validation.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Création d’une campagne orchestrée
 description: Découvrez comment créer le shell d’une campagne orchestrée et examiner ses options de planification par défaut.
 doc-type: article
 solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -25,18 +24,18 @@ Dans l’ensemble d’étapes suivant, vous créez le shell d’une campagne orc
 
 1. Assurez-vous d’abord que vous vous trouvez dans l’application Adobe Journey Optimizer en sélectionnant l’application dans le tiroir d’applications situé en haut à droite de votre navigateur
 
-![Sélectionnez Adobe Journey Optimizer dans le tiroir d’applications](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![Sélectionnez Adobe Journey Optimizer dans le tiroir d’applications](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
-&#x200B;2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
-&#x200B;3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
+2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
+3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
 
-![&#x200B; Bouton Créer une campagne dans la navigation Campagnes &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![ Bouton Créer une campagne dans la navigation Campagnes ](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-&#x200B;4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
+4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
 
 ![Sélectionnez Orchestration - Marketing, puis cliquez sur Confirmer](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -48,11 +47,11 @@ Dans l’ensemble d’étapes suivant, vous créez le shell d’une campagne orc
    - **Politique de fusion** —> `Default Timebased`
    - **Balises** —> *laisser vide*
 
-Lorsque vous avez terminé, l’écran doit ressembler à ce qui suit.
+   Lorsque vous avez terminé, l’écran doit ressembler à ce qui suit.
 
-![Paramètres de campagne renseignés avec le nom et la politique de fusion](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![Paramètres de campagne renseignés avec le nom et la politique de fusion](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-&#x200B;2. Cliquez sur le bouton **Enregistrer** pour continuer.
+2. Cliquez sur le bouton **Enregistrer** pour continuer.
 
 
 

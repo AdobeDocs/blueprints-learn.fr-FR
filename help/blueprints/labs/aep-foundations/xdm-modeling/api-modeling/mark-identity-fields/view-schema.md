@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Afficher le schéma
 description: Affichez les descripteurs d’identité d’un schéma via l’interface utilisateur et l’API et comparez les options d’en-tête Accept pour les réponses de schéma résolues et non résolues.
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -28,13 +27,13 @@ ht-degree: 0%
 
 1. Sélectionnez l’API `Step 3 - Get Customer Account Schema and its descriptors` en cliquant dessus.
 
-![Étape 3 - Obtenir le schéma du compte client avec la requête d’API des descripteurs](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Étape 3 - Obtenir le schéma du compte client avec les descripteurs")
+   ![Étape 3 - Obtenir le schéma du compte client avec la requête d’API des descripteurs](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Étape 3 - Obtenir le schéma du compte client avec les descripteurs")
 
 
 
 1. Dans l’URL de la requête, remplacez la `<replace me>` par la `$meta:altId` que vous avez enregistrée de la section précédente (Créer votre schéma) à la fin de l’appel, comme illustré ci-dessous
 
-![Requête de l’étape finale 5 avec altId ajoutée à la requête URL](assets/view-schema-final-step-5-request.png "Étape finale 5")
+   ![Requête de l’étape finale 5 avec altId ajoutée à la requête URL](assets/view-schema-final-step-5-request.png "Étape finale 5")
 
 
 
@@ -61,7 +60,7 @@ Notez l’en-tête **Accept** utilisé dans la requête. Cet en-tête indique au
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=fr#lookup)
+>Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

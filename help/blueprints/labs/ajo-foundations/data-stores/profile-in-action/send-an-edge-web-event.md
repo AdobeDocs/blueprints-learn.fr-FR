@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envoi d’un événement web Edge
 description: Découvrez comment envoyer un événement web simulé au réseau Adobe Edge via un appel API Postman à l’aide de votre identifiant de flux de données.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -73,18 +72,18 @@ Avant de pouvoir exécuter la requête API, vous devez ajouter l’identifiant d
 
 1. Cliquez sur **Variables dans la requête** dans le coin supérieur droit
 
-![Variables dans l’option Requête de la barre d’outils Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
+   ![Variables dans l’option Requête de la barre d’outils Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. Mettez à jour la **DATASTREAM_CONFIG** **Value** avec l’**ID de train de données** à partir de la première étape de la page.
+2. Mettez à jour la **DATASTREAM_CONFIG** **Value** avec l’**ID de train de données** à partir de la première étape de la page.
 
-![Variable DATASTREAM_CONFIG mise à jour avec l’identifiant du flux de données](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   ![Variable DATASTREAM_CONFIG mise à jour avec l’identifiant du flux de données](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. **Enregistrer** votre mise à jour (ctrl + s ou commande + s)
-&#x200B;4. Cliquez sur « **X** » dans le coin supérieur droit de la barre latérale de l’environnement pour fermer la barre latérale
+3. **Enregistrer** votre mise à jour (ctrl + s ou commande + s)
+4. Cliquez sur « **X** » dans le coin supérieur droit de la barre latérale de l’environnement pour fermer la barre latérale
 
-![Fermeture de la barre latérale de l’environnement Postman après l’enregistrement](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![Fermeture de la barre latérale de l’environnement Postman après l’enregistrement](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. La requête **Créer un événement web** est maintenant prête à être envoyée, car toutes les variables sont désormais bleues et ont une valeur dans l’environnement.
+5. La requête **Créer un événement web** est maintenant prête à être envoyée, car toutes les variables sont désormais bleues et ont une valeur dans l’environnement.
 
 ![Créer une requête d’événement web avec toutes les variables renseignées](assets/send-an-edge-web-event-request-ready-to-send.png)
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Modèles d’objets personnalisés
 description: Créez des champs et des objets de compte, de plan et customerID personnalisés dans l’éditeur de schémas, y compris des valeurs d’énumération, pour modéliser les données sans équivalent de groupe de champs standard.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,11 +35,11 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 1. Ajoutez un nouveau champ en cliquant sur le bouton **+ (ajouter)** en haut de votre schéma
 
-![bouton Ajouter (+) en haut du schéma pour ajouter un champ personnalisé](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![bouton Ajouter (+) en haut du schéma pour ajouter un champ personnalisé](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->Notez que le rail de droite s’ouvre avec quelques champs à remplir
+   >[!NOTE]
+   >
+   >Notez que le rail de droite s’ouvre avec quelques champs à remplir
 
 
 
@@ -73,14 +72,14 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 1. Ajoutez les champs suivants affichés ci-dessous sous l’objet Compte que vous venez de créer.
 
-| Nom du champ | Nom d’affichage | Type |
-| ------------ | ------------- | ---------- |
-| *createDate* | *Date de création* | *DateHeure* |
-| *endDate* | *Date de fin* | *DateHeure* |
+   | Nom du champ | Nom d’affichage | Type |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *Date de création* | *DateHeure* |
+   | *endDate* | *Date de fin* | *DateHeure* |
 
->[!NOTE]
->
->Lorsque vous ajoutez de nouveaux champs, l’option **Affecter à** est déjà renseignée et fait référence au groupe de champs que vous avez utilisé pour l’objet de compte.
+   >[!NOTE]
+   >
+   >Lorsque vous ajoutez de nouveaux champs, l’option **Affecter à** est déjà renseignée et fait référence au groupe de champs que vous avez utilisé pour l’objet de compte.
 
 
 
@@ -88,28 +87,28 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 
 
-![Schéma de compte client avec ajout d’un objet de compte et de champs enfants](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![Schéma de compte client avec ajout d’un objet de compte et de champs enfants](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. Ajoutez un autre champ personnalisé à l’objet de compte. Cliquez sur le bouton **+ (ajouter)** en regard de l’objet de compte.  Créez le champ suivant :
 
-| Nom du champ | Nom d’affichage | Type | Énumérations |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | Source acquis ** | *String* | *web :: Web *<br />*inStore :: In Store* |
+   | Nom du champ | Nom d’affichage | Type | Énumérations |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | Source acquis ** | *String* | *web :: Web *<br />*inStore :: In Store* |
 
-Ce champ nécessite des valeurs normalisées. Utilisez donc l’option **Énumération et valeurs suggérées** dans les propriétés des champs. Sélectionnez le bouton radio **Énumération** pour ajouter une validation pour ce champ lors de l’ingestion, ainsi que des libellés conviviaux. Ajoutez les valeurs d’énumération comme illustré ci-dessous :
+   Ce champ nécessite des valeurs normalisées. Utilisez donc l’option **Énumération et valeurs suggérées** dans les propriétés des champs. Sélectionnez le bouton radio **Énumération** pour ajouter une validation pour ce champ lors de l’ingestion, ainsi que des libellés conviviaux. Ajoutez les valeurs d’énumération comme illustré ci-dessous :
 
-- *web :: Web*
-- *inStore :: en magasin*
+   - *web :: Web*
+   - *inStore :: en magasin*
 
 
 
-![Valeurs d’énumération web et inStore ajoutées pour le champ Source d’acquisition](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![Valeurs d’énumération web et inStore ajoutées pour le champ Source d’acquisition](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, vous pouvez consulter la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=fr#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, vous pouvez consulter la documentation ici -> [](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -180,7 +179,7 @@ Effectuez les mêmes étapes que précédemment et utilisez le tableau ci-dessou
 
 Le résultat final doit ressembler à la capture d’écran ci-dessous lorsque vous avez terminé
 
-![&#x200B; Schéma de compte client avec le champ customerID ajouté à la racine &#x200B;](assets/model-custom-objects-customerid-field-added.png)
+![ Schéma de compte client avec le champ customerID ajouté à la racine ](assets/model-custom-objects-customerid-field-added.png)
 
 
 

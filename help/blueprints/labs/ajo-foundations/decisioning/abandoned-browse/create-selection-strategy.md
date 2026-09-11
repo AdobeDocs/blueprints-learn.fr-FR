@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une stratégie de sélection
 description: Configurez une stratégie de sélection qui associe une collection d'offres, des règles d'éligibilité et une formule de classement pour la prise de décision.
 doc-type: article
 solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -26,35 +25,35 @@ Imaginez que nous ayons des centaines d’offres utilisées dans quarante collec
 1. Si nécessaire, développez **Prise de décision** dans le rail de gauche, puis cliquez sur **Configuration de la stratégie**. Vous accédez à la page « Règles de prise de décision », où vous voyez la règle de décision « Plans de niveau supérieur » que vous avez précédemment créée et utilisée comme conditions d’éligibilité pour les éléments d’offre téléphonique de niveau supérieur.
 2. Cliquez sur **Stratégies de sélection** juste en dessous du menu « Méthodes de classement ». Aucune stratégie de sélection n’étant disponible, cliquez sur le bouton bleu **Créer une stratégie de sélection**.
 
-![Page Stratégies de sélection avec le bouton Créer une stratégie de sélection](assets/create-selection-strategy-create-button.png)
+   ![Page Stratégies de sélection avec le bouton Créer une stratégie de sélection](assets/create-selection-strategy-create-button.png)
 
-&#x200B;3. Nommez la stratégie de sélection **Stratégie de sélection iPhone 17**
-&#x200B;4. Vous pouvez voir qu&#39;une stratégie de sélection nécessite 3 choses.
+3. Nommez la stratégie de sélection **Stratégie de sélection iPhone 17**
+4. Vous pouvez voir qu&#39;une stratégie de sélection nécessite 3 choses.
    - Une collection d’offres
    - Conditions d&#39;éligibilité
    - Une Méthode De Classement
 
-Cliquez sur le bouton **Sélectionner la collection**, cochez la case en regard de la seule collection que vous avez (**Collection iPhone 17**), puis cliquez sur **Enregistrer**.
+   Cliquez sur le bouton **Sélectionner la collection**, cochez la case en regard de la seule collection que vous avez (**Collection iPhone 17**), puis cliquez sur **Enregistrer**.
 
-&#x200B;5. Laissez le menu déroulant « Éligibilité » défini sur Tous les visiteurs.
+5. Laissez le menu déroulant « Éligibilité » défini sur Tous les visiteurs.
 
->[!NOTE]
->
->L&#39;éligibilité peut être appliquée au niveau de l&#39;offre, de la stratégie de sélection ou au niveau du Parcours/de la campagne via les critères de saisie du Parcours ou de la campagne. Tout dépend du cas d’utilisation que vous essayez de réaliser. Si vous cliquez sur le menu déroulant **Éligibilité**, vous verrez les mêmes options d’audience et de règle de décision que celles que vous avez vues au niveau de l’offre. Dans notre cas d’utilisation, nous souhaitions uniquement limiter les offres spécifiques. Il était donc logique de définir l’éligibilité au niveau de l’offre.
+   >[!NOTE]
+   >
+   >L&#39;éligibilité peut être appliquée au niveau de l&#39;offre, de la stratégie de sélection ou au niveau du Parcours/de la campagne via les critères de saisie du Parcours ou de la campagne. Tout dépend du cas d’utilisation que vous essayez de réaliser. Si vous cliquez sur le menu déroulant **Éligibilité**, vous verrez les mêmes options d’audience et de règle de décision que celles que vous avez vues au niveau de l’offre. Dans notre cas d’utilisation, nous souhaitions uniquement limiter les offres spécifiques. Il était donc logique de définir l’éligibilité au niveau de l’offre.
 
-&#x200B;6. Définissez la **Méthode de classement** sur **formule** puis cliquez sur le bouton **Sélectionner la formule**
+6. Définissez la **Méthode de classement** sur **formule** puis cliquez sur le bouton **Sélectionner la formule**
 
->[!NOTE]
->
->Vous avez peut-être remarqué les options « Priorité des offres » et « Modèle d’IA » dans le menu déroulant Méthode de classement . Si vous souhaitez vraiment renvoyer uniquement des offres en utilisant uniquement leur priorité d’origine, vous devez choisir l’option « Priorité des offres ».
->
->L’option Modèle d’IA utilise un modèle d’IA qui analyse les impressions, les clics et les conversions des offres renvoyées afin de déterminer l’offre à afficher à l’individu. Nous ne les utiliserons pas dans ce laboratoire, car il existe des seuils de données minimum ainsi que deux semaines nécessaires pour entraîner les modèles.
+   >[!NOTE]
+   >
+   >Vous avez peut-être remarqué les options « Priorité des offres » et « Modèle d’IA » dans le menu déroulant Méthode de classement . Si vous souhaitez vraiment renvoyer uniquement des offres en utilisant uniquement leur priorité d’origine, vous devez choisir l’option « Priorité des offres ».
+   >
+   >L’option Modèle d’IA utilise un modèle d’IA qui analyse les impressions, les clics et les conversions des offres renvoyées afin de déterminer l’offre à afficher à l’individu. Nous ne les utiliserons pas dans ce laboratoire, car il existe des seuils de données minimum ainsi que deux semaines nécessaires pour entraîner les modèles.
 
-&#x200B;7. Cochez la case en regard de la seule formule de classement que vous avez (**Formule de classement iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, votre stratégie de sélection se présente comme suit :
+7. Cochez la case en regard de la seule formule de classement que vous avez (**Formule de classement iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, votre stratégie de sélection se présente comme suit :
 
-![Stratégie de sélection terminée avec le jeu de formules de collection, d’éligibilité et de classement](assets/create-selection-strategy-completed-configuration.png)
+   ![Stratégie de sélection terminée avec le jeu de formules de collection, d’éligibilité et de classement](assets/create-selection-strategy-completed-configuration.png)
 
-&#x200B;8. Une fois votre stratégie de sélection correcte, cliquez sur le bouton bleu **Créer**.
+8. Une fois votre stratégie de sélection correcte, cliquez sur le bouton bleu **Créer**.
 
 >[!TIP]
 >

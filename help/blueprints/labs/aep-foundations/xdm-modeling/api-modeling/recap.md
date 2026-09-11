@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Récapituler
 description: Examinez les étapes du Lab de modélisation des API, de la création du schéma de compte client à l’application de correctifs JSON, en passant par le marquage des identités et la création de la relation de recherche.
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -19,7 +18,7 @@ La vidéo ci-dessous récapitule la manière dont vous avez créé le schéma, l
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Tout d’abord, félicitations ! La création de choses à l’aide d’une API n’est pas facile, mais comprendre son fonctionnement vous aidera à comprendre le système dans son ensemble. Bravo !
 

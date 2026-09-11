@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuration d’une action personnalisée
 description: Configurez une action personnalisée réutilisable dans Adobe Journey Optimizer qui appelle un point d’entrée tiers pour récupérer l’ETA d’expédition et les détails de suivi.
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -33,9 +32,9 @@ Dans le rail de gauche, sous le menu Administration, cliquez sur **Configuration
 
 1. Dans le coin supérieur droit, cliquez sur le bouton **Créer une action**
 
-![Bouton Créer une action en haut à droite](assets/configure-custom-action-click-create-action-button.png)
+   ![Bouton Créer une action en haut à droite](assets/configure-custom-action-click-create-action-button.png)
 
-&#x200B;2. Dans le panneau de configuration qui s’affiche, mettez à jour les valeurs de base suivantes, comme illustré ci-dessous :
+2. Dans le panneau de configuration qui s’affiche, mettez à jour les valeurs de base suivantes, comme illustré ci-dessous :
    - **Nom** : `GetShippingDetails`
    - **Description** : `Call third party to get Shipping ETA and Tracking Number`
    - **Type d’action** : `Custom`
@@ -74,29 +73,29 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 1. Dans la zone Payloads, cliquez sur l’icône **Crayon** pour ouvrir l’écran Configuration du champ .
 
-![Icône en forme de crayon pour ouvrir l’écran Configuration du champ dans la zone Payloads](assets/configure-custom-action-open-field-configuration.png)
+   ![Icône en forme de crayon pour ouvrir l’écran Configuration du champ dans la zone Payloads](assets/configure-custom-action-open-field-configuration.png)
 
-![Écran de configuration du champ pour le payload de réponse](assets/configure-custom-action-open-field-configuration--2.png)
+   ![Écran de configuration du champ pour le payload de réponse](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
-&#x200B;2. **Copiez et collez** la payload ci-dessous dans la zone Payload .
+2. **Copiez et collez** la payload ci-dessous dans la zone Payload .
 
-```json
-{
+   ```json
+   {
     "eta": "11/19/2025",
     "tracking_number": "072000326"
-}
-```
+   }
+   ```
 
->[!NOTE]
->
->Il s’agit de la même structure JSON que le point d’entrée Mockaroo ci-dessus doit renvoyer :
+   >[!NOTE]
+   >
+   >Il s’agit de la même structure JSON que le point d’entrée Mockaroo ci-dessus doit renvoyer :
 
 
-&#x200B;3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
+3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
 
-![&#x200B; Payload de réponse affichée avec le bouton Enregistrer &#x200B;](assets/configure-custom-action-save-response-payload.png)
+![ Payload de réponse affichée avec le bouton Enregistrer ](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
@@ -108,36 +107,36 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 1. Cliquez sur le bouton **Envoyer une requête de test** dans le rail inférieur droit pour vérifier que vous n’avez rien gâché 😀
 
-![Bouton Envoyer la demande de test dans le rail inférieur droit](assets/configure-custom-action-click-send-test-request.png)
+   ![Bouton Envoyer la demande de test dans le rail inférieur droit](assets/configure-custom-action-click-send-test-request.png)
 
 
 
-&#x200B;2. Cliquez sur l’onglet **Paramètres de requête** et mettez à jour la valeur de `orderId` sur **123**
+2. Cliquez sur l’onglet **Paramètres de requête** et mettez à jour la valeur de `orderId` sur **123**
 
-![Onglet Paramètres de requête avec la valeur orderId définie sur 123](assets/configure-custom-action-set-orderid-query-parameter.png)
-
-
-
-&#x200B;3. Cliquez sur le bouton **Envoyer** et si tout fonctionne bien, vous devriez voir un code de réponse de 200 et un aperçu de la payload comme illustré ci-dessous...
-
-![Code de réponse 200 et aperçu de la payload après l’envoi de la requête de test](assets/configure-custom-action-response-200-preview.png)
-
-Prévisualiser
-
-```json
-{
-  "eta": "12/26/2025",
-  "tracking_number": "063112249"
-}
-```
-
->[!WARNING]
->
->Si vous ne voyez pas de réponse 200 ou d’aperçu, ne continuez pas. Levez votre ✋ pour obtenir de l&#39;aide.
+   ![Onglet Paramètres de requête avec la valeur orderId définie sur 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-&#x200B;4. Cliquez sur le bouton **Annuler** pour revenir à l’écran Action, puis faites défiler l’écran vers le haut dans le rail supérieur droit et cliquez sur le bouton **Enregistrer**
+3. Cliquez sur le bouton **Envoyer** et si tout fonctionne bien, vous devriez voir un code de réponse de 200 et un aperçu de la payload comme illustré ci-dessous...
+
+   ![Code de réponse 200 et aperçu de la payload après l’envoi de la requête de test](assets/configure-custom-action-response-200-preview.png)
+
+   Prévisualiser
+
+   ```json
+   {
+     "eta": "12/26/2025",
+     "tracking_number": "063112249"
+   }
+   ```
+
+   >[!WARNING]
+   >
+   >Si vous ne voyez pas de réponse 200 ou d’aperçu, ne continuez pas. Levez votre ✋ pour obtenir de l&#39;aide.
+
+
+
+4. Cliquez sur le bouton **Annuler** pour revenir à l’écran Action, puis faites défiler l’écran vers le haut dans le rail supérieur droit et cliquez sur le bouton **Enregistrer**
 
 >[!TIP]
 >

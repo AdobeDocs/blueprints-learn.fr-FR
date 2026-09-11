@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Planifier le flux de données
 description: Configurez un planning de flux de données récurrent de 15 minutes avec le renvoi activé et comprenez comment les heures de début UTC affectent les exécutions.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Après avoir cliqué sur **Terminer**, vous revenez à l’écran **Flux de donn
 
 ![Écran Flux de données affichant le nouveau flux de données avec le statut Aucune exécution](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Écran Sources de flux de données")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Vous devez actualiser la page en continu pour afficher la mise à jour de l’état, car le serveur principal ne transmet pas les mises à jour à l’interface utilisateur.
 

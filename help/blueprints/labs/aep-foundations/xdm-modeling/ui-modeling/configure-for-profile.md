@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuration d’pour le profil
 description: Marquez les champs d’identité principale et de personne, créez une relation de schéma, activez un schéma pour le profil client en temps réel et passez en revue le schéma d’union des profils.
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -36,7 +35,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 1. Sélectionnez l’espace de noms **customerID** dans la liste déroulante
 1. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite, puis sur **Enregistrer** vos modifications.
 
-![Marquage du champ customerID en tant qu’identité de Principal &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
+![Marquage du champ customerID en tant qu’identité de Principal ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
 
 >[!NOTE]
 >
@@ -141,6 +140,7 @@ Parcourez la classe XDM Individual Profile, puis prenez quelques instants pour p
 >[!NOTE]
 >
 >Notez que le schéma présenté est une vue agrégée fusionnée de tous les schémas activés pour le profil dans votre sandbox. Les champs similaires dans la structure XDM hiérarchique fusionnent, tandis que les champs portant des noms et/ou des hiérarchies différents sont ajoutés à l’affichage global.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Seule la classe basée sur XDM Individual Profile effectue des fusions entre les champs aux noms similaires.

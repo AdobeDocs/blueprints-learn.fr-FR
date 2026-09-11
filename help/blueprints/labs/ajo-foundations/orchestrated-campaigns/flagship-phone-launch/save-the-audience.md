@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enregistrer l’audience
 description: Découvrez comment modifier la dimension, dédupliquer et enregistrer une audience sur le portail d’audiences à partir d’un workflow Campagne orchestré.
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -25,25 +24,25 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 1. Dans la zone de travail du workflow, cliquez sur le **+** **icône** sur la branche **Enregistrer l’audience**, puis, dans la liste des activités, sélectionnez l’activité **Modifier la dimension**
 
-![Ajoutez l’activité Changement de dimension sur la branche Enregistrement d’audience](assets/save-the-audience-add-change-dimension.png)
+   ![Ajoutez l’activité Changement de dimension sur la branche Enregistrement d’audience](assets/save-the-audience-add-change-dimension.png)
 
 
 
-&#x200B;2. Mettez à jour les propriétés de la dimension de modification comme indiqué ci-dessous :
+2. Mettez à jour les propriétés de la dimension de modification comme indiqué ci-dessous :
    - **Libellé :** `Convert Line to Account`
    - **Nouvelle dimension cible :** `dep-rel: Customer Account`
 
-![Modifier le libellé de dimension et nouveaux champs de dimension cible](assets/save-the-audience-change-dimension-label.png)
+   ![Modifier le libellé de dimension et nouveaux champs de dimension cible](assets/save-the-audience-change-dimension-label.png)
 
-![Compte client sélectionné comme nouvelle dimension cible](assets/save-the-audience-select-customer-account.png)
+   ![Compte client sélectionné comme nouvelle dimension cible](assets/save-the-audience-select-customer-account.png)
 
->[!NOTE]
->
->**Pourquoi faites-vous cela, demandez-vous ?**  N’oubliez pas que pour rejoindre le profil client en temps réel (où vous enregistrez les audiences), vous devez utiliser le mapping de ciblage de profil que vous avez configuré et qui ne rejoint que le schéma Deep-Real : Compte client .
+   >[!NOTE]
+   >
+   >**Pourquoi faites-vous cela, demandez-vous ?**  N’oubliez pas que pour rejoindre le profil client en temps réel (où vous enregistrez les audiences), vous devez utiliser le mapping de ciblage de profil que vous avez configuré et qui ne rejoint que le schéma Deep-Real : Compte client .
 
 
 
-&#x200B;3. Une fois cette opération terminée, voici à quoi ressemble votre zone de travail.  Enregistrez votre travail !
+3. Une fois cette opération terminée, voici à quoi ressemble votre zone de travail.  Enregistrez votre travail !
 
 ![Zone de travail du workflow après l’ajout de l’activité de changement de dimension](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -53,37 +52,37 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 1. Cliquez sur **+** **icône** après l’activité Modifier la dimension et sélectionnez l’activité **Déduplication** dans la liste des activités
 
-![Ajoutez l’activité Déduplication après le changement de dimension](assets/save-the-audience-add-deduplication-activity.png)
+   ![Ajoutez l’activité Déduplication après le changement de dimension](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
-&#x200B;2. Mettez à jour le libellé de l’activité Déduplication sur `Dedup customer id`
+2. Mettez à jour le libellé de l’activité Déduplication sur `Dedup customer id`
 
-![Libellé de l’activité Déduplication défini sur ID client de déduplication](assets/save-the-audience-deduplication-label.png)
-
-
-
-&#x200B;3. Cliquez maintenant sur le bouton **+ Ajouter un attribut** et sélectionnez le champ dans le schéma intitulé **ID du client**
-
-![Bouton Ajouter un attribut pour l’activité Déduplication](assets/save-the-audience-add-attribute-button.png)
-
-![Champ ID du client sélectionné dans le schéma](assets/save-the-audience-select-customer-id-field.png)
+   ![Libellé de l’activité Déduplication défini sur ID client de déduplication](assets/save-the-audience-deduplication-label.png)
 
 
 
-&#x200B;4. Dans les paramètres Déduplication , assurez-vous que les éléments suivants sont définis :
+3. Cliquez maintenant sur le bouton **+ Ajouter un attribut** et sélectionnez le champ dans le schéma intitulé **ID du client**
+
+   ![Bouton Ajouter un attribut pour l’activité Déduplication](assets/save-the-audience-add-attribute-button.png)
+
+   ![Champ ID du client sélectionné dans le schéma](assets/save-the-audience-select-customer-id-field.png)
+
+
+
+4. Dans les paramètres Déduplication , assurez-vous que les éléments suivants sont définis :
    - **Doublons à conserver :** `1`
    - **Méthode de déduplication :** `Random selection`
 
-![Paramètres de déduplication avec doublons à conserver et méthode &#x200B;](assets/save-the-audience-deduplication-settings.png)
+   ![Paramètres de déduplication avec doublons à conserver et méthode ](assets/save-the-audience-deduplication-settings.png)
 
->[!NOTE]
->
->Les autres options de déduplication vous permettent de spécifier votre propre logique personnalisée.  La plupart du temps, si vous devez dédupliquer, vous le ferez à l’aide de la clé primaire de la table.
+   >[!NOTE]
+   >
+   >Les autres options de déduplication vous permettent de spécifier votre propre logique personnalisée.  La plupart du temps, si vous devez dédupliquer, vous le ferez à l’aide de la clé primaire de la table.
 
 
 
-&#x200B;5. Lorsque vous avez terminé, la zone de travail ressemble à ceci. Cliquez sur le bouton **Enregistrer** en haut à droite avant de passer à autre chose.
+5. Lorsque vous avez terminé, la zone de travail ressemble à ceci. Cliquez sur le bouton **Enregistrer** en haut à droite avant de passer à autre chose.
 
 ![Activité Déduplication entièrement configurée sur la zone de travail](assets/save-the-audience-deduplication-configured.png)
 
@@ -93,9 +92,9 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 1. Cliquez sur l’icône **+** après l’activité Déduplication et sélectionnez l’activité **Enregistrer l’audience**
 
-![Ajouter l’activité Sauvegarde d’audience après déduplication](assets/save-the-audience-add-save-audience-activity.png)
+   ![Ajouter l’activité Sauvegarde d’audience après déduplication](assets/save-the-audience-add-save-audience-activity.png)
 
-&#x200B;2. Dans le rail de droite, définissez les propriétés de l’activité sur ce qui suit :
+2. Dans le rail de droite, définissez les propriétés de l’activité sur ce qui suit :
    - **Libellé de l’audience** : `Apple Upgrade Eligible Customer Accounts`
    - **Champ de mappage de profil** : `dep-rel: Customer Account - customer id`
 
@@ -126,15 +125,15 @@ Par défaut, la clé primaire de la dimension de ciblage (c’est-à-dire l’ID
 
 1. Renommez le champ Audience cible par défaut **Customer\_ID** comme illustré ci-dessous :
 
-![Le champ Audience cible est renommé Customer_ID](assets/save-the-audience-field-renamed.png)
+   ![Le champ Audience cible est renommé Customer_ID](assets/save-the-audience-field-renamed.png)
 
->[!TIP]
->
->Vous disposez désormais d’un nom de champ lisible par un utilisateur 🎉
+   >[!TIP]
+   >
+   >Vous disposez désormais d’un nom de champ lisible par un utilisateur 🎉
 
 
 
-&#x200B;2. Cliquez sur le bouton **Démarrer** pour exécuter le workflow. Votre workflow ressemble désormais à ceci, et les chiffres affichés sont les suivants :
+2. Cliquez sur le bouton **Démarrer** pour exécuter le workflow. Votre workflow ressemble désormais à ceci, et les chiffres affichés sont les suivants :
    - Créer une audience : `65`
    - Convertir la ligne en compte : `65`
    - Dédupliquer l’ID client : `46`

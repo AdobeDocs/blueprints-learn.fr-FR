@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Composer le SMS
 description: Découvrez comment composer et personnaliser un SMS dans des campagnes orchestrées à l’aide des attributs de marque de téléphone et de modèle du magasin relationnel.
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -31,45 +30,45 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
 ## Création du message
 
-1. Cliquez sur le bouton **&#x200B;**&#x200B;pour créer votre message.
+1. Cliquez sur le bouton **** pour créer votre message.
 
-Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-personalization-button.png)
+   Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-personalization-button.png)
 
->[!NOTE]
->
->L’option « baguette magique » utilise l’IA pour vous aider à écrire un message. Regarde si tu veux, mais on ne le couvrira pas dans ce labo.
-
-
-
-&#x200B;2. Copiez et collez le texte ci-dessous dans le corps du SMS.
-
-```none
-Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
-```
-
->[!NOTE]
->
->Veillez à activer l’option Retour à la ligne Word **activé** dans l’éditeur de messages.  Vous pouvez trouver dans le volet inférieur droit de la fenêtre.
+   >[!NOTE]
+   >
+   >L’option « baguette magique » utilise l’IA pour vous aider à écrire un message. Regarde si tu veux, mais on ne le couvrira pas dans ce labo.
 
 
 
-&#x200B;3. Mettez à jour les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous à l’aide de l’option **Attributs de cible** dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran.
+2. Copiez et collez le texte ci-dessous dans le corps du SMS.
 
-![Message SMS final avec marque et modèle de téléphone personnalisés](assets/compose-the-sms-final-message-text.png)
+   ```none
+   Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
+   ```
 
->[!NOTE]
->
->Pourquoi fais-tu ça ?  Vous souhaitez personnaliser le message avec la marque et le modèle du téléphone des clients et ces informations se trouvent dans la table Ligne client de la boutique relationnelle.  Cela explique comment utiliser les données de campagnes orchestrées pour personnaliser les messages.
-
-
-
-&#x200B;4. Cliquez sur le bouton **Valider** de l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si nécessaire, cliquez sur le bouton **Enregistrer**
-
-![Boutons Valider et Enregistrer dans l’éditeur de messages](assets/compose-the-sms-validate-and-save.png)
+   >[!NOTE]
+   >
+   >Veillez à activer l’option Retour à la ligne Word **activé** dans l’éditeur de messages.  Vous pouvez trouver dans le volet inférieur droit de la fenêtre.
 
 
 
-&#x200B;5. Cliquez sur la **flèche retour (\&lt;-)** lorsque vous avez terminé pour revenir à la zone de travail du workflow
+3. Mettez à jour les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous à l’aide de l’option **Attributs de cible** dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran.
+
+   ![Message SMS final avec marque et modèle de téléphone personnalisés](assets/compose-the-sms-final-message-text.png)
+
+   >[!NOTE]
+   >
+   >Pourquoi fais-tu ça ?  Vous souhaitez personnaliser le message avec la marque et le modèle du téléphone des clients et ces informations se trouvent dans la table Ligne client de la boutique relationnelle.  Cela explique comment utiliser les données de campagnes orchestrées pour personnaliser les messages.
+
+
+
+4. Cliquez sur le bouton **Valider** de l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si nécessaire, cliquez sur le bouton **Enregistrer**
+
+   ![Boutons Valider et Enregistrer dans l’éditeur de messages](assets/compose-the-sms-validate-and-save.png)
+
+
+
+5. Cliquez sur la **flèche retour (\&lt;-)** lorsque vous avez terminé pour revenir à la zone de travail du workflow
 
 ![Flèche vers l’arrière pour revenir à la zone de travail du workflow](assets/compose-the-sms-return-to-canvas.png)
 

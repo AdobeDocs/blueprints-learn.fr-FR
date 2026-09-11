@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Tester l’e-mail
 description: Découvrez comment envoyer et vérifier des e-mails de BAT dans Adobe Journey Optimizer pour valider le contenu personnalisé et les variantes conditionnelles avant l’activation.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,27 +32,27 @@ ht-degree: 0%
 1. Cliquez sur **Simuler du contenu**.
 2. Sélectionnez **Simuler une variation de contenu**.
 
-![Cliquez sur Simuler du contenu et sélectionnez Simuler une variation de contenu](assets/content-simulation-click-simulate-content-variation.png)
+   ![Cliquez sur Simuler du contenu et sélectionnez Simuler une variation de contenu](assets/content-simulation-click-simulate-content-variation.png)
 
-Un panneau de simulation s’ouvre.
+   Un panneau de simulation s’ouvre.
 
-&#x200B;3. Cliquez sur **Envoyer un BAT**.
+3. Cliquez sur **Envoyer un BAT**.
 
-![Bouton Envoyer un BAT dans le panneau de simulation](assets/test-the-email-click-send-proof-button.png)
+   ![Bouton Envoyer un BAT dans le panneau de simulation](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. Ajoutez votre adresse e-mail personnelle.
+4. Ajoutez votre adresse e-mail personnelle.
 
->[!NOTE]
->
->Notez que parfois l’e-mail de votre entreprise bloque les e-mails de la sandbox. Je vous recommande d&#39;utiliser votre adresse e-mail personnelle.
+   >[!NOTE]
+   >
+   >Notez que parfois l’e-mail de votre entreprise bloque les e-mails de la sandbox. Je vous recommande d&#39;utiliser votre adresse e-mail personnelle.
 
 
 
-&#x200B;5. Sélectionnez les deux variantes.
-&#x200B;6. Ajouter un préfixe de ligne d&#39;objet
+5. Sélectionnez les deux variantes.
+6. Ajouter un préfixe de ligne d&#39;objet
    1. Variante 1 : supérieure à 40
    2. Variante 2 : Inférieure À 40
-&#x200B;7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **BAT envoyés avec succès »** s’affiche
+7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **BAT envoyés avec succès »** s’affiche
 
 ![Message de confirmation vert affichant les BAT envoyés avec succès](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

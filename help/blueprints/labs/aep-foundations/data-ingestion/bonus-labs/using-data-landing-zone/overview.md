@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Utilisation de Data Landing Zone
 description: Installez et configurez Azure Storage Explorer avec une URL SAS pour vous connecter à la zone d’atterrissage de données de Adobe Experience Platform.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -31,48 +30,48 @@ Si vous n’avez pas téléchargé l’explorateur de stockage Azure, faites-le 
 
 1. Ouvrez l’Explorateur de stockage Azure et cliquez sur l’icône **Sélectionner la ressource** puis sélectionnez **Conteneur ou répertoire ADLS Gen 2**
 
-![Sélection du conteneur ou répertoire ADLS Gen2 comme ressource dans l’explorateur de stockage Azure](assets/overview-choose-the-resource-as-shown-above.png)
+   ![Sélection du conteneur ou répertoire ADLS Gen2 comme ressource dans l’explorateur de stockage Azure](assets/overview-choose-the-resource-as-shown-above.png)
 
 
 
 1. Sélectionnez **URL de signature d’accès partagé (SAS)** puis cliquez sur **Suivant**
 
-![Choix de l’option URL SAS comme mode de connexion](assets/overview-choose-the-sas-url-option-as-the-mode-of-connection.png "Choisissez l’option URL SAS comme mode de connexion")
+   ![Choix de l’option URL SAS comme mode de connexion](assets/overview-choose-the-sas-url-option-as-the-mode-of-connection.png "Choisissez l’option URL SAS comme mode de connexion")
 
 
 
 1. Saisissez le nom d’affichage **Zone d’atterrissage des données**
 
->[!NOTE]
->
->Vous ne pouvez pas continuer à cette étape tant que vous n’avez pas fourni l’URL SAS.  Vous obtenez cela à partir d’Experience Platform, que vous pouvez voir à l’étape suivante.
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas continuer à cette étape tant que vous n’avez pas fourni l’URL SAS.  Vous obtenez cela à partir d’Experience Platform, que vous pouvez voir à l’étape suivante.
 
-![Nommer la connexion Zone d’atterrissage des données](assets/overview-name-the-connection.png "Nommer la connexion")
+   ![Nommer la connexion Zone d’atterrissage des données](assets/overview-name-the-connection.png "Nommer la connexion")
 
 
 
 1. Accédez à Adobe Experience Platform et effectuez les opérations suivantes pour accéder à la zone d’atterrissage des données :
 
-- Accédez à **Sources -> Catalogue**
-- Sélectionnez **Cloud Storage** sous les sources
-- Recherchez ensuite la carte **Data Landing Zone**
-- Cliquez sur la carte Data Landing Zone, puis sur **Afficher les informations d’identification** dans le rail de droite
+   - Accédez à **Sources -> Catalogue**
+   - Sélectionnez **Cloud Storage** sous les sources
+   - Recherchez ensuite la carte **Data Landing Zone**
+   - Cliquez sur la carte Data Landing Zone, puis sur **Afficher les informations d’identification** dans le rail de droite
 
-![Carte source Data Landing Zone avec l’option Afficher les informations d’identification dans Adobe Experience Platform](assets/overview-data-landing-zone-view-credentials.png "Accéder à la carte Source Data Landing Zone dans Adobe Experience Platform")
+   ![Carte source Data Landing Zone avec l’option Afficher les informations d’identification dans Adobe Experience Platform](assets/overview-data-landing-zone-view-credentials.png "Accéder à la carte Source Data Landing Zone dans Adobe Experience Platform")
 
 
 
 1. Copiez le **SASUri** à partir de la boîte de dialogue modale qui s’affiche.
 
-Revenez à l’Explorateur de stockage Azure et collez la valeur **SASUri** dans le **Conteneur Blob ou URL du répertoire SAS** que vous avez laissé vide à l’étape précédente
+   Revenez à l’Explorateur de stockage Azure et collez la valeur **SASUri** dans le **Conteneur Blob ou URL du répertoire SAS** que vous avez laissé vide à l’étape précédente
 
-![Copie de la valeur SASUri d’Experience Platform dans l’explorateur de stockage Azure](assets/overview-copy-sas-uri-into-azure-storage-explorer.png "Copiez les informations d’identification d’URL SAS de Adobe Experience Platform et copiez-les dans l’explorateur de stockage Azure")
+   ![Copie de la valeur SASUri d’Experience Platform dans l’explorateur de stockage Azure](assets/overview-copy-sas-uri-into-azure-storage-explorer.png "Copiez les informations d’identification d’URL SAS de Adobe Experience Platform et copiez-les dans l’explorateur de stockage Azure")
 
 
 
 1. Cliquez sur **Suivant** pour continuer
 
-![Copie des informations d’identification d’URL SAS dans la section URL SAS des informations de connexion](assets/overview-copy-sas-url-into-connection-info.png "Copiez les informations d’identification d’URL SAS dans la section URL SAS des informations de connexion")
+   ![Copie des informations d’identification d’URL SAS dans la section URL SAS des informations de connexion](assets/overview-copy-sas-url-into-connection-info.png "Copiez les informations d’identification d’URL SAS dans la section URL SAS des informations de connexion")
 
 
 
@@ -86,6 +85,6 @@ Vous devriez maintenant voir un écran qui ressemble à ce qui suit
 
 ![Explorateur de stockage Azure affichant le compte Data Landing Zone correctement connecté](assets/overview-successfully-connected-account.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Félicitations !  Vous avez correctement configuré l’explorateur de stockage Azure

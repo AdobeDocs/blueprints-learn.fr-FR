@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Événement de validation sur le lac de données
 description: Découvrez comment interroger le lac de données pour vérifier qu’un événement web diffusé en continu a été écrit dans le jeu de données correct.
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -21,7 +20,7 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
 
 ## Valider l’événement
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.  Nous savons que le jeu de données est activé pour le profil et que l’événement créera donc un fragment de profil.
 >
@@ -29,18 +28,18 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
 
 1. Accédez à **Requêtes** et **Créer une requête**
 
-![Écran Créer une requête dans la section Requêtes](assets/validate-event-on-data-lake-create-query.png)
+   ![Écran Créer une requête dans la section Requêtes](assets/validate-event-on-data-lake-create-query.png)
 
-&#x200B;2. Copiez ce code SQL et collez-le dans votre requête.
+2. Copiez ce code SQL et collez-le dans votre requête.
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
-&#x200B;3. **Exécuter** Requête
+3. **Exécuter** Requête
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**À retenir** : les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.
 >

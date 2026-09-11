@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Diffusion d’un profil en continu
 description: Utilisez Postman ainsi que le point d’entrée de flux de données et l’identifiant de flux de données pour envoyer un enregistrement de profil client dans Adobe Experience Platform via l’API HTTP.
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -79,18 +78,18 @@ Effectuez les étapes suivantes :
 
 1. Copiez la valeur **Point d’entrée de diffusion en continu** et enregistrez-la sur votre ordinateur local (en supposant que vous n’ayez pas quitté l’étape de la section précédente). Si vous avez quitté cette page, vous pouvez le trouver sous Sources->Comptes.
 
->[!NOTE]
->
->Si vous avez quitté cette page, vous pouvez accéder à cette page en procédant comme suit :
->
->- Cliquez sur **Sources** dans le rail de gauche
->- Vérifiez que vous êtes sur l’onglet **Comptes** et cliquez sur le compte que vous avez créé intitulé **Ingestion par flux - \&lt;Vos initiales>**
+   >[!NOTE]
+   >
+   >Si vous avez quitté cette page, vous pouvez accéder à cette page en procédant comme suit :
+   >
+   >- Cliquez sur **Sources** dans le rail de gauche
+   >- Vérifiez que vous êtes sur l’onglet **Comptes** et cliquez sur le compte que vous avez créé intitulé **Ingestion par flux - \&lt;Vos initiales>**
 
->[!NOTE]
->
->Si vous ne voyez pas cette valeur, assurez-vous de ne pas avoir sélectionné la ligne de flux de données en cliquant dessus.  NE CLIQUEZ PAS SUR LES LIENS BLEUS
+   >[!NOTE]
+   >
+   >Si vous ne voyez pas cette valeur, assurez-vous de ne pas avoir sélectionné la ligne de flux de données en cliquant dessus.  NE CLIQUEZ PAS SUR LES LIENS BLEUS
 
-![URL du point d’entrée de diffusion en continu affichée sur le côté droit des détails du compte](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![URL du point d’entrée de diffusion en continu affichée sur le côté droit des détails du compte](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -106,34 +105,34 @@ Passez à votre application Postman et mettez à jour la demande de création d�
 
 1. Ouvrez Postman, puis accédez à la requête d’API **Data Ingestion Lab -> Créer un compte client** et ouvrez-la
 
-![Ouverture de la requête d’API Créer un compte client dans Postman](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Ouverture de la requête d’API Créer un compte client dans Postman](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. Copiez et collez la valeur **Point d’entrée de diffusion en continu** vous avez enregistrée précédemment dans l’URL de la requête
 
-![Valeur de point d’entrée de diffusion collée dans l’URL de requête de création de compte client](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![Valeur de point d’entrée de diffusion collée dans l’URL de requête de création de compte client](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. Copiez et collez la valeur de l’identifiant du flux de données que vous avez enregistrée précédemment dans la valeur d’en-tête **x-adobe-flow-id**
 
-![Identifiant du flux de données collé dans la valeur de l’en-tête x-adobe-flow-id](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![Identifiant du flux de données collé dans la valeur de l’en-tête x-adobe-flow-id](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. Dans le corps de la requête, mettez à jour les attributs suivants comme suit :
 
-- **firstName** -> Votre prénom
-- **nom** -> Votre nom
-- **email** -> Votre adresse e-mail
-- **date_naissance** -> AAAA-MM-JJ
+   - **firstName** -> Votre prénom
+   - **nom** -> Votre nom
+   - **email** -> Votre adresse e-mail
+   - **date_naissance** -> AAAA-MM-JJ
 
-**5. Enregistrer** demande
+   **5. Enregistrer** demande
 
 1. Cliquez sur le bouton **Envoyer** pour exécuter la requête à diffuser dans votre profil de compte client
 
-![Demande de création de compte client finale prête à être envoyée dans Postman](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![Demande de création de compte client finale prête à être envoyée dans Postman](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

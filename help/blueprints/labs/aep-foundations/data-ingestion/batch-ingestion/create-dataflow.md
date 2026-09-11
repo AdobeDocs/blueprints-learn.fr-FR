@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un flux de données
 description: Configurez un flux de données source par lot avec un nouveau jeu de données, activez l’ingestion de profil et partielle, puis chargez un exemple de fichier CSV de compte client.
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -37,15 +36,15 @@ ht-degree: 0%
 1. Définissez le nom du flux de données sur **Lot de comptes client - \&lt;Vos initiales>**
 1. Activer toutes les alertes **Début/Succès/Échec du flux de données des sources**
 
-![Écran des détails du flux de données avec les nouveaux paramètres de jeu de données, de profil et d’ingestion partielle configurés](assets/create-dataflow-new-dataset-flow-details.png "Détails du flux de données")
+   ![Écran des détails du flux de données avec les nouveaux paramètres de jeu de données, de profil et d’ingestion partielle configurés](assets/create-dataflow-new-dataset-flow-details.png "Détails du flux de données")
 
->[!NOTE]
->
->**Activer l’ingestion partielle** indique le nombre d’erreurs (**INGEST** et **DCVS**) en pourcentage du nombre total d’enregistrements pouvant échouer avant que l’ensemble du flux de données ne soit déclaré en échec.
+   >[!NOTE]
+   >
+   >**Activer l’ingestion partielle** indique le nombre d’erreurs (**INGEST** et **DCVS**) en pourcentage du nombre total d’enregistrements pouvant échouer avant que l’ensemble du flux de données ne soit déclaré en échec.
 
->[!CAUTION]
->
->Assurez-vous d’avoir **activé le jeu de données** pour l’ingestion de profil et partielle avant de continuer.
+   >[!CAUTION]
+   >
+   >Assurez-vous d’avoir **activé le jeu de données** pour l’ingestion de profil et partielle avant de continuer.
 
 1. Si tout semble correct, cliquez sur le bouton **Suivant** dans le coin supérieur droit de l’écran pour passer à l’étape suivante.
 
@@ -56,24 +55,24 @@ ht-degree: 0%
 1. Téléchargez les fichiers d’exemple à partir de la [Fichiers d’exemple](../sample-files.md) à utiliser avec cet atelier.
 1. Faites glisser et déposez le fichier **Lab\_Customer\_Account.csv** et/ou chargez-le dans l’interface utilisateur.  Lorsque vous avez terminé, l’écran doit ressembler à ce qui suit.
 
-![Aperçu du fichier CSV de compte client chargé dans l’écran des données sources](assets/create-dataflow-uploaded-csv-preview.png "Accès aux fichiers de l’explorateur de stockage Azure dans Adobe Experience Platform")
+   ![Aperçu du fichier CSV de compte client chargé dans l’écran des données sources](assets/create-dataflow-uploaded-csv-preview.png "Accès aux fichiers de l’explorateur de stockage Azure dans Adobe Experience Platform")
 
 1. Dans le volet d’aperçu, regardez les attributs suivants et notez les choses suivantes :
 
-- **sms\_optIn** est un champ de consentement dont plusieurs valeurs sont manquantes (affichées dans l’aperçu sous la forme - )
-- **account\_create\_date** n’a pas le format de date approprié. Il contient des valeurs de chaîne ainsi que des valeurs de date et d’heure dans une seule chaîne.
-- **account\_end\_date** a le format de date approprié.
+   - **sms\_optIn** est un champ de consentement dont plusieurs valeurs sont manquantes (affichées dans l’aperçu sous la forme - )
+   - **account\_create\_date** n’a pas le format de date approprié. Il contient des valeurs de chaîne ainsi que des valeurs de date et d’heure dans une seule chaîne.
+   - **account\_end\_date** a le format de date approprié.
 
 
 
-![Aperçu affichant le champ sms_optIn avec plusieurs valeurs de consentement manquantes](assets/create-dataflow-sms-optin-missing-values.png "sms_optin")
+   ![Aperçu affichant le champ sms_optIn avec plusieurs valeurs de consentement manquantes](assets/create-dataflow-sms-optin-missing-values.png "sms_optin")
 
 
 
-![Aperçu des valeurs des champs account_create_date et account_end_date présentant un formatage](assets/create-dataflow-account-create-end-date-preview.png "account_create_date et account_end_date incohérent")
+   ![Aperçu des valeurs des champs account_create_date et account_end_date présentant un formatage](assets/create-dataflow-account-create-end-date-preview.png "account_create_date et account_end_date incohérent")
 
->[!NOTE]
->
->Vous devrez vous occuper des valeurs manquantes, des dates et des champs mal formatés dans les étapes de mappage plus loin dans cet atelier
+   >[!NOTE]
+   >
+   >Vous devrez vous occuper des valeurs manquantes, des dates et des champs mal formatés dans les étapes de mappage plus loin dans cet atelier
 
 1. Cliquez sur le bouton **Suivant** dans le coin supérieur droit de l’écran pour passer à l’étape suivante

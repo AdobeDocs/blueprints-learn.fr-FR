@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer la source
 description: Chargez un exemple de fichier de compte client dans la zone d’entrée des données et configurez un nouveau flux de données source d’espace de stockage dans le cloud.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -45,25 +44,25 @@ Une fois votre écran chargé, il doit ressembler à la capture d’écran ci-de
 
 1. Sélectionnez le fichier **Lab\_Customer\_Account.csv**
 
-![Sélection du fichier Lab_Customer_Account.csv à prévisualiser dans l’explorateur de stockage Azure](assets/setup-source-select-lab-customer-account-csv.png "accès aux fichiers de l’explorateur de stockage Azure dans Adobe Experience Platform")
+   ![Sélection du fichier Lab_Customer_Account.csv à prévisualiser dans l’explorateur de stockage Azure](assets/setup-source-select-lab-customer-account-csv.png "accès aux fichiers de l’explorateur de stockage Azure dans Adobe Experience Platform")
 
 1. Dans le volet d’aperçu, observez les attributs suivants :
 
-- **sms\_optIn** est un champ de consentement qui comporte plusieurs valeurs manquantes (affichées dans l’aperçu sous la forme - )
-- **account\_create\_date** n’a pas le format de date approprié. Il contient des valeurs de chaîne ainsi que des valeurs de date et d’heure dans une seule chaîne.
-- **account\_end\_date** a le format de date approprié.
+   - **sms\_optIn** est un champ de consentement qui comporte plusieurs valeurs manquantes (affichées dans l’aperçu sous la forme - )
+   - **account\_create\_date** n’a pas le format de date approprié. Il contient des valeurs de chaîne ainsi que des valeurs de date et d’heure dans une seule chaîne.
+   - **account\_end\_date** a le format de date approprié.
 
 
 
-Champ ![sms_optIn avec plusieurs valeurs manquantes affichées dans le fichier preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
+   Champ ![sms_optIn avec plusieurs valeurs manquantes affichées dans le fichier preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
 
 
 
-les champs ![account_create_date et account_end_date du fichier preview](assets/setup-source-account-create-date-account-end-date.png "account_create_date et account_end_date")
+   les champs ![account_create_date et account_end_date du fichier preview](assets/setup-source-account-create-date-account-end-date.png "account_create_date et account_end_date")
 
->[!NOTE]
->
->Vous devrez vous occuper des valeurs manquantes, des dates et des champs mal formatés dans les étapes de mappage plus loin dans cet atelier
+   >[!NOTE]
+   >
+   >Vous devrez vous occuper des valeurs manquantes, des dates et des champs mal formatés dans les étapes de mappage plus loin dans cet atelier
 
 1. Cliquez sur **Suivant** dans le coin supérieur droit de l’écran pour passer à l’étape suivante
 

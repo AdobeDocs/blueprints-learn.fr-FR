@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer une destination Personalization personnalisée
 description: Configurez une destination Personalization personnalisée pour envoyer des attributs de profil à Edge Network afin qu’ils soient utilisés en temps réel par un système de personnalisation tiers.
 doc-type: article
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configurer une destination Personalization personnalisée
 
-L’utilisation d’une [Destination Personalization personnalisée](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/custom-personalization) permet de rendre les audiences disponibles sur Edge pour une utilisation par un tiers, généralement à l’aide de l’API du serveur réseau, à des fins de personnalisation.
+L’utilisation d’une [Destination Personalization personnalisée](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) permet de rendre les audiences disponibles sur Edge pour une utilisation par un tiers, généralement à l’aide de l’API du serveur réseau, à des fins de personnalisation.
 
 Cet atelier configure la destination Personalization personnalisée afin que nous puissions envoyer des attributs de profil à Edge.
 
@@ -25,11 +24,11 @@ Cet atelier configure la destination Personalization personnalisée afin que nou
 
 >[!NOTE]
 >
->Pour la personnalisation à l’aide d’Adobe Target, nous utilisons la [Destination Adobe Target.](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Le comportement est identique à celui de Custom Personalization.
+>Pour la personnalisation à l’aide d’Adobe Target, nous utilisons la [Destination Adobe Target.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Le comportement est identique à celui de Custom Personalization.
 
 1. Dans le rail de gauche, cliquez sur **Destinations**
 1. Dans le rail supérieur, cliquez sur **Catalogue**
-1. Sélectionnez ensuite la catégorie de **&#x200B;**
+1. Sélectionnez ensuite la catégorie de ****
 1. Au milieu de l’écran, vous devriez voir la destination intitulée **Custom Personalization with Attributes.** Cliquez sur le bouton **Configurer** sur cette carte.
 
 ![Parcourir le catalogue de destination pour la destination Custom Personalization](assets/setup-custom-personalization-destination-browse-destination-catalog.png "Parcourir le catalogue de destination pour la destination Custom Personalization")
@@ -65,7 +64,7 @@ Renseignez les détails de destination suivants :
 
 ### Sélectionner la politique de gouvernance
 
-Sélectionnez Personalization sur site **puis cliquez sur le bouton** Créer **&#x200B;**
+Sélectionnez Personalization sur site **puis cliquez sur le bouton** Créer ****
 
 ![Sélectionner la politique de gouvernance](assets/setup-custom-personalization-destination-select-governance-policy.png "Sélectionner la politique de gouvernance")
 
@@ -105,7 +104,7 @@ Ajoutez un **nouveau mappage** comme suit :
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nom du plan |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >N’oubliez pas de remplacer **\_tenantName** par votre nom de client
 
@@ -115,13 +114,13 @@ Ajoutez un **nouveau mappage** comme suit :
 
 
 
-Lorsque vous avez terminé, l’écran doit ressembler à l’image ci-dessous.  Vous pouvez ensuite cliquer sur le bouton Suivant **&#x200B;**
+Lorsque vous avez terminé, l’écran doit ressembler à l’image ci-dessous.  Vous pouvez ensuite cliquer sur le bouton Suivant ****
 
 ![Créer un mapping PZN](assets/setup-custom-personalization-destination-create-mapping.png "Créer un mapping PZN")
 
 >[!NOTE]
 >
->Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
+>Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels ](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
 
 
 ### Révision
@@ -132,4 +131,4 @@ Sur le dernier écran, vous pouvez consulter les détails de votre configuration
 
 >[!NOTE]
 >
->C’est à ce moment que [Application automatique](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement) vérifie vos [politiques d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/policies/overview). Il vérifie vos actions marketing avec les règles que vous avez créées et génère d’éventuelles erreurs.
+>C’est à ce moment que [Application automatique](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement) vérifie vos [politiques d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Il vérifie vos actions marketing avec les règles que vous avez créées et génère d’éventuelles erreurs.

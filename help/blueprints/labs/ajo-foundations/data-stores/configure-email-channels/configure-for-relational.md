@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurer pour le relationnel
 description: Découvrez comment configurer un canal e-mail à l’aide de l’attribut e-mail d’un schéma relationnel pour les campagnes orchestrées uniquement.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 10%
@@ -24,9 +23,9 @@ Dans les étapes suivantes, vous allez créer une configuration du canal e-mail 
 1. Accédez à **Configurations de canal** dans le menu **Administration → Canaux → Paramètres généraux**
 2. Cliquez sur le bouton **Créer une configuration**
 
-![Créer une configuration de canal](assets/configure-for-profile-create-configuration-button.png)
+   ![Créer une configuration de canal](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. Dans l’assistant Créer , définissez les valeurs suivantes :
+3. Dans l’assistant Créer , définissez les valeurs suivantes :
    - **Name:** `Relational-Email`
    - **Canal:** `Email`
    - **Action marketing :** `Email Targeting`
@@ -99,29 +98,29 @@ Conserver les paramètres par défaut
 
 1. Dans l’onglet Campagne orchestrée et **cochez** la case Activé .
 
-![Configurer une campagne orchestrée](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Configurer une campagne orchestrée](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;2. Sous la dimension Exécution , configurez les éléments suivants :
+2. Sous la dimension Exécution , configurez les éléments suivants :
    - **Diffuser un message par :** `Target Dimension `
    - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
 
-![Dimension d’exécution](assets/configure-for-relational-execution-dimension-target-settings.png)
+   ![Dimension d’exécution](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-&#x200B;3. Sous Adresse d’exécution , configurez les éléments suivants :
+3. Sous Adresse d’exécution , configurez les éléments suivants :
    - **Source:** `Target Dimension`
    - **Adresse de diffusion :** `click on the Edit button`
 
-Dimension Target![&#128279;](assets/configure-for-relational-execution-address-source-target-dimension.png)
+   Dimension Target](assets/configure-for-relational-execution-address-source-target-dimension.png)![
 
-&#x200B;4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
+4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
 
-![Configurer l’adresse de diffusion](assets/configure-for-relational-customer-account-folder.png)
+   ![Configurer l’adresse de diffusion](assets/configure-for-relational-customer-account-folder.png)
 
-&#x200B;5. Sélectionnez **E-mail** et cliquez sur le bouton **Sélectionner**
+5. Sélectionnez **E-mail** et cliquez sur le bouton **Sélectionner**
 
-![Adresse e-mail comme adresse de diffusion](assets/configure-for-relational-select-email-as-delivery-address.png)
+   ![Adresse e-mail comme adresse de diffusion](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-&#x200B;6. Une fois cette opération terminée, les détails de votre exécution finale ressemblent à la capture d’écran ci-dessous
+6. Une fois cette opération terminée, les détails de votre exécution finale ressemblent à la capture d’écran ci-dessous
 
 ![Dimension d’exécution configurée](assets/configure-for-relational-execution-details-final-result.png)
 

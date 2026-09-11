@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un
 description: Créez une audience de profils sans ligne iPhone 14 active, puis convertissez-la de l’évaluation par lots à l’évaluation par flux à l’aide d’un champ basé sur les profils.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -90,80 +89,80 @@ Le marketing est arrivé aujourd’hui et nous a donné l’exigence d’avoir c
 
 1. Ouvrez l’audience « *possède iPhone 14* » et remplacez le nom par « *possède le lot iPhone 14 »*.
 
->[!WARNING]
->
->Aujourd’hui, nous ne pouvons pas modifier la méthode d’évaluation dans l’interface utilisateur. Toutes les audiences qui font référence à cette audience doivent également être supprimées. Gardez cela en tête lorsque vous décidez de votre stratégie de création d’utiliser des segments dans des segments.
+   >[!WARNING]
+   >
+   >Aujourd’hui, nous ne pouvons pas modifier la méthode d’évaluation dans l’interface utilisateur. Toutes les audiences qui font référence à cette audience doivent également être supprimées. Gardez cela en tête lorsque vous décidez de votre stratégie de création d’utiliser des segments dans des segments.
 
 
 
 2. Créez une audience. Ajoutez l’audience « Possède un lot d’audiences iPhone 14 » à la zone de travail et cliquez sur Convertir en règles.
 
-![Ajoutez l’audience par lots Propriétaires iPhone 14 à la zone de travail et cliquez sur Convertir en règles](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![Ajoutez l’audience par lots Propriétaires iPhone 14 à la zone de travail et cliquez sur Convertir en règles](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Audience convertie en règles sur la zone de travail](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. Mettez à jour Description, Nom et Méthode d’évaluation sur Diffusion en continu dans le coin inférieur droit, puis cliquez sur l’icône de dossier à côté de la Méthode d’évaluation. Vous devriez voir ceci :
-
-![Méthode d’évaluation définie sur Diffusion en continu après avoir cliqué sur l’icône de dossier](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![Audience convertie en règles sur la zone de travail](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-Bien que cela ne soit pas évident, la raison en est que nous utilisons le nom du produit sur un schéma de recherche
+3. Mettez à jour Description, Nom et Méthode d’évaluation sur Diffusion en continu dans le coin inférieur droit, puis cliquez sur l’icône de dossier à côté de la Méthode d’évaluation. Vous devriez voir ceci :
+
+   ![Méthode d’évaluation définie sur Diffusion en continu après avoir cliqué sur l’icône de dossier](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   Bien que cela ne soit pas évident, la raison en est que nous utilisons le nom du produit sur un schéma de recherche
+
+   >[!NOTE]
+   >
+   >Chaque fois que nous utilisons une recherche, notre méthode d’évaluation est forcée à Batch.
+   >
+   >Vous pouvez le voir si vous regardez le chemin qui contient des « propriétés » n’importe où
+   >
+   >![Le chemin contenant « properties » force la méthode d&#39;évaluation à Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. Remplacez la valeur existante pour que le nom du produit provienne désormais du schéma XDM Individual Profile .
+
+   Remplacez le chemin suivant : .
+
+   - XDM Individual Profile > Dep > Produits actifs > Propriétés de l’ID de produit > Nom du produit
+
+   Ajoutez le nouveau chemin :
+
+   - XDM Individual Profile > Dep > Active Products > Model
+
+   ![Remplacez le chemin du nom du produit par le chemin du modèle de produits actifs du profil individuel XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![Mise à jour de la règle d’audience référençant le chemin d’accès du modèle de profil individuel XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. Remplacez la Méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier
+
+   ![Remplacez la méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. Fournissez une description pour la nouvelle audience éligible à la diffusion en continu.
+
+   - Enregistrez l’audience en tant qu’audience « *possède iPhone 14* ».
+   - Cliquez sur le bouton bleu **Activer l’audience** vers la destination
+
+   ![Cliquez sur Activer l’audience vers la destination pour l’audience éligible à la diffusion en continu](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur **Suivant**
+
+8. Cliquez sur **Suivant** puis **Terminer**
 
 >[!NOTE]
 >
->Chaque fois que nous utilisons une recherche, notre méthode d’évaluation est forcée à Batch.
->
->Vous pouvez le voir si vous regardez le chemin qui contient des « propriétés » n’importe où
->
->![Le chemin contenant « properties » force la méthode d&#39;évaluation à Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. Remplacez la valeur existante pour que le nom du produit provienne désormais du schéma XDM Individual Profile .
-
-Remplacez le chemin suivant : .
-
-- XDM Individual Profile > Dep > Produits actifs > Propriétés de l’ID de produit > Nom du produit
-
-Ajoutez le nouveau chemin :
-
-- XDM Individual Profile > Dep > Active Products > Model
-
-![Remplacez le chemin du nom du produit par le chemin du modèle de produits actifs du profil individuel XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![Mise à jour de la règle d’audience référençant le chemin d’accès du modèle de profil individuel XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. Remplacez la Méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier
-
-![Remplacez la méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. Fournissez une description pour la nouvelle audience éligible à la diffusion en continu.
-
-- Enregistrez l’audience en tant qu’audience « *possède iPhone 14* ».
-- Cliquez sur le bouton bleu **Activer l’audience** vers la destination
-
-![Cliquez sur Activer l’audience vers la destination pour l’audience éligible à la diffusion en continu](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur **Suivant**
-
-&#x200B;8. Cliquez sur **Suivant** puis **Terminer**
-
-&#x200B;> [!NOTE]
->
 >Considérations sur les raisons de sélectionner Lot par rapport à Diffusion en continu ou Edge :
 >
->Derniers mécanismes de sécurisation : [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+>Derniers mécanismes de sécurisation : [](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 >[!TIP]
 >

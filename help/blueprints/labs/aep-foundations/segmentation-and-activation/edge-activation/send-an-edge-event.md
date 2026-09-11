@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envoi d’un événement Edge
 description: Envoyez un événement web non authentifié à Edge via Postman et vérifiez qu’il passe par le transfert d’événement, l’ingestion de profil et la qualification d’audience Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -110,11 +109,11 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 1. Cliquez sur **Afficher** pour rechercher le profil
 1. Cliquez sur le **Identifiant du profil** pour ouvrir le profil
 
-![Profil Parcourez les résultats de la recherche avec le lien Afficher pour ouvrir le profil &#x200B;](assets/send-an-edge-event-lookup-profile.png " recherche correspondant")
+   ![Profil Parcourez les résultats de la recherche avec le lien Afficher pour ouvrir le profil ](assets/send-an-edge-event-lookup-profile.png " recherche correspondant")
 
 1. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
 
-![Onglet Événements de profil affichant l’événement d’expérience qui vient d’être envoyé à Edge](assets/send-an-edge-event-view-profile-event.png "Affichez l’événement de profil")
+   ![Onglet Événements de profil affichant l’événement d’expérience qui vient d’être envoyé à Edge](assets/send-an-edge-event-view-profile-event.png "Affichez l’événement de profil")
 
 1. Vérifiez que le profil est qualifié pour les audiences en consultant l’onglet Appartenance à l’audience dans le volet de navigation supérieur. Vous devriez voir les éléments suivants :
 

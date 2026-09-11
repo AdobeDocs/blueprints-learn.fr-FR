@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer d’autres identités
 description: Utilisez l’API Schema Registry pour créer un descripteur d’identité d’adresse e-mail non principale pour le schéma Compte client.
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -17,11 +16,11 @@ ht-degree: 0%
 
 1. Cliquez sur l’appel API `Step 2 - Create Email Address Identity for Customer Account Schema` dans le dossier `XDM Schema Lab -> Create Identity Descriptors` .
 
->[!CAUTION]
->
->Ne pas exécuter la requête... pour l’instant
+   >[!CAUTION]
+   >
+   >Ne pas exécuter la requête... pour l’instant
 
-![Étape 2 - Créer une identité d’adresse e-mail pour la requête Postman de schéma de compte client](assets/create-other-identities-step-2-postman-request.jpeg "Étape 2 - Créer un descripteur d’identité d’adresse e-mail")
+   ![Étape 2 - Créer une identité d’adresse e-mail pour la requête Postman de schéma de compte client](assets/create-other-identities-step-2-postman-request.jpeg "Étape 2 - Créer un descripteur d’identité d’adresse e-mail")
 
 
 
@@ -29,23 +28,23 @@ ht-degree: 0%
 
 1. Mettez à jour la valeur `xdm:isPrimary` dans le corps de la requête vers `false`
 
-EXEMPLE UNIQUEMENT
+   EXEMPLE UNIQUEMENT
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/personalEmail/address",
-  "xdm:namespace": "Email",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": false
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/personalEmail/address",
+     "xdm:namespace": "Email",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": false
+   }
+   ```
 
->[!NOTE]
->
->Pensez à mettre à jour le nom du client ci-dessus (\_devbc) avec le vôtre
+   >[!NOTE]
+   >
+   >Pensez à mettre à jour le nom du client ci-dessus (\_devbc) avec le vôtre
 
 
 

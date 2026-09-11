@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Exercice pratique
 description: Utilisez un classeur imprimable pour mapper trois cas d’utilisation de connexion 5G aux composants d’architecture AJO et au moteur d’orchestration appropriés.
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 - Mappage des cas d’utilisation avec le classeur d’architecture — [Imprimer le classeur ci-dessous]
 - Stylo, crayon ou surligneur
 
-Télécharger le fichier — [Mappage des fonctionnalités à l’architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+Télécharger le fichier — [Mappage des fonctionnalités à l’architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **Pour chacun des trois cas d’utilisation de la connexion 5G, vous devez :**
 

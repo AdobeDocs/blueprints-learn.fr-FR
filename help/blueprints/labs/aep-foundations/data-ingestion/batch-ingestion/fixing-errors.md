@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Correction des erreurs
 description: Corrigez une expression de champ calculé pour une erreur de formatage de date, puis confirmez le succès à l’aide des mesures de surveillance Sources, Identités et Profils .
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -19,17 +18,17 @@ ht-degree: 0%
 
 1. Cliquez sur l’icône de flèche en regard du champ calculé renseignant le champ XDM **person.bornDayAndMonth**
 
-![Éditeur d’expression de champ calculé pour le correctif bornDayAndMonth](assets/fixing-errors-update-the-calculated-expression.png)
+   ![Éditeur d’expression de champ calculé pour le correctif bornDayAndMonth](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. Mettez à jour l’expression à l’aide du code de champ calculé ci-dessous et cliquez sur **Aperçu**
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->Les données doivent apparaître sous la forme d’un mois à 2 chiffres et d’un jour à 2 chiffres (par exemple, le 27 avril affiché sous la forme 04-27). Les paramètres `mm` et `dd` ajoutent une marge intérieure de 0.
+   >[!NOTE]
+   >
+   >Les données doivent apparaître sous la forme d’un mois à 2 chiffres et d’un jour à 2 chiffres (par exemple, le 27 avril affiché sous la forme 04-27). Les paramètres `mm` et `dd` ajoutent une marge intérieure de 0.
 
 1. Si tout semble correct **Enregistrez** le champ calculé
 

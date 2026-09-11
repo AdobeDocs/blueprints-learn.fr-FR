@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ajouter des activités d’e-mail
 description: Découvrez comment ajouter et configurer deux activités E-mail sur des branches Branchement distinctes à l’aide de différentes configurations de canal e-mail dans une campagne orchestrée.
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -31,49 +30,49 @@ Dans les étapes suivantes, vous allez développer la campagne pour ajouter deux
 
 1. Cliquez sur le **+** du flux supérieur et sélectionnez **E-mail** dans les **Activités de canal**
 
-![Ajouter une activité E-mail](assets/add-email-activities-select-email-activity.png)
+   ![Ajouter une activité E-mail](assets/add-email-activities-select-email-activity.png)
 
-Le volet de détails **E-mail** s’ouvre
+   Le volet de détails **E-mail** s’ouvre
 
-![Volet Détails de l’e-mail](assets/add-email-activities-email-details-pane.png)
+   ![Volet Détails de l’e-mail](assets/add-email-activities-email-details-pane.png)
 
-&#x200B;2. Renommez le libellé en **E-mail à l’aide de l’attribut de profil** pour l’activité **E-mail**, puis cliquez sur **Modifier l’e-mail**. Notez que la création du corps de l’e-mail n’est proposée qu’à des fins de test
+2. Renommez le libellé en **E-mail à l’aide de l’attribut de profil** pour l’activité **E-mail**, puis cliquez sur **Modifier l’e-mail**. Notez que la création du corps de l’e-mail n’est proposée qu’à des fins de test
 
-![Renommer le libellé de l’activité E-mail et cliquez sur Modifier l’e-mail](assets/add-email-activities-rename-and-edit-email.png)
+   ![Renommer le libellé de l’activité E-mail et cliquez sur Modifier l’e-mail](assets/add-email-activities-rename-and-edit-email.png)
 
-&#x200B;3. Sélectionnez l’onglet **Actions** et, dans la liste déroulante, sélectionnez **Profile-Email** configuration du canal
+3. Sélectionnez l’onglet **Actions** et, dans la liste déroulante, sélectionnez **Profile-Email** configuration du canal
 
-![Sélectionnez la configuration du canal Profil-E-mail dans l’onglet Actions](assets/add-email-activities-select-profile-email-channel.png)
+   ![Sélectionnez la configuration du canal Profil-E-mail dans l’onglet Actions](assets/add-email-activities-select-profile-email-channel.png)
 
-&#x200B;4. Cliquez ensuite sur **Modifier le contenu** pour ajouter du contenu de test
+4. Cliquez ensuite sur **Modifier le contenu** pour ajouter du contenu de test
 
-![Cliquez sur Modifier le contenu pour ajouter du contenu de test](assets/add-email-activities-edit-content.png)
+   ![Cliquez sur Modifier le contenu pour ajouter du contenu de test](assets/add-email-activities-edit-content.png)
 
-&#x200B;5. Fournissez une **Objet** (« Offre de mise à niveau pour les membres du plan de base ») et cliquez sur le bouton **Modifier le corps de l’e-mail**
+5. Fournissez une **Objet** (« Offre de mise à niveau pour les membres du plan de base ») et cliquez sur le bouton **Modifier le corps de l’e-mail**
 
-![Ajouter un objet et modifier le corps de l’e-mail](assets/add-email-activities-subject-line-edit-body.png)
+   ![Ajouter un objet et modifier le corps de l’e-mail](assets/add-email-activities-subject-line-edit-body.png)
 
-&#x200B;6. Il existe de nombreuses options pour ce test. Pour ce faire, choisissez **Coder le vôtre** l’option HTML .
+6. Il existe de nombreuses options pour ce test. Pour ce faire, choisissez **Coder le vôtre** l’option HTML .
 
-![Choisissez l’option Coder votre propre contenu HTML &#x200B;](assets/add-email-activities-code-your-own-html.png)
+   ![Choisissez l’option Coder votre propre contenu HTML ](assets/add-email-activities-code-your-own-html.png)
 
-&#x200B;7. Dans le Designer d’e-mail **, insérez une ligne de test « Offre de mise à niveau disponible ! »** juste avant les balises `</body></html>` comme illustré et cliquez sur **Enregistrer**
+7. Dans le Designer d’e-mail **, insérez une ligne de test « Offre de mise à niveau disponible ! »** juste avant les balises `</body></html>` comme illustré et cliquez sur **Enregistrer**
 
-![Insérez une ligne de test dans Email Designer et cliquez sur Enregistrer](assets/add-email-activities-email-designer-save.png)
+   ![Insérez une ligne de test dans Email Designer et cliquez sur Enregistrer](assets/add-email-activities-email-designer-save.png)
 
-&#x200B;8. Attendez que le message de confirmation s’affiche dans le coin inférieur droit
+8. Attendez que le message de confirmation s’affiche dans le coin inférieur droit
 
-![Un message de confirmation apparaît](assets/add-email-activities-confirmation-message.png)
+   ![Un message de confirmation apparaît](assets/add-email-activities-confirmation-message.png)
 
-&#x200B;9. Cliquez sur la **flèche de gauche** en regard de la **Designer d’e-mail** pour quitter
+9. Cliquez sur la **flèche de gauche** en regard de la **Designer d’e-mail** pour quitter
 
-![Cliquez sur la flèche gauche pour quitter Email Designer](assets/add-email-activities-exit-email-designer.png)
+   ![Cliquez sur la flèche gauche pour quitter Email Designer](assets/add-email-activities-exit-email-designer.png)
 
-&#x200B;10. Une boîte de dialogue de confirmation s’affiche, cliquez sur le bouton **Enregistrer et fermer**
+10. Une boîte de dialogue de confirmation s’affiche, cliquez sur le bouton **Enregistrer et fermer**
 
 ![Boîte de dialogue de confirmation avec le bouton Enregistrer et fermer](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Examinez les propriétés et les actions de l’e-mail, y compris le texte ajouté au corps de l’e-mail. Cliquez sur la **flèche de gauche** pour revenir à la zone de travail de campagne
+11. Examinez les propriétés et les actions de l’e-mail, y compris le texte ajouté au corps de l’e-mail. Cliquez sur la **flèche de gauche** pour revenir à la zone de travail de campagne
 
 ![Revenez à la zone de travail de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

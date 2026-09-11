@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Installation de Postman
 description: Installez Postman et familiarisez-vous avec ses collections, environnements et interface d’espace de travail avant d’effectuer des appels API dans les ateliers ultérieurs.
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 À l’issue de cet atelier, vous serez en mesure d’installer Postman, de configurer un espace de travail et un environnement de base afin de pouvoir effectuer les appels d’api suivants dont les prochains ateliers auront besoin.
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >Postman est nécessaire pour divers laboratoires de ce cours.  Même si vous avez déjà installé Postman, vous devrez terminer cet atelier pour vous assurer que les fichiers d’environnement et la collection d’API sont installés et correctement configurés.
 

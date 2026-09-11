@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée pour cibler les lignes client actives avec une marque de téléphone spécifique à l’aide de conditions de schéma relationnel.
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -25,11 +24,11 @@ Dans les étapes suivantes, vous allez créer l’audience que vous souhaitez ci
 
 1. Sur la zone de travail, cliquez sur le symbole **+** puis sélectionnez l’activité **Créer une audience** pour l’ajouter au workflow
 
-![Ajoutez l’activité Créer une audience à la zone de travail du workflow](assets/build-an-audience-add-activity.png)
+   ![Ajoutez l’activité Créer une audience à la zone de travail du workflow](assets/build-an-audience-add-activity.png)
 
 
 
-&#x200B;2. Dans le rail de droite, vous voyez les propriétés Créer une audience . Mettez à jour le libellé pour qu’il indique ce qui suit : `Active Lines with Apple`
+2. Dans le rail de droite, vous voyez les propriétés Créer une audience . Mettez à jour le libellé pour qu’il indique ce qui suit : `Active Lines with Apple`
 
 ![Créer un libellé d’audience défini sur Lignes actives avec Apple](assets/build-an-audience-set-label.png)
 
@@ -40,9 +39,9 @@ L’étape suivante consiste à sélectionner la **dimension de ciblage** (c’e
 
 1. Cliquez sur l’**icône de recherche** dans la zone Dimension de ciblage .
 
-![Icône Rechercher dans la zone Dimension de ciblage](assets/build-an-audience-search-targeting-dimension.png)
+   ![Icône Rechercher dans la zone Dimension de ciblage](assets/build-an-audience-search-targeting-dimension.png)
 
-&#x200B;2. Dans la fenêtre contextuelle, recherchez et sélectionnez la table nommée **dep-rel : Customer Line**, puis cliquez sur le bouton **Confirmer**.
+2. Dans la fenêtre contextuelle, recherchez et sélectionnez la table nommée **dep-rel : Customer Line**, puis cliquez sur le bouton **Confirmer**.
 
 ![Sélectionnez la table dep-rel : Customer Line et cliquez sur Confirmer](assets/build-an-audience-select-customer-line-table.png)
 
@@ -62,9 +61,9 @@ Maintenant que vous avez sélectionné votre dimension de ciblage (le schéma re
 
 1. Dans le rail de droite, cliquez sur le bouton **Créer une audience**
 
-![Bouton Créer une audience dans le rail de droite](assets/build-an-audience-click-create-audience.png)
+   ![Bouton Créer une audience dans le rail de droite](assets/build-an-audience-click-create-audience.png)
 
-&#x200B;2. Cliquez ensuite sur le bouton **Ajouter une condition**
+2. Cliquez ensuite sur le bouton **Ajouter une condition**
 
 ![Bouton Ajouter une condition pour la définition de l’audience](assets/build-an-audience-click-add-condition.png)
 
@@ -80,9 +79,9 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
    - **Attribut** : `Active Line`
    - **Valeur** : `true`
 
-![Condition 1 définie sur Ligne active égale à true](assets/build-an-audience-condition-active-line-true.png)
+   ![Condition 1 définie sur Ligne active égale à true](assets/build-an-audience-condition-active-line-true.png)
 
-&#x200B;2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres d’éligibilité de la condition.
+2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres d’éligibilité de la condition.
 
 ![Icône d’actualisation indiquant un nombre éligible de 241 pour la condition 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -96,31 +95,31 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 1. Cliquez sur le bouton **Ajouter une condition** et sélectionnez le schéma **dep-rel:** **Product \[Lookup]** en cliquant sur l’icône **>**
 
-![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > ](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-&#x200B;2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
+2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
 
-![Option de répartition des valeurs pour le champ Marque](assets/build-an-audience-make-distribution-of-values.png)
-
-
-
-&#x200B;3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **&#x200B;**&#x200B;pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
-
-![Valeur Apple sélectionnée avec le bouton Sélectionner un attribut et une valeur](assets/build-an-audience-select-apple-attribute-value.png)
-
->[!NOTE]
->
->Il s’agit d’un excellent exemple d’emplacement où l’architecte de données aurait dû concevoir le schéma avec des énumérations.  Ainsi, un spécialiste marketing n’a pas à sélectionner/saisir manuellement la valeur.  Honte à l’architecte de données !
+   ![Option de répartition des valeurs pour le champ Marque](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-&#x200B;4. Le champ `Make` est automatiquement ajouté avec les conditions présentées ci-dessous.
+3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **** pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
+
+   ![Valeur Apple sélectionnée avec le bouton Sélectionner un attribut et une valeur](assets/build-an-audience-select-apple-attribute-value.png)
+
+   >[!NOTE]
+   >
+   >Il s’agit d’un excellent exemple d’emplacement où l’architecte de données aurait dû concevoir le schéma avec des énumérations.  Ainsi, un spécialiste marketing n’a pas à sélectionner/saisir manuellement la valeur.  Honte à l’architecte de données !
+
+
+
+4. Le champ `Make` est automatiquement ajouté avec les conditions présentées ci-dessous.
    - **Operator:** `Equal to`
    - **Value:** `Apple`
    - **Sensible à la casse :** `Enabled`
 
-&#x200B;5. Cliquez sur l’icône **calculer** et le résultat est 85.
+5. Cliquez sur l’icône **calculer** et le résultat est 85.
 
 ![Condition 2 comptage calculé de 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -134,15 +133,15 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 1. Cliquez sur l’**icône Calculer** qui se trouve dans le rail de droite sous l’en-tête Profils ciblés pour obtenir une estimation exacte de la taille de l’audience. Vous voyez **65** comme le **décompte final**.
 
-![Icône Calculer présentant une taille d’audience finale de 65](assets/build-an-audience-calculate-final-audience-size.png)
+   ![Icône Calculer présentant une taille d’audience finale de 65](assets/build-an-audience-calculate-final-audience-size.png)
 
->[!NOTE]
->
->Notez que chaque condition individuelle a renvoyé un nombre différent (condition #1 —> 241 et condition #2 —> 85), mais la taille finale de l’audience était la moins élevée des deux conditions.  Ceci est dû à l’opérateur AND.
+   >[!NOTE]
+   >
+   >Notez que chaque condition individuelle a renvoyé un nombre différent (condition #1 —> 241 et condition #2 —> 85), mais la taille finale de l’audience était la moins élevée des deux conditions.  Ceci est dû à l’opérateur AND.
 
 
 
-&#x200B;2. Si le décompte final est de **65** cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
+2. Si le décompte final est de **65** cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
 
 
 

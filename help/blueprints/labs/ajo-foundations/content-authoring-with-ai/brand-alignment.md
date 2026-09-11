@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Alignement sur la marque
 description: Découvrez comment évaluer le contenu des e-mails par rapport aux directives de la marque à l’aide du score d’alignement des marques piloté par l’IA d’AJO et appliquer les recommandations de l’IA pour améliorer la conformité.
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 ## Introduction
 
-Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **&#x200B;**&#x200B;qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
+Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **** qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
 
 Cela permet d’assurer les éléments suivants :
 
@@ -46,11 +45,11 @@ Ce module vous apprend à exécuter l’évaluation, interpréter les résultats
 2. Recherchez l’onglet **Alignement des marques** dans le rail de droite ou l’icône **%** dans la barre latérale.
 3. Cliquez pour ouvrir le panneau.
 
-![Onglet Alignement des marques et icône de pourcentage dans la barre latérale](assets/brand-alignment-open-panel-icon.png)
+   ![Onglet Alignement des marques et icône de pourcentage dans la barre latérale](assets/brand-alignment-open-panel-icon.png)
 
-&#x200B;4. Assurez-vous que la marque appropriée est appliquée :
+4. Assurez-vous que la marque appropriée est appliquée :
    - **Connexion 5G** (par défaut).
-&#x200B;5. Cliquez sur **Évaluer le score**.
+5. Cliquez sur **Évaluer le score**.
 
 **Interpréter le score de la marque et les commentaires :** au bout d’un moment, le score de conformité de la marque pour votre contenu s’affiche. Ce score peut être présenté sous la forme d’une note (par exemple, Élevée, Medium ou Faible) ou d’un pourcentage, avec un indicateur de couleur (vert, jaune, rouge) et le moment de l’évaluation. Un score élevé signifie que votre contenu s’aligne fortement sur les directives de la marque, tandis qu’un score moyen ou faible indique un alignement modéré ou faible.
 
@@ -103,23 +102,23 @@ Interprétez les résultats pour comprendre à quel point votre e-mail correspon
 1. Cliquez dans les blocs de texte ou les images marqués de l’e-mail.
 2. Utilisez le paragraphe que vous avez collé dans l’exercice précédent, comme illustré ci-dessous.
 
-![Bloc de texte marqué à partir du paragraphe de description collé](assets/brand-alignment-flagged-text-block.png)
+   ![Bloc de texte marqué à partir du paragraphe de description collé](assets/brand-alignment-flagged-text-block.png)
 
-&#x200B;3. Utilisez les modifications suggérées fournies par l’IA. Cliquez sur l’icône comme illustré ci-dessous.
+3. Utilisez les modifications suggérées fournies par l’IA. Cliquez sur l’icône comme illustré ci-dessous.
 
-![&#x200B; Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
+   ![ Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
 
-&#x200B;4. Cliquez sur le bouton **Corriger avec l’IA** comme illustré ci-dessous.
+4. Cliquez sur le bouton **Corriger avec l’IA** comme illustré ci-dessous.
 
-![Correction avec le bouton AI pour une directive avec indicateur](assets/brand-alignment-fix-with-ai-button.png)
+   ![Correction avec le bouton AI pour une directive avec indicateur](assets/brand-alignment-fix-with-ai-button.png)
 
-&#x200B;5. Les modifications suggérées sont surlignées en vert et le texte supprimé est barré en rouge, comme illustré ci-dessous. Vous remarquerez également que le score a été mis à jour (dans ce cas, il est de 80 %). Cliquez sur le bouton **Appliquer** pour que les modifications soient prises en compte.
+5. Les modifications suggérées sont surlignées en vert et le texte supprimé est barré en rouge, comme illustré ci-dessous. Vous remarquerez également que le score a été mis à jour (dans ce cas, il est de 80 %). Cliquez sur le bouton **Appliquer** pour que les modifications soient prises en compte.
 
-![Modifications suggérées mises en surbrillance en vert avec le texte supprimé barré en rouge](assets/brand-alignment-apply-suggested-changes.png)
+   ![Modifications suggérées mises en surbrillance en vert avec le texte supprimé barré en rouge](assets/brand-alignment-apply-suggested-changes.png)
 
-&#x200B;6. Les modifications sont appliquées avec le nouveau texte.
-&#x200B;7. Passez en revue toutes les zones surlignées et effectuez les mises à jour nécessaires pour corriger le contenu, à l’aide de l’IA ou en le modifiant manuellement. Assurez-vous que toutes les modifications requises sont effectuées avant de continuer.
-&#x200B;8. Enregistrez les modifications.
+6. Les modifications sont appliquées avec le nouveau texte.
+7. Passez en revue toutes les zones surlignées et effectuez les mises à jour nécessaires pour corriger le contenu, à l’aide de l’IA ou en le modifiant manuellement. Assurez-vous que toutes les modifications requises sont effectuées avant de continuer.
+8. Enregistrez les modifications.
 
 ![Enregistrement des modifications après correction du contenu marqué](assets/brand-alignment-save-changes.png)
 
@@ -131,16 +130,16 @@ Interprétez les résultats pour comprendre à quel point votre e-mail correspon
 3. Cliquez sur **Réévaluer le score**.
 4. Comparez le nouveau score au précédent.
 
-![Comparaison du score de la marque réévalué au score précédent](assets/brand-alignment-re-evaluate-score-comparison.png)
+   ![Comparaison du score de la marque réévalué au score précédent](assets/brand-alignment-re-evaluate-score-comparison.png)
 
-Par exemple :
+   Par exemple :
 
-- Score d&#39;origine : **56%**
-- Score mis à jour : **90%**
+   - Score d&#39;origine : **56%**
+   - Score mis à jour : **90%**
 
-Cela indique que vos mises à jour ont correctement aligné l’e-mail sur les normes de la marque.
+   Cela indique que vos mises à jour ont correctement aligné l’e-mail sur les normes de la marque.
 
-&#x200B;5. Cliquez sur **Enregistrer** pour finaliser l’e-mail.
+5. Cliquez sur **Enregistrer** pour finaliser l’e-mail.
 
 ![Bouton Enregistrer pour finaliser l’e-mail](assets/brand-alignment-save-finalize-email.png)
 
