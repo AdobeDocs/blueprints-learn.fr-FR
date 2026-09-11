@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Collection d’API
 description: Téléchargez et importez la collection d’API Postman de bootcamp contenant les requêtes utilisées dans les laboratoires AEP Foundations.
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -28,7 +27,7 @@ Télécharger le fichier — [Bootcamp AEP Foundations (Labs).postman_collection
 1. Lancez Postman sur votre ordinateur local et cliquez sur le bouton `Import` dans votre espace de travail
 1. Collez l’URL du `Postman API Collection File` dans la zone de texte modale d’importation sur le recouvrement.  Cela devrait déclencher une importation automatique
 
-![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation &#x200B;](assets/api-collection-click-import-button.png " la collection d’API")
+![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation ](assets/api-collection-click-import-button.png " la collection d’API")
 
 
 

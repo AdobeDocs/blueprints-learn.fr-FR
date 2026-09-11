@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Magasin relationnel en action
 description: Obtenez une vue d’ensemble de la navigation dans les schémas relationnels, de la configuration d’un Dimension Profile Target, ainsi que de la création et du test d’une campagne orchestrée avec des données d’audience relationnelles et AEP.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%

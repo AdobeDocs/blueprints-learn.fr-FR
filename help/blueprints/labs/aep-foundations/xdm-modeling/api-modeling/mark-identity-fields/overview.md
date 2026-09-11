@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Marquer les champs d’identité
 description: Découvrez comment les descripteurs d’identité marquent les champs de schéma comme identités principales ou non principales à l’aide de l’API XDM Schema Registry.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -31,7 +30,7 @@ Pour marquer un champ en tant qu’identité, vous devez créer un descripteur d
 }
 ```
 
-- **&#x200B;**&#x200B;-> toujours défini sur `xdm:descriptorIdentity`
+- **** -> toujours défini sur `xdm:descriptorIdentity`
 - **xdm\:sourceSchema** -> `$id` du schéma où se trouve le champ
 - **xdm\:sourceVersion** -> toujours 1
 - **xdm\:sourceProperty** -> chemin d’accès du champ dans le schéma

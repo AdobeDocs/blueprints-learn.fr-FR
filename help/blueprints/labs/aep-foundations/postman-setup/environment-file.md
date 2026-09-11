@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Fichier d’environnement
 description: Importez le fichier d’environnement Postman et renseignez son projet de développement et ses variables sandbox nécessaires aux appels API du bootcamp.
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -51,7 +50,7 @@ Avant d’effectuer des appels API, vous devez mettre à jour certaines des vari
 
 >[!NOTE]
 >
->Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [&#128279;](../sandbox-setup/developer-console-setup.md#collect-your-values)
+>Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [](../sandbox-setup/developer-console-setup.md#collect-your-values)
 
 
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Connexion et navigation
 description: Découvrez comment vous connecter à Adobe Experience Platform à l’aide de vos informations d’identification sandbox et lancer la plateforme à partir du panneau d’accès rapide.
 doc-type: article
 solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 ## Connexion via l’interface utilisateur
 
-1. Accédez à [&#128279;](https://experience.adobe.com/) dans votre navigateur.
+1. Accédez à [](https://experience.adobe.com/) dans votre navigateur.
 1. Connectez-vous à l’aide d’Adobe ID qui dispose d’un accès développeur à votre sandbox, le même que celui utilisé pour terminer la configuration de [Developer Console](../../sandbox-setup/developer-console-setup.md).
 1. Sur l’écran **Sélectionner un compte** choisissez le **Compte d’entreprise ou d’école**.
 

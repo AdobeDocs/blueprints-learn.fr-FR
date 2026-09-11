@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Diffusion de messages en action
 description: Obtenez une vue d’ensemble de la création d’une campagne orchestrée qui cible les membres du plan de base et compare le comportement de diffusion entre le profil AEP et les canaux e-mail de schéma relationnel.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Navigation abandonnée
 description: Découvrez comment créer un workflow de prise de décision de navigation abandonnée de bout en bout qui fournit des offres téléphoniques personnalisées et basées sur l’éligibilité sur l’ensemble des canaux.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

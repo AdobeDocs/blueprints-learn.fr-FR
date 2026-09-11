@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Créer un flux de données
 description: Créez un flux de données source par lot par rapport à un jeu de données existant et importez les mappages d’un flux de données précédent pour accélérer la configuration.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -37,7 +36,7 @@ ht-degree: 0%
 1. Activer toutes les alertes **Début/Succès/Échec du flux de données des sources**
 1. Si tout semble correct, cliquez sur le bouton **Suivant** dans le coin supérieur droit de l’écran pour passer à l’étape suivante.
 
-![Écran Détails du flux de données configuré avec le jeu de données existant pour les deuxièmes détails du flux &#x200B;](assets/create-a-new-dataflow-existing-dataset-flow-details.png " données")
+![Écran Détails du flux de données configuré avec le jeu de données existant pour les deuxièmes détails du flux ](assets/create-a-new-dataflow-existing-dataset-flow-details.png " données")
 
 
 
@@ -58,7 +57,7 @@ Sur l’écran de mappage, au lieu de configurer à nouveau tous vos mappages, v
 
 
 
-![Bouton Importer le mappage sur l’écran &#x200B;](assets/create-a-new-dataflow-import-mapping-button.png " mappage")
+![Bouton Importer le mappage sur l’écran ](assets/create-a-new-dataflow-import-mapping-button.png " mappage")
 
 
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Introduction
 description: Présente la façon dont la prise de décision AJO diffère de l’ancien moteur Offer Decisioning et décrit les éléments de base abordés dans ce cours.
 doc-type: article
 solution: Experience Platform
 exl-id: 43c915d9-56a2-409d-939a-e69baba01dfa
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%

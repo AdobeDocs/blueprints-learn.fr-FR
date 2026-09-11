@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Cas d’utilisation
 description: Définissez un cas d’utilisation de montée en gamme ciblant les clients utilisant beaucoup de données sans plan téléphonique final, en comparant les approches d’agrégation des audiences pour l’activation.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

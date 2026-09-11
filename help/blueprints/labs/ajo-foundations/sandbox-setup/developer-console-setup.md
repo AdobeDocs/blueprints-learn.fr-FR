@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuration de Developer Console
 description: Créez un projet Adobe Developer Console avec des informations d’identification de serveur à serveur OAuth pour les API Experience Platform et Journey Optimizer utilisées par l’interface de ligne de commande DEP.
 doc-type: article
 solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -23,7 +22,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 
 >[!NOTE]
 >
->Si vous disposez déjà d’un projet Developer Console avec des informations d’identification pour Adobe Experience Platform (et, si nécessaire, Adobe Journey Optimizer), ignorez cette section et accédez directement à [&#x200B; Instructions de déploiement &#x200B;](deployment-instructions.md).
+>Si vous disposez déjà d’un projet Developer Console avec des informations d’identification pour Adobe Experience Platform (et, si nécessaire, Adobe Journey Optimizer), ignorez cette section et accédez directement à [ Instructions de déploiement ](deployment-instructions.md).
 
 ## Conditions préalables
 
@@ -33,7 +32,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 
 ## Créer le projet
 
-1. Accéder à [&#128279;](https://developer.adobe.com/console) et se connecter
+1. Accéder à [](https://developer.adobe.com/console) et se connecter
 1. Si vous avez accès à plusieurs organisations, utilisez le sélecteur d’organisations en haut à droite pour sélectionner la bonne
 1. Sélectionnez **Créer un projet**
 1. Renommez le projet en quelque chose que vous reconnaîtrez ultérieurement (par exemple, `DEP Sandbox`).
@@ -41,7 +40,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 ## Ajout de l’API Experience Platform
 
 1. Dans la présentation du projet, sélectionnez **Ajouter une API**
-1. Sélectionnez l’icône du produit **&#x200B;**&#x200B;puis sélectionnez l’API **Adobe Experience Platform**
+1. Sélectionnez l’icône du produit **** puis sélectionnez l’API **Adobe Experience Platform**
 1. Sélectionnez **Suivant**
 1. Choisissez **OAuth serveur à serveur** comme type d’authentification et sélectionnez **Suivant**
 1. Attribuez un nom aux informations d’identification et sélectionnez **Suivant**
@@ -50,7 +49,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 ## Ajout de l’API Adobe Journey Optimizer
 
 1. Dans la présentation du projet, sélectionnez **Ajouter une API**
-1. Sélectionnez l’icône de produit **&#x200B;**&#x200B;et sélectionnez l’API appropriée
+1. Sélectionnez l’icône de produit **** et sélectionnez l’API appropriée
 1. Sélectionnez **OAuth serveur à serveur**
 1. Sélectionnez le même profil de produit et sélectionnez **Enregistrer l’API configurée**
 

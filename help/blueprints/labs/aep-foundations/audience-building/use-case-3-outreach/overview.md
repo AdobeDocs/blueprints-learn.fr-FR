@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Cas d’utilisation
 description: Définissez un cas d’utilisation de proximité ciblant les clients qui annulent des commandes dans la semaine suivant l’achat à l’aide des fonctionnalités d’audience séquentielle et dynamique.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: aeef5e97-e66d-4332-bfde-38736343ea9d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Principes de base des profils
 description: Explorez le schéma d’union des profils, recherchez un profil dans l’interface utilisateur et examinez ses attributs, son mappage d’identités et ses relations sous forme de graphique d’identités.
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%
@@ -240,7 +239,7 @@ Revenez à l’onglet **Détail** dans le volet de navigation supérieur et cliq
 
 Vous devriez maintenant voir cet écran.
 
-![Visualiseur de graphique d’identités, détails et panneaux d’identités sélectionnés pour la vue de profil du mode &#x200B;](assets/profile-basics-identity-graph-view-of-depeche-mode.png "’identification du profil du mode de détection")
+![Visualiseur de graphique d’identités, détails et panneaux d’identités sélectionnés pour la vue de profil du mode ](assets/profile-basics-identity-graph-view-of-depeche-mode.png "’identification du profil du mode de détection")
 
 La vue ci-dessus est le graphique d’identités du profil du mode Profond et est divisée en trois (3) zones clés :
 
