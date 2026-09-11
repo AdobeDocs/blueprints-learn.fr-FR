@@ -167,4 +167,4 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 Vous avez maintenant vu comment configurer un canal SMS.  Notez qu’il s’agit d’un SMS basé sur une API. Selon votre fournisseur, il peut donc utiliser d’autres méthodes d’authentification.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si cela vous intéresse.

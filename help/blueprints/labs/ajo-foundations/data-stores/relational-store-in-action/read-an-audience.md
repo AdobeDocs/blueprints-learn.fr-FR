@@ -184,4 +184,4 @@ Un nouveau segment nommé **Result** est créé
 
 Vous avez maintenant vu à quel point il est facile de créer une campagne, d’effectuer une activité Lecture d’audience avec le Dimension Cible du profil pour exploiter le schéma relationnel. Vous avez utilisé l’activité Partage pour partager l’audience en fonction d’une condition. Enfin, le mode test a permis de comprendre qu’il est important d’avoir la cohérence des données entre le profil et le schéma relationnel.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.

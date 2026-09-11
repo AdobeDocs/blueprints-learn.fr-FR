@@ -119,7 +119,7 @@ Les résultats comportent plus de 100 colonnes et vous donnent une idée des enr
 
 >[!NOTE]
 >
->Pour en savoir plus sur la signification de chaque champ, consultez le dictionnaire de schémas d’AJO et remplacez la liste déroulante par le schéma Événements d’étape en Parcours : [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>Pour en savoir plus sur la signification de chaque champ, consultez le dictionnaire de schémas d’AJO et remplacez la liste déroulante par le schéma Événements d’étape en Parcours : [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
 
 
 

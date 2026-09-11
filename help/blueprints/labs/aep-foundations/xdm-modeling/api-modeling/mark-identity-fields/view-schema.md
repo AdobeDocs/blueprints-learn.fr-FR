@@ -60,7 +60,7 @@ Notez l’en-tête **Accept** utilisé dans la requête. Cet en-tête indique au
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=fr#lookup)
 
 
 

@@ -80,4 +80,4 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 Vous avez maintenant vu à quel point il est facile d’utiliser l’activité Créer une audience dans la campagne en choisissant la dimension de ciblage appropriée dans le schéma relationnel. Vous avez ensuite ajouté une condition pour affiner les critères de création de l’audience et utilisé l’option actualiser pour vérifier le nombre de lignes attendu.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si cela vous intéresse.

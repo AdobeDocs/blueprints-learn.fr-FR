@@ -21,7 +21,7 @@ Supposons un instant qu’après avoir créé le schéma, vous deviez revenir et
 Vous pouvez en savoir plus sur JSON PATCH en cliquant sur les liens ci-dessous, mais pour les besoins de ce Lab, supposons que vous ayez un certain concept de son fonctionnement 😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Principes fondamentaux des API d’Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Principes fondamentaux des API d’Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=fr#json-patch)
 
 ![Diagramme d&#39;application d&#39;un correctif à un champ planDescription manquant dans un schéma existant](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Application d&#39;un correctif à une description de plan de champ manquante")
 

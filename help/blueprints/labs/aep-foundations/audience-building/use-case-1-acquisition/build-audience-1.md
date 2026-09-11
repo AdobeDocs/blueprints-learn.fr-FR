@@ -246,7 +246,7 @@ Ne modifiez pas le mappage, cliquez sur Suivant puis sur Terminer
 >
 >Les conteneurs sont un moyen de référencer une variable d’événement ou un élément de tableau. Vous pouvez en savoir plus sur les ramifications de cette opération dans ce blog, mais pour plus de simplicité, cela vous permet de spécifier si un seul élément du tableau répond aux deux conditions ou si la condition peut être répartie sur deux éléments.
 >
->[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=fr)
 
 >[!WARNING]
 >

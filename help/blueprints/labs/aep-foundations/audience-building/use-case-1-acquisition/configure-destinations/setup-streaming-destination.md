@@ -91,7 +91,7 @@ Lorsque vous avez terminé, assurez-vous que votre configuration correspond à c
 >
 >Vous pouvez en savoir plus sur les politiques de gouvernance dans Experience League
 >
->[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr#core-actions)
 
 ## Sélectionner des audiences
 
