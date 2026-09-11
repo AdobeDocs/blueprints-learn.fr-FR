@@ -32,4 +32,4 @@ La zone de travail avec l’**Créer une audience** configurée s’affiche. Cli
 
 Vous avez maintenant vu à quel point il est facile d’utiliser l’activité Branchement dans la zone de travail de campagne pour créer des branches identiques des mêmes données qui y circulent. Les branches de l’activité Branchement seront utilisées à l’étape suivante.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si cela vous intéresse.
