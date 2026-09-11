@@ -22,10 +22,10 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 ## Tester le parcours
 
 1. Cliquez sur **Parcours** sur le rail de gauche et sur l’onglet **Parcourir** si vous ne voyez pas de liste de Parcours
-2. Cliquez sur votre Parcours **** pour l&#39;ouvrir
+2. Cliquez sur votre Parcours **&#x200B;**&#x200B;pour l&#39;ouvrir
 3. Cliquez sur **Alertes** et vérifiez qu’aucune erreur ne s’est produite (les avertissements sont activés).
 
-![Panneau Alertes ne présentant aucune erreur après l’ouverture du parcours ](assets/test-journey-alerts-no-errors.png)
+![Panneau Alertes ne présentant aucune erreur après l’ouverture du parcours &#x200B;](assets/test-journey-alerts-no-errors.png)
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 >
 >Indique que le lien d’opt-out est manquant dans une variante d’e-mail
 
-4. Cliquez sur le bouton **Simuler** puis, sur le côté gauche, sélectionnez **Mode Test**
+&#x200B;4. Cliquez sur le bouton **Simuler** puis, sur le côté gauche, sélectionnez **Mode Test**
 
 ![Mode Test sélectionné sous Simuler sur le côté gauche](assets/test-journey-select-test-mode.png)
 
@@ -45,15 +45,15 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-5. Cliquez sur **Déclencher un événement** et renseignez les propriétés suivantes :
+&#x200B;5. Cliquez sur **Déclencher un événement** et renseignez les propriétés suivantes :
    - **Type d’événement** : `orders.shipped`
    - **E-mail personnel** : `henry.creel@emailsim.io`
    - **ID de commande** : `123`
-6. Cliquez sur **Envoyer** (notez qu’il faut quelques secondes pour répondre après avoir cliqué sur Envoyer).
+&#x200B;6. Cliquez sur **Envoyer** (notez qu’il faut quelques secondes pour répondre après avoir cliqué sur Envoyer).
 
 ![Déclencher un formulaire d’événement rempli et Envoyer sur lequel l’utilisateur a cliqué](assets/test-journey-trigger-event-send.png)
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Certains étudiants ont des erreurs et doivent les envoyer plusieurs fois. Il se peut que vous deviez le faire **plusieurs** fois.
 >
@@ -65,11 +65,11 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-7. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
+&#x200B;7. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
 
 ![Afficher l’option Journal sous Résultats après le déclenchement de l’événement de test](assets/test-journey-show-log-results.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Certains élèves qui ont reçu des erreurs reçoivent parfois différents journaux affichant un tableau d’instances `{"instances": []}`. Ceci n&#39;est pas un bloqueur, allez-y et passez à l&#39;étape suivante.
 
@@ -106,18 +106,18 @@ Vous devriez voir un élément similaire à ceci dans le journal :
 
 
 
-8. **Fermer** l’onglet **du navigateur**
-9. **Fermer le mode Test** en haut à droite
+&#x200B;8. **Fermer** l’onglet **du navigateur**
+&#x200B;9. **Fermer le mode Test** en haut à droite
 
 ![Bouton Fermer le mode Test en haut à droite](assets/test-journey-close-test-mode.png)
 
-10. Cliquez sur **Publier** le Parcours en haut à droite
+&#x200B;10. Cliquez sur **Publier** le Parcours en haut à droite
 
 ![Bouton Publier pour le Parcours en haut à droite](assets/test-journey-publish-journey.png)
 
-11. **Fermez** Parcours **** en cliquant sur la flèche \&lt;- en haut à gauche
+&#x200B;11. **Fermez** Parcours **&#x200B;**&#x200B;en cliquant sur la flèche \&lt;- en haut à gauche
 
-![Flèche vers l’arrière en haut à gauche pour fermer le Parcours ](assets/test-journey-close-journey-back-arrow.png)
+![Flèche vers l’arrière en haut à gauche pour fermer le Parcours &#x200B;](assets/test-journey-close-journey-back-arrow.png)
 
 Ensuite, nous enverrons un événement réel de commande expédiée dans AEP
 

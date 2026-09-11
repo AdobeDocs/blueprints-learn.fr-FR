@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Mappages passthrough
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Assurez-vous que votre mappage final correspond à ce qui est indiqué ci-dessous avant de continuer.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(date\_part(« mm », date(naissance\_Date, « aaaa-M-j »)).toString(), « - », date\_part(« jj », date(naissance\_Date, « aaaa-M-j »)).toString()) | person.bornDayAndMonth |
 | date\_part(« aaaa »,date(naissance\_Date,« aaaa-M-j »)) | person.bornYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Assurez-vous que votre mappage final correspond à ce qui est indiqué ci-dessous avant de continuer
 

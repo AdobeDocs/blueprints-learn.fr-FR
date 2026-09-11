@@ -24,10 +24,10 @@ Vérifiez que le parcours a été déclenché et exécuté comme prévu.  Vérif
 1. Accédez à votre Parcours de commande expédié, ouvrez-le si vous l&#39;avez fermé
 2. Au moins 2 profils ont été saisis
 
-![Nombre saisi par le profil affiché pour le parcours ](assets/validate-journey-profile-entered-count.png)
+![Nombre saisi par le profil affiché pour le parcours &#x200B;](assets/validate-journey-profile-entered-count.png)
 
-3. Cliquez sur **Afficher le rapport** -> **Dernières 24 heures** en haut à droite.
-4. Par défaut, vous vous trouvez dans l’onglet **Parcours** (sur le rail de gauche)
+&#x200B;3. Cliquez sur **Afficher le rapport** -> **Dernières 24 heures** en haut à droite.
+&#x200B;4. Par défaut, vous vous trouvez dans l’onglet **Parcours** (sur le rail de gauche)
    - Des entrées et des sorties s’affichent (le nombre dépend du nombre d’événements que vous avez envoyés, des tests effectués, des erreurs éventuelles, etc.)
 
 ![Rapports de l&#39;onglet Parcours affichant les entrées et les sorties](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,7 +56,7 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
 3 événements externes
 
-5. Cliquez sur l’onglet **E-mail** (dans le rail de gauche).
+&#x200B;5. Cliquez sur l’onglet **E-mail** (dans le rail de gauche).
    - **E-mail - Performances d’envoi**
      - Certaines valeurs s’affichent pour **Diffusés** et **Envoyés** (le nombre dépendra du nombre d’événements que vous avez envoyés, des erreurs éventuelles, etc.)
      - J&#39;espère que vous n&#39;avez pas d&#39;erreurs (à moins que vous ayez rencontré des problèmes plus tôt)
@@ -65,10 +65,10 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
 ![Onglet E-mail présentant les performances d’envoi et les statistiques](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Allez vérifier votre **boîte de réception e-mail** et voyez si vous avez reçu l’e-mail (il ressemble à ce qui suit ci-dessous)
+&#x200B;6. Allez vérifier votre **boîte de réception e-mail** et voyez si vous avez reçu l’e-mail (il ressemble à ce qui suit ci-dessous)
    - *,* votre commande a été expédiée ETA : ** Numéro de suivi : *051009364*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Vérifiez votre dossier Spam pour les campagnes AJO [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -82,7 +82,7 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
 
 
-7. *Après 30 à 60 minutes* vous pouvez même vérifier votre jeu de données dans le lac de données avec les éléments suivants : **Requêtes** -> **Créer une requête** -> **Copier/Coller SQL** -> **Exécuter**
+&#x200B;7. *Après 30 à 60 minutes* vous pouvez même vérifier votre jeu de données dans le lac de données avec les éléments suivants : **Requêtes** -> **Créer une requête** -> **Copier/Coller SQL** -> **Exécuter**
 
 >[!NOTE]
 >

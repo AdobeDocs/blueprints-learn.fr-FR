@@ -35,7 +35,7 @@ Dans le rail de gauche, sous le menu Administration, cliquez sur **Configuration
 
 ![Bouton Créer une action en haut à droite](assets/configure-custom-action-click-create-action-button.png)
 
-2. Dans le panneau de configuration qui s’affiche, mettez à jour les valeurs de base suivantes, comme illustré ci-dessous :
+&#x200B;2. Dans le panneau de configuration qui s’affiche, mettez à jour les valeurs de base suivantes, comme illustré ci-dessous :
    - **Nom** : `GetShippingDetails`
    - **Description** : `Call third party to get Shipping ETA and Tracking Number`
    - **Type d’action** : `Custom`
@@ -80,7 +80,7 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 
 
-2. **Copiez et collez** la payload ci-dessous dans la zone Payload .
+&#x200B;2. **Copiez et collez** la payload ci-dessous dans la zone Payload .
 
 ```json
 {
@@ -94,9 +94,9 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 >Il s’agit de la même structure JSON que le point d’entrée Mockaroo ci-dessus doit renvoyer :
 
 
-3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
+&#x200B;3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
 
-![ Payload de réponse affichée avec le bouton Enregistrer ](assets/configure-custom-action-save-response-payload.png)
+![&#x200B; Payload de réponse affichée avec le bouton Enregistrer &#x200B;](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
@@ -112,13 +112,13 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 
 
-2. Cliquez sur l’onglet **Paramètres de requête** et mettez à jour la valeur de `orderId` sur **123**
+&#x200B;2. Cliquez sur l’onglet **Paramètres de requête** et mettez à jour la valeur de `orderId` sur **123**
 
 ![Onglet Paramètres de requête avec la valeur orderId définie sur 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. Cliquez sur le bouton **Envoyer** et si tout fonctionne bien, vous devriez voir un code de réponse de 200 et un aperçu de la payload comme illustré ci-dessous...
+&#x200B;3. Cliquez sur le bouton **Envoyer** et si tout fonctionne bien, vous devriez voir un code de réponse de 200 et un aperçu de la payload comme illustré ci-dessous...
 
 ![Code de réponse 200 et aperçu de la payload après l’envoi de la requête de test](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ Prévisualiser
 
 
 
-4. Cliquez sur le bouton **Annuler** pour revenir à l’écran Action, puis faites défiler l’écran vers le haut dans le rail supérieur droit et cliquez sur le bouton **Enregistrer**
+&#x200B;4. Cliquez sur le bouton **Annuler** pour revenir à l’écran Action, puis faites défiler l’écran vers le haut dans le rail supérieur droit et cliquez sur le bouton **Enregistrer**
 
 >[!TIP]
 >

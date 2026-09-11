@@ -23,7 +23,7 @@ Après avoir configuré le parcours, vous avez testé la configuration et envoy�
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

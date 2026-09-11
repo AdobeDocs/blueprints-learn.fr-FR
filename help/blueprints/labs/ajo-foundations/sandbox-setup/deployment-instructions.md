@@ -46,7 +46,7 @@ Le pack de démonstration AJO Architectural Foundations est déployé sur votre 
 
 - **Droits de licence.** Privilèges d’administration pour une organisation IMS avec Real-Time CDP (avec segmentation en flux continu) et Adobe Journey Optimizer (avec campagnes orchestrées)
 - **Droits d’accès.** Un rôle Experience Platform avec toutes les autorisations sur le sandbox cible, y compris les informations d’identification d’API que vous avez créées à partir de la configuration de [Developer Console](developer-console-setup.md).
-- **Informations d’identification Developer Console.** Un projet qui inclut les API Adobe Experience Platform et Adobe Journey Optimizer. Si vous ne disposez pas de ces éléments, commencez par suivre la configuration de [](developer-console-setup.md)
+- **Informations d’identification Developer Console.** Un projet qui inclut les API Adobe Experience Platform et Adobe Journey Optimizer. Si vous ne disposez pas de ces éléments, commencez par suivre la configuration de [&#128279;](developer-console-setup.md)
 - **Sandbox.** Vide, de type `dev` et à l’état « Prêt » pendant au moins 120 minutes avant le démarrage du déploiement
 - **Node.js.** Toute version récente de LTS, sous Windows ou Mac
 
@@ -65,7 +65,7 @@ Le pack de démonstration AJO Architectural Foundations est déployé sur votre 
 L’interface de ligne de commande déploie sur le sandbox vers lequel pointe votre fichier d’environnement. Par conséquent, cette configuration doit être correcte avant toute exécution.
 
 1. Copiez `envFiles/sample-env.json` et donnez-lui un nouveau nom, par exemple `my-env.json`
-2. Ouvrez le fichier et renseignez les champs suivants à l’aide des valeurs de la configuration de [Developer Console ](developer-console-setup.md) :
+2. Ouvrez le fichier et renseignez les champs suivants à l’aide des valeurs de la configuration de [Developer Console &#x200B;](developer-console-setup.md) :
 
 | **Champ** | **Valeur** |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ L’interface de ligne de commande déploie sur le sandbox vers lequel pointe vo
 | `SCOPES` | Doit inclure à la fois les portées de l’API Experience Platform et de l’API Adobe Journey Optimizer <br />*(par exemple, cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organization, additional\_info.expectedProductContext)* |
 | `SANDBOX_NAME` | Le sandbox que vous ciblez doit être vide et de type `dev` |
 
-3. Enregistrer et fermer le fichier
+&#x200B;3. Enregistrer et fermer le fichier
 
 >[!NOTE]
 >
@@ -118,7 +118,6 @@ L’étape 1 prend environ 2 minutes, l’étape 2 environ 6 minutes.
 >[!NOTE]
 >
 >Utilisez l’étape 6 au lieu d’exécuter les étapes 4 et 5 séparément ; elle effectue la même chose en une seule passe avec l’attente de propagation gérée pour vous.
-
 > [!NOTE]
 >
 >Tous les temps d’attente ci-dessus sont vérifiés automatiquement par l’interface de ligne de commande. Si vous exécutez une étape trop tôt, elle se bloque et vous indique combien de temps d’attente.

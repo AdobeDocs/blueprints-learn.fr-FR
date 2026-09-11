@@ -45,20 +45,20 @@ Procédez comme suit :
 
 
 
-2. Cliquez sur **Sélectionner des schémas**
-3. Dans la fenêtre contextuelle, sélectionnez `dep-rel: Customer Account`, puis cliquez sur **Confirmer**
+&#x200B;2. Cliquez sur **Sélectionner des schémas**
+&#x200B;3. Dans la fenêtre contextuelle, sélectionnez `dep-rel: Customer Account`, puis cliquez sur **Confirmer**
 
 ![Fenêtre contextuelle Sélectionner les schémas avec dep-rel : compte client choisi](assets/browse-schemas-select-schema-popup.png)
 
 
 
-4. Sur l’ERD, cliquez sur les points **3** et sélectionnez **Afficher les entités associées**
+&#x200B;4. Sur l’ERD, cliquez sur les points **3** et sélectionnez **Afficher les entités associées**
 
 ![Option Afficher les entités associées dans le menu contextuel ERD](assets/browse-schemas-show-related-entities.png)
 
 
 
-5. Affichez l’ERD avec toutes les tables directement liées à Deep-rel : Customer Account. Vous pouvez éventuellement télécharger l’ERD sous la forme d’un fichier PNG.
+&#x200B;5. Affichez l’ERD avec toutes les tables directement liées à Deep-rel : Customer Account. Vous pouvez éventuellement télécharger l’ERD sous la forme d’un fichier PNG.
 
 ![Diagramme de relation d’entité présentant les tables liées au compte client](assets/browse-schemas-erd-diagram.png)
 

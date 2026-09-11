@@ -104,7 +104,7 @@ Le marketing est arrivé aujourd’hui et nous a donné l’exigence d’avoir c
 
 
 
-3. Mettez à jour Description, Nom et Méthode d’évaluation sur Diffusion en continu dans le coin inférieur droit, puis cliquez sur l’icône de dossier à côté de la Méthode d’évaluation. Vous devriez voir ceci :
+&#x200B;3. Mettez à jour Description, Nom et Méthode d’évaluation sur Diffusion en continu dans le coin inférieur droit, puis cliquez sur l’icône de dossier à côté de la Méthode d’évaluation. Vous devriez voir ceci :
 
 ![Méthode d’évaluation définie sur Diffusion en continu après avoir cliqué sur l’icône de dossier](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
@@ -124,7 +124,7 @@ Bien que cela ne soit pas évident, la raison en est que nous utilisons le nom d
 
 
 
-4. Remplacez la valeur existante pour que le nom du produit provienne désormais du schéma XDM Individual Profile .
+&#x200B;4. Remplacez la valeur existante pour que le nom du produit provienne désormais du schéma XDM Individual Profile .
 
 Remplacez le chemin suivant : .
 
@@ -140,13 +140,13 @@ Ajoutez le nouveau chemin :
 
 
 
-5. Remplacez la Méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier
+&#x200B;5. Remplacez la Méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier
 
 ![Remplacez la méthode d’évaluation par Diffusion en continu et cliquez sur l’icône de dossier](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
-6. Fournissez une description pour la nouvelle audience éligible à la diffusion en continu.
+&#x200B;6. Fournissez une description pour la nouvelle audience éligible à la diffusion en continu.
 
 - Enregistrez l’audience en tant qu’audience « *possède iPhone 14* ».
 - Cliquez sur le bouton bleu **Activer l’audience** vers la destination
@@ -155,15 +155,15 @@ Ajoutez le nouveau chemin :
 
 
 
-7. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur **Suivant**
+&#x200B;7. Sélectionnez la destination **Webhook de streaming DEP** et cliquez sur **Suivant**
 
-8. Cliquez sur **Suivant** puis **Terminer**
+&#x200B;8. Cliquez sur **Suivant** puis **Terminer**
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Considérations sur les raisons de sélectionner Lot par rapport à Diffusion en continu ou Edge :
 >
->Derniers mécanismes de sécurisation : [](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
+>Derniers mécanismes de sécurisation : [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
 
 >[!TIP]
 >

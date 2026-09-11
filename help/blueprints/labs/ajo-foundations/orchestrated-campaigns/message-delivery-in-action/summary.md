@@ -26,7 +26,7 @@ Grâce à cet atelier, vous avez effectué les activités suivantes :
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

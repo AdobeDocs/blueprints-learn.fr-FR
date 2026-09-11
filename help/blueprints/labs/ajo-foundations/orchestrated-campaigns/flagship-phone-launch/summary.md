@@ -36,7 +36,7 @@ Si vous aviez essayé cela dans des Parcours, vous n&#39;auriez pas été en mes
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

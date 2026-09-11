@@ -19,7 +19,7 @@ La vidéo ci-dessous récapitule la manière dont vous avez créé le schéma, l
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Tout d’abord, félicitations ! La création de choses à l’aide d’une API n’est pas facile, mais comprendre son fonctionnement vous aidera à comprendre le système dans son ensemble. Bravo !
 

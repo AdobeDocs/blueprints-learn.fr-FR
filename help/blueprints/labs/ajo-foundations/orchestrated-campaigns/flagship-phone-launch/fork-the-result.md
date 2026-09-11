@@ -32,7 +32,7 @@ Cette étape est simple dans la mesure où tout ce que vous souhaitez faire est 
 
 
 
-2. Mettez à jour les noms de chaque transition du branchement en cliquant sur la transition, puis attribuez-leur les noms comme indiqué ci-dessous :
+&#x200B;2. Mettez à jour les noms de chaque transition du branchement en cliquant sur la transition, puis attribuez-leur les noms comme indiqué ci-dessous :
    - **Haut** —> `Save Audience`
    - **Bas** —> `SMS`
 
@@ -50,7 +50,7 @@ Lorsque vous avez terminé, votre zone de travail doit maintenant ressembler à 
 
 
 
-3. Cliquez sur **Enregistrer** dans la partie supérieure de la zone de travail du workflow.
+&#x200B;3. Cliquez sur **Enregistrer** dans la partie supérieure de la zone de travail du workflow.
 
 ![Bouton Enregistrer dans la barre d’outils de la zone de travail du workflow](assets/fork-the-result-click-save.png)
 

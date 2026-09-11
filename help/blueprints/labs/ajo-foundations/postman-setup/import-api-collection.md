@@ -27,9 +27,9 @@ Au cours de cette étape, vous allez importer la collection d’API qui contient
 
 Télécharger le fichier — [Bootcamp AJO (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-2. Comme auparavant, cliquez sur le bouton **Importer**.
-3. Collez l’URL locale du fichier **AJO Bootcamp (Labs).postman\_collection.json** dans la zone de texte modale de l’importation ou déposez-la dans la boîte de dialogue d’importation.  Cela déclenche une importation automatique.
-4. Une fois le processus d’importation terminé, cliquez sur **Collections** dans la barre de navigation de gauche, développez le dossier **Bootcamp (Labs)** d’AJO, et la collection nouvellement importée s’affiche
+&#x200B;2. Comme auparavant, cliquez sur le bouton **Importer**.
+&#x200B;3. Collez l’URL locale du fichier **AJO Bootcamp (Labs).postman\_collection.json** dans la zone de texte modale de l’importation ou déposez-la dans la boîte de dialogue d’importation.  Cela déclenche une importation automatique.
+&#x200B;4. Une fois le processus d’importation terminé, cliquez sur **Collections** dans la barre de navigation de gauche, développez le dossier **Bootcamp (Labs)** d’AJO, et la collection nouvellement importée s’affiche
 
 ![vérifier l’importation de la collection postman](assets/import-api-collection-verify-collection-imported.png)
 
@@ -55,13 +55,13 @@ Pour vous assurer que l’environnement et la collection fonctionnent correcteme
 
 ![Requête Postman affichant les variables d’environnement surlignées en rouge car aucun environnement n’est sélectionné](assets/import-api-collection-environment-variables-shown-red.png "Vérifiez que les variables d’environnement Postman sont rouges")
 
-3. Cliquez sur le **menu déroulant Environnement** dans le coin supérieur droit et sélectionnez l’environnement **Bootcamp AJO**.
+&#x200B;3. Cliquez sur le **menu déroulant Environnement** dans le coin supérieur droit et sélectionnez l’environnement **Bootcamp AJO**.
 
 ![Sélectionnez l’environnement Postman approprié](assets/import-api-collection-select-postman-environment.png)
 
-4. Lorsque l’environnement approprié est sélectionné, la variable EDGE\_REGION prend désormais une couleur bleu clair. Cela indique que la variable possède désormais une valeur pour l’environnement sélectionné. La variable DATASTREAM\_CONFIG reste rouge, car vous n’avez pas encore créé le flux de données. Vous ne disposez donc pas encore d’une valeur pour cette variable d’environnement. Pointez sur EDGE\_REGION pour afficher la valeur de la valeur de l’environnement.
+&#x200B;4. Lorsque l’environnement approprié est sélectionné, la variable EDGE\_REGION prend désormais une couleur bleu clair. Cela indique que la variable possède désormais une valeur pour l’environnement sélectionné. La variable DATASTREAM\_CONFIG reste rouge, car vous n’avez pas encore créé le flux de données. Vous ne disposez donc pas encore d’une valeur pour cette variable d’environnement. Pointez sur EDGE\_REGION pour afficher la valeur de la valeur de l’environnement.
 
-![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez ](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
+![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez &#x200B;](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
 
 ## Récapituler
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Connexion via l’interface utilisateur
 
-1. Accédez à [](https://experience.adobe.com/) dans votre navigateur.
+1. Accédez à [&#128279;](https://experience.adobe.com/) dans votre navigateur.
 1. Connectez-vous à l’aide d’Adobe ID qui dispose d’un accès développeur à votre sandbox, le même que celui utilisé pour terminer la configuration de [Developer Console](../../sandbox-setup/developer-console-setup.md).
 1. Sur l’écran **Sélectionner un compte** choisissez le **Compte d’entreprise ou d’école**.
 

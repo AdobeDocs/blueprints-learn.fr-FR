@@ -31,7 +31,7 @@ Pour marquer un champ en tant qu’identité, vous devez créer un descripteur d
 }
 ```
 
-- **** -> toujours défini sur `xdm:descriptorIdentity`
+- **&#x200B;**&#x200B;-> toujours défini sur `xdm:descriptorIdentity`
 - **xdm\:sourceSchema** -> `$id` du schéma où se trouve le champ
 - **xdm\:sourceVersion** -> toujours 1
 - **xdm\:sourceProperty** -> chemin d’accès du champ dans le schéma

@@ -28,7 +28,7 @@ Télécharger le fichier — [Bootcamp AEP Foundations (Labs).postman_collection
 1. Lancez Postman sur votre ordinateur local et cliquez sur le bouton `Import` dans votre espace de travail
 1. Collez l’URL du `Postman API Collection File` dans la zone de texte modale d’importation sur le recouvrement.  Cela devrait déclencher une importation automatique
 
-![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation ](assets/api-collection-click-import-button.png " la collection d’API")
+![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation &#x200B;](assets/api-collection-click-import-button.png " la collection d’API")
 
 
 

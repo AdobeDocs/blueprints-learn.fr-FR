@@ -29,7 +29,7 @@ Dans les étapes suivantes, vous allez créer l’audience que vous souhaitez ci
 
 
 
-2. Dans le rail de droite, vous voyez les propriétés Créer une audience . Mettez à jour le libellé pour qu’il indique ce qui suit : `Active Lines with Apple`
+&#x200B;2. Dans le rail de droite, vous voyez les propriétés Créer une audience . Mettez à jour le libellé pour qu’il indique ce qui suit : `Active Lines with Apple`
 
 ![Créer un libellé d’audience défini sur Lignes actives avec Apple](assets/build-an-audience-set-label.png)
 
@@ -42,7 +42,7 @@ L’étape suivante consiste à sélectionner la **dimension de ciblage** (c’e
 
 ![Icône Rechercher dans la zone Dimension de ciblage](assets/build-an-audience-search-targeting-dimension.png)
 
-2. Dans la fenêtre contextuelle, recherchez et sélectionnez la table nommée **dep-rel : Customer Line**, puis cliquez sur le bouton **Confirmer**.
+&#x200B;2. Dans la fenêtre contextuelle, recherchez et sélectionnez la table nommée **dep-rel : Customer Line**, puis cliquez sur le bouton **Confirmer**.
 
 ![Sélectionnez la table dep-rel : Customer Line et cliquez sur Confirmer](assets/build-an-audience-select-customer-line-table.png)
 
@@ -64,7 +64,7 @@ Maintenant que vous avez sélectionné votre dimension de ciblage (le schéma re
 
 ![Bouton Créer une audience dans le rail de droite](assets/build-an-audience-click-create-audience.png)
 
-2. Cliquez ensuite sur le bouton **Ajouter une condition**
+&#x200B;2. Cliquez ensuite sur le bouton **Ajouter une condition**
 
 ![Bouton Ajouter une condition pour la définition de l’audience](assets/build-an-audience-click-add-condition.png)
 
@@ -82,7 +82,7 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 ![Condition 1 définie sur Ligne active égale à true](assets/build-an-audience-condition-active-line-true.png)
 
-2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres d’éligibilité de la condition.
+&#x200B;2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres d’éligibilité de la condition.
 
 ![Icône d’actualisation indiquant un nombre éligible de 241 pour la condition 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -96,16 +96,16 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 1. Cliquez sur le bouton **Ajouter une condition** et sélectionnez le schéma **dep-rel:** **Product \[Lookup]** en cliquant sur l’icône **>**
 
-![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > ](assets/build-an-audience-select-product-lookup-schema.png)
+![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
+&#x200B;2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
 
 ![Option de répartition des valeurs pour le champ Marque](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **** pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
+&#x200B;3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **&#x200B;**&#x200B;pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
 
 ![Valeur Apple sélectionnée avec le bouton Sélectionner un attribut et une valeur](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -115,12 +115,12 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 
 
-4. Le champ `Make` est automatiquement ajouté avec les conditions présentées ci-dessous.
+&#x200B;4. Le champ `Make` est automatiquement ajouté avec les conditions présentées ci-dessous.
    - **Operator:** `Equal to`
    - **Value:** `Apple`
    - **Sensible à la casse :** `Enabled`
 
-5. Cliquez sur l’icône **calculer** et le résultat est 85.
+&#x200B;5. Cliquez sur l’icône **calculer** et le résultat est 85.
 
 ![Condition 2 comptage calculé de 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -142,7 +142,7 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 
 
-2. Si le décompte final est de **65** cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
+&#x200B;2. Si le décompte final est de **65** cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
 
 
 

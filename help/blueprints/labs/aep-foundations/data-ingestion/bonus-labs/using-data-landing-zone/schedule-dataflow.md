@@ -47,7 +47,7 @@ Après avoir cliqué sur **Terminer**, vous revenez à l’écran **Flux de donn
 
 ![Écran Flux de données affichant le nouveau flux de données avec le statut Aucune exécution](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Écran Sources de flux de données")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Vous devez actualiser la page en continu pour afficher la mise à jour de l’état, car le serveur principal ne transmet pas les mises à jour à l’interface utilisateur.
 

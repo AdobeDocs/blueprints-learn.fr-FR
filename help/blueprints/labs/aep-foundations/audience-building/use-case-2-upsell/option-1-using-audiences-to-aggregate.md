@@ -35,7 +35,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-2. Cliquez sur l’ellipse dans les règles en bas à droite et choisissez Agréger. Cliquez sur Sélectionner un attribut et saisissez Utilisation. Sélectionnez le champ Utilisation des données de facturation .
+&#x200B;2. Cliquez sur l’ellipse dans les règles en bas à droite et choisissez Agréger. Cliquez sur Sélectionner un attribut et saisissez Utilisation. Sélectionnez le champ Utilisation des données de facturation .
 
 
 
@@ -47,17 +47,17 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-3. Remplacez la valeur Est égal à par Supérieur à et la valeur par 140.
+&#x200B;3. Remplacez la valeur Est égal à par Supérieur à et la valeur par 140.
 
-4. Remplacez l’heure située au-dessus de la carte Événement par À toute heure par En dernier et la valeur par 6 et les jours par mois
+&#x200B;4. Remplacez l’heure située au-dessus de la carte Événement par À toute heure par En dernier et la valeur par 6 et les jours par mois
 
 ![Remplacez la fenêtre temporelle de l’événement par Dans les 6 derniers mois](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-5. Fournissez une description et enregistrez.
+&#x200B;5. Fournissez une description et enregistrez.
 
-6. Attribuez au public le nom « *somme d’utilisation de la facturation > 140 Go (6 derniers mois)* »
+&#x200B;6. Attribuez au public le nom « *somme d’utilisation de la facturation > 140 Go (6 derniers mois)* »
 
 >[!NOTE]
 >
@@ -84,13 +84,13 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-2. Cliquez sur la copie et modifiez-la.  Cliquez sur la carte Événement et définissez la Somme sur Moyenne. Remplacez supérieur à par supérieur ou égal à et la valeur par 20. Copiez le pseudo code dans la description.
+&#x200B;2. Cliquez sur la copie et modifiez-la.  Cliquez sur la carte Événement et définissez la Somme sur Moyenne. Remplacez supérieur à par supérieur ou égal à et la valeur par 20. Copiez le pseudo code dans la description.
 
 ![Copiez le pseudo code dans la description de l’audience](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-3. Attribuez au public le nom « *Moyenne de l’utilisation de la facturation > 20 Go (6 derniers mois)* »
+&#x200B;3. Attribuez au public le nom « *Moyenne de l’utilisation de la facturation > 20 Go (6 derniers mois)* »
 
 ## Audience #3 : ne dispose pas d’un forfait téléphonique ultime
 
@@ -109,15 +109,15 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-5. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
+&#x200B;5. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
 
 ![Faites glisser les audiences d’utilisation de facturation à côté du nom du plan](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copiez le pseudo code dans la description
+&#x200B;6. Copiez le pseudo code dans la description
 
-7. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
+&#x200B;7. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-8. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
+&#x200B;8. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
 
 ![Remplacez Nom du plan (Nom du plan) par le champ Nom du plan dénormalisé](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -143,9 +143,9 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-9. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
+&#x200B;9. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Bien que cette méthode d’évaluation soit en flux continu, elle base la qualification des audiences sur deux audiences par lot.
 

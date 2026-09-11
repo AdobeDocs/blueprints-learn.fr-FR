@@ -57,7 +57,7 @@ lastOrderStatusUpdate
 
 Si l’écran de mappage se plaint désormais qu’il existe un mappage en double, tel que **orderStatus** mappé à **order.\_devbc.acqSource,** cliquez sur l’icône « - » pour supprimer le mappage.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >N’oubliez pas que plusieurs champs d’entrée ne peuvent pas être mappés au même champ de sortie, car cela rend le mappage ambigu. Cependant, un seul champ d’entrée peut être mappé à plusieurs champs de sortie dans le schéma XDM.
 

@@ -133,10 +133,10 @@ Le chemin entièrement composé ressemble à ce que vous voyez ci-dessous.  Copi
 
 
 
-2. Mettez à jour le corps de la requête avec les informations suivantes
+&#x200B;2. Mettez à jour le corps de la requête avec les informations suivantes
 
 - **op** ->` add`
-- **path** -> `path from previous step +`` the new field name`
+- **path** -> `path from previous step +`&#x200B;` the new field name`
 - **value** ->
   - **title** -> `Plan Description`
   - **type** -> `string`
@@ -152,9 +152,9 @@ Lorsque vous avez terminé, votre requête API doit ressembler à ceci
 
 
 
-3. Si tout vous semble correct `Save` votre appel
+&#x200B;3. Si tout vous semble correct `Save` votre appel
 
-4. `Execute` l’appel pour exécuter le PATCH
+&#x200B;4. `Execute` l’appel pour exécuter le PATCH
 
 Vous devriez voir une `200 OK `réponse et devriez maintenant voir le champ `planDescription` dans votre groupe de champs comme suit :
 

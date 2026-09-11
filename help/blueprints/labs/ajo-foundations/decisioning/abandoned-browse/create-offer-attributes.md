@@ -36,7 +36,7 @@ Dans cette section, vous allez ajouter des champs XDM personnalisés au schéma 
 >
 >De plus, parcourir la page des offres est un raccourci pour accéder à ce schéma. Vous pouvez également y accéder à partir du menu Schéma dans le rail de gauche.
 
-3. Cliquez sur l’icône **+** à droite du niveau racine du schéma, puis, à l’aide du menu « Propriétés du champ » désormais visible dans le rail de droite, renseignez les champs suivants avec les valeurs fournies :
+&#x200B;3. Cliquez sur l’icône **+** à droite du niveau racine du schéma, puis, à l’aide du menu « Propriétés du champ » désormais visible dans le rail de droite, renseignez les champs suivants avec les valeurs fournies :
    - Nom du champ : **device**
    - Nom d’affichage : **Device**
    - Liste déroulante Type : **Objet**
@@ -46,11 +46,11 @@ Dans cette section, vous allez ajouter des champs XDM personnalisés au schéma 
 >
 >Le groupe de champs Affecter à semble être une liste déroulante, mais il accepte également la saisie de texte directe. Par conséquent, saisissez le texte « Détails de l’offre ». Lorsque vous la saisissez, un élément « Détails de l’offre (nouveau) » s’affiche également. Tout nouvel attribut doit être affecté à un groupe de champs. Par conséquent, au cours de cette étape, vous êtes en train de créer un groupe de champs appelé Détails de l’offre.
 
-4. Assurez-vous que toutes les propriétés ont été renseignées comme la capture d’écran ci-dessous :
+&#x200B;4. Assurez-vous que toutes les propriétés ont été renseignées comme la capture d’écran ci-dessous :
 
 ![Propriétés de champ du nouvel objet Appareil renseigné](assets/create-offer-attributes-device-object-field-properties.png)
 
-5. Une fois que vous avez vérifié que tous les champs sont corrects, cliquez sur le bouton bleu **Appliquer** en bas du menu « Propriétés du champ » (rail de droite) pour voir vos modifications appliquées au schéma :
+&#x200B;5. Une fois que vous avez vérifié que tous les champs sont corrects, cliquez sur le bouton bleu **Appliquer** en bas du menu « Propriétés du champ » (rail de droite) pour voir vos modifications appliquées au schéma :
 
 ![Groupe de champs de l’appareil appliqué au schéma d’offre](assets/create-offer-attributes-device-object-applied.png)
 
@@ -76,7 +76,7 @@ Maintenant que l’objet XDM de l’appareil a été créé, vous pouvez passer 
 
 ![Schéma des offres présentant les champs Marque, Modèle et Niveau renseignés](assets/create-offer-attributes-make-model-tier-fields.png)
 
-3. Une fois tous les nouveaux champs/attributs XDM créés, cliquez sur **Enregistrer** dans le coin supérieur droit et vous recevrez un message « Schéma enregistré avec succès » vert en bas de l’écran. Vous avez maintenant terminé les étapes de cette section.
+&#x200B;3. Une fois tous les nouveaux champs/attributs XDM créés, cliquez sur **Enregistrer** dans le coin supérieur droit et vous recevrez un message « Schéma enregistré avec succès » vert en bas de l’écran. Vous avez maintenant terminé les étapes de cette section.
 
 >[!WARNING]
 >

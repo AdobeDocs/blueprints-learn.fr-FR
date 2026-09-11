@@ -69,7 +69,7 @@ Notez également comment chaque champ spécifique de la feuille de mappage est j
 
 
 
-2. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
+&#x200B;2. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -77,9 +77,9 @@ Notez également comment chaque champ spécifique de la feuille de mappage est j
 
 
 
-3. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
+&#x200B;3. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
 
-4. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
+&#x200B;4. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
 
 ![Réponse API réussie après la création du groupe de champs personnalisés](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Étape 2 - Création réussie du groupe de champs personnalisés")
 

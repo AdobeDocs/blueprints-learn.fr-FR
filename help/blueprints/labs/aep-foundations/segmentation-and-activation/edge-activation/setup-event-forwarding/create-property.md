@@ -26,9 +26,9 @@ En règle générale, nous souhaitons transférer un événement d’expérience
 
 ![Section Transfert d’événement avec le bouton Nouvelle propriété en surbrillance](assets/create-property-new-property-button.png "Créez une propriété de transfert d’événement")
 
-3. Mettez à jour le nom de la propriété en utilisant la formule suivante : `Event Forward Property SB + [sandbox number]`. Votre nom final ressemblerait à ceci : **Event Forward Property SB01**
+&#x200B;3. Mettez à jour le nom de la propriété en utilisant la formule suivante : `Event Forward Property SB + [sandbox number]`. Votre nom final ressemblerait à ceci : **Event Forward Property SB01**
 
-4. Cliquez sur **Enregistrer** lorsque vous avez terminé
+&#x200B;4. Cliquez sur **Enregistrer** lorsque vous avez terminé
 
 ![Champ Nom de la propriété de transfert d’événement renseigné avec le bouton Enregistrer en surbrillance](assets/create-property-name-property-form.png)
 
@@ -40,17 +40,17 @@ En règle générale, nous souhaitons transférer un événement d’expérience
 
 
 
-2. Vous devriez voir un écran comme ci-dessous.  Cliquez sur **Extensions**.
+&#x200B;2. Vous devriez voir un écran comme ci-dessous.  Cliquez sur **Extensions**.
 
 ![Écran d’aperçu de la propriété Transfert d’événement avec l’onglet Extensions en surbrillance](assets/create-property-click-extensions-tab.png)
 
 
 
-3. Installez l’extension Adobe Cloud Connector en procédant comme suit :
+&#x200B;3. Installez l’extension Adobe Cloud Connector en procédant comme suit :
 
-4. Cliquez sur **Catalogue** dans le volet de navigation supérieur
-5. Cliquez sur la carte **Adobe Cloud Connector**
-6. Dans le rail de droite, cliquez sur le bouton **Installer**
+&#x200B;4. Cliquez sur **Catalogue** dans le volet de navigation supérieur
+&#x200B;5. Cliquez sur la carte **Adobe Cloud Connector**
+&#x200B;6. Dans le rail de droite, cliquez sur le bouton **Installer**
 
 ![Catalogue d’extensions avec la carte Adobe Cloud Connector et le bouton Installer en surbrillance](assets/create-property-install-cloud-connector-extension.png)
 
@@ -74,13 +74,13 @@ Après avoir cliqué sur installer , vous devriez voir l’affichage des extensi
 
 
 
-2. Cliquez sur le bouton **Créer un élément de données**
+&#x200B;2. Cliquez sur le bouton **Créer un élément de données**
 
 ![Page Éléments de données avec le bouton Créer un élément de données en surbrillance](assets/create-property-create-new-data-element-button.png "Créer un élément de données")
 
 
 
-3. Configurez le nouvel élément de données avec les informations suivantes :
+&#x200B;3. Configurez le nouvel élément de données avec les informations suivantes :
 
 | Type d’élément | Valeur à configurer |
 | ----------------- | ------------------ |
@@ -92,13 +92,13 @@ Après avoir cliqué sur installer , vous devriez voir l’affichage des extensi
 
 
 
-4. Cliquez sur le bouton **Ouvrir l’éditeur** pour ajouter le code personnalisé suivant :
+&#x200B;4. Cliquez sur le bouton **Ouvrir l’éditeur** pour ajouter le code personnalisé suivant :
 
 ![Paramètres des éléments de données avec le bouton Ouvrir l’éditeur en surbrillance pour le code personnalisé](assets/create-property-open-custom-code-editor.png "Ouvrez l’éditeur")
 
 
 
-5. Ajoutez du code personnalisé à l’éditeur comme suit et enregistrez-le
+&#x200B;5. Ajoutez du code personnalisé à l’éditeur comme suit et enregistrez-le
 
 ```none
 var xdm = arc?.event || '';
@@ -115,7 +115,7 @@ return xdm;
 
 
 
-6. Cliquez sur le bouton **Enregistrer** pour enregistrer l’élément de données.
+&#x200B;6. Cliquez sur le bouton **Enregistrer** pour enregistrer l’élément de données.
 
 ![Éditeur d’éléments de données avec le bouton Enregistrer en surbrillance](assets/create-property-save-data-element-button.png)
 
@@ -143,17 +143,17 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 
 
 
-2. Cliquez ensuite sur **Créer une règle**
+&#x200B;2. Cliquez ensuite sur **Créer une règle**
 
 ![Page Règles avec le bouton Créer une règle en surbrillance](assets/create-property-new-rule-button.png)
 
 
 
-3. Mettez à jour le nom de la règle en utilisant la formule suivante : `"EF Rule SB" + [your sandbox number]` (c.-à-d. la règle SB01 de l&#39;EF). Vous trouverez votre numéro de sandbox en haut à droite de la fenêtre de votre navigateur, comme illustré ci-dessous\...
+&#x200B;3. Mettez à jour le nom de la règle en utilisant la formule suivante : `"EF Rule SB" + [your sandbox number]` (c.-à-d. la règle SB01 de l&#39;EF). Vous trouverez votre numéro de sandbox en haut à droite de la fenêtre de votre navigateur, comme illustré ci-dessous\...
 
 ![Coin supérieur droit de la fenêtre du navigateur indiquant le numéro du sandbox utilisé dans le nom de la règle](assets/create-property-sandbox-number-location.png)
 
-4. Cliquez sur **Enregistrer** lorsque vous avez terminé
+&#x200B;4. Cliquez sur **Enregistrer** lorsque vous avez terminé
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 
 
 
-5. Ajoutez une action à votre règle en cliquant sur le signe (+) pour ajouter une nouvelle action
+&#x200B;5. Ajoutez une action à votre règle en cliquant sur le signe (+) pour ajouter une nouvelle action
 
 ![Éditeur de règles avec l’icône plus mise en surbrillance pour ajouter une nouvelle action](assets/create-property-add-action-button.png "Ajoutez une action")
 
@@ -175,14 +175,14 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 
 
 
-1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [](https://webhook.site/)
+1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [&#128279;](https://webhook.site/)
 2. Copiez l’URL unique qui s’affiche et enregistrez-la en lieu sûr.
 
 ![Page Webhook.site avec l’URL unique mise en surbrillance pour la copie](assets/create-property-webhooksite-copy-url.png)
 
 
 
-3. Configurez votre action avec les informations suivantes :
+&#x200B;3. Configurez votre action avec les informations suivantes :
 
 | Paramètre | Valeur |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -191,7 +191,7 @@ Lorsque vous avez terminé, l’écran suivant qui confirme que votre élément 
 | Méthode | Message |
 | URL | Utilisez la même URL de webhook que celle utilisée lors de la configuration de la destination de diffusion en streaming. Pour le trouver, ouvrez un nouvel onglet dans le navigateur et accédez à Destinations -> Parcourir . |
 | Corps | Raw |
-| Données du corps | \{ « data »: \{ « event »: « \{\{Data Object\}\} » } |
+| Données du corps | \&lbrace; « data »: \{ « event »: « \{\{Data Object\}\} » } |
 
 >[!NOTE]
 >
@@ -209,7 +209,7 @@ Lorsque vous avez terminé, vérifiez que votre écran ressemble à ce qui suit,
 
 
 
-4. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
+&#x200B;4. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
 
 ![Éditeur de règles affichant l’action configurée avec le bouton Enregistrer mis en surbrillance](assets/create-property-save-rule-button.png "Enregistrez votre règle")
 
@@ -229,13 +229,13 @@ Lorsque vous avez terminé, vérifiez que votre écran ressemble à ce qui suit,
 
 
 
-2. Cliquez sur le bouton **Ajouter une bibliothèque**
+&#x200B;2. Cliquez sur le bouton **Ajouter une bibliothèque**
 
 ![Publication de la page Flux avec le bouton Ajouter une bibliothèque en surbrillance](assets/create-property-add-library-button.png "Ajouter une bibliothèque")
 
 
 
-3. Configurez la bibliothèque avec les informations suivantes :
+&#x200B;3. Configurez la bibliothèque avec les informations suivantes :
 
 - Nom -> **Bibliothèque EF**
 - Environnement -> **Développement**
@@ -248,6 +248,6 @@ Lorsque vous avez terminé, votre écran doit ressembler à la capture d’écra
 
 
 
-4. Vous devriez alors voir la version de développement passer au vert indiquant qu’elle est prête à être utilisée
+&#x200B;4. Vous devriez alors voir la version de développement passer au vert indiquant qu’elle est prête à être utilisée
 
 ![Flux de publication affichant le statut de version de développement passé au vert et prêt à l’emploi](assets/create-property-development-build-ready.png)

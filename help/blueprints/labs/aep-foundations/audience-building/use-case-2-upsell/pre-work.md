@@ -26,11 +26,11 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 
 
 
-3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
+&#x200B;3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
 
 ![Rechercher une utilisation dans les événements - aucune description affichée](assets/pre-work-search-usage-in-events.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Aucune de ces descriptions n’étant fournie, le spécialiste marketing peut émettre des hypothèses et faire des suppositions erronées.
 >
@@ -41,7 +41,6 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 >- Recommandé/préféré dans des cas d’utilisation spécifiques ?
 >
 >En fournissant ces informations dans des descriptions, nous pouvons mieux les guider.
-
 > [!NOTE]
 >
 >Recherchez « Facturation ».  Notez qu’il ne s’affiche pas en tant qu’attribut de profil.  Elle s’affiche sous la forme d’une carte Type d’événement avec le champ « Utilisation des données de facturation ».

@@ -86,6 +86,6 @@ Vous devriez maintenant voir un écran qui ressemble à ce qui suit
 
 ![Explorateur de stockage Azure affichant le compte Data Landing Zone correctement connecté](assets/overview-successfully-connected-account.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Félicitations !  Vous avez correctement configuré l’explorateur de stockage Azure

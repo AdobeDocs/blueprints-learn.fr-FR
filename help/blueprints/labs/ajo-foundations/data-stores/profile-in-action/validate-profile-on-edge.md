@@ -31,7 +31,7 @@ Vérifiez que le profil n’existe pas sur le magasin de profils réseau Edge.
 
 
 
-2. Cliquez sur l’onglet Abonnement de l’audience .  Ce sera **vide**.
+&#x200B;2. Cliquez sur l’onglet Abonnement de l’audience .  Ce sera **vide**.
 
 ![Onglet Abonnement d’une audience vide dans le profil Edge](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

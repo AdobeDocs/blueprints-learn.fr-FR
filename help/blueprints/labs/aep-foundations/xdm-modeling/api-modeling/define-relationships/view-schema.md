@@ -32,15 +32,15 @@ ht-degree: 0%
 
 
 
-2. Dans l’URL de la requête, remplacez la `<replace me>` par la `$meta:altId` que vous avez enregistrée dans la section précédente [Créer un schéma](../build-schema/create-schema.md) comme illustré ci-dessous
+&#x200B;2. Dans l’URL de la requête, remplacez la `<replace me>` par la `$meta:altId` que vous avez enregistrée dans la section précédente [Créer un schéma](../build-schema/create-schema.md) comme illustré ci-dessous
 
 ![Requête de l’étape 4 avec le méta:altId ajoutée à la requête URL](assets/view-schema-final-step-4-request.png "Étape finale 4")
 
 
 
-3. Enregistrez la demande à l’aide du bouton `Save` .
+&#x200B;3. Enregistrez la demande à l’aide du bouton `Save` .
 
-4. Exécutez la requête en cliquant sur le bouton `Send` .
+&#x200B;4. Exécutez la requête en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `200 OK` et vous devriez être en mesure de naviguer jusqu’à la fin du schéma que vous avez créé pour voir l’identité à travers le prisme de la structure JSON XDM
 

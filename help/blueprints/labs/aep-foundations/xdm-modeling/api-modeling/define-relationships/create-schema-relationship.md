@@ -25,7 +25,7 @@ ht-degree: 0%
 
 
 
-2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
+&#x200B;2. Mettez à jour les propriétés suivantes dans le corps de l’appel API.
 
 - Définissez la valeur de la propriété `xdm:sourceSchema` sur la `$id` du schéma de compte client que vous avez enregistré à partir de l’étape [Créer un schéma](../build-schema/create-schema.md) de l’atelier
 - Définissez la valeur du `xdm:sourceProperty` sur le chemin d’accès du champ `planID` à partir du schéma de compte client.
@@ -58,9 +58,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-4. Exécutez l’API en cliquant sur le bouton `Send` .
+&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
 

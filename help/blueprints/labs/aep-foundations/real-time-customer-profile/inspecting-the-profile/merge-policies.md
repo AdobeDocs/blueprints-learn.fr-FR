@@ -30,7 +30,7 @@ Une politique de fusion a deux effets :
    - Priorité d’horodatage : utilisez l’enregistrement le plus récent de tous les jeux de données comme jeu de vérité et laissez tous les autres enregistrements combler les trous dans l’ordre du plus récent au plus ancien
    - Priorité du jeu de données : sélectionnez les jeux de données XDM Individual Profile qui peuvent être utilisés pour former le profil et dans quel ordre les assembler
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Lorsque la méthode de fusion de Priorité du jeu de données est choisie, vous pouvez choisir les jeux de données Profil individuel XDM et Événement d’expérience XDM qui peuvent être utilisés dans la formation du profil.
 >
@@ -65,7 +65,7 @@ Créez une politique de fusion qui n’utilise pas le graphique d’identités a
 1. Cliquez sur **Politiques de fusion** dans la barre de navigation supérieure.
 1. Cliquez sur **Créer une politique de fusion** à l’extrémité droite de votre écran
 
-![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion ](assets/merge-policies-click-create-merge-policy-button.png)
+![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Configuration
 
@@ -134,7 +134,7 @@ Effectuez une autre recherche pour le profil du mode de rendu, mais cette fois-c
 1. Cliquez sur le bouton **Afficher** pour rechercher le profil
 1. Cliquez sur le **lien** vers le profil pour afficher les détails du profil
 
-![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants ](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
+![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants &#x200B;](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
 
 En comparant les deux vues du profil, vous remarquerez qu’elles sont très différentes. Certains attributs et identités sont manquants dans la version qui utilise la politique de fusion **Pas de combinaison d’identités**.
 
@@ -198,7 +198,7 @@ Lorsque le graphique d’identités est utilisé avec la banque de profils, vous
 
 Sans graphique d’identité, la banque de profils ne peut récupérer que des fragments de profil à l’aide d’un seul identifiant (c’est-à-dire une identité principale)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Disposez d’un peu de temps supplémentaire et souhaitez expérimenter... :**
 >

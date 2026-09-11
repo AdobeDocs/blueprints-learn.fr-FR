@@ -44,7 +44,7 @@ Vous allez commencer par créer le connecteur API qu’AJO utilisera pour envoye
 
 >[!NOTE]
 >
->Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio.
+>Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [&#128279;](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio.
 
 ![Champs d’informations d’identification de l’API SMS pour le fournisseur Twilio](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -60,18 +60,18 @@ Vous allez maintenant mapper ces informations d’identification d’API à une 
 
 
 
-2. Cliquez sur **Créer une configuration de canal**.
+&#x200B;2. Cliquez sur **Créer une configuration de canal**.
 
 ![bouton Créer une configuration de canal](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-3. Renseignez les Paramètres de configuration du canal SMS avec les valeurs suivantes :
+&#x200B;3. Renseignez les Paramètres de configuration du canal SMS avec les valeurs suivantes :
    - **Name:** `Relational-SMS-Multi-Entity`
    - **Canal:** `Mobile Message`
    - **Action marketing :** `SMS Targeting`
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Si vous obtenez une erreur indiquant que l’utilisateur ne dispose pas de l’autorisation nécessaire, ignorez-la et continuez.
 
@@ -97,20 +97,20 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 
 
-2. Vérifiez que la case **Activé** est cochée
+&#x200B;2. Vérifiez que la case **Activé** est cochée
 
 ![Case activée cochée pour les campagnes orchestrées](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-3. Ensuite, sous la sous-section **Dimension d’exécution** assurez-vous que les éléments suivants sont configurés comme suit :
+&#x200B;3. Ensuite, sous la sous-section **Dimension d’exécution** assurez-vous que les éléments suivants sont configurés comme suit :
    - **Diffuser sur le message per:** `Target + Secondary Dimension`
    - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
    - **Dimension Secondaire:** `Customer Line`
 
 ![Paramètres de la dimension d’exécution avec dimension cible et dimension secondaire](assets/configure-sms-channel-execution-dimension-setup.png)
 
-![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« ](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
+![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 
 
-4. Sous l’en-tête Adresse d’exécution , assurez-vous de sélectionner le bouton radio pour **Dimension Secondaire** puis cliquez sur le bouton de modification sur le **Champ d’exécution du SMS**
+&#x200B;4. Sous l’en-tête Adresse d’exécution , assurez-vous de sélectionner le bouton radio pour **Dimension Secondaire** puis cliquez sur le bouton de modification sur le **Champ d’exécution du SMS**
 
 ![Adresse d’exécution définie sur Dimension Secondaire avec champ d’édition](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-5. Sur la fenêtre pop-up, cliquez dans le schéma **dep-rel : Customer Line** et sélectionnez **Téléphone mobile**.
+&#x200B;5. Sur la fenêtre pop-up, cliquez dans le schéma **dep-rel : Customer Line** et sélectionnez **Téléphone mobile**.
 
 ![Fenêtre contextuelle de schéma pour le dep-rel : schéma Ligne du client](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -132,7 +132,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 
 
-6. Confirmez la dernière correspondance de la section Détails d’exécution ci-dessous
+&#x200B;6. Confirmez la dernière correspondance de la section Détails d’exécution ci-dessous
 
 ![La configuration des détails d’exécution finale correspond aux paramètres requis](assets/configure-sms-channel-final-execution-details.png)
 
@@ -146,7 +146,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 
 
-2. Sur la page d’inventaire des configurations de canal, assurez-vous que le statut indique **Actif** avant de continuer
+&#x200B;2. Sur la page d’inventaire des configurations de canal, assurez-vous que le statut indique **Actif** avant de continuer
 
 ![Statut de configuration du canal affiché comme Actif](assets/configure-sms-channel-active-status.png)
 
@@ -156,7 +156,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 
 
-3. Lorsque l’état devient Actif , vous avez terminé.
+&#x200B;3. Lorsque l’état devient Actif , vous avez terminé.
 
 >[!TIP]
 >

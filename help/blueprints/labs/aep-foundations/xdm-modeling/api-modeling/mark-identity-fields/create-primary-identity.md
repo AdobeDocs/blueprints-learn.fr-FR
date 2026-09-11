@@ -55,6 +55,6 @@ EXEMPLE UNIQUEMENT
 
 ![201 Création d’une réponse après la création réussie du descripteur d’identité primaire](assets/create-primary-identity-201-created-response.png "Descripteur d’identité primaire créé avec succès")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Félicitations !  Vous venez de créer un descripteur d’identité principale dans votre schéma

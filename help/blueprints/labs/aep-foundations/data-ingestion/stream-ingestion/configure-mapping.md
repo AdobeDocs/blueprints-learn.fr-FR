@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configurer le mappage
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Ne suivez cette section que si vous avez terminé avec succès l’atelier d’ingestion par lots.  Sinon, suivez les étapes [Mappage de données](../batch-ingestion/mapping-data/overview.md) qui se trouvent dans le Lab d’ingestion par lots.
 

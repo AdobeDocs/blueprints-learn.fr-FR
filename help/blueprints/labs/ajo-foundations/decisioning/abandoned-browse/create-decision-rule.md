@@ -32,14 +32,14 @@ L&#39;éligibilité étant l&#39;un des éléments clés d&#39;une offre, la pre
 
 ![Page Règles de prise de décision avec le bouton Créer une règle](assets/create-decision-rule-create-rule-button.png)
 
-4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail.
-5. Modifiez la liste déroulante de égal à **contient.**
-6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez une valeur **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
-7. Utilisez la zone de texte **Nom** dans le rail de droite pour nommer la règle de décision **Plans de niveau supérieur**. Ajoutez une description, le cas échéant. Lorsque vous avez terminé, votre règle de décision doit se présenter comme suit :
+&#x200B;4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail.
+&#x200B;5. Modifiez la liste déroulante de égal à **contient.**
+&#x200B;6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez une valeur **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
+&#x200B;7. Utilisez la zone de texte **Nom** dans le rail de droite pour nommer la règle de décision **Plans de niveau supérieur**. Ajoutez une description, le cas échéant. Lorsque vous avez terminé, votre règle de décision doit se présenter comme suit :
 
 ![Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3")
 
-8. Une fois que la règle est correcte, cliquez sur le bouton bleu **Créer** dans le coin supérieur droit, et vous revenez à la page Configuration de la stratégie avec la règle de décision que vous venez de créer répertoriée comme la seule règle de décision.
+&#x200B;8. Une fois que la règle est correcte, cliquez sur le bouton bleu **Créer** dans le coin supérieur droit, et vous revenez à la page Configuration de la stratégie avec la règle de décision que vous venez de créer répertoriée comme la seule règle de décision.
 
 >[!NOTE]
 >

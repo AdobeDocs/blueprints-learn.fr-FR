@@ -45,7 +45,7 @@ Rappelez-vous que les exigences commerciales sont que l&#39;un des systèmes de 
 
 ![Configuration du canal d’expérience basé sur le code terminée avec le format JSON sélectionné](assets/create-code-based-experience-channel-completed-config.png)
 
-9. Une fois que tout semble correct, cliquez sur le bouton bleu **Envoyer** dans le coin supérieur droit.
+&#x200B;9. Une fois que tout semble correct, cliquez sur le bouton bleu **Envoyer** dans le coin supérieur droit.
 
 >[!TIP]
 >

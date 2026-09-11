@@ -31,7 +31,7 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
 ## Création du message
 
-1. Cliquez sur le bouton **** pour créer votre message.
+1. Cliquez sur le bouton **&#x200B;**&#x200B;pour créer votre message.
 
 Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-personalization-button.png)
 
@@ -41,7 +41,7 @@ Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-person
 
 
 
-2. Copiez et collez le texte ci-dessous dans le corps du SMS.
+&#x200B;2. Copiez et collez le texte ci-dessous dans le corps du SMS.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. Mettez à jour les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous à l’aide de l’option **Attributs de cible** dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran.
+&#x200B;3. Mettez à jour les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous à l’aide de l’option **Attributs de cible** dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran.
 
 ![Message SMS final avec marque et modèle de téléphone personnalisés](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. Cliquez sur le bouton **Valider** de l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si nécessaire, cliquez sur le bouton **Enregistrer**
+&#x200B;4. Cliquez sur le bouton **Valider** de l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si nécessaire, cliquez sur le bouton **Enregistrer**
 
 ![Boutons Valider et Enregistrer dans l’éditeur de messages](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. Cliquez sur la **flèche retour (\&lt;-)** lorsque vous avez terminé pour revenir à la zone de travail du workflow
+&#x200B;5. Cliquez sur la **flèche retour (\&lt;-)** lorsque vous avez terminé pour revenir à la zone de travail du workflow
 
 ![Flèche vers l’arrière pour revenir à la zone de travail du workflow](assets/compose-the-sms-return-to-canvas.png)
 

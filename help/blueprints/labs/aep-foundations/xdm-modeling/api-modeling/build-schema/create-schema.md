@@ -27,14 +27,14 @@ ht-degree: 0%
 
 
 
-2. Ouvrez le corps de l’appel et affichez la structure de la définition d’un schéma. N’oubliez pas qu’un schéma est toujours composé d’une seule (1) classe et d’un ou plusieurs groupes de champs.
+&#x200B;2. Ouvrez le corps de l’appel et affichez la structure de la définition d’un schéma. N’oubliez pas qu’un schéma est toujours composé d’une seule (1) classe et d’un ou plusieurs groupes de champs.
 
-3. Renseignez les champs `title` et `description` dans le corps du schéma avec les éléments suivants :
+&#x200B;3. Renseignez les champs `title` et `description` dans le corps du schéma avec les éléments suivants :
 
 - Titre -> `Sample Customer Schema - <your sandbox number>`
 - Description -> `Sample Customer Schema - <your sandbox number>`
 
-4. Renseignez les champs de `$ref` avec les `$ids` que vous avez enregistrées à partir des sections de l’atelier précédentes que vous avez terminées : [Créer des groupes de champs personnalisés](./create-custom-field-groups.md) et [Obtenir la classe de profil](./get-profile-class.md). Vous devez disposer de $ids pour chacun des éléments suivants :
+&#x200B;4. Renseignez les champs de `$ref` avec les `$ids` que vous avez enregistrées à partir des sections de l’atelier précédentes que vous avez terminées : [Créer des groupes de champs personnalisés](./create-custom-field-groups.md) et [Obtenir la classe de profil](./get-profile-class.md). Vous devez disposer de $ids pour chacun des éléments suivants :
 
 - Classe -> XDM Individual Profile
 - Groupe de champs -> Détails démographiques
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 
 
-5. Vérifiez que le corps final ressemble à ceci
+&#x200B;5. Vérifiez que le corps final ressemble à ceci
 
 ![Le corps de la requête de schéma terminé avec le titre, la description et toutes les valeurs $ref renseignées](assets/create-schema-example-of-final-body-payload.png "Exemple de payload de corps finale")
 

@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Accès à Assurance
 
-[](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home) est un produit d’Adobe Experience Cloud qui vous permet d’inspecter, de tester, de simuler et de valider la manière dont vous collectez les données dans Adobe Experience Platform Edge.
+[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home) est un produit d’Adobe Experience Cloud qui vous permet d’inspecter, de tester, de simuler et de valider la manière dont vous collectez les données dans Adobe Experience Platform Edge.
 
 1. Accédez à Adobe Experience Platform -> Assurance -> Créer une session
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 
 
-2. Cliquez sur le bouton **Démarrer**
+&#x200B;2. Cliquez sur le bouton **Démarrer**
 
 ![Cliquez sur le bouton Démarrer pour commencer à configurer la session Assurance](assets/monitor-your-event-click-start-button.png)
 
@@ -40,21 +40,21 @@ ht-degree: 1%
 
 ![Cliquez sur Suivant après avoir saisi le nom et l’URL de la session](assets/monitor-your-event-click-next-button.png)
 
-4. Copiez le lien à un endroit auquel vous pourrez faire référence ultérieurement
+&#x200B;4. Copiez le lien à un endroit auquel vous pourrez faire référence ultérieurement
 
-5. Cliquez sur le bouton **Terminé**
+&#x200B;5. Cliquez sur le bouton **Terminé**
 
 ![Copiez le lien de la session Assurance et cliquez sur Terminé](assets/monitor-your-event-copy-link.png)
 
 
 
-6. Accédez à **Paramètres**
+&#x200B;6. Accédez à **Paramètres**
 
 ![Accédez à l’onglet Paramètres dans la session Assurance](assets/monitor-your-event-navigate-to-settings.png "cliquez sur les paramètres")
 
 
 
-7. Activez **Transactions d’événement** et **Edge Delivery** en cliquant sur le bouton **+**, puis sur **Terminé**
+&#x200B;7. Activez **Transactions d’événement** et **Edge Delivery** en cliquant sur le bouton **+**, puis sur **Terminé**
 
 ![Activez Transactions d’événement et Edge Delivery, puis cliquez sur Terminé](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -63,14 +63,14 @@ ht-degree: 1%
 
 Accédez à Postman -> Créer une Edge d’événement web (aucune authentification) -> En-têtes .
 
-1. Ajoutez le **x-adobe-aep-validation-token** aux en-têtes avec le lien copié ci-dessus à partir d’Assurance. Saisissez **uniquement la valeur ID** après l’opérateur = dans le lien que vous avez copié à partir d’Assurance. par ex. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Ajoutez le **x-adobe-aep-validation-token** aux en-têtes avec le lien copié ci-dessus à partir d’Assurance. Saisissez **uniquement la valeur ID** après l’opérateur = dans le lien que vous avez copié à partir d’Assurance. par ex. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. Nous utiliserions simplement la valeur [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0), et non l’URL complète
 
 ![Ajoutez l’en-tête x-adobe-aep-validation-token avec l’ID de session Assurance dans Postman](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-3. Dans Postman, enregistrez et exécutez la requête **Création d’un événement web Edge (aucune authentification)**
+&#x200B;3. Dans Postman, enregistrez et exécutez la requête **Création d’un événement web Edge (aucune authentification)**
 
 
 

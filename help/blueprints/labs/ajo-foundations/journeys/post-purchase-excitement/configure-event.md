@@ -35,11 +35,11 @@ Pour créer un Parcours qui utilise un événement unitaire, nous devons d’abo
 
 ![Bouton Gérer sur la mosaïque Événements sous Configurations](assets/configure-event-open-events-manage.png)
 
-2. Dans le coin supérieur droit, cliquez sur le bouton **Créer un événement**
+&#x200B;2. Dans le coin supérieur droit, cliquez sur le bouton **Créer un événement**
 
 ![Bouton Créer un événement en haut à droite](assets/configure-event-click-create-event-button.png)
 
-3. Mettez à jour les paramètres de l’événement comme suit :
+&#x200B;3. Mettez à jour les paramètres de l’événement comme suit :
    - **Name** = `orderShipped`
    - **Type** = `Unitary`
    - **Type d’identifiant d’événement** = `Rule based`
@@ -47,11 +47,11 @@ Pour créer un Parcours qui utilise un événement unitaire, nous devons d’abo
 
 ![événement orderShipped configuré avec le type Unitaire et dep : schéma Orders v.1](assets/configure-event-set-name-type-schema.png)
 
-4. Dans la zone de saisie `Fields`, cliquez sur l’icône **Crayon**
+&#x200B;4. Dans la zone de saisie `Fields`, cliquez sur l’icône **Crayon**
 
 ![Icône en forme de crayon dans la zone de saisie Champs](assets/configure-event-click-fields-pencil-icon.png)
 
-5. Sélectionnez les champs suivants à ajouter à l’événement et, lorsque vous avez terminé, cliquez sur le bouton **OK**
+&#x200B;5. Sélectionnez les champs suivants à ajouter à l’événement et, lorsque vous avez terminé, cliquez sur le bouton **OK**
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
@@ -63,19 +63,19 @@ Pour créer un Parcours qui utilise un événement unitaire, nous devons d’abo
 
 
 
-6. Dans la `Event Id condition input`, cliquez sur l’icône **Crayon**
+&#x200B;6. Dans la `Event Id condition input`, cliquez sur l’icône **Crayon**
 
 ![Icône en forme de crayon dans l’entrée de condition d’identifiant d’événement](assets/configure-event-click-event-id-condition-pencil.png)
 
-7. **Faire glisser** le champ `Event Type` sur la zone de travail
+&#x200B;7. **Faire glisser** le champ `Event Type` sur la zone de travail
 
 ![Faites glisser le champ Type d’événement sur la zone de travail de condition](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-8. Dans la zone de sélection qui s’affiche, recherchez et vérifiez la valeur intitulée **orders.shipping.**. Cliquez ensuite sur le bouton **OK**.
+&#x200B;8. Dans la zone de sélection qui s’affiche, recherchez et vérifiez la valeur intitulée **orders.shipping.**. Cliquez ensuite sur le bouton **OK**.
 
 ![valeur orders.shipping cochée dans la case de sélection](assets/configure-event-select-orders-shipped-value.png)
 
-9. Mettez ensuite à jour les deux dernières valeurs d’Espace de noms et d’Identifiant de profil avec les valeurs affichées ci-dessous :
+&#x200B;9. Mettez ensuite à jour les deux dernières valeurs d’Espace de noms et d’Identifiant de profil avec les valeurs affichées ci-dessous :
    - **Espace de noms** —> `Email`
    - **Identifiant de profil** —> `personalEmail`
 

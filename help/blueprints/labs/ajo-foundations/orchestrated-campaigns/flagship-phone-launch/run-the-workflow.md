@@ -27,7 +27,7 @@ Dans les étapes suivantes, vous apprendrez à tester votre workflow et, plus im
 
 ![Zone de travail de workflow finale prête pour le test](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Si vous n’avez pas encore arrêté votre workflow, assurez-vous de le faire maintenant en cliquant sur le bouton **Arrêter** en haut à droite.
+&#x200B;2. Si vous n’avez pas encore arrêté votre workflow, assurez-vous de le faire maintenant en cliquant sur le bouton **Arrêter** en haut à droite.
 
 ![Bouton Arrêter en haut à droite du workflow](assets/run-the-workflow-click-stop-button.png)
 
@@ -37,13 +37,13 @@ Dans les étapes suivantes, vous apprendrez à tester votre workflow et, plus im
 
 
 
-3. Cliquez ensuite sur le bouton **Démarrer** pour exécuter et tester le workflow de bout en bout
+&#x200B;3. Cliquez ensuite sur le bouton **Démarrer** pour exécuter et tester le workflow de bout en bout
 
 ![bouton Démarrer pour exécuter le test du workflow](assets/run-the-workflow-click-start-button.png)
 
 
 
-4. Passez en revue le résultat entrant dans l’activité SMS en cliquant sur **Résultat** (il existe deux résultats, alors utilisez le résultat de gauche comme illustré ci-dessous), puis, dans le rail de gauche, en cliquant sur le bouton **Prévisualiser les résultats**.
+&#x200B;4. Passez en revue le résultat entrant dans l’activité SMS en cliquant sur **Résultat** (il existe deux résultats, alors utilisez le résultat de gauche comme illustré ci-dessous), puis, dans le rail de gauche, en cliquant sur le bouton **Prévisualiser les résultats**.
 
 ![Transition de résultat gauche sélectionnée avant l’activité SMS](assets/run-the-workflow-select-result-transition.png)
 
@@ -51,7 +51,7 @@ Dans les étapes suivantes, vous apprendrez à tester votre workflow et, plus im
 
 
 
-5. Vous voyez des enregistrements **33** et la dimension de ciblage correspond à l’identifiant du client (la clé de jointure si vous souhaitez créer un profil)
+&#x200B;5. Vous voyez des enregistrements **33** et la dimension de ciblage correspond à l’identifiant du client (la clé de jointure si vous souhaitez créer un profil)
 
 Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -65,7 +65,7 @@ Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client
 
 
 
-2. Presque immédiatement, un nouveau bouton apparaît intitulé **Afficher le rapport**.  Cliquez sur le bouton **Afficher le rapport** pour accéder à l’écran du rapport.
+&#x200B;2. Presque immédiatement, un nouveau bouton apparaît intitulé **Afficher le rapport**.  Cliquez sur le bouton **Afficher le rapport** pour accéder à l’écran du rapport.
 
 ![Bouton Afficher le rapport pour le test d’activité des SMS](assets/run-the-workflow-click-view-report.png)
 
@@ -75,7 +75,7 @@ Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client
 
 
 
-3. Lorsque vous obtenez des résultats, vous constatez que 100 % d’entre eux ont été ciblés.
+&#x200B;3. Lorsque vous obtenez des résultats, vous constatez que 100 % d’entre eux ont été ciblés.
 
 ![Résultats de l’envoi du test SMS indiquant 100 % de ciblage](assets/run-the-workflow-100-percent-targeted.png)
 
@@ -83,13 +83,13 @@ Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client
 
 
 
-4. Revenez à la zone de travail du workflow et cliquez sur la transition **Résultat** en accédant à l’activité SMS, puis cliquez sur **Prévisualiser les résultats** dans le rail de droite.
+&#x200B;4. Revenez à la zone de travail du workflow et cliquez sur la transition **Résultat** en accédant à l’activité SMS, puis cliquez sur **Prévisualiser les résultats** dans le rail de droite.
 
 ![Révision des résultats de la transition après le test du SMS](assets/run-the-workflow-recheck-transition-results.png)
 
 
 
-5. Dans l’écran Aperçu des résultats , faites défiler l’écran jusqu’au bas du tableau et vous remarquerez que les enregistrements **4** ont une **dimension de ciblage vide**.
+&#x200B;5. Dans l’écran Aperçu des résultats , faites défiler l’écran jusqu’au bas du tableau et vous remarquerez que les enregistrements **4** ont une **dimension de ciblage vide**.
 
 Enregistrements ![4 avec une dimension de ciblage vide au bas du tableau](assets/run-the-workflow-4-records-missing-dimension.png)
 

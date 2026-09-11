@@ -75,16 +75,16 @@ Avant de pouvoir exécuter la requête API, vous devez ajouter l’identifiant d
 
 ![Variables dans l’option Requête de la barre d’outils Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-2. Mettez à jour la **DATASTREAM_CONFIG** **Value** avec l’**ID de train de données** à partir de la première étape de la page.
+&#x200B;2. Mettez à jour la **DATASTREAM_CONFIG** **Value** avec l’**ID de train de données** à partir de la première étape de la page.
 
 ![Variable DATASTREAM_CONFIG mise à jour avec l’identifiant du flux de données](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-3. **Enregistrer** votre mise à jour (ctrl + s ou commande + s)
-4. Cliquez sur « **X** » dans le coin supérieur droit de la barre latérale de l’environnement pour fermer la barre latérale
+&#x200B;3. **Enregistrer** votre mise à jour (ctrl + s ou commande + s)
+&#x200B;4. Cliquez sur « **X** » dans le coin supérieur droit de la barre latérale de l’environnement pour fermer la barre latérale
 
 ![Fermeture de la barre latérale de l’environnement Postman après l’enregistrement](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-5. La requête **Créer un événement web** est maintenant prête à être envoyée, car toutes les variables sont désormais bleues et ont une valeur dans l’environnement.
+&#x200B;5. La requête **Créer un événement web** est maintenant prête à être envoyée, car toutes les variables sont désormais bleues et ont une valeur dans l’environnement.
 
 ![Créer une requête d’événement web avec toutes les variables renseignées](assets/send-an-edge-web-event-request-ready-to-send.png)
 

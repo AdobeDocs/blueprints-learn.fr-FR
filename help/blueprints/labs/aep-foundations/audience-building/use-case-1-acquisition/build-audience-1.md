@@ -48,9 +48,9 @@ Vous obtenez de nombreux objets liés à une commande
 
 >[!NOTE]
 >
->* Il n’y a pas de « i » pour l’ordre « dossier ». Même si notre description a été renseignée, elle ne l’a pas et cela peut être une source de confusion pour votre spécialiste marketing, car il peut essayer de l’utiliser ou vouloir en connaître la nature.
->* Le « i » des cartes d’événement répète simplement le type, car le type d’événement est un champ et non plusieurs.
->* Les données récapitulatives s’affichent uniquement si la valeur est présente dans plus de 2 % des profils fusionnés. Cela génère également une saisie semi-automatique lors du filtrage sur une chaîne.
+>&#x200B;* Il n’y a pas de « i » pour l’ordre « dossier ». Même si notre description a été renseignée, elle ne l’a pas et cela peut être une source de confusion pour votre spécialiste marketing, car il peut essayer de l’utiliser ou vouloir en connaître la nature.
+>&#x200B;* Le « i » des cartes d’événement répète simplement le type, car le type d’événement est un champ et non plusieurs.
+>&#x200B;* Les données récapitulatives s’affichent uniquement si la valeur est présente dans plus de 2 % des profils fusionnés. Cela génère également une saisie semi-automatique lors du filtrage sur une chaîne.
 
 
 
@@ -58,7 +58,7 @@ Utilisez la carte Type d’événement de commande passée et faites-la glisser 
 
 ![Faites glisser la carte Type d’événement Ordre de placement sur la zone de travail](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Facultatif:**
 >
@@ -74,7 +74,7 @@ Utilisez la carte Type d’événement de commande passée et faites-la glisser 
 >
 >Le filtrage à l’aide de cartes Type d’événement est identique au filtrage à l’aide du champ Type d’événement
 >
->![Le filtrage à l’aide d’une carte Type d’événement est identique au filtrage à l’aide du champ Type d’événement ](assets/build-audience-1-event-type-card-vs-field-comparison.png)
+>![Le filtrage à l’aide d’une carte Type d’événement est identique au filtrage à l’aide du champ Type d’événement &#x200B;](assets/build-audience-1-event-type-card-vs-field-comparison.png)
 >
 >Avantages de l’utilisation des cartes de type événement :
 >
@@ -247,7 +247,7 @@ Ne modifiez pas le mappage, cliquez sur Suivant puis sur Terminer
 >
 >Les conteneurs sont un moyen de référencer une variable d’événement ou un élément de tableau. Vous pouvez en savoir plus sur les ramifications de cette opération dans ce blog, mais pour plus de simplicité, cela vous permet de spécifier si un seul élément du tableau répond aux deux conditions ou si la condition peut être répartie sur deux éléments.
 >
->[](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

@@ -29,7 +29,7 @@ Cet atelier configure la destination Personalization personnalisée afin que nou
 
 1. Dans le rail de gauche, cliquez sur **Destinations**
 1. Dans le rail supérieur, cliquez sur **Catalogue**
-1. Sélectionnez ensuite la catégorie de ****
+1. Sélectionnez ensuite la catégorie de **&#x200B;**
 1. Au milieu de l’écran, vous devriez voir la destination intitulée **Custom Personalization with Attributes.** Cliquez sur le bouton **Configurer** sur cette carte.
 
 ![Parcourir le catalogue de destination pour la destination Custom Personalization](assets/setup-custom-personalization-destination-browse-destination-catalog.png "Parcourir le catalogue de destination pour la destination Custom Personalization")
@@ -65,7 +65,7 @@ Renseignez les détails de destination suivants :
 
 ### Sélectionner la politique de gouvernance
 
-Sélectionnez Personalization sur site **puis cliquez sur le bouton** Créer ****
+Sélectionnez Personalization sur site **puis cliquez sur le bouton** Créer **&#x200B;**
 
 ![Sélectionner la politique de gouvernance](assets/setup-custom-personalization-destination-select-governance-policy.png "Sélectionner la politique de gouvernance")
 
@@ -105,7 +105,7 @@ Ajoutez un **nouveau mappage** comme suit :
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nom du plan |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >N’oubliez pas de remplacer **\_tenantName** par votre nom de client
 
@@ -115,13 +115,13 @@ Ajoutez un **nouveau mappage** comme suit :
 
 
 
-Lorsque vous avez terminé, l’écran doit ressembler à l’image ci-dessous.  Vous pouvez ensuite cliquer sur le bouton Suivant ****
+Lorsque vous avez terminé, l’écran doit ressembler à l’image ci-dessous.  Vous pouvez ensuite cliquer sur le bouton Suivant **&#x200B;**
 
 ![Créer un mapping PZN](assets/setup-custom-personalization-destination-create-mapping.png "Créer un mapping PZN")
 
 >[!NOTE]
 >
->Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels ](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
+>Comme les attributs de profil peuvent contenir des données sensibles, tous les [appels &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview) l’API du serveur Edge Network doivent être effectués dans un contexte authentifié afin de récupérer l’attribut une fois qu’il se trouve sur Edge.
 
 
 ### Révision

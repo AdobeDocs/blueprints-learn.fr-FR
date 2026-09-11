@@ -26,7 +26,7 @@ Dans les étapes suivantes, vous allez créer une configuration du canal e-mail 
 
 ![Créer une configuration de canal](assets/configure-for-profile-create-configuration-button.png)
 
-3. Dans l’assistant Créer , définissez les valeurs suivantes :
+&#x200B;3. Dans l’assistant Créer , définissez les valeurs suivantes :
    - **Name:** `Relational-Email`
    - **Canal:** `Email`
    - **Action marketing :** `Email Targeting`
@@ -101,27 +101,27 @@ Conserver les paramètres par défaut
 
 ![Configurer une campagne orchestrée](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. Sous la dimension Exécution , configurez les éléments suivants :
+&#x200B;2. Sous la dimension Exécution , configurez les éléments suivants :
    - **Diffuser un message par :** `Target Dimension `
    - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
 
 ![Dimension d’exécution](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. Sous Adresse d’exécution , configurez les éléments suivants :
+&#x200B;3. Sous Adresse d’exécution , configurez les éléments suivants :
    - **Source:** `Target Dimension`
    - **Adresse de diffusion :** `click on the Edit button`
 
-Dimension Target](assets/configure-for-relational-execution-address-source-target-dimension.png)![
+Dimension Target![&#128279;](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
+&#x200B;4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
 
 ![Configurer l’adresse de diffusion](assets/configure-for-relational-customer-account-folder.png)
 
-5. Sélectionnez **E-mail** et cliquez sur le bouton **Sélectionner**
+&#x200B;5. Sélectionnez **E-mail** et cliquez sur le bouton **Sélectionner**
 
 ![Adresse e-mail comme adresse de diffusion](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. Une fois cette opération terminée, les détails de votre exécution finale ressemblent à la capture d’écran ci-dessous
+&#x200B;6. Une fois cette opération terminée, les détails de votre exécution finale ressemblent à la capture d’écran ci-dessous
 
 ![Dimension d’exécution configurée](assets/configure-for-relational-execution-details-final-result.png)
 

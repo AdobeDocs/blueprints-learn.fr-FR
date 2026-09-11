@@ -42,7 +42,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
-![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion ](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
+![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
 
 
 ### Rechercher un ID de flux de données
@@ -51,7 +51,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Recherchez l’enregistrement de **dep: Orders (flux)** puis cliquez sur le lien flux de données .
 1. Dans le rail de droite, copiez et enregistrez les valeurs **ID de flux de données** à un emplacement auquel vous pourrez faire référence ultérieurement
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Cliquez dans un espace vide sur la ligne.  NE CLIQUEZ PAS sur les liens bleus !
 
@@ -80,7 +80,7 @@ Lancez Postman sur votre ordinateur et accédez à l’appel API suivant :
    - **Vert** —> `Dataflow ID`
      - La valeur ressemble à un GUID (ne commence pas par http)
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >NE PAS EXÉCUTER POUR LE MOMENT
 

@@ -30,6 +30,6 @@ Effectuez les tâches suivantes comme vous l&#39;avez fait dans l&#39;atelier pr
 1. Dans Postman, renseignez l’**Événement de commande à créer** avec les informations nécessaires pour diffuser avec succès les données et joignez-les à l’enregistrement de compte client créé précédemment
 1. Vérifiez que la commande est liée à votre profil
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Bonne chance et que les dieux du Adobe Experience Platform soient avec vous !

@@ -39,7 +39,7 @@ Vérifiez que l’événement a bien été ingéré dans Adobe Experience Platfo
 
 
 
-3. Vérifiez que le profil est qualifié pour le **audiences** (cela peut prendre quelques minutes).
+&#x200B;3. Vérifiez que le profil est qualifié pour le **audiences** (cela peut prendre quelques minutes).
    - Tout événement Edge (dans les 15 minutes)
    - Diffusion en continu de tout événement (dans les 15 minutes)
 
@@ -56,8 +56,8 @@ Maintenant que vous avez validé l’entrée du profil, envoyez certains événe
 
 ![Modification de l’adresse e-mail dans le corps de la requête Postman](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-3. **Enregistrer** et appuyez sur **Envoyer**.
-4. Revenez aux étapes 1 à 3 et validez à l’aide de votre adresse e-mail.
+&#x200B;3. **Enregistrer** et appuyez sur **Envoyer**.
+&#x200B;4. Revenez aux étapes 1 à 3 et validez à l’aide de votre adresse e-mail.
 
 ## Récapituler
 

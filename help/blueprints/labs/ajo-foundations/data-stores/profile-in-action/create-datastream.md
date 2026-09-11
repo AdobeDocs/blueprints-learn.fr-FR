@@ -61,13 +61,13 @@ Vous pouvez ainsi envoyer des données au hub et accéder à un jeu de données 
 
 ![Bouton Ajouter un service sur l’écran de configuration du flux de données](assets/create-datastream-add-service-button.png)
 
-2. Configurez les éléments suivants :
+&#x200B;2. Configurez les éléments suivants :
    - **Service** -> `Adobe Experience Platform`
    - **Jeu de données d’événement** -> `dep: Web`
    - **Jeu de données de profil** -> `dep: Customer Account`
    - **Sélectionner une case à cocher** -> `Offer Decisioning`
    - **Sélectionner une case à cocher** -> `Adobe Journey Optimizer`
-3. Lorsque vous avez terminé, cliquez sur **Enregistrer**
+&#x200B;3. Lorsque vous avez terminé, cliquez sur **Enregistrer**
 
 Boîte de dialogue de configuration du service Adobe Experience Platform ![avec les champs d’événement et de jeu de données de profil](assets/create-datastream-configure-aep-service.png)
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## Introduction
 
-Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **** qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
+Adobe Journey Optimizer comprend un score d’alignement des marques piloté par l’IA **&#x200B;**&#x200B;qui vérifie votre contenu par rapport aux directives de marque publiées pour **Connexion 5G**.
 
 Cela permet d’assurer les éléments suivants :
 
@@ -48,9 +48,9 @@ Ce module vous apprend à exécuter l’évaluation, interpréter les résultats
 
 ![Onglet Alignement des marques et icône de pourcentage dans la barre latérale](assets/brand-alignment-open-panel-icon.png)
 
-4. Assurez-vous que la marque appropriée est appliquée :
+&#x200B;4. Assurez-vous que la marque appropriée est appliquée :
    - **Connexion 5G** (par défaut).
-5. Cliquez sur **Évaluer le score**.
+&#x200B;5. Cliquez sur **Évaluer le score**.
 
 **Interpréter le score de la marque et les commentaires :** au bout d’un moment, le score de conformité de la marque pour votre contenu s’affiche. Ce score peut être présenté sous la forme d’une note (par exemple, Élevée, Medium ou Faible) ou d’un pourcentage, avec un indicateur de couleur (vert, jaune, rouge) et le moment de l’évaluation. Un score élevé signifie que votre contenu s’aligne fortement sur les directives de la marque, tandis qu’un score moyen ou faible indique un alignement modéré ou faible.
 
@@ -105,21 +105,21 @@ Interprétez les résultats pour comprendre à quel point votre e-mail correspon
 
 ![Bloc de texte marqué à partir du paragraphe de description collé](assets/brand-alignment-flagged-text-block.png)
 
-3. Utilisez les modifications suggérées fournies par l’IA. Cliquez sur l’icône comme illustré ci-dessous.
+&#x200B;3. Utilisez les modifications suggérées fournies par l’IA. Cliquez sur l’icône comme illustré ci-dessous.
 
-![ Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
+![&#x200B; Icône de suggestion d’IA pour appliquer les modifications suggérées](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. Cliquez sur le bouton **Corriger avec l’IA** comme illustré ci-dessous.
+&#x200B;4. Cliquez sur le bouton **Corriger avec l’IA** comme illustré ci-dessous.
 
 ![Correction avec le bouton AI pour une directive avec indicateur](assets/brand-alignment-fix-with-ai-button.png)
 
-5. Les modifications suggérées sont surlignées en vert et le texte supprimé est barré en rouge, comme illustré ci-dessous. Vous remarquerez également que le score a été mis à jour (dans ce cas, il est de 80 %). Cliquez sur le bouton **Appliquer** pour que les modifications soient prises en compte.
+&#x200B;5. Les modifications suggérées sont surlignées en vert et le texte supprimé est barré en rouge, comme illustré ci-dessous. Vous remarquerez également que le score a été mis à jour (dans ce cas, il est de 80 %). Cliquez sur le bouton **Appliquer** pour que les modifications soient prises en compte.
 
 ![Modifications suggérées mises en surbrillance en vert avec le texte supprimé barré en rouge](assets/brand-alignment-apply-suggested-changes.png)
 
-6. Les modifications sont appliquées avec le nouveau texte.
-7. Passez en revue toutes les zones surlignées et effectuez les mises à jour nécessaires pour corriger le contenu, à l’aide de l’IA ou en le modifiant manuellement. Assurez-vous que toutes les modifications requises sont effectuées avant de continuer.
-8. Enregistrez les modifications.
+&#x200B;6. Les modifications sont appliquées avec le nouveau texte.
+&#x200B;7. Passez en revue toutes les zones surlignées et effectuez les mises à jour nécessaires pour corriger le contenu, à l’aide de l’IA ou en le modifiant manuellement. Assurez-vous que toutes les modifications requises sont effectuées avant de continuer.
+&#x200B;8. Enregistrez les modifications.
 
 ![Enregistrement des modifications après correction du contenu marqué](assets/brand-alignment-save-changes.png)
 
@@ -140,7 +140,7 @@ Par exemple :
 
 Cela indique que vos mises à jour ont correctement aligné l’e-mail sur les normes de la marque.
 
-5. Cliquez sur **Enregistrer** pour finaliser l’e-mail.
+&#x200B;5. Cliquez sur **Enregistrer** pour finaliser l’e-mail.
 
 ![Bouton Enregistrer pour finaliser l’e-mail](assets/brand-alignment-save-finalize-email.png)
 

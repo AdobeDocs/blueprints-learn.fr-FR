@@ -36,7 +36,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 1. Sélectionnez l’espace de noms **customerID** dans la liste déroulante
 1. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite, puis sur **Enregistrer** vos modifications.
 
-![Marquage du champ customerID en tant qu’identité de Principal ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
+![Marquage du champ customerID en tant qu’identité de Principal &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
 
 >[!NOTE]
 >
@@ -141,7 +141,6 @@ Parcourez la classe XDM Individual Profile, puis prenez quelques instants pour p
 >[!NOTE]
 >
 >Notez que le schéma présenté est une vue agrégée fusionnée de tous les schémas activés pour le profil dans votre sandbox. Les champs similaires dans la structure XDM hiérarchique fusionnent, tandis que les champs portant des noms et/ou des hiérarchies différents sont ajoutés à l’affichage global.
-
 > [!NOTE]
 >
 >Seule la classe basée sur XDM Individual Profile effectue des fusions entre les champs aux noms similaires.

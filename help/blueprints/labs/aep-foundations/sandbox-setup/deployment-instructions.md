@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Instructions de déploiement
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Cela n&#39;est nécessaire que si vous travaillez dans les laboratoires à votre propre rythme. Si vous suivez un cours ou un événement de formation en direct, votre sandbox a déjà été déployé pour vous.
 
@@ -39,7 +39,7 @@ Le pack de démonstration AEP Foundations est déployé sur votre sandbox à l�
 
 - **Droits de licence.** Privilèges d’administration pour une organisation IMS avec Real-Time CDP (avec segmentation en flux continu)
 - **Droits d’accès.** Un rôle Adobe Experience Platform avec toutes les autorisations sur le sandbox cible, y compris les informations d’identification d’API que vous avez créées à partir de la configuration de [Developer Console](developer-console-setup.md).
-- **Informations d’identification Developer Console.** Un projet qui comprend des API Adobe Experience Platform. Si vous ne les avez pas encore, suivez d’abord la configuration de [](developer-console-setup.md)
+- **Informations d’identification Developer Console.** Un projet qui comprend des API Adobe Experience Platform. Si vous ne les avez pas encore, suivez d’abord la configuration de [&#128279;](developer-console-setup.md)
 - **Sandbox.** Vide, de type `dev` et à l’état « Prêt » pendant au moins 60 minutes avant le démarrage du déploiement
 - **Node.js.** Toute version récente de LTS, sous Windows ou Mac
 
@@ -58,7 +58,7 @@ Le pack de démonstration AEP Foundations est déployé sur votre sandbox à l�
 L’interface de ligne de commande déploie sur le sandbox vers lequel pointe votre fichier d’environnement. Par conséquent, cette configuration doit être correcte avant toute exécution.
 
 1. Copiez `envFiles/sample-env.json` et donnez-lui un nouveau nom, par exemple `my-env.json`
-2. Ouvrez le fichier et renseignez les champs suivants à l&#39;aide des valeurs de la configuration de [Developer Console ](developer-console-setup.md) :
+2. Ouvrez le fichier et renseignez les champs suivants à l&#39;aide des valeurs de la configuration de [Developer Console &#x200B;](developer-console-setup.md) :
 
 | **Champ** | **Valeur** |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +68,7 @@ L’interface de ligne de commande déploie sur le sandbox vers lequel pointe vo
 | `SCOPES` | Doit inclure les portées d’API Experience Platform (openid, session, AdobeID, read_organisations, additional_info.expectedProductContext) |
 | `SANDBOX_NAME` | Le sandbox que vous ciblez doit être vide et de type `dev` |
 
-3. Enregistrer et fermer le fichier
+&#x200B;3. Enregistrer et fermer le fichier
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Dans le menu principal, sélectionnez **Fondations**. Il y a trois étapes, et e
 
 L’étape 1 prend environ 2 minutes pour s’exécuter, l’étape 2 environ 6 minutes et l’étape 3 est une validation rapide sans attente. Les intervalles de 60 et 15 minutes entre les étapes permettent à AEP de terminer la propagation des données en arrière-plan, ce qui représente la majeure partie de votre chronologie de 2 heures.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >L’interface de ligne de commande vérifie automatiquement ces temps d’attente. Si vous exécutez une étape trop tôt, elle bloque et vous indique combien de minutes il reste - vous n&#39;avez pas besoin de suivre l&#39;horloge vous-même.
 

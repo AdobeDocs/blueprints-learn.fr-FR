@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Vérifier le jeu de mappages final
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Si vous venez du laboratoire d’ingestion en flux continu, cliquez sur le lien ci-dessous pour passer à l’étape suivante de cet atelier :
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Assurez-vous que votre mappage final correspond à ce qui est indiqué ci-dessous avant de continuer.
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 | concat(date\_part(« month », date(born\_Date,« M/d/yyyy »)).toString(), « - », date\_part(« day », date(born\_Date,« M/d/yyyy »)).toString()) | person.bornDayAndMonth |
 | date\_part(« aaaa »,date(naissance\_Date,« M/j/aaaa »)) | person.bornYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Assurez-vous que votre mappage final correspond à ce qui est indiqué ci-dessous avant de continuer

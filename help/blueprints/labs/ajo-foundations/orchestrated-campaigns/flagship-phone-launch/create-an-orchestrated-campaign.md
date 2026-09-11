@@ -29,14 +29,14 @@ Dans l’ensemble d’étapes suivant, vous créez le shell d’une campagne orc
 
 
 
-2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
-3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
+&#x200B;2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
+&#x200B;3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
 
-![ Bouton Créer une campagne dans la navigation Campagnes ](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+![&#x200B; Bouton Créer une campagne dans la navigation Campagnes &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
+&#x200B;4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
 
 ![Sélectionnez Orchestration - Marketing, puis cliquez sur Confirmer](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -52,7 +52,7 @@ Lorsque vous avez terminé, l’écran doit ressembler à ce qui suit.
 
 ![Paramètres de campagne renseignés avec le nom et la politique de fusion](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. Cliquez sur le bouton **Enregistrer** pour continuer.
+&#x200B;2. Cliquez sur le bouton **Enregistrer** pour continuer.
 
 
 

@@ -23,7 +23,7 @@ Grâce à ces étapes, vous avez démontré comment les événements se déplace
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
 >

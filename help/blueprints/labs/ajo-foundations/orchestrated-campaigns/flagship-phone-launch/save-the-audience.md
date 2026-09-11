@@ -29,7 +29,7 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 
 
-2. Mettez à jour les propriétés de la dimension de modification comme indiqué ci-dessous :
+&#x200B;2. Mettez à jour les propriétés de la dimension de modification comme indiqué ci-dessous :
    - **Libellé :** `Convert Line to Account`
    - **Nouvelle dimension cible :** `dep-rel: Customer Account`
 
@@ -43,7 +43,7 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 
 
-3. Une fois cette opération terminée, voici à quoi ressemble votre zone de travail.  Enregistrez votre travail !
+&#x200B;3. Une fois cette opération terminée, voici à quoi ressemble votre zone de travail.  Enregistrez votre travail !
 
 ![Zone de travail du workflow après l’ajout de l’activité de changement de dimension](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -57,13 +57,13 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 
 
-2. Mettez à jour le libellé de l’activité Déduplication sur `Dedup customer id`
+&#x200B;2. Mettez à jour le libellé de l’activité Déduplication sur `Dedup customer id`
 
 ![Libellé de l’activité Déduplication défini sur ID client de déduplication](assets/save-the-audience-deduplication-label.png)
 
 
 
-3. Cliquez maintenant sur le bouton **+ Ajouter un attribut** et sélectionnez le champ dans le schéma intitulé **ID du client**
+&#x200B;3. Cliquez maintenant sur le bouton **+ Ajouter un attribut** et sélectionnez le champ dans le schéma intitulé **ID du client**
 
 ![Bouton Ajouter un attribut pour l’activité Déduplication](assets/save-the-audience-add-attribute-button.png)
 
@@ -71,11 +71,11 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 
 
-4. Dans les paramètres Déduplication , assurez-vous que les éléments suivants sont définis :
+&#x200B;4. Dans les paramètres Déduplication , assurez-vous que les éléments suivants sont définis :
    - **Doublons à conserver :** `1`
    - **Méthode de déduplication :** `Random selection`
 
-![Paramètres de déduplication avec doublons à conserver et méthode ](assets/save-the-audience-deduplication-settings.png)
+![Paramètres de déduplication avec doublons à conserver et méthode &#x200B;](assets/save-the-audience-deduplication-settings.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 
 
-5. Lorsque vous avez terminé, la zone de travail ressemble à ceci. Cliquez sur le bouton **Enregistrer** en haut à droite avant de passer à autre chose.
+&#x200B;5. Lorsque vous avez terminé, la zone de travail ressemble à ceci. Cliquez sur le bouton **Enregistrer** en haut à droite avant de passer à autre chose.
 
 ![Activité Déduplication entièrement configurée sur la zone de travail](assets/save-the-audience-deduplication-configured.png)
 
@@ -95,7 +95,7 @@ Dans les étapes suivantes, vous allez enregistrer l’audience que vous avez cr
 
 ![Ajouter l’activité Sauvegarde d’audience après déduplication](assets/save-the-audience-add-save-audience-activity.png)
 
-2. Dans le rail de droite, définissez les propriétés de l’activité sur ce qui suit :
+&#x200B;2. Dans le rail de droite, définissez les propriétés de l’activité sur ce qui suit :
    - **Libellé de l’audience** : `Apple Upgrade Eligible Customer Accounts`
    - **Champ de mappage de profil** : `dep-rel: Customer Account - customer id`
 
@@ -134,7 +134,7 @@ Par défaut, la clé primaire de la dimension de ciblage (c’est-à-dire l’ID
 
 
 
-2. Cliquez sur le bouton **Démarrer** pour exécuter le workflow. Votre workflow ressemble désormais à ceci, et les chiffres affichés sont les suivants :
+&#x200B;2. Cliquez sur le bouton **Démarrer** pour exécuter le workflow. Votre workflow ressemble désormais à ceci, et les chiffres affichés sont les suivants :
    - Créer une audience : `65`
    - Convertir la ligne en compte : `65`
    - Dédupliquer l’ID client : `46`

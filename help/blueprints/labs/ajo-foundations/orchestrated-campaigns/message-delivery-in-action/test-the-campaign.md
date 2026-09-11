@@ -31,7 +31,7 @@ Dans les étapes suivantes, vous exécuterez la campagne en mode test pour confi
 
 
 
-2. L&#39;exécution du test de toutes les activités de la campagne démarre et vérifie les résultats
+&#x200B;2. L&#39;exécution du test de toutes les activités de la campagne démarre et vérifie les résultats
 
 ![Test d&#39;exécution des activités de campagne en cours](assets/test-the-campaign-verify-execution-results.png)
 
@@ -43,11 +43,11 @@ Dans les étapes suivantes, vous exécuterez la campagne en mode test pour confi
 
 ![Exécuter un test pour l’e-mail à l’aide de l’activité Attribut de profil](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
+&#x200B;2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
 
 ![Cliquez sur Afficher le rapport pour afficher les détails du test d’e-mail](assets/test-the-campaign-view-report-1.png)
 
-3. La page Rapport sur les e-mails présente les statistiques des campagnes et le statut d’exécution. Le test d’e-mail permet de vérifier l’activité pour s’assurer qu’il n’y a aucune erreur et qu’elle n’envoie pas d’e-mails. Cela prend généralement environ \~**5** minutes.
+&#x200B;3. La page Rapport sur les e-mails présente les statistiques des campagnes et le statut d’exécution. Le test d’e-mail permet de vérifier l’activité pour s’assurer qu’il n’y a aucune erreur et qu’elle n’envoie pas d’e-mails. Cela prend généralement environ \~**5** minutes.
 
 ![Page de rapport sur les e-mails avec les statistiques de campagne](assets/test-the-campaign-campaign-statistics-1.png)
 
@@ -57,11 +57,11 @@ Dans les étapes suivantes, vous exécuterez la campagne en mode test pour confi
 
 
 
-4. Une fois le test d’e-mail terminé, les résultats sont présentés. Il existe un certain pourcentage d’erreurs. Cliquez sur **Afficher plus** pour en connaître la raison.
+&#x200B;4. Une fois le test d’e-mail terminé, les résultats sont présentés. Il existe un certain pourcentage d’erreurs. Cliquez sur **Afficher plus** pour en connaître la raison.
 
 ![Taux d’erreur avec le lien Afficher plus](assets/test-the-campaign-error-rate-view-more.png)
 
-5. La raison en est la `Email address not found in profile`
+&#x200B;5. La raison en est la `Email address not found in profile`
 
 ![Raison : adresse e-mail introuvable dans le profil](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -81,11 +81,11 @@ Dans les étapes suivantes, vous exécuterez la campagne en mode test pour confi
 
 ![Exécuter un test d’e-mail à l’aide de l’activité Dimension cible](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
+&#x200B;2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
 
 ![Cliquez sur Afficher le rapport pour afficher les détails du test d’e-mail](assets/test-the-campaign-view-report-2.png)
 
-3. Une fois le test d’e-mail terminé, les résultats sont présentés. Dans ce cas, il n’y aura aucune erreur
+&#x200B;3. Une fois le test d’e-mail terminé, les résultats sont présentés. Dans ce cas, il n’y aura aucune erreur
 
 ![Statistiques de campagne sans erreur](assets/test-the-campaign-campaign-statistics-2.png)
 

@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. Pour récupérer après les erreurs, vous devez accéder à **Sources->Flux de données->Nom du flux de données->Mettre à jour le flux de données** et corriger vos mappages.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Vous devez charger à nouveau le fichier d’exemple JSON en le supprimant d’abord et en l’ajoutant de nouveau, de sorte que le mappeur soit maintenant actualisé avec une nouvelle copie pour validation.
 

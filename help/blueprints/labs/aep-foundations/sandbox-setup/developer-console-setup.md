@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configuration de Developer Console
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Cela n&#39;est nécessaire que si vous travaillez dans les laboratoires à votre propre rythme. Si vous suivez un cours ou un événement de formation en direct, votre sandbox a déjà été déployé pour vous.
 
@@ -23,7 +23,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 
 >[!NOTE]
 >
->Si vous disposez déjà d’un projet Developer Console avec des informations d’identification pour Adobe Experience Platform (et, si nécessaire, Adobe Journey Optimizer), ignorez cette section et accédez directement à [ Instructions de déploiement ](deployment-instructions.md).
+>Si vous disposez déjà d’un projet Developer Console avec des informations d’identification pour Adobe Experience Platform (et, si nécessaire, Adobe Journey Optimizer), ignorez cette section et accédez directement à [&#x200B; Instructions de déploiement &#x200B;](deployment-instructions.md).
 
 ## Conditions préalables
 
@@ -33,7 +33,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 
 ## Créer le projet
 
-1. Accéder à [](https://developer.adobe.com/console) et se connecter
+1. Accéder à [&#128279;](https://developer.adobe.com/console) et se connecter
 1. Si vous avez accès à plusieurs organisations, utilisez le sélecteur d’organisations en haut à droite pour sélectionner la bonne
 1. Sélectionnez **Créer un projet**
 1. Renommez le projet en quelque chose que vous reconnaîtrez ultérieurement (par exemple, `DEP Sandbox`).
@@ -41,7 +41,7 @@ L’interface de ligne de commande DEP s’authentifie auprès de votre sandbox 
 ## Ajout de l’API Experience Platform
 
 1. Dans la présentation du projet, sélectionnez **Ajouter une API**
-1. Sélectionnez l’icône du produit **** puis sélectionnez l’API **Adobe Experience Platform**
+1. Sélectionnez l’icône du produit **&#x200B;**&#x200B;puis sélectionnez l’API **Adobe Experience Platform**
 1. Sélectionnez **Suivant**
 1. Choisissez **OAuth serveur à serveur** comme type d’authentification et sélectionnez **Suivant**
 1. Attribuez un nom aux informations d’identification et sélectionnez **Suivant**

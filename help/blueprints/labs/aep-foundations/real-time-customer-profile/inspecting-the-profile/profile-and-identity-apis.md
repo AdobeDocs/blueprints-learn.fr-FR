@@ -76,7 +76,7 @@ Chaque requête nécessite également les en-têtes suivants :
 
 Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode de profondeur de l’atelier précédent.
 
-1. Ouvrez **** et accédez au dossier **Profile Lab**
+1. Ouvrez **&#x200B;**&#x200B;et accédez au dossier **Profile Lab**
 1. Cliquez sur la requête **Recherche d’entité (attributs)** pour l’ouvrir
 1. Exécutez l’appel en cliquant sur le bouton **Envoyer**
 
@@ -106,7 +106,7 @@ Une requête réussie doit répondre par une `200 OK` et vous ne devriez voir qu
 
 ![Réponse OK filtrée 200 affichant uniquement les champs Prénom, Nom et Produits actifs](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Réponse de l’API de recherche d’entité de profil réussie (attributs) avec filtre activé")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Félicitations !  Vous avez réussi à rechercher les attributs d’un profil à l’aide de l’API Profile Entity
 
@@ -143,7 +143,7 @@ Vous pouvez essayer quelques-unes d’entre elles en les activant dans la sectio
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur toutes les options des paramètres de requête ici -> [](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>Vous pouvez en savoir plus sur toutes les options des paramètres de requête ici -> [&#128279;](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 

@@ -143,13 +143,13 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 
 
-3. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
+&#x200B;3. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
 
 ![Afficher l’événement dans l’onglet Événements du profil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4. Vérifiez que le profil est qualifié pour les audiences en consultant l’onglet Appartenance à l’audience dans le volet de navigation supérieur.  Vous devriez voir les éléments suivants :
+&#x200B;4. Vérifiez que le profil est qualifié pour les audiences en consultant l’onglet Appartenance à l’audience dans le volet de navigation supérieur.  Vous devriez voir les éléments suivants :
 
 - Tout événement Edge (au cours des 15 dernières minutes)
 - N’importe quel flux d’événements (au cours de la dernière heure)

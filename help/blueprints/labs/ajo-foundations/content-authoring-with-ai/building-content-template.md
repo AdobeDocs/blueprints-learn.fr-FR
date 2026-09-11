@@ -55,14 +55,14 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 ![Accès à la gestion de contenu, puis aux modèles de contenu](assets/building-content-template-navigate-content-templates.png)
 
-2. Cliquez sur **Créer un modèle** puis renseignez les champs suivants :
+&#x200B;2. Cliquez sur **Créer un modèle** puis renseignez les champs suivants :
    - **Name:** `Promotional Template`
    - **Description :** `Promotional Template for phone products`
    - **Canal:** `Email`
 
 ![Créer un formulaire de modèle avec le nom, la description et le canal e-mail](assets/building-content-template-create-template-form-fields.png)
 
-3. Cliquez sur **Créer**.
+&#x200B;3. Cliquez sur **Créer**.
 
 ![Bouton Créer pour terminer la création du modèle promotionnel](assets/building-content-template-click-create-button.png)
 
@@ -73,7 +73,7 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 ![Ajouter l’objet et ouvrir le corps de l’e-mail à modifier](assets/building-content-template-add-subject-line-open-editor.png)
 
-2. Trois options s’affichent :
+&#x200B;2. Trois options s’affichent :
    1. Créer en partant de zéro
    2. Coder le vôtre
    3. Importer HTML
@@ -92,11 +92,11 @@ Sélectionnez la troisième option. Cliquez sur **Importer HTML**
 
 ![Chargement de promotiontemplate-final.html à partir du dossier toolkit](assets/building-content-template-upload-html-template-file.png)
 
-2. Cliquez sur le bouton Importer pour **importer** le modèle.
+&#x200B;2. Cliquez sur le bouton Importer pour **importer** le modèle.
 
 ![Bouton Importer permettant d&#39;importer le modèle HTML téléchargé](assets/building-content-template-click-import-button.png)
 
-3. Attendez que la mise en page s’affiche. Vous constatez des problèmes tels que des liens d’image rompus ou une image de marque manquante. (Comportement attendu, car nous disposons de ressources d’espace réservé)
+&#x200B;3. Attendez que la mise en page s’affiche. Vous constatez des problèmes tels que des liens d’image rompus ou une image de marque manquante. (Comportement attendu, car nous disposons de ressources d’espace réservé)
 
 ![Modèle rendu affichant des liens d’image rompus et des espaces réservés d’identité graphique manquants](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +127,7 @@ Le fragment d’en-tête que vous avez créé dans l’exercice précédent appa
 
 ![Fragment d’en-tête affiché en direct avec un point bleu dans la barre latérale gauche](assets/building-content-template-header-fragment-live-sidebar.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Si vous ne voyez pas votre fragment ici, cela signifie que vous ne l’avez pas enregistré correctement et que vous devez le charger à nouveau.
 
@@ -145,19 +145,19 @@ Vous voyez quelque chose comme ça.
 
 ![Mise en page du modèle après l’ajout de la nouvelle colonne au-dessus du contenu](assets/building-content-template-column-added-above-content.png)
 
-2. Votre arrière-plan utilise la couleur d’arrière-plan du modèle, qui est actuellement noire. Définissez sa couleur d’arrière-plan **sur blanche. Cliquez sur** dans l’onglet Style du rail de droite et utilisez la couleur blanche du sélecteur de couleurs.
+&#x200B;2. Votre arrière-plan utilise la couleur d’arrière-plan du modèle, qui est actuellement noire. Définissez sa couleur d’arrière-plan **sur blanche. Cliquez sur** dans l’onglet Style du rail de droite et utilisez la couleur blanche du sélecteur de couleurs.
 
 ![Définition de la couleur blanche de l’arrière-plan de la colonne à l’aide du sélecteur de couleurs](assets/building-content-template-set-background-color-white.png)
 
-3. Ouvrez **Fragments** et faites glisser votre fragment **En-tête**.
+&#x200B;3. Ouvrez **Fragments** et faites glisser votre fragment **En-tête**.
 
 ![Faites glisser le fragment d’en-tête dans le modèle à partir du panneau Fragments](assets/building-content-template-drag-header-fragment-into-template.png)
 
-4. Notez que le fragment d’en-tête est soigneusement aligné sur votre modèle, comme illustré ci-dessous.
+&#x200B;4. Notez que le fragment d’en-tête est soigneusement aligné sur votre modèle, comme illustré ci-dessous.
 
 ![Fragment d’en-tête soigneusement aligné dans le modèle](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. Cliquez sur le bouton **Enregistrer** pour enregistrer votre modèle, puis sur **Précédent**.
+&#x200B;5. Cliquez sur le bouton **Enregistrer** pour enregistrer votre modèle, puis sur **Précédent**.
 
 ![bouton Enregistrer pour enregistrer le modèle avant de cliquer sur Précédent](assets/building-content-template-click-save-button-template.png)
 

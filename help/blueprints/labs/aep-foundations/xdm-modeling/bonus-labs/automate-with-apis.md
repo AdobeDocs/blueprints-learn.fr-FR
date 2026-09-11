@@ -47,7 +47,7 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 1. Une nouvelle fenêtre doit s’afficher, qui affiche tous les appels API dans le dossier . Définissez le **Délai** sur **500 ms**, puis cliquez sur le bouton **Exécuter**.
 
-![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter ](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
+![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter &#x200B;](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
 
 
 
@@ -65,6 +65,6 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 ![Deux jeux de données créés avec Postman : préfixe correspondant aux schémas automatisés](assets/automate-with-apis-datasets-created-in-ui.png "Jeux de données d’automatisation")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Félicitations !  Vous venez d’automatiser le déploiement des espaces de noms d’identité, des groupes de champs, des schémas, des descripteurs d’identité/de relation et d’activer un schéma pour le profil et de générer un jeu de données utilisant le schéma

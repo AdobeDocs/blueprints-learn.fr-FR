@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Résumé
 
-Félicitations, vous avez terminé le Lab. Vous avez maintenant créé et testé un workflow de prise de décision Adobe Journey Optimizer **** complet.
+Félicitations, vous avez terminé le Lab. Vous avez maintenant créé et testé un workflow de prise de décision Adobe Journey Optimizer **&#x200B;**&#x200B;complet.
 
 Vous avez commencé par étendre le **schéma d’offre** et créer des **règles d’éligibilité** pour contrôler quels clients remplissent les critères pour des offres spécifiques. Vous avez ensuite créé plusieurs **éléments d’offre**, configuré des priorités et des limites de fréquence, puis les avez organisés en une **collection d’offres**.
 
@@ -25,7 +25,7 @@ Enfin, vous avez **testé le flux de prise de décision de bout en bout** en val
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES AU BOUT DU LABORATOIRE.**
 >

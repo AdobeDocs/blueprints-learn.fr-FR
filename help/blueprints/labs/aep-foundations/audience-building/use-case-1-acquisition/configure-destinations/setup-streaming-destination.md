@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Nous allons utiliser un webhook ici afin de voir si les données sont arrivées à la destination vers laquelle nous envoyons. Dans un scénario réel, nous nous connecterions à cette destination et utiliserions ses outils pour voir ce qui est arrivé.
 
-1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [](https://webhook.site/)
+1. Ouvrez le lien suivant dans un nouvel onglet de votre navigateur -> [&#128279;](https://webhook.site/)
 1. Copiez l’URL unique qui s’affiche et enregistrez-la en lieu sûr.
 
 ![Webhook.site copier votre URL unique](assets/setup-streaming-destination-webhooksite-copy-your-unique-url.png "Webhook.site copier votre URL unique")
@@ -63,7 +63,7 @@ Dans l’interface utilisateur d’Experience Platform, accédez au catalogue de
 
 
 
-3. Renseignez les détails de configuration de la destination comme suit :
+&#x200B;3. Renseignez les détails de configuration de la destination comme suit :
 
 - **Nom** -> `Streaming DEP Webhook - [Your Initials]`
 - **Description** -> `[your webhook endpoint you copied above]`
@@ -92,7 +92,7 @@ Lorsque vous avez terminé, assurez-vous que votre configuration correspond à c
 >
 >Vous pouvez en savoir plus sur les politiques de gouvernance dans Experience League
 >
->[](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Sélectionner des audiences
 

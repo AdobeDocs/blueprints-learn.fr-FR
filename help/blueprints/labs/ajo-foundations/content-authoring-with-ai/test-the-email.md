@@ -37,11 +37,11 @@ ht-degree: 0%
 
 Un panneau de simulation s’ouvre.
 
-3. Cliquez sur **Envoyer un BAT**.
+&#x200B;3. Cliquez sur **Envoyer un BAT**.
 
 ![Bouton Envoyer un BAT dans le panneau de simulation](assets/test-the-email-click-send-proof-button.png)
 
-4. Ajoutez votre adresse e-mail personnelle.
+&#x200B;4. Ajoutez votre adresse e-mail personnelle.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Un panneau de simulation s’ouvre.
 
 
 
-5. Sélectionnez les deux variantes.
-6. Ajouter un préfixe de ligne d&#39;objet
+&#x200B;5. Sélectionnez les deux variantes.
+&#x200B;6. Ajouter un préfixe de ligne d&#39;objet
    1. Variante 1 : supérieure à 40
    2. Variante 2 : Inférieure À 40
-7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **BAT envoyés avec succès »** s’affiche
+&#x200B;7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **BAT envoyés avec succès »** s’affiche
 
 ![Message de confirmation vert affichant les BAT envoyés avec succès](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

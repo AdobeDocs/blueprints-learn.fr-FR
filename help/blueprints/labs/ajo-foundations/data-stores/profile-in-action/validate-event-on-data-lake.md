@@ -21,7 +21,7 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
 
 ## Valider l’événement
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.  Nous savons que le jeu de données est activé pour le profil et que l’événement créera donc un fragment de profil.
 >
@@ -31,16 +31,16 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
 
 ![Écran Créer une requête dans la section Requêtes](assets/validate-event-on-data-lake-create-query.png)
 
-2. Copiez ce code SQL et collez-le dans votre requête.
+&#x200B;2. Copiez ce code SQL et collez-le dans votre requête.
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **Exécuter** Requête
+&#x200B;3. **Exécuter** Requête
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**À retenir** : les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.
 >

@@ -55,7 +55,7 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 ![Vue JSON des attributs de profil affichant segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
-2. Recherchez **segmentMembership**.  Il doit ressembler à ceci (vos identifiants seront différents) :
+&#x200B;2. Recherchez **segmentMembership**.  Il doit ressembler à ceci (vos identifiants seront différents) :
 
 ```json
   "segmentMembership": {
@@ -75,7 +75,7 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 >
 >**Comment lire segmentMembership ?**
 >
->[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups :** il s’agit de la clé de mappage pour les différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
 >

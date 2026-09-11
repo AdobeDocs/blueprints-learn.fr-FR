@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Zone de travail de Parcours ![avec l’événement de qualification d’audience ajouté et l’espace de noms défini sur customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. Une fois que tout le monde a l’air correct, cliquez sur le bouton bleu **Enregistrer** pour enregistrer votre progression.
+&#x200B;9. Une fois que tout le monde a l’air correct, cliquez sur le bouton bleu **Enregistrer** pour enregistrer votre progression.
 
 >[!NOTE]
 >
@@ -44,31 +44,31 @@ Zone de travail de Parcours ![avec l’événement de qualification d’audience
 
 ![Propriétés des actions d’expérience basées sur le code avec le bouton Configurer l’action](assets/create-the-journey-configure-action-button.png)
 
-4. Remplacez la liste déroulante **Configuration basée sur le code** par le cbe **jsonOffer\_cbe** que vous avez créé dans la dernière section.
+&#x200B;4. Remplacez la liste déroulante **Configuration basée sur le code** par le cbe **jsonOffer\_cbe** que vous avez créé dans la dernière section.
 
 ![Liste déroulante de configuration basée sur le code définie sur le canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Cliquez sur le bouton **Modifier le contenu** juste au-dessus de la liste déroulante « Configuration basée sur le code ».
-6. Sur l’écran de l’éditeur d’expérience basé sur le code qui s’affiche, cliquez sur le bouton **Modifier le code**. L’écran qui en résulte vous permet d’ajouter le fichier JSON renvoyé aux requêtes d’événement d’expérience
+&#x200B;5. Cliquez sur le bouton **Modifier le contenu** juste au-dessus de la liste déroulante « Configuration basée sur le code ».
+&#x200B;6. Sur l’écran de l’éditeur d’expérience basé sur le code qui s’affiche, cliquez sur le bouton **Modifier le code**. L’écran qui en résulte vous permet d’ajouter le fichier JSON renvoyé aux requêtes d’événement d’expérience
 
 ![Écran Modifier le code de l’éditeur d’expérience basé sur le code](assets/create-the-journey-edit-code-screen.png)
 
-7. À l’extrémité gauche de l’éditeur de code, cliquez sur l’élément de menu **Politique de décision**, puis sur le bouton **Ajouter une politique de décision** dans le nouveau menu.
+&#x200B;7. À l’extrémité gauche de l’éditeur de code, cliquez sur l’élément de menu **Politique de décision**, puis sur le bouton **Ajouter une politique de décision** dans le nouveau menu.
 
-![Menu Politique de décision avec le bouton Ajouter une politique de décision ](assets/create-the-journey-add-decision-policy-button.png)
+![Menu Politique de décision avec le bouton Ajouter une politique de décision &#x200B;](assets/create-the-journey-add-decision-policy-button.png)
 
 >[!NOTE]
 >
 >Si une stratégie de sélection consiste à lier une collection d’offres à une méthode de classement (et à appliquer une éligibilité au niveau de la stratégie), une politique de décision consiste à lier une stratégie de sélection à une diffusion spécifique d’un canal.
 
-8. Nommez cette politique de décision **iPhone 17 DP** et laissez le Nombre d’éléments défini sur 1.
+&#x200B;8. Nommez cette politique de décision **iPhone 17 DP** et laissez le Nombre d’éléments défini sur 1.
 
 >[!NOTE]
 >
 >Jusqu’à présent, vous avez configuré les offres et la manière de les commander, mais vous n’avez pas configuré le nombre de retours. C’est là que vous configurez le nombre d’offres à renvoyer.
 
-9. Cliquez sur le bouton bleu **Suivant**. C’est là que vous ajoutez la stratégie de sélection. Cliquez sur le bouton **+Ajouter** (vous devrez peut-être faire défiler la page vers le bas pour l’afficher), puis choisissez **Stratégie de sélection**.
-10. Cochez la case en regard de la seule stratégie de sélection que vous devriez avoir (**Stratégie de sélection iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, voici ce que vous voyez :
+&#x200B;9. Cliquez sur le bouton bleu **Suivant**. C’est là que vous ajoutez la stratégie de sélection. Cliquez sur le bouton **+Ajouter** (vous devrez peut-être faire défiler la page vers le bas pour l’afficher), puis choisissez **Stratégie de sélection**.
+&#x200B;10. Cochez la case en regard de la seule stratégie de sélection que vous devriez avoir (**Stratégie de sélection iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, voici ce que vous voyez :
 
 ![Stratégie de sélection iPhone 17 sélectionnée pour la politique de décision](assets/create-the-journey-selection-strategy-selected.png)
 
@@ -78,16 +78,16 @@ Zone de travail de Parcours ![avec l’événement de qualification d’audience
 >
 >L’offre de secours est facultative, car elle ne s’appliquerait que s’il était possible pour les utilisateurs finaux d’être (ou de devenir) inéligibles à l’une des offres. Dans notre cas, notre stratégie de sélection s’adressait à tous les visiteurs, et les seules personnes qui accédaient au nœud CBE étaient celles qui accédaient au Parcours. L’authentification est une exigence pour l’entrée au Parcours (l’espace de noms défini dans le Parcours est celui qu’ils auraient seulement s’ils étaient authentifiés). Nous avons également intégré une offre de secours à notre formule de classement. Dans notre cas, il n’est donc pas nécessaire de définir cette offre de secours.
 
-11. Cliquez sur le bouton bleu **Suivant** pour passer en revue la politique de décision.
+&#x200B;11. Cliquez sur le bouton bleu **Suivant** pour passer en revue la politique de décision.
 
 ![Étape de révision de la politique de décision avant de la créer](assets/create-the-journey-review-decision-policy.png)
 
-12. Une fois que tout semble correct, cliquez sur le bouton bleu **Créer**. Une fois créé, vous revenez à la page de l’éditeur d’expression.
-13. Un écran similaire à celui ci-dessous devrait s’afficher. Dans le cas contraire, cliquez de nouveau sur **Politique de décision** pour faire apparaître votre politique de décision.
+&#x200B;12. Une fois que tout semble correct, cliquez sur le bouton bleu **Créer**. Une fois créé, vous revenez à la page de l’éditeur d’expression.
+&#x200B;13. Un écran similaire à celui ci-dessous devrait s’afficher. Dans le cas contraire, cliquez de nouveau sur **Politique de décision** pour faire apparaître votre politique de décision.
 
 ![L’éditeur d’expression affichant la politique de décision est prêt à être inséré](assets/create-the-journey-decision-policy-ready.png)
 
-14. Cliquez sur le bouton **+ Insérer une politique** pour afficher une boucle ForEach dans l’éditeur de code :
+&#x200B;14. Cliquez sur le bouton **+ Insérer une politique** pour afficher une boucle ForEach dans l’éditeur de code :
 
 ![PourChaque boucle insérée dans l’éditeur de code après l’insertion de la politique de décision](assets/create-the-journey-foreach-loop-inserted.png)
 
@@ -95,7 +95,7 @@ Zone de travail de Parcours ![avec l’événement de qualification d’audience
 >
 >Pourquoi un pour chaque boucle ? Dans notre cas, nous ne renvoyons qu&#39;une seule offre. Toutefois, considérez les étapes précédentes au cours desquelles nous pouvions renvoyer plusieurs offres. En ce qui concerne la fonctionnalité, le mécanisme de boucle a ici un sens.
 
-15. Ajoutez un fichier JSON valide dans les limites de la boucle pour renvoyer la marque, le modèle et le niveau du téléphone qui doivent être proposés à l’utilisateur final. Comme le capping de la fréquence est également en place, un trackingToken doit être ajouté à la réponse. Vous trouverez plus d’informations à ce sujet plus loin dans les instructions. Pour gagner du temps, copiez et collez simplement ces lignes de code dans l’éditeur de code au sein de la boucle For Each :
+&#x200B;15. Ajoutez un fichier JSON valide dans les limites de la boucle pour renvoyer la marque, le modèle et le niveau du téléphone qui doivent être proposés à l’utilisateur final. Comme le capping de la fréquence est également en place, un trackingToken doit être ajouté à la réponse. Vous trouverez plus d’informations à ce sujet plus loin dans les instructions. Pour gagner du temps, copiez et collez simplement ces lignes de code dans l’éditeur de code au sein de la boucle For Each :
 
 ```javascript
    {
@@ -112,14 +112,14 @@ Zone de travail de Parcours ![avec l’événement de qualification d’audience
 >
 >Rappelez-vous que vous avez ajouté des attributs au schéma XDM de l’offre standard, en particulier la marque, le modèle et le niveau. Vous avez ensuite renseigné ces attributs lors de la création des offres. Vous ajoutez maintenant ces attributs en tant que variables qui sont renseignées avec des valeurs de l’offre sélectionnée. Le champ trackingToken est une valeur générée par le système utilisée pour le suivi des clics et des impressions.
 
-16. Placez le curseur entre les **« »** du nœud « make ». Insérez le nom de l’offre en accédant dans le menu de politique de décision au nœud **\_dep > Appareil > Nom**.  Cliquez sur l’icône **+** sur l’élément **Make** pour le voir remplir l’éditeur.
+&#x200B;16. Placez le curseur entre les **« »** du nœud « make ». Insérez le nom de l’offre en accédant dans le menu de politique de décision au nœud **\_dep > Appareil > Nom**.  Cliquez sur l’icône **+** sur l’élément **Make** pour le voir remplir l’éditeur.
 
 ![Attribut Make de la politique de décision renseignée dans l’éditeur JSON](assets/create-the-journey-populate-make-attribute.png)
 
-17. Ajoutez les attributs **model** et **tier** de la même manière.
-18. Cliquez sur **Politique de décision** dans la navigation d’attributs pour revenir au niveau racine.
-19. Renseignez l’attribut trackingToken en accédant à la valeur du jeton de suivi via le chemin **\_experience > prise de décision > decisionitem > Jeton de suivi** .
-20. Enfin, placez l’ensemble du code entre crochets (**\[]**). Votre code JSON final doit se présenter comme suit :
+&#x200B;17. Ajoutez les attributs **model** et **tier** de la même manière.
+&#x200B;18. Cliquez sur **Politique de décision** dans la navigation d’attributs pour revenir au niveau racine.
+&#x200B;19. Renseignez l’attribut trackingToken en accédant à la valeur du jeton de suivi via le chemin **\_experience > prise de décision > decisionitem > Jeton de suivi** .
+&#x200B;20. Enfin, placez l’ensemble du code entre crochets (**\[]**). Votre code JSON final doit se présenter comme suit :
 
 ![Code JSON final placé entre crochets pour la réponse CBE](assets/create-the-journey-final-json-code.png)
 
@@ -129,18 +129,18 @@ Zone de travail de Parcours ![avec l’événement de qualification d’audience
 
 
 
-21. Une fois que tout se présente comme dans la capture d’écran ci-dessus, cliquez sur le bouton **Enregistrer et fermer** en haut à droite pour enregistrer votre code. Vous revenez alors à la page Expérience basée sur le code .
-22. Cliquez sur la flèche vers l’arrière **\&lt;** icône en regard du nom du Parcours pour revenir à la zone de travail.
+&#x200B;21. Une fois que tout se présente comme dans la capture d’écran ci-dessus, cliquez sur le bouton **Enregistrer et fermer** en haut à droite pour enregistrer votre code. Vous revenez alors à la page Expérience basée sur le code .
+&#x200B;22. Cliquez sur la flèche vers l’arrière **\&lt;** icône en regard du nom du Parcours pour revenir à la zone de travail.
 
 ![Zone de travail de Parcours après le retour de l’éditeur d’expérience basé sur le code](assets/create-the-journey-return-to-canvas.png)
 
-23. Cliquez sur le bouton bleu **Enregistrer** pour enregistrer le nœud d’action CBE. Votre Parcours ressemble désormais à ceci :
+&#x200B;23. Cliquez sur le bouton bleu **Enregistrer** pour enregistrer le nœud d’action CBE. Votre Parcours ressemble désormais à ceci :
 
 ![Zone de travail de Parcours affichant le nœud d&#39;action CBE terminé](assets/create-the-journey-completed-canvas.png)
 
-24. Une fois le Parcours terminé, cliquez sur le bouton bleu **Publier** en haut à droite et **Publier** à nouveau lorsque la zone de confirmation s’affiche. Après un moment ou deux, vous verrez que votre Parcours est maintenant en ligne !
+&#x200B;24. Une fois le Parcours terminé, cliquez sur le bouton bleu **Publier** en haut à droite et **Publier** à nouveau lorsque la zone de confirmation s’affiche. Après un moment ou deux, vous verrez que votre Parcours est maintenant en ligne !
 
-Parcours de navigation Abandon d’iPhone 17 publié et actif](assets/create-the-journey-published-live.png)![
+Parcours de navigation Abandon d’iPhone 17 publié et actif![&#128279;](assets/create-the-journey-published-live.png)
 
 >[!TIP]
 >
