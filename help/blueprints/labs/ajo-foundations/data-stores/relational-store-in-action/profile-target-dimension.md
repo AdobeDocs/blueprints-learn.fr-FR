@@ -106,4 +106,4 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 Vous avez maintenant vu à quel point il est facile de naviguer dans le schéma, de marquer un attribut comme une identité et de créer le Dimension cible de profil.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.

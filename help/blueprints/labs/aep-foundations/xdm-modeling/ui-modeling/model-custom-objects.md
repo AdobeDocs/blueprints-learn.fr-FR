@@ -106,7 +106,7 @@ Comme nous l’avons vu dans la conférence, il n’existe aucun groupe de champ
 
    >[!NOTE]
    >
-   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, consultez la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, consultez la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=fr#enums-and-suggested-values)
 
 
 
