@@ -112,7 +112,7 @@ Conserver les paramètres par défaut
    - **Source:** `Target Dimension`
    - **Adresse de diffusion :** `click on the Edit button`
 
-   Dimension Target](assets/configure-for-relational-execution-address-source-target-dimension.png)![
+   Dimension Target![&#128279;](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
 4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
 

@@ -48,7 +48,7 @@ Avant d’effectuer des appels d’API, vous devez mettre à jour certaines des 
 
 >[!NOTE]
 >
->Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [](../sandbox-setup/developer-console-setup.md#collect-your-values)
+>Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [&#128279;](../sandbox-setup/developer-console-setup.md#collect-your-values)
 
 
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
 
-- Installation de **** **—>** installation de [Postman](../../postman-setup/postman-installation.md)
+- Installation de **&#x200B;**&#x200B;**—>** installation de [Postman](../../postman-setup/postman-installation.md)
 - **Magasins de données — Profil en action** **—>** [Créer un flux de données](../../data-stores/profile-in-action/create-datastream.md)
 
 Si vous n&#39;avez pas terminé ces laboratoires, faites-le maintenant avant de continuer.

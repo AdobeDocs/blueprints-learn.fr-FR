@@ -66,7 +66,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 2. Sélectionnez **Profile Target Dimension** et cliquez sur **Gérer**
 
-   ![Configuration de Profile Target Dimension avec l’option Gérer ](assets/profile-target-dimension-manage-configuration.png)
+   ![Configuration de Profile Target Dimension avec l’option Gérer &#x200B;](assets/profile-target-dimension-manage-configuration.png)
 
 3. Le volet Dimension de Profile Target s’ouvre. Cliquez sur **Créer**
 
@@ -82,7 +82,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 5. Pour l’**Valeur d’identité** sélectionnez `/customer_id`
 
-   ![ Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
+   ![&#x200B; Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
 
    >[!NOTE]
    >

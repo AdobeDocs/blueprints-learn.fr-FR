@@ -33,7 +33,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 1. Sélectionnez l’espace de noms **customerID** dans la liste déroulante
 1. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite, puis sur **Enregistrer** vos modifications.
 
-![Marquage du champ customerID en tant qu’identité de Principal ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
+![Marquage du champ customerID en tant qu’identité de Principal &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
 
 >[!NOTE]
 >

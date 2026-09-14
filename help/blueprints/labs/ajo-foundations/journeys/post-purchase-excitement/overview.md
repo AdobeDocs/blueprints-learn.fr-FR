@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
 
-- Installation de **** **—>** installation de [Postman](../../postman-setup/postman-installation.md)
+- Installation de **&#x200B;**&#x200B;**—>** installation de [Postman](../../postman-setup/postman-installation.md)
 - **Magasins de données — Magasin relationnel en action** **—>** [Dimension cible du profil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Magasins de données — Configuration des canaux e-mail —>** [Configuration pour le profil](../../data-stores/configure-email-channels/configure-for-profile.md)
   *(cette étape peut prendre jusqu’à 3 heures)*

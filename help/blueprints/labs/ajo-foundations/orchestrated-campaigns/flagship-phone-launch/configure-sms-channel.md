@@ -41,7 +41,7 @@ Commencez par créer le connecteur API qu’AJO utilise pour envoyer les requêt
 
 >[!NOTE]
 >
->Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio. Voir le [guide de prise en main](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) de Twilio pour une présentation complète.
+>Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [&#128279;](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio. Voir le [guide de prise en main](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) de Twilio pour une présentation complète.
 
 ![Champs d’informations d’identification de l’API SMS pour le fournisseur Twilio](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -107,7 +107,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
    ![Paramètres de la dimension d’exécution avec dimension cible et dimension secondaire](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« ](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
+   ![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
 
    >[!NOTE]
    >

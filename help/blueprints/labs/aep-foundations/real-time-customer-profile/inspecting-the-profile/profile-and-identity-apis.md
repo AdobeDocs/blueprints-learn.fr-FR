@@ -73,7 +73,7 @@ Chaque requête nécessite également les en-têtes suivants :
 
 Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode de profondeur de l’atelier précédent.
 
-1. Ouvrez **** et accédez au dossier **Profile Lab**
+1. Ouvrez **&#x200B;**&#x200B;et accédez au dossier **Profile Lab**
 1. Cliquez sur la requête **Recherche d’entité (attributs)** pour l’ouvrir
 1. Exécutez l’appel en cliquant sur le bouton **Envoyer**
 
@@ -140,7 +140,7 @@ Essayez-en quelques-uns en les activant dans la section Paramètres et en exécu
 
 >[!NOTE]
 >
->En savoir plus sur toutes les options des paramètres de requête ici -> [](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>En savoir plus sur toutes les options des paramètres de requête ici -> [&#128279;](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 
