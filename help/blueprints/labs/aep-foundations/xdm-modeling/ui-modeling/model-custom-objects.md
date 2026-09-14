@@ -4,19 +4,17 @@ description: Créez des champs et des objets de compte, de plan et customerID pe
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '988'
 ht-degree: 0%
-
 ---
-
 
 # Modèles d’objets personnalisés
 
 ## Ajout de champs personnalisés
 
-Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs ou de types de données standard prêts à l’emploi qui modélisent les champs personnalisés du compte client.  Les champs ci-dessous sont actuellement considérés comme personnalisés et doivent être modélisés dans le schéma XDM.
+Comme nous l’avons vu dans la conférence, il n’existe aucun groupe de champs prédéfini standard ni type de données qui modélise les champs personnalisés du compte client.  Les champs ci-dessous sont actuellement considérés comme personnalisés et doivent être modélisés dans le schéma XDM.
 
 - \_\&lt;nom-client>.account.createDate
 - \_\&lt;nom-client>.account.endDate
@@ -43,7 +41,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 
 
-1. Créez l’objet compte en utilisant les détails ci-dessous. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite pour afficher la modification dans l’espace de travail des schémas
+1. Créez l’objet de compte à l’aide des détails ci-dessous. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite pour afficher la modification dans l’espace de travail des schémas
 
 | Nom du champ | Nom d’affichage | Type | Affecter à un nouveau groupe de champs |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +49,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 >[!WARNING]
 >
->Vos noms de champ doivent respecter une casse spécifique. En effet, nous avons déjà précréé le même schéma que celui que vous êtes en train de créer. Si votre casse est désactivée, cela provoquera un conflit avec les chemins d’accès aux champs du schéma préexistant dans votre sandbox
+>Vos noms de champ doivent respecter une casse spécifique. En effet, le schéma que vous créez a déjà été précréé. Si la casse est désactivée, cela entraîne un conflit avec les chemins d’accès aux champs du schéma préexistant dans votre sandbox
 
 ![Ajout de l’objet compte avec son groupe de champs affecté](assets/model-custom-objects-adding-the-account-object.png "Ajout de l’objet compte")
 
@@ -61,7 +59,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 >[!NOTE]
 >
->Notez que votre nouveau groupe de champs personnalisés s’affiche dans le rail de gauche sous le `Field groups` sans icône de verrouillage.  Cela indique qu’il s’agit d’un groupe de champs créé personnalisé.
+>Notez que votre nouveau groupe de champs personnalisés s’affiche dans le rail de gauche sous le `Field groups` sans icône de verrouillage.  Cette icône de verrou manquante indique qu’il s’agit d’un groupe de champs personnalisé.
 
 >[!WARNING]
 >
@@ -83,7 +81,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 
 
-1. Une fois cette opération terminée, l’objet de compte des schémas doit ressembler à ce qui suit. **Enregistrez** votre schéma !
+1. Lorsque vous avez terminé, l’objet compte de votre schéma ressemble à ce qui suit. **Enregistrez** votre schéma !
 
 
 
@@ -97,7 +95,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
    | ----------- | ----------------- | -------- | --------------------------------------- |
    | *acqSource* | Source acquis ** | *String* | *web :: Web *<br />*inStore :: In Store* |
 
-   Ce champ nécessite des valeurs normalisées. Utilisez donc l’option **Énumération et valeurs suggérées** dans les propriétés des champs. Sélectionnez le bouton radio **Énumération** pour ajouter une validation pour ce champ lors de l’ingestion, ainsi que des libellés conviviaux. Ajoutez les valeurs d’énumération comme illustré ci-dessous :
+   Ce champ nécessite des valeurs normalisées. Utilisez donc l’option **Énumération et valeurs suggérées** dans les propriétés du champ. Sélectionnez le bouton radio **Énumération** pour ajouter une validation pour ce champ lors de l’ingestion, ainsi que des libellés conviviaux. Ajoutez les valeurs d’énumération comme illustré ci-dessous :
 
    - *web :: Web*
    - *inStore :: en magasin*
@@ -108,7 +106,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
    >[!NOTE]
    >
-   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, vous pouvez consulter la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=fr#enums-and-suggested-values)
+   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, consultez la documentation ici -> [](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -116,7 +114,7 @@ Comme nous l’avons vu dans la lecture, il n’existe pas de groupes de champs 
 
 1. **Enregistrer** votre schéma
 
->[!TIP]
+>[!SUCCESS]
 >
 >Vous avez créé votre premier objet et champ personnalisés dans le registre des schémas XDM.
 
@@ -161,7 +159,7 @@ Une fois cette opération terminée, validez la correspondance de votre schéma 
 
 ## Création de champ d’ID client
 
-L’ajout du champ **customerID** en tant que ce champ est essentiel, car il servira d’identité principale pour le schéma, ainsi que de champ général pour contenir des données.
+L’ajout du champ **customerID** en tant que ce champ est essentiel, car il sert d’identité principale pour le schéma, ainsi que de champ général pour contenir des données.
 
 Effectuez les mêmes étapes que précédemment et utilisez le tableau ci-dessous pour référencer les métadonnées du champ.
 
@@ -171,15 +169,15 @@ Effectuez les mêmes étapes que précédemment et utilisez le tableau ci-dessou
 
 >[!NOTE]
 >
->Le `customerID` peut être placé n’importe où dans le schéma d’un point de vue hiérarchique. Dans cet atelier, nous avons choisi de le conserver à la racine et de ne pas l’imbriquer dans l’un des objets personnalisés que vous avez précédemment créés.  C’est là que l’architecture des données émet des opinions
+>Le `customerID` peut être placé n’importe où dans le schéma d’un point de vue hiérarchique. Dans cet atelier, le champ customerID reste à la racine et n’est pas imbriqué dans l’un des objets personnalisés que vous avez précédemment créés.  Cet emplacement permet à l’architecture des données d’avoir une opinion
 >
 >😄
 
 
 
-Le résultat final doit ressembler à la capture d’écran ci-dessous lorsque vous avez terminé
+Une fois que vous avez terminé, le résultat final ressemble à la capture d’écran ci-dessous
 
-![&#x200B; Schéma de compte client avec le champ customerID ajouté à la racine &#x200B;](assets/model-custom-objects-customerid-field-added.png)
+![ Schéma de compte client avec le champ customerID ajouté à la racine ](assets/model-custom-objects-customerid-field-added.png)
 
 
 
@@ -189,6 +187,6 @@ Le résultat final doit ressembler à la capture d’écran ci-dessous lorsque v
 
 ![Schéma final avec tous les objets et champs personnalisés ajoutés](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Schéma final avec les objets personnalisés")
 
->[!TIP]
+>[!SUCCESS]
 >
->Vous avez créé votre premier schéma XDM. Dans la section suivante, vous allez configurer le schéma à utiliser avec le profil client en temps réel.
+>Vous avez créé votre premier schéma XDM. Dans la section suivante, vous configurez le schéma à utiliser avec le profil client en temps réel.

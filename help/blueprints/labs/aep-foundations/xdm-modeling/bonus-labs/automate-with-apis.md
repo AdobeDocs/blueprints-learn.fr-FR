@@ -1,16 +1,14 @@
 ---
 title: Automatisation avec des API
-description: Exécutez une collection Postman qui automatise la création de schémas, de groupes de champs, de descripteurs d’identité et de relation, ainsi que de jeux de données en une seule passe.
+description: Exécutez une collection Postman qui automatise la création de schémas, de groupes de champs, de descripteurs d’identité et de relation, ainsi que de jeux de données en une seule exécution.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # Automatisation avec des API
 
@@ -44,13 +42,13 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 
 
-1. Une nouvelle fenêtre doit s’afficher, qui affiche tous les appels API dans le dossier . Définissez le **Délai** sur **500 ms**, puis cliquez sur le bouton **Exécuter**.
+1. Une nouvelle fenêtre s’affiche, qui affiche tous les appels API dans le dossier . Définissez le **Délai** sur **500 ms**, puis cliquez sur le bouton **Exécuter**.
 
-   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter &#x200B;](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
+   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter ](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
 
 
 
-1. Les appels d’API commencent à s’exécuter dans l’ordre, et une fois terminés, vous devriez voir 32 tests réussis.
+1. Vous voyez que les appels d’API commencent à s’exécuter dans l’ordre, et une fois terminés, vous voyez 32 tests réussis.
 
    ![Exécution réussie de l’automatisation avec 32 tests réussis](assets/automate-with-apis-successful-automation-32-passed-tests.png "Automatisation réussie")
 
@@ -64,6 +62,6 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 ![Deux jeux de données créés avec Postman : préfixe correspondant aux schémas automatisés](assets/automate-with-apis-datasets-created-in-ui.png "Jeux de données d’automatisation")
 
->[!TIP]
+>[!SUCCESS]
 >
->Félicitations !  Vous venez d’automatiser le déploiement des espaces de noms d’identité, des groupes de champs, des schémas, des descripteurs d’identité/de relation et d’activer un schéma pour le profil et de générer un jeu de données utilisant le schéma
+>Félicitations !  Vous avez automatisé le déploiement des espaces de noms d’identité, des groupes de champs, des schémas et des descripteurs d’identité/de relation et activé un schéma pour le profil et généré un jeu de données à l’aide du schéma

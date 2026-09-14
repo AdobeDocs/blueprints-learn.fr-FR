@@ -4,13 +4,11 @@ description: Créez un schéma Profil individuel dans l’interface utilisateur 
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '990'
 ht-degree: 0%
-
 ---
-
 
 # Objets standard du modèle
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 ## Nommer le schéma
 
-Les schémas basés sur la classe XDM Individual Profile vous permettent de collecter des attributs sur un individu qui seront assemblés au profil. La classe elle-même contient des champs qui ne sont pas modifiables, tels que *modifiedByBatchID*, *PersonID*, etc.
+Les schémas basés sur la classe XDM Individual Profile vous permettent de collecter les attributs d’un individu qui sont assemblés au profil. La classe elle-même contient des champs qui ne sont pas modifiables, tels que *modifiedByBatchID*, *PersonID*, etc.
 
 1. Donnez un nom et une description à votre schéma.
    - **Nom D’Affichage Du Schéma** —> *Compte Client - \[Vos Initiales]*
@@ -63,7 +61,7 @@ Les schémas basés sur la classe XDM Individual Profile vous permettent de coll
 
 ## Ajouter un groupe de champs Détails démographiques
 
-Il existe de nombreux groupes de champs qui existent en tant que XDM standard dans Adobe Experience Platform et que vous pouvez les ajouter à votre schéma et personnaliser.
+Il existe de nombreux groupes de champs qui existent en tant que XDM standard dans Adobe Experience Platform et que vous pouvez ajouter à votre schéma et personnaliser.
 
 1. Cliquez sur le **+ (ajouter)** sur le rail de gauche dans la section groupe de champs .
 
@@ -73,7 +71,7 @@ Il existe de nombreux groupes de champs qui existent en tant que XDM standard da
 
 1. Recherchez **Détails démographiques** ou trouvez-les en parcourant la liste.
 
-   - Lorsque vous trouvez le groupe de champs, cliquez sur la loupe située à droite du groupe de champs pour en afficher la structure.  Il s’agit d’une méthode utile pour prévisualiser ce que vous êtes sur le point d’ajouter à votre schéma sans réellement l’ajouter.
+   - Lorsque vous trouvez le groupe de champs, cliquez sur la loupe située à droite du groupe de champs pour en afficher la structure.  Cette étape est utile pour prévisualiser ce que vous êtes sur le point d’ajouter à votre schéma sans l’ajouter.
    - Fermer l’aperçu une fois la révision terminée
 
 
@@ -84,7 +82,7 @@ Il existe de nombreux groupes de champs qui existent en tant que XDM standard da
 
 
 
-&#x200B;3. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
+3. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
 
 ![Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma](assets/model-standard-objects-select-demographic-details-field-group.png "Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma")
 
@@ -96,7 +94,7 @@ Vous devez ajouter des groupes de champs standard supplémentaires à votre sch�
 - Coordonnées personnelles
 - Détails relatifs au consentement et aux préférences
 
-Lorsque vous avez terminé, votre schéma doit ressembler à l’image ci-dessous. Veillez à cliquer sur le bouton **Enregistrer** et à enregistrer votre travail !
+Lorsque vous avez terminé, votre schéma ressemble à l’image ci-dessous. Veillez à cliquer sur le bouton **Enregistrer** et à enregistrer votre travail !
 
 ![Schéma après l’ajout des groupes de champs Détails démographiques, Détails de contact personnels et Détails de consentement et de préférence](assets/model-standard-objects-final-schema-after-adding-field-groups.png "Schéma final après l’enregistrement des ")
 
@@ -120,7 +118,7 @@ Le groupe de champs Détails démographiques a importé de nombreux champs, mais
 - person.bornDayAndMonth
 - person.bornYear
 
-Pour supprimer des champs de n’importe quel groupe de champs standard d’Adobe, vous pouvez utiliser l’option **Gérer les champs associés**. La gestion des champs associés vous permet de supprimer des champs standard de votre schéma, de sorte que vous ne disposiez que des champs dont vous avez besoin.
+Pour supprimer des champs de n’importe quel groupe de champs standard d’Adobe, utilisez l’option **Gérer les champs associés**. La gestion des champs associés permet de supprimer les champs standard du schéma afin que seuls les champs dont vous avez besoin restent.
 
 1. Sélectionnez l’objet **personne** dans le schéma
 1. Cliquez sur le **Gérer les champs associés** dans le rail de droite
@@ -136,7 +134,7 @@ Pour supprimer des champs de n’importe quel groupe de champs standard d’Adob
    - person.bornDayAndMonth
    - person.bornYear
 
-   Lorsque vous avez terminé, cliquez sur le bouton **Confirmer** dans le coin supérieur droit.
+   Une fois que vous avez terminé, cliquez sur le bouton **Confirmer** dans le coin supérieur droit.
 
    ![Boîte de dialogue Gérer les champs associés affichant les champs de personne Détails démographiques sélectionnés](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Gérer les champs associés de l’objet de personne Détails démographiques")
 
@@ -146,7 +144,7 @@ Pour supprimer des champs de n’importe quel groupe de champs standard d’Adob
 
 
 
-1. Lorsque vous avez terminé, vous devriez voir l’objet personne dans votre schéma comme illustré ci-dessous. Si tout semble correct, cliquez sur le bouton **Enregistrer** pour enregistrer votre schéma.
+1. Lorsque vous avez terminé, vous devriez voir l’objet personne dans votre schéma comme illustré ci-dessous. Pour enregistrer votre schéma, cliquez sur le bouton **Enregistrer** si tout semble correct.
 
 ![Objet de personne Détails démographiques finaux contenant uniquement les champs nécessaires](assets/model-standard-objects-final-demographic-details-person-object.png "groupe de champs Détails démographiques finaux contenant uniquement les champs nécessaires")
 
@@ -155,7 +153,7 @@ Pour supprimer des champs de n’importe quel groupe de champs standard d’Adob
 Effectuez le même ensemble d’étapes que précédemment, mais cette fois pour le groupe de champs Consentement et préférences .
 
 1. Cliquez sur le nom du groupe de champs **Consentement et préférences** dans le rail de gauche pour mettre en surbrillance ses champs dans votre schéma.
-1. Sélectionnez l’objet **consentements**, puis utilisez le processus **Gérer les champs associés** pour supprimer les champs non nécessaires de l’objet de consentement. Conserver uniquement les champs suivants :
+1. Sélectionnez l’objet **consentements**, puis utilisez le processus **Gérer les champs associés** pour supprimer les champs non nécessaires de l’objet consentements. Conserver uniquement les champs suivants :
 
 - consentements.marketing.email.val
 - consentements.marketing.sms.val
@@ -168,10 +166,10 @@ Effectuez le même ensemble d’étapes que précédemment, mais cette fois pour
 
 
 
-Lorsque vous avez terminé, votre schéma final doit maintenant ressembler à ceci.  Veillez à cliquer sur **Enregistrer** avant de continuer.
+Lorsque vous avez terminé, votre schéma final ressemble désormais à ceci. Veillez à cliquer sur **Enregistrer** avant de continuer.
 
 ![Schéma après gestion des champs associés pour le groupe de champs Consentement et préférences](assets/model-standard-objects-final-consent-and-preferences-fields.png "Champs associés gérés pour le groupe de champs Consentement et préférences")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Vous avez à présent terminé d’ajouter des composants standard à votre schéma. Très bon travail ! Passez à la création d’attributs personnalisés pour votre schéma.

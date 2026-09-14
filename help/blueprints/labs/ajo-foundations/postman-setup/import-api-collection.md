@@ -4,19 +4,17 @@ description: Importez la collection d’API Postman du bootcamp et vérifiez que
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # Importer la collection d’API
 
 ## Objectif
 
-Au cours de cette étape, vous allez importer la collection d’API qui contient toutes les différentes requêtes que vous devrez effectuer tout au long du bootcamp.  Ces requêtes d’API dépendent du fichier d’environnement que vous venez d’importer.
+Au cours de cette étape, vous importez la collection d’API , qui contient toutes les différentes requêtes que vous devez effectuer dans le bootcamp.  Ces requêtes d’API dépendent du fichier d’environnement que vous venez d’importer.
 
 
 
@@ -26,13 +24,13 @@ Au cours de cette étape, vous allez importer la collection d’API qui contient
 
    Télécharger le fichier — [Bootcamp AJO (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-2. Comme auparavant, cliquez sur le bouton **Importer**.
+2. Comme précédemment, cliquez sur le bouton **Importer**.
 3. Collez l’URL locale du fichier **AJO Bootcamp (Labs).postman\_collection.json** dans la zone de texte modale de l’importation ou déposez-la dans la boîte de dialogue d’importation.  Cela déclenche une importation automatique.
 4. Une fois le processus d’importation terminé, cliquez sur **Collections** dans la barre de navigation de gauche, développez le dossier **Bootcamp (Labs)** d’AJO, et la collection nouvellement importée s’affiche
 
 ![vérifier l’importation de la collection postman](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez correctement importé la collection Postman du bootcamp
 
@@ -40,9 +38,9 @@ Au cours de cette étape, vous allez importer la collection d’API qui contient
 
 ## Validation des variables d’environnement
 
-La collection que vous avez importée contient tous les appels d’API nécessaires pour les exercices pratiques dans le camp d’amorçage.  Chaque Lab est organisé dans un dossier spécifique avec son propre ensemble de requêtes.
+La collection que vous avez importée contient tous les appels API dont vous avez besoin pour les exercices pratiques dans le bootcamp.  Chaque Lab est organisé dans un dossier spécifique avec son propre ensemble de requêtes.
 
-Vous trouverez ci-dessous des informations détaillées sur chaque dossier :
+Des détails sur chaque dossier apparaissent ci-dessous :
 
 - **Profile &amp; Parcours Labs** : contient un ensemble de demandes d’envoi d’un événement web et d’un événement qui simule une confirmation d’expédition.
 - **Decisioning Labs** : contient des requêtes pour 3 visiteurs qui imitent les appels des pages supérieure et inférieure qui se trouvent généralement sur un site AEP balisé avec SDK Web.
@@ -60,7 +58,7 @@ Pour vous assurer que l’environnement et la collection fonctionnent correcteme
 
 4. Lorsque l’environnement approprié est sélectionné, la variable EDGE\_REGION prend désormais une couleur bleu clair. Cela indique que la variable possède désormais une valeur pour l’environnement sélectionné. La variable DATASTREAM\_CONFIG reste rouge, car vous n’avez pas encore créé le flux de données. Vous ne disposez donc pas encore d’une valeur pour cette variable d’environnement. Pointez sur EDGE\_REGION pour afficher la valeur de la valeur de l’environnement.
 
-![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez &#x200B;](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
+![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez ](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
 
 ## Récapituler
 

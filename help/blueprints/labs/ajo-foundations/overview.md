@@ -4,20 +4,18 @@ description: Explorez l’architecture de Adobe Journey Optimizer, l’orchestra
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '272'
 ht-degree: 1%
-
 ---
-
 
 # Présentation
 
-## Ce que vous apprendrez
+## Ce que vous apprenez
 
 1. **Architecture Et Fonctionnalités De Adobe Journey Optimizer :**
-   - Découvrez comment AJO est créé en mode natif sur Adobe Experience Platform et sa place dans la pile de personnalisation
+   - Découvrez comment AJO est conçu de manière native sur Adobe Experience Platform et sa place parmi les outils de personnalisation
    - Explorez les principales fonctionnalités qui alimentent les parcours client en temps réel orchestrés
 1. **Magasins de données :**
    - Différenciation entre le profil client en temps réel et le magasin relationnel dans AJO
@@ -51,8 +49,13 @@ ht-degree: 1%
 - Exposition aux CDP, à l’automatisation du marketing ou à d’autres plateformes de technologies intelligentes
 
 
+## Conditions préalables
+
+Si vous travaillez dans ce bootcamp à votre propre rythme, deux laboratoires ont besoin de comptes externes organisés à l&#39;avance : **Configurer les canaux e-mail** a besoin d&#39;un sous-domaine délégué à Adobe et **Lancement de téléphone phare** a besoin d&#39;identifiants SMS. Voir [Configuration](setup.md) pour plus de détails.
+
+
 ## Introduction
 
-Cette vidéo présente Adobe Journey Optimizer et explique ce que signifie la personnalisation à grande échelle, pourquoi c’est difficile à réaliser et comment AJO, conçu nativement sur Adobe Experience Platform, relève ces défis.
+Cette vidéo présente Adobe Journey Optimizer et explique ce que signifie la personnalisation à grande échelle, pourquoi elle est difficile à réaliser et comment AJO relève ces défis. AJO est créé en mode natif sur Adobe Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)

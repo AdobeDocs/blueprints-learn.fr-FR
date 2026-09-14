@@ -4,19 +4,17 @@ description: Configurez une action personnalisée réutilisable dans Adobe Journ
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 
 # Configuration d’une action personnalisée
 
 ## Objectif d’apprentissage
 
-Créez une action personnalisée qui définit la manière dont le parcours communiquera avec un point d’entrée ou un service externe afin d’obtenir une ETA pour le moment où le package arrivera.
+Créez une action personnalisée qui définit la manière dont le parcours communique avec un point d’entrée ou un service externe afin d’obtenir une ETA pour le moment où le package arrive.
 
 ## Accéder aux actions
 
@@ -57,7 +55,7 @@ Dans la zone Configuration du point d’entrée , fournissez les détails suivan
 
 >[!NOTE]
 >
->Une variable nous permet de transmettre une valeur au cours d’un parcours plutôt que d’avoir une valeur statique pour tous les parcours
+>Une variable vous permet de transmettre une valeur au cours d’un parcours au lieu d’utiliser une valeur statique pour tous les parcours
 
 - **Type d’authentification** : `No Authentication`
 
@@ -69,7 +67,7 @@ Dans la zone Configuration du point d’entrée , fournissez les détails suivan
 
 ### Détails de la payload de réponse
 
-Vous devez maintenant fournir un exemple de payload afin que l’action sache à quoi la payload de réponse doit ressembler.
+Vous devez maintenant fournir un exemple de payload afin que l’action sache à quoi ressemble la payload de réponse.
 
 1. Dans la zone Payloads, cliquez sur l’icône **Crayon** pour ouvrir l’écran Configuration du champ .
 
@@ -95,17 +93,17 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
 3. La payload de réponse s’affiche. Cliquez sur le bouton **Enregistrer**.
 
-![&#x200B; Payload de réponse affichée avec le bouton Enregistrer &#x200B;](assets/configure-custom-action-save-response-payload.png)
+![ Payload de réponse affichée avec le bouton Enregistrer ](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
->Vous pouvez tout laisser sous la forme d’une chaîne, mais dans la vie réelle, vous souhaiterez probablement le mettre à jour pour qu’il corresponde au type de données
+>Vous pouvez tout laisser sous forme de chaîne, mais dans la vie réelle, vous souhaiterez probablement le mettre à jour pour qu’il corresponde au type de données
 
 
 
 ### Tester l’action
 
-1. Cliquez sur le bouton **Envoyer une requête de test** dans le rail inférieur droit pour vérifier que vous n’avez rien gâché 😀
+1. Cliquez sur le bouton **Envoyer une requête de test** dans le rail inférieur droit pour confirmer que votre configuration fonctionne correctement
 
    ![Bouton Envoyer la demande de test dans le rail inférieur droit](assets/configure-custom-action-click-send-test-request.png)
 
@@ -132,13 +130,13 @@ Vous devez maintenant fournir un exemple de payload afin que l’action sache à
 
    >[!WARNING]
    >
-   >Si vous ne voyez pas de réponse 200 ou d’aperçu, ne continuez pas. Levez votre ✋ pour obtenir de l&#39;aide.
+   >Si vous ne voyez pas de réponse 200 ou d’aperçu, ne continuez pas. Demandez de l&#39;aide à votre animateur.
 
 
 
 4. Cliquez sur le bouton **Annuler** pour revenir à l’écran Action, puis faites défiler l’écran vers le haut dans le rail supérieur droit et cliquez sur le bouton **Enregistrer**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations ! Votre action personnalisée est en ligne, grâce à vos compétences de niveau expert Ctrl+C, Ctrl+V.
 

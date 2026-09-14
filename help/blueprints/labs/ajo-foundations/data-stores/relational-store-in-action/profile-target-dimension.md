@@ -4,21 +4,19 @@ description: Découvrez comment étiqueter un champ de schéma relationnel comme
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Dimension de Profile Target
 
 ## Objectif
 
-Dans les étapes suivantes, vous allez parcourir l’interface utilisateur pour afficher le schéma et configurer l’identité. Ensuite, vous allez configurer le Dimension de la cible du profil, qui est le type d’entité que la campagne cible et réconcilie avec le profil AEP pour la diffusion.
+Dans l’ensemble d’étapes suivant, vous accédez à l’interface utilisateur pour afficher le schéma et configurer l’identité. Ensuite, vous configurez le Dimension cible du profil qui correspond au type d’entité ciblé par la campagne et réconcilié avec le profil AEP pour la diffusion.
 
-## Pourquoi c’est important
+## Importance de cette configuration
 
 Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimizer comment les données entre le profil client en temps réel et le magasin relationnel peuvent être jointes. Les composants de cette configuration sont les suivants :
 
@@ -28,7 +26,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 >[!CAUTION]
 >
->Sans cette configuration, aucune lecture ou partage d’audiences ne peut avoir lieu et aucun message ne peut être envoyé en dehors des campagnes orchestrées
+>Cette configuration doit être en place avant de pouvoir lire ou partager des audiences ou envoyer des messages à partir de campagnes orchestrées
 
 ## Étiqueter l’identité
 
@@ -68,7 +66,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 2. Sélectionnez **Profile Target Dimension** et cliquez sur **Gérer**
 
-   ![Configuration de Profile Target Dimension avec l’option Gérer &#x200B;](assets/profile-target-dimension-manage-configuration.png)
+   ![Configuration de Profile Target Dimension avec l’option Gérer ](assets/profile-target-dimension-manage-configuration.png)
 
 3. Le volet Dimension de Profile Target s’ouvre. Cliquez sur **Créer**
 
@@ -84,7 +82,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 5. Pour l’**Valeur d’identité** sélectionnez `/customer_id`
 
-   ![&#x200B; Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
+   ![ Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
 
    >[!NOTE]
    >
@@ -100,7 +98,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 >
 >Le nom de l’enregistrement créé est une concaténation du nom du schéma *(dep-rel : Customer Account)* et du champ libellé avec l’identité *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations ! Cela conclut l’étape de création du Dimension de Profile Target dans l’atelier.
 
@@ -108,4 +106,4 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 Vous avez maintenant vu à quel point il est facile de naviguer dans le schéma, de marquer un attribut comme une identité et de créer le Dimension cible de profil.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.

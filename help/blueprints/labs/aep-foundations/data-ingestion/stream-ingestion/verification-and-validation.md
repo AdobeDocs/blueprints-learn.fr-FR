@@ -4,13 +4,11 @@ description: Prévisualisez un jeu de données diffusé dans l’interface utili
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Vérification et validation
 
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. Pour accéder aux données du `postalCode` **nœud**, vous pouvez saisir :
+1. Saisissez ce qui suit pour accéder aux données du `postalCode` **nœud** :
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez correctement ingéré et créé un échantillon de profils clients en temps réel

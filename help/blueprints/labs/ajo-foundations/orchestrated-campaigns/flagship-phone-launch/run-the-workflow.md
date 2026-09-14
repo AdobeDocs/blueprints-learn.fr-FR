@@ -4,13 +4,11 @@ description: Découvrez comment exécuter un workflow Campagne orchestrée en mo
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '678'
 ht-degree: 0%
-
 ---
-
 
 # Exécution du workflow
 
@@ -26,13 +24,13 @@ Dans les étapes suivantes, vous apprendrez à tester votre workflow et, plus im
 
    ![Zone de travail de workflow finale prête pour le test](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Si vous n’avez pas encore arrêté votre workflow, assurez-vous de le faire maintenant en cliquant sur le bouton **Arrêter** en haut à droite.
+2. Si vous n’avez pas encore arrêté votre workflow, cliquez sur le bouton **Arrêter** en haut à droite.
 
    ![Bouton Arrêter en haut à droite du workflow](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
-   >Vous pouvez éventuellement essayer de cliquer sur le bouton Redémarrer , mais il est probable qu’une erreur s’affiche, car vous avez ajouté des activités après la création du workflow et son cache n’est plus valide.
+   >Si vous le souhaitez, essayez de cliquer sur le bouton Redémarrer , mais il est probable qu’une erreur s’affiche, car vous avez ajouté des activités après la création du workflow et son cache n’est plus valide.
 
 
 
@@ -50,7 +48,7 @@ Dans les étapes suivantes, vous apprendrez à tester votre workflow et, plus im
 
 
 
-5. Vous voyez des enregistrements **33** et la dimension de ciblage correspond à l’identifiant du client (la clé de jointure si vous souhaitez créer un profil)
+5. Vous voyez des enregistrements **33** et la dimension de ciblage correspond à l’identifiant du client (la clé de jointure du profil)
 
 Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -70,7 +68,7 @@ Enregistrements ![33 avec dimension de ciblage correspondant à l’ID de client
 
    >[!NOTE]
    >
-   >Cet écran ne sera pas renseigné initialement, car l’exécution du test prend du temps. Vous devrez peut-être actualiser plusieurs fois avant d’afficher les résultats.
+   >Cet écran n’est pas renseigné initialement, car l’exécution de l’exécution du test prend du temps. Vous devrez peut-être actualiser plusieurs fois avant d’afficher les résultats.
 
 
 
@@ -100,7 +98,7 @@ Voici ce qui s&#39;est passé.
 
 - Vous vouliez envoyer un SMS à 33 lignes client
 - Après le changement de dimension, l&#39;activité 4 de ces lignes client n&#39;avait plus de compte client associé
-- Pour rejoindre le profil client en temps réel, vous devez disposer d’un ID client. Comme il n’y en a aucun sur ces 4 enregistrements, il n’est pas possible de rechercher un profil ou d’en créer un à la volée
+- Pour rejoindre le profil client en temps réel, vous devez disposer d’un ID client. Puisqu’il n’y en a aucun sur ces 4 enregistrements, il n’est pas possible de rechercher un profil ou d’en créer un immédiatement
 
 Résultat —> Campagnes orchestrées supprime ces 4 enregistrements lors de l&#39;exécution du message
 
@@ -111,9 +109,9 @@ Résultat —> Campagnes orchestrées supprime ces 4 enregistrements lors de l&#
 >1. Assurez-vous qu&#39;un journal des exclusions est créé pour les enregistrements auxquels il manque une dimension de ciblage à l&#39;envoi
 >2. Mettez à jour l’activité Changement de dimension pour effectuer une jointure interne ou externe qui déposerait ces 4 enregistrements au préalable
 
->[!TIP]
+>[!SUCCESS]
 >
->Félicitations ! Vous êtes maintenant officiellement certifié pour lancer vos propres campagnes orchestrées et diffuser des messages dans le monde entier - de manière responsable, nous l&#39;espérons. Allez de l&#39;avant et commercialisez comme un majestueux magicien numérique !
+>Félicitations ! Vous êtes désormais officiellement certifié pour lancer vos propres campagnes orchestrées et diffuser des messages dans le monde entier, de manière responsable. Maintenant, vous pouvez commercialiser en toute confiance !
 
 
 
@@ -122,7 +120,7 @@ Résultat —> Campagnes orchestrées supprime ces 4 enregistrements lors de l&#
 Vous n’allez pas le faire dans le laboratoire, mais voici, pour vous donner un contexte, ce qui se passe au moment de la publication :
 
 1. Le planificateur se déclenche si un planning est défini pour la campagne
-1. Les activités Enregistrer l’audience créent le shell d’audience dans dans le portail d’audience et les profils qualifiés commencent à ingérer
+1. Les activités Enregistrer l’audience créent le shell d’audience dans le portail d’audience et les profils qualifiés commencent à ingérer
 1. L&#39;exécution du message démarre pour la première activité de message du workflow
    - Les recherches de profil se produisent par rapport à l’instantané de profil
      - Les profils correspondants respectent le consentement trouvé sur le profil

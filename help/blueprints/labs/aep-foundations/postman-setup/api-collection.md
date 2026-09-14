@@ -4,13 +4,11 @@ description: Téléchargez et importez la collection d’API Postman de bootcamp
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 
 # Collection d’API
 
@@ -25,15 +23,15 @@ Télécharger le fichier — [Bootcamp AEP Foundations (Labs).postman_collection
 1. Ouvrez le `Postman API Collection File` ci-dessus dans votre navigateur en cliquant sur le fichier .
 1. Copiez l’URL du fichier dans le presse-papiers
 1. Lancez Postman sur votre ordinateur local et cliquez sur le bouton `Import` dans votre espace de travail
-1. Collez l’URL du `Postman API Collection File` dans la zone de texte modale d’importation sur le recouvrement.  Cela devrait déclencher une importation automatique
+1. Collez l’URL du `Postman API Collection File` dans la zone de texte modale d’importation. Cela déclenche une importation automatique
 
-![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation &#x200B;](assets/api-collection-click-import-button.png " la collection d’API")
+![Cliquez sur le bouton Importer dans l’espace de travail Postman pour importer le bouton d’importation ](assets/api-collection-click-import-button.png " la collection d’API")
 
 
 
 ![Collage de l’URL du fichier de collection d’API dans la zone de texte modale d’importation de Postman](assets/api-collection-import-modal-paste-url.png "zone de texte modale du bouton d’importation")
 
-Vous devriez maintenant voir une collection renseignée sous l’onglet `Collections` de la barre latérale gauche appelé `AEP Foundations Bootcamp`
+Une collection s’affiche désormais sous l’onglet `Collections` de la barre latérale gauche, appelé `AEP Foundations Bootcamp`
 
 
 
@@ -41,7 +39,7 @@ Vous devriez maintenant voir une collection renseignée sous l’onglet `Collect
 
 ## Présentation de la collection Bootcamp d’AEP Foundations
 
-La collection d’API que vous avez importée contient tous les appels d’API nécessaires pour les ateliers du camp d’amorçage.  Chaque Lab est organisé dans un dossier spécifique avec son propre ensemble d’API.  N&#39;oubliez pas d&#39;en tenir compte lorsque vous travaillerez dans les laboratoires cette semaine.
+La collection d’API que vous avez importée contient tous les appels d’API nécessaires pour les ateliers du camp d’amorçage.  Chaque Lab est organisé dans un dossier spécifique avec son propre ensemble d’API.  Tenez compte de cette structure de dossiers lorsque vous terminerez les exercices pratiques de cette semaine.
 
 Vous trouverez ci-dessous des informations détaillées sur chaque dossier :
 
@@ -50,6 +48,6 @@ Vous trouverez ci-dessous des informations détaillées sur chaque dossier :
 - **Data Ingestion Lab** - contient un ensemble de demandes de diffusion de données en continu dans Experience Platform
 - **Profile Lab** - contient un ensemble de requêtes pour afficher les caractéristiques et les comportements du profil client en temps réel
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez correctement importé la collection Postman du bootcamp

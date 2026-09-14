@@ -4,13 +4,11 @@ description: Utilisez l’API Schema Registry pour créer un descripteur d’ide
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # Créer une identité de référence de plan
 
@@ -53,22 +51,22 @@ EXEMPLE UNIQUEMENT
 
 
 
-&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
+4. Exécutez l’API en cliquant sur le bouton `Send` .
 
-Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
+Vous voyez désormais une réponse `201 Created` comme ci-dessous
 
 ![201 Réponse créée après la création de dep : Plan Lookup reference identity descriptor](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep : Plan Lookup Reference Identity descriptor")
 
 >[!NOTE]
 >
->Un descripteur d’identité de référence est toujours défini sur le schéma de recherche (à savoir sourceSchema)
+>Un descripteur d’identité de référence est toujours défini sur le schéma de recherche (c’est-à-dire sourceSchema)
 
 >[!NOTE]
 >
->Les descripteurs d’identité de référence sont créés automatiquement en arrière-plan lorsque vous créez des relations à partir de l’interface utilisateur du schéma. **Il vous suffit de les créer explicitement lors de l’utilisation des API pour créer des schémas**
+>Les descripteurs d’identité de référence sont créés automatiquement sur le serveur lorsque vous créez des relations à partir de l’interface utilisateur du schéma. **Il vous suffit de les créer explicitement lors de l’utilisation des API pour créer des schémas**
 
->[!TIP]
+>[!SUCCESS]
 >
->Génial ! Vous venez de créer tous les descripteurs requis pour mettre en relation le schéma `dep: Lookup Plan` avec le schéma `Customer Account` et vous avez permis de le référencer lors de la segmentation par lots
+>Génial ! Pour mettre en relation le schéma `dep: Lookup Plan` avec le schéma `Customer Account` et permettre qu’il soit référencé lors de la segmentation par lots, vous avez créé tous les descripteurs requis

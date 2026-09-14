@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: Présentation
@@ -24,17 +23,21 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 - **Magasins de données — Magasin relationnel en action** **—>** [Dimension cible du profil](../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Magasins de données — Configurer les canaux e-mail —>** [Configurer pour relationnel](../data-stores/configure-email-channels/configure-for-relational.md)
 
-Si vous n&#39;avez pas terminé ces laboratoires, veuillez le faire maintenant avant de continuer.
+Si vous n&#39;avez pas terminé ces laboratoires, faites-le maintenant avant de continuer.
+
+>[!CAUTION]
+>
+>Ce Lab nécessite un sous-domaine délégué à Adobe dans votre sandbox. Voir [Configuration](../setup.md) si vous faites des choix à votre propre rythme et que vous n’en avez pas encore.
 
 ## Présentation de l’atelier
 
-Dans cette vidéo, vous apprendrez à quoi vous attendre dans les trois étapes de ce Lab pratique : la configuration de la marque Connection 5G, la création de fragments, de modèles et d’un e-mail assisté par IA, ainsi que la validation par simulation et envoi de BAT.
+Dans cette vidéo, vous apprendrez à quoi vous attendre dans les trois parties de ce Lab pratique : configurer la marque Connection 5G, créer des fragments et des modèles, créer un e-mail assisté par IA et le valider par simulation et envoi d’un BAT.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## Objectifs d’apprentissage
 
-À la fin de ce module, vous serez en mesure de :
+À la fin de ce module, vous pouvez :
 
 1. Expliquez l’importance de la création de contenu dans Adobe Journey Optimizer.
 1. Identifiez et décrivez les concepts clés, notamment les marques, les directives sur les marques, les Parcours et les modèles.
@@ -55,7 +58,7 @@ Ce Lab présente les principaux éléments requis pour créer et gérer du conte
 
 ### &#x200B;1. Marques
 
-Une marque dans AJO représente une identité unique (par exemple, Connexion 5G). Chaque marque comprend :
+Dans AJO, une marque représente une identité unique (par exemple, Connexion 5G). Chaque marque comprend :
 
 - Identité visuelle
 - Règle de style
@@ -69,7 +72,7 @@ Les directives sur les marques définissent les éléments suivants :
 - Style et ton d’écriture
 - Règles vocales
 - Exigences légales
-- Normes visuelles telles que la couleur, l’imagerie et l’iconographie
+- Normes visuelles (couleur, imagerie, iconographie)
 
 ### &#x200B;3. Parcours
 
@@ -94,7 +97,7 @@ Les modèles sont des structures réutilisables pour les canaux, par exemple :
 
 1. Ouvrez Adobe Journey Optimizer dans votre navigateur.
 1. Connectez-vous à l’aide de vos informations d’identification.
-1. Vous atterrissez sur le tableau de bord principal.
+1. Le tableau de bord principal s’affiche.
 
 ### Localiser le menu de navigation principal
 
@@ -114,7 +117,7 @@ Avant de commencer à créer votre marque, prenez le temps d’explorer les **ou
 - Modèles de contenu
 - Fragments
 
-Cliquez sur chacune d’elles et familiarisez-vous avec l’interface utilisateur. Ce Lab examine chaque section en détail.
+Pour vous familiariser avec l’interface utilisateur, sélectionnez chacune d’elles. Ce Lab examine chaque section en détail.
 
 ![Outils de création de contenu, notamment Assets, Modèles de contenu et Fragments dans le menu de navigation](assets/overview-content-creation-tools-navigation-menu.png)
 

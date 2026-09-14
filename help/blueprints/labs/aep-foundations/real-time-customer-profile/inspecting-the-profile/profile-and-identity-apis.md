@@ -4,21 +4,19 @@ description: Utilisez l’API Profile Entity et l’API de cluster du service d�
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # API de profil et d’identité
 
 ## API de l’entité de profil
 
-Savoir comment utiliser les API de profil est essentiel lorsqu’il s’agit d’utiliser le profil client en temps réel. Il permet un tri et un débogage rapides, tout en vous exposant à d’innombrables possibilités d’intégration des systèmes, des centres d’appels aux kiosques.
+Savoir comment utiliser les API de profil est essentiel lorsqu’il s’agit d’utiliser le profil client en temps réel. Il permet un tri et un débogage rapides, tout en vous exposant à de nombreuses intégrations système possibles, des centres d’appels aux kiosques.
 
-L’une des API les plus importantes est l’API Profile Entity.  Cette API vous permet de rechercher un profil individuel (comme vous l’avez vu dans l’interface utilisateur), mais elle utilise des paramètres pour indiquer si vous souhaitez voir les attributs ou les événements du profil.
+L’une des API les plus importantes est l’API Profile Entity. Cette API vous permet de rechercher un profil individuel, comme vous l’avez vu dans l’interface utilisateur. Elle utilise des paramètres pour indiquer si vous souhaitez afficher les attributs ou les événements du profil.
 
 Vous trouverez ci-dessous la spécification complète de la méthode GET pour l’API Profile Entity
 
@@ -75,7 +73,7 @@ Chaque requête nécessite également les en-têtes suivants :
 
 Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode de profondeur de l’atelier précédent.
 
-1. Ouvrez **&#x200B;**&#x200B;et accédez au dossier **Profile Lab**
+1. Ouvrez **** et accédez au dossier **Profile Lab**
 1. Cliquez sur la requête **Recherche d’entité (attributs)** pour l’ouvrir
 1. Exécutez l’appel en cliquant sur le bouton **Envoyer**
 
@@ -89,7 +87,7 @@ Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode
    >
    >Par défaut, si aucune politique de fusion n’est spécifiée dans une demande d’entité de profil, elle utilise la politique de fusion par défaut dans le sandbox
 
-   Avec l’API Entity, vous pouvez utiliser un certain nombre de paramètres de requête pour modifier ce qui est renvoyé en réponse.
+   Avec l’API Entity, utilisez les paramètres de requête pour modifier ce qui est renvoyé en réponse.
 
 1. Dans la requête de recherche d’entité (attributs), cliquez sur l’option **Params** de la requête
 1. Cochez la case en regard de **Clé** nommée **champs**
@@ -99,13 +97,13 @@ Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode
 
 >[!NOTE]
 >
->Notez qu’il existe également un paramètre pour spécifier le `mergePolicyId`.  Vous pouvez trouver la valeur de cette à l’aide d’autres API ou en recherchant l’identifiant à l’aide de l’interface utilisateur.
+>Notez qu’il existe également un paramètre pour spécifier le `mergePolicyId`. Pour trouver la valeur de cette propriété, utilisez d’autres API ou recherchez l’ID à l’aide de l’interface utilisateur.
 
 Une requête réussie doit répondre par une `200 OK` et vous ne devriez voir que les champs spécifiés dans le filtre de paramètre que vous venez d’activer : Prénom, Nom et un tableau de produits actifs.
 
 ![Réponse OK filtrée 200 affichant uniquement les champs Prénom, Nom et Produits actifs](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Réponse de l’API de recherche d’entité de profil réussie (attributs) avec filtre activé")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez réussi à rechercher les attributs d’un profil à l’aide de l’API Profile Entity
 
@@ -124,25 +122,25 @@ Une requête réussie doit répondre par une `200 OK` et vous devriez voir un r�
 
 Réponse OK ![200 contenant tous les événements pour la réponse de l’API profile](assets/profile-and-identity-apis-successful-events-api-response.png "Successful Profile Entity Lookup (events) du mode de détection")
 
-Tout comme lors de la recherche d’attributs de profil, l’API d’entité comporte encore plus de paramètres de requête qui peuvent être utilisés pour modifier ce qui est renvoyé en réponse.
+Lors de la recherche d’attributs de profil, l’API d’entité comporte encore plus de paramètres de requête qui modifient ce qui est renvoyé en réponse.
 
-Vous pouvez essayer quelques-unes d’entre elles en les activant dans la section Paramètres et en exécutant la requête.  Faites un essai et voyez comment cela fonctionne !
+Essayez-en quelques-uns en les activant dans la section Paramètres et en exécutant la requête. Voyez comment ça marche !
 
 ![Requête de recherche d’entité (événements) avec des paramètres de requête supplémentaires activés dans la section Paramètres](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "Recherche d’entité de profil pour les événements d’expérience")
 
 **Exemples de définitions de paramètres de requête**
 
 | Clé | Valeur | Description |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | Si fourni, vous pouvez changer la politique de fusion utilisée pour effectuer la recherche. Pour le Lab, laisser ce champ vide signifie utiliser la politique de fusion par défaut des sandbox |
-| champs | eventType,timestamp,identityMap | Affiche uniquement ces champs de chaque événement, même si le champ spécifié comporte une valeur |
-| propriété | eventType=« order.put » | Filtre les événements du profil vers le bas pour qu’ils ne soient que de type « order.put ». |
-| orderby | +horodatage | Trie les événements par ordre décroissant |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | Active/désactive la politique de fusion utilisée pour la recherche. Laisser ce champ vide utilise la politique de fusion par défaut du sandbox |
+| champs | eventType,timestamp,identityMap | Affiche uniquement ces champs de chaque événement, qu’ils aient une valeur ou non |
+| propriété | eventType=« order.put » | Filtre les événements sur ceux du type spécifié uniquement. |
+| orderby | +horodatage | Trie les événements par ordre croissant |
 | limite | 5 | Affiche uniquement 5 événements dans la réponse |
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur toutes les options des paramètres de requête ici -> [&#128279;](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>En savoir plus sur toutes les options des paramètres de requête ici -> [](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 

@@ -4,19 +4,17 @@ description: Marquez les champs d’identité principale et de personne, créez 
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 
 # Configuration d’pour le profil
 
 ## Présentation
 
-Pour utiliser un schéma pour le profil client en temps réel, vous devez d’abord vous assurer qu’il est correctement configuré. Cela signifie prendre ce que vous avez identifié pendant le Lab LID comme étant des identités principales/de personne, des identités de relation, etc. et vous assurer que ces configurations sont effectuées sur chaque schéma. Lorsque tout est terminé, vous pouvez « retourner l’interrupteur » et activer un schéma à utiliser avec le profil.
+Pour utiliser un schéma pour le profil client en temps réel, vous devez d’abord vous assurer qu’il est configuré correctement. Cette étape consiste à prendre ce que vous avez identifié lors du Lab LID comme étant des identités principales/de personne, des identités de relation, etc. et à vous assurer que ces configurations sont effectuées sur chaque schéma. Lorsque tout est terminé, vous activez un schéma à utiliser avec le profil.
 
 En examinant le modèle XDM sur papier Connection 5G ERD, vous voyez les informations suivantes sur le schéma Compte client .  Il reste donc à effectuer pour utiliser le schéma dans le profil client en temps réel.
 
@@ -35,7 +33,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 1. Sélectionnez l’espace de noms **customerID** dans la liste déroulante
 1. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite, puis sur **Enregistrer** vos modifications.
 
-![Marquage du champ customerID en tant qu’identité de Principal &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
+![Marquage du champ customerID en tant qu’identité de Principal ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
 
 >[!NOTE]
 >
@@ -47,7 +45,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 
 >[!NOTE]
 >
->Notez également que les éléments suivants doivent maintenant s’afficher dans le rail de gauche. Les identités (principales ou non) apparaissent ici. Les identités **principales** sont également marquées comme champs obligatoires.
+>Notez également que les éléments suivants s’affichent désormais dans le rail de gauche. Les identités (principales ou non) apparaissent ici. Les identités **principales** sont également marquées comme champs obligatoires.
 >
 >
 >
@@ -57,7 +55,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 
 ## Marquer le(s) champ(s) d’identité de la personne
 
-N’oubliez pas que chaque schéma à utiliser avec le profil client en temps réel **peut éventuellement contenir** des champs d’identité d’autres personnes. Pour marquer un champ en tant qu’identité de personne, effectuez les actions suivantes sur le schéma de compte client que vous avez créé précédemment.
+Chaque schéma peut **éventuellement contenir** d’autres champs d’identité de personne. Cette règle s’applique à tout schéma utilisé avec le profil client en temps réel. Pour marquer un champ en tant qu’identité de personne, effectuez les actions suivantes sur le schéma de compte client que vous avez créé précédemment.
 
 1. Sélectionnez le champ **personalEmail.address**
 1. Cochez la case **Identité** située dans le rail de droite
@@ -74,7 +72,7 @@ N’oubliez pas que chaque schéma à utiliser avec le profil client en temps r�
 
 ## Création de la relation de schéma
 
-Pour mettre en relation le schéma de plan avec le schéma de compte client comme indiqué dans l’ERD, vous devez définir une relation. Suivez les étapes ci-dessous pour créer une relation de schéma entre les schémas Compte client et Plan (recherche) .
+Pour mettre en relation le schéma de plan avec le schéma de compte client comme indiqué dans l’ERD, vous devez définir une relation. Pour créer une relation de schéma entre les schémas Compte client et Plan (recherche) , procédez comme suit.
 
 ### Ajouter une relation
 
@@ -88,7 +86,7 @@ Pour mettre en relation le schéma de plan avec le schéma de compte client comm
 ### Définir la relation
 
 1. Dans la zone de sélection Type, sélectionnez l’option **Un-à-un**
-1. Dans la zone Schéma de référence , sélectionnez le schéma nommé **dep: Plan \[Lookup]** (il a été précréé pour vous)
+1. Dans la zone Schéma de référence , sélectionnez le schéma nommé **dep: Plan \[Lookup]** (ce schéma a été précréé pour vous)
 1. Cliquez sur **Appliquer** et **Enregistrer**
 
 ![Définition d’une relation un-à-un avec le schéma Dep : Plan [Recherche]](assets/configure-for-profile-define-one-to-one-relationship.png)
@@ -119,7 +117,7 @@ Le profil client en temps réel fusionne des données provenant de sources dispa
 
 ![Bouton Activer dans la boîte de dialogue modale qui s’affiche après le basculement du sélecteur de profil](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous venez de créer un schéma à utiliser avec le profil client en temps réel.
 
@@ -127,7 +125,7 @@ Le profil client en temps réel fusionne des données provenant de sources dispa
 
 ## Vérifier le schéma d’union des profils
 
-Comme mentionné précédemment, la puissance de XDM + le profil client en temps réel est la possibilité d’assembler divers fragments d’un individu et de leurs comportements.  On parle alors de « vue de l’union » du client.  Dans les étapes ci-dessous, vous prévisualisez à quoi ressemble cette union pour chaque classe XDM configurée pour le profil client en temps réel
+Comme mentionné précédemment, la puissance de XDM + le profil client en temps réel est la possibilité d’assembler divers fragments d’un individu et de leurs comportements.  Cette agrégation est appelée « vue de l’union » du client.  Dans les étapes ci-dessous, vous prévisualisez à quoi ressemble cette union pour chaque classe XDM configurée pour le profil client en temps réel
 
 1. Accédez à **Profils** dans le rail de gauche
 1. Sélectionnez l’onglet **Schéma d’union** dans le menu supérieur

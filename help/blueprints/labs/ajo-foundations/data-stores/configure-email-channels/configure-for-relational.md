@@ -4,19 +4,17 @@ description: Découvrez comment configurer un canal e-mail à l’aide de l’at
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
-
+source-wordcount: '535'
+ht-degree: 3%
 ---
-
 
 # Configurer pour le relationnel
 
 ## Objectif
 
-Dans les étapes suivantes, vous allez créer une configuration du canal e-mail à utiliser uniquement avec des campagnes orchestrées, à l’aide de l’attribut `email` du `dep-rel: Customer Account` Schéma relationnel .
+Dans l’ensemble d’étapes suivant, vous allez créer une configuration du canal e-mail à utiliser uniquement avec des campagnes orchestrées, à l’aide de l’attribut `email` du `dep-rel: Customer Account` Schéma relationnel .
 
 ## Créer une configuration de canal
 
@@ -52,6 +50,10 @@ Dans la liste déroulante **Sous-domaine**, sélectionnez **email.dep-labs.com**
 
 ![Liste déroulante Sous-domaine avec email.dep-labs.com sélectionné](assets/configure-for-profile-select-email-subdomain.png "Configurer le sous-domaine")
 
+>[!NOTE]
+>
+>Si vous choisissez votre propre rythme et ne disposez pas d’un sous-domaine préconfiguré, sélectionnez ici votre propre sous-domaine délégué à Adobe au lieu de `email.dep-labs.com`. Voir [Configuration](../../setup.md) pour savoir comment en déléguer un.
+
 ## Configurer les détails du groupe d’adresses IP
 
 Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing**
@@ -60,7 +62,7 @@ Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing*
 
 ## Configurer le désabonnement de la liste
 
-1. Assurez-vous que le bouton (bascule) est **activé** pour list-unsubscribe
+1. Assurez-vous que le bouton (bascule) est **activé** pour le désabonnement de la liste
 1. Sous la zone de préférence Désabonnement de la liste , assurez-vous que toutes les cases à cocher sont **cochées**
 1. Sous Gestion des liens , assurez-vous que **Adobe géré** est sélectionné
 1. Pour le niveau de consentement, assurez-vous qu’il est défini sur **Canal**
@@ -80,11 +82,11 @@ Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing*
 
 ## Configurer l’e-mail Cci
 
-Laisser ce champ vide
+Laissez le champ E-mail Cci vide
 
 >[!NOTE]
 >
->Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l’adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en copie (Cci) doit être différent de celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative. *Utilisation de la fonctionnalité Cci pour les e-mails*
+>Pour conserver une copie des e-mails envoyés, envoyez-les à une boîte de réception en Cci. Saisissez l’adresse e-mail de votre choix afin que chaque e-mail envoyé soit également envoyé à cette adresse Cci. Notez que le domaine de l’adresse en copie (Cci) doit être différent de celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative. *Utilisation de la fonctionnalité Cci pour les e-mails*
 
 ## Configurer les paramètres de reprise d’e-mail
 
@@ -110,7 +112,7 @@ Conserver les paramètres par défaut
    - **Source:** `Target Dimension`
    - **Adresse de diffusion :** `click on the Edit button`
 
-   Dimension Target![&#128279;](assets/configure-for-relational-execution-address-source-target-dimension.png)
+   Dimension Target](assets/configure-for-relational-execution-address-source-target-dimension.png)![
 
 4. Dans la pop-up, cliquez dans le dossier **dep-rel : Customer Account**.
 
@@ -126,7 +128,7 @@ Conserver les paramètres par défaut
 
 >[!NOTE]
 >
->Pour les campagnes orchestrées, vous ciblez le compte client avec un e-mail. Il vous suffit donc d’envoyer un seul message par Dimension Target.  L’adresse d’exécution que vous utilisez provient du Dimension cible lui-même (c’est-à-dire ce qui est stocké dans la table **dep-rel : Customer Account** pour **email** address)
+>Pour les campagnes orchestrées, vous ciblez le compte client avec un e-mail. Il vous suffit donc d’envoyer un seul message par Dimension Target.  L’adresse d’exécution que vous utilisez provient du Dimension cible lui-même (c’est-à-dire, ce qui est stocké dans la table **dep-rel : Compte client** pour **adresse e-mail**)
 
 
 ## Vérifier et enregistrer
