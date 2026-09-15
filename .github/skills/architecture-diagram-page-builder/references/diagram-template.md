@@ -8,7 +8,7 @@ ht-degree: 0%
 
 Il s’agit du modèle Markdown complet d’une page de diagramme d’architecture. Remplacez chaque `{placeholder}` par la valeur collectée lors de la phase 1 du workflow de compétence. Supprimez toute section facultative qui ne s’applique pas (par exemple, le bloc `>[!MORELIKETHIS]`) — ne laissez pas d’espaces réservés vides dans le fichier généré.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -59,7 +59,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Règles de FrontMATTER
 

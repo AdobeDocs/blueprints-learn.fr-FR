@@ -24,7 +24,7 @@ Nous allons passer en revue la procédure d’activation à l’aide d’Adobe E
 
 >[!IMPORTANT]
 >
->Terminez la configuration de [](../../setup.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour capturer l’événement envoyé à la destination externe.
+>Terminez la configuration de [&#128279;](../../setup.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour capturer l’événement envoyé à la destination externe.
 
 >[!NOTE]
 >

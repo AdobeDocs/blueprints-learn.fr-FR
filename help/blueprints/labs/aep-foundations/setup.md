@@ -16,7 +16,7 @@ Avant de commencer les ateliers AEP Foundations, effectuez les étapes de config
 
 ## Conditions requises et accès
 
-- Terminez la configuration de [](#postman-setup) avant de lancer les ateliers qui effectuent des appels API.
+- Terminez la configuration de [&#128279;](#postman-setup) avant de lancer les ateliers qui effectuent des appels API.
 - L’accès à [webhook.site](https://webhook.site/) est requis pour l’activation d’Edge et pour les laboratoires d’activation des audiences qui envoient des événements à une destination externe.
 - Les exercices de méthodologie LID nécessitent une imprimante pour imprimer le classeur et un stylo ou un crayon pour le compléter. Voir [Conditions préalables de la méthodologie LID](lid-methodology/prerequisites.md).
 

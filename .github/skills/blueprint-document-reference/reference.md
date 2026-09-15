@@ -14,7 +14,7 @@ ht-degree: 4%
 | **Plan directeur du scénario** | Cas pratique unique : architecture, étapes, mécanismes de sécurisation | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TABLE DES MATIÈRES** | Navigation ; ne pas utiliser comme modèle de contenu | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## Référence de section complète
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 - **Scénarios de plan directeur** ou **Modèles d’intégration** : tableau avec le nom du scénario, une brève description et un lien vers le plan directeur du scénario.
 - **Conditions préalables**, **Mécanismes de sécurisation**, **Documentation connexe** : Comme ci-dessus, soyez concis.
 
----
+&#x200B;---
 
 ## Adobe Experience League - Instructions de l’agent
 
@@ -109,15 +109,15 @@ Exemple :
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## Référentiel et table des matières
 
 - **Chemin d’accès du contenu de plan directeur** : `help/blueprints/` (avec des sous-dossiers par zone, par exemple `audience-activation/`, `customer-journeys/journey-optimizer/`).
-- **** : colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
+- **&#x200B;**&#x200B;: colocalisez-le avec le plan directeur (par exemple, `assets/`, `images/`) ou dans un dossier partagé (par exemple, `experience-platform/assets/`).
 - **TABLE DES MATIÈRES** : modifiez les `help/blueprints/TOC.md` lors de l’ajout, du changement de nom ou du déplacement de pages de plan directeur. Conserver le frontmaterial (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) et la hiérarchie `+`.
 
----
+&#x200B;---
 
 ## Exemples de références dans ce référentiel
 

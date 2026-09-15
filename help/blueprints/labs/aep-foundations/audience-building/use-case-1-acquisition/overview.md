@@ -26,7 +26,7 @@ Activez tous les profils qui ont visité une page de produit iPhone 14 et qu’i
 
 >[!IMPORTANT]
 >
->Terminez la configuration de [](../../setup.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour capturer les données d’audience activées.
+>Terminez la configuration de [&#128279;](../../setup.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour capturer les données d’audience activées.
 
 
 

@@ -23,7 +23,7 @@ Dans cet exercice, nous allons charger les données du compte client à partir d
 
 >[!IMPORTANT]
 >
->Terminez la configuration de [](../../setup.md) avant de commencer cet atelier.
+>Terminez la configuration de [&#128279;](../../setup.md) avant de commencer cet atelier.
 
 >[!NOTE]
 >

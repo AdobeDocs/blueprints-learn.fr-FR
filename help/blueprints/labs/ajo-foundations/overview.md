@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## Conditions préalables
 
-Si vous travaillez dans ce bootcamp à votre propre rythme, effectuez la configuration de [](setup.md#postman-setup) avant de démarrer les laboratoires. **Configurer les canaux e-mail** et ses laboratoires dépendants ont besoin d’un sous-domaine délégué à Adobe, et **Lancement de téléphone phare** a besoin d’informations d’identification par SMS. Voir [Configuration](setup.md) pour plus de détails.
+Si vous travaillez dans ce bootcamp à votre propre rythme, effectuez la configuration de [&#128279;](setup.md#postman-setup) avant de démarrer les laboratoires. **Configurer les canaux e-mail** et ses laboratoires dépendants ont besoin d’un sous-domaine délégué à Adobe, et **Lancement de téléphone phare** a besoin d’informations d’identification par SMS. Voir [Configuration](setup.md) pour plus de détails.
 
 
 ## Introduction

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Terminez la configuration de [](../../postman-setup/postman-installation.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) et à la destination **Streaming DEP Webhook** créée dans le cas d’utilisation [Acquisition](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
+>Terminez la configuration de [&#128279;](../../postman-setup/postman-installation.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) et à la destination **Streaming DEP Webhook** créée dans le cas d’utilisation [Acquisition](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
 
 ## Diffusion en continu vers Hub ou Edge
 
@@ -94,7 +94,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
- le compte et copiez son point d’entrée de diffusion en continu](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
+ le compte et copiez son point d’entrée de diffusion en continu&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png « dep: HTTP API \[raw] »)
 
 ## Rechercher un ID de flux de données
 
