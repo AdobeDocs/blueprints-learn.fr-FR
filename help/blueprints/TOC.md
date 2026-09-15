@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1174'
 ht-degree: 15%
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 15%
   + Activation et marketing B2B{#b2b-activation}
     + [Présentation](/help/blueprints/b2b/overview.md)
     + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
+    + [Activation des audiences et des profils B2B](/help/blueprints/b2b/b2b-audience-profile-activation.md)
     + [Activation du compte B2B](/help/blueprints/b2b/b2b-account-activation.md)
     + [Marketing de groupe et gestion de parcours](/help/blueprints/b2b/b2b-buying-group-journeys.md)
     + [Parcours B2B utilisant des données Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
@@ -143,8 +144,8 @@ ht-degree: 15%
       + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + Plans directeurs obsolètes{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
