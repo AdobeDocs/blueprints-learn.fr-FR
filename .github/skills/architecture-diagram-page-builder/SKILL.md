@@ -172,7 +172,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 2. **Liens de modèle de cas d’utilisation** — Chaque lien de modèle dans le fichier pointe vers un fichier Markdown existant sous `/help/blueprints/use-case-patterns/`. Utilisez la recherche d’espace de travail ou la lecture de fichier pour confirmer l’existence de chaque cible.
 
-3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/`.
+3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/fr`.
 
 4. **Emplacement de l&#39;entrée de table des matières** — La nouvelle entrée se trouve à l&#39;intérieur de la sous-section appropriée, utilise une mise en retrait de 4 espaces et le chemin correspond exactement à l&#39;emplacement du fichier généré.
 
