@@ -4,15 +4,21 @@ description: Suivez les étapes de configuration du sandbox et de Postman requis
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '183'
 ht-degree: 1%
 ---
 
 # Configuration
 
 Avant de commencer les ateliers AEP Foundations, effectuez les étapes de configuration ci-dessous. Les étapes à suivre dépendent de la manière dont vous effectuez ce bootcamp.
+
+## Conditions requises et accès
+
+- Terminez la configuration de [](#postman-setup) avant de lancer les ateliers qui effectuent des appels API.
+- L’accès à [webhook.site](https://webhook.site/) est requis pour l’activation d’Edge et pour les laboratoires d’activation des audiences qui envoient des événements à une destination externe.
+- Les exercices de méthodologie LID nécessitent une imprimante pour imprimer le classeur et un stylo ou un crayon pour le compléter. Voir [Conditions préalables de la méthodologie LID](lid-methodology/prerequisites.md).
 
 ## Configuration du sandbox
 

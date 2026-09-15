@@ -4,13 +4,17 @@ description: Utilisez l’API Profile Entity et l’API de cluster du service d�
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
 
 # API de profil et d’identité
+
+>[!IMPORTANT]
+>
+>Effectuez la configuration de [](../../setup.md) avant de commencer les exercices de l’API Profile and Identity.
 
 ## API de l’entité de profil
 
@@ -73,7 +77,7 @@ Chaque requête nécessite également les en-têtes suivants :
 
 Pour obtenir une idée de l’API Lookup d’entité, utilisez le profil de mode de profondeur de l’atelier précédent.
 
-1. Ouvrez **&#x200B;**&#x200B;et accédez au dossier **Profile Lab**
+1. Ouvrez **** et accédez au dossier **Profile Lab**
 1. Cliquez sur la requête **Recherche d’entité (attributs)** pour l’ouvrir
 1. Exécutez l’appel en cliquant sur le bouton **Envoyer**
 
@@ -140,7 +144,7 @@ Essayez-en quelques-uns en les activant dans la section Paramètres et en exécu
 
 >[!NOTE]
 >
->En savoir plus sur toutes les options des paramètres de requête ici -> [&#128279;](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>En savoir plus sur toutes les options des paramètres de requête ici -> [](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 
