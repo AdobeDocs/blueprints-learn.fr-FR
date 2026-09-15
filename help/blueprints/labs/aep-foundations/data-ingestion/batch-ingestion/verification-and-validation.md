@@ -4,13 +4,11 @@ description: Prévisualisez un jeu de données ingéré dans l’interface utili
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 
 # Vérification et validation
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Prévisualiser le jeu de données** affiche le lot réussi le plus récent de ce jeu de données. Vous ne pouvez pas voir les lots précédents. En outre, les données complexes telles que les tableaux et les mappages ne sont pas visibles aujourd’hui et apparaissent sous la forme de colonnes vides. Ne paniquez pas ! Pour obtenir une vue plus complète, vous devez utiliser SQL pour explorer le jeu de données, comme expliqué ci-dessous.
+>**Prévisualiser le jeu de données** affiche le lot réussi le plus récent de ce jeu de données. Vous ne pouvez pas voir les lots précédents. En outre, les données complexes telles que les tableaux et les mappages ne sont pas visibles aujourd’hui et apparaissent sous la forme de colonnes vides. Pour obtenir une vue plus complète, vous devez utiliser SQL pour explorer le jeu de données, comme expliqué ci-dessous.
 
 
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 1. **Prévisualiser** les résultats
 
-1. Exécutez également la requête SQL suivante pour récupérer le schéma XDM avec les données :
+1. Pour récupérer le schéma XDM avec les données, exécutez également la requête SQL suivante :
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -84,6 +82,6 @@ Pour accéder aux données du `postalCode` **nœud**, vous pouvez saisir :
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez correctement ingéré et créé un échantillon de profils clients en temps réel

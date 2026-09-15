@@ -4,13 +4,11 @@ description: Utilisez Postman ainsi que le point d’entrée de flux de données
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Diffusion d’un profil en continu
 
@@ -72,7 +70,7 @@ Quelques éléments importants à noter dans la requête ci-dessus :
 
 ## Collecter les valeurs requises
 
-Avant de pouvoir diffuser des données en continu, vous devez rassembler certaines des valeurs requises répertoriées ci-dessus (c’est-à-dire, en particulier, les valeurs d’URL de point d’entrée de diffusion en continu et d’en-tête du contenu du corps).
+Avant de diffuser des données, collectez les valeurs requises répertoriées ci-dessus (en particulier, les valeurs d’URL de point d’entrée de diffusion en continu et les valeurs d’« en-tête » du contenu du corps).
 
 Effectuez les étapes suivantes :
 
@@ -101,7 +99,7 @@ Effectuez les étapes suivantes :
 
 ## Mettre à jour votre requête API
 
-Passez à votre application Postman et mettez à jour la demande de création d’un compte client avec les informations que vous venez de collecter.
+Passez à votre application Postman et mettez à jour la demande de création d’un compte client avec les informations que vous avez collectées.
 
 1. Ouvrez Postman, puis accédez à la requête d’API **Data Ingestion Lab -> Créer un compte client** et ouvrez-la
 
@@ -136,7 +134,7 @@ Passez à votre application Postman et mettez à jour la demande de création d�
 
 
 
-1. Vous devriez recevoir une réponse `200 OK` indiquant qu’elle a bien été reçue par le Adobe Experience Platform
+1. Vous recevez une réponse `200 OK` indiquant que le Adobe Experience Platform l’a bien reçue
 
 Exemple de réponse OK 200
 
@@ -151,8 +149,8 @@ Exemple de réponse OK 200
 
 >[!NOTE]
 >
->Notez l’**xactionId** dans la réponse.  Si une erreur se produit et qu’aucun enregistrement n’est ingéré, il doit toujours être fourni avec un ticket de service clientèle, car il s’agit d’une puce de suivi utilisée par nos équipes d’assistance pour déboguer tous les problèmes d’environnement
+>Notez l’**xactionId** dans la réponse.  Si une erreur se produit et qu’aucun enregistrement n’est ingéré, il doit toujours être fourni avec un ticket de service clientèle, car il s’agit d’une référence clé utilisée par nos équipes d’assistance pour déboguer tout problème d’environnement
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations !  Vous avez diffusé en continu avec succès un enregistrement de profil dans le Adobe Experience Platform

@@ -4,13 +4,11 @@ description: Utilisez l’API Schema Registry pour créer un descripteur d’ide
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # Créer une identité principale
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-1. Exécutez l’API en cliquant sur le bouton `Send` . Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
+1. Exécutez l’API en cliquant sur le bouton `Send` . Une réponse `201 Created` s’affiche désormais, comme illustré ci-dessous
 
 ![201 Création d’une réponse après la création réussie du descripteur d’identité primaire](assets/create-primary-identity-201-created-response.png "Descripteur d’identité primaire créé avec succès")
 
->[!TIP]
+>[!SUCCESS]
 >
->Félicitations !  Vous venez de créer un descripteur d’identité principale dans votre schéma
+>Félicitations !  Vous avez créé un descripteur d’identité principale dans votre schéma

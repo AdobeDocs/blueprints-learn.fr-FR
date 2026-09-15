@@ -4,19 +4,17 @@ description: Découvrez comment configurer un canal e-mail à l’aide de l’at
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 8%
-
+source-wordcount: '656'
+ht-degree: 5%
 ---
-
 
 # Configuration d’pour le profil
 
 ## Objectif
 
-Dans les étapes suivantes, vous allez créer une configuration de canal e-mail avec des Parcours et des campagnes orchestrées à l’aide de l’attribut de profil AEP `personalEmail.address`
+Dans l’ensemble d’étapes suivant, vous allez créer une configuration de canal e-mail avec des Parcours et des campagnes orchestrées à l’aide de l’attribut de profil AEP `personalEmail.address`
 
 ## Créer une configuration de canal
 
@@ -47,6 +45,10 @@ Définissez **Type d’e-mail** sur **Marketing**
 Dans la liste déroulante **Sous-domaine**, sélectionnez **email.dep-labs.com**
 
 ![Liste déroulante Sous-domaine avec email.dep-labs.com sélectionné](assets/configure-for-profile-select-email-subdomain.png "Configurer le sous-domaine")
+
+>[!NOTE]
+>
+>Si vous choisissez votre propre rythme et ne disposez pas d’un sous-domaine préconfiguré, sélectionnez ici votre propre sous-domaine délégué à Adobe au lieu de `email.dep-labs.com`. Voir [Configuration](../../setup.md) pour savoir comment en déléguer un.
 
 ## Configurer les détails du groupe d’adresses IP
 
@@ -80,7 +82,7 @@ Laisser ce champ vide
 
 >[!NOTE]
 >
->Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l’adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en copie (Cci) doit être différent de celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative. *Utilisation de la fonctionnalité Cci pour les e-mails*
+>Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Pour copier chaque e-mail envoyé vers cette adresse en Cci, saisissez l’adresse e-mail de votre choix. Notez que le domaine de l’adresse en copie (Cci) doit être différent de celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative. *Utilisation de la fonctionnalité Cci pour les e-mails*
 
 ## Configurer les paramètres de reprise d’e-mail
 
@@ -138,7 +140,7 @@ Conserver les paramètres par défaut
 
 >[!NOTE]
 >
->Pour les campagnes orchestrées, vous ciblez le compte client avec un e-mail. Il vous suffit donc d’envoyer *un message par profil*.  L&#39;adresse d&#39;exécution que vous utilisez provient du profil lui-même (c&#39;est-à-dire ce qui est stocké dans le profil AEP sous l&#39;attribut **personalEmail.address**)
+>Pour les campagnes orchestrées, vous ciblez le compte client avec un e-mail. Il vous suffit donc d’envoyer *un message par profil*.  L&#39;adresse d&#39;exécution que vous utilisez provient du profil lui-même (en particulier, ce qui est stocké dans le profil AEP sous l&#39;attribut **personalEmail.address**)
 
 
 ## Vérifier et enregistrer
@@ -148,7 +150,7 @@ Conserver les paramètres par défaut
 
 >[!NOTE]
 >
->Il a été observé que le traitement de la configuration du canal e-mail prend jusqu’à 2 heures.  Aïe !
+>Il a été observé que le traitement de la configuration du canal e-mail prend jusqu’à 2 heures.
 >
 >Passez à l’exercice suivant pendant que vous attendez le traitement de cette configuration de canal.
 

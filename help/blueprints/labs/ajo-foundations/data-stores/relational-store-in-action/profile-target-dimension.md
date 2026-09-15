@@ -4,21 +4,19 @@ description: Découvrez comment étiqueter un champ de schéma relationnel comme
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Dimension de Profile Target
 
 ## Objectif
 
-Dans les étapes suivantes, vous allez parcourir l’interface utilisateur pour afficher le schéma et configurer l’identité. Ensuite, vous allez configurer le Dimension de la cible du profil, qui est le type d’entité que la campagne cible et réconcilie avec le profil AEP pour la diffusion.
+Dans l’ensemble d’étapes suivant, vous accédez à l’interface utilisateur pour afficher le schéma et configurer l’identité. Ensuite, vous configurez le Dimension cible du profil qui correspond au type d’entité ciblé par la campagne et réconcilié avec le profil AEP pour la diffusion.
 
-## Pourquoi c’est important
+## Importance de cette configuration
 
 Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimizer comment les données entre le profil client en temps réel et le magasin relationnel peuvent être jointes. Les composants de cette configuration sont les suivants :
 
@@ -28,7 +26,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 >[!CAUTION]
 >
->Sans cette configuration, aucune lecture ou partage d’audiences ne peut avoir lieu et aucun message ne peut être envoyé en dehors des campagnes orchestrées
+>Cette configuration doit être en place avant de pouvoir lire ou partager des audiences ou envoyer des messages à partir de campagnes orchestrées
 
 ## Étiqueter l’identité
 
@@ -100,7 +98,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 >
 >Le nom de l’enregistrement créé est une concaténation du nom du schéma *(dep-rel : Customer Account)* et du champ libellé avec l’identité *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations ! Cela conclut l’étape de création du Dimension de Profile Target dans l’atelier.
 

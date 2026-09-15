@@ -4,13 +4,11 @@ description: Utilisez l’API Schema Registry pour assembler un schéma client �
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # Créer Un Schéma
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Ne pas exécuter l’appel...pour l’instant**
+>**Ne pas exécuter l’appel pour le moment**
 
 1. Cliquez sur l’appel API `Step 4 - Create Customer Account Schema` dans le dossier `XDM Schema Lab -> Create Schema` .
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - Titre -> `Sample Customer Schema - <your sandbox number>`
    - Description -> `Sample Customer Schema - <your sandbox number>`
 
-4. Renseignez les champs de `$ref` avec les `$ids` que vous avez enregistrées à partir des sections de l’atelier précédentes que vous avez terminées : [Créer des groupes de champs personnalisés](./create-custom-field-groups.md) et [Obtenir la classe de profil](./get-profile-class.md). Vous devez disposer de $ids pour chacun des éléments suivants :
+4. Renseignez les champs `$ref` avec les `$ids` que vous avez enregistrées à partir des sections de l’atelier précédent que vous avez terminées : [Créer des groupes de champs personnalisés](./create-custom-field-groups.md) et [Obtenir la classe de profil](./get-profile-class.md). Vous disposez de $ids pour chacun des éléments suivants :
 
    - Classe -> XDM Individual Profile
    - Groupe de champs -> Détails démographiques
@@ -78,6 +76,6 @@ Une réponse réussie pour la création du schéma doit entraîner un statut `20
 >
 >Ne continuez pas tant que vous n’avez pas enregistré le `$id` et `$meta:altId` quelque part.  Ils seront nécessaires lors des prochaines étapes du laboratoire
 
->[!TIP]
+>[!SUCCESS]
 >
->**Félicitations ! Vous venez de créer un schéma en utilisant uniquement les API**
+>**Félicitations ! Vous avez créé un schéma en utilisant uniquement les API**

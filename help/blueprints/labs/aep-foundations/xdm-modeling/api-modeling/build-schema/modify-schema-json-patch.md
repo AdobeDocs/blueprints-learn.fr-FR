@@ -4,21 +4,19 @@ description: Utilisez un appel API JSON PATCH pour ajouter un nouveau champ à u
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # Modifier le schéma - Correctif JSON
 
 ## Présentation
 
-Supposons un instant qu’après avoir créé le schéma, vous deviez revenir et ajouter un champ supplémentaire à l’objet `plan` appelé `planDescription`, car vous avez oublié de l’ajouter lors de la création ou il s’agissait d’une demande qui vous est parvenue des mois plus tard.  Pour effectuer cette tâche, vous pouvez simplement effectuer une opération `PATCH` qui met à jour le schéma avec le nouveau champ.
+Supposons qu’après avoir créé le schéma, vous deviez ajouter un champ supplémentaire à l’objet `plan` appelé `planDescription`. Ce besoin peut se produire car vous avez oublié de l’ajouter lors de la création du schéma, ou car il s’agissait d’une demande qui est arrivée des mois plus tard. Pour effectuer cette tâche, vous exécutez une opération `PATCH` qui met à jour le schéma avec le nouveau champ.
 
-Vous pouvez en savoir plus sur JSON PATCH en cliquant sur les liens ci-dessous, mais pour les besoins de ce Lab, supposons que vous ayez un certain concept de son fonctionnement 😄
+Pour en savoir plus sur JSON PATCH, consultez les liens ci-dessous. Pour ce Lab, supposons que vous ayez une compréhension générale de son fonctionnement.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
 - [Principes fondamentaux des API d’Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=fr#json-patch)
@@ -29,16 +27,16 @@ Vous pouvez en savoir plus sur JSON PATCH en cliquant sur les liens ci-dessous, 
 >
 >Gardez à l’esprit les points suivants :
 >
->- Un schéma est composé d’une (1) classe et d’un (1) ou de plusieurs groupes de champs
->- Vous ne pouvez pas ajouter directement de nouveaux champs à un schéma sans d’abord les ajouter à un groupe de champs. Cela permet de garantir la réutilisation d’un champ dans tout schéma qui utilise ce groupe de champs.
+>- Un schéma est composé d’une classe et d’un ou plusieurs groupes de champs
+>- Vous devez ajouter de nouveaux champs à un groupe de champs avant de les ajouter à un schéma. Cette restriction garantit la réutilisation d’un champ dans tout schéma qui utilise ce groupe de champs.
 
 
 
-Pour ajouter un nouveau champ à un schéma, vous devez effectuer les opérations suivantes dans l’ordre.  C’est ce que vous ferez dans les étapes de ce Lab.
+Pour ajouter un nouveau champ à un schéma, vous devez effectuer les opérations suivantes dans l’ordre. Ce processus est réalisé dans les étapes de ce Lab.
 
 - Identifiez le groupe de champs dans lequel vous souhaitez ajouter la nouvelle propriété
 - Construire un appel PATCH JSON pour mettre à jour le groupe de champs
-- Exécutez l’appel JSON PATCH pour mettre à jour le groupe de champs (dont le schéma héritera).
+- Exécutez l’appel JSON PATCH pour mettre à jour le groupe de champs (dont le schéma hérite).
 
 
 
@@ -51,23 +49,23 @@ Pour ajouter un nouveau champ à un schéma, vous devez effectuer les opération
 
    >[!NOTE]
    >
-   >N’oubliez pas que vous avez créé l’objet `plan` dans un groupe de champs personnalisés. Les objets créés personnalisés dans le registre des schémas XDM sont appelés « client », d’où l’appel API utilisant le chemin d’accès `/schemaregistry/tenant/mixins/`.
+   >N’oubliez pas que vous avez créé l’objet `plan` dans un groupe de champs personnalisés. Les objets personnalisés créés dans le registre de schéma XDM sont appelés « tenant », d’où l’appel API utilisant le chemin d’accès `/schemaregistry/tenant/mixins/`.
 
 
 
 1. Dans la réponse, recherchez l’ID de schéma pour le groupe de champs personnalisés que vous avez créé précédemment intitulé `Customer Account Details - Sandbox <your number here> `
 
-1. Copiez le `$meta:altId` et enregistrez-le dans un endroit sûr, car vous en aurez besoin pour l’étape suivante
+1. Copiez le `$meta:altId` et enregistrez-le dans un endroit sûr comme vous en avez besoin pour l’étape suivante
 
 ![Recherche du groupe de champs personnalisé Détails du compte client dans la réponse de l’API](assets/modify-schema-json-patch-search-field-group-response.jpeg "recherchez la réponse du groupe de champs Détails du compte client")
 
 >[!CAUTION]
 >
->Veillez à sélectionner le groupe de champs approprié à copier.  Il en existe un appelé de la même manière `dep: Customer Account Details` que vous ne devriez **pas** utiliser
+>Veillez à sélectionner le groupe de champs approprié à copier. N’utilisez pas le groupe de champs dont le nom est similaire, appelé `dep: Customer Account Details`
 
 >[!WARNING]
 >
->Ne continuez pas tant que vous n’avez pas enregistré le `$meta:altId `quelque part.  Cela sera nécessaire lors des prochaines étapes du laboratoire
+>Vous avez besoin de la `$meta:altId` pour les prochaines étapes du laboratoire. Enregistrez-la avant de continuer.
 
 
 
@@ -155,11 +153,11 @@ Le chemin entièrement composé ressemble à ce que vous voyez ci-dessous.  Copi
 
 4. `Execute` l’appel pour exécuter le PATCH
 
-Vous devriez voir une `200 OK `réponse et devriez maintenant voir le champ `planDescription` dans votre groupe de champs comme suit :
+Une réponse `200 OK` et le champ `planDescription` s’affichent dans votre groupe de champs, comme suit :
 
 Réponse ![200 OK après avoir corrigé le groupe de champs avec planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "Étape 3 - 200 OK PATCH réussie")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations ! Vous avez correctement mis à jour un groupe de champs/schéma à l’aide de JSON PATCH
 
@@ -167,6 +165,6 @@ Réponse ![200 OK après avoir corrigé le groupe de champs avec planDescription
 
 ## Afficher la modification dans l’interface utilisateur
 
-Parcourez votre schéma à travers l’interface utilisateur et jetez un coup d’œil au champ que vous venez d’ajouter.  Plutôt cool, hein ?
+Parcourez votre schéma à travers l’interface utilisateur et affichez le champ que vous venez d’ajouter.
 
 ![Champ Description du plan visible dans le schéma après le correctif JSON dans l’interface utilisateur d’Experience Platform](assets/modify-schema-json-patch-plan-description-added-to-field-group.png "Description du plan ajouté au groupe de champs Détails du compte client - Sandbox \&lt;votre numéro> . Modifier le schéma JSON ")

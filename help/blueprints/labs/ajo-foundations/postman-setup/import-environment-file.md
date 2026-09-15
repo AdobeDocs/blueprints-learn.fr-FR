@@ -4,19 +4,17 @@ description: Importez le fichier d’environnement Postman et définissez les va
 doc-type: article
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 
 # Importer le fichier d’environnement
 
 ## Objectif
 
-Sur cette page, vous allez importer le fichier d’environnement Postman.  Ce fichier contient un certain nombre de variables globales qui seront utilisées dans divers appels API que vous effectuerez dans d’autres ateliers du camp d’amorçage.
+Sur cette page, vous importez le fichier d’environnement Postman.  Ce fichier contient un certain nombre de variables globales qui sont utilisées dans divers appels API que vous effectuez dans d’autres ateliers du camp d’amorçage.
 
 ## Importer le fichier d’environnement
 
@@ -25,11 +23,11 @@ Sur cette page, vous allez importer le fichier d’environnement Postman.  Ce fi
    Télécharger le fichier — [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
 
 2. Lancez Postman sur votre ordinateur local.
-3. Si nécessaire, passez au Workspace que vous utilisez pour ces laboratoires (si vous utilisez un Workspace) et cliquez sur le bouton **Importer**.
+3. Au besoin, basculez sur le Workspace que vous utilisez pour ces laboratoires et cliquez sur le bouton **Importer**.
 
    ![Postman commence l&#39;import](assets/import-environment-file-click-import-button.png)
 
-4. Collez l’URL locale du fichier **Bootcamp.postman\_environment.json** d’AJO dans la zone de texte modale de l’importation ou déposez-la dans la boîte de dialogue d’importation.  Cela devrait déclencher une importation automatique
+4. Collez l’URL locale du fichier **Bootcamp.postman\_environment.json** d’AJO dans la zone de texte modale de l’importation ou déposez-la dans la boîte de dialogue d’importation.  Cette action déclenche une importation automatique
 
    Boîte de dialogue d’importation de ![Postman affichant l’option permettant de coller une URL de fichier](assets/import-environment-file-import-button-overlay.png "Import Postman via URL")
 
@@ -41,14 +39,14 @@ Sur cette page, vous allez importer le fichier d’environnement Postman.  Ce fi
 
 ## Définition des variables d’environnement
 
-Postman a été conçu pour tester et interagir avec les API. Cependant, nous l’utilisons pour simuler les accès à AEP Web SDK à partir d’un navigateur ou pour les appels de collecte de données en temps réel côté serveur. Bien qu’il s’agisse toujours d’appels API au sens le plus strict du terme, il ne s’agit pas d’appels API standard qui nécessitent des éléments tels que des jetons d’autorisation dans l’en-tête . Les variables d’environnement de ces ateliers sont principalement utilisées pour les variables dans les chemins d’URL (une étant utilisée dans un en-tête).
+Postman a été conçu pour tester et interagir avec les API. Cependant, ce Lab l’utilise pour simuler les accès AEP Web SDK à partir d’un navigateur ou pour les appels de collecte de données en temps réel côté serveur. Bien que ces requêtes soient techniquement des appels API, il ne s’agit pas d’appels API standard qui nécessitent des éléments tels que des jetons d’autorisation dans l’en-tête. Les variables d’environnement de ces ateliers sont principalement utilisées pour les variables dans les chemins d’URL (une étant utilisée dans un en-tête).
 
 1. Si nécessaire, cliquez sur l’onglet **Environnements** dans la barre latérale gauche de Postman
 2. Cliquez sur le fichier d’environnement **Bootcamp**. Vous voyez certaines valeurs à renseigner
 
    ![Variables d’environnement Postman avec des valeurs vides qui doivent être renseignées](assets/import-environment-file-values-need-filling-in.png "Vérifiez les variables Postman dans les environnements")
 
-3. Ignorez la valeur DATASTREAM\_CONFIG pour l’instant. Vous allez créer une configuration de train de données dans un atelier ultérieur.
+3. Ignorez la valeur DATASTREAM\_CONFIG pour l’instant. Vous créez une configuration de train de données dans un atelier ultérieur.
 4. Mettez à jour le champ **EDGE\_REGION** avec le code de région le plus proche de l’endroit où vous vous trouvez physiquement pour ce bootcamp, en utilisant le tableau ci-dessous comme recherche.
 
    | **Région** | **Code de région** |
@@ -60,7 +58,7 @@ Postman a été conçu pour tester et interagir avec les API. Cependant, nous l�
    | Japon | jpn3 |
    | Asie | spg3 |
 
-   Une fois cette opération terminée, votre fichier d’environnement doit ressembler à ceci :
+   Une fois cette opération terminée, votre fichier d’environnement ressemble à ceci :
 
 
 
@@ -70,6 +68,6 @@ Postman a été conçu pour tester et interagir avec les API. Cependant, nous l�
 
 ![Vérifier les modifications enregistrées](assets/import-environment-file-changes-saved-confirmation.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations ! Vous avez terminé votre fichier d’environnement Postman

@@ -4,13 +4,11 @@ description: Découvrez comment utiliser l’activité Lecture d’audience avec
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # Lire une audience
 
@@ -172,16 +170,16 @@ Un nouveau segment nommé **Result** est créé
 
 >[!NOTE]
 >
->Tandis que l’audience Lecture a affiché des profils **9**. Comme nous avons créé un filtre sur Source et que le champ Source existe dans le magasin relationnel, nous avons dû le joindre du magasin de profils au magasin relationnel pour le vérifier. Lorsqu’il a été joint au schéma relationnel, via le Dimension de Campaign Target, seuls 7 profils au total **7** correspondaient. Ces ID de client correspondants **7** peuvent être utilisés dans les activités suivantes qui tentent d’utiliser des données relationnelles. Tous les ID de client **7** avaient `Source` définis sur **« En magasin »**, ce qui était évident via les flux de partage.
+>La lecture d’audience a affiché des profils **9**. Comme vous avez créé un filtre sur Source et que le champ Source existe dans le magasin relationnel, vous avez dû joindre le magasin de profils au magasin relationnel pour le vérifier. Lorsque vous avez rejoint le schéma relationnel via le Dimension de Campaign Target, seul un total de **7** profils correspondaient. Ces ID de client correspondants **7** peuvent être utilisés dans les activités suivantes qui tentent d’utiliser des données relationnelles. Tous les ID de client **7** avaient `Source` définis sur **« En magasin »**, ce qui était évident via les flux de partage.
 >
 >Par conséquent, le maintien de la cohérence des données est essentiel lors de l’utilisation des profils AEP avec leurs homologues relationnels à des fins d’enrichissement.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Félicitations, vous venez de terminer l’atelier sur l’utilisation de l’activité Lecture d’audience avec le schéma relationnel.
 
 ## Récapituler
 
-Vous avez maintenant vu à quel point il est facile de créer une campagne, d’effectuer une activité Lecture d’audience avec le Dimension Cible du profil pour exploiter le schéma relationnel. Vous avez utilisé l’activité Partage pour partager l’audience en fonction d’une condition. Enfin, le mode test a permis de comprendre qu’il est important d’avoir la cohérence des données entre le profil et le schéma relationnel.
+Vous avez maintenant vu à quel point il est facile de créer une campagne, d’effectuer une activité Lecture d’audience avec le Dimension Cible du profil pour utiliser le schéma relationnel. Vous avez utilisé l’activité Partage pour partager l’audience en fonction d’une condition. Enfin, le mode test a permis de comprendre qu’il est important d’avoir la cohérence des données entre le profil et le schéma relationnel.
 
 Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.

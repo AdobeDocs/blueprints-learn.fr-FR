@@ -4,13 +4,11 @@ description: Découvrez comment créer un parcours post-achat piloté par les é
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '326'
 ht-degree: 0%
-
 ---
-
 
 # Excitation post-achat
 
@@ -20,17 +18,20 @@ ht-degree: 0%
 >
 >Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
 
-Ces ateliers doivent avoir été terminés avant de démarrer cet atelier :
-
+- Installation de **&#x200B;**&#x200B;**—>** installation de [Postman](../../postman-setup/postman-installation.md)
 - **Magasins de données — Magasin relationnel en action** **—>** [Dimension cible du profil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Magasins de données — Configuration des canaux e-mail —>** [Configuration pour le profil](../../data-stores/configure-email-channels/configure-for-profile.md)
-  *(cette opération peut prendre jusqu&#39;à 3 heures)*
+  *(cette étape peut prendre jusqu’à 3 heures)*
 
-Si vous ne l’avez pas encore fait, veuillez les compléter maintenant
+Si vous ne l’avez pas encore fait, effectuez-les maintenant
+
+>[!CAUTION]
+>
+>Ce Lab nécessite un sous-domaine délégué à Adobe dans votre sandbox. Voir [Configuration](../../setup.md) si vous faites des choix à votre propre rythme et que vous n’en avez pas encore.
 
 ## Présentation de l’atelier
 
-Dans cette vidéo, vous découvrirez comment le cas d’utilisation d’excitation post-achat correspond à un parcours, en parcourant les questions de réflexion critique et l’architecture pour envoyer une notification d’expédition personnalisée une fois une commande envoyée.
+Dans cette vidéo, vous découvrirez comment le cas d’utilisation d’excitation post-achat correspond à un Parcours, en parcourant les questions de pensée critique et l’architecture pour envoyer une notification d’expédition personnalisée une fois qu’une commande est envoyée.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491146/)
 
@@ -51,9 +52,9 @@ Lorsqu’un client passe une commande, vous souhaitez envoyer un message de conf
 
 **Légendes principales :**
 
-- La commande initiale passée est généralement mise en œuvre sous la forme d’un message transactionnel, car les clients ne souhaitent pas attendre une confirmation de commande.
+- La confirmation de commande initiale est généralement mise en œuvre sous la forme d’un message transactionnel, car les clients ne souhaitent pas attendre une confirmation après avoir passé une commande.
 - La notification de commande envoyée peut également être implémentée à l’aide de la messagerie transactionnelle, mais elle peut être créée dans un parcours, ce qui permet une action personnalisée pour récupérer les informations d’expédition et améliorer la communication avec le client.
 
 >[!NOTE]
 >
->Dans cet atelier, vous allez uniquement créer le message Commande expédiée et ignorer le message Confirmation de commande.
+>Dans cet atelier, vous créez uniquement le message Commande expédiée et ignorez le message Confirmation de commande.

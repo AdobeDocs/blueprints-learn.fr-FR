@@ -4,13 +4,11 @@ description: Obtenez une vue d’ensemble de la création d’une campagne orche
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
-
+source-wordcount: '214'
+ht-degree: 0%
 ---
-
 
 # Diffusion de messages en action
 
@@ -18,12 +16,16 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
+>Les ateliers ci-dessous doivent avoir été terminés avant de démarrer cet atelier
 
 - **Magasins de données — Magasin relationnel en action** **—>** [Dimension cible du profil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **Magasins de données —>** [Configurer les canaux e-mail](../../data-stores/configure-email-channels/overview.md) *(cette étape de configuration peut prendre jusqu’à 3 heures)*
+- **Magasins de données —>** [Configurer les canaux e-mail](../../data-stores/configure-email-channels/overview.md) *(cette étape de configuration prend moins de 3 heures)*
 
-Si vous n&#39;avez pas terminé ces laboratoires, veuillez le faire maintenant avant de continuer.
+Si vous n&#39;avez pas terminé ces laboratoires, faites-le maintenant avant de continuer.
+
+>[!CAUTION]
+>
+>Ce Lab nécessite un sous-domaine délégué à Adobe dans votre sandbox. Voir [Configuration](../../setup.md) si vous faites des choix à votre propre rythme et que vous n’en avez pas encore.
 
 ## Présentation de l’atelier
 
@@ -33,9 +35,9 @@ Dans cette vidéo, vous apprendrez à créer la campagne orchestrée pour cet at
 
 ## Objectifs d’apprentissage
 
-- Créer une campagne orchestrée à l’aide de diverses activités de workflow
+- Créer une campagne orchestrée à l&#39;aide de plusieurs activités de workflow
 - Créez une audience à l’aide de l’activité Créer une audience .
 - Créez une audience pour créer deux branches et utilisez les canaux E-mail créés dans l’atelier précédent pour envoyer des messages
 - Tester la campagne et comprendre la différence de comportement entre les canaux e-mail
 
-Dans cet atelier, vous allez créer une campagne pour cibler les membres du plan « De base » et comprendre la différence lors de l’utilisation de différents paramètres de Campagne orchestrée dans les configurations du canal e-mail.
+Pour cibler les membres du plan « De base », vous créez une campagne dans cet atelier et explorez comment différents paramètres de campagne orchestrés affectent les configurations du canal e-mail.
