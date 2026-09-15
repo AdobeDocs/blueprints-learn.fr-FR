@@ -60,19 +60,19 @@ Consultez la documentation sur les destinations pour obtenir la dernière liste 
 
 Reportez-vous aux mécanismes de sécurisation suivants lors de la conception et de l’activation des audiences de compte :
 
-- [Mécanismes de sécurisation pour Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Activer les audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Mécanismes de sécurisation des profils et de la segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Mise à jour des critères d’éligibilité de la segmentation en flux continu](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Mécanismes de sécurisation pour Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activer les audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Mécanismes de sécurisation des profils et de la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails)
+- [Mise à jour des critères d’éligibilité de la segmentation en flux continu](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ## Étapes d’implémentation de Real-Time Customer Data Platform B2B edition, création et activation d’une audience de compte
 
-- Pour connaître les étapes d’implémentation de Real-Time Customer Data Platform B2B edition, consultez la documentation : [Prise en main de Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
-- Pour connaître les étapes de création d’une audience de compte, consultez la documentation [Audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
-- Pour connaître les étapes d’activation des audiences de compte, consultez la documentation [&#x200B; Activer les audiences de compte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) :
+- Pour connaître les étapes d’implémentation de Real-Time Customer Data Platform B2B edition, consultez la documentation : [Prise en main de Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
+- Pour connaître les étapes de création d’une audience de compte, consultez la documentation [Audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- Pour connaître les étapes d’activation des audiences de compte, consultez la documentation [&#x200B; Activer les audiences de compte &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) :
 
-  - Mappage obligatoire pour la [destination LinkedIn Matched Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+  - Mappage obligatoire pour la [destination LinkedIn Matched Audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
 
 ## Considérations relatives à la mise en œuvre
 
@@ -81,11 +81,11 @@ Les audiences correspondantes LinkedIn ont une taille minimale requise pour l’
 ## Documentation connexe
 
 - [Plan directeur d’activation des audiences et des profils B2B](b2bactivation.md) — Plan directeur parent couvrant l’activation B2B au niveau des personnes et des comptes.
-- [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
-- [Créer et activer une audience de compte - tutoriel vidéo](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [Créer des audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Activer les audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Adobe Experience Platform - Connecteur de destination LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Schémas dans Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Mises à niveau de l’architecture vers Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Garde-fous de destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [Créer et activer une audience de compte - tutoriel vidéo](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Créer des audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activer les audiences de compte](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - Connecteur de destination LinkedIn](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Schémas dans Real-Time CDP B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/schemas/b2b)
+- [Mises à niveau de l’architecture vers Real-Time CDP B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Garde-fous de destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/guardrails)
