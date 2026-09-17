@@ -4,13 +4,11 @@ description: Découvrez en quoi les vitesses d’activation d’Edge, de streami
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Activation d’Edge
 
@@ -23,6 +21,10 @@ Adobe propose trois vitesses d’activation destinées à répondre à des besoi
 1. Lot
 
 Nous allons passer en revue la procédure d’activation à l’aide d’Adobe Edge avec le transfert d’événement, les audiences Edge et Edge Personalization. Nous montrerons ensuite comment utiliser les destinations de diffusion en continu du hub vers Edge et vers une destination externe.
+
+>[!IMPORTANT]
+>
+>Terminez la configuration de [&#128279;](../../setup.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour capturer l’événement envoyé à la destination externe.
 
 >[!NOTE]
 >

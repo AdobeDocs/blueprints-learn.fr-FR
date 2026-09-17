@@ -4,13 +4,11 @@ description: Chargez les données du compte client via une source de diffusion e
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # Ingestion de flux
 
@@ -22,6 +20,10 @@ Dans cet exercice, nous allons charger les données du compte client à partir d
 - Importation du jeu de mappages à partir d’un autre flux de données
 - Obtention de l’identifiant du flux de données et de l’identifiant du jeu de données à partir de l’interface utilisateur
 - Utilisation de l’API REST pour ingérer un événement
+
+>[!IMPORTANT]
+>
+>Terminez la configuration de [&#128279;](../../setup.md) avant de commencer cet atelier.
 
 >[!NOTE]
 >

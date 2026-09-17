@@ -4,15 +4,17 @@ description: Découvrez comment envoyer un événement web directement au Hub à
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # Envoyer l’événement web au hub
+
+>[!IMPORTANT]
+>
+>Terminez la configuration de [&#128279;](../../postman-setup/postman-installation.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) pour le [workflow d’activation de destination externe](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) associé.
 
 ## Ouvrir Postman
 
@@ -85,9 +87,8 @@ Un appel réussi doit entraîner la réponse suivante...
    1. Tout événement Edge (dans les 15 minutes)
       1. À retenir : toutes les audiences enregistrées avec une évaluation Edge sont également évaluées sur le Hub lorsque des données de diffusion en continu arrivent
    2. dep : diffusion en continu de tout événement (au cours de l’heure)
-1. Il se peut que rien n’apparaisse dans votre webhook si vous n’avez aucun nouveau segment.
-1. Le transfert d’événement n’envoie rien.
-   1. Pourquoi ? Cet événement a été envoyé au hub, et non à Edge. Par conséquent, l’événement n’apparaîtra pas comme quoi que ce soit à envoyer par transfert d’événement, ni dans Assurance.
+1. Cet événement Hub n’est pas envoyé à votre webhook.
+   1. Le transfert d’événement traite les événements envoyés à Edge, et non les événements envoyés directement au Hub. Utilisez le [workflow d’activation de destination externe](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) pour capturer un événement sur webhook.site.
 1. Après au moins 30 minutes, vous pouvez même vérifier votre jeu de données avec les éléments suivants :
    1. Remplacez le nom du tableau ci-dessous par celui de votre sandbox.  Pour le trouver, accédez à la liste de vos jeux de données et filtrez sur « `dest` », ouvrez le jeu de données et copiez le nom du tableau sur le rail de droite.
 

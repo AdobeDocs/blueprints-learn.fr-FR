@@ -4,15 +4,17 @@ description: Découvrez comment diffuser un événement de commande vers le Hub 
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # Envoyer l’événement de commande au hub
+
+>[!IMPORTANT]
+>
+>Terminez la configuration de [&#128279;](../../postman-setup/postman-installation.md) avant de commencer cet atelier. Vous devez également accéder à [webhook.site](https://webhook.site/) et à la destination **Streaming DEP Webhook** créée dans le cas d’utilisation [Acquisition](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
 
 ## Diffusion en continu vers Hub ou Edge
 
