@@ -90,7 +90,7 @@ Améliorez le retour sur investissement marketing grâce à un meilleur ciblage,
 
 L’architecture de référence suivante illustre la manière dont les données d’audience et de profil circulent de Real-Time CDP vers les destinations d’entreprise, y compris l’espace de stockage, les points d’entrée de flux continu et les applications SaaS.
 
-![ Architecture de référence pour l’activation d’Adobe Real-Time CDP ](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
+![&#x200B; Architecture de référence pour l’activation d’Adobe Real-Time CDP &#x200B;](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## Documentation connexe
 

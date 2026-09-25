@@ -16,4 +16,4 @@ Ces diagrammes montrent comment les audiences et les profils sont créés dans A
 | --- | --- |
 | [Activation d’](rtcdp-activation.md) | Activer les audiences vers des destinations et des applications |
 | [Accès au profil Edge en temps réel](real-time-lookup.md) | Accès à faible latence aux données de profil Edge |
-| [Intégration d’Adobe Real-Time CDP et d’Adobe Target ](rtcdp-target-integration.md) | Découvrez comment les audiences Real-Time CDP et le contexte de profil s’intègrent à Adobe Target via Edge Network |
+| [Intégration d’Adobe Real-Time CDP et d’Adobe Target &#x200B;](rtcdp-target-integration.md) | Découvrez comment les audiences Real-Time CDP et le contexte de profil s’intègrent à Adobe Target via Edge Network |

@@ -112,10 +112,10 @@ sont uniquement historiques et ne doivent pas bloquer le travail de migration re
 
 ## Questions ouvertes non résolues (issues de l’audit)
 
-2. **`journey-optimizer-journeys.md`** « â€ » marqué comme un duplicata incertain de `event-triggered-messaging` ; vérifiez la portée avant de procéder au rognage.
-3. **`customer-journey-analytics/analysis.md`** contenu de « €€ » concerne Experience Platform Query Service, et non CJA ; envisagez d’effectuer une relocalisation vers `experience-platform/`.
-4. **`customer-success-stories.md`** page de liens « € » uniquement ; confirmez la classification de navigation.
-5. Question d’ancrage de la table des matières historique remplacée par la disposition d’architecture B2B terminée.
+&#x200B;2. **`journey-optimizer-journeys.md`** « â€ » marqué comme un duplicata incertain de `event-triggered-messaging` ; vérifiez la portée avant de procéder au rognage.
+&#x200B;3. **`customer-journey-analytics/analysis.md`** contenu de « €€ » concerne Experience Platform Query Service, et non CJA ; envisagez d’effectuer une relocalisation vers `experience-platform/`.
+&#x200B;4. **`customer-success-stories.md`** page de liens « € » uniquement ; confirmez la classification de navigation.
+&#x200B;5. Question d’ancrage de la table des matières historique remplacée par la disposition d’architecture B2B terminée.
 
 ## Reprise
 

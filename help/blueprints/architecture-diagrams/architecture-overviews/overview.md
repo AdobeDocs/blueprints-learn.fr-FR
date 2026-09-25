@@ -14,8 +14,8 @@ Ces diagrammes fournissent des références techniques de haut niveau sur la man
 
 | Diagramme | Description |
 | --- | --- |
-| [ Adobe Experience Cloud ](experience-cloud.md) | Architecture d’entreprise montrant comment les applications et services Adobe Experience Cloud s’intègrent à Adobe Experience Platform Foundation |
+| [&#x200B; Adobe Experience Cloud &#x200B;](experience-cloud.md) | Architecture d’entreprise montrant comment les applications et services Adobe Experience Cloud s’intègrent à Adobe Experience Platform Foundation |
 | [Adobe Experience Platform et applications](platform-applications.md) | Relation entre Adobe Experience Platform et d’autres applications Experience Cloud |
-| [Flux de données ](platform-data-flow.md) | Chemins d’ingestion et de sortie de données dans et hors de Adobe Experience Platform |
+| [Flux de données &#x200B;](platform-data-flow.md) | Chemins d’ingestion et de sortie de données dans et hors de Adobe Experience Platform |
 | [Mécanismes de sécurisation de Adobe Experience Platform et de l’application](guardrails.md) | Contraintes système, attentes en matière de performances et mécanismes de sécurisation de la latence pour Adobe Experience Platform et les applications |
 | [Adobe Experience Platform Web SDK et Edge Network](websdk.md) | Flux de collecte de données Web SDK et Edge Network |

@@ -52,7 +52,7 @@ ht-degree: 0%
 
 7. À l’extrémité gauche de l’éditeur de code, cliquez sur l’élément de menu **Politique de décision**, puis sur le bouton **Ajouter une politique de décision** dans le nouveau menu.
 
-   ![Menu Politique de décision avec le bouton Ajouter une politique de décision ](assets/create-the-journey-add-decision-policy-button.png)
+   ![Menu Politique de décision avec le bouton Ajouter une politique de décision &#x200B;](assets/create-the-journey-add-decision-policy-button.png)
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 1. Une fois le Parcours terminé, cliquez sur le bouton bleu **Publier** en haut à droite et **Publier** à nouveau lorsque la zone de confirmation s’affiche. Après un moment ou deux, vous verrez que votre Parcours est maintenant en ligne !
 
-Parcours de navigation Abandon d’iPhone 17 publié et actif](assets/create-the-journey-published-live.png)![
+Parcours de navigation Abandon d’iPhone 17 publié et actif![&#128279;](assets/create-the-journey-published-live.png)
 
 >[!TIP]
 >

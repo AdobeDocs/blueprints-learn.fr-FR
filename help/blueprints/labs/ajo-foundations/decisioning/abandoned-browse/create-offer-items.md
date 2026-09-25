@@ -51,7 +51,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
 6. Développez l’élément **Appareil** dans la zone « Attributs personnalisés », puis saisissez les informations suivantes dans les zones de texte :
    - Niveau : **Générique**
    - Modèle : **17**
-   - Marque : ****
+   - Marque : **&#x200B;**
 
    Il s’agit des valeurs de texte réelles qui décrivent l’offre et ce qui peut être utilisé dans le tri, le classement et les critères d’éligibilité. Il s’agit également des valeurs de texte qui peuvent être renvoyées à l’appareil demandeur.
 
@@ -93,7 +93,7 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
 3. Développez la zone **Appareil** et donnez aux champs les valeurs suivantes :
    - Niveau : **de base**
    - Modèle : **17**
-   - Marque : ****
+   - Marque : **&#x200B;**
 
    Lorsque vous avez terminé, l’élément d’offre ressemble à ceci (la boîte rouge est ajoutée pour s’assurer que la priorité est correcte) :
 

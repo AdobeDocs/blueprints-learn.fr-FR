@@ -28,7 +28,7 @@ ht-degree: 41%
 
 Adobe Customer Journey Analytics unifie les données et le comportement des clients à partir de plusieurs canaux et sources d’interaction afin de créer une vue basée sur le parcours des interactions des clients. Cette catégorie fournit des références d’architecture pour le CJA principal, les dérivations de CJA B2B, le partage d’audience vers Real-Time CDP et l’intégration de CJA et de Journey Optimizer.
 
-L’architecture principale d’[](cja.md) inclut des dérivations pour l’analyse B2B et la publication d’audiences CJA dans Real-Time CDP. L’architecture de l’intégration [Adobe Customer Journey Analytics et Adobe Journey Optimizer](cja-ajo-integration.md) couvre les informations sur les campagnes et les parcours.
+L’architecture principale d’[&#128279;](cja.md) inclut des dérivations pour l’analyse B2B et la publication d’audiences CJA dans Real-Time CDP. L’architecture de l’intégration [Adobe Customer Journey Analytics et Adobe Journey Optimizer](cja-ajo-integration.md) couvre les informations sur les campagnes et les parcours.
 
 ## Cas d’utilisation de Customer Journey Analytics
 
@@ -42,4 +42,4 @@ Cas d’utilisation courants :
 * Quelles campagnes ont généré une conversion et un engagement accrus
 * Analyse de l’utilisation des outils pour optimiser les expériences en libre-service
 
-Une liste complète des cas d’utilisation de Customer Journey Analytics est disponible dans la documentation des cas d’utilisation de Customer Journey Analytics [](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=fr).
+Une liste complète des cas d’utilisation de Customer Journey Analytics est disponible dans la documentation des cas d’utilisation de Customer Journey Analytics [&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=fr).

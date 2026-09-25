@@ -75,7 +75,7 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 
 3. Laissez l’opérateur défini sur « Est égal à » et, dans la zone de texte restante, saisissez le nom de l’élément d’offre de niveau supérieur **iphone:17\:ultra**. Après avoir saisi le texte, l’interface utilisateur se met à jour et indique que la condition correspondante a été acceptée.
 4. Cliquez sur **+Ajouter une condition** puis cliquez dans la zone de texte **nouveau qui apparaît** (elle contient le texte « *Cliquez pour créer un élément de décision...* »)
-5. Cliquez sur l’option désormais disponible **Sélectionner un attribut****.**
+5. Cliquez sur l’option désormais disponible **Sélectionner un attribut**&#x200B;**.**
 6. Lorsque la boîte de dialogue « Sélectionner un attribut » s’ouvre, cliquez sur **Attributs de profil > Personne** (vous devrez probablement faire défiler la page vers le bas) **> Année de naissance**. Une fois sélectionné, cliquez sur **Enregistrer.**
 
    >[!NOTE]

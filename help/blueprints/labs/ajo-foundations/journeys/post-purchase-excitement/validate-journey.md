@@ -21,7 +21,7 @@ Vérifiez que le parcours a été déclenché et exécuté comme prévu.  Vérif
 1. Accédez à votre Parcours de commande expédié, ouvrez-le si vous l&#39;avez fermé
 2. Au moins 2 profils ont été saisis
 
-   ![Nombre saisi par le profil affiché pour le parcours ](assets/validate-journey-profile-entered-count.png)
+   ![Nombre saisi par le profil affiché pour le parcours &#x200B;](assets/validate-journey-profile-entered-count.png)
 
 3. Cliquez sur **Afficher le rapport** -> **Dernières 24 heures** en haut à droite.
 4. Par défaut, vous vous trouvez dans l’onglet **Parcours** (sur le rail de gauche)

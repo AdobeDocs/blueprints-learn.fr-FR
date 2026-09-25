@@ -84,7 +84,7 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
    ![Section Gestion de contenu avec l’option Assets dans le volet de navigation de gauche](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. Cliquez sur **** dans la section Gestion Assets.
+2. Cliquez sur **&#x200B;**&#x200B;dans la section Gestion Assets.
 
    ![Option Assets dans la section Gestion Assets](assets/building-content-fragments-assets-under-assets-management.png)
 

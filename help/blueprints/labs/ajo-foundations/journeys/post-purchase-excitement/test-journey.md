@@ -19,10 +19,10 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 ## Tester le parcours
 
 1. Cliquez sur **Parcours** sur le rail de gauche et sur l’onglet **Parcourir** si vous ne voyez pas de liste de Parcours
-2. Cliquez sur votre Parcours **** pour l&#39;ouvrir
+2. Cliquez sur votre Parcours **&#x200B;**&#x200B;pour l&#39;ouvrir
 3. Cliquez sur **Alertes** et vérifiez qu’aucune erreur ne s’est produite (les avertissements sont activés).
 
-   ![Panneau Alertes ne présentant aucune erreur après l’ouverture du parcours ](assets/test-journey-alerts-no-errors.png)
+   ![Panneau Alertes ne présentant aucune erreur après l’ouverture du parcours &#x200B;](assets/test-journey-alerts-no-errors.png)
 
    >[!NOTE]
    >
@@ -112,9 +112,9 @@ Vous devriez voir un élément similaire à ceci dans le journal :
 
    ![Bouton Publier pour le Parcours en haut à droite](assets/test-journey-publish-journey.png)
 
-1. **Fermez** Parcours **** en cliquant sur la flèche \&lt;- en haut à gauche
+1. **Fermez** Parcours **&#x200B;**&#x200B;en cliquant sur la flèche \&lt;- en haut à gauche
 
-![Flèche vers l’arrière en haut à gauche pour fermer le Parcours ](assets/test-journey-close-journey-back-arrow.png)
+![Flèche vers l’arrière en haut à gauche pour fermer le Parcours &#x200B;](assets/test-journey-close-journey-back-arrow.png)
 
 Ensuite, nous enverrons un événement réel de commande expédiée dans AEP
 
