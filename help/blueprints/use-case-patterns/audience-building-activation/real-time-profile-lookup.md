@@ -3,13 +3,11 @@ title: Accès au profil en temps réel pour les scénarios d’assistance et de 
 description: Recherches de [!UICONTROL profil client en temps réel] pour fournir un contexte pour l’aide et les ventes assistées par un agent.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # Accès au profil en temps réel pour les scénarios d’assistance et de vente
 
 Le plan directeur Accès au profil en temps réel pour les scénarios d’assistance et de vente montre comment les applications externes peuvent accéder à Adobe Experience Platform [!UICONTROL profil client en temps réel].
@@ -20,15 +18,11 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 
 >[!NOTE]
 >
->La recherche de profil sur le hub n’est pas destinée aux cas d’utilisation à débit élevé et à faible latence, tels que la personnalisation entrante web/mobile. La recherche de profil sur le hub est destinée aux scénarios de faible latence tels que l’assistance assistée par un agent ou les interactions de vente. Pour les scénarios à faible latence et à débit élevé, tels que la personnalisation web/mobile ou la prise de décision sur les offres en temps réel, le profil Edge doit être exploité. Le profil Edge permet un accès en temps réel via la [connexion Personalization personnalisée](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/custom-personalization) de Real-time Customer Data Platform.
+>La recherche de profil sur le hub n’est pas destinée aux cas d’utilisation à débit élevé et à faible latence, tels que la personnalisation entrante web/mobile. La recherche de profil sur le hub est destinée aux scénarios de faible latence tels que l’assistance assistée par un agent ou les interactions de vente. Pour les scénarios à faible latence et à débit élevé, tels que la personnalisation web/mobile ou la prise de décision sur les offres en temps réel, le profil Edge doit être exploité. Le profil Edge permet un accès en temps réel via la [connexion Personalization personnalisée](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) de Real-time Customer Data Platform.
 
 ## Cas d’utilisation
 
 * Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le consommateur, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.
-
-## Architecture
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Architecture de référence pour le plan directeur du centre d’activité client" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Garde-fous
 
@@ -42,7 +36,7 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 1. [Activez les schémas et les jeux de données pour le profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=fr).
 1. [Ingérez des données](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=fr) dans Experience Platform.
 1. [Configurez des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=fr).
-1. Utilisez l’API [&#x200B; Entities pour rechercher un attribut de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=fr).
+1. Utilisez l’API [ Entities pour rechercher un attribut de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=fr).
 
 ## Documentation connexe
 

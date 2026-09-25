@@ -4,7 +4,7 @@ description: Utilisez l’API Schema Registry pour créer un descripteur d’ide
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -51,9 +51,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+1. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
+1. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous voyez désormais une réponse `201 Created` comme ci-dessous
 

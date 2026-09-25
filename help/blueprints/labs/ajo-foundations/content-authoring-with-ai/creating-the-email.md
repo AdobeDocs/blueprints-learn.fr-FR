@@ -4,13 +4,11 @@ description: Découvrez comment appliquer un modèle de contenu de marque à un 
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
-
 ---
-
 
 # Créer l’email
 
@@ -69,27 +67,27 @@ Cette étape montre comment les modèles peuvent être réutilisés sur plusieur
 
 ![Option Modifier l’e-mail pour l’activité d’e-mail de campagne](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. Cliquez sur l’onglet **Action** et sélectionnez **votre** configuration d’e-mail. Votre sandbox peut l’afficher comme E-mail relationnel. (Sélectionnez-en un)
+1. Cliquez sur l’onglet **Action** et sélectionnez **votre** configuration d’e-mail. Votre sandbox peut l’afficher comme E-mail relationnel. (Sélectionnez-en un)
 
-![Onglet Action avec la configuration d’e-mail sélectionnée](assets/creating-the-email-action-tab-email-configuration.png)
+   ![Onglet Action avec la configuration d’e-mail sélectionnée](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. Cliquez sur **onglet Contenu**
+1. Cliquez sur **onglet Contenu**
 
-![Onglet Contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-content-tab.png)
+   ![Onglet Contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. Cliquez sur **Appliquer le modèle de contenu**
+1. Cliquez sur **Appliquer le modèle de contenu**
 
-![Option Appliquer le modèle de contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-apply-content-template.png)
+   ![Option Appliquer le modèle de contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé, puis cliquez sur **Confirmer**
+1. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé, puis cliquez sur **Confirmer**
 
-![Sélection du modèle promotionnel et clic sur Confirmer](assets/creating-the-email-select-promotional-template-confirm.png)
+   ![Sélection du modèle promotionnel et clic sur Confirmer](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. Cliquez sur **Modifier le corps de l’e-mail**
+1. Cliquez sur **Modifier le corps de l’e-mail**
 
-![Option Modifier le corps de l’e-mail après application du modèle](assets/creating-the-email-click-edit-email-body.png)
+   ![Option Modifier le corps de l’e-mail après application du modèle](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. Vérifiez que les nouveaux blocs d’en-tête, de héros, de pied de page et de contenu s’affichent correctement.
+1. Vérifiez que les nouveaux blocs d’en-tête, de héros, de pied de page et de contenu s’affichent correctement.
 
 ![En-tête, héros, pied de page et blocs de contenu apparaissant correctement dans l’e-mail](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

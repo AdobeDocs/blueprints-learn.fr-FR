@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Schéma d’évaluation de plan directeur
 
@@ -21,7 +20,7 @@ en décrivant les approches et les considérations possibles pour atteindre cet 
 Forme canonique : `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Diagramme d&#39;architecture** — Diagramme visuel représentant les fonctionnalités d&#39;un système,
 intégrations et flux de données. Narration minimale ; le diagramme est l&#39;artefact.
-Exemple canonique : [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+Exemple canonique : [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Notation
 
@@ -42,11 +41,11 @@ juste un bref aperçu.
 
 ### Signaux du diagramme (chacun = +1 Diagramme)
 
-&#x200B;6. **Image de l’architecture/du flux de données présente** — `.svg`, `.png` ou `.jpg` montrant la topologie du système,
+6. **Image de l’architecture/du flux de données présente** — `.svg`, `.png` ou `.jpg` montrant la topologie du système,
 flux de données ou flèches d’intégration.
-&#x200B;7. **topologie d’intégration système à système, forme de déploiement ou mécanismes de sécurisation** — décrit comment
+7. **topologie d’intégration système à système, forme de déploiement ou mécanismes de sécurisation** — décrit comment
 les composants se connectent, selon l’emplacement des données, les modèles de déploiement (edge par rapport au hub) ou les limites de capacité.
-&#x200B;8. **L’audience est l’architecte des solutions** — le cadrage utilise le déploiement, SDK, Edge, hub ou similaire
+8. **L’audience est l’architecte des solutions** — le cadrage utilise le déploiement, SDK, Edge, hub ou similaire
 une terminologie axée sur l’architecte plutôt que sur le marketeur (campagnes, parcours,
 audiences).
 
@@ -89,7 +88,7 @@ Pour chaque fichier Markdown de plan directeur de la portée :
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` ou une nouvelle catégorie intitulée `(new) <name>`.
    - `proposed_pattern_title` — un titre court et orienté vers l&#39;action suivant le modèle existant
-style de dénomination.
+     style de dénomination.
 6. Pour des recommandations `Diagram` et `Split`, proposez :
    - `proposed_diagram_title` : généralement le titre existant supprimé du cadre d’entreprise.
 7. Capturez les doublons trouvés en comparant la portée du plan directeur au catalogue de modèles existant

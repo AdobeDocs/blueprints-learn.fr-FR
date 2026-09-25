@@ -4,7 +4,7 @@ description: Découvrez comment utiliser l’activité Lecture d’audience avec
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 4. Cliquez ensuite sur la liste déroulante de **Entité** et sélectionnez le Dimension cible `dep-rel: Customer Account - customer_id` Campaign
 
-![&#x200B; Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
+![ Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
 
 >[!NOTE]
 >
@@ -126,45 +126,45 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 ![Attribut Source sélectionné à partir des colonnes de la dimension de ciblage](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Les valeurs distinctes pour la colonne Source sont disponibles dans la liste déroulante. Pour la **Condition personnalisée**, sélectionnez **« En magasin »** dans la liste déroulante, puis cliquez sur **Confirmer** pour quitter
+1. Les valeurs distinctes pour la colonne Source sont disponibles dans la liste déroulante. Pour la **Condition personnalisée**, sélectionnez **« En magasin »** dans la liste déroulante, puis cliquez sur **Confirmer** pour quitter
 
-![Condition personnalisée définie sur En magasin](assets/read-an-audience-set-in-store-condition.png)
+   ![Condition personnalisée définie sur En magasin](assets/read-an-audience-set-in-store-condition.png)
 
-&#x200B;12. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres du premier Partage sont terminés. Cliquez sur **Ajouter un segment** à la deuxième division
+1. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres du premier Partage sont terminés. Cliquez sur **Ajouter un segment** à la deuxième division
 
-![Bouton Ajouter un segment dans le volet Détails de l’activité Partage &#x200B;](assets/read-an-audience-add-segment-button.png)
+   ![Bouton Ajouter un segment dans le volet Détails de l’activité Partage ](assets/read-an-audience-add-segment-button.png)
 
-Un nouveau segment nommé **Result** est créé
+   Un nouveau segment nommé **Result** est créé
 
-![Nouveau segment nommé Result](assets/read-an-audience-new-result-segment.png)
+   ![Nouveau segment nommé Result](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. Renommez « **Result** » en « **Not In Store** » et cliquez sur **Créer un filtre** pour définir la condition de filtre
+1. Renommez « **Result** » en « **Not In Store** » et cliquez sur **Créer un filtre** pour définir la condition de filtre
 
-![Segment renommé Non en magasin avec l’option de filtre](assets/read-an-audience-rename-not-in-store-segment.png)
+   ![Segment renommé Non en magasin avec l’option de filtre](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. Dans le volet **Créer un filtre**, cliquez sur **Ajouter une condition**. Suivez la même approche que ci-dessus, développez la **dimension de ciblage** en cliquant sur **>**, puis sélectionnez `Source` dans la liste et cliquez sur **Confirmer**
+1. Dans le volet **Créer un filtre**, cliquez sur **Ajouter une condition**. Suivez la même approche que ci-dessus, développez la **dimension de ciblage** en cliquant sur **>**, puis sélectionnez `Source` dans la liste et cliquez sur **Confirmer**
 
-![Dimension de ciblage développée pour afficher les colonnes du magasin relationnel](assets/read-an-audience-expand-targeting-dimension.png)
+   ![Dimension de ciblage développée pour afficher les colonnes du magasin relationnel](assets/read-an-audience-expand-targeting-dimension.png)
 
-![Attribut Source sélectionné à partir des colonnes de la dimension de ciblage](assets/read-an-audience-select-source-attribute.png)
+   ![Attribut Source sélectionné à partir des colonnes de la dimension de ciblage](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. Pour la **Condition personnalisée**, sélectionnez **« En magasin »** dans la liste déroulante et pour l’opérateur, sélectionnez « **différent de** ». Cliquez sur **Confirmer** pour quitter
+1. Pour la **Condition personnalisée**, sélectionnez **« En magasin »** dans la liste déroulante et pour l’opérateur, sélectionnez « **différent de** ». Cliquez sur **Confirmer** pour quitter
 
-![Condition personnalisée définie sur différente de En magasin](assets/read-an-audience-set-not-in-store-condition.png)
+   ![Condition personnalisée définie sur différente de En magasin](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres des deux divisions sont terminés. Cliquez sur **Démarrer** pour exécuter la campagne en **Mode test**
+1. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres des deux divisions sont terminés. Cliquez sur **Démarrer** pour exécuter la campagne en **Mode test**
 
-![Bouton Démarrer pour lancer la campagne en mode Test après la configuration du Partage](assets/read-an-audience-start-test-mode-second-run.png)
+   ![Bouton Démarrer pour lancer la campagne en mode Test après la configuration du Partage](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. L’exécution du test démarre et les résultats s’affichent à la fin du processus. Comme seule la dimension cible correspondant à **7** a été trouvée dans le schéma relationnel, le même nombre est observé après les opérations Partage (**7** et **0**) également
+1. L’exécution du test démarre et les résultats s’affichent à la fin du processus. Comme seule la dimension cible correspondant à **7** a été trouvée dans le schéma relationnel, le même nombre est observé après les opérations Partage (**7** et **0**) également
 
-![Résultats de l’activité Partage affichant des nombres de 7 et 0](assets/read-an-audience-verify-split-counts.png)
+   ![Résultats de l’activité Partage affichant des nombres de 7 et 0](assets/read-an-audience-verify-split-counts.png)
 
-&#x200B;18. Cliquez sur chaque zone de résultat et **Prévisualiser les résultats** pour afficher les résultats
+1. Cliquez sur chaque zone de résultat et **Prévisualiser les résultats** pour afficher les résultats
 
-![Option de prévisualisation des résultats pour chaque zone de résultat Fractionner](assets/read-an-audience-preview-split-results.png)
+   ![Option de prévisualisation des résultats pour chaque zone de résultat Fractionner](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. Cliquez sur **Arrêter** pour arrêter le **Mode test** de la campagne
+1. Cliquez sur **Arrêter** pour arrêter le **Mode test** de la campagne
 
 ![Bouton Arrêter pour terminer l’exécution du mode Test final](assets/read-an-audience-stop-test-mode-final.png)
 
@@ -182,4 +182,4 @@ Un nouveau segment nommé **Result** est créé
 
 Vous avez maintenant vu à quel point il est facile de créer une campagne, d’effectuer une activité Lecture d’audience avec le Dimension Cible du profil pour utiliser le schéma relationnel. Vous avez utilisé l’activité Partage pour partager l’audience en fonction d’une condition. Enfin, le mode test a permis de comprendre qu’il est important d’avoir la cohérence des données entre le profil et le schéma relationnel.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.

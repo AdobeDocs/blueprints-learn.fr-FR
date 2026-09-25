@@ -1,16 +1,14 @@
 ---
-title: null
+title: Option #1 - using Audiences to aggregate
 description: Créez des audiences qui utilisent l’agrégation Somme et moyenne dans l’audience sur les événements d’utilisation de facturation et les données de plan dénormalisées pour permettre l’évaluation de la diffusion en continu.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # #1 d’options - utilisation des audiences pour l’agrégation
 
@@ -108,15 +106,15 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-&#x200B;5. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
+1. Cliquez sur Audiences —> Experience Platform. Faites glisser Somme de l’utilisation de facturation > 140 Go et Moyenne de l’utilisation de facturation >= 20 Go en regard de Nom du plan.
 
    ![Faites glisser les audiences d’utilisation de facturation à côté du nom du plan](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. Copiez le pseudo code dans la description
+1. Copiez le pseudo code dans la description
 
-&#x200B;7. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
+1. Vérifiez que ceci peut être en flux continu. **Il ne peut pas s’agir de diffusion en continu**. Apportez les modifications suivantes :
 
    >[!NOTE]
    >
@@ -126,7 +124,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-&#x200B;8. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
+1. Remplacez **Nom du plan (Nom du plan)** par : XDM Individual Profile > Devbc > Détails du plan > **Nom du plan**
 
    ![Remplacez Nom du plan (Nom du plan) par le champ Nom du plan dénormalisé](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +140,7 @@ Dans ce build d’audience, vous déterminez l’utilisation totale des données
 
 
 
-&#x200B;9. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
+1. Vérifiez que vous pouvez désormais enregistrer ceci en tant que Diffusion en continu. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate »*
 
 >[!NOTE]
 >

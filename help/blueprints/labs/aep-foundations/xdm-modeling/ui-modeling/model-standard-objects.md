@@ -4,7 +4,7 @@ description: Créez un schéma Profil individuel dans l’interface utilisateur 
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Il existe de nombreux groupes de champs qui existent en tant que XDM standard da
 
 
 
-&#x200B;3. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
+1. **Cochez** case en regard du groupe de champs, puis cliquez sur le bouton **Ajouter des groupes de champs**
 
 ![Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma](assets/model-standard-objects-select-demographic-details-field-group.png "Sélectionnez le groupe de champs Détails démographiques pour l’ajouter à votre schéma")
 

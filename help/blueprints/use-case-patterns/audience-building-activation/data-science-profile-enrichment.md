@@ -1,15 +1,13 @@
 ---
 title: Plan directeur sur la data science personnalisée pour l’enrichissement de profil
-description: Découvrez comment les informations issues de la science des données peuvent être ingérées dans  [!DNL Experience Platform]  pour enrichir le profil client en temps réel.
+description: Découvrez comment des informations basées sur la science des données peuvent être ingérées dans [!DNL Experience Platform] pour enrichir le profil client en temps réel.
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # Science des données personnalisées pour le plan directeur d’enrichissement des profils
 
 Le plan directeur personnalisé de science des données pour l’enrichissement des profils illustre la manière dont les données peuvent être utilisées pour entraîner, déployer et noter des modèles afin de fournir des informations de machine learning sur les [!DNL Experience Platform] et les [!DNL Real-Time Customer Data Platform] issus de la science des données et des outils de machine learning.
@@ -22,13 +20,9 @@ Les informations modélisées peuvent être ingérées dans [!DNL Experience Pla
 * Enrichir le [!UICONTROL profil client en temps réel] avec des informations et des attributs basés sur le modèle pour une personnalisation plus granulaire et une optimisation des parcours.
 * Former et évaluer des modèles pour déterminer les informations sur les clients telles que la valeur durée de vie client, la propension à convertir ou à se désabonner, les affinités de produit et de contenu et les scores d’engagement.
 
-## Architecture
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Architecture de référence pour le plan directeur sur la data science personnalisée pour l’enrichissement de profil" style="width:90%; border:1px solid #4a4a4a" />
-
 ## Garde-fous
 
-* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [&#x200B; Mécanismes de sécurisation de déploiement &#x200B;](/help/blueprints/experience-platform/guardrails.md).
+* Pour obtenir des mécanismes de sécurisation détaillés et des latences de bout en bout sur l’ingestion de résultats de science des données dans [!DNL Experience Platform] et le profil client en temps réel, reportez-vous aux graphiques de latence et de mécanismes de sécurisation de l’ingestion de données référencés dans le document [ Mécanismes de sécurisation de déploiement ](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
 
 ## Considérations relatives à la mise en œuvre
 
@@ -38,7 +32,7 @@ Les informations modélisées peuvent être ingérées dans [!DNL Experience Pla
 ## Documentation connexe
 
 * [Description  [!DNL Experience Platform]  produit Adobe Intelligence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [&#x200B; [!DNL Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
+* [ [!DNL Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr)
 
 ## Articles de blog connexes
 

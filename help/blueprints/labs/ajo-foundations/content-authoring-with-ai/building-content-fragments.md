@@ -4,13 +4,11 @@ description: Découvrez comment diviser une conception d’e-mail en fragments r
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
-
 ---
-
 
 # Création de fragments de contenu
 
@@ -86,7 +84,7 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
    ![Section Gestion de contenu avec l’option Assets dans le volet de navigation de gauche](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. Cliquez sur **&#x200B;**&#x200B;dans la section Gestion Assets.
+2. Cliquez sur **** dans la section Gestion Assets.
 
    ![Option Assets dans la section Gestion Assets](assets/building-content-fragments-assets-under-assets-management.png)
 
@@ -136,29 +134,29 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 ![Cliquez sur Suivant après avoir sélectionné le chargement du logo](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Sélectionnez le **dossier de ressources** créé, puis cliquez sur **Importer**. Le fichier est enregistré dans votre dossier.
+1. Sélectionnez le **dossier de ressources** créé, puis cliquez sur **Importer**. Le fichier est enregistré dans votre dossier.
 
-![Sélection du dossier de ressources créé et clic sur Importer](assets/building-content-fragments-select-asset-folder-import.png)
+   ![Sélection du dossier de ressources créé et clic sur Importer](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Style** et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
+1. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Style** et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
 
->[!NOTE]
->
->Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
+   >[!NOTE]
+   >
+   >Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
 
 
 
-![Curseur de largeur d’onglet Style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
+   ![Curseur de largeur d’onglet Style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Cliquez sur **« Enregistrer »** et votre fragment est enregistré. Une barre verte s’affiche lors de la confirmation.
+1. Cliquez sur **« Enregistrer »** et votre fragment est enregistré. Une barre verte s’affiche lors de la confirmation.
 
-![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
+   ![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **précédent**.
+1. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **précédent**.
 
-![Bouton Précédent pour conserver le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
+   ![Bouton Précédent pour conserver le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
+1. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
 
 ![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
 

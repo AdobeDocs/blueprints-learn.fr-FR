@@ -4,13 +4,11 @@ description: Envoyez un événement web non authentifié à Edge via Postman et 
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
-
 ---
-
 
 # Envoi d’un événement Edge
 
@@ -142,13 +140,13 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 
 
-&#x200B;3. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
+1. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
 
    ![Afficher l’événement dans l’onglet Événements du profil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Vérifiez que le profil est qualifié pour les audiences en consultant l’onglet Appartenance à l’audience dans le volet de navigation supérieur.  Vous devriez voir les éléments suivants :
+1. Vérifiez que le profil est qualifié pour les audiences en consultant l’onglet Appartenance à l’audience dans le volet de navigation supérieur.  Vous devriez voir les éléments suivants :
 
 - Tout événement Edge (au cours des 15 dernières minutes)
 - N’importe quel flux d’événements (au cours de la dernière heure)

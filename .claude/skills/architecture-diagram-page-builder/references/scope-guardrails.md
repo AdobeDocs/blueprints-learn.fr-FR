@@ -1,13 +1,12 @@
 ---
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
-
 ---
 # Mécanismes de sécurisation de l’étendue : page Architecture et page Modèle de cas d’utilisation
 
-Le site de plans directeurs sépare les **pages de diagramme d’architecture** des **pages de modèle de cas d’utilisation** car elles répondent à différents besoins du lecteur. Ce document définit l’élément qui doit être placé à l’emplacement approprié et comment gérer le contenu qui glisse au-delà des limites.
+Ce site sépare les **pages de diagramme d’architecture** des **pages de modèle de cas d’utilisation** car elles répondent à différents besoins du lecteur. Ce document définit l’élément qui doit être placé à l’emplacement approprié et comment gérer le contenu qui glisse au-delà des limites.
 
 ## La distinction fondamentale
 
@@ -18,7 +17,7 @@ Le site de plans directeurs sépare les **pages de diagramme d’architecture** 
 
 | Catégorie | Exemples |
 | --- | --- |
-| Architecture de niveau supérieur | Diagrammes de présentation d’AEP et des applications, de la structure marketing d’Experience Cloud, de la topologie hub vs edge |
+| Architecture de niveau supérieur | Diagrammes de présentation d’AEP et des applications, architecture de marché Experience Cloud, topologie hub/edge |
 | Flux de données système | Chemins d’ingestion en temps réel ou par lots, synchronisation des profils entre le hub et le edge, flux de recherche ou d’activation |
 | Points d’intégration | Où AEP s’intègre à AJO, CJA, Target, Campaign, Marketo, Workfront ; limites de SDK ; surfaces d’API |
 | Topologie de déploiement | Déploiement de Web SDK par rapport à Mobile SDK, transfert côté serveur, placement de nœuds Edge |

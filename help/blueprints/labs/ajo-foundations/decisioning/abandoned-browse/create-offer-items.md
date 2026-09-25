@@ -4,13 +4,11 @@ description: Créez des éléments d’offre iPhone hiérarchisés avec des prio
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # Créer des éléments d’offre
 
@@ -53,7 +51,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
 6. Développez l’élément **Appareil** dans la zone « Attributs personnalisés », puis saisissez les informations suivantes dans les zones de texte :
    - Niveau : **Générique**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Il s’agit des valeurs de texte réelles qui décrivent l’offre et ce qui peut être utilisé dans le tri, le classement et les critères d’éligibilité. Il s’agit également des valeurs de texte qui peuvent être renvoyées à l’appareil demandeur.
 
@@ -84,7 +82,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
 >
 >Dans la pratique, et pour les offres plus complexes, un processus de validation approprié doit être en place pour s’assurer que les éléments de l’offre ont été créés correctement. Pour gagner du temps dans cet atelier, il vous suffit d’approuver chaque élément d’offre que vous créez.
 
-&#x200B;12. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
+1. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
 
 ## Créer un article d’offre de modèle de base
 
@@ -95,7 +93,7 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
 3. Développez la zone **Appareil** et donnez aux champs les valeurs suivantes :
    - Niveau : **de base**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Lorsque vous avez terminé, l’élément d’offre ressemble à ceci (la boîte rouge est ajoutée pour s’assurer que la priorité est correcte) :
 
@@ -150,7 +148,7 @@ Maintenant que les offres de modèle générique et de base ont été créées, 
 
 ![Configuration terminée pour l&#39;élément d&#39;offre de niveau Ultra](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. Une fois que vous avez vérifié que tous les paramètres sont corrects, enregistrez et approuvez cet élément d&#39;offre. Vous voyez désormais les quatre éléments de l’offre, chacun ayant une priorité unique.
+1. Une fois que vous avez vérifié que tous les paramètres sont corrects, enregistrez et approuvez cet élément d&#39;offre. Vous voyez désormais les quatre éléments de l’offre, chacun ayant une priorité unique.
 
 ![Page Offres répertoriant les quatre éléments d’offre avec des priorités uniques](assets/create-offer-items-all-four-offers-priority.png)
 

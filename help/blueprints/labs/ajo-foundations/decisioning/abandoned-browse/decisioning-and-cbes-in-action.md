@@ -4,13 +4,11 @@ description: Utilisez Postman pour envoyer des événements d’expérience pour
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
-
 ---
-
 
 # Prise de décision et CBE en action
 
@@ -102,34 +100,34 @@ Commencez par le profil de Bob.
 
 ![Vue Edge du profil de Bob ne montrant aucune appartenance à l&#39;audience pour le moment](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. Dans un nouvel onglet du navigateur, accédez au Parcours que vous avez créé et cliquez dessus. Vous constatez qu’un profil est entré dans le Parcours et se trouve désormais sur le nœud CBE.
+1. Dans un nouvel onglet du navigateur, accédez au Parcours que vous avez créé et cliquez dessus. Vous constatez qu’un profil est entré dans le Parcours et se trouve désormais sur le nœud CBE.
 
-![Zone de travail de Parcours affichant le profil de Bob saisi au niveau du nœud CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+   ![Zone de travail de Parcours affichant le profil de Bob saisi au niveau du nœud CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
-À ce stade, Bob est entré sur le Parcours et la projection Edge est en train d’assembler une projection qui met à jour le profil de Bob sur Edge.
+   À ce stade, Bob est entré sur le Parcours et la projection Edge est en train d’assembler une projection qui met à jour le profil de Bob sur Edge.
 
-&#x200B;12. Revenez à Postman et cliquez sur le second des appels d’événement d’expérience de Bob, **Bob - Page Top Fetch.**
-&#x200B;13. Cliquez sur **Envoyer**. Que se passe-t-il ?
-    - Si le profil Edge de Bob n’a pas encore été mis à jour, vous obtenez une réponse très similaire à celle de l’appel de collecte de données. Si c’est le cas, patientez encore une minute ou deux, puis essayez d’envoyer à nouveau l’appel de récupération du haut de la page de Bob.
-    - Si le profil Edge de Bob a été mis à jour, vous obtenez une réponse avec le fichier JSON qui a été configuré précédemment, ainsi que des informations supplémentaires utilisées pour le compte rendu des performances. Mais avant de passer à autre chose, quelle offre iPhone 17 doit proposer à Robert ?
+1. Revenez à Postman et cliquez sur le second des appels d’événement d’expérience de Bob, **Bob - Page Top Fetch.**
+1. Cliquez sur **Envoyer**. Que se passe-t-il ?
+   - Si le profil Edge de Bob n’a pas encore été mis à jour, vous obtenez une réponse très similaire à celle de l’appel de collecte de données. Si c’est le cas, patientez encore une minute ou deux, puis essayez d’envoyer à nouveau l’appel de récupération du haut de la page de Bob.
+   - Si le profil Edge de Bob a été mis à jour, vous obtenez une réponse avec le fichier JSON qui a été configuré précédemment, ainsi que des informations supplémentaires utilisées pour le compte rendu des performances. Mais avant de passer à autre chose, quelle offre iPhone 17 doit proposer à Robert ?
 
-      Bob est né en 1974, c&#39;est-à-dire plus de 1966. Il se serait donc qualifié pour le critère de la formule de classement 2, et ses scores de priorité d&#39;offre Générique, Base et Pro auraient été multipliés par 100, donnant à ces scores d&#39;offre des scores de 100, 200 et 300, respectivement. Cependant, Bob Basic a un ID de plan 1, il n&#39;est donc pas éligible aux offres de niveau Ultra ou Pro grâce à la règle de décision. Par conséquent, l’offre de niveau de base, qui a un score de 200, s’affiche. Vous pouvez voir que dans la réponse (vous devrez probablement faire défiler l’écran vers le bas) :
+     Bob est né en 1974, c&#39;est-à-dire plus de 1966. Il se serait donc qualifié pour le critère de la formule de classement 2, et ses scores de priorité d&#39;offre Générique, Base et Pro auraient été multipliés par 100, donnant à ces scores d&#39;offre des scores de 100, 200 et 300, respectivement. Cependant, Bob Basic a un ID de plan 1, il n&#39;est donc pas éligible aux offres de niveau Ultra ou Pro grâce à la règle de décision. Par conséquent, l’offre de niveau de base, qui a un score de 200, s’affiche. Vous pouvez voir que dans la réponse (vous devrez probablement faire défiler l’écran vers le bas) :
 
-![Réponse Postman affichant l’offre de niveau de base renvoyée pour Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
+   ![Réponse Postman affichant l’offre de niveau de base renvoyée pour Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. N’oubliez pas que cette requête Postman envoie automatiquement une notification d’affichage pour cette offre. AJO a donc déjà enregistré au moins une impression pour cette offre. Cliquez à nouveau sur **Envoyer** pour envoyer une deuxième impression. Vérifiez que l&#39;offre de base a été renvoyée.
-&#x200B;15. Rappelez-vous qu&#39;une limitation de fréquence de 3 impressions s&#39;applique aux modèles de niveau Base, Pro et Ultra. Cliquez sur **Envoyer** une troisième fois pour obtenir une troisième réponse avec le niveau de base et pour enregistrer une autre impression.
-&#x200B;16. Cliquez sur **Envoyer** une quatrième fois. Que se passe-t-il ? La limite de fréquence de l’offre de niveau de base est atteinte et vous recevez l’offre générique dans la réponse :
+1. N’oubliez pas que cette requête Postman envoie automatiquement une notification d’affichage pour cette offre. AJO a donc déjà enregistré au moins une impression pour cette offre. Cliquez à nouveau sur **Envoyer** pour envoyer une deuxième impression. Vérifiez que l&#39;offre de base a été renvoyée.
+1. Rappelez-vous qu&#39;une limitation de fréquence de 3 impressions s&#39;applique aux modèles de niveau Base, Pro et Ultra. Cliquez sur **Envoyer** une troisième fois pour obtenir une troisième réponse avec le niveau de base et pour enregistrer une autre impression.
+1. Cliquez sur **Envoyer** une quatrième fois. Que se passe-t-il ? La limite de fréquence de l’offre de niveau de base est atteinte et vous recevez l’offre générique dans la réponse :
 
-![Réponse Postman affichant l’offre générique renvoyée une fois la limitation de fréquence atteinte](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
+   ![Réponse Postman affichant l’offre générique renvoyée une fois la limitation de fréquence atteinte](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. Cliquez de nouveau sur **Envoyer** pour afficher l’offre de niveau générique. Vous pouvez cliquer sur Envoyer 100 fois de plus et obtenir la même offre en retour jusqu’au lendemain, lorsque le capping de la fréquence est réinitialisé.
+1. Cliquez de nouveau sur **Envoyer** pour afficher l’offre de niveau générique. Vous pouvez cliquer sur Envoyer 100 fois de plus et obtenir la même offre en retour jusqu’au lendemain, lorsque le capping de la fréquence est réinitialisé.
 
->[!WARNING]
->
->N’oubliez pas que dans AJO, la journée se réinitialise à minuit GMT. Si vous deviez envoyer un autre appel de récupération après minuit GMT, vous verriez l’offre de niveau de base renvoyer à la place.
+   >[!WARNING]
+   >
+   >N’oubliez pas que dans AJO, la journée se réinitialise à minuit GMT. Si vous deviez envoyer un autre appel de récupération après minuit GMT, vous verriez l’offre de niveau de base renvoyer à la place.
 
-&#x200B;18. Revenez à l’interface utilisateur de Journey Orchestration et cliquez sur le Parcours **Parcourir les abandons d’iPhone 17** que vous avez créé. Comme le Parcours est actif et publié, vous commencez à voir des statistiques. Vous voyez qu’1 profil est entré dans le Parcours et se trouve actuellement au nœud CBE.
+1. Revenez à l’interface utilisateur de Journey Orchestration et cliquez sur le Parcours **Parcourir les abandons d’iPhone 17** que vous avez créé. Comme le Parcours est actif et publié, vous commencez à voir des statistiques. Vous voyez qu’1 profil est entré dans le Parcours et se trouve actuellement au nœud CBE.
 
 ![Rapports de Parcours affichant un profil actuellement sur le nœud CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

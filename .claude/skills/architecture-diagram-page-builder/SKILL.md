@@ -1,13 +1,11 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Guidez la création de pages de diagramme d’architecture pour le référentiel de blueprints Adobe Experience Platform. Utilisez cette compétence lors de l’ajout d’un nouveau diagramme d’architecture de niveau supérieur, d’une page d’architecture d’intégration ou d’une présentation de l’architecture d’application. Les pages Architecture couvrent les architectures AEP et d’application de niveau supérieur, ainsi que les points d’intégration principaux, mais pas les cas d’utilisation détaillés (ceux-ci appartiennent au créateur de modèles de cas d’utilisation). Gère l’ensemble du workflow : collecte des informations sur la page, génération du fichier Markdown, placement dans le dossier de rubrique approprié et mise à jour du fichier TOC.md.'
-source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1562'
 ht-degree: 1%
-
 ---
-
 
 # Générateur de page du diagramme d’architecture
 
@@ -149,12 +147,11 @@ Lisez la `references/toc-placement.md` pour le tableau et les règles de mappage
 
 | Dossier du topic | Sous-section Table des matières |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (sous-sous-section des vues d’ensemble de l’architecture) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Format d’entrée (retrait de 4 espaces + `+`) :
 
@@ -174,7 +171,7 @@ Une fois tous les fichiers créés et mis à jour, vérifiez les points suivants
 
 2. **Liens de modèle de cas d’utilisation** — Chaque lien de modèle dans le fichier pointe vers un fichier Markdown existant sous `/help/blueprints/use-case-patterns/`. Utilisez `Read` ou glob pour confirmer que chaque cible existe.
 
-3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/fr`.
+3. **Liens Experience League** — Vérifiez que chaque URL de la section `## Further reading` commence par `https://experienceleague.adobe.com/`.
 
 4. **Emplacement de l&#39;entrée de table des matières** — La nouvelle entrée se trouve à l&#39;intérieur de la sous-section appropriée, utilise une mise en retrait de 4 espaces et le chemin correspond exactement à l&#39;emplacement du fichier généré.
 
@@ -189,5 +186,5 @@ Résolvez les problèmes de validation avant de considérer la tâche comme term
 - Utilisez toujours la syntaxe `[!DNL ...]` pour les noms de produits Adobe dans le corps du texte et les puces, en respectant la convention des pages existantes.
 - Les diagrammes d’architecture sont généralement SVG (préférés pour leur netteté et leur mise à l’échelle), mais PNG est acceptable pour les illustrations à source matricielle.
 - Les `class="modal-image"` et la chaîne de style intégrée `<img>` (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) sont nécessaires ; ils activent l’interaction modale-zoom d’Experience League.
-- Si l’utilisateur crée une page pour un tout nouveau dossier de rubrique qui n’existe pas encore, avertissez-le que TOC.md requiert une nouvelle sous-section de niveau supérieur sous `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Gérer cela comme une étape distincte avec l’approbation explicite de l’utilisateur.
+- Si l’utilisateur crée une page pour un tout nouveau dossier de rubrique qui n’existe pas encore, arrêtez et utilisez plutôt la compétence `architecture-diagram-category-builder` : elle gère l’application de la convention de nommage, la création de sous-sections TOC.md, le `overview.md` de catégorie et la grille de carte de la page de destination. Ne créez pas de dossier de rubrique à partir de cette compétence.
 - Si le diagramme d’architecture documente de manière exhaustive un *cas d’utilisation unique de bout en bout* (avec des indicateurs de performance clés, des objectifs commerciaux et des fonctionnalités), redirigez l’utilisateur vers `use-case-pattern-builder`, qui n’est pas une page d’architecture.

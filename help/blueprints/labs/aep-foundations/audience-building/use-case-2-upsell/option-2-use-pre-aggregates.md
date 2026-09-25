@@ -1,16 +1,14 @@
 ---
-title: null
+title: Option #2 - use pre-aggregates
 description: Créez une audience entièrement en flux continu en utilisant des attributs d’utilisation préagrégés calculés en amont au lieu d’agréger les événements dans la règle d’audience.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # #2 d’options - Utilisation de pré-agrégats
 
@@ -36,15 +34,15 @@ Créez une audience de tous les profils dont l’utilisation des données de fac
 
 
 
-&#x200B;3. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
+1. Recherchez le nom du plan sur le profil et ajoutez-le (Profil individuel XDM > Devbc > Détails du plan > Nom du plan). Sélectionner N’Est Pas Égal À « Ultimate »
 
    ![Sélectionner Le Nom Du Plan N’Est Pas Égal À Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
+1. Fournissez une description.  La méthode d’évaluation Valider est Diffusion en continu.
 
-&#x200B;5. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
+1. Enregistrez l’audience en tant que « *Utilisation élevée des données de facturation, mais pas de plan Ultimate (Agg)* »
 
 >[!NOTE]
 >
