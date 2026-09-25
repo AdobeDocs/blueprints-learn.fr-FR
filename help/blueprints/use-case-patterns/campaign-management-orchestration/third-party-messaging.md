@@ -1,15 +1,13 @@
 ---
-title: Journey Optimizer - Plan directeur de la messagerie tierce
+title: Journey Optimizer - Plan directeur des messages tiers
 description: Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour envoyer des communications personnalisées.
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
-
-# Plan directeur de la messagerie tierce
+# Plan directeur des messages tiers
 
 Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de messagerie tiers pour envoyer des communications personnalisées.
 
@@ -17,7 +15,7 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 ## Architecture
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="Plan directeur Journey Optimizer de l’architecture de référence" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -37,9 +35,9 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 ## Garde-fous
 
-[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=fr)
+[Lien du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
+[Mécanismes de sécurisation et conseils sur la latence de bout en bout](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -49,7 +47,7 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 #### Schéma/jeux de données
 
-1. [&#x200B; Configurer des schémas &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=fr) dans Experience Platform, en fonction des données fournies par le client ou la cliente.
+1. [ Configurer des schémas ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=fr) dans Experience Platform, en fonction des données fournies par le client ou la cliente.
 1. [Créez des jeux de données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=fr) dans Experience Platform pour les données à ingérer.
 1. [Ajoutez des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=fr) dans Experience Platform au jeu de données pour votre gouvernance.
 1. [Créez des stratégies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=fr) pour appliquer la gouvernance sur les destinations.
@@ -71,9 +69,9 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 1. Configurez votre source de données Experience Platform et déterminez les champs à mettre en cache dans le cadre du parcours
 1. Les données de diffusion en continu, utilisées pour lancer un parcours client, doivent d’abord être configurées pour obtenir un identifiant d’orchestration. Cet identifiant d’orchestration est ensuite fourni au développeur pour qu’il l’utilise lors de l’ingestion
 1. Configurez des sources de données externes.
-1. Configuration d’actions personnalisées pour une application tierce.
+1. Configuration d’actions personnalisées pour les applications tierces
 
-### Configuration push mobile (facultative, car des jetons peuvent être collectés par des tiers)
+### Configuration de notifications push mobiles (facultatif, car un tiers peut collecter des jetons)
 
 1. Implémentez le SDK Mobile Experience Platform pour collecter des jetons push et des informations de connexion afin de les lier à des profils clients connus.
 1. Tirez parti des balises Adobe et créez une propriété mobile avec l’extension suivante :
@@ -90,6 +88,6 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 * [Documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
-* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
+* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)

@@ -6,20 +6,23 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d63e7dbc225a99171dc6b0e7491b517757a5c6d8
+    internal-label: Implementation
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '370'
 ht-degree: 4%
-
 ---
-
 # Cas d’utilisation et diagrammes d’architecture de Customer Experience Orchestration
 
 Ce site contient **Objectifs commerciaux clés** qui décrivent des exemples de valeur commerciale principale et d’objectifs pouvant être atteints avec Adobe Experience Platform et les applications. **Modèles de cas d’utilisation** décrivez les fonctionnalités courantes des plateformes et des applications avec des approches d’implémentation répétables. **Exemples de cas d’utilisation du secteur** appliquez des modèles à des scénarios métier verticaux spécifiques. Les **schémas et plans directeurs d’architecture** sont des schémas de référence d’architecture visuelle et de flux de données qui illustrent les points d’intégration du système, les flux de données et de contenu et la séquence d’opérations, fournissant ainsi une référence technique pour la conception de solutions. Ensemble, ces couches relient la valeur commerciale aux dépendances et à l’architecture d’implémentation.
@@ -93,34 +96,36 @@ Diagrammes de référence d’architecture visuelle et de flux de données qui i
 <table>
 <tr>
   <td>
-    <a href="experience-platform/guardrails.md">
-      <img alt="Architecture d’Experience Platform Hub et d’Edge" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
+    <a href="architecture-diagrams/architecture-overviews/guardrails.md">
+      <img alt="Architecture d’Experience Platform Hub et d’Edge" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency.png" />
     </a>
     <div>
-      <a href="experience-platform/guardrails.md">
+      <a href="architecture-diagrams/architecture-overviews/guardrails.md">
     <strong>Diagramme de l’architecture et des mécanismes de sécurisation Experience Platform Hub et Edge</strong>
     </a>
     </div>
   </td>
    <td>
-    <a href="experience-platform/deployment/websdk.md">
-      <img alt="Diagramme de séquence Edge" src="experience-platform/deployment/assets/web_sdk_sequence.svg" />
+    <a href="architecture-diagrams/architecture-overviews/websdk.md">
+      <img alt="Diagramme de séquence Edge" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.png" />
     </a>
     <div>
-      <a href="experience-platform/deployment/websdk.md">
+      <a href="architecture-diagrams/architecture-overviews/websdk.md">
     <strong>Web SDK et diagramme de séquence Edge Network</strong>
     </a>
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Diagramme de présentation de Journey Optimizer" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
+    <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Diagramme de présentation de Journey Optimizer" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.png" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Diagramme De Présentation De </strong>
     </a>
     </div>
   </td>
 </tr>
 </table>
+
+[Afficher tous les schémas et plans directeurs d’architecture](architecture-diagrams/overview.md)
