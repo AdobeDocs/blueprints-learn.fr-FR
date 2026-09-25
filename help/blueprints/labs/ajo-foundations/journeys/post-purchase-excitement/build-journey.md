@@ -4,13 +4,11 @@ description: Créez un parcours unitaire qui répond à un événement de comman
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Créer un parcours
 
@@ -159,8 +157,8 @@ Pour le contenu, vous allez garder les choses simples. Comme stupide simple.
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. Ajoutez les champs de personnalisation comme suit (**cliquez sur le signe plus « + » en regard du champ du rail de gauche**) :
@@ -188,7 +186,7 @@ Pour le contenu, vous allez garder les choses simples. Comme stupide simple.
 
 ![Bouton Enregistrer et flèche vers l’arrière en haut à droite et à gauche](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. Enfin, cliquez sur l’icône **\&lt; Précédent** en haut à gauche pour revenir à la zone de travail de Parcours
+1. Enfin, cliquez sur l’icône **\&lt; Précédent** en haut à gauche pour revenir à la zone de travail de Parcours
 
 ![Icône Précédent en haut à gauche pour revenir au Parcours de la zone de travail](assets/build-journey-back-icon-to-journey-canvas.png)
 

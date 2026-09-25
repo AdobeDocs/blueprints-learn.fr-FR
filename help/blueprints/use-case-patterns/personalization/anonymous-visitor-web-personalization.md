@@ -3,13 +3,11 @@ title: Personalization Web de visiteur anonyme
 description: Découvrez comment diffuser du contenu web personnalisé aux visiteurs et visiteuses non identifiés en fonction de signaux comportementaux au cours de la session.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # Personnalisation web des visiteurs anonymes
 
 Ce guide décrit le modèle de cas d’utilisation de la personnalisation web pour les visiteurs anonymes, qui utilise [!DNL Adobe Journey Optimizer] (AJO), [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) et [!DNL Adobe Experience Platform] (AEP) pour fournir du contenu web personnalisé aux visiteurs anonymes (non identifiés) en fonction de signaux comportementaux au cours de la session. Il est conçu pour les architectes de solutions, les techniciens marketing et les ingénieurs d’implémentation qui ont besoin de comprendre le rôle de ce modèle, les objectifs commerciaux qu’il prend en charge, les cas d’utilisation tactiques qu’il permet et les applications Adobe impliquées.
@@ -101,12 +99,6 @@ Les applications suivantes sont utilisées dans ce modèle de cas d’utilisatio
 - **[!DNL Adobe Journey Optimizer] (AJO)** : configuration de la surface de canal web, création de contenu (expériences web et basées sur du code), exécution de campagnes, expérimentation de contenu (tests A/B), prise de décision (sélection de contenu dynamique) et création de rapports
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** : segmentation Edge pour l’évaluation d’audiences en temps réel en fonction de signaux comportementaux en session ; gestion anonyme des profils Edge
 - **[!DNL Adobe Experience Platform] (AEP)** : [!DNL Web SDK] pour la collecte de signaux comportementaux, [!DNL Edge Network] pour le routage des données en temps réel et la diffusion de la personnalisation, configuration des trains de données
-
-## Architecture
-
-L’architecture de référence suivante illustre la manière dont les signaux de visiteur anonyme sont collectés en périphérie, évalués par rapport aux règles d’audience et utilisés pour diffuser du contenu personnalisé.
-
-![Architecture de référence pour l’activation et la personnalisation anonymes des audiences](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Documentation connexe
 

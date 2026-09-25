@@ -4,13 +4,11 @@ description: Utilisez l’API Schema Registry pour créer un groupe de champs pe
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # Créer des groupes de champs personnalisés
 
@@ -68,7 +66,7 @@ Notez également comment chaque champ spécifique de la feuille de mappage est j
 
 
 
-&#x200B;2. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
+1. Mettez à jour les `title` et `description` du groupe de champs à l’aide du format suivant : `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ Notez également comment chaque champ spécifique de la feuille de mappage est j
 
 
 
-&#x200B;3. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
+1. Exécutez en cliquant sur le bouton `Send` .  Vous devriez voir une réponse similaire à la capture d’écran ci-dessous.
 
-&#x200B;4. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
+1. Copiez la valeur `$id` de votre groupe de champs Détails du compte client nouvellement créé.
 
 ![Réponse API réussie après la création du groupe de champs personnalisés](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Étape 2 - Création réussie du groupe de champs personnalisés")
 

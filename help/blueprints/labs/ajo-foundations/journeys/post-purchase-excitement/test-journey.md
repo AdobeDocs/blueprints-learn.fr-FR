@@ -4,13 +4,11 @@ description: Utilisez le simulateur de mode Test parcours pour déclencher un é
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # Parcours de test
 
@@ -105,16 +103,16 @@ Vous devriez voir un élément similaire à ceci dans le journal :
 
 
 
-&#x200B;8. **Fermer** l’onglet **du navigateur**
-&#x200B;9. **Fermer le mode Test** en haut à droite
+1. **Fermer** l’onglet **du navigateur**
+1. **Fermer le mode Test** en haut à droite
 
    ![Bouton Fermer le mode Test en haut à droite](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Cliquez sur **Publier** le Parcours en haut à droite
+1. Cliquez sur **Publier** le Parcours en haut à droite
 
-![Bouton Publier pour le Parcours en haut à droite](assets/test-journey-publish-journey.png)
+   ![Bouton Publier pour le Parcours en haut à droite](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Fermez** Parcours **&#x200B;**&#x200B;en cliquant sur la flèche \&lt;- en haut à gauche
+1. **Fermez** Parcours **&#x200B;**&#x200B;en cliquant sur la flèche \&lt;- en haut à gauche
 
 ![Flèche vers l’arrière en haut à gauche pour fermer le Parcours &#x200B;](assets/test-journey-close-journey-back-arrow.png)
 

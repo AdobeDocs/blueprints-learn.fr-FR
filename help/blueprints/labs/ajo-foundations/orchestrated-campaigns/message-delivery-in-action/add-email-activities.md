@@ -4,13 +4,11 @@ description: Découvrez comment ajouter et configurer deux activités E-mail sur
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # Ajouter des activités d’e-mail
 
@@ -72,7 +70,7 @@ Dans les étapes suivantes, vous allez développer la campagne pour ajouter deux
 
 ![Boîte de dialogue de confirmation avec le bouton Enregistrer et fermer](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Examinez les propriétés et les actions de l’e-mail, y compris le texte ajouté au corps de l’e-mail. Cliquez sur la **flèche de gauche** pour revenir à la zone de travail de campagne
+1. Examinez les propriétés et les actions de l’e-mail, y compris le texte ajouté au corps de l’e-mail. Cliquez sur la **flèche de gauche** pour revenir à la zone de travail de campagne
 
 ![Revenez à la zone de travail de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

@@ -2,14 +2,12 @@
 title: Améliorer la qualité et la gouvernance des données
 description: Découvrez comment garantir des données propres, complètes et conformes pour un ciblage précis, une réduction des déchets et des analyses fiables.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ecede85f-9af8-4d97-a33c-a14dfe1ed61c
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
-
 # Améliorer la qualité et la gouvernance des données
 
 Garantissez des données propres, complètes et conformes pour un ciblage précis, une réduction des déchets et des analyses fiables. Cet objectif se concentre sur l’établissement de la base de données requise pour toutes les activités marketing en aval, afin de garantir que les données clients sont exactes, cohérentes, correctement gouvernées et conformes aux réglementations.

@@ -3,13 +3,11 @@ title: Accès au profil en temps réel pour les scénarios d’assistance et de 
 description: Recherches de [!UICONTROL profil client en temps réel] pour fournir un contexte pour l’aide et les ventes assistées par un agent.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # Accès au profil en temps réel pour les scénarios d’assistance et de vente
 
 Le plan directeur Accès au profil en temps réel pour les scénarios d’assistance et de vente montre comment les applications externes peuvent accéder à Adobe Experience Platform [!UICONTROL profil client en temps réel].
@@ -25,10 +23,6 @@ Avec cette fonctionnalité, vous pouvez faire apparaître un contexte riche lors
 ## Cas d’utilisation
 
 * Fournissez un contexte client plus étoffé aux interactions prises en charge par l’agent, telles que les expériences vécues par le client en matière de service clientèle et de vente. À travers la recherche de profil dans Adobe Experience Platform, les agents peuvent recevoir plus de contexte sur le consommateur, comme les achats récents, les interactions de campagne, les propensions, les abonnements et d’autres attributs et informations stockés dans le profil client en temps réel.
-
-## Architecture
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Architecture de référence pour le plan directeur du centre d’activité client" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Garde-fous
 

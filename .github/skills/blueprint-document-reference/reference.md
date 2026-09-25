@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 4%
@@ -121,9 +121,9 @@ Exemple :
 
 ## Exemples de références dans ce référentiel
 
-- **Plan directeur de scénario (formulaire long)** : `help/blueprints/audience-activation/real-time-lookup.md`
-- **Aperçu/hub avec onglets et tableaux** : `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Axé sur les mécanismes de sécurisation** : `help/blueprints/experience-platform/guardrails.md`
+- **Plan directeur de scénario (formulaire long)** : `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Aperçu/hub avec onglets et tableaux** : `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Axé sur les mécanismes de sécurisation** : `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navigation** : `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Utilisez-les comme modèles pour l’ordre des sections, le frontend, le placement des diagrammes et l’utilisation des liens Experience League.

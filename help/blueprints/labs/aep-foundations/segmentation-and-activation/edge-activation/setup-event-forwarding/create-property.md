@@ -4,13 +4,11 @@ description: Créez une propriété Transfert d’événement avec un élément 
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # Créer une propriété
 
@@ -208,7 +206,7 @@ Lorsque vous avez terminé, vérifiez que votre écran ressemble à ce qui suit,
 
 
 
-&#x200B;4. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
+1. Une fois cette opération terminée, l’action doit être ajoutée à la règle. Cliquez sur **Enregistrer** pour continuer.
 
 ![Éditeur de règles affichant l’action configurée avec le bouton Enregistrer mis en surbrillance](assets/create-property-save-rule-button.png "Enregistrez votre règle")
 

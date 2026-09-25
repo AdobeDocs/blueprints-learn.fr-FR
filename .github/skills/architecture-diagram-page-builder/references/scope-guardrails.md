@@ -1,12 +1,12 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # Mécanismes de sécurisation de l’étendue : page Architecture et page Modèle de cas d’utilisation
 
-Le site de plans directeurs sépare les **pages de diagramme d’architecture** des **pages de modèle de cas d’utilisation** car elles répondent à différents besoins du lecteur. Ce document définit l’élément qui doit être placé à l’emplacement approprié et comment gérer le contenu qui glisse au-delà des limites.
+Ce site sépare les **pages de diagramme d’architecture** des **pages de modèle de cas d’utilisation** car elles répondent à différents besoins du lecteur. Ce document définit l’élément qui doit être placé à l’emplacement approprié et comment gérer le contenu qui glisse au-delà des limites.
 
 ## La distinction fondamentale
 

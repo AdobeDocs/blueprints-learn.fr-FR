@@ -4,13 +4,11 @@ description: Configurez une destination de diffusion en continu d’API HTTP ave
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # Configurer une destination de diffusion en continu
 
@@ -62,7 +60,7 @@ Dans l’interface utilisateur d’Experience Platform, accédez au catalogue de
 
 
 
-&#x200B;3. Renseignez les détails de configuration de la destination comme suit :
+1. Renseignez les détails de configuration de la destination comme suit :
 
 - **Nom** -> `Streaming DEP Webhook - [Your Initials]`
 - **Description** -> `[your webhook endpoint you copied above]`

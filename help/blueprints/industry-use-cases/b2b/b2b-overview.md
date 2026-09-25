@@ -3,20 +3,18 @@ title: Cas D’Utilisation B2B
 description: Découvrez comment les entreprises B2B utilisent Adobe Experience Platform pour accélérer le pipeline, améliorer la qualité du prospect et stimuler l’expansion des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
-
 ---
-
 # Cas D’Utilisation B2B
 
 Les organisations business-to-business utilisent Adobe Experience Platform pour unifier les données au niveau du compte et de la personne, ce qui permet aux équipes marketing et commerciales de fournir des expériences coordonnées et pertinentes à chaque étape du parcours d’achat. De l’accélération des pipelines à l’expansion des clients, ces cas d’utilisation montrent comment les équipes B2B transforment des données complexes en résultats commerciaux mesurables.
 
 >[!NOTE]
 >
->Pour les plans directeurs d’architecture spécifiques au B2B, y compris l’activation basée sur le compte et la gestion des groupes d’achats, consultez les plans directeurs d’activation et de marketing [B2B](/help/blueprints/b2b/overview.md).
+>Pour les plans directeurs d’architecture spécifiques au B2B, y compris l’activation basée sur le compte et la gestion des groupes d’achats, consultez les plans directeurs d’activation et de marketing [B2B](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md).
 
 ## Account-Based Marketing Personalization
 

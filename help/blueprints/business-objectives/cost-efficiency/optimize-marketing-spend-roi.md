@@ -2,14 +2,12 @@
 title: Optimiser les dépenses marketing et le retour sur investissement
 description: Découvrez comment améliorer le retour sur investissement marketing par un meilleur ciblage, une attribution plus précise, la suppression de l’audience et l’affectation du budget.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # Optimiser les dépenses marketing et le retour sur investissement
 
 Améliorez le retour sur investissement marketing grâce à un meilleur ciblage, une meilleure attribution, la suppression de l’audience et une affectation budgétaire plus efficace. Cet objectif couvre l’ensemble du cycle d’optimisation des dépenses marketing, de la précision de l’audience à la mesure des performances en passant par la réaffectation continue aux canaux et tactiques les plus performants.

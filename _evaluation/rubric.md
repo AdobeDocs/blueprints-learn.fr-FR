@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Schéma d’évaluation de plan directeur
 
@@ -21,7 +20,7 @@ en décrivant les approches et les considérations possibles pour atteindre cet 
 Forme canonique : `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Diagramme d&#39;architecture** — Diagramme visuel représentant les fonctionnalités d&#39;un système,
 intégrations et flux de données. Narration minimale ; le diagramme est l&#39;artefact.
-Exemple canonique : [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+Exemple canonique : [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Notation
 
@@ -89,7 +88,7 @@ Pour chaque fichier Markdown de plan directeur de la portée :
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` ou une nouvelle catégorie intitulée `(new) <name>`.
    - `proposed_pattern_title` — un titre court et orienté vers l&#39;action suivant le modèle existant
-style de dénomination.
+     style de dénomination.
 6. Pour des recommandations `Diagram` et `Split`, proposez :
    - `proposed_diagram_title` : généralement le titre existant supprimé du cadre d’entreprise.
 7. Capturez les doublons trouvés en comparant la portée du plan directeur au catalogue de modèles existant

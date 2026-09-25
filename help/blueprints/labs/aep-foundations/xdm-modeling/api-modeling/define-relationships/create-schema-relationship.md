@@ -4,13 +4,11 @@ description: Utilisez l’API Schema Registry pour créer un descripteur de rela
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # Créer une relation de schéma
 
@@ -57,9 +55,9 @@ EXEMPLE UNIQUEMENT
 
 
 
-&#x200B;3. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
+1. Enregistrez votre demande avant de continuer à utiliser le bouton `Save`
 
-&#x200B;4. Exécutez l’API en cliquant sur le bouton `Send` .
+1. Exécutez l’API en cliquant sur le bouton `Send` .
 
 Vous devriez maintenant voir une réponse `201 Created` comme ci-dessous
 

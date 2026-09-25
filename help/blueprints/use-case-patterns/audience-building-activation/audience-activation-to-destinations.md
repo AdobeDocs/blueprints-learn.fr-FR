@@ -3,13 +3,11 @@ title: Activation de l’audience vers les destinations
 description: Découvrez comment évaluer et publier des segments d’audience vers des destinations externes à des fins de ciblage ou de suppression à l’aide d’Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1363'
 ht-degree: 4%
-
 ---
-
 # Activation de l’audience vers les destinations
 
 Ce guide décrit le modèle de cas d’utilisation de l’activation de l’audience vers les destinations , qui évalue les segments d’audience dans Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP) et les publie sur des plateformes publicitaires, un espace de stockage dans le cloud, des systèmes de gestion de la relation client ou des partenaires de données pour le ciblage, la suppression, la modélisation semblable ou l’enrichissement des analyses. Il est conçu pour les architectes de solutions, les techniciens marketing et les ingénieurs d’implémentation qui ont besoin de comprendre le rôle de ce modèle, les objectifs commerciaux qu’il prend en charge, les cas d’utilisation tactiques qu’il permet et les applications Adobe impliquées.
@@ -92,7 +90,7 @@ Améliorez le retour sur investissement marketing grâce à un meilleur ciblage,
 
 L’architecture de référence suivante illustre la manière dont les données d’audience et de profil circulent de Real-Time CDP vers les destinations d’entreprise, y compris l’espace de stockage, les points d’entrée de flux continu et les applications SaaS.
 
-![Architecture de référence pour l’activation des audiences et des profils vers les destinations d’entreprise](/help/blueprints/audience-activation/assets/known_activation.png)
+![&#x200B; Architecture de référence pour l’activation d’Adobe Real-Time CDP &#x200B;](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## Documentation connexe
 

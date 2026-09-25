@@ -4,13 +4,11 @@ description: Examinez les champs de schéma pour l’utilisation de la facturati
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # Prétravail
 
@@ -25,7 +23,7 @@ Pour ce cas d’utilisation, il n’y a pas beaucoup de travail à faire. En gro
 
 
 
-&#x200B;3. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
+1. Recherchez « usage » dans Événements.  Cliquez sur le « i » pour consulter la description (il n’y en a pas).
 
 ![Rechercher une utilisation dans les événements - aucune description affichée](assets/pre-work-search-usage-in-events.png)
 

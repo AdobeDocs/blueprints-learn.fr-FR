@@ -4,13 +4,11 @@ description: Créez une formule de classement qui booste de manière dynamique l
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 
 # Créer une formule de classement
 
@@ -144,7 +142,7 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 >- Les utilisateurs nés en 1990 avec un **ID de plan = 1** verront leurs offres Ultra et Pro supprimées, même s&#39;ils occupent la première place. L&#39;utilisateur ne voit que les offres de base et génériques car les niveaux Ultra et Pro sont assortis d&#39;une condition supplémentaire : seuls les utilisateurs possédant les **ID de plan 2 ou 3** peuvent les voir.
 >- Comme l&#39;offre générique ne comporte aucune règle de limitation de la fréquence, l&#39;utilisateur de l&#39;année de naissance **1970** ne verra jamais l&#39;offre Ultra, car son score de priorité est inférieur au score boosté de l&#39;offre générique.
 
-&#x200B;5. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
+1. Une fois toutes les règles et le score de priorité par défaut en place, faites défiler l’écran vers le haut et cliquez sur le bouton bleu **Créer** dans le coin supérieur droit.
 
 >[!TIP]
 >

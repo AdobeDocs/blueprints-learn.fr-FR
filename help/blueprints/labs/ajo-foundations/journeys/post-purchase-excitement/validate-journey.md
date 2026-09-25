@@ -4,13 +4,11 @@ description: Vérifiez l’exécution du parcours grâce au nombre d’entrées 
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # Validation du parcours
 
@@ -55,7 +53,7 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
 3 événements externes
 
-&#x200B;5. Cliquez sur l’onglet **E-mail** (dans le rail de gauche).
+1. Cliquez sur l’onglet **E-mail** (dans le rail de gauche).
    - **E-mail - Performances d’envoi**
      - Certaines valeurs s’affichent pour **Diffusés** et **Envoyés** (le nombre dépendra du nombre d’événements que vous avez envoyés, des erreurs éventuelles, etc.)
      - J&#39;espère que vous n&#39;avez pas d&#39;erreurs (à moins que vous ayez rencontré des problèmes plus tôt)
@@ -64,7 +62,7 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
    ![Onglet E-mail présentant les performances d’envoi et les statistiques](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. Allez vérifier votre **boîte de réception e-mail** et voyez si vous avez reçu l’e-mail (il ressemble à ce qui suit ci-dessous)
+1. Allez vérifier votre **boîte de réception e-mail** et voyez si vous avez reçu l’e-mail (il ressemble à ce qui suit ci-dessous)
    - *,* votre commande a été expédiée ETA : ** Numéro de suivi : *051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ Vous pouvez cliquer sur le bouton en haut pour **exclure les événements de tes
 
 
 
-&#x200B;7. *Après 30 à 60 minutes* vous pouvez même vérifier votre jeu de données dans le lac de données avec les éléments suivants : **Requêtes** -> **Créer une requête** -> **Copier/Coller SQL** -> **Exécuter**
+1. *Après 30 à 60 minutes* vous pouvez même vérifier votre jeu de données dans le lac de données avec les éléments suivants : **Requêtes** -> **Créer une requête** -> **Copier/Coller SQL** -> **Exécuter**
 
 >[!NOTE]
 >

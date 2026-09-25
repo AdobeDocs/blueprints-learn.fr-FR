@@ -1,14 +1,14 @@
 ---
 user-guide-title: Objectifs commerciaux, cas d’utilisation, schémas d’architecture et plans directeurs de Customer Experience Orchestration
 breadcrumb-title: Cas d’utilisation et plans directeurs
-user-guide-description: explorez les principaux objectifs commerciaux, les modèles de cas d’utilisation et les cas d’utilisation du secteur pour Adobe Experience Platform et les applications. Les schémas et les plans directeurs d’architecture visuelle fournissent des références techniques pour l’intégration des systèmes, les flux de données et la conception de solutions, reliant ainsi la valeur commerciale à la mise en œuvre.
+user-guide-description: Explorez les principaux objectifs commerciaux, les modèles d’utilisation et les cas d’utilisation du secteur pour Adobe Experience Platform et les applications. Les schémas et les plans directeurs d’architecture visuelle fournissent des références techniques pour l’intégration des systèmes, les flux de données et la conception de solutions à un prix d’or pour relier la valeur commerciale à la mise en œuvre.
 product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
+source-git-commit: 7349d665e8bea0dfff5d088e2c3a56f33e5924cb
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1043'
 ht-degree: 15%
 ---
 
@@ -89,65 +89,39 @@ ht-degree: 15%
   + [Télécommunications](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
   + [Technologie](/help/blueprints/industry-use-cases/technology/technology-overview.md)
   + [Voyage et hébergement](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
-+ Schémas et plans directeurs d’architecture{#architecture-diagrams}
-  + Aperçu de l’architecture{#architecture-overview}
-    + [Adobe Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
-    + [Experience Platform et applications](/help/blueprints/experience-platform/platform-applications.md)
-    + [Flux de données Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-    + [Mécanismes de sécurisation d’Experience Platform](/help/blueprints/experience-platform/guardrails.md)
-    + Déploiement{#deployment}
-      + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
-      + [SDK d’application](/help/blueprints/experience-platform/deployment/appsdk.md)
-  + Activation d’audience et de profil{#audience-activation}
-    + [Basé sur l’appareil : ciblage d’audience anonyme avec Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
-    + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Activation de l’audience vers des destinations sociales et publicitaires](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Activation des audiences et des profils vers le plan directeur des destinations d’entreprise](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [Accès au profil en temps réel pour les scénarios d’assistance et de vente](/help/blueprints/audience-activation/customer-activity.md)
-      + [Accès aux profils Edge en temps réel pour la personnalisation web et mobile](/help/blueprints/audience-activation/real-time-lookup.md)
-      + [Collaboration avec l’audience à l’aide de la correspondance de segments](/help/blueprints/audience-activation/segment-match.md)
-      + [Personnalisation connue des clients avec Target](/help/blueprints/audience-activation/rtcdp-target.md)
-      + [Science des données personnalisées pour l’enrichissement des profils](/help/blueprints/audience-activation/data-science.md)
-  + Activation et marketing B2B{#b2b-activation}
-    + [Présentation](/help/blueprints/b2b/overview.md)
-    + [Activation B2B](/help/blueprints/b2b/b2bactivation.md)
-    + [Activation des audiences et des profils B2B](/help/blueprints/b2b/b2b-audience-profile-activation.md)
-    + [Activation du compte B2B](/help/blueprints/b2b/b2b-account-activation.md)
-    + [Marketing de groupe et gestion de parcours](/help/blueprints/b2b/b2b-buying-group-journeys.md)
-    + [Parcours B2B utilisant des données Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
-    + [Contrôleur de médias payants B2B](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
-    + Plan directeur d’intégration de Marketo Engage et Workfront{#marketo-engage-and-workfront-integration-blueprint}
-      + [Présentation](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
-      + [Réception et création](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
-      + [Vérifier et approuver](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
-      + [Histoires de succès client](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-  + Customer Journey Analytics{#customer-journey-analytics}
-    + [Présentation](/help/blueprints/customer-journey-analytics/overview.md)
-    + [Customer Journey Analytics B2B](/help/blueprints/customer-journey-analytics/b2b-cja.md)
-    + [Partage d’audiences CJA vers RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
-    + [CJA et Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
-    + [Analyse des données et intelligence](/help/blueprints/customer-journey-analytics/analysis.md)
++ Diagrammes d’architecture{#architecture-diagrams}
+  + [Présentation](/help/blueprints/architecture-diagrams/overview.md)
+  + Aperçu de l’architecture{#architecture-overviews}
+    + [Présentation](/help/blueprints/architecture-diagrams/architecture-overviews/overview.md)
+    + [Adobe Experience Cloud](/help/blueprints/architecture-diagrams/architecture-overviews/experience-cloud.md)
+    + [Adobe Experience Platform et applications](/help/blueprints/architecture-diagrams/architecture-overviews/platform-applications.md)
+    + [Flux de données Adobe Experience Platform](/help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
+    + [Mécanismes de sécurisation de Adobe Experience Platform et de l’application](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)
+    + [Adobe Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
+  + Activation d’audience et de profil{#audience-profile-activation}
+    + [Présentation](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
+    + [Activation d’Adobe Real-Time CDP](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-activation.md)
+    + [Accès au profil Edge en temps réel](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
+    + [Intégration d’Adobe Real-Time CDP et d’Adobe Target](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
+  + Activation et marketing B2B{#b2b-activation-marketing}
+    + [Présentation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
+    + [Activation des audiences et des profils B2B](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
+    + [Activation du compte B2B](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
+  + Informations sur le client{#customer-insights}
+    + [Présentation](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
+    + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
+    + [Intégration d’Adobe Customer Journey Analytics et de Adobe Journey Optimizer](/help/blueprints/architecture-diagrams/customer-insights/cja-ajo-integration.md)
   + Parcours client{#customer-journeys}
-    + [Présentation](/help/blueprints/customer-journeys/overview.md)
+    + [Présentation](/help/blueprints/architecture-diagrams/customer-journeys/overview.md)
     + Journey Optimizer{#journey-optimizer}
-      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [AJO parcours](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
-      + [Campagnes AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
-      + [Messagerie tierce](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
-    + Gestion des décisions{#decision-management}
-      + [Présentation](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
-      + [Gestion des décisions sur Edge](/help/blueprints/customer-journeys/decision-management/decision-management-edge.md)
-      + [Gestion des décisions sur le hub](/help/blueprints/customer-journeys/decision-management/decision-management-hub.md)
+      + [Journey Optimizer](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [AJO parcours](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [Campagnes AJO](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
+      + [Messagerie tierce](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/3rd-party-messaging.md)
     + Campaign v8{#campaign-v8}
-      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8/campaign-v8-overview.md)
-      + [Real-Time CDP avec Adobe [!DNL Campaign] v8](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
-      + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
-    + Plans directeurs obsolètes{#deprecated-blueprints}
-      + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDP avec Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
-      + Campaign v7{#campaign-v7}
-        + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
+      + [Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview.md)
+      + [Real-Time CDP avec Adobe [!DNL Campaign] v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer avec Adobe Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
 
 + Ateliers pratiques{#labs}
   + [Présentation pratique de Labs](/help/blueprints/labs/overview.md)
