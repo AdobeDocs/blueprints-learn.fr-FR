@@ -70,7 +70,7 @@ Reportez-vous aux mécanismes de sécurisation suivants lors de la conception et
 
 - Pour connaître les étapes d’implémentation de Real-Time Customer Data Platform B2B edition, consultez la documentation : [Prise en main de Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
 - Pour connaître les étapes de création d’une audience de compte, consultez la documentation [Audiences de compte](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
-- Pour connaître les étapes d’activation des audiences de compte, consultez la documentation [ Activer les audiences de compte ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) :
+- Pour connaître les étapes d’activation des audiences de compte, consultez la documentation [&#x200B; Activer les audiences de compte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) :
 
   - Mappage obligatoire pour la [destination LinkedIn Matched Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
 

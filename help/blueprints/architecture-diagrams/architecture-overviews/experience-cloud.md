@@ -97,10 +97,10 @@ Le diagramme suivant illustre les différents composants d’Adobe Experience Cl
 
 Le diagramme d’architecture ci-dessous illustre la manière dont les différents composants d’Adobe Experience Cloud se connectent et s’intègrent pour atteindre la personnalisation à l’échelle entre les données, le contenu et la diffusion d’expérience.
 
-![ Experience Cloud ](assets/pers_at_scale_diagram.png){width="1000" zoomable="yes"}
+![&#x200B; Experience Cloud &#x200B;](assets/pers_at_scale_diagram.png){width="1000" zoomable="yes"}
 
 ## Adobe Experience Cloud dans le paysage de l’entreprise
 
 Le diagramme d’architecture ci-dessous illustre la manière dont les applications Adobe Experience Cloud et Adobe Experience Platform s’intègrent à l’architecture de l’expérience client d’entreprise dans les quatre catégories que sont les données, les statistiques, l’orchestration et l’engagement.
 
-![ Experience Cloud ](assets/cx_architecture.png){width="1000" zoomable="yes"}
+![&#x200B; Experience Cloud &#x200B;](assets/cx_architecture.png){width="1000" zoomable="yes"}

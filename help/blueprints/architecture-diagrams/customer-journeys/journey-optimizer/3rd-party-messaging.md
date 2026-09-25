@@ -45,7 +45,7 @@ Montre comment Adobe Journey Optimizer peut être utilisé avec des systèmes de
 
 ## Architecture
 
-Journey Optimizer d’architecture de référence](images/ajo-third-party-messaging.png){width="1000" zoomable="yes"}![
+Journey Optimizer d’architecture de référence![&#128279;](images/ajo-third-party-messaging.png){width="1000" zoomable="yes"}
 
 <br>
 

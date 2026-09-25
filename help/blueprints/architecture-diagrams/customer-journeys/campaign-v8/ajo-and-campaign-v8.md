@@ -49,7 +49,7 @@ Montre comment Adobe [!DNL Journey Optimizer] peut être utilisé avec Adobe [!D
 
 ## Architecture
 
-Journey Optimizer d’architecture de référence](images/campaign-v8-with-ajo.png){width="1000" zoomable="yes"}![
+Journey Optimizer d’architecture de référence![&#128279;](images/campaign-v8-with-ajo.png){width="1000" zoomable="yes"}
 
 >[!IMPORTANT]
 >L’utilisation de Journey Optimizer et de Campaign pour envoyer des messages indépendamment les uns des autres est possible mais présente des considérations techniques à prendre en compte. Si vous souhaitez suivre cette voie, collaborez avec votre architecte d’avant-vente pour vous assurer de bien comprendre ce qui sera nécessaire pour prendre en charge la mise en œuvre
@@ -115,7 +115,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 * Les modèles de message doivent être configurés avec le contexte de personnalisation approprié.
 * Par [!DNL Campaign] standard : les workflows d&#39;export doivent être configurés pour réexporter les logs des messages transactionnels vers Experience Platform. Il est recommandé de l’exécuter au plus toutes les quatre heures.
-* Pour [!DNL Campaign] v8.4, il est possible d’utiliser le connecteur Source Adobe [!DNL Campaign] Managed Services dans Experience Platform pour synchroniser la diffusion et le suivi des événements de Campaign dans Experience Platform. Consultez la documentation du connecteur [](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr) pour plus de détails.
+* Pour [!DNL Campaign] v8.4, il est possible d’utiliser le connecteur Source Adobe [!DNL Campaign] Managed Services dans Experience Platform pour synchroniser la diffusion et le suivi des événements de Campaign dans Experience Platform. Consultez la documentation du connecteur [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr) pour plus de détails.
 
 ### Configuration des notifications push mobiles (facultatif)
 

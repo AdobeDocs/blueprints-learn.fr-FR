@@ -15,7 +15,7 @@ Cette architecture montre comment Adobe [!DNL Real-Time Customer Data Platform] 
 
 L’architecture illustre le chemin d’activation partagé entre les audiences et les profils [!DNL Real-Time CDP] et les applications de destination. Elle comprend l’activation de destination pour les plateformes publicitaires et sociales, ainsi que les destinations d’entreprise utilisées pour le stockage, l’analyse et les workflows d’application en aval.
 
-![Architecture d’activation des audiences et des profils ](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
+![Architecture d’activation des audiences et des profils &#x200B;](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
 
 ## Modèles de cas d’utilisation pris en charge
 

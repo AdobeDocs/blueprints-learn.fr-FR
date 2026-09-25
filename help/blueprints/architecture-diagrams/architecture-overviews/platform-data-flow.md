@@ -35,7 +35,7 @@ ht-degree: 43%
 
 Le schéma ci-dessous illustre les différents chemins d’accès pour l’ingestion et la sortie de données d’Adobe Experience Platform.
 
-![Flux de données ](assets/aep_data_flows.png){width="1000" zoomable="yes"}
+![Flux de données &#x200B;](assets/aep_data_flows.png){width="1000" zoomable="yes"}
 
 ## Modèles d’entrée et de sortie de données
 
