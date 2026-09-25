@@ -34,6 +34,6 @@ L’architecture ci-dessus prend en charge les modèles de cas d’utilisation s
 
 ## Informations complémentaires
 
-- [Destinations Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Activer les audiences vers les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Mécanismes de sécurisation d’Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Destinations Adobe Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home)
+- [Activer les audiences vers les destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Mécanismes de sécurisation d’Adobe Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview)

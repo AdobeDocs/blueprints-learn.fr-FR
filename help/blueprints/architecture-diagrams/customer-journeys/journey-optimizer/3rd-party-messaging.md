@@ -59,6 +59,6 @@ pour les conditions préalables, les mécanismes de sécurisation et les conseil
 
 * [Documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
-* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+* [Documentation de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=fr)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html)
