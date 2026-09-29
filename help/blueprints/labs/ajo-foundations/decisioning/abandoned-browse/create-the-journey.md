@@ -4,7 +4,10 @@ description: Créez un parcours qui déclenche une action d’expérience et une
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -36,44 +39,44 @@ ht-degree: 0%
 ## Configurer le CBE et la politique de décision
 
 1. Développez l’accordéon **Actions** à gauche de la zone de travail, faites glisser l’élément **Action** sur la zone de travail et connectez-le au premier nœud.
-2. Lorsque le recouvrement « Sélectionner le type d’action » apparaît, sélectionnez l’action **Expérience basée sur le code** et cliquez sur le bouton bleu **Ajouter**.
-3. Dans les propriétés désormais visibles « Action\:Expérience basée sur le code », cliquez sur le bouton **Configurer l’action**.
+1. Lorsque le recouvrement « Sélectionner le type d’action » apparaît, sélectionnez l’action **Expérience basée sur le code** et cliquez sur le bouton bleu **Ajouter**.
+1. Dans les propriétés désormais visibles « Action\:Expérience basée sur le code », cliquez sur le bouton **Configurer l’action**.
 
    ![Propriétés des actions d’expérience basées sur le code avec le bouton Configurer l’action](assets/create-the-journey-configure-action-button.png)
 
-4. Remplacez la liste déroulante **Configuration basée sur le code** par le cbe **jsonOffer\_cbe** que vous avez créé dans la dernière section.
+1. Remplacez la liste déroulante **Configuration basée sur le code** par le cbe **jsonOffer\_cbe** que vous avez créé dans la dernière section.
 
    ![Liste déroulante de configuration basée sur le code définie sur le canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Cliquez sur le bouton **Modifier le contenu** juste au-dessus de la liste déroulante « Configuration basée sur le code ».
-6. Sur l’écran de l’éditeur d’expérience basé sur le code qui s’affiche, cliquez sur le bouton **Modifier le code**. L’écran qui en résulte vous permet d’ajouter le fichier JSON renvoyé aux requêtes d’événement d’expérience
+1. Cliquez sur le bouton **Modifier le contenu** juste au-dessus de la liste déroulante « Configuration basée sur le code ».
+1. Sur l’écran de l’éditeur d’expérience basé sur le code qui s’affiche, cliquez sur le bouton **Modifier le code**. L’écran qui en résulte vous permet d’ajouter le fichier JSON renvoyé aux requêtes d’événement d’expérience
 
    ![Écran Modifier le code de l’éditeur d’expérience basé sur le code](assets/create-the-journey-edit-code-screen.png)
 
-7. À l’extrémité gauche de l’éditeur de code, cliquez sur l’élément de menu **Politique de décision**, puis sur le bouton **Ajouter une politique de décision** dans le nouveau menu.
+1. À l’extrémité gauche de l’éditeur de code, cliquez sur l’élément de menu **Politique de décision**, puis sur le bouton **Ajouter une politique de décision** dans le nouveau menu.
 
-   ![Menu Politique de décision avec le bouton Ajouter une politique de décision &#x200B;](assets/create-the-journey-add-decision-policy-button.png)
+   ![Menu Politique de décision avec le bouton Ajouter une politique de décision ](assets/create-the-journey-add-decision-policy-button.png)
 
    >[!NOTE]
    >
    >Si une stratégie de sélection consiste à lier une collection d’offres à une méthode de classement (et à appliquer une éligibilité au niveau de la stratégie), une politique de décision consiste à lier une stratégie de sélection à une diffusion spécifique d’un canal.
 
-8. Nommez cette politique de décision **iPhone 17 DP** et laissez le Nombre d’éléments défini sur 1.
+1. Nommez cette politique de décision **iPhone 17 DP** et laissez le Nombre d’éléments défini sur 1.
 
    >[!NOTE]
    >
    >Jusqu’à présent, vous avez configuré les offres et la manière de les commander, mais vous n’avez pas configuré le nombre de retours. C’est là que vous configurez le nombre d’offres à renvoyer.
 
-9. Cliquez sur le bouton bleu **Suivant**. C’est là que vous ajoutez la stratégie de sélection. Cliquez sur le bouton **+Ajouter** (vous devrez peut-être faire défiler la page vers le bas pour l’afficher), puis choisissez **Stratégie de sélection**.
-10. Cochez la case en regard de la seule stratégie de sélection que vous devriez avoir (**Stratégie de sélection iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, voici ce que vous voyez :
+1. Cliquez sur le bouton bleu **Suivant**. C’est là que vous ajoutez la stratégie de sélection. Cliquez sur le bouton **+Ajouter** (vous devrez peut-être faire défiler la page vers le bas pour l’afficher), puis choisissez **Stratégie de sélection**.
+1. Cochez la case en regard de la seule stratégie de sélection que vous devriez avoir (**Stratégie de sélection iPhone 17**) et cliquez sur **Enregistrer**. Lorsque vous avez terminé, voici ce que vous voyez :
 
-![Stratégie de sélection iPhone 17 sélectionnée pour la politique de décision](assets/create-the-journey-selection-strategy-selected.png)
+   ![Stratégie de sélection iPhone 17 sélectionnée pour la politique de décision](assets/create-the-journey-selection-strategy-selected.png)
 
->[!NOTE]
->
->Notez comment ajouter plusieurs stratégies de sélection ou simplement ajouter les éléments de décision eux-mêmes. Quand utiliseriez-vous plusieurs stratégies de sélection ? Imaginez que vous ayez une grille de recommandations 4 X 4 sur l’une de vos propriétés numériques. Vous souhaitez tous les remplir avec 16 offres. Ces offres peuvent être réparties sur quelques collections, ou les deux premières lignes nécessitent une stratégie de sélection, tandis que les deux dernières lignes nécessitent une stratégie différente. Dans l’écran précédent, vous auriez choisi 16 puis utilisé cet écran pour ajouter autant de stratégies de sélection ou d’offres que nécessaire pour atteindre 16.
->
->L’offre de secours est facultative, car elle ne s’appliquerait que s’il était possible pour les utilisateurs finaux d’être (ou de devenir) inéligibles à l’une des offres. Dans notre cas, notre stratégie de sélection s’adressait à tous les visiteurs, et les seules personnes qui accédaient au nœud CBE étaient celles qui accédaient au Parcours. L’authentification est une exigence pour l’entrée au Parcours (l’espace de noms défini dans le Parcours est celui qu’ils auraient seulement s’ils étaient authentifiés). Nous avons également intégré une offre de secours à notre formule de classement. Dans notre cas, il n’est donc pas nécessaire de définir cette offre de secours.
+   >[!NOTE]
+   >
+   >Notez comment ajouter plusieurs stratégies de sélection ou simplement ajouter les éléments de décision eux-mêmes. Quand utiliseriez-vous plusieurs stratégies de sélection ? Imaginez que vous ayez une grille de recommandations 4 X 4 sur l’une de vos propriétés numériques. Vous souhaitez tous les remplir avec 16 offres. Ces offres peuvent être réparties sur quelques collections, ou les deux premières lignes nécessitent une stratégie de sélection, tandis que les deux dernières lignes nécessitent une stratégie différente. Dans l’écran précédent, vous auriez choisi 16 puis utilisé cet écran pour ajouter autant de stratégies de sélection ou d’offres que nécessaire pour atteindre 16.
+   >
+   >L’offre de secours est facultative, car elle ne s’appliquerait que s’il était possible pour les utilisateurs finaux d’être (ou de devenir) inéligibles à l’une des offres. Dans notre cas, notre stratégie de sélection s’adressait à tous les visiteurs, et les seules personnes qui accédaient au nœud CBE étaient celles qui accédaient au Parcours. L’authentification est une exigence pour l’entrée au Parcours (l’espace de noms défini dans le Parcours est celui qu’ils auraient seulement s’ils étaient authentifiés). Nous avons également intégré une offre de secours à notre formule de classement. Dans notre cas, il n’est donc pas nécessaire de définir cette offre de secours.
 
 1. Cliquez sur le bouton bleu **Suivant** pour passer en revue la politique de décision.
 
@@ -137,7 +140,7 @@ ht-degree: 0%
 
 1. Une fois le Parcours terminé, cliquez sur le bouton bleu **Publier** en haut à droite et **Publier** à nouveau lorsque la zone de confirmation s’affiche. Après un moment ou deux, vous verrez que votre Parcours est maintenant en ligne !
 
-Parcours de navigation Abandon d’iPhone 17 publié et actif![&#128279;](assets/create-the-journey-published-live.png)
+Parcours de navigation Abandon d’iPhone 17 publié et actif](assets/create-the-journey-published-live.png)![
 
 >[!TIP]
 >
