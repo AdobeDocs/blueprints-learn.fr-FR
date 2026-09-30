@@ -3,13 +3,18 @@ title: Cas d’utilisation des voyages et de l’hébergement
 description: Découvrez comment les agences de voyage et d’accueil utilisent Adobe Experience Platform pour personnaliser les expériences de réservation, récupérer les réservations abandonnées et fidéliser les clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des voyages et de l’hébergement
 
 Les agences de voyage et d’accueil utilisent Adobe Experience Platform pour rassembler les données des clients issues des moteurs de réservation, des programmes de fidélité, des systèmes de gestion des propriétés et des points de contact numériques en une vue unique de chaque voyageur. Cette base unifiée alimente des expériences personnalisées qui inspirent les réservations, récupèrent les réservations abandonnées et construisent le type de fidélité des clients qui entraîne les visites répétées.

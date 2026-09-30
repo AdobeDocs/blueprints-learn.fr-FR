@@ -3,13 +3,16 @@ title: Offer Decisioning
 description: Découvrez comment utiliser une logique de décision centralisée pour sélectionner la meilleure offre ou le contenu suivant pour un profil sur plusieurs canaux.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1707'
 ht-degree: 5%
-
 ---
-
 # Offer Decisioning
 
 Ce guide décrit le modèle de cas d’utilisation d’Offer Decisioning, qui utilise [!DNL Adobe Journey Optimizer] (AJO) Decisioning et [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) pour implémenter une logique de sélection d’offres centralisée qui détermine la meilleure offre suivante pour chaque profil client sur l’ensemble des canaux. Il est conçu pour les architectes de solutions, les techniciens marketing et les ingénieurs d’implémentation qui ont besoin de comprendre le rôle de ce modèle, les objectifs commerciaux qu’il prend en charge, les cas d’utilisation tactiques qu’il permet et les applications Adobe impliquées.
@@ -38,7 +41,7 @@ Ce modèle diffère de la personnalisation web/de l’application pour les visit
 
 Les objectifs commerciaux suivants sont pris en charge par ce modèle de cas d’utilisation.
 
-**[Offrir des expériences personnalisées aux clients](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Offrir des expériences client personnalisées](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Adaptez le contenu, les offres et les messages aux préférences, aux comportements et à l’étape du cycle de vie des individus.
 **KPI :** engagement, taux de conversion, satisfaction de la clientèle (CSAT)
 

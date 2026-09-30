@@ -3,13 +3,18 @@ title: Stimuler les ventes croisées et les ventes incitatives
 description: Découvrez comment promouvoir des produits ou services complémentaires et de qualité auprès des clients existants en fonction du comportement et de l’historique d’achats.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 10%
-
 ---
-
 # Stimuler les ventes croisées et les ventes incitatives
 
 Promouvoir des produits ou services complémentaires et de qualité auprès des clients existants en fonction du comportement et de l’historique d’achat. Cet objectif se concentre sur l’augmentation de la valeur client en présentant les recommandations et offres de produits appropriées au bon moment par le biais d’une prise de décision personnalisée et d’un engagement multicanal.

@@ -3,13 +3,16 @@ title: Analyses B2B
 description: Découvrez comment inclure des informations au niveau du compte B2B dans l’analyse des parcours client cross-canal.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 2%
-
 ---
-
 # Analyses B2B
 
 Ce guide décrit le modèle de cas d’utilisation d’Analytics B2B, qui utilise [!DNL Customer Journey Analytics] ([!DNL CJA]) B2B edition et [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B edition pour incorporer des informations au niveau du compte B2B dans l’analyse de parcours client cross-canal. Il est conçu pour les architectes de solutions, les techniciens marketing et les ingénieurs d’implémentation qui ont besoin de comprendre le rôle de ce modèle, les objectifs commerciaux qu’il prend en charge, les cas d’utilisation tactiques qu’il permet et les applications Adobe impliquées.

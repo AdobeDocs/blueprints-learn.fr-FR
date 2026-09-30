@@ -3,13 +3,18 @@ title: Cas d’utilisation des télécommunications
 description: Découvrez comment les entreprises de télécommunications utilisent Adobe Experience Platform pour réduire l’attrition, stimuler les périphériques et planifier les mises à niveau, et améliorer l’engagement des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des télécommunications
 
 Les entreprises de télécommunications utilisent Adobe Experience Platform pour créer une vue d’ensemble de chaque abonné et offrir des expériences personnalisées qui réduisent le taux de résiliation, augmentent les mises à niveau de forfaits et d’appareils et renforcent les relations client à long terme. En connectant les données d&#39;utilisation du réseau, les informations de facturation et les interactions avec les clients, les fournisseurs de télécommunications peuvent anticiper les besoins des abonnés et les impliquer au bon moment via leurs canaux préférés.

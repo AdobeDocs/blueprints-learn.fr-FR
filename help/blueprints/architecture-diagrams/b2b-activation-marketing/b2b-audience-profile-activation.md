@@ -2,7 +2,10 @@
 title: Activation des audiences et des profils B2B
 description: Diffusez des audiences basées sur un compte et des personnes avec Real-Time Customer Data Platform B2B edition pour l’activation sur plusieurs canaux et destinations.
 solution: Real-Time Customer Data Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 5%
@@ -10,7 +13,7 @@ ht-degree: 5%
 
 # Activation des audiences et des profils B2B
 
-Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les données de compte, d’opportunité et de personne dans des profils B2B unifiés, puis activez les audiences de personnes et les audiences de compte sur des destinations telles que LinkedIn, Marketo Engage et le stockage dans le cloud. Ce plan directeur décrit comment concevoir des schémas B2B, créer des audiences à entités multiples et les exporter pour les activer sur plusieurs canaux et destinations, ainsi que pour l’orchestration et l’analyse dans des applications telles que **Journey Optimizer B2B edition** et **Customer Journey Analytics B2B edition**.
+Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les données de compte, d’opportunité et de personne dans des profils B2B unifiés, puis activez les audiences de personnes et les audiences de compte sur des destinations telles que LinkedIn, Marketo Engage et le stockage dans le cloud. Ce plan directeur décrit comment concevoir des schémas B2B, créer des audiences à entités multiples et les exporter pour les activer sur plusieurs canaux et destinations, ainsi que pour l’orchestration et l’analyse dans des applications telles que **&#x200B;**&#x200B;et **Customer Journey Analytics B2B edition**.
 
 ## Cas d’utilisation
 
@@ -22,7 +25,7 @@ Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les do
 
 - Real-Time Customer Data Platform B2B edition
 - (Facultatif) **Customer Journey Analytics B2B edition**
-- (Facultatif) **Journey Optimizer B2B edition**
+- (Facultatif) **&#x200B;**
 
 ## Modèles d’intégration
 

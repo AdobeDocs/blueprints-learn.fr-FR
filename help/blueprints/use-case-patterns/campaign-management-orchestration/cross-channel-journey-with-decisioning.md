@@ -3,13 +3,16 @@ title: Parcours cross-canal avec prise de décision
 description: Découvrez comment orchestrer un parcours à plusieurs étapes incorporant la prise de décision en temps réel pour sélectionner un canal, un contenu ou une offre optimal.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2070'
 ht-degree: 5%
-
 ---
-
 # Parcours cross-canal avec prise de décision
 
 Ce guide décrit le parcours cross-canal avec modèle de cas d’utilisation de prise de décision, qui utilise [!DNL Adobe Journey Optimizer] et [!DNL Adobe Real-Time Customer Data Platform] pour orchestrer des parcours multicanaux à plusieurs étapes qui intègrent la prise de décision en temps réel à un ou plusieurs nœuds de parcours. Il est conçu pour les architectes de solutions, les techniciens marketing et les ingénieurs d’implémentation qui ont besoin de comprendre le rôle de ce modèle, les objectifs commerciaux qu’il prend en charge, les cas d’utilisation tactiques qu’il permet et les applications Adobe impliquées.
@@ -46,7 +49,7 @@ Le public cible comprend des spécialistes du marketing qui gèrent des programm
 
 Les objectifs commerciaux suivants sont pris en charge par ce modèle de cas d’utilisation.
 
-**[Offrir des expériences personnalisées aux clients](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Offrir des expériences client personnalisées](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Adaptez le contenu, les offres et les messages aux préférences, aux comportements et à l’étape du cycle de vie des individus.
 **KPI :** engagement, taux de conversion, satisfaction de la clientèle (CSAT)
 
@@ -54,7 +57,7 @@ Adaptez le contenu, les offres et les messages aux préférences, aux comporteme
 Approfondissez les relations client et optimisez la valeur à long terme par le biais de programmes de fidélité, de récompenses et d’un engagement personnalisé.
 **KPI :** de la valeur de durée de vie du client, conservation, montée en gamme/vente croisée %
 
-**[Améliorez la fidélisation client](../../business-objectives/customer-experience/improve-customer-retention.md)**
+**[Améliorer la fidélisation client](../../business-objectives/customer-experience/improve-customer-retention.md)**
 Maintenez l’engagement et le renouvellement des clients existants grâce à des expériences axées sur la valeur et à l’entretien continu des relations.
 **KPI : rétention** valeur client sur toute la durée de vie, engagement
 

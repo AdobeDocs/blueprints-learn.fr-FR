@@ -2,7 +2,10 @@
 title: Parcours B2B utilisant le plan directeur des données Marketo
 description: Plan directeur pour le déploiement rapide de Journey Optimizer B2B Edition à l’aide des données Marketo Engage.
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Pour une compréhension complète des mécanismes de sécurisation applicables a
 
 * [Adobe Journey Optimizer B2B Edition - Description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Inclut des mécanismes de sécurisation spécifiques et des paramètres d’utilisation pour Journey Optimizer B2B Edition.
-* Mécanismes De Sécurisation Du Déploiement De [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* Mécanismes De Sécurisation Du Déploiement De [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Elle traite des mécanismes de sécurisation généraux de l’architecture et du déploiement dans les solutions Adobe Experience Platform.
 * [Adobe Marketo Engage - Description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Présente les mécanismes de sécurisation des performances et de l’utilisation de Marketo Engage, y compris des considérations sur l’activation et la synchronisation CRM.

@@ -3,13 +3,18 @@ title: Cas d’utilisation des soins de santé
 description: Découvrez comment les organismes de santé utilisent Adobe Experience Platform pour améliorer l'engagement des patients, rationaliser la coordination des soins et obtenir de meilleurs résultats en matière de santé.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des soins de santé
 
 Les établissements de santé utilisent Adobe Experience Platform pour créer des profils de patients unifiés et fournir des communications personnalisées et opportunes sur chaque point de contact. En reliant les données cliniques, comportementales et de préférences au même endroit, les équipes soignantes peuvent impliquer les patients plus efficacement, tout en maintenant les normes les plus élevées en matière de confidentialité et de conformité.

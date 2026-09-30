@@ -3,13 +3,16 @@ title: Génération de Customer Analytics et d’Insight
 description: Découvrez comment créer des espaces de travail d’analyse cross-canal, des mesures calculées et des tableaux de bord pour l’analyse du comportement et des performances.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 3%
-
 ---
-
 # Génération de Customer Analytics et d’insight
 
 Ce guide décrit le modèle de cas d’utilisation de génération de customer analytics et insight, qui connecte [!DNL Adobe Experience Platform] jeux de données à [!DNL Customer Journey Analytics] pour créer des vues de données, des espaces de travail d’analyse de structure libre, des mesures calculées, des tableaux de bord et des cartes de performance mobiles, ainsi que pour publier éventuellement des audiences définies par CJA vers [!DNL Adobe Experience Platform] pour activation.

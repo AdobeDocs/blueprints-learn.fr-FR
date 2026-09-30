@@ -3,13 +3,18 @@ title: Cas d’utilisation des médias et du divertissement
 description: Découvrez comment les médias et les entreprises de divertissement utilisent Adobe Experience Platform pour personnaliser la découverte de contenu, réduire le taux de perte d’abonnés et augmenter l’engagement du public.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des médias et du divertissement
 
 Les médias et les entreprises de divertissement utilisent Adobe Experience Platform pour unifier les données d’audience des plateformes de diffusion en continu, des bibliothèques de contenu et des comptes d’abonnés en une vue unique de chaque visionneuse ou écouteur. Cette base permet la découverte de contenu personnalisé, la rétention proactive des abonnés et les stratégies d’engagement qui encouragent le retour des audiences.

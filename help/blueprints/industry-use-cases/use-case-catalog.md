@@ -3,13 +3,14 @@ title: Catalogue de cas d’utilisation
 description: Parcourez les cas d’utilisation du secteur par ordre vertical pour trouver le bon point de départ pour votre parcours Adobe Experience Platform et Applications, avec des liens vers des modèles d’implémentation et des objectifs commerciaux.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4157'
 ht-degree: 30%
-
 ---
-
 # Catalogue des cas d’utilisation
 
 Les cas d’utilisation du secteur montrent comment les organisations de secteurs spécifiques appliquent Adobe Experience Platform et les applications pour obtenir des résultats commerciaux mesurables. Chaque cas d’utilisation décrit un scénario commercial concret, son impact attendu et fournit des liens vers le [modèle de cas d’utilisation](/help/blueprints/use-case-patterns/overview.md) qui fournit des conseils détaillés sur la mise en œuvre.

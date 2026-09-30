@@ -3,13 +3,18 @@ title: Cas d’utilisation d’assurance
 description: Découvrez comment les compagnies d’assurance utilisent Adobe Experience Platform pour personnaliser la gestion des polices, améliorer l’expérience des sinistres et stimuler la fidélisation des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2543'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation d’assurance
 
 Les compagnies d’assurance utilisent Adobe Experience Platform pour unifier les données des titulaires de police dans les systèmes de gestion des polices, de sinistres et d’engagement afin de fournir des communications personnalisées à chaque étape de la relation client. En associant les signaux comportementaux aux informations sur les polices et les sinistres, les assureurs peuvent interagir de manière proactive avec les clients au moyen d&#39;offres pertinentes, de mises à jour de service opportunes et d&#39;un support significatif qui stimule la rétention et la valeur de la durée de vie.
