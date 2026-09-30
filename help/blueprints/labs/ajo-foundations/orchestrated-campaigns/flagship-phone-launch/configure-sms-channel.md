@@ -4,7 +4,10 @@ description: Découvrez comment configurer un canal SMS basé sur Twilio et ses 
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -41,7 +44,7 @@ Commencez par créer le connecteur API qu’AJO utilise pour envoyer les requêt
 
 >[!NOTE]
 >
->Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [&#128279;](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio. Voir le [guide de prise en main](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) de Twilio pour une présentation complète.
+>Vous aurez besoin d&#39;un compte d&#39;essai Twilio gratuit avec un numéro de téléphone vérifié avant de commencer cette étape. Inscrivez-vous à l’adresse [](https://www.twilio.com/try-twilio), puis recherchez le SID de votre compte et le jeton d’authentification dans le tableau de bord de la console Twilio. Voir le [guide de prise en main](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) de Twilio pour une présentation complète.
 
 ![Champs d’informations d’identification de l’API SMS pour le fournisseur Twilio](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -107,7 +110,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
    ![Paramètres de la dimension d’exécution avec dimension cible et dimension secondaire](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
+   ![Dimension Secondaire défini sur Ligne client dans les paramètres de dimension d’exécution « Dimension Secondaire« ](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire ")
 
    >[!NOTE]
    >
@@ -165,4 +168,4 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
 Vous savez maintenant comment configurer un canal SMS.  Notez que cette configuration est un SMS basé sur une API. Selon votre fournisseur, il peut donc utiliser d’autres méthodes d’authentification.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si cela vous intéresse.

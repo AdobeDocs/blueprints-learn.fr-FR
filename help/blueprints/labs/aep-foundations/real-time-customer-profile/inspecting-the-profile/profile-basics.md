@@ -4,13 +4,14 @@ description: Explorez le schéma d’union des profils, recherchez un profil dan
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%
-
 ---
-
 
 # Principes de base des profils
 
@@ -239,7 +240,7 @@ Revenez à l’onglet **Détail** dans le volet de navigation supérieur et cliq
 
 Vous devriez maintenant voir cet écran.
 
-![Visualiseur de graphique d’identités, détails et panneaux d’identités sélectionnés pour la vue de profil du mode &#x200B;](assets/profile-basics-identity-graph-view-of-depeche-mode.png "’identification du profil du mode de détection")
+![Visualiseur de graphique d’identités, détails et panneaux d’identités sélectionnés pour la vue de profil du mode ](assets/profile-basics-identity-graph-view-of-depeche-mode.png "’identification du profil du mode de détection")
 
 La vue ci-dessus est le graphique d’identités du profil du mode Profond et est divisée en trois (3) zones clés :
 

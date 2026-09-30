@@ -2,7 +2,12 @@
 title: Activation d’Adobe Real-Time CDP
 description: Référence d’architecture pour activer les audiences et les données de profil d’Adobe Real-Time CDP vers des destinations publicitaires, sociales, de stockage dans le cloud et d’entreprise.
 solution: Real-Time Customer Data Platform, Experience Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -15,7 +20,7 @@ Cette architecture montre comment Adobe [!DNL Real-Time Customer Data Platform] 
 
 L’architecture illustre le chemin d’activation partagé entre les audiences et les profils [!DNL Real-Time CDP] et les applications de destination. Elle comprend l’activation de destination pour les plateformes publicitaires et sociales, ainsi que les destinations d’entreprise utilisées pour le stockage, l’analyse et les workflows d’application en aval.
 
-![Architecture d’activation des audiences et des profils &#x200B;](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
+![Architecture d’activation des audiences et des profils ](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
 
 ## Modèles de cas d’utilisation pris en charge
 
@@ -34,6 +39,6 @@ L’architecture ci-dessus prend en charge les modèles de cas d’utilisation s
 
 ## Informations complémentaires
 
-- [Destinations Adobe Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home)
-- [Activer les audiences vers les destinations](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Mécanismes de sécurisation d’Adobe Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/guardrails/overview)
+- [Destinations Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Activer les audiences vers les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Mécanismes de sécurisation d’Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)

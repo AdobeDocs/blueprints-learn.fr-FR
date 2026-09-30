@@ -4,7 +4,10 @@ description: Découvrez comment utiliser l’activité Lecture d’audience avec
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -64,7 +67,7 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 4. Cliquez ensuite sur la liste déroulante de **Entité** et sélectionnez le Dimension cible `dep-rel: Customer Account - customer_id` Campaign
 
-![&#x200B; Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
+![ Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
 
 >[!NOTE]
 >
@@ -132,7 +135,7 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 1. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres du premier Partage sont terminés. Cliquez sur **Ajouter un segment** à la deuxième division
 
-   ![Bouton Ajouter un segment dans le volet Détails de l’activité Partage &#x200B;](assets/read-an-audience-add-segment-button.png)
+   ![Bouton Ajouter un segment dans le volet Détails de l’activité Partage ](assets/read-an-audience-add-segment-button.png)
 
    Un nouveau segment nommé **Result** est créé
 
@@ -182,4 +185,4 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 Vous avez maintenant vu à quel point il est facile de créer une campagne, d’effectuer une activité Lecture d’audience avec le Dimension Cible du profil pour utiliser le schéma relationnel. Vous avez utilisé l’activité Partage pour partager l’audience en fonction d’une condition. Enfin, le mode test a permis de comprendre qu’il est important d’avoir la cohérence des données entre le profil et le schéma relationnel.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si cela vous intéresse.

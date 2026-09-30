@@ -3,13 +3,18 @@ title: Cas d’utilisation des soins de santé
 description: Découvrez comment les organismes de santé utilisent Adobe Experience Platform pour améliorer l'engagement des patients, rationaliser la coordination des soins et obtenir de meilleurs résultats en matière de santé.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des soins de santé
 
 Les établissements de santé utilisent Adobe Experience Platform pour créer des profils de patients unifiés et fournir des communications personnalisées et opportunes sur chaque point de contact. En reliant les données cliniques, comportementales et de préférences au même endroit, les équipes soignantes peuvent impliquer les patients plus efficacement, tout en maintenant les normes les plus élevées en matière de confidentialité et de conformité.
@@ -47,7 +52,7 @@ Les campagnes personnalisées d&#39;observance des médicaments contribuent à a
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). L’observance médicamenteuse nécessite une approche multipoint soutenue, avec des rappels croissants, des points de contact éducatifs et des bilans de suivi tout au long du plan de traitement. Il s’agit du schéma approprié, car la gestion des médicaments nécessite un flux séquentiel de plusieurs messages sur plusieurs jours ou semaines, avec une ramification conditionnelle basée sur les événements de remplissage et les signaux d’engagement. Un seul message déclenché ne peut pas s’adapter à la logique de dépendance entre les étapes éducatives et les chemins d’escalade.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [L’observance médicamenteuse nécessite une approche multipoint soutenue, avec des rappels croissants, des points de contact éducatifs et des bilans de suivi tout au long du plan de traitement. Il s’agit du schéma approprié, car la gestion des médicaments nécessite un flux séquentiel de plusieurs messages sur plusieurs jours ou semaines, avec une ramification conditionnelle basée sur les événements de remplissage et les signaux d’engagement. Un seul message déclenché ne peut pas s’adapter à la logique de dépendance entre les étapes éducatives et les chemins d’escalade.
 
 ### Considérations techniques
 
@@ -107,7 +112,7 @@ Les nouveaux parcours automatisés d’intégration des patients contribuent à 
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). L’intégration du patient est un processus naturellement séquentiel à plusieurs étapes où chaque communication s’appuie sur la précédente et s’adapte selon que le patient a terminé ou non des actions clés. Il s’agit du modèle approprié, car l’intégration nécessite un flux dépendant séquencé sur plusieurs jours avec embranchement en fonction des actions du patient (activation du portail, achèvement du formulaire). Une approche par message unique ou par lots ne peut pas s’adapter aux interdépendances entre les étapes ni à l’achèvement progressif.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [L’intégration du patient est un processus naturellement séquentiel à plusieurs étapes où chaque communication s’appuie sur la précédente et s’adapte selon que le patient a terminé ou non des actions clés. Il s’agit du modèle approprié, car l’intégration nécessite un flux dépendant séquencé sur plusieurs jours avec embranchement en fonction des actions du patient (activation du portail, achèvement du formulaire). Une approche par message unique ou par lots ne peut pas s’adapter aux interdépendances entre les étapes ni à l’achèvement progressif.
 
 ### Considérations techniques
 
@@ -127,7 +132,7 @@ La diffusion personnalisée de contenu médical permet d’obtenir des taux d’
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). La diffusion des contenus relatifs à l’intégrité s’appuie sur une prise de décision en temps réel qui sélectionne les contenus les plus pertinents pour chaque patient en fonction de ses affections, préférences et engagements passés, diffusés par le biais de son canal préféré. Il s’agit du modèle approprié lorsque la sélection de contenu doit tenir compte des conditions du patient, des préférences de consentement et des préférences de canal, tout en empêchant la diffusion en double ou fastidieuse. L’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour faire correspondre l’inventaire de contenu dynamique aux besoins individuels des patients.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). [La diffusion des contenus relatifs à l’intégrité s’appuie sur une prise de décision en temps réel qui sélectionne les contenus les plus pertinents pour chaque patient en fonction de ses affections, préférences et engagements passés, diffusés par le biais de son canal préféré. Il s’agit du modèle approprié lorsque la sélection de contenu doit tenir compte des conditions du patient, des préférences de consentement et des préférences de canal, tout en empêchant la diffusion en double ou fastidieuse. L’orchestration à plusieurs étapes ne fournit pas à elle seule la couche de prise de décision en temps réel nécessaire pour faire correspondre l’inventaire de contenu dynamique aux besoins individuels des patients.
 
 ### Considérations techniques
 
@@ -207,7 +212,7 @@ Les campagnes d&#39;engagement personnalisées du programme de mieux-être perme
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Les programmes de bien-être sont des expériences d’engagement soutenu avec plusieurs jalons, défis et points de contact de récompense qui nécessitent une orchestration adaptative basée sur la participation et les progrès du patient. Il s’agit du modèle approprié, car les programmes de bien-être nécessitent un flux séquentiel et multi-messages sur une période prolongée avec embranchement conditionnel basé sur les jalons de participation et les schémas d’engagement. Les messages déclenchés par un événement ne peuvent pas gérer l’orchestration adaptative prolongée nécessaire pour ajuster les défis et les récompenses en fonction du suivi continu des progrès.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [Les programmes de bien-être sont des expériences d’engagement soutenu avec plusieurs jalons, défis et points de contact de récompense qui nécessitent une orchestration adaptative basée sur la participation et les progrès du patient. Il s’agit du modèle approprié, car les programmes de bien-être nécessitent un flux séquentiel et multi-messages sur une période prolongée avec embranchement conditionnel basé sur les jalons de participation et les schémas d’engagement. Les messages déclenchés par un événement ne peuvent pas gérer l’orchestration adaptative prolongée nécessaire pour ajuster les défis et les récompenses en fonction du suivi continu des progrès.
 
 ### Considérations techniques
 
@@ -227,7 +232,7 @@ Des communications efficaces de coordination des équipes de soins permettent d&
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré à plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). La coordination de l&#39;équipe de soins implique plusieurs parties prenantes et des flux de communication continus qui doivent s&#39;adapter en fonction des jalons du plan de soins, des changements de statut du patient et des actions du fournisseur. Il s’agit du modèle approprié, car la coordination des soins nécessite des flux de messages adaptatifs à plusieurs étapes qui se divisent en fonction des jalons du plan de soins et des actions des prestataires de services de plusieurs parties prenantes. Un message unique ou un modèle plus simple ne peut pas s’adapter aux interdépendances complexes et au routage des messages en fonction des rôles nécessaires entre les équipes cliniques.
+Utilisez le modèle Parcours orchestré à plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). [La coordination de l&#39;équipe de soins implique plusieurs parties prenantes et des flux de communication continus qui doivent s&#39;adapter en fonction des jalons du plan de soins, des changements de statut du patient et des actions du fournisseur. Il s’agit du modèle approprié, car la coordination des soins nécessite des flux de messages adaptatifs à plusieurs étapes qui se divisent en fonction des jalons du plan de soins et des actions des prestataires de services de plusieurs parties prenantes. Un message unique ou un modèle plus simple ne peut pas s’adapter aux interdépendances complexes et au routage des messages en fonction des rôles nécessaires entre les équipes cliniques.
 
 ### Considérations techniques
 

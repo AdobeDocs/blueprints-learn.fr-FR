@@ -4,13 +4,14 @@ description: Affichez les descripteurs d’identité d’un schéma via l’inte
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
-
 ---
-
 
 # Afficher le schéma
 
@@ -60,7 +61,7 @@ Notez l’en-tête **Accept** utilisé dans la requête. Cet en-tête indique au
 
 >[!NOTE]
 >
->Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=fr#lookup)
+>Vous pouvez en savoir plus sur les différents en-têtes Accept ici -> [Point d’entrée de l’API de schéma ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

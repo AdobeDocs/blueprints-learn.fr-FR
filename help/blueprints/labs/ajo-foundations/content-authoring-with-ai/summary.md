@@ -4,13 +4,14 @@ description: Consultez les principaux points à retenir et une liste de contrôl
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
-
 ---
-
 
 # Résumé
 
@@ -21,7 +22,7 @@ Tout au long de ce cours, vous avez exploré le parcours complet de la création
 - Vous pouvez créer, configurer et tester en toute confiance des communications de marque dans Adobe Journey Optimizer (AJO).
 - L’utilisation de **fragments** et **modèles** simplifie la création de contenu et assure la cohérence de la marque entre les messages.
 - Les outils **Assistant IA** et **Score d’alignement des marques** permettent de maintenir le ton, la qualité et la conformité avant le lancement.
-- **&#x200B;**&#x200B;vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
+- **** vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
 - Le **contenu dynamique** permet de faire varier les messages entre les segments à l’aide de règles de ciblage et d’une logique conditionnelle.
 - Tester avec des **profils de simulation** et exécuter des **contrôles de conformité** garantit que les messages s’affichent correctement et correspondent aux normes de la marque avant leur mise en ligne.
 

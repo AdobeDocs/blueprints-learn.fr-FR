@@ -4,7 +4,10 @@ description: Importez la collection d’API Postman du bootcamp et vérifiez que
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -58,7 +61,7 @@ Pour vous assurer que l’environnement et la collection fonctionnent correcteme
 
 4. Lorsque l’environnement approprié est sélectionné, la variable EDGE\_REGION prend désormais une couleur bleu clair. Cela indique que la variable possède désormais une valeur pour l’environnement sélectionné. La variable DATASTREAM\_CONFIG reste rouge, car vous n’avez pas encore créé le flux de données. Vous ne disposez donc pas encore d’une valeur pour cette variable d’environnement. Pointez sur EDGE\_REGION pour afficher la valeur de la valeur de l’environnement.
 
-![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez &#x200B;](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
+![La variable Postman EDGE_REGION est maintenant renseignée et n’est plus affichée en rouge. Vérifiez ](assets/import-api-collection-environment-works-with-collection.png " l’environnement Postman fonctionne avec la collection")
 
 ## Récapituler
 

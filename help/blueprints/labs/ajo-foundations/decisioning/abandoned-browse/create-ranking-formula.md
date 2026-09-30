@@ -4,7 +4,10 @@ description: Créez une formule de classement qui booste de manière dynamique l
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
@@ -75,7 +78,7 @@ Une façon d’envisager les règles d’ajustement de priorité est de les trai
 
 3. Laissez l’opérateur défini sur « Est égal à » et, dans la zone de texte restante, saisissez le nom de l’élément d’offre de niveau supérieur **iphone:17\:ultra**. Après avoir saisi le texte, l’interface utilisateur se met à jour et indique que la condition correspondante a été acceptée.
 4. Cliquez sur **+Ajouter une condition** puis cliquez dans la zone de texte **nouveau qui apparaît** (elle contient le texte « *Cliquez pour créer un élément de décision...* »)
-5. Cliquez sur l’option désormais disponible **Sélectionner un attribut**&#x200B;**.**
+5. Cliquez sur l’option désormais disponible **Sélectionner un attribut****.**
 6. Lorsque la boîte de dialogue « Sélectionner un attribut » s’ouvre, cliquez sur **Attributs de profil > Personne** (vous devrez probablement faire défiler la page vers le bas) **> Année de naissance**. Une fois sélectionné, cliquez sur **Enregistrer.**
 
    >[!NOTE]

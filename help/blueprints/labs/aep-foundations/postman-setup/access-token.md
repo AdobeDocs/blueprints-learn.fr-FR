@@ -4,7 +4,10 @@ description: Générez un jeton d’accès serveur à serveur OAuth dans Postman
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -115,4 +118,4 @@ Cette erreur se produit lorsque vous oubliez de définir votre environnement Pos
 >
 >N’oubliez pas de définir votre environnement Postman lors de l’exécution des appels API
 >
->![Sélection de l’environnement du Bootcamp AEP dans le menu déroulant Environnement Postman &#x200B;](assets/access-token-set-postman-environment.png)
+>![Sélection de l’environnement du Bootcamp AEP dans le menu déroulant Environnement Postman ](assets/access-token-set-postman-environment.png)

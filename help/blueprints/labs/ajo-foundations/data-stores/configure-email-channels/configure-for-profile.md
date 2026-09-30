@@ -4,7 +4,10 @@ description: Découvrez comment configurer un canal e-mail à l’aide de l’at
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 5%
@@ -54,7 +57,7 @@ Dans la liste déroulante **Sous-domaine**, sélectionnez **email.dep-labs.com**
 
 Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing**
 
-![Liste déroulante du groupe d’adresses IP avec les détails du groupe d’adresses IP sélectionnées &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " marketing")
+![Liste déroulante du groupe d’adresses IP avec les détails du groupe d’adresses IP sélectionnées ](assets/configure-for-profile-select-marketing-ip-pool.png " marketing")
 
 ## Configurer le désabonnement de la liste
 
@@ -118,7 +121,7 @@ Conserver les paramètres par défaut
    - **Diffuser un message par :** `Target Dimension`
    - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
 
-   Dimension Target![&#128279;](assets/configure-for-profile-target-dimension-settings.png)
+   Dimension Target](assets/configure-for-profile-target-dimension-settings.png)![
 
 7. Sous Adresse d’exécution , configurez les éléments suivants :
    - **Source:** `Profile`

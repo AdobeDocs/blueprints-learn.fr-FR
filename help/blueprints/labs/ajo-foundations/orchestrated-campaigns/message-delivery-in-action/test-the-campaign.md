@@ -4,7 +4,10 @@ description: Découvrez comment exécuter une campagne orchestrée en mode test 
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -108,4 +111,4 @@ Pour arrêter le **Mode test** de la campagne, cliquez sur le bouton **Arrêter*
 
 Vous avez maintenant vu comment tester la campagne créée pour comprendre le flux et le comportement. Ici, les nuances de l’utilisation des différents paramètres de configuration du canal e-mail ont été bien comprises lors de l’exécution du flux de test.
 
-En savoir plus sur le mode test de la campagne [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si vous êtes intéressé.
+En savoir plus sur le mode test de la campagne [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si vous êtes intéressé.

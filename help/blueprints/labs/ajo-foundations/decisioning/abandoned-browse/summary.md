@@ -4,17 +4,18 @@ description: Résumé du Lab de prise de décision Adobe Journey Optimizer termi
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
-
 ---
-
 
 # Résumé
 
-Félicitations, vous avez terminé le Lab. Vous avez maintenant créé et testé un workflow de prise de décision Adobe Journey Optimizer **&#x200B;**&#x200B;complet.
+Félicitations, vous avez terminé le Lab. Vous avez maintenant créé et testé un workflow de prise de décision Adobe Journey Optimizer **** complet.
 
 Vous avez commencé par étendre le **schéma d’offre** et créer des **règles d’éligibilité** pour contrôler quels clients remplissent les critères pour des offres spécifiques. Vous avez ensuite créé plusieurs **éléments d’offre**, configuré des priorités et des limites de fréquence, puis les avez organisés en une **collection d’offres**.
 

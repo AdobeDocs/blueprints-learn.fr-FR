@@ -4,13 +4,14 @@ description: Regroupez les éléments d’offre associés dans une collection à
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 
 # Créer une collection d’offres
 
@@ -39,7 +40,7 @@ Maintenant que vos offres ont été créées, elles doivent être organisées en
    >
    >Notez que les options disponibles sont les mêmes champs configurables que ceux utilisés lors de la création des éléments d’offre. Étant donné qu’une collection est un regroupement d’éléments d’offre, il est logique que les règles permettant de les regrouper dépendent de leurs attributs.
 
-7. Laissez l’opérateur « Est égal à » en place et saisissez le texte **&#x200B;**&#x200B;dans le champ de valeur, et vous verrez que le nombre d’éléments passe à 4, indiquant que tous les éléments de votre offre répondent à ce critère
+7. Laissez l’opérateur « Est égal à » en place et saisissez le texte **** dans le champ de valeur, et vous verrez que le nombre d’éléments passe à 4, indiquant que tous les éléments de votre offre répondent à ce critère
 
    ![Règle de collection présentant quatre éléments d&#39;offre correspondant aux critères d&#39;iPhone](assets/create-offer-collection-four-matching-offers.png)
 

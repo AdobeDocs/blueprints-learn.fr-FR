@@ -4,13 +4,14 @@ description: Découvrez comment rechercher un profil sur le Hub de profils clien
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # Valider le profil sur le hub
 
@@ -74,7 +75,7 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 >
 >**Comment lire segmentMembership ?**
 >
->[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups :** il s’agit de la clé de mappage pour les différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
 >

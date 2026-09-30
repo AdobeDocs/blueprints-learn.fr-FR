@@ -4,7 +4,10 @@ description: Importez le fichier d’environnement Postman et renseignez son pro
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -48,7 +51,7 @@ Avant d’effectuer des appels d’API, vous devez mettre à jour certaines des 
 
 >[!NOTE]
 >
->Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [&#128279;](../sandbox-setup/developer-console-setup.md#collect-your-values)
+>Ces valeurs proviennent des informations d’identification de serveur à serveur OAuth que vous avez créées dans la configuration de [](../sandbox-setup/developer-console-setup.md#collect-your-values)
 
 
 

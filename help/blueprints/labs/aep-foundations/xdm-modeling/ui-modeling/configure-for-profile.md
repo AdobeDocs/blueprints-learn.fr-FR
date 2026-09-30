@@ -4,7 +4,10 @@ description: Marquez les champs d’identité principale et de personne, créez 
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -33,7 +36,7 @@ Chaque schéma nécessite un champ d’identité principal s’il doit être uti
 1. Sélectionnez l’espace de noms **customerID** dans la liste déroulante
 1. Lorsque vous avez terminé, cliquez sur le bouton **Appliquer** dans le rail de droite, puis sur **Enregistrer** vos modifications.
 
-![Marquage du champ customerID en tant qu’identité de Principal &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
+![Marquage du champ customerID en tant qu’identité de Principal ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "Marquage de _dxp.customerID en tant qu’identité de Principal ")
 
 >[!NOTE]
 >

@@ -4,13 +4,14 @@ description: Découvrez comment les descripteurs d’identité marquent les cham
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
-
 ---
-
 
 # Marquer les champs d’identité
 
@@ -30,7 +31,7 @@ Pour marquer un champ en tant qu’identité, vous devez créer un descripteur d
 }
 ```
 
-- **&#x200B;**&#x200B;-> toujours défini sur `xdm:descriptorIdentity`
+- **** -> toujours défini sur `xdm:descriptorIdentity`
 - **xdm\:sourceSchema** -> `$id` du schéma où se trouve le champ
 - **xdm\:sourceVersion** -> toujours 1
 - **xdm\:sourceProperty** -> chemin d’accès du champ dans le schéma

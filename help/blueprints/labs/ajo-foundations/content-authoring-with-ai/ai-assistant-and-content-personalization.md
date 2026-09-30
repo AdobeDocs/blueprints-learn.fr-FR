@@ -4,13 +4,14 @@ description: Utilisez l’assistant d’IA de Adobe Journey Optimizer pour gén�
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 5%
-
 ---
-
 
 # Assistant d’IA et personnalisation de contenu
 
@@ -51,7 +52,7 @@ Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’
 4. Sélectionnez le champ **Objet**.
 5. Cliquez sur l’icône **Assistant IA**. (voir ci-dessous)
 
-   ![&#x200B; Icône Assistant IA dans la barre d’outils du champ Objet &#x200B;](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   ![ Icône Assistant IA dans la barre d’outils du champ Objet ](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. Notez que Brand Guideline est sélectionné par défaut.
 7. Saisissez l’invite :
@@ -159,7 +160,7 @@ Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des 
 
    ![Sélection de l’espace réservé de l’image pour accéder aux options de Firefly](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-3. Sous **&#x200B;**, cliquez sur **Générer et sélectionnez l’image**.
+3. Sous ****, cliquez sur **Générer et sélectionnez l’image**.
 
 ![Option Générer et sélectionner une image sous Firefly](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 

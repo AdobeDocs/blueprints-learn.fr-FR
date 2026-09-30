@@ -4,13 +4,14 @@ description: Utilisez Postman pour diffuser directement un événement de comman
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
-
 ---
-
 
 # Envoi d’un événement
 
@@ -41,7 +42,7 @@ Collectez d&#39;abord les valeurs suivantes :
 1. Accédez à **Sources** dans le rail de gauche, puis cliquez sur **Comptes** dans le volet de navigation supérieur
 1. Recherchez **dep : API HTTP \[raw]**, mettez la ligne en surbrillance, copiez et enregistrez la valeur du point d’entrée **de diffusion en continu** à un endroit auquel vous pourrez vous référer ultérieurement
 
-![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
+![dep : ligne de compte de l’API HTTP [raw] mise en surbrillance avec la valeur du point d’entrée de diffusion ](assets/send-an-event-streaming-endpoint-account-row.png "dep : API HTTP \[raw]")
 
 
 ### Rechercher un ID de flux de données

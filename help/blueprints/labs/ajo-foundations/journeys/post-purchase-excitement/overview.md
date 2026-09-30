@@ -4,7 +4,10 @@ description: Découvrez comment créer un parcours post-achat piloté par les é
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,7 +21,7 @@ ht-degree: 0%
 >
 >Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
 
-- Installation de **&#x200B;**&#x200B;**—>** installation de [Postman](../../postman-setup/postman-installation.md)
+- Installation de **** **—>** installation de [Postman](../../postman-setup/postman-installation.md)
 - **Magasins de données — Magasin relationnel en action** **—>** [Dimension cible du profil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Magasins de données — Configuration des canaux e-mail —>** [Configuration pour le profil](../../data-stores/configure-email-channels/configure-for-profile.md)
   *(cette étape peut prendre jusqu’à 3 heures)*

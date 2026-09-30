@@ -4,7 +4,10 @@ description: Créez des champs et des objets de compte, de plan et customerID pe
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -106,7 +109,7 @@ Comme nous l’avons vu dans la conférence, il n’existe aucun groupe de champ
 
    >[!NOTE]
    >
-   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, consultez la documentation ici -> [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=fr#enums-and-suggested-values)
+   >L’objectif des valeurs Énumération et Suggestions est de faciliter la segmentation pour l’utilisateur final. Les énumérations appliquent la validation au moment de l’ingestion des données, contrairement aux valeurs suggérées. Pour en savoir plus sur cette fonctionnalité, consultez la documentation ici -> [](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -177,7 +180,7 @@ Effectuez les mêmes étapes que précédemment et utilisez le tableau ci-dessou
 
 Une fois que vous avez terminé, le résultat final ressemble à la capture d’écran ci-dessous
 
-![&#x200B; Schéma de compte client avec le champ customerID ajouté à la racine &#x200B;](assets/model-custom-objects-customerid-field-added.png)
+![ Schéma de compte client avec le champ customerID ajouté à la racine ](assets/model-custom-objects-customerid-field-added.png)
 
 
 

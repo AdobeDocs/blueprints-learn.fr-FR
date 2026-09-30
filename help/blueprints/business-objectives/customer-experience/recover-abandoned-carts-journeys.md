@@ -3,13 +3,18 @@ title: Récupérer les paniers et Parcours abandonnés
 description: Découvrez comment réengager les utilisateurs qui ont abandonné lors des flux d’achat, de demande ou d’inscription avec des suivis personnalisés et opportuns.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
-
 ---
-
 # Récupérer les paniers et parcours abandonnés
 
 Réengagez les utilisateurs qui ont abandonné lors des flux d’achat, de demande ou d’inscription avec des suivis personnalisés et opportuns. Cet objectif se concentre sur la capture des recettes perdues en détectant les événements d&#39;abandon en temps réel et en diffusant des messages contextuels qui éliminent les obstacles et encouragent l&#39;achèvement.

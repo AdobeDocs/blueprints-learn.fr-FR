@@ -4,10 +4,12 @@ description: Découvrez l’architecture de Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
+TQID: 'https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -38,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 29%
@@ -148,7 +150,7 @@ Les conditions préalables suivantes sont requises pour cette architecture.
   - La prise en charge du chargement des données d’API est principalement destinée à la gestion des profils ou des objets simples dans la base de données (c’est-à-dire la création et la mise à jour). Il n’est pas destiné à être utilisé pour le chargement de gros volumes de données ou d’opérations de type batch.
   - L’utilisation d’API pour lire des données à des fins d’application personnalisée n’est pas prise en charge.
   - Les données chargées via l’API sont mises en scène dans la base de données de l’application, puis répliquées toutes les heures dans la base de données Cloud.
-- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+- Des limites aux appels API s’appliquent. En savoir plus dans la Description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Dimensionnement du serveur de messagerie par lots
 
@@ -172,11 +174,11 @@ Les conditions préalables suivantes sont requises pour cette architecture.
 
 ## Étapes de mise en œuvre
 
-Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=fr).
+Consultez le guide de prise en main pour la [Mise en œuvre d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html).
 
 ## Documentation connexe
 
-- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr)
+- [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Description du produit Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html?lang=fr)
-- [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=fr)
+- [Documentation Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html)
+- [Documentation Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)

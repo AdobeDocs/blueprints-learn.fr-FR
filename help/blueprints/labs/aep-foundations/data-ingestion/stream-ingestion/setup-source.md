@@ -4,13 +4,14 @@ description: Créez un compte de diffusion en continu d’API HTTP et configurez
 doc-type: article
 solution: Experience Platform
 exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # Configurer la source
 
@@ -80,7 +81,7 @@ Effectuez les étapes suivantes :
 
 1. Créez un jeu de données et nommez-le -> `Customer Account Stream - <Your Initials>`
 1. Choisissez le **Schéma** comme ->`dep: Customer Account`
-1. Assurez-vous que le bouton (bascule) **Jeu de données de profil** est **activé**.  Si ce n’est pas le cas **&#x200B;**&#x200B;activez-le.
+1. Assurez-vous que le bouton (bascule) **Jeu de données de profil** est **activé**.  Si ce n’est pas le cas **** activez-le.
 1. Mettez à jour le **nom du flux de données** comme suit :
    - `Customer Account Stream - <Your Initials>`
 1. Cliquez sur le bouton **Suivant** pour continuer

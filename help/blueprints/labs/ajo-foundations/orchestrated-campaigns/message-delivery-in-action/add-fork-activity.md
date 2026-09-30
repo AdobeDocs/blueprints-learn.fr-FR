@@ -4,13 +4,14 @@ description: Découvrez comment ajouter une activité Branchement à une campagn
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
-
 ---
-
 
 # Ajouter une activité branchement
 
@@ -32,4 +33,4 @@ La zone de travail avec l’**Créer une audience** configurée s’affiche. Cli
 
 Vous avez maintenant vu à quel point il est facile d’utiliser l’activité Branchement dans la zone de travail de campagne pour créer des branches identiques des mêmes données qui y circulent. Les branches de l’activité Branchement seront utilisées à l’étape suivante.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si cela vous intéresse.

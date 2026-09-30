@@ -4,12 +4,14 @@ description: Illustre l’utilisation d’Adobe Journey Optimizer avec Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-TQID: https://experienceleague.adobe.com/EWmi1DKRUqfWUqK0u-pfXkdUlzDc6-HjC0i1QqOocpk
+TQID: 'https://experienceleague.adobe.com/EWmi1DKRUqfWUqK0u-pfXkdUlzDc6-HjC0i1QqOocpk'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -38,7 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 55%
@@ -49,7 +51,7 @@ Montre comment Adobe [!DNL Journey Optimizer] peut être utilisé avec Adobe [!D
 
 ## Architecture
 
-Journey Optimizer d’architecture de référence![&#128279;](images/campaign-v8-with-ajo.png){width="1000" zoomable="yes"}
+Journey Optimizer d’architecture de référence](images/campaign-v8-with-ajo.png){width="1000" zoomable="yes"}![
 
 >[!IMPORTANT]
 >L’utilisation de Journey Optimizer et de Campaign pour envoyer des messages indépendamment les uns des autres est possible mais présente des considérations techniques à prendre en compte. Si vous souhaitez suivre cette voie, collaborez avec votre architecte d’avant-vente pour vous assurer de bien comprendre ce qui sera nécessaire pour prendre en charge la mise en œuvre
@@ -74,9 +76,9 @@ Examinez les conditions préalables suivantes pour chaque application.
 
 ## Garde-fous
 
-* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/guardrails)
+* [Limites du produit Mécanismes de sécurisation de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Mécanismes de sécurisation et conseils de bout en bout sur la latence](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=fr)
+* [Mécanismes de sécurisation et conseils de bout en bout sur la latence](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Étapes de mise en œuvre
 
@@ -115,7 +117,7 @@ Suivez les implémentations de chaque application décrites ci-dessous.
 
 * Les modèles de message doivent être configurés avec le contexte de personnalisation approprié.
 * Par [!DNL Campaign] standard : les workflows d&#39;export doivent être configurés pour réexporter les logs des messages transactionnels vers Experience Platform. Il est recommandé de l’exécuter au plus toutes les quatre heures.
-* Pour [!DNL Campaign] v8.4, il est possible d’utiliser le connecteur Source Adobe [!DNL Campaign] Managed Services dans Experience Platform pour synchroniser la diffusion et le suivi des événements de Campaign dans Experience Platform. Consultez la documentation du connecteur [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr) pour plus de détails.
+* Pour [!DNL Campaign] v8.4, il est possible d’utiliser le connecteur Source Adobe [!DNL Campaign] Managed Services dans Experience Platform pour synchroniser la diffusion et le suivi des événements de Campaign dans Experience Platform. Consultez la documentation du connecteur [](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr) pour plus de détails.
 
 ### Configuration des notifications push mobiles (facultatif)
 

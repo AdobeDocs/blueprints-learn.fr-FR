@@ -4,7 +4,10 @@ description: Découvrez comment créer un workflow de prise de décision de navi
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -18,7 +21,7 @@ ht-degree: 0%
 >
 >Les exercices ci-dessous doivent avoir été terminés avant de démarrer cet exercice
 
-- Installation de **&#x200B;**&#x200B;**—>** installation de [Postman](../../postman-setup/postman-installation.md)
+- Installation de **** **—>** installation de [Postman](../../postman-setup/postman-installation.md)
 - **Magasins de données — Profil en action** **—>** [Créer un flux de données](../../data-stores/profile-in-action/create-datastream.md)
 
 Si vous n&#39;avez pas terminé ces laboratoires, faites-le maintenant avant de continuer.

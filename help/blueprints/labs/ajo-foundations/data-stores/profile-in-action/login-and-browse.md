@@ -4,19 +4,20 @@ description: Découvrez comment vous connecter à Adobe Experience Platform à l
 doc-type: article
 solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
-
 ---
-
 
 # Connexion et navigation
 
 ## Connexion via l’interface utilisateur
 
-1. Accédez à [&#128279;](https://experience.adobe.com/) dans votre navigateur.
+1. Accédez à [](https://experience.adobe.com/) dans votre navigateur.
 1. Connectez-vous à l’aide d’Adobe ID qui dispose d’un accès développeur à votre sandbox, le même que celui utilisé pour terminer la configuration de [Developer Console](../../sandbox-setup/developer-console-setup.md).
 1. Sur l’écran **Sélectionner un compte** choisissez le **Compte d’entreprise ou d’école**.
 

@@ -3,13 +3,18 @@ title: Cas d’utilisation des télécommunications
 description: Découvrez comment les entreprises de télécommunications utilisent Adobe Experience Platform pour réduire l’attrition, stimuler les périphériques et planifier les mises à niveau, et améliorer l’engagement des clients.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation des télécommunications
 
 Les entreprises de télécommunications utilisent Adobe Experience Platform pour créer une vue d’ensemble de chaque abonné et offrir des expériences personnalisées qui réduisent le taux de résiliation, augmentent les mises à niveau de forfaits et d’appareils et renforcent les relations client à long terme. En connectant les données d&#39;utilisation du réseau, les informations de facturation et les interactions avec les clients, les fournisseurs de télécommunications peuvent anticiper les besoins des abonnés et les impliquer au bon moment via leurs canaux préférés.
@@ -24,7 +29,7 @@ Les organisations qui mettent en œuvre des recommandations de mise à niveau de
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour orchestrer des parcours de mise à niveau qui évaluent l’éligibilité de chaque abonné, ses préférences d’appareil et son affinité de canal, afin de fournir des offres de mise à niveau personnalisées par le biais d’e-mails, de notifications d’application et d’expériences en magasin. Il s’agit du bon modèle lorsque la sélection des offres doit tenir compte des fenêtres d’éligibilité de l’appareil, des préférences de canal et des contraintes d’inventaire, des contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples recommandations comportementales.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour orchestrer des parcours de mise à niveau qui évaluent l’éligibilité de chaque abonné, ses préférences d’appareil et son affinité de canal, afin de fournir des offres de mise à niveau personnalisées par le biais d’e-mails, de notifications d’application et d’expériences en magasin. [Il s’agit du bon modèle lorsque la sélection des offres doit tenir compte des fenêtres d’éligibilité de l’appareil, des préférences de canal et des contraintes d’inventaire, des contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples recommandations comportementales.
 
 ### Considérations techniques
 
@@ -44,7 +49,7 @@ Les campagnes d’optimisation des plans améliorent les taux de modification de
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une campagne multipoint qui identifie les incohérences entre l’utilisation et la planification, informe les abonnés sur les meilleures options et les guide tout au long du processus de changement de planification avec des suivis opportuns. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur l’engagement des abonnés et l’adoption du plan. Un message unique ne peut pas s’adapter au parcours éducatif et à la logique de dépendance entre les étapes de formation et de conversion.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une campagne multipoint qui identifie les incohérences entre l’utilisation et la planification, informe les abonnés sur les meilleures options et les guide tout au long du processus de changement de planification avec des suivis opportuns. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur l’engagement des abonnés et l’adoption du plan. Un message unique ne peut pas s’adapter au parcours éducatif et à la logique de dépendance entre les étapes de formation et de conversion.
 
 ### Considérations techniques
 
@@ -84,7 +89,7 @@ Des parcours d’intégration bien conçus entraînent des taux d’activation d
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours orchestré en plusieurs étapes[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une expérience d’intégration séquentielle qui s’adapte en fonction du type de forfait, de l’appareil et de l’engagement de chaque abonné par rapport aux étapes d’intégration précédentes. Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur la découverte et l’engagement des fonctionnalités. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance adaptative entre les étapes d’intégration basées sur le plan de l’abonné et le type d’appareil.
+Utilisez le modèle Parcours orchestré en plusieurs étapes](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pour créer une expérience d’intégration séquentielle qui s’adapte en fonction du type de forfait, de l’appareil et de l’engagement de chaque abonné par rapport aux étapes d’intégration précédentes. [Il s’agit du modèle approprié lorsque le cas d’utilisation nécessite un flux séquentiel de plusieurs messages sur plusieurs jours avec un embranchement conditionnel basé sur la découverte et l’engagement des fonctionnalités. Un message déclenché unique ne peut pas s’adapter à la logique de dépendance adaptative entre les étapes d’intégration basées sur le plan de l’abonné et le type d’appareil.
 
 ### Considérations techniques
 
@@ -144,7 +149,7 @@ Les communications personnalisées de gestion des plans familiaux améliorent l&
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour analyser l’utilisation parmi tous les membres de la famille, identifier les opportunités telles que l’ajout de lignes ou l’ajustement de limites individuelles, et fournir des recommandations personnalisées à l’administrateur du plan. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte des autorisations de hiérarchie des familles, de l’agrégation des utilisations multi-membres et des contraintes de confidentialité, contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples recommandations d’abonnés individuels.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour analyser l’utilisation parmi tous les membres de la famille, identifier les opportunités telles que l’ajout de lignes ou l’ajustement de limites individuelles, et fournir des recommandations personnalisées à l’administrateur du plan. [Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte des autorisations de hiérarchie des familles, de l’agrégation des utilisations multi-membres et des contraintes de confidentialité, contraintes qui nécessitent une logique de prise de décision régie plutôt que de simples recommandations d’abonnés individuels.
 
 ### Considérations techniques
 
@@ -204,7 +209,7 @@ Les recommandations de services de module complémentaire personnalisés entraî
 
 ### Mise en œuvre
 
-Utilisez le modèle [&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour évaluer le profil, les services actuels et les signaux comportementaux de chaque abonné afin de déterminer l’offre complémentaire la plus pertinente et de la présenter par le canal et le moment optimaux. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de la propriété actuelle du service et des règles métier régissant l’éligibilité du service complémentaire. Ces règles nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale uniquement.
+Utilisez le modèle [](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pour évaluer le profil, les services actuels et les signaux comportementaux de chaque abonné afin de déterminer l’offre complémentaire la plus pertinente et de la présenter par le canal et le moment optimaux. Il s’agit du modèle approprié lorsque la sélection des offres doit tenir compte de la propriété actuelle du service et des règles métier régissant l’éligibilité du service complémentaire. Ces règles nécessitent une logique de prise de décision régie plutôt qu’un classement par affinité comportementale uniquement.
 
 ### Considérations techniques
 
@@ -244,7 +249,7 @@ Les conseils relatifs au plan de conversation réduisent le taux de perte de cli
 
 ### Mise en œuvre
 
-Utilisez le modèle [Expérience de conversation &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport au plan et au catalogue de modules complémentaires, en utilisant des données d’AEP Agent Orchestrator et du profil client en temps réel, y compris l’historique d’utilisation et les détails du plan actuel, pour guider les abonnés et abonnées à travers une sélection de plan personnalisée via un dialogue naturel. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours qui aide les abonnés à évaluer et à sélectionner activement le plan approprié, à la différence des messages déclenchés par un événement, qui avertissent les abonnés de manière réactive des seuils d’utilisation ou des changements de plan, et des expériences web personnalisées, qui affichent des comparaisons de plan de manière passive sans impliquer les abonnés dans une boîte de dialogue de qualification. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
+Utilisez le modèle [Expérience de conversation ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Cette approche déploie Product Advisor Agent par rapport au plan et au catalogue de modules complémentaires, en utilisant des données d’AEP Agent Orchestrator et du profil client en temps réel, y compris l’historique d’utilisation et les détails du plan actuel, pour guider les abonnés et abonnées à travers une sélection de plan personnalisée via un dialogue naturel. Il s’agit du modèle approprié lorsque l’objectif est une découverte conversationnelle interactive à plusieurs tours qui aide les abonnés à évaluer et à sélectionner activement le plan approprié, à la différence des messages déclenchés par un événement, qui avertissent les abonnés de manière réactive des seuils d’utilisation ou des changements de plan, et des expériences web personnalisées, qui affichent des comparaisons de plan de manière passive sans impliquer les abonnés dans une boîte de dialogue de qualification. Cela nécessite une configuration d’AEP Agent Orchestrator et de la gouvernance de marque.
 
 ### Considérations techniques
 
@@ -283,7 +288,7 @@ Les fournisseurs de services de télécommunication dotés de programmes proacti
 
 ### Mise en œuvre
 
-Utilisez le modèle Parcours cross-canal avec prise de décision[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour créer un parcours de rétention qui identifie les abonnés à risque en fonction des scores de propension à l’attrition, sélectionne l’offre de rétention appropriée à l’aide d’une logique de prise de décision et la diffuse sur les canaux préférés de l’abonné avec des étapes de suivi si la première diffusion est ignorée. Il s’agit du modèle approprié lorsque la sélection des offres et l’orchestration des parcours sont requises ; un seul message déclenché ne peut pas s’adapter à la logique de classement des offres et au suivi multipoint nécessaires à une rétention efficace.
+Utilisez le modèle Parcours cross-canal avec prise de décision](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pour créer un parcours de rétention qui identifie les abonnés à risque en fonction des scores de propension à l’attrition, sélectionne l’offre de rétention appropriée à l’aide d’une logique de prise de décision et la diffuse sur les canaux préférés de l’abonné avec des étapes de suivi si la première diffusion est ignorée. [Il s’agit du modèle approprié lorsque la sélection des offres et l’orchestration des parcours sont requises ; un seul message déclenché ne peut pas s’adapter à la logique de classement des offres et au suivi multipoint nécessaires à une rétention efficace.
 
 ### Considérations techniques
 

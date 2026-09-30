@@ -4,7 +4,10 @@ description: Exécutez une collection Postman qui automatise la création de sch
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -44,7 +47,7 @@ Pour découvrir comment automatiser les déploiements à l’aide d’API, vous 
 
 1. Une nouvelle fenêtre s’affiche, qui affiche tous les appels API dans le dossier . Définissez le **Délai** sur **500 ms**, puis cliquez sur le bouton **Exécuter**.
 
-   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter &#x200B;](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
+   ![Boîte de dialogue Exécuter l’automatisation avec un délai défini sur 500 ms avant de cliquer sur Exécuter ](assets/automate-with-apis-execute-automation-dialog.png "’automatisation")
 
 
 

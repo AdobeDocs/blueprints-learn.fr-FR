@@ -3,13 +3,16 @@ title: Expérience de conversation Brand Concierge
 description: Découvrez comment transformer les propriétés numériques en expériences de conversation optimisées par l’IA et sécurisées par la marque qui guident la découverte des clients.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
-
 ---
-
 # Expérience de conversation Brand Concierge
 
 Ce guide présente les expériences conversationnelles optimisées par l’IA utilisant [!DNL Adobe Brand Concierge], intégré à [!DNL Adobe Experience Platform] (AEP) et [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Il est conçu pour les architectes de solution, les technologues marketing et les ingénieurs d’implémentation qui ont besoin de déployer des agents de conversation sécurisés par la marque sur des propriétés numériques.
@@ -105,9 +108,9 @@ Les indicateurs de performance clés suivants permettent de mesurer le succès d
 Les applications suivantes sont utilisées pour implémenter ce modèle de cas d’utilisation.
 
 - **[!DNL Brand Concierge]** : application d’expérience de conversation optimisée par l’IA fournissant l’agent orchestrator, Product Advisor Agent, l’agent de conseil sur le site, la gouvernance de marque et l’analyse de conversation
-- **[!DNL Adobe Experience Platform] (AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
+- **[!DNL Adobe Experience Platform](AEP)** — Base de données unifiée fournissant des schémas XDM, la résolution d&#39;identité, des profils clients en temps réel et une infrastructure de collecte de données pour les signaux conversationnels
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — Plateforme de données client permettant la recherche de profils en temps réel pour des conversations personnalisées, la segmentation d&#39;audience à partir de signaux conversationnels et l&#39;enrichissement de profils avec des données d&#39;intention et de sentiment
 
 ## Documentation connexe
 
-Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.
+Pour obtenir des conseils sur la mise en œuvre et des informations supplémentaires, consultez la présentation de Brand Concierge [](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) sur Adobe Experience League.

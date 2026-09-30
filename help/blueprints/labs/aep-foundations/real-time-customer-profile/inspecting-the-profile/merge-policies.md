@@ -4,13 +4,14 @@ description: Créez une politique de fusion sans combinaison d’identités et c
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
-
 ---
-
 
 # Politiques de fusion
 
@@ -64,7 +65,7 @@ Créez une politique de fusion qui n’utilise pas le graphique d’identités a
 1. Cliquez sur **Politiques de fusion** dans la barre de navigation supérieure.
 1. Cliquez sur **Créer une politique de fusion** à l’extrémité droite de votre écran
 
-![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
+![Cliquez sur Créer une politique de fusion en haut à droite de l’écran Politiques de fusion ](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Configuration
 
@@ -133,7 +134,7 @@ Ouvrez la visionneuse de profils en procédant comme suit :
 1. Cliquez sur le bouton **Afficher** pour rechercher le profil
 1. Cliquez sur le **lien** vers le profil pour afficher les détails du profil
 
-![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants &#x200B;](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
+![Recherche du profil de mode de recherche par e-mail à l’aide de la politique de fusion Aucune combinaison d’identifiants ](assets/merge-policies-lookup-depeche-mode-no-id-stitching-policy.png "Recherche du mode de recherche de recherche avec la politique de fusion Aucune combinaison d’identifiants ")
 
 En comparant les deux vues du profil, vous remarquerez qu’elles sont très différentes. Certains attributs et identités sont manquants dans la version qui utilise la politique de fusion **Pas de combinaison d’identités**.
 

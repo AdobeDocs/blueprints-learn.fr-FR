@@ -4,13 +4,14 @@ description: Découvrez comment parcourir les schémas relationnels et afficher 
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 
 # Parcourir les schémas
 
@@ -69,4 +70,4 @@ Procédez comme suit :
 
 Vous avez maintenant vu à quel point il est facile de naviguer dans l’interface utilisateur Schéma et relations .  Vous pouvez sélectionner un ou plusieurs schémas spécifiques et accéder aux relations pour faciliter la compréhension et l’utilisation des données dans l’orchestration des campagnes.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/data-management/get-started-schemas) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) si cela vous intéresse.

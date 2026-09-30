@@ -4,7 +4,10 @@ description: Découvrez comment étiqueter un champ de schéma relationnel comme
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -66,7 +69,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 2. Sélectionnez **Profile Target Dimension** et cliquez sur **Gérer**
 
-   ![Configuration de Profile Target Dimension avec l’option Gérer &#x200B;](assets/profile-target-dimension-manage-configuration.png)
+   ![Configuration de Profile Target Dimension avec l’option Gérer ](assets/profile-target-dimension-manage-configuration.png)
 
 3. Le volet Dimension de Profile Target s’ouvre. Cliquez sur **Créer**
 
@@ -82,7 +85,7 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 5. Pour l’**Valeur d’identité** sélectionnez `/customer_id`
 
-   ![&#x200B; Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
+   ![ Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
 
    >[!NOTE]
    >
@@ -106,4 +109,4 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 Vous avez maintenant vu à quel point il est facile de naviguer dans le schéma, de marquer un attribut comme une identité et de créer le Dimension cible de profil.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.

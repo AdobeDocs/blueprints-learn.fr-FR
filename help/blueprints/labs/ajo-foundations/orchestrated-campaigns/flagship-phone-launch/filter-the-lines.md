@@ -4,13 +4,14 @@ description: Découvrez comment filtrer les lignes client exclues avec une activ
 doc-type: article
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 
 # Filtrer les lignes
 
@@ -36,7 +37,7 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 3. Dans le rail de droite, développez la section Segment par défaut **Sous-ensemble** et cliquez sur le bouton **Créer un filtre**
 
-   ![Bouton Créer un filtre dans la section Sous-ensemble &#x200B;](assets/filter-the-lines-create-filter-button.png)
+   ![Bouton Créer un filtre dans la section Sous-ensemble ](assets/filter-the-lines-create-filter-button.png)
 
 
 
