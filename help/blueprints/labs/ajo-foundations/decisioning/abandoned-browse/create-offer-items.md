@@ -4,7 +4,10 @@ description: Créez des éléments d’offre iPhone hiérarchisés avec des prio
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -31,24 +34,25 @@ Enfin, toutes choses égales par ailleurs, Connection 5G préférerait vendre le
 Le premier élément d’offre que vous créez est l’offre de secours, que tout le monde peut consulter pendant une période illimitée.
 
 1. Si nécessaire, développez **Prise de décision** dans le rail de gauche, puis cliquez sur **Catalogues**
-2. Une page d’offres vide s’affiche :
+1. Une page d’offres vide s’affiche :
 
    ![Vider la page du catalogue d’offres avant de créer des éléments d’offre](assets/create-offer-items-empty-offers-page.png)
 
-3. Cliquez sur le bouton bleu **Créer un élément**. La page Créer un élément d’offre s’ouvre.
-4. Dans le champ &#39;Nom de l&#39;offre&#39;, saisissez le texte **iphone:17\:generic**. Saisissez une description si vous le souhaitez.
+1. Cliquez sur le bouton bleu **Créer un élément**. La page Créer un élément d’offre s’ouvre.
+1. Dans le champ &#39;Nom de l&#39;offre&#39;, saisissez le texte **iphone:17\:generic**. Saisissez une description si vous le souhaitez.
 
    >[!NOTE]
    >
    >La convention d’affectation des noms, entièrement en minuscules et séparée par des deux-points, n’est qu’une de nos propres conceptions qui pourrait servir de modèle à suivre pour un client réel. Dans la pratique, vous pouvez développer une stratégie de dénomination différente pour vos éléments d’offre. Assurez-vous qu’elle est documentée et cohérente avant de créer des articles d’offre. Cela permet de s’assurer que les éléments de l’offre sont faciles à trouver et à regrouper dans des collections. J&#39;en reparlerai plus tard.
 
-5. Puisqu’il s’agit de l’élément d’offre par défaut/de priorité la plus faible, laissez la priorité par défaut à 1.
+1. Puisqu’il s’agit de l’élément d’offre par défaut/de priorité la plus faible, laissez la priorité par défaut à 1.
 
    >[!NOTE]
    >
    >Dans Decisioning, plus le nombre est faible, plus la priorité est faible. Par exemple, un élément d’offre avec une priorité de 100 s’affiche avant un élément d’offre avec une priorité de 1
 
-6. Développez l’élément **Appareil** dans la zone « Attributs personnalisés », puis saisissez les informations suivantes dans les zones de texte :
+1. Développez l’élément **Appareil** dans la zone « Attributs personnalisés », puis saisissez les informations suivantes dans les zones de texte :
+
    - Niveau : **Générique**
    - Modèle : **17**
    - Marque : **&#x200B;**
@@ -67,20 +71,20 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
    >
    >La section précédente a mentionné la nécessité de faire très attention lors de l’ajout d’attributs personnalisés au schéma « Éléments d’offre personnalisés - Experience Decisioning » généré par le système. Chaque nœud personnalisé supplémentaire s’affichera désormais comme un champ possible pour chaque élément d’offre. La création d’attributs inutiles ou spécifiques à une campagne encombre l’interface utilisateur de création d’élément d’offre et peut prêter à confusion.
 
-7. Cliquez sur le bouton bleu **Suivant** dans le coin supérieur droit pour passer à l’étape suivante.
-8. Cette offre doit être disponible pour tout le monde/tous les visiteurs et visiteuses et ne doit pas comporter de capping de la fréquence. Il n’est donc pas nécessaire d’apporter des modifications aux sections « Éligibilité » ou « Capping ». Cliquez de nouveau sur le bouton bleu **Suivant** pour passer à la dernière étape.
-9. À l’étape « Vérifier », vérifiez que toutes les données sont correctes :
+1. Cliquez sur le bouton bleu **Suivant** dans le coin supérieur droit pour passer à l’étape suivante.
+1. Cette offre doit être disponible pour tout le monde/tous les visiteurs et visiteuses et ne doit pas comporter de capping de la fréquence. Il n’est donc pas nécessaire d’apporter des modifications aux sections « Éligibilité » ou « Capping ». Cliquez de nouveau sur le bouton bleu **Suivant** pour passer à la dernière étape.
+1. À l’étape « Vérifier », vérifiez que toutes les données sont correctes :
 
    ![Étape de vérification confirmant les détails de l’élément d’offre générique avant d’enregistrer](assets/create-offer-items-generic-offer-review-step.png "Étape de vérification confirmant les détails de l’élément d’offre générique avant d’enregistrer")
 
-10. Apportez les modifications nécessaires. Une fois prêt, cliquez sur le bouton bleu **Enregistrer**.
-11. Une fois enregistré, un bouton blanc « Approuver » apparaît à l’endroit où se trouvait auparavant le bouton « Enregistrer ». Cliquez sur le bouton blanc **Approuver** pour approuver cet élément d&#39;offre. Un indicateur « Approuvé » vert s’affiche sous le titre de l’objet de l’offre :
+1. Apportez les modifications nécessaires. Une fois prêt, cliquez sur le bouton bleu **Enregistrer**.
+1. Une fois enregistré, un bouton blanc « Approuver » apparaît à l’endroit où se trouvait auparavant le bouton « Enregistrer ». Cliquez sur le bouton blanc **Approuver** pour approuver cet élément d&#39;offre. Un indicateur « Approuvé » vert s’affiche sous le titre de l’objet de l’offre :
 
-![Indicateur approuvé vert sur l’élément d’offre générique](assets/create-offer-items-generic-offer-approved.png)
+   ![Indicateur approuvé vert sur l’élément d’offre générique](assets/create-offer-items-generic-offer-approved.png)
 
->[!NOTE]
->
->Dans la pratique, et pour les offres plus complexes, un processus de validation approprié doit être en place pour s’assurer que les éléments de l’offre ont été créés correctement. Pour gagner du temps dans cet atelier, il vous suffit d’approuver chaque élément d’offre que vous créez.
+   >[!NOTE]
+   >
+   >Dans la pratique, et pour les offres plus complexes, un processus de validation approprié doit être en place pour s’assurer que les éléments de l’offre ont été créés correctement. Pour gagner du temps dans cet atelier, il vous suffit d’approuver chaque élément d’offre que vous créez.
 
 1. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
 
