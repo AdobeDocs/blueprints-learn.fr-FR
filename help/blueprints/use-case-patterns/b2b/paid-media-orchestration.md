@@ -51,7 +51,7 @@ Le parcours de contrôleur **lit** une audience de compte qualifié (créée dan
 
 La solution axée sur les comptes nécessite les applications et services suivants :
 
-- **** — parcours de compte, logique de chemin de partage (cascade), activer vers la destination.
+- **&#x200B;**&#x200B;— parcours de compte, logique de chemin de partage (cascade), activer vers la destination.
 - B2B edition Adobe Real-time Customer Data Platform (RTCDP)**— Profils de compte, audiences de compte (par exemple, comptes qualifiés pour les médias achetés).**
 
 ## Architecture
@@ -64,7 +64,7 @@ Flux de haut niveau :
 
 ## Modélisation des données dans B2B AEP
 
-Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez la documentation sur les [schémas B2B de ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
+Dans toute orchestration pilotée par les données, la conception de schémas est importante. Les profils de compte et de personne dans AEP/RTCDP doivent inclure les attributs utilisés dans les **conditions de chemin partagé** (par exemple, indicateur de poursuite, intérêt de la solution, persona, catégorie d’intention, score d’engagement). Les schémas B2B (compte professionnel XDM, profil individuel XDM, relationnel) doivent représenter votre hiérarchie et vos sources de données. Pour plus d’informations, consultez la documentation sur les [schémas B2B de &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) et [Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Remarque :** la logique de chemin partagé dans le parcours utilise les données de profil et, lorsqu’elles sont prises en charge, les données relationnelles. Assurez-vous que les champs dont vous avez besoin pour la logique de cascade sont disponibles dans le parcours.
 
@@ -120,5 +120,5 @@ Le plan directeur **Paid Media Controller** montre comment **AJO B2B et AEP** fo
 
 ## Documentation connexe
 
-- [](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentation du produit.
+- [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentation du produit.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Audiences de compte et activation.

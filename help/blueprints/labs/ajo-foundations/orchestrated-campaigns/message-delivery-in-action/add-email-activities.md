@@ -55,7 +55,7 @@ Dans les étapes suivantes, vous allez développer la campagne pour ajouter deux
 
 6. Il existe de nombreuses options pour ce test. Pour ce faire, choisissez **Coder le vôtre** l’option HTML .
 
-   ![Choisissez l’option Coder votre propre contenu HTML ](assets/add-email-activities-code-your-own-html.png)
+   ![Choisissez l’option Coder votre propre contenu HTML &#x200B;](assets/add-email-activities-code-your-own-html.png)
 
 7. Dans le Designer d’e-mail **, insérez une ligne de test « Offre de mise à niveau disponible ! »** juste avant les balises `</body></html>` comme illustré et cliquez sur **Enregistrer**
 

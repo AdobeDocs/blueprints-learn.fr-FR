@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Activation des audiences et des profils B2B
 
-Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les données de compte, d’opportunité et de personne dans des profils B2B unifiés, puis activez les audiences de personnes et les audiences de compte sur des destinations telles que LinkedIn, Marketo Engage et le stockage dans le cloud. Ce plan directeur décrit comment concevoir des schémas B2B, créer des audiences à entités multiples et les exporter pour les activer sur plusieurs canaux et destinations, ainsi que pour l’orchestration et l’analyse dans des applications telles que **** et **Customer Journey Analytics B2B edition**.
+Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les données de compte, d’opportunité et de personne dans des profils B2B unifiés, puis activez les audiences de personnes et les audiences de compte sur des destinations telles que LinkedIn, Marketo Engage et le stockage dans le cloud. Ce plan directeur décrit comment concevoir des schémas B2B, créer des audiences à entités multiples et les exporter pour les activer sur plusieurs canaux et destinations, ainsi que pour l’orchestration et l’analyse dans des applications telles que **&#x200B;**&#x200B;et **Customer Journey Analytics B2B edition**.
 
 ## Cas d’utilisation
 
@@ -25,7 +25,7 @@ Utilisez **Real-Time Customer Data Platform B2B edition** pour rassembler les do
 
 - Real-Time Customer Data Platform B2B edition
 - (Facultatif) **Customer Journey Analytics B2B edition**
-- (Facultatif) ****
+- (Facultatif) **&#x200B;**
 
 ## Modèles d’intégration
 

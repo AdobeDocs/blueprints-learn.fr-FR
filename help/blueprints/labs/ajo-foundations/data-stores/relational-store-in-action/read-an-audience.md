@@ -67,7 +67,7 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 4. Cliquez ensuite sur la liste déroulante de **Entité** et sélectionnez le Dimension cible `dep-rel: Customer Account - customer_id` Campaign
 
-![ Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
+![&#x200B; Liste déroulante Entité avec le Dimension cible du compte client sélectionné](assets/read-an-audience-select-entity-target-dimension.png)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Orchestrated Campaign utilise le schéma relationnel pour toutes les activités.
 
 1. De retour dans le volet de détails de l&#39;activité **Partage**, les paramètres du premier Partage sont terminés. Cliquez sur **Ajouter un segment** à la deuxième division
 
-   ![Bouton Ajouter un segment dans le volet Détails de l’activité Partage ](assets/read-an-audience-add-segment-button.png)
+   ![Bouton Ajouter un segment dans le volet Détails de l’activité Partage &#x200B;](assets/read-an-audience-add-segment-button.png)
 
    Un nouveau segment nommé **Result** est créé
 

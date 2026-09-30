@@ -37,7 +37,7 @@ ht-degree: 0%
 1. Activer toutes les alertes **Début/Succès/Échec du flux de données des sources**
 1. Si tout semble correct, cliquez sur le bouton **Suivant** dans le coin supérieur droit de l’écran pour passer à l’étape suivante.
 
-![Écran Détails du flux de données configuré avec le jeu de données existant pour les deuxièmes détails du flux ](assets/create-a-new-dataflow-existing-dataset-flow-details.png " données")
+![Écran Détails du flux de données configuré avec le jeu de données existant pour les deuxièmes détails du flux &#x200B;](assets/create-a-new-dataflow-existing-dataset-flow-details.png " données")
 
 
 
@@ -58,7 +58,7 @@ Sur l’écran de mappage, au lieu de configurer à nouveau tous vos mappages, v
 
 
 
-![Bouton Importer le mappage sur l’écran ](assets/create-a-new-dataflow-import-mapping-button.png " mappage")
+![Bouton Importer le mappage sur l’écran &#x200B;](assets/create-a-new-dataflow-import-mapping-button.png " mappage")
 
 
 
