@@ -84,7 +84,7 @@ Il comprend également un serveur de messagerie en temps réel évolutif qui per
 
 ## Diagrammes d’architecture
 
-En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+En savoir plus sur les [modèles de déploiement de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr#ac-deployment){target="_blank"}.
 
 ### Déploiement Campaign Grands comptes (FFDA)
 
