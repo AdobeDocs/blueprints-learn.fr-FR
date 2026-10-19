@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
 
    - Niveau : **Générique**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Il s’agit des valeurs de texte réelles qui décrivent l’offre et ce qui peut être utilisé dans le tri, le classement et les critères d’éligibilité. Il s’agit également des valeurs de texte qui peuvent être renvoyées à l’appareil demandeur.
 
@@ -86,7 +86,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
    >
    >Dans la pratique, et pour les offres plus complexes, un processus de validation approprié doit être en place pour s’assurer que les éléments de l’offre ont été créés correctement. Pour gagner du temps dans cet atelier, il vous suffit d’approuver chaque élément d’offre que vous créez.
 
-1. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
+12. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
 
 ## Créer un article d’offre de modèle de base
 
@@ -97,7 +97,7 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
 3. Développez la zone **Appareil** et donnez aux champs les valeurs suivantes :
    - Niveau : **de base**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Lorsque vous avez terminé, l’élément d’offre ressemble à ceci (la boîte rouge est ajoutée pour s’assurer que la priorité est correcte) :
 
