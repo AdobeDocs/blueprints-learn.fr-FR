@@ -60,8 +60,8 @@ ht-degree: 1%
 
 Accédez à Postman -> Créer une Edge d’événement web (aucune authentification) -> En-têtes .
 
-1. Ajoutez le **x-adobe-aep-validation-token** aux en-têtes avec le lien copié ci-dessus à partir d’Assurance. Saisissez **uniquement la valeur ID** après l’opérateur = dans le lien que vous avez copié à partir d’Assurance. par ex. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
-1. Nous utiliserions simplement la valeur [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0), et non l’URL complète
+1. Ajoutez le **x-adobe-aep-validation-token** aux en-têtes avec le lien copié ci-dessus à partir d’Assurance. Saisissez **uniquement la valeur ID** après l’opérateur = dans le lien que vous avez copié à partir d’Assurance. par ex. [https://www.adobe.com/fr/?adb\_validation\_sessionid=](https://www.adobe.com/fr/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/fr/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Nous utiliserions simplement la valeur [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/fr/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0), et non l’URL complète
 
    ![Ajoutez l’en-tête x-adobe-aep-validation-token avec l’ID de session Assurance dans Postman](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
