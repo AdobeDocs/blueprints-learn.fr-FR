@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## Nommer et définir les critères d’entrée
 
 1. Si nécessaire, développez l’élément de menu **Gestion des Parcours** dans le rail de gauche, puis cliquez sur **Parcours**. Vous atterrissez sur la page « Parcours ».
-2. Cliquez sur le bouton bleu **Créer un Parcours**.
-3. Lorsque le recouvrement « Créer un Parcours » apparaît, sélectionnez **Créer en partant de zéro** et cliquez sur **Confirmer**
-4. Dans le rail de droite, nommez le Parcours **Parcourir les abandons d’iPhone 17** et cliquez sur le bouton bleu **Enregistrer** pour commencer à ajouter des actions à la zone de travail du Parcours.
-5. Faites glisser l’événement **Qualification de l’audience** sur la zone de travail.
-6. Dans le rail de droite, cliquez sur l’icône **Crayon** pour sélectionner l’audience de cet événement.
-7. Sélectionnez l’audience **dep : intéressé par iPhone 17**.
-8. Assurez-vous que la liste déroulante **Espace de noms** est définie sur **customerID.** À ce stade, votre Parcours ressemble à ceci :
+1. Cliquez sur le bouton bleu **Créer un Parcours**.
+1. Lorsque le recouvrement « Créer un Parcours » apparaît, sélectionnez **Créer en partant de zéro** et cliquez sur **Confirmer**
+1. Dans le rail de droite, nommez le Parcours **Parcourir les abandons d’iPhone 17** et cliquez sur le bouton bleu **Enregistrer** pour commencer à ajouter des actions à la zone de travail du Parcours.
+1. Faites glisser l’événement **Qualification de l’audience** sur la zone de travail.
+1. Dans le rail de droite, cliquez sur l’icône **Crayon** pour sélectionner l’audience de cet événement.
+1. Sélectionnez l’audience **dep : intéressé par iPhone 17**.
+1. Assurez-vous que la liste déroulante **Espace de noms** est définie sur **customerID.** À ce stade, votre Parcours ressemble à ceci :
 
    Zone de travail de Parcours ![avec l’événement de qualification d’audience ajouté et l’espace de noms défini sur customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. Une fois que tout le monde a l’air correct, cliquez sur le bouton bleu **Enregistrer** pour enregistrer votre progression.
+1. Une fois que tout le monde a l’air correct, cliquez sur le bouton bleu **Enregistrer** pour enregistrer votre progression.
 
 >[!NOTE]
 >

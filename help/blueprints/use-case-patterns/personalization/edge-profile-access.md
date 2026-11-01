@@ -56,7 +56,7 @@ Ce plan directeur nécessite l’utilisation de l’une des méthodes de collect
 ## Garde-fous
 
 * [Mécanismes de sécurisation pour les données [!UICONTROL profil client en temps réel]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr)
-* [Mécanismes de sécurisation d’Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Mécanismes de sécurisation d’Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=fr)
 * Les profils Edge ont une durée de vie (TTL) de 14 jours. Si un utilisateur n’est pas actif sur Edge depuis 14 jours, le profil Edge peut expirer et doit être récupéré depuis le hub, ce qui peut avoir un impact sur la personnalisation de première page.
 * La personnalisation Edge prend en charge l’évaluation de l’appartenance à une audience en temps réel pour les audiences qui répondent aux critères de segmentation Edge. Les audiences par lots et en flux continu à partir du hub sont également disponibles en périphérie avec la configuration appropriée.
 
