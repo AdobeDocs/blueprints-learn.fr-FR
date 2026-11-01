@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
+source-git-commit: 08b695f42c2652edba7d3119734b7e8a7b3235e2
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
 
    - Niveau : **Générique**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Il s’agit des valeurs de texte réelles qui décrivent l’offre et ce qui peut être utilisé dans le tri, le classement et les critères d’éligibilité. Il s’agit également des valeurs de texte qui peuvent être renvoyées à l’appareil demandeur.
 
@@ -86,18 +86,18 @@ Le premier élément d’offre que vous créez est l’offre de secours, que tou
    >
    >Dans la pratique, et pour les offres plus complexes, un processus de validation approprié doit être en place pour s’assurer que les éléments de l’offre ont été créés correctement. Pour gagner du temps dans cet atelier, il vous suffit d’approuver chaque élément d’offre que vous créez.
 
-&#x200B;12. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
+1. Cliquez sur la **flèche de gauche** en regard du titre de l’élément d’offre pour revenir à la page « Offres », et votre offre iphone:17\:générique est répertoriée.
 
 ## Créer un article d’offre de modèle de base
 
 Maintenant que l’élément d’offre générique a été créé, vous pouvez créer l’élément d’offre prioritaire suivant pour le modèle de base d’iPhone 17.
 
 1. Cliquez de nouveau sur le bouton bleu **Créer un élément** et nommez l’offre **iphone:17\:base**
-2. Puisqu’il s’agit de l’élément d’offre de priorité la plus faible suivant, augmentez le champ **Priorité** sur **2**
-3. Développez la zone **Appareil** et donnez aux champs les valeurs suivantes :
+1. Puisqu’il s’agit de l’élément d’offre de priorité la plus faible suivant, augmentez le champ **Priorité** sur **2**
+1. Développez la zone **Appareil** et donnez aux champs les valeurs suivantes :
    - Niveau : **de base**
    - Modèle : **17**
-   - Marque : **&#x200B;**
+   - Marque : ****
 
    Lorsque vous avez terminé, l’élément d’offre ressemble à ceci (la boîte rouge est ajoutée pour s’assurer que la priorité est correcte) :
 
@@ -105,9 +105,9 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
 
    Lorsque tout est correct, cliquez sur le bouton bleu **Suivant** pour passer à l’étape suivante.
 
-4. Cet élément d’offre doit être disponible pour tous. Il n’y a donc pas d’exigence d’éligibilité, mais il doit être limité à 3 impressions par jour. Cliquez sur le bouton « **+ Créer une limitation »**.
-5. Dans la nouvelle règle de limitation, remplacez **Choisir l’événement de limitation** par **Impression.**
-6. Remplacez **Nombre d’événements de limitation** par **3**. Une fois l’opération terminée, votre règle de limitation ressemble à ceci :
+1. Cet élément d’offre doit être disponible pour tous. Il n’y a donc pas d’exigence d’éligibilité, mais il doit être limité à 3 impressions par jour. Cliquez sur le bouton « **+ Créer une limitation »**.
+1. Dans la nouvelle règle de limitation, remplacez **Choisir l’événement de limitation** par **Impression.**
+1. Remplacez **Nombre d’événements de limitation** par **3**. Une fois l’opération terminée, votre règle de limitation ressemble à ceci :
 
    ![Règle de limitation de l’offre de base définie sur 3 impressions](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -123,9 +123,9 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
    >
    >Les « jours » mentionnés dans les règles de capping de la fréquence se rapportent aux jours du fuseau horaire GMT.  Capping de la fréquence avec les jours dans la logique réinitialisée à minuit, GMT.
 
-7. Cliquez sur **Suivant** pour passer à l’étape de révision.
-8. Vérifiez que tout apparaît comme prévu et cliquez sur le bouton **Enregistrer**. Une fois enregistré, cliquez sur **Approuver.**
-9. Une fois la validation effectuée, cliquez sur la flèche de gauche en regard du titre et revenez à la page des offres. Vous voyez désormais deux offres, chacune ayant la priorité appropriée.
+1. Cliquez sur **Suivant** pour passer à l’étape de révision.
+1. Vérifiez que tout apparaît comme prévu et cliquez sur le bouton **Enregistrer**. Une fois enregistré, cliquez sur **Approuver.**
+1. Une fois la validation effectuée, cliquez sur la flèche de gauche en regard du titre et revenez à la page des offres. Vous voyez désormais deux offres, chacune ayant la priorité appropriée.
 
 ![Page Offres répertoriant les éléments d’offre génériques et de base avec leurs priorités](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -134,23 +134,23 @@ Maintenant que l’élément d’offre générique a été créé, vous pouvez c
 Maintenant que les offres de modèle générique et de base ont été créées, vous pouvez passer aux éléments d’offre pour les modèles pro et ultra. Ces éléments d’offre doivent également inclure un élément d’éligibilité, car seuls les membres disposant d’un certain niveau de plan doivent voir ces offres.
 
 1. En suivant les mêmes étapes et modèles de dénomination que ceux décrits dans les sections ci-dessus, créez une offre appelée **iphone:17\:pro** et définissez sa priorité sur **3.**
-2. Définissez l’attribut **Niveau** sur **Pro** et les autres attributs personnalisés comme vous l’avez fait dans les autres offres.
-3. A l&#39;étape &#39;Éligibilité&#39;, sélectionnez le bouton radio **Par règle**.
-4. Le rail de gauche n’affiche qu’une seule règle de décision, celle créée précédemment et appelée « Plans de niveau supérieur ». Cliquez sur l’icône **+** en regard de cette règle pour l’ajouter à la zone de travail.
-5. Comme mentionné précédemment, l’entreprise a déclaré que les offres autres que de secours doivent avoir une limite de fréquence de 3 affichages (ou impressions) par jour. Suivez les étapes de la section précédente pour créer une règle de limitation pour 3 impressions par jour. Lorsque vous avez terminé, votre page ressemble à ceci :
+1. Définissez l’attribut **Niveau** sur **Pro** et les autres attributs personnalisés comme vous l’avez fait dans les autres offres.
+1. A l&#39;étape &#39;Éligibilité&#39;, sélectionnez le bouton radio **Par règle**.
+1. Le rail de gauche n’affiche qu’une seule règle de décision, celle créée précédemment et appelée « Plans de niveau supérieur ». Cliquez sur l’icône **+** en regard de cette règle pour l’ajouter à la zone de travail.
+1. Comme mentionné précédemment, l’entreprise a déclaré que les offres autres que de secours doivent avoir une limite de fréquence de 3 affichages (ou impressions) par jour. Suivez les étapes de la section précédente pour créer une règle de limitation pour 3 impressions par jour. Lorsque vous avez terminé, votre page ressemble à ceci :
 
    ![Pro offre la configuration de l&#39;éligibilité et de la limitation des articles pour 3 impressions par jour](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Une fois que vous avez vérifié que tout est correct, cliquez sur **Suivant**. La configuration de l’élément d’offre final ressemble à ceci :
+1. Une fois que vous avez vérifié que tout est correct, cliquez sur **Suivant**. La configuration de l’élément d’offre final ressemble à ceci :
 
    ![Configuration terminée pour l’élément d’offre de niveau Pro](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Une fois que tout semble correct, **Enregistrer** et **Approuver** l’élément d’offre.
-8. Revenez à la page des offres et vérifiez que les 3 offres y sont et qu’elles ont chacune la priorité appropriée.
-9. Créez l’élément d’offre final et nommez-le **iphone:17\:ultra** attribuez-lui une priorité de **4,** et définissez les autres attributs personnalisés avec les mêmes valeurs que les autres offres.
-10. Comme pour le dernier élément d’offre, définissez l’éligibilité à la règle de décision « Plans de niveau supérieur » et définissez un capping de la fréquence de 3 impressions par jour. Lorsque vous avez terminé, l’élément de votre offre ressemble à ceci :
+1. Une fois que tout semble correct, **Enregistrer** et **Approuver** l’élément d’offre.
+1. Revenez à la page des offres et vérifiez que les 3 offres y sont et qu’elles ont chacune la priorité appropriée.
+1. Créez l’élément d’offre final et nommez-le **iphone:17\:ultra** attribuez-lui une priorité de **4,** et définissez les autres attributs personnalisés avec les mêmes valeurs que les autres offres.
+1. Comme pour le dernier élément d’offre, définissez l’éligibilité à la règle de décision « Plans de niveau supérieur » et définissez un capping de la fréquence de 3 impressions par jour. Lorsque vous avez terminé, l’élément de votre offre ressemble à ceci :
 
-![Configuration terminée pour l&#39;élément d&#39;offre de niveau Ultra](assets/create-offer-items-ultra-offer-final-config.png)
+   ![Configuration terminée pour l&#39;élément d&#39;offre de niveau Ultra](assets/create-offer-items-ultra-offer-final-config.png)
 
 1. Une fois que vous avez vérifié que tous les paramètres sont corrects, enregistrez et approuvez cet élément d&#39;offre. Vous voyez désormais les quatre éléments de l’offre, chacun ayant une priorité unique.
 
