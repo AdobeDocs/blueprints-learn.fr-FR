@@ -16,7 +16,7 @@ ht-degree: 0%
 SOURCE : https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 Exploré : 2026-03-15
 
----
+&#x200B;---
 
 ## &#x200B;1. MÉTADONNÉES/DONNÉES DE FAÇADE
 
@@ -55,7 +55,7 @@ Exploré : 2026-03-15
 ### Champs obsolètes
 seo-title, seo-description, audience, difficulté, uuid (de l’ère de la migration)
 
----
+&#x200B;---
 
 ## &#x200B;2. SYNTAXE DE MARKDOWN (AVEC ADOBE)
 
@@ -121,10 +121,13 @@ seo-title, seo-description, audience, difficulté, uuid (de l’ère de la migra
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - Options : `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -141,7 +144,7 @@ seo-title, seo-description, audience, difficulté, uuid (de l’ère de la migra
 - Option de disposition de tableau Markdown : ajouter des `{style="table-layout:auto"}` après le tableau avec des lignes vides
 - Évitez les tableaux très grands/très larges en raison de problèmes de visibilité de la barre de défilement horizontale
 
----
+&#x200B;---
 
 ## &#x200B;3. EXTENSIONS DE SYNTAXE ADOBE SPÉCIALES
 
@@ -175,6 +178,7 @@ seo-title, seo-description, audience, difficulté, uuid (de l’ère de la migra
 >[!ERROR]
 >[!SUCCESS]
 ```
+
 - CRITIQUE : aucun espace entre `>` et `[!` — utiliser `>[!NOTE]` NON `> [!NOTE]`
 - Ajouter une ligne vide entre `>[!NOTE]` et la ligne de texte du corps
 
@@ -199,6 +203,7 @@ Content here
 Content inside
 +++
 ```
+
 Remarque : les sections réductibles imbriquées ne sont PAS prises en charge.
 
 ### Cases d&#39;ombrage
@@ -214,6 +219,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 Ajoutez des `{transcript=true}` pour les transcriptions.
 
 ### Plus Comme Ceci :
@@ -239,6 +245,7 @@ Ajoutez des `{transcript=true}` pour les transcriptions.
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (gris), `Caution` (jaune)
 
 ### Mise en surbrillance du texte (aperçu)
@@ -272,7 +279,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - Règles horizontales
 - Sections réductibles imbriquées
 
----
+&#x200B;---
 
 ## &#x200B;4. DÉNOMINATION DES FICHIERS ET STRUCTURE DES DOSSIERS
 
@@ -302,7 +309,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - Métadonnées de la table des matières : `user-guide-description`, éventuellement `breadcrumb-title`
 - `mini-toc-levels` : contrôle l’affichage de l’en-tête de navigation à droite (1-6, valeur par défaut 2)
 
----
+&#x200B;---
 
 ## &#x200B;5. QUALITÉ DU CONTENU ET NORMES ÉDITORIALES
 
@@ -348,7 +355,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - Casse du titre UNIQUEMENT pour `title` champ de métadonnées
 - Les noms propres sont toujours en majuscules
 
----
+&#x200B;---
 
 ## &#x200B;6. BONNES PRATIQUES D’OPTIMISATION POUR LES MOTEURS DE RECHERCHE
 
@@ -365,7 +372,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - Utilisez des outils tels que AnswerThePublic, Google Trends pour rechercher des mots-clés
 - Le contenu doit démontrer l’E-A-T (expérience, expertise, autorité, fiabilité)
 
----
+&#x200B;---
 
 ## &#x200B;7. LOCALISATION
 
@@ -385,7 +392,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - `[!DNL ProductName]` — empêche la traduction des noms de produits ou de marques
 - Les images d’un dossier « do-not-localize » sont exclues de la localisation
 
----
+&#x200B;---
 
 ## &#x200B;8. TYPES DE CONTENU
 
@@ -396,7 +403,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - **Articles de la base de connaissances** : contenu de dépannage court et temporairement pertinent
 - **Page de destination/page d’accueil** : gérée séparément (SCCM)
 
----
+&#x200B;---
 
 ## &#x200B;9. ERREURS DE VALIDATION COURANTES À ÉVITER
 
