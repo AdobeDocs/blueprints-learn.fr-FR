@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '3507'
 ht-degree: 8%
 ---
+
 # Audit de plan directeur et recommandations
 
 La présente vérification applique la [grille d&#39;évaluation](rubric.md) à tous les documents
@@ -59,7 +63,7 @@ Lorsque les relocalisations et les nouveaux schémas ont tous atterri :
 
 - [TOC.md](../help/blueprints/TOC.md) `Use Case Patterns` section gagnera un `B2B Activation & Marketing{#b2b-patterns}`
 (emplacement à déterminer avec le rédacteur).
-- [&#128279;](../help/blueprints/use-case-patterns/overview.md) recevra une table de catégorie B2B.
+- [](../help/blueprints/use-case-patterns/overview.md) recevra une table de catégorie B2B.
 - Les modèles déplacés seront supprimés de `audience-building-activation`,
   `campaign-management-orchestration` et `analysis` tableaux de présentation ; leurs anciennes URL sont conservées
   actif via les redirections dans [migration-redirections.csv](migration-redirects.csv).

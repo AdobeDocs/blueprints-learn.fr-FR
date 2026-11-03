@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
 ---
+
 # Statut de migration « € » Plans directeurs pour les modèles de cas d’utilisation
 
 Ce document capture l’état de l’effort de réorganisation du plan directeur afin qu’il puisse être repris proprement entre les sessions.
@@ -112,10 +116,10 @@ sont uniquement historiques et ne doivent pas bloquer le travail de migration re
 
 ## Questions ouvertes non résolues (issues de l’audit)
 
-&#x200B;2. **`journey-optimizer-journeys.md`** « â€ » marqué comme un duplicata incertain de `event-triggered-messaging` ; vérifiez la portée avant de procéder au rognage.
-&#x200B;3. **`customer-journey-analytics/analysis.md`** contenu de « €€ » concerne Experience Platform Query Service, et non CJA ; envisagez d’effectuer une relocalisation vers `experience-platform/`.
-&#x200B;4. **`customer-success-stories.md`** page de liens « € » uniquement ; confirmez la classification de navigation.
-&#x200B;5. Question d’ancrage de la table des matières historique remplacée par la disposition d’architecture B2B terminée.
+2. **`journey-optimizer-journeys.md`** « â€ » marqué comme un duplicata incertain de `event-triggered-messaging` ; vérifiez la portée avant de procéder au rognage.
+3. **`customer-journey-analytics/analysis.md`** contenu de « €€ » concerne Experience Platform Query Service, et non CJA ; envisagez d’effectuer une relocalisation vers `experience-platform/`.
+4. **`customer-success-stories.md`** page de liens « € » uniquement ; confirmez la classification de navigation.
+5. Question d’ancrage de la table des matières historique remplacée par la disposition d’architecture B2B terminée.
 
 ## Reprise
 
