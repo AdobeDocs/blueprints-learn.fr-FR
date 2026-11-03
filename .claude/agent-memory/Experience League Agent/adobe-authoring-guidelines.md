@@ -2,13 +2,14 @@
 name: Adobe Experience League Authoring Guidelines
 description: Référence complète pour les règles de création Markdown d’Adobe Experience League, explorée du guide de création officiel en mars 2026.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Instructions de création d’Adobe Experience League
 
@@ -178,7 +179,7 @@ seo-title, seo-description, audience, difficulté, uuid (de l’ère de la migra
 >[!SUCCESS]
 ```
 
-- CRITIQUE : aucun espace entre `>` et `[ !` — utiliser `>[!NOTE]` NON `> [!NOTE]`
+- CRITIQUE : aucun espace entre `>` et `[!` — utiliser `>[!NOTE]` NON `> [!NOTE]`
 - Ajouter une ligne vide entre `>[!NOTE]` et la ligne de texte du corps
 
 ### Onglets
@@ -362,7 +363,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 - Hiérarchie d’en-tête séquentielle (h1 → h2 → h3, ne jamais ignorer les niveaux)
 - Inclure les mots-clés dans H1, le corps de texte et les métadonnées (pas la balise meta `keywords` — Google l’ignore)
 - Éviter le bourrage de mots-clés (intention > fréquence)
-- Titre : 50 à 60 caractères max. ; le système ajoute « | » Adobe ProductName » automatiquement
+- Titre : 50 à 60 caractères max. ; le système ajoute automatiquement « | Adobe ProductName »
 - Description : 150 à 160 caractères ; doit être un call to action, et non une répétition du contenu
 - Ajouter un texte de remplacement descriptif à toutes les images
 - Inclure les transcriptions vidéo (les moteurs de recherche ne peuvent lire que le texte)
@@ -408,7 +409,7 @@ Types : `Informative` (bleu), `Positive` (vert), `Negative` (rouge), `Neutral` (
 
 - Métadonnées `title` ou `description` manquantes ou vides
 - `description` ne commençant pas par « En savoir plus sur... » ou « Découvrez comment... »
-- Espace entre `>` et `[ !` dans la syntaxe de la légende (`> [!NOTE]` au lieu de `>[!NOTE]`)
+- Espace entre `>` et `[!` dans la syntaxe de la légende (`> [!NOTE]` au lieu de `>[!NOTE]`)
 - Espaces en gras : `**text **` (espaces de fin en gras)
 - Syntaxe Markdown dans les tableaux HTML (par exemple, les légendes ne fonctionnent pas à cet endroit)
 - Dupliquer les ID d’ancre d’en-tête dans un document

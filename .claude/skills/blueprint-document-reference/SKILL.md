@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: Référence pour la création et la modification de documents de plan directeur d’expérience digitale Adobe. À utiliser lors de la création de plans directeurs, de l’ajout de pages de plan directeur ou lorsque l’utilisateur pose des questions sur la structure, les sections, les modèles de plan directeur ou le référencement d’Adobe Experience League.
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # Référence du document de plan directeur
 
