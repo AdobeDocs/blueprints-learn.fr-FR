@@ -7,9 +7,9 @@ exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c86067364972ee7f0f50fed308f19e797efd087a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 0%
 ---
 
@@ -32,11 +32,11 @@ Dans l’ensemble d’étapes suivant, vous créez le shell d’une campagne orc
 2. Dans le rail de navigation de gauche, sélectionnez **Campagnes**
 3. Cliquez ensuite sur le bouton **Créer une campagne** en haut à droite
 
-   ![&#x200B; Bouton Créer une campagne dans la navigation Campagnes &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![Bouton Créer une campagne dans la navigation Campagnes](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
+4. Dans la boîte de dialogue modale qui s’affiche, sélectionnez **Orchestration Marketing et transactionnelle**, puis cliquez sur **Confirmer**
 
 ![Sélectionnez Orchestration - Marketing, puis cliquez sur Confirmer](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
