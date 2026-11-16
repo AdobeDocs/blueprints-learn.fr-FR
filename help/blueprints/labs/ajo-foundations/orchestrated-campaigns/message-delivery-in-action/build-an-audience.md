@@ -4,13 +4,11 @@ description: Découvrez comment utiliser l’activité Créer une audience pour 
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # Créer une audience
 
@@ -20,11 +18,11 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 ## Créer une audience
 
-1. Une fois la campagne générée, cliquez sur le **+** dans la zone de travail pour ouvrir le menu d’options, puis sélectionnez **Créer une audience** dans les **Activités de ciblage**
+1. Une fois la campagne générée, cliquez sur **+** dans la zone de travail pour ouvrir le menu d’options, puis sélectionnez **Créer une audience** dans les **Activités de ciblage**
 
-   ![Sélectionnez Créer une audience dans les activités de ciblage](assets/build-an-audience-select-build-audience-activity.png)
+   ![Sélectionner Créer une audience dans les activités de ciblage](assets/build-an-audience-select-build-audience-activity.png)
 
-2. L’activité **Créer une audience** ouvre le volet de détails à droite. Cliquez ensuite sur l’icône Rechercher pour sélectionner la **dimension de ciblage**.
+2. L’activité **Créer une audience** ouvre le volet de détails à droite. Cliquez sur l’icône Rechercher pour sélectionner la **dimension de ciblage**.
 
    ![Sélectionner la dimension de ciblage](assets/build-an-audience-select-targeting-dimension.png)
 
@@ -40,11 +38,11 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
    ![Cliquez sur Ajouter une condition dans le volet Créer une audience](assets/build-an-audience-add-condition.png)
 
-6. Faites défiler vers le bas et développez le `dep-rel: Plan Lookup` en cliquant sur le **>** en regard de celui-ci
+6. Faites défiler vers le bas et développez le `dep-rel: Plan [Lookup]` en cliquant sur le **>** en regard de celui-ci
 
    ![Développer dep-rel : planifier la recherche](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Sélectionnez `dep-rel: Plan Name` et cliquez sur **Confirmer**
+7. Sélectionnez `Plan Name` et cliquez sur **Confirmer**
 
    ![Sélectionner dep-rel : nom du plan](assets/build-an-audience-select-plan-name.png)
 
@@ -60,7 +58,7 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 9. Une fois la condition personnalisée configurée, cliquez sur l’icône Actualiser pour calculer et afficher le nombre. Il existe deux emplacements pour faciliter le calcul des résultats
 
-   ![Cliquez sur icône Actualiser pour calculer le nombre de lignes attendu](assets/build-an-audience-refresh-row-counts.png)
+   ![Cliquez sur l’icône Actualiser pour calculer le nombre de lignes attendu](assets/build-an-audience-refresh-row-counts.png)
 
    >[!NOTE]
    >
@@ -80,4 +78,4 @@ Dans l’ensemble d’étapes suivant, vous allez créer une audience à partir 
 
 Vous avez maintenant vu à quel point il est facile d’utiliser l’activité Créer une audience dans la campagne en choisissant la dimension de ciblage appropriée dans le schéma relationnel. Vous avez ensuite ajouté une condition pour affiner les critères de création de l’audience et utilisé l’option actualiser pour vérifier le nombre de lignes attendu.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si vous êtes intéressé.

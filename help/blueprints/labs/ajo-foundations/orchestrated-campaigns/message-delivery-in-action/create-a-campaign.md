@@ -7,9 +7,9 @@ exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 5ddc029828ce7ecc167555ed900a136690b10677
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 4%
 ---
 
@@ -29,15 +29,15 @@ Dans les étapes suivantes, vous allez commencer par créer une campagne orchest
 
    ![Cliquez sur le bouton Créer une campagne](assets/create-a-campaign-click-create-campaign.png)
 
-3. Sélectionnez **Orchestration - Marketing**, puis cliquez sur **Confirmer**
+3. Sélectionnez **Orchestration Marketing et transactionnel** et cliquez sur **Confirmer**
 
-   ![Sélectionnez Orchestration - Marketing, puis cliquez sur Confirmer](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![Sélectionnez Orchestration Marketing et transaction, puis cliquez sur Confirmer](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. Fournissez les détails de la campagne ci-dessous, puis cliquez sur le bouton **Enregistrer** lorsque vous avez terminé
-   - **Name:** `OC-MDL-Campaign-Test`
+   - **Nom :** `OC-MDL-Campaign-Test`
    - **Description :** `OC Message Delivery Test`
 
-   ![Fournissez les détails de la campagne, puis cliquez sur Enregistrer](assets/create-a-campaign-provide-campaign-details.png)
+   ![Fournissez les détails de la campagne et cliquez sur Enregistrer](assets/create-a-campaign-provide-campaign-details.png)
 
 5. Attendre le message de confirmation avant de continuer
 
