@@ -7,7 +7,7 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 9750fa1d2fe4054d4c9efd76f5f58210a4d99adc
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
    ![Menu de l’icône des applications avec Journey Optimizer sélectionné](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
 2. Cliquez sur **Schémas** dans le menu Gestion des données et assurez-vous que l’onglet **Parcourir** est sélectionné.
-3. Recherchez le schéma appelé `dep-rel: Customer Account`
+3. Recherchez le schéma nommé `dep-rel: Customer Account`
 
    ![Recherche de schéma pour dep-rel : compte client](assets/profile-target-dimension-search-schema.png)
 
-4. Ouvrez le schéma en cliquant sur son nom, puis cliquez sur le champ **customer\_id**
+4. Ouvrez le schéma en cliquant sur son nom, puis cliquez sur le champ **client\_id**
 
    ![Liste des champs de schéma avec customer_id sélectionné](assets/profile-target-dimension-select-customer-id-field.png)
 
@@ -50,8 +50,8 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
    ![Case à cocher Identité avec l’espace de noms customerID sélectionné](assets/profile-target-dimension-choose-identity-namespace.png)
 
-6. Cliquez sur le bouton **Enregistrer** pour enregistrer le schéma. Un message de confirmation s’affiche
-7. Cliquez sur le bouton **Annuler** ou sur le **Schémas** dans le rail de gauche pour quitter l’interface utilisateur du schéma
+6. Cliquez sur le bouton **Enregistrer** pour enregistrer votre schéma. Un message de confirmation s’affiche
+7. Cliquez sur le bouton **Annuler** ou sur les **Schémas** dans le rail de gauche pour quitter l’interface utilisateur du schéma
 
 >[!CAUTION]
 >
@@ -65,11 +65,11 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 1. Cliquez sur **Configurations** sous **Administration**
 
-   ![Menu Administration avec Configurations sélectionné](assets/profile-target-dimension-configurations-menu.png)
+   ![Menu Administration avec configurations sélectionnées](assets/profile-target-dimension-configurations-menu.png)
 
 2. Sélectionnez **Profile Target Dimension** et cliquez sur **Gérer**
 
-   ![Configuration de Profile Target Dimension avec l’option Gérer &#x200B;](assets/profile-target-dimension-manage-configuration.png)
+   ![Configuration de Profile Target Dimension avec l’option Gérer](assets/profile-target-dimension-manage-configuration.png)
 
 3. Le volet Dimension de Profile Target s’ouvre. Cliquez sur **Créer**
 
@@ -81,11 +81,11 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
    >
    >Le schéma peut prendre quelques minutes pour apparaître dans cet écran après le marquage de l’identité. Actualisez la page et répétez les deux étapes précédentes jusqu’à ce que le schéma s’affiche.
 
-   ![Création d’un formulaire Dimension Profile Target avec la liste déroulante de schéma](assets/profile-target-dimension-select-schema-dropdown.png)
+   ![Créer un formulaire Dimension Profile Target avec la liste déroulante de schéma](assets/profile-target-dimension-select-schema-dropdown.png)
 
-5. Pour l’**Valeur d’identité** sélectionnez `/customer_id`
+5. Pour la valeur **Identité**, sélectionnez `/customer_id`
 
-   ![&#x200B; Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
+   ![Liste déroulante Valeur d’identité avec /customer_id sélectionné](assets/profile-target-dimension-select-identity-value.png)
 
    >[!NOTE]
    >
@@ -93,13 +93,13 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 
 
-6. Cliquez sur le bouton **Enregistrer** pour créer le Dimension cible du profil. L’enregistrement s’affiche alors.
+6. Cliquez sur le bouton **Créer** pour créer le Dimension cible du profil. L’enregistrement s’affiche alors.
 
-![Enregistrement Dimension cible de profil enregistré dans la liste](assets/profile-target-dimension-saved-record.png)
+![Enregistrement du Dimension cible du profil enregistré dans la liste](assets/profile-target-dimension-saved-record.png)
 
 >[!NOTE]
 >
->Le nom de l’enregistrement créé est une concaténation du nom du schéma *(dep-rel : Customer Account)* et du champ libellé avec l’identité *(customer\_id)*
+>Le nom de l’enregistrement créé est une concaténation du nom du schéma *(dep-rel : Compte client)* et du champ étiqueté avec l’identité *(customer\_id)*
 
 >[!SUCCESS]
 >
@@ -109,4 +109,4 @@ Le Dimension Profile Target est utilisé pour indiquer à Adobe Journey Optimize
 
 Vous avez maintenant vu à quel point il est facile de naviguer dans le schéma, de marquer un attribut comme une identité et de créer le Dimension cible de profil.
 
-Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si cela vous intéresse.
+Vous pouvez en savoir plus [ici](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si vous êtes intéressé.
