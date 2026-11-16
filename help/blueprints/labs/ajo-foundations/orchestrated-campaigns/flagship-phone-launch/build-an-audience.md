@@ -4,13 +4,11 @@ description: Découvrez comment utiliser l’activité Créer une audience dans 
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Créer une audience
 
@@ -22,7 +20,7 @@ Dans les étapes suivantes, vous allez créer l’audience que vous souhaitez ci
 
 ## Ajouter une activité Créer une audience
 
-1. Sur la zone de travail, cliquez sur le symbole **+** puis sélectionnez l’activité **Créer une audience** pour l’ajouter au workflow
+1. Sur la zone de travail, cliquez sur le symbole **+**, puis sélectionnez l’activité **Créer une audience** pour l’ajouter au workflow
 
    ![Ajoutez l’activité Créer une audience à la zone de travail du workflow](assets/build-an-audience-add-activity.png)
 
@@ -30,20 +28,20 @@ Dans les étapes suivantes, vous allez créer l’audience que vous souhaitez ci
 
 2. Dans le rail de droite, vous voyez les propriétés Créer une audience . Mettez à jour le libellé pour qu’il indique ce qui suit : `Active Lines with Apple`
 
-![Créer un libellé d’audience défini sur Lignes actives avec Apple](assets/build-an-audience-set-label.png)
+![Créer un libellé d&#39;audience défini sur Lignes actives avec Apple](assets/build-an-audience-set-label.png)
 
 
 ## Sélectionner la dimension de ciblage
 
 L’étape suivante consiste à sélectionner la **dimension de ciblage** (c’est-à-dire la table sur laquelle vous souhaitez effectuer une requête). Procédez comme suit :
 
-1. Cliquez sur l’**icône de recherche** dans la zone Dimension de ciblage .
+1. Cliquez sur l’icône **rechercher** dans la zone Dimension de ciblage
 
-   ![Icône Rechercher dans la zone Dimension de ciblage](assets/build-an-audience-search-targeting-dimension.png)
+   ![Icône de recherche dans la zone Dimension de ciblage](assets/build-an-audience-search-targeting-dimension.png)
 
 2. Dans la fenêtre contextuelle, recherchez et sélectionnez la table nommée **dep-rel : Customer Line**, puis cliquez sur le bouton **Confirmer**.
 
-![Sélectionnez la table dep-rel : Customer Line et cliquez sur Confirmer](assets/build-an-audience-select-customer-line-table.png)
+![Sélectionnez le tableau dep-rel : Customer Line et cliquez sur Confirmer](assets/build-an-audience-select-customer-line-table.png)
 
 >[!NOTE]
 >
@@ -65,7 +63,7 @@ Maintenant que vous avez sélectionné votre dimension de ciblage (le schéma re
 
 2. Cliquez ensuite sur le bouton **Ajouter une condition**
 
-![Bouton Ajouter une condition pour la définition de l’audience](assets/build-an-audience-click-add-condition.png)
+![Bouton Ajouter une condition pour la définition de l&#39;audience](assets/build-an-audience-click-add-condition.png)
 
 
 
@@ -81,9 +79,9 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
    ![Condition 1 définie sur Ligne active égale à true](assets/build-an-audience-condition-active-line-true.png)
 
-2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres d’éligibilité de la condition.
+2. Cliquez sur l’icône **Actualiser** pour afficher les chiffres de qualification pour la condition.
 
-![Icône d’actualisation indiquant un nombre éligible de 241 pour la condition 1](assets/build-an-audience-condition-1-refresh-count.png)
+![Icône d&#39;actualisation affichant un nombre éligible de 241 pour la condition 1](assets/build-an-audience-condition-1-refresh-count.png)
 
 >[!TIP]
 >
@@ -95,16 +93,16 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 1. Cliquez sur le bouton **Ajouter une condition** et sélectionnez le schéma **dep-rel:** **Product \[Lookup]** en cliquant sur l’icône **>**
 
-   ![Sélectionnez le schéma dep-rel : Product [Lookup] en cliquant sur l’icône > &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Sélectionnez le schéma dep-rel : [Recherche de produit] en cliquant sur l’icône >](assets/build-an-audience-select-product-lookup-schema.png)
 
 
 2. Recherchez le champ nommé **Marque**, cliquez sur les trois points et sélectionnez **Répartition des valeurs**
 
-   ![Option de répartition des valeurs pour le champ Marque](assets/build-an-audience-make-distribution-of-values.png)
+   ![Option de répartition des valeurs pour le champ Créer](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. Notez les différentes valeurs. Vous voulez seulement `Apple` et heureusement il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **&#x200B;**&#x200B;pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
+3. Notez les différentes valeurs. Vous voulez uniquement `Apple` et heureusement, il n&#39;a pas 100 orthographes différentes. Cliquez sur le champ **Apple** pour le sélectionner, puis cliquez sur le bouton **Sélectionner un attribut et une valeur** en haut à droite.
 
    ![Valeur Apple sélectionnée avec le bouton Sélectionner un attribut et une valeur](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -114,14 +112,14 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 
 
-4. Le champ `Make` est automatiquement ajouté avec les conditions présentées ci-dessous.
-   - **Operator:** `Equal to`
-   - **Value:** `Apple`
-   - **Sensible à la casse :** `Enabled`
+4. Le champ `Make` est automatiquement ajouté avec les conditions affichées ci-dessous.
+   - **Opérateur :** `Equal to`
+   - **Valeur :** `Apple`
+   - **Respect de la casse :** `Enabled`
 
 5. Cliquez sur l’icône **calculer** et le résultat est 85.
 
-![Condition 2 comptage calculé de 85](assets/build-an-audience-condition-2-final-count.png)
+![Le nombre calculé de la condition 2 est de 85](assets/build-an-audience-condition-2-final-count.png)
 
 >[!NOTE]
 >
@@ -131,9 +129,9 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 ## Vérifier les comptages
 
-1. Cliquez sur l’**icône Calculer** qui se trouve dans le rail de droite sous l’en-tête Profils ciblés pour obtenir une estimation exacte de la taille de l’audience. Vous voyez **65** comme le **décompte final**.
+1. Cliquez sur l’**icône Calculer** qui se trouve dans le rail de droite sous l’en-tête Profils ciblés pour obtenir une estimation exacte de la taille de l’audience. Vous voyez **65** comme **nombre final**.
 
-   ![Icône Calculer présentant une taille d’audience finale de 65](assets/build-an-audience-calculate-final-audience-size.png)
+   ![Icône de calcul affichant une taille d’audience finale de 65](assets/build-an-audience-calculate-final-audience-size.png)
 
    >[!NOTE]
    >
@@ -141,30 +139,30 @@ Il est maintenant temps d’écrire la logique de l’audience à l’aide des a
 
 
 
-2. Si le décompte final est de **65** cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
+2. Si le décompte final est de **65**, cliquez sur le bouton **Confirmer** en haut à droite de l’écran, puis cliquez sur le bouton **Enregistrer** en haut à droite pour enregistrer votre travail.
 
 
 
 ## Défi
 
-Supposons un instant que vous ayez saisi dans la dernière condition de sorte que `Make` soit égal à `apple` (en minuscules) et que vous ayez laissé l’option de configuration pour `Case sensitive` basculement de `on`.  Cela rendrait le nombre d’enregistrements des conditions égal à 0.  Donc vous auriez 241 lignes actives et 0 où la marque est la pomme.
+Supposons que vous ayez effectué une saisie dans la dernière condition de sorte que `Make` soit égal à `apple` (en minuscules) et que vous ayez laissé l’option de configuration pour `Case sensitive` basculée vers `on`.  Cela rendrait le nombre d’enregistrements des conditions égal à 0.  Donc vous auriez 241 lignes actives et 0 où la marque est la pomme.
 
 
 
-**Quelle serait la taille finale de l’audience dans ce cas ?**
+**Quelle serait la taille finale de l&#39;audience dans ce cas ?**
 
-![Dernière condition affichant un nombre d’enregistrements de 0 « Dernière condition : 0 »](assets/build-an-audience-challenge-zero-count-condition.png "Dernière condition : 0")
+![Dernière condition affichant un nombre d’enregistrements de 0 « La dernière condition est 0 »](assets/build-an-audience-challenge-zero-count-condition.png "La dernière condition est 0")
 
 ## Réponse
 
 C&#39;est zéro. Savez-vous pourquoi ?
 
-![Explication du décompte final égal à zéro](assets/build-an-audience-answer-zero-count-explanation.png)
+![Explication de la raison pour laquelle le décompte final est nul](assets/build-an-audience-answer-zero-count-explanation.png)
 
 
 
 ## Récapituler
 
-Vous avez créé votre première audience. Vous devriez maintenant voir à quel point il est facile de développer et de valider vos comptes dans l’activité Créer une audience .
+Vous avez créé une audience avec succès et vous devriez maintenant voir à quel point il est facile de développer et de valider vos comptes dans l’activité Créer une audience .
 
 ![Activité Créer une audience terminée après le récapitulatif](assets/build-an-audience-recap-completed-audience.png)
