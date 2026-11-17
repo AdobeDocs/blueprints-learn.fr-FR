@@ -75,7 +75,7 @@ Onglet ![Événements affichant l’événement diffusé en continu sur le profi
 >
 >**Comment lire segmentMembership ?**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups :** Il s’agit de la clé de mappage pour différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
 >
