@@ -7,9 +7,9 @@ exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 4efa9da0ca6b73b4710a15a007712edcaa3ee867
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 0%
 ---
 
@@ -31,7 +31,7 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
 ## Création du message
 
-1. Cliquez sur le bouton **&#x200B;**&#x200B;pour créer votre message.
+1. Cliquez sur le bouton **Personalization** pour créer votre message.
 
    Bouton ![Personalization pour créer le SMS](assets/compose-the-sms-click-personalization-button.png)
 
@@ -49,11 +49,11 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
    >[!NOTE]
    >
-   >Veillez à activer l’option Retour à la ligne Word **activé** dans l’éditeur de messages.  Vous pouvez trouver dans le volet inférieur droit de la fenêtre.
+   >Veillez à activer l&#39;option Retour à la ligne Word **Activé** dans l&#39;éditeur de messages.  Vous pouvez trouver dans le volet inférieur droit de la fenêtre.
 
 
 
-3. Mettez à jour les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous à l’aide de l’option **Attributs de cible** dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran.
+3. Remplacez les deux champs du message appelés **phone\_make** et **phone\_model** ci-dessous par les options **Attributs de cible** correspondantes dans le rail de gauche.  Une fois cette opération terminée, votre message doit correspondre à la capture d’écran ci-dessous. (Le chemin d’accès aux noms des variables doit vous donner un indice pour les trouver.)
 
    ![Message SMS final avec marque et modèle de téléphone personnalisés](assets/compose-the-sms-final-message-text.png)
 
@@ -63,7 +63,7 @@ Cliquez sur le bouton **Modifier le contenu** ou accédez directement à l’ong
 
 
 
-4. Cliquez sur le bouton **Valider** de l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si nécessaire, cliquez sur le bouton **Enregistrer**
+4. Cliquez sur le bouton **Valider** dans l’éditeur et vérifiez qu’il n’y a aucune erreur de validation. Si vous avez sélectionné, cliquez sur le bouton **Enregistrer**
 
    ![Boutons Valider et Enregistrer dans l’éditeur de messages](assets/compose-the-sms-validate-and-save.png)
 
