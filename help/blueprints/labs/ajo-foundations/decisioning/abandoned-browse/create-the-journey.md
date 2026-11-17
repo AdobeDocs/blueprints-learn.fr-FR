@@ -25,7 +25,7 @@ ht-degree: 0%
 1. Sélectionnez l’audience **dep : intéressée par iPhone 17**.
 1. Assurez-vous que la liste déroulante **Espace de noms** est définie sur **customerID.** À ce stade, votre Parcours ressemble à ceci :
 
-   Zone de travail de Parcours ![ avec l’événement de qualification d’audience ajouté et l’espace de noms défini sur customerID](assets/create-the-journey-audience-qualification-event.png)
+   Zone de travail de Parcours ![&#x200B; avec l’événement de qualification d’audience ajouté et l’espace de noms défini sur customerID](assets/create-the-journey-audience-qualification-event.png)
 
 1. Une fois que tout le monde a l’air d’avoir raison, cliquez sur le bouton bleu **Enregistrer** pour enregistrer votre progression.
 

@@ -27,7 +27,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
    ![Cliquez pour valider le parcours](assets/test-journey-click-validate.png)
 
-5. Cliquez sur **Alertes** et vérifiez qu’il n’y a aucune erreur (les avertissements sont ouverts).
+&#x200B;5. Cliquez sur **Alertes** et vérifiez qu’il n’y a aucune erreur (les avertissements sont ouverts).
 
    ![Panneau des alertes ne présentant aucune erreur après l’ouverture du parcours](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
    >
    >Indique que le lien d’opt-out est manquant dans une variante d’e-mail
 
-6. Cliquez sur le bouton **Simuler**, puis sélectionnez **Mode test**
+&#x200B;6. Cliquez sur le bouton **Simuler**, puis sélectionnez **Mode test**
 
-   ![Appuyez sur Simuler ](assets/test-journey-select-test-mode.png)
+   ![Appuyez sur Simuler &#x200B;](assets/test-journey-select-test-mode.png)
 
    ![Mode Test sélectionné dans un pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-7. Cliquez sur **Déclencher un événement** sur le côté gauche et renseignez ces propriétés :
+&#x200B;7. Cliquez sur **Déclencher un événement** sur le côté gauche et renseignez ces propriétés :
    - **Type D’Événement** : `orders.shipped`
    - **E-Mail Personnel** : `henry.creel@emailsim.io`
    - **ID de commande** : `123`
-8. Cliquez sur **Envoyer** (notez qu&#39;il faut quelques secondes pour répondre après avoir cliqué sur Envoyer)
+&#x200B;8. Cliquez sur **Envoyer** (notez qu&#39;il faut quelques secondes pour répondre après avoir cliqué sur Envoyer)
 
    ![Déclencher un formulaire d’événement rempli et Envoyer sur lequel l’utilisateur a cliqué](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-9. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
+&#x200B;9. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
 
 ![Afficher l’option Journal sous Résultats après le déclenchement de l’événement de test](assets/test-journey-show-log-results.png)
 
