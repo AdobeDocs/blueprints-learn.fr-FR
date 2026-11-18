@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 
 
+## Ajouter une dimension de modification
+
+1. Dans la zone de travail du workflow, cliquez sur l’icône **+** après la condition de partage que vous avez ajoutée et sélectionnez l’activité **Modifier la dimension**
+
+   ![Ajoutez l’activité Changement de dimension après la condition de partage](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. Mettez à jour les propriétés de la dimension de modification comme indiqué ci-dessous et cliquez sur **Confirmer** :
+Libellé : `Convert Line to Account`
+Nouvelle dimension cible : `dep-rel: Customer Account`
+
+   ![Modifier la dimension cible](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![Modifier la dimension cible](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## Ajouter l’activité SMS
 
-1. Dans la zone de travail du workflow, cliquez sur l’icône **+** après la condition de partage que vous avez ajoutée et sélectionnez l’**Activité de message mobile**
+1. Cliquez sur l’icône **+** après la dimension Modifier que vous avez ajoutée et sélectionnez l’**Activité de message mobile**
 
    ![Ajouter l&#39;activité Message mobile après la condition de partage](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 
 
-2. Dans le rail de droite, cliquez sur le bouton Modifier le message mobile pour démarrer la configuration du SMS
+2. Dans le rail de droite, modifiez d’abord le choix de Target en **Un message par dimension secondaire**, puis cliquez sur le bouton **Modifier le message mobile** pour commencer la configuration du SMS
 
-   ![Bouton Modifier le message mobile dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
+   ![Bouton Cibler et modifier le message mobile dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ Dans les étapes suivantes, vous allez filtrer toutes les lignes qui ne sont pas
 
 ## Récapituler
 
-Vous avez filtré toutes les lignes qui n’ont pas été autorisées à être ciblées avec un SMS en raison de votre désinscription et vous avez ajouté une activité SMS pour celles qui ont été autorisées à être ciblées.
+Vous avez filtré toutes les lignes qui n’étaient pas autorisées à être ciblées avec un SMS en raison de l’opt-out, vous avez modifié la dimension de ligne en compte et vous avez ajouté une activité SMS pour celles qui étaient autorisées à être ciblées.
