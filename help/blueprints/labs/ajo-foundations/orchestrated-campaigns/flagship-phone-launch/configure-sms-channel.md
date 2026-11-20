@@ -110,7 +110,7 @@ Lorsque vous sélectionnez Canal comme Message mobile, une nouvelle section appe
 
    ![Paramètres de la dimension d’exécution avec la cible et la dimension secondaire](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimension Secondaire défini sur dep-rel : ligne du client dans les paramètres de dimension d’exécution « Dimension Secondaire« ](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire")
+   ![Dimension Secondaire défini sur dep-rel : ligne du client dans les paramètres de dimension d’exécution « Dimension Secondaire« &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secondaire")
 
    >[!NOTE]
    >
