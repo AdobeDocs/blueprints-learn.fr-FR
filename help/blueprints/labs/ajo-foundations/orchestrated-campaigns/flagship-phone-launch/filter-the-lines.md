@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
+source-git-commit: 8d5a87f094e2fba7abd7f5a9acf8e9e775d9b534
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '748'
 ht-degree: 0%
 ---
 
@@ -83,19 +83,63 @@ Nouvelle dimension cible : `dep-rel: Customer Account`
 
 
 
-2. Dans le rail de droite, modifiez d’abord le choix de Target en **Un message par dimension secondaire**, puis cliquez sur le bouton **Modifier le message mobile** pour commencer la configuration du SMS
+2. Dans le rail de droite, cliquez sur le bouton **Modifier le message mobile** pour démarrer la configuration du SMS
 
-   ![Bouton Cibler et modifier le message mobile dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
+   ![Bouton Modifier le message mobile dans le rail de droite](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
 3. Dans le volet de navigation supérieur, cliquez sur l’élément de menu Actions , puis dans le menu déroulant Configuration du message mobile , sélectionnez le canal que vous avez précédemment créé.
 
-![Configuration des SMS affichant le canal sélectionné](assets/filter-the-lines-sms-configuration-selected.png)
+![Liste déroulante de configuration des SMS n’affichant aucune erreur de résultats](assets/filter-the-lines-sms-configuration-no-results.png)
 
+>[!CAUTION]
+>
+>Oh non 🫨 !  Pourquoi n’obtenez-vous aucun résultat ?  N’avez-vous pas déjà configuré votre canal SMS ?  Le produit est-il cassé ?
+>
+>PANIQUE!!!!!!!!!
+
+
+
+## Moment d’interruption
+
+La configuration du canal pour les SMS a déjà été configurée par vous au préalable et elle ressemble actuellement à ceci...
+
+![Configuration des détails d’exécution définie lors du Lab Configurer le canal SMS](assets/configure-sms-channel-final-execution-details.png)
+
+**Voici comment vous lisez ceci :**
+
+- Diffusez un message par dimension cible (par exemple, Compte client) sur le nombre d’enregistrements associés trouvés dans la dimension secondaire (par exemple, Ligne client)
+- Exécutez chaque diffusion SMS à l’aide du numéro de téléphone mobile figurant dans la dimension secondaire (c’est-à-dire Ligne du client)
+
+Cette capacité unique d’envoyer de nombreux messages à un profil est l’une des principales fonctionnalités des campagnes orchestrées, qui la différencie des Parcours. Cependant, votre transition menant à l’activité Message mobile est définie sur Compte client. Vous pouvez ainsi la joindre à nouveau au profil client en temps réel au moment de l’envoi, de sorte que les informations de diffusion et de suivi des messages soient attribuées à un profil.
+
+
+Comment faire pour que ça marche ? Modifiez la cible pour l’exécution du message afin qu’elle corresponde à la configuration de votre canal 😀
+
+
+
+## Modifier Target et terminer la configuration des messages SMS
+
+1. Cliquez sur le bouton Précédent dans l’écran de modification des SMS
+
+   Bouton Précédent ![pour quitter l&#39;écran de modification du SMS](assets/filter-the-lines-exit-sms-editor.png)
+
+
+
+2. Une fois l’activité de message mobile sélectionnée, dans le rail de droite, modifiez d’abord le choix de Target de l’option par défaut d’un message par profil en **Un message par dimension secondaire**, puis cliquez de nouveau sur **Modifier le message mobile**
+
+   ![Bouton Modifier la cible puis Modifier le message mobile dans le rail de droite](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. Dans le volet de navigation supérieur, cliquez sur l’élément de menu **Actions**, puis dans le menu déroulant Configuration du message mobile , sélectionnez le canal que vous avez précédemment créé.
+
+   ![Configuration des SMS affichant le canal sélectionné](assets/filter-the-lines-sms-configuration-selected.png)
 
 
 
 ## Récapituler
 
-Vous avez filtré toutes les lignes qui n’étaient pas autorisées à être ciblées avec un SMS en raison de l’opt-out, vous avez modifié la dimension de ligne en compte et vous avez ajouté une activité SMS pour celles qui étaient autorisées à être ciblées.
+Vous avez filtré toutes les lignes qui n’étaient pas autorisées à être ciblées avec un SMS en raison de l’opt-out, vous avez modifié la dimension de ligne en compte et à la fin, vous avez correctement configuré l’activité SMS pour celles qui étaient autorisées à être ciblées.
+J’espère que vous avez également appris une chose très importante : **votre cible doit correspondre à la configuration de canal que vous souhaitez utiliser**
