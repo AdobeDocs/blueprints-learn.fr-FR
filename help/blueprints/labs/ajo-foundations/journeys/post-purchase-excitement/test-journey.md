@@ -39,7 +39,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 5. Cliquez sur le bouton **Simuler**, puis sélectionnez **Mode test**
 
-   ![Appuyez sur Simuler ](assets/test-journey-select-test-mode.png)
+   ![Appuyez sur Simuler &#x200B;](assets/test-journey-select-test-mode.png)
 
    ![Mode Test sélectionné dans un pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
