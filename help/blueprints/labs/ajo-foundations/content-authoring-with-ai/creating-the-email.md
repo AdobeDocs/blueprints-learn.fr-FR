@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 0%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Création de contenu avec des modèles
 
-**Objectif :** découvrez comment créer des modèles réutilisables dans Adobe Journey Optimizer, puis les appliquer dans un e-mail réel au sein d’une campagne.
+**Objectif :** Découvrez comment créer des modèles réutilisables dans Adobe Journey Optimizer, puis les appliquer dans un e-mail réel au sein d’une campagne.
 
 ## Objectifs d’apprentissage
 
@@ -39,50 +39,50 @@ Cette étape montre comment les modèles peuvent être réutilisés sur plusieur
 1. Revenez à l’écran principal et cliquez sur **Parcours Management → Campagnes**.
 2. Cliquez sur **Créer une campagne**
 
-   ![Bouton Créer une campagne dans Parcours Management](assets/creating-the-email-click-create-campaign-button.png)
+   ![Bouton Créer une campagne dans la gestion des Parcours](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Sélectionnez « **Orchestration - Marketing** », puis cliquez sur **confirmer**
+3. Sélectionnez « **Orchestration - Marketing** » et cliquez sur **confirmer**
 
-   ![Sélection d’Orchestration - Marketing et clic sur Confirmer](assets/creating-the-email-select-orchestration-marketing.png)
+   ![Sélection d&#39;Orchestration - Marketing et clic sur Confirmer](assets/creating-the-email-select-orchestration-marketing.png)
 
 4. Nommez votre campagne `Flagship Phone Launch Branded`. Appuyez sur le bouton **Enregistrer**.
 
    ![Attribuer un nom à la marque du lancement téléphonique phare de la campagne et cliquer sur Enregistrer](assets/creating-the-email-name-campaign-save.png)
 
-5. Cliquez sur le signe **+** puis sélectionnez l’activité **Lecture d’audience**
+5. Cliquez sur le signe **+** et sélectionnez l’activité **Lecture d’audience**
 
-   ![Signe plus pour sélectionner l’activité Lecture d’audience](assets/creating-the-email-click-plus-read-audience.png)
+   ![Signez plus pour sélectionner l’activité Lecture d’audience](assets/creating-the-email-click-plus-read-audience.png)
 
-6. L’étape suivante consiste à sélectionner **zone « Lecture d’audience »** puis à cliquer sur **icône du dossier Audience**
+6. L’étape suivante consiste à sélectionner la case **« Lecture d’audience »** et à cliquer sur l’icône **Dossier d’audience**
 
-   ![Zone Lecture d’audience et icône de dossier Audience](assets/creating-the-email-read-audience-folder-icon.png)
+   ![Boîte Lecture d’audience et icône Dossier d’audience](assets/creating-the-email-read-audience-folder-icon.png)
 
-7. Sélectionnez l’audience **dep: Intéressé par iPhone 17** et cliquez sur le bouton « **Ajouter une audience** »
+7. Sélectionnez l’audience **dep : intéressée par iPhone 17** et cliquez sur le bouton « **Ajouter une audience** »
 
-   ![Sélection de l’audience iPhone 17 qui vous intéresse et clic sur Ajouter une audience](assets/creating-the-email-select-audience-add-button.png)
+   ![Sélectionnez l’audience iPhone 17 qui vous intéresse et cliquez sur Ajouter une audience](assets/creating-the-email-select-audience-add-button.png)
 
 8. Sélectionnez Entité - **dep-rel : Compte client - customer\_id** (ou tout autre, car cela n’a pas d’importance pour cette partie).
-9. Ajoutez l’**activité E-mail** en cliquant sur le signe **+** puis sélectionnez **E-mail** dans les activités Canal.
+9. Ajoutez l’activité **E-mail** en cliquant sur **+ sign**, puis sélectionnez **E-mail** dans les activités Canal.
 
-   ![Ajout de l’activité E-mail des activités de canal](assets/creating-the-email-add-email-channel-activity.png)
+   ![Ajout de l’activité E-mail à partir des activités de canal](assets/creating-the-email-add-email-channel-activity.png)
 
 10. Cliquez sur **Modifier l’e-mail**.
 
-![Option Modifier l’e-mail pour l’activité d’e-mail de campagne](assets/creating-the-email-click-edit-email.png)
+![Option Modifier l&#39;e-mail pour l&#39;activité d&#39;e-mail de campagne](assets/creating-the-email-click-edit-email.png)
 
 1. Cliquez sur l’onglet **Action** et sélectionnez **votre** configuration d’e-mail. Votre sandbox peut l’afficher comme E-mail relationnel. (Sélectionnez-en un)
 
    ![Onglet Action avec la configuration d’e-mail sélectionnée](assets/creating-the-email-action-tab-email-configuration.png)
 
-1. Cliquez sur **onglet Contenu**
+1. Cliquez sur **Onglet Contenu**
 
    ![Onglet Contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-content-tab.png)
 
 1. Cliquez sur **Appliquer le modèle de contenu**
 
-   ![Option Appliquer le modèle de contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-apply-content-template.png)
+   ![Appliquer le modèle de contenu dans l’éditeur d’e-mail](assets/creating-the-email-click-apply-content-template.png)
 
-1. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé, puis cliquez sur **Confirmer**
+1. Sélectionnez le modèle **« Modèle promotionnel »** que vous avez créé et cliquez sur **Confirmer**
 
    ![Sélection du modèle promotionnel et clic sur Confirmer](assets/creating-the-email-select-promotional-template-confirm.png)
 
@@ -92,7 +92,7 @@ Cette étape montre comment les modèles peuvent être réutilisés sur plusieur
 
 1. Vérifiez que les nouveaux blocs d’en-tête, de héros, de pied de page et de contenu s’affichent correctement.
 
-![En-tête, héros, pied de page et blocs de contenu apparaissant correctement dans l’e-mail](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
+![Les blocs d’en-tête, de héros, de pied de page et de contenu apparaissent correctement dans l’e-mail](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
 
 ## Remplacer les images principales et les images de produits
@@ -105,23 +105,23 @@ Modifiez les images du héros et du téléphone. Vous devez charger du contenu v
 
 2. Supprimez l’URL source temporaire.
 
-   ![Suppression de l’URL source temporaire de l’image](assets/creating-the-email-remove-temporary-source-url.png)
+   ![Suppression de l&#39;URL source temporaire de l&#39;image](assets/creating-the-email-remove-temporary-source-url.png)
 
 3. Cliquez sur **Importer un média**
 
    ![Bouton Importer un média pour l’image principale](assets/creating-the-email-click-import-media.png)
 
-4. Chargez des `hero.png` à partir de votre boîte à outils. (Vous pouvez faire glisser le fichier)
+4. Chargez `hero.png` à partir de votre boîte à outils. (Vous pouvez faire glisser le fichier)
 
-   ![Téléchargement de hero.png depuis le dossier toolkit](assets/creating-the-email-upload-hero-png-file.png)
+   ![Téléchargement de hero.png à partir du dossier toolkit](assets/creating-the-email-upload-hero-png-file.png)
 
-5. Cliquez sur **Suivant** Sélectionnez **votre dossier pour les ressources** puis appuyez sur **importer**
+5. Cliquez sur **Suivant**, sélectionnez **votre dossier pour les ressources** et appuyez sur **importer**
 
    ![Sélection du dossier de ressources et clic sur Importer pour l’image principale](assets/creating-the-email-select-folder-import-hero.png)
 
 6. Votre modèle d’e-mail s’affiche correctement. Cela ressemble à ce qui suit. Cliquez sur **« Enregistrer »** pour enregistrer votre travail.
 
-![Modèle d’e-mail mis à jour avec la nouvelle image principale avant d’enregistrer](assets/creating-the-email-save-updated-email-template.png)
+![Modèle d&#39;e-mail mis à jour avec la nouvelle image principale avant d&#39;enregistrer](assets/creating-the-email-save-updated-email-template.png)
 
 
 ## Exercice facultatif
@@ -140,4 +140,4 @@ Dans ce module, vous avez réussi à :
 - Mise à jour des images de héros et de produits
 - Style amélioré
 
-Vous êtes maintenant prêt à passer au module suivant : **Assistant IA et personnalisation de contenu**, où vous utiliserez l’IA pour affiner le texte et générer automatiquement des images.
+Vous êtes maintenant prêt à passer au module suivant : **Personnalisation de contenu assistée par l’IA**, où vous utiliserez l’IA pour affiner le texte et générer automatiquement des images.

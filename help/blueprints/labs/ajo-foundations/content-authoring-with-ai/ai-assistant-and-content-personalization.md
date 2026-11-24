@@ -1,27 +1,27 @@
 ---
-title: Assistant d’IA et personnalisation de contenu
-description: Utilisez l’assistant d’IA de Adobe Journey Optimizer pour générer des lignes d’objet sur la marque, affiner la copie et le ton des e-mails et créer des images générées par Firefly dans le concepteur d’e-mail.
+title: Personnalisation de contenu assistée par l’IA
+description: Utilisez l’IA de Adobe Journey Optimizer pour générer des lignes d’objet de la marque, affiner la copie et le ton des e-mails et créer des images générées par Firefly dans le concepteur d’e-mail.
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1322'
 ht-degree: 5%
 ---
 
-# Assistant d’IA et personnalisation de contenu
+# Personnalisation de contenu assistée par l’IA
 
-**Objectif :** découvrez comment utiliser l’assistant d’IA de Adobe Journey Optimizer pour générer des lignes d’objet, affiner le texte des e-mails, ajuster le ton et créer des images Firefly sur la marque directement dans le concepteur d’e-mail.
+**Objectif :** Découvrez comment utiliser l’IA de Adobe Journey Optimizer pour générer des lignes d’objet, affiner le texte des e-mails, ajuster le ton et créer des images Firefly sur la marque directement dans le concepteur d’e-mail.
 
 ## Objectifs d’apprentissage
 
 À la fin de ce module, vous serez en mesure de :
 
-1. Utilisez l’assistant d’IA pour générer des objets et des pré-en-têtes.
+1. Utilisez l’IA pour générer des objets et des pré-en-têtes.
 1. Affinez le texte, les descriptions, le ton et les messages des héros.
 1. Appliquez une reformulation, une synthèse et des ajustements de tonalité pilotés par l’IA.
 1. Générez des images à l’aide d’Adobe Firefly avec le style de référence et les paramètres de marque.
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## Introduction
 
-L’assistant d’IA d’AJO vous permet de créer du contenu plus intelligent sur la marque.
+L’assistance de l’IA dans AJO vous permet de créer du contenu plus intelligent sur la marque.
 Il peut :
 
 - Générer les lignes d&#39;objet
@@ -38,21 +38,21 @@ Il peut :
 - Création d’images de marque à l’aide de Firefly
 - Assurez-vous que tout est conforme aux directives de la connexion 5G
 
-Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’aide de l’assistant AI.
+Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’aide de l’IA.
 
 >[!NOTE]
 >
->L’assistant d’IA est **non déterministe**, ce qui signifie qu’il peut générer un contenu légèrement différent chaque fois qu’il est utilisé. Ce que vous voyez au cours de votre entraînement peut ne pas correspondre exactement aux captures d&#39;écran ou aux exemples de ce guide. C’est correct : concentrez-vous sur l’apprentissage du processus et des concepts plutôt que sur l’attente de résultats identiques.
+>L’IA est **non déterministe**, ce qui signifie qu’elle peut générer un contenu légèrement différent chaque fois qu’elle est utilisée. Ce que vous voyez au cours de votre entraînement peut ne pas correspondre exactement aux captures d&#39;écran ou aux exemples de ce guide. C’est correct : concentrez-vous sur l’apprentissage du processus et des concepts plutôt que sur l’attente de résultats identiques.
 
-## Créer l’objet de l’e-mail à l’aide de l’assistant AI
+## Créer l’objet de l’e-mail à l’aide de l’IA
 
-1. Revenez à la campagne en cliquant sur le bouton Précédent ou modifiez l’e-mail que vous avez créé dans le module précédent. À l’étape précédente, vous pouvez cliquer sur l’onglet **Paramètres** sur le côté droit.
+1. Revenez à la campagne en cliquant sur le bouton Précédent ou modifiez l’e-mail que vous avez créé dans le module précédent. À partir de l’étape précédente, vous pouvez cliquer sur l’onglet **Paramètres** sur le côté droit.
 2. Cliquez sur Conteneur d’e-mail > Cliquez sur le bouton Modifier l’e-mail .
 3. Cliquez sur l’onglet Contenu , puis sur Corps de l’e-mail .
 4. Sélectionnez le champ **Objet**.
-5. Cliquez sur l’icône **Assistant IA**. (voir ci-dessous)
+5. Cliquez sur l’icône **AI**. (voir ci-dessous)
 
-   ![&#x200B; Icône Assistant IA dans la barre d’outils du champ Objet &#x200B;](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   Icône ![AI dans la barre d’outils du champ Objet](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. Notez que Brand Guideline est sélectionné par défaut.
 7. Saisissez l’invite :
@@ -63,7 +63,7 @@ Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’
 9. Examinez les quatre variantes générées.
 10. Sélectionnez la variante présentant le meilleur score d’alignement et cliquez sur **Sélectionner**.
 
-![Sélection de la variante de ligne d’objet la mieux alignée dans l’assistant AI](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
+![Sélection de la variante de ligne d&#39;objet la mieux alignée à partir de l&#39;IA](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
 >[!NOTE]
 >
@@ -76,36 +76,36 @@ Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’
 
 1. Ouvrez l’e-mail en cliquant sur le bouton « Modifier le corps de l’e-mail ».
 
-   ![Bouton Modifier le corps de l’email dans l’éditeur de Campaign](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
+   ![Bouton Modifier le corps de l’e-mail dans l’éditeur Campaign](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. Cliquez sur l’en-tête **Product Catchy line**.
-3. Ouvrez l’assistant AI en cliquant sur **Générer et sélectionner un texte**
+3. Lancez l’assistance de l’IA en cliquant sur **Générer et sélectionner un texte**
 
-   ![Générer et sélectionner une option de texte ouvrant l’assistant AI](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![Générer et sélectionner une option de texte ouvrant AI](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
-4. Sélectionnez **Guide de la marque Connection 5G** dans la liste déroulante.
+4. Sélectionnez **Consignes relatives à la marque de connexion 5G** dans la liste déroulante.
 
-   ![L’option Consignes de marque Connection 5G est sélectionnée dans le menu déroulant de l’assistant AI](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
+   ![L’option Consignes relatives à la marque de connexion 5G est sélectionnée dans la liste déroulante IA](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
 5. Invite :
 
-   >*Faites un gros titre audacieux et captivant pour le lancement d’iPhone 17. Gardez moins de 10 mots*
+   >*Écrivez un titre audacieux et captivant pour le lancement d&#39;iPhone 17. Conserver sous 10 mots*
 
-6. Cliquez sur Paramètres de texte pour modifier le ton et la stratégie de communication. Modifiez la stratégie de communication en **FOMO (Peur de manquer)**, la langue en **Anglais** et le ton en **Passionnant**. Utilisez une version plus courte en réduisant le cadran.
+6. Cliquez sur Paramètres de texte pour modifier le ton et la stratégie de communication. Modifiez la stratégie de communication en **FOMO (peur de manquer)**, la langue en **anglais** et le ton en **excitant**. Utilisez une version plus courte en réduisant le cadran.
 
    ![Panneau de paramètres de texte avec stratégie de communication FOMO et tonalité intéressante sélectionnée](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. Cliquez sur le bouton **Générer**
 8. Examinez et sélectionnez la meilleure version,
-9. Si votre texte est long, utilisez le curseur pour **« texte plus court »** puis régénérez le texte.
+9. Si votre texte est long, utilisez le curseur pour **« texte plus court »** et régénérez le texte.
 
 
 
    ![Curseur de texte plus court utilisé pour générer un titre plus court](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
 
-10. Une fois que vous êtes satisfait du texte, cliquez sur **Sélectionner**
+10. Une fois que vous êtes satisfait du texte cliquez sur **Sélectionner**
 
-![Sélection du texte de titre principal généré](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
+![Sélection du texte de titre héroïque généré](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
 ## Invite de description
 
@@ -117,7 +117,7 @@ Cette fois, vous testez la manière dont l’IA peut vous aider à résoudre les
 
 2. Cliquez sur le bouton d’évaluation comme illustré ci-dessous.
 
-   ![Bouton Évaluer dans le panneau de texte de l’assistant AI](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![Bouton Évaluer dans le panneau de texte de l’IA](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. Votre contenu d’origine est automatiquement sélectionné avec votre marque, comme indiqué dans les étapes 1 et 2 ci-dessous. Cliquez sur le bouton **Évaluer** pour continuer.
 
@@ -125,13 +125,13 @@ Cette fois, vous testez la manière dont l’IA peut vous aider à résoudre les
 
 4. Comme prévu, vous remarquez de nombreuses erreurs qui enfreignent les directives de la marque. Bien que ces problèmes puissent être corrigés à l’aide de l’IA, dans ce cas, vous ne révisez pas les documents existants. Au lieu de cela, vous pouvez les laisser tels quels et créer du contenu entièrement aligné sur les normes de la marque.
 
-   ![Résultats de l’évaluation de l’assistant AI montrant les violations des directives de la marque](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![Résultats de l’évaluation de l’IA montrant des violations des directives de la marque](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. Utilisez le nouveau paragraphe généré pour vous à l’aide de l’IA avec l’invite ci-dessous. Vous pouvez utiliser la même approche pour le texte de description à l’aide de l’invite ci-dessous.
 
 Invite :
 
->*Rédigez une description de produit attrayante pour le nouvel iPhone 17. Mettez en avant ses fonctionnalités les plus impressionnantes, telles que l&#39;appareil photo avancé, l&#39;autonomie de la batterie et les performances. Le ton doit être premium, passionnant et facile à comprendre pour un large public. Gardez-le sous 3 phrases.*
+>*Rédigez une description de produit attrayante pour la nouvelle iPhone 17. Mettez en avant ses fonctionnalités les plus impressionnantes, telles que l&#39;appareil photo avancé, l&#39;autonomie de la batterie et les performances. Le ton doit être premium, passionnant et facile à comprendre pour un large public. Conserver sous 3 phrases.*
 
 Pour gagner du temps, le texte a déjà été créé pour vous. Copiez et collez ci-dessous pour obtenir votre texte.
 
@@ -146,13 +146,13 @@ Votre e-mail ressemble à l’exemple illustré ci-dessous.
 
 ## Ajout d’une image générée par Firefly
 
-Jusqu’à présent, nous avons testé l’assistant AI sur la ligne d’objet et le texte. Qu&#39;en est-il des images ?
+Jusqu’à présent, nous avons testé l’IA sur la ligne d’objet et le texte. Qu&#39;en est-il des images ?
 
 Avant de passer à la génération d’images par l’IA, examinez les types d’expériences que vous pouvez créer.
 
 Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des expériences que nous pouvons faire est de créer un bloc avec différentes variantes. Avec Adobe Journey Optimizer, c’est possible et l’un des plus grands avantages d’avoir Adobe Experience Platform comme base. Nous aborderons l’expérimentation dans notre prochain module, mais préparez d’abord le bloc ci-dessous.
 
-1. Faites glisser un composant **Image** vers la colonne de gauche sous le bloc Famille Iphone 17.
+1. Faites glisser un composant **Image** vers la colonne de gauche sous le bloc Famille de l’iphone 17.
 
    ![Faites glisser un composant Image sous le bloc Famille iPhone 17](assets/ai-assistant-and-content-personalization-drag-image-component.png)
 
@@ -160,20 +160,20 @@ Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des 
 
    ![Sélection de l’espace réservé de l’image pour accéder aux options de Firefly](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-3. Sous **&#x200B;**, cliquez sur **Générer et sélectionnez l’image**.
+3. Sous **Firefly**, cliquez sur **Générer et sélectionnez image**.
 
-![Option Générer et sélectionner une image sous Firefly](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
+![Générer et sélectionner l’option d’image sous Firefly](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 
 ## Charger l’image de référence
 
-1. Activez **Style de référence**.
-2. Sélectionnez **Connection 5G Brand Guideline** lors de la sélection de la marque.
+1. Activer le **style de référence**.
+2. Sélectionnez **Guide de la marque de connexion 5G** lors de la sélection de la marque
 
-   ![Guide de marque Connection 5G sélectionné pour le style de référence d’image](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
+   ![Guide de marque de connexion 5G sélectionné pour le style de référence d’image](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
 3. Cliquez sur Charger l’image .
 
-   ![Bouton Charger l’image dans le panneau Style de référence de Firefly](assets/ai-assistant-and-content-personalization-click-upload-image.png)
+   ![Bouton Charger l’image dans le panneau de style de référence Firefly](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
 4. Sélectionnez reference.jpg dans le dossier toolkit
 
@@ -182,14 +182,14 @@ Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des 
 5. Ajouter une invite d’image
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
-Champ d’invite d’image Firefly ![avec description du portrait saisi](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
+Champ d’invite d’image Firefly ![avec description de portrait saisie](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
 
 ## Choisir les paramètres d’image
 
-Choisissez votre **paramètres d’image** :
+Choisissez vos **paramètres d&#39;image** :
 
 1. Choisissez les paramètres suivants :
-   - **Ratio:** Paysage (4:3)
+   - **Rapport :** Paysage (4:3)
    - **Type de contenu :** Photo
    - **Couleur et ton :** Tonalité froide
    - **Éclairage :** Éclairage Dramatique
@@ -204,7 +204,7 @@ Choisissez votre **paramètres d’image** :
 
    ![Vérification des résultats d’image générés par Firefly](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
 
-2. Cliquez sur **Sélectionner** pour sélectionner l’image souhaitée.
+2. Cliquez sur **Sélectionner** pour l’image choisie.
 
    ![Sélection de l’image Firefly générée souhaitée](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
 
@@ -222,13 +222,13 @@ Appliquez un rayon de bordure arrondi de 10 juste pour le rendre moderne, si vou
 
 Après quelques itérations et variations, vous obtenez la conception finale. Votre disposition finale ressemble à l’exemple.
 
-![Conception du bloc d’e-mail final avec les coins d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
+![Conception finale du bloc d’e-mail avec des angles d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 À ce stade, vous devriez vous sentir en confiance en utilisant l’IA pour accélérer et élever la création de contenu.
 
 ## Récapituler
 
-Vous avez correctement utilisé l’assistant AI pour :
+Vous avez correctement utilisé l’IA pour :
 
 - Générer les lignes d&#39;objet
 - Affiner le texte de référence
