@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
    ![Cliquez pour valider le parcours](assets/test-journey-click-validate.png)
 
-&#x200B;5. Cliquez sur **Alertes** et vérifiez qu’il n’y a aucune erreur (les avertissements sont ouverts).
+4. Cliquez sur **Alertes** et vérifiez qu’il n’y a aucune erreur (les avertissements sont ouverts).
 
    ![Panneau des alertes ne présentant aucune erreur après l’ouverture du parcours](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
    >
    >Indique que le lien d’opt-out est manquant dans une variante d’e-mail
 
-&#x200B;6. Cliquez sur le bouton **Simuler**, puis sélectionnez **Mode test**
+5. Cliquez sur le bouton **Simuler**, puis sélectionnez **Mode test**
 
-   ![Appuyez sur Simuler &#x200B;](assets/test-journey-select-test-mode.png)
+   ![Appuyez sur Simuler ](assets/test-journey-select-test-mode.png)
 
    ![Mode Test sélectionné dans un pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-&#x200B;7. Cliquez sur **Déclencher un événement** sur le côté gauche et renseignez ces propriétés :
+6. Cliquez sur **Déclencher un événement** sur le côté gauche et renseignez ces propriétés :
    - **Type D’Événement** : `orders.shipped`
    - **E-Mail Personnel** : `henry.creel@emailsim.io`
    - **ID de commande** : `123`
-&#x200B;8. Cliquez sur **Envoyer** (notez qu&#39;il faut quelques secondes pour répondre après avoir cliqué sur Envoyer)
+7. Cliquez sur **Envoyer** (notez qu&#39;il faut quelques secondes pour répondre après avoir cliqué sur Envoyer)
 
    ![Déclencher un formulaire d’événement rempli et Envoyer sur lequel l’utilisateur a cliqué](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ Utilisez les outils de test de parcours pour vérifier que le déclencheur d’�
 
 
 
-&#x200B;9. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
+8. Sous **Résultats** -> Cliquez sur **Afficher le journal** sur le côté gauche
 
 ![Afficher l’option Journal sous Résultats après le déclenchement de l’événement de test](assets/test-journey-show-log-results.png)
 
