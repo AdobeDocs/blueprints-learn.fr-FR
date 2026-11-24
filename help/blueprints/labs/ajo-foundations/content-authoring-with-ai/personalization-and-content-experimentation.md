@@ -7,15 +7,15 @@ exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: a9a9e6b1a44f5f104e0454ab52da01fb47db425e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1227'
 ht-degree: 0%
 ---
 
 # Personalization et expérimentation de contenu
 
-**Objectif :** découvrez comment personnaliser le contenu des e-mails à l’aide des attributs de profil, créer des variantes de contenu dynamique et appliquer une logique conditionnelle dans Adobe Journey Optimizer.
+**Objectif :** Découvrez comment personnaliser le contenu des e-mails à l’aide des attributs de profil, créer des variantes de contenu dynamique et appliquer une logique conditionnelle dans Adobe Journey Optimizer.
 
 ## Objectifs d’apprentissage
 
@@ -44,14 +44,14 @@ Personalization dans Adobe Journey Optimizer vous permet de créer des expérien
 Cette partie de l’exercice permet de garder la personnalisation simple. Ajoutez le prénom et le nom de famille à l’e-mail en fonction du profil. Personalization repose sur les données de profil gérées par le schéma Profil individuel XDM que vous avez défini. Le schéma Profil individuel XDM est le seul que vous pouvez utiliser pour personnaliser le contenu dans Journey Optimizer.
 
 1. Ouvrez l’e-mail créé dans les modules précédents.
-2. Ajoutez un bloc de texte au-dessus du titre de héros avec le contenu : **Bonjour,**
+2. Ajoutez le texte **« Bonjour, «** » dans le bloc de titre héros juste au-dessus de votre copie de titre.
 3. Cliquez sur l’icône **Personnalisation**.
 
-   ![Icône de personnalisation dans la barre d’outils de texte des e-mails](assets/personalization-and-content-experimentation-click-personalization-icon.png)
+   ![Icône de personnalisation dans la barre d’outils du texte de l’e-mail](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Recherchez **F**&#x200B;**prénom**.
+4. Recherchez **Prénom**.
 
-   ![Recherche de l’attribut Prénom dans le panneau de personnalisation](assets/personalization-and-content-experimentation-search-first-name-field.png)
+   ![Recherche de l&#39;attribut Prénom dans le panneau de personnalisation](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
 5. Cliquez sur **+** pour l’ajouter à la zone d’expression.
 6. Ajoutez un **espace** après le champ **Prénom**.
@@ -62,10 +62,10 @@ Cette partie de l’exercice permet de garder la personnalisation simple. Ajoute
 
    La syntaxe finale affiche des variables de prénom et de nom clairement séparées.
 
-   ![Les variables Prénom et Nom sont clairement séparées dans la syntaxe de l’expression](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
+   ![Variables de prénom et de nom clairement séparées dans la syntaxe de l&#39;expression](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
 8. Validez le fragment. Notez qu’il existe une option pour enregistrer le contenu en tant que fragment. Il s’agit d’une excellente occasion de le faire si vous utilisez Nom complet pour la création d’autres contenus d’e-mail. Ignorez cette étape et passez à l’étape suivante.
-9. Cliquez sur **Enregistrer**
+9. Cliquez Sur **Enregistrer**
 
 Votre vue ressemble à ceci. Les accolades se composent de variables, et chaque individu reçoit un e-mail avec son nom.
 
@@ -80,13 +80,13 @@ Le contenu dynamique dans Adobe Journey Optimizer vous permet de créer des mess
 
 Il s’agit d’un cas d’utilisation parfait pour ajouter du contenu conditionnel à l’e-mail et le personnaliser en fonction de l’âge de l’utilisateur.
 
-Pour en revenir à votre schéma, vous avez **« person.bornYear »** comme année de naissance. Cet attribut peut s’avérer utile. Ciblez et configurez une campagne basée sur l’âge.
+Reportez-vous à votre schéma : vous avez **« person.bornYear »** comme année de naissance. Cet attribut peut s’avérer utile. Ciblez et configurez une campagne basée sur l’âge.
 
 Pour cet exercice, vous allez créer deux variantes basées sur l’âge. Une variante cible les utilisateurs de plus de 40 ans, et l’autre cible les utilisateurs de moins de 40 ans (peut-être au milieu de la vingtaine et de la trentaine). Toute personne née avant 1986 est considérée comme ayant plus de 40 ans, tandis que toute personne née en 1986 ou après est considérée comme ayant moins de 40 ans.
 
-**Logique d’âge**
+**Logique D&#39;Âge**
 
-Vous utiliserez l’attribut de profil `person.birthYear`.
+Vous utiliserez l&#39;attribut de profil `person.birthYear`.
 
 | Groupe Cible | Condition |
 | ------------ | ----------------- |
@@ -98,31 +98,31 @@ Vous utiliserez l’attribut de profil `person.birthYear`.
 
 Vous vous souvenez de ce bloc que nous avons créé dans notre module précédent ? Votre image est différente de la mienne.
 
-![Bloc d’image créé dans le module précédent](assets/personalization-and-content-experimentation-existing-image-block.png)
+![Bloc d&#39;image créé dans le module précédent](assets/personalization-and-content-experimentation-existing-image-block.png)
 
 Créez une autre image pour les personnes de moins de 40 ans (souvenez-vous que vous avez créé une image Firefly d’une personne dans la quarantaine) et utilisez-la pour cet exercice.
 
-1. Sélectionnez le bloc d’image existant. (Cliquez sur l’image), puis sur **Bloc conditionnel**.
-2. Cliquez sur **Ajouter une variante**.
+1. Sélectionnez le bloc d’image existant. (Cliquez sur l&#39;image) et cliquez sur **Bloc conditionnel**.
+2. Cliquez Sur **Ajouter Une Variante**.
 
    ![Bouton Ajouter une variante sur le bloc d’image conditionnelle](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
 3. Renommez la première variante en **Âge supérieur à 40**.
 
-   ![Modification du nom de la première variante pour qu’elle ait plus de 40 ans](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
+   ![Changement du nom de la première variante pour un âge supérieur à 40 ans](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
 
-4. Créez une variante en cliquant sur **bouton « Ajouter une variante »** et renommez-la en **Âge inférieur à 40,**
+4. Créez une variante en cliquant sur le bouton **« Ajouter une variante »** et renommez-la en **Âge inférieur à 40 ans.**
 
-   ![Création et changement du nom d’une nouvelle variante pour un âge inférieur à 40 ans](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
+   ![Création et changement du nom d&#39;une nouvelle variante pour un âge inférieur à 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
-5. Vous pouvez éventuellement créer une image à l’aide de Firefly en utilisant une invite telle que « mid-20-year-old ». Cependant, pour gagner du temps, nous disposons déjà d’une image dans la boîte à outils appelée « **variant-age-under-40.jpg**.
-6. Cliquez sur l’image, puis sur Importer un média.
+5. Vous pouvez éventuellement créer une image à l’aide de Firefly en utilisant une invite telle que « mid-20-year-old ». Cependant, pour gagner du temps, nous disposons déjà d’une image dans la boîte à outils appelée « **variant-age-below-40.jpg**.
+6. Cliquez sur l’image et **Sélectionnez une ressource**.
 
-   ![Cliquez sur l’image et Importez le média pour la variante ci-dessous de 40](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![Cliquez sur l’image et sélectionnez une ressource pour la variante ci-dessous de 40](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. Sélectionnez l’image **variant-age-under-40.jpg**. Importez-le en cliquant sur **Suivant** et appuyez enfin sur **Importer** dans votre dossier (vous devriez déjà être dans votre dossier par défaut).
+7. Sélectionnez l’image **variant-age-below-40.jpg** dans votre dossier Assets et cliquez sur **Sélectionner**.
 
-   ![Sélection et importation de l’image variant-age-under-40.jpg](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![Sélection et importation de l’image variant-age-below-40.jpg](assets/personalization-and-content-experimentation-select-below-40-image-from-assets.png)
 
 8. Essayez de basculer entre les variantes et une autre image s’affiche.
 
@@ -133,44 +133,44 @@ Jusqu’à présent, vous avez créé la conception mais n’avez pas encore app
 
 Les deux variantes sont prêtes, mais vous n&#39;avez pas encore appliqué de logique conditionnelle.
 
-![Les deux variantes d’âge sont prêtes avant l’application de la logique conditionnelle](assets/personalization-and-content-experimentation-variants-ready-no-logic-applied.png)
+![Les deux variantes d&#39;âge sont prêtes avant l&#39;application de la logique conditionnelle](assets/personalization-and-content-experimentation-variants-ready-no-logic-applied.png)
 
 ## Logique de « 40 ans et plus »
 
-1. Sélectionnez et passez la souris sur la variante **Âge supérieur à 40**.
+1. Sélectionnez et passez la souris sur la variante **Age au-dessus de 40**.
 2. Cliquez sur l’icône **Logique conditionnelle**.
 
-   ![Icône de logique conditionnelle pour la variante Âge supérieur à 40 ans](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
+   ![Icône de logique conditionnelle pour la variante Age au-dessus de 40](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
 3. Créez une condition.
 
-   ![Création d’une nouvelle condition pour la variante Âge supérieur à 40 ans](assets/personalization-and-content-experimentation-create-new-condition.png)
+   ![Création d&#39;une nouvelle condition pour la variante Âge supérieur à 40 ans](assets/personalization-and-content-experimentation-create-new-condition.png)
 
 4. Recherchez **year** dans la liste des attributs.
 5. Faites glisser **Année de naissance** dans la zone de travail.
 6. Définissez la condition sur :
-   - **bornYear \&lt; 1986**
+   - **année de naissance \&lt; 1986**
 
-   ![Condition définie sur bornYear inférieure à 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
+   ![Condition définie sur une année de naissance inférieure à 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
-7. Nommez la condition : **Âge supérieur à 40 ans**
-8. Ajoutez une description : « **Variante d’image pour les personnes de plus de 40** ».
-9. Cliquez sur **Ajouter → sélectionner**.
+7. Nommez la condition : **Âge supérieur à 40**
+8. Ajouter une description - « **Variante d’image pour les personnes de plus de 40** »
+9. Cliquez Sur **Ajouter → Sélectionner**.
 
-![Cliquez sur Ajouter puis sélectionnez la condition Âge au-dessus de 40 ans](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
+![Cliquer sur Ajouter puis sélectionner pour la condition Âge supérieur à 40](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
 
 
 ## Logique de « 40 ans et moins »
 
 1. Sélectionnez et passez la souris sur la section **Âge inférieur à 40**.
 2. Répétez les étapes, mais modifiez la logique en :
-   - **bornYear >= 1986**
+   - **année de naissance >= 1986**
 
-   ![Condition remplacée par naissanceAnnée supérieure ou égale à 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
+   ![Condition modifiée en bornYear supérieure ou égale à 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
-3. Nommez la condition : **Âge inférieur à 40 ans**
-4. Ajoutez une description. « **Variante d’image pour les personnes de moins de 40** »
-5. Cliquez sur **Ajouter → sélectionner**.
+3. Nommez la condition : **Âge inférieur à 40**
+4. Ajoutez une description. « **Variante d’image pour les personnes de moins de 40 ans** »
+5. Cliquez Sur **Ajouter → Sélectionner**.
 
 ![Cliquez sur Ajouter puis sélectionnez la condition Âge inférieur à 40 ans](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 
@@ -183,19 +183,19 @@ Basculez entre les deux variantes pour vous assurer que :
 - La logique est correctement appliquée.
 - Aucune variante n’indique « Aucune condition appliquée ».
 
-Variante : **âge supérieur à 40**
+Variante : **Âge supérieur à 40**
 
-![Validation de la variante Âge supérieur à 40 ans avec la logique correcte appliquée](assets/personalization-and-content-experimentation-validate-variant-age-above-40.png)
+![Validation de la variante Age over 40 avec la logique correcte appliquée](assets/personalization-and-content-experimentation-validate-variant-age-above-40.png)
 
-Variante : **âge inférieur à 40**
+Variante : **Âge inférieur à 40**
 
 ![Validation de la variante Âge inférieur à 40 ans avec la logique correcte appliquée](assets/personalization-and-content-experimentation-validate-variant-age-below-40.png)
 
 
 
-Cliquez sur le bouton « **Enregistrer** pour enregistrer l’e-mail.
+Cliquez sur le bouton « **Enregistrer** » pour enregistrer l’e-mail.
 
-![bouton Enregistrer pour enregistrer l’e-mail avec les deux variantes](assets/personalization-and-content-experimentation-click-save-button-email.png)
+![Bouton Enregistrer pour enregistrer l’e-mail avec les deux variantes](assets/personalization-and-content-experimentation-click-save-button-email.png)
 
 
 ## Récapituler

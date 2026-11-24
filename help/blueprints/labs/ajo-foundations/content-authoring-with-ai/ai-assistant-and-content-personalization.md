@@ -7,9 +7,9 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
+source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1311'
 ht-degree: 5%
 ---
 
@@ -91,19 +91,12 @@ Pour cet exercice, vous allez améliorer l’e-mail que vous avez créé à l’
 
    >*Écrivez un titre audacieux et captivant pour le lancement d&#39;iPhone 17. Conserver sous 10 mots*
 
-6. Cliquez sur Paramètres de texte pour modifier le ton et la stratégie de communication. Modifiez la stratégie de communication en **FOMO (peur de manquer)**, la langue en **anglais** et le ton en **excitant**. Utilisez une version plus courte en réduisant le cadran.
+6. Cliquez sur Paramètres de texte pour modifier le ton et la stratégie de communication. Modifiez la stratégie de communication en **FOMO (peur de manquer)**, la langue en **anglais** et le ton en **excitant**.
 
    ![Panneau de paramètres de texte avec stratégie de communication FOMO et tonalité intéressante sélectionnée](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. Cliquez sur le bouton **Générer**
-8. Examinez et sélectionnez la meilleure version,
-9. Si votre texte est long, utilisez le curseur pour **« texte plus court »** et régénérez le texte.
-
-
-
-   ![Curseur de texte plus court utilisé pour générer un titre plus court](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
-
-10. Une fois que vous êtes satisfait du texte cliquez sur **Sélectionner**
+8. Vérifiez et **Sélectionnez** la meilleure version
 
 ![Sélection du texte de titre héroïque généré](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -123,17 +116,17 @@ Cette fois, vous testez la manière dont l’IA peut vous aider à résoudre les
 
    ![Contenu original automatiquement sélectionné selon les directives de la marque avant évaluation](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-4. Comme prévu, vous remarquez de nombreuses erreurs qui enfreignent les directives de la marque. Bien que ces problèmes puissent être corrigés à l’aide de l’IA, dans ce cas, vous ne révisez pas les documents existants. Au lieu de cela, vous pouvez les laisser tels quels et créer du contenu entièrement aligné sur les normes de la marque.
+4. Comme prévu, vous remarquez de nombreuses erreurs qui enfreignent les directives de la marque. Bien que ces erreurs puissent être corrigées à l’aide de l’IA, dans ce cas, vous n’avez pas besoin de réviser ce texte d’espace réservé. À la place, vous pouvez saisir tout le nouveau contenu pour la description.
 
    ![Résultats de l’évaluation de l’IA montrant des violations des directives de la marque](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-5. Utilisez le nouveau paragraphe généré pour vous à l’aide de l’IA avec l’invite ci-dessous. Vous pouvez utiliser la même approche pour le texte de description à l’aide de l’invite ci-dessous.
+5. Vous pouvez suivre les mêmes étapes que vous avez suivies pour le titre de héros précédent, en utilisant l’invite ci-dessous ou... pour gagner du temps, vous pouvez également remplacer le texte d’espace réservé par un paragraphe prêt à l’emploi fourni ci-dessous.
 
 Invite :
 
 >*Rédigez une description de produit attrayante pour la nouvelle iPhone 17. Mettez en avant ses fonctionnalités les plus impressionnantes, telles que l&#39;appareil photo avancé, l&#39;autonomie de la batterie et les performances. Le ton doit être premium, passionnant et facile à comprendre pour un large public. Conserver sous 3 phrases.*
 
-Pour gagner du temps, le texte a déjà été créé pour vous. Copiez et collez ci-dessous pour obtenir votre texte.
+Paragraphe prêt à l’emploi :
 
 >Découvrez iPhone 17™, doté d&#39;un appareil photo de pointe pour des photos époustouflantes, d&#39;une autonomie de batterie toute la journée pour vous maintenir en vie et de performances ultra-rapides qui vous maintiennent en tête. Ne manquez pas cette expérience innovante.
 
@@ -171,7 +164,7 @@ Nous comprenons que nous avons l&#39;année de naissance du profil. L’une des 
 
    ![Guide de marque de connexion 5G sélectionné pour le style de référence d’image](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-3. Cliquez sur Charger l’image .
+3. Cliquez sur **Charger l&#39;image**
 
    ![Bouton Charger l’image dans le panneau de style de référence Firefly](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
@@ -186,43 +179,45 @@ Champ d’invite d’image Firefly ![avec description de portrait saisie](assets
 
 ## Choisir les paramètres d’image
 
-Choisissez vos **paramètres d&#39;image** :
+Faites défiler la colonne de gauche vers le bas et cliquez sur **Plus de paramètres**
+
+![Sélectionner d&#39;autres paramètres](assets/ai-assistant-and-content-personalization-select-more-settings.png)
 
 1. Choisissez les paramètres suivants :
    - **Rapport :** Paysage (4:3)
    - **Type de contenu :** Photo
    - **Couleur et ton :** Tonalité froide
    - **Éclairage :** Éclairage Dramatique
-1. Appuyez sur le bouton **Générer**
+
+2. Appuyez sur le bouton **Générer**
 
 ![Paramètres d’image Firefly, notamment le rapport, le type de contenu et l’éclairage avant la génération](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
+3. Sélectionnez les variations sur le côté droit pour les afficher et **Enregistrez** quelques-unes de vos favoris dans votre dossier Assets pour les utiliser ultérieurement. Vous pouvez également cliquer sur Générer plusieurs fois pour obtenir d’autres variations.
 
-## Sélectionner et insérer l’image générée
+![Parcourez les variations et enregistrez-en quelques](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-1. Vérifiez les résultats de Firefly en vérifiant toutes les images générées.
+![Enregistrer dans votre dossier Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-   ![Vérification des résultats d’image générés par Firefly](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
+4. Ensuite, il vous suffit de **Annuler** l’interface de génération d’images pour l’instant.
 
-2. Cliquez sur **Sélectionner** pour l’image choisie.
 
-   ![Sélection de l’image Firefly générée souhaitée](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
-
-3. Si une boîte de dialogue modale de chargement vous y invite, cliquez sur **Suivant**.
-
-   ![Boîte de dialogue modale de chargement vous invitant à cliquer sur Suivant](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
-
-4. Cliquez ensuite sur **Importer**.
-
-![Bouton Importer pour insérer l&#39;image sélectionnée](assets/ai-assistant-and-content-personalization-click-import-button.png)
 
 ## Finalisation de la conception du bloc
 
-Appliquez un rayon de bordure arrondi de 10 juste pour le rendre moderne, si vous avez le temps.
+1. De retour dans l’interface du concepteur d’e-mail, cliquez sur **Parcourir** dans le bloc d’image.
 
-Après quelques itérations et variations, vous obtenez la conception finale. Votre disposition finale ressemble à l’exemple.
+![Cliquez sur Parcourir dans le bloc d’image](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+
+2. Sélectionnez une de vos variations et cliquez sur **Sélectionner**
+
+![Sélectionnez une de vos variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+
+3. Sélectionnez l’onglet **Styles** dans la colonne de droite et appliquez un rayon de bordure arrondi de 10 à l’image
 
 ![Conception finale du bloc d’e-mail avec des angles d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
+
+Après quelques itérations et variations, vous obtenez la conception finale. Votre mise en page finale ressemble à l’exemple ci-dessus.
 
 À ce stade, vous devriez vous sentir en confiance en utilisant l’IA pour accélérer et élever la création de contenu.
 

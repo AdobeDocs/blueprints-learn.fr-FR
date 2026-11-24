@@ -7,9 +7,9 @@ exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c0adb1eab9b0a1315e2041c1f2cb89a4bfdae4b2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '509'
 ht-degree: 0%
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Introduction
 
-Dans ce dernier module, vous testerez votre e-mail avec **deux variantes conditionnelles** à l’aide de l’outil Simulation dans Adobe Journey Optimizer.
+Dans ce module, vous testerez votre e-mail avec **deux variantes conditionnelles** à l’aide de l’outil Simulation dans Adobe Journey Optimizer.
 Vous pouvez ainsi prévisualiser la manière dont différents clients recevront votre message personnalisé, en veillant à la précision avant le lancement de la campagne.
 
 Vous utiliserez l’exemple de fichier de profil de test **sample.csv** de votre boîte à outils.
@@ -37,8 +37,7 @@ Vous utiliserez l’exemple de fichier de profil de test **sample.csv** de votre
 ## Ouvrir l’outil de simulation
 
 1. Ouvrez l’e-mail que vous avez terminé.
-1. Cliquez sur **Simuler du contenu**.
-1. Sélectionnez **Simuler une variation de contenu**.
+2. Dans l’e-mail, cliquez sur **Simuler du contenu**.
 
 ![Cliquez sur Simuler du contenu et sélectionnez Simuler une variation de contenu](assets/content-simulation-click-simulate-content-variation.png)
 
@@ -46,39 +45,42 @@ Un panneau de simulation s’ouvre au bout de quelques secondes.
 
 ## Charger les données du profil de test
 
-1. Ouvrez **sample.csv** à partir du dossier toolkit.
-   - **Alex** → Plus de 40 ans
-   - **Jason** → Moins de 40 ans
-2. Cliquez sur **Charger les données d’entrée**.
+1. Cliquez sur **Charger** dans la partie inférieure pour charger les données d’entrée.
 
-   ![Bouton Charger les données d’entrée dans le panneau de simulation](assets/content-simulation-click-upload-input-data.png)
+   ![Bouton de chargement des données d’entrée dans le panneau de simulation](assets/content-simulation-click-upload-input-data.png)
 
 3. Choisissez **sample.csv** et cliquez sur **Continuer**.
 
-![Sélection de sample.csv et clic sur Continuer](assets/content-simulation-choose-sample-csv-continue.png)
+   ![Sélectionnez sample.csv et cliquez sur Ouvrir](assets/content-simulation-choose-sample-csv-continue.png)
 
-AJO traite le fichier et prépare les aperçus.
+AJO traite le fichier et prépare les aperçus en temps voulu.
+![Aperçus des variations](assets/content-simulation-variation-previews.png)
 
 
 ## Vérifier le rendu des variantes
 
-AJO affiche les deux variantes côte à côte en fonction des profils chargés.
+Lorsque vous cliquez sur Simuler du contenu dans votre e-mail, AJO affiche les variantes côte à côte en fonction des profils chargés.
 
 **Résultats attendus :**
 
-- **Alex** → Voir **Variante 1** (Âge supérieur à 40 ans)
+- **Alex** → Voir **Variante 1** (Âge Supérieur À 40 Ans)
+Cliquez sur l’icône en forme de crayon au-dessus de la première variante pour **Afficher les détails de la variante**
 
-![Rendu de profil Alex Variante 1 pour les personnes de plus de 40 ans](assets/content-simulation-variant-1-age-above-40.png)
+![Cliquez sur l’icône en forme de crayon pour afficher les détails de la variante](assets/content-simulation-click-pencil-icon.png)
 
-Si vous faites défiler l’écran vers le haut, vous verrez également des champs personnalisés portant le nom maintenant, comme vous pouvez le voir ci-dessous.
+La carte s’inverse pour afficher les détails sur lesquels la personnalisation est basée
+![Variante de rendu de profil Alex 1 pour les personnes de plus de 40 ans](assets/content-simulation-variant-1-age-above-40.png)
 
-![Champ de nom personnalisé affiché pour Alex dans la variante 1](assets/content-simulation-personalized-name-field-variant-1.png)
+- **Jason** → Voir **Variante 2** (Âge Inférieur À 40 Ans)
+Cliquez sur l’icône en forme de crayon au-dessus de la deuxième variante pour **Afficher les détails de la variante**
 
-- **Jason** → Voir **Variante 2** (Âge inférieur à 40 ans)
+![Cliquez sur l’icône en forme de crayon pour afficher les détails de la variante](assets/content-simulation-click-pencil-icon-for-second-variant.png)
 
-![Rendu de profil Jason Variante 2 pour les moins de 40 ans](assets/content-simulation-variant-2-age-below-40.png)
+Basculez la vue de Côte à Côte vers **Empilé verticalement** pour examiner les détails et la personnalisation de Jason côte à côte
 
-Avec le nom complet de Jason aussi. Comme c&#39;est cool !
+![Variante de rendu de profil Jason 2 pour les moins de 40 ans](assets/content-simulation-swap-view-to-vertically-stacked.png)
+
+Lorsque vous faites défiler le contenu de l’e-mail, vous pouvez voir le nom complet de Jason ainsi que l’image de contenu conditionnel que nous avons choisie. Comme c&#39;est cool !
 
 ![Champ de nom complet personnalisé affiché pour Jason dans la variante 2](assets/content-simulation-personalized-name-field-variant-2.png)
 
@@ -86,7 +88,7 @@ Avec le nom complet de Jason aussi. Comme c&#39;est cool !
 
 ## Validation du comportement de secours
 
-**Secours et valeurs par défaut :** vérifiez que votre e-mail gère correctement les données manquantes ou les scénarios de non-correspondance. Par exemple, simulez un profil avec un champ d’année de naissance vide ou qui n’est éligible à aucune offre ciblée. L’aperçu doit afficher un bloc de contenu par défaut ou un espace réservé pratique au lieu d’un contenu rompu ou vide. Si votre simulation affiche une section vide où le contenu doit se trouver, cela indique que vous devrez peut-être configurer une offre de secours ou un texte par défaut dans votre conception.
+**Secours et valeurs par défaut :** Vérifiez que votre e-mail gère correctement les données manquantes ou les scénarios de non-correspondance. Par exemple, simulez un profil avec un champ d’année de naissance vide ou qui n’est éligible à aucune offre ciblée. L’aperçu doit afficher un bloc de contenu par défaut ou un espace réservé pratique au lieu d’un contenu rompu ou vide. Si votre simulation affiche une section vide où le contenu doit se trouver, cela indique que vous devrez peut-être configurer une offre de secours ou un texte par défaut dans votre conception.
 
 
 ## Récapituler

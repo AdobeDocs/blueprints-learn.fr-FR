@@ -4,9 +4,9 @@ description: Découvrez comment diviser une conception d’e-mail en fragments r
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Création de contenu avec des modèles et des fragments
 
-**Objectif :** découvrez comment créer des fragments réutilisables dans Adobe Journey Optimizer, puis les appliquer dans un e-mail réel au sein d’un parcours.
+**Objectif :** Découvrez comment créer des fragments réutilisables dans Adobe Journey Optimizer, puis les appliquer dans un e-mail réel au sein d’un parcours.
 
 ## Objectifs d’apprentissage
 
@@ -41,7 +41,7 @@ Chaque fois qu’un fragment est mis à jour, tous les e-mails qui l’utilisent
 
 ## Intégration dans la création d’e-mails
 
-- **Créer des fragments** pour les éléments qui changent rarement.
+- **Créez des fragments** pour les éléments qui changent rarement.
 - **Créez un modèle** qui utilise ces fragments.
 - **Utilisez le modèle** dans l’e-mail de votre campagne et personnalisez son contenu.
 
@@ -51,7 +51,7 @@ Vous trouverez ci-dessous l’e-mail final que vous allez créer à partir de ce
 
 Cependant, l’équipe de conception vous fournit généralement des modèles de ce type :
 
-![Modèle de conception générique fourni par l’équipe de conception](assets/building-content-fragments-generic-design-template.png)
+![Modèle de conception générique fourni par l&#39;équipe de conception](assets/building-content-fragments-generic-design-template.png)
 
 
 ## Étape 1 : créer des fragments de contenu
@@ -82,87 +82,87 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 1. Dans le volet de navigation de gauche, recherchez la section **Gestion de contenu** et cliquez sur **Assets**.
 
-   ![Section Gestion de contenu avec l’option Assets dans le volet de navigation de gauche](assets/building-content-fragments-content-management-assets-nav.png)
+   ![Section de gestion de contenu avec option Assets dans le volet de navigation de gauche](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. Cliquez sur **&#x200B;**&#x200B;dans la section Gestion Assets.
+2. Cliquez sur **Assets** dans la section Gestion Assets.
 
    ![Option Assets dans la section Gestion Assets](assets/building-content-fragments-assets-under-assets-management.png)
 
-3. Créez un dossier en cliquant sur **bouton « Créer un dossier »**
+3. Créez un dossier en cliquant sur le bouton **« Créer un dossier »**.
 
-   ![bouton Créer un dossier dans la zone Assets](assets/building-content-fragments-click-create-folder-button.png)
+   ![Bouton Créer un dossier dans la zone Assets](assets/building-content-fragments-click-create-folder-button.png)
 
 4. Donnez un nom comme votre prénom et votre nom. par ex. Nish\_Pithia\_LabAssets (élément dont vous vous souvenez)
 
    ![Nommer le nouveau dossier de ressources par votre prénom et votre nom](assets/building-content-fragments-name-asset-folder.png)
 
-5. **Créer un fragment :** sous Gestion de contenu, cliquez sur **Fragments** et créez un fragment.
+5. Double-cliquez sur le dossier que vous venez de créer pour **l&#39;ouvrir**. Cliquez ensuite sur **Ajouter Assets** et parcourez ou déposez toutes les images .png et .jpg à partir de votre dossier toolkit. Cliquez ensuite sur **Charger**
 
-   ![Option Fragments sous Gestion de contenu pour créer un fragment](assets/building-content-fragments-click-fragments-create-new.png)
+   ![Cliquez sur Ajouter des ressources et chargez des fichiers image](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![Cliquez sur Charger](assets/building-content-fragments-click-upload.png)
+
+6. **Créer un fragment :** Sous Gestion de contenu, cliquez sur **Fragments** et créez un fragment.
+
+   Option ![Fragments sous Gestion de contenu pour créer un fragment](assets/building-content-fragments-click-fragments-create-new.png)
 
    Donnez un nom convivial, comme illustré ci-dessous. Ajoutez tous les détails comme suit :
 
-   **Name:** Header
+   **Nom : En-Tête**
 
-   **Description : en-tête** fragment du modèle
+   **Description :** en-tête de fragment pour le modèle
 
-   **Type :** Sélectionner le fragment visuel
+   **Type :** Sélectionnez Fragment visuel
 
-   ![Nom du fragment d’en-tête, description et champs de type Fragment visuel](assets/building-content-fragments-fragment-name-type-details.png)
+   ![Nom du fragment d&#39;en-tête, description et champs de type Fragment visuel](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. Cliquez sur le bouton **Créer** en haut à droite.
+7. Cliquez sur le bouton **Créer** en haut à droite.
 
    ![Bouton Créer en haut à droite de la boîte de dialogue Nouveau fragment](assets/building-content-fragments-click-create-button-top-right.png)
 
    Un écran de création de fragment vierge s’ouvre.
 
-7. Cliquez sur Colonnes 1:1 sous Structures et faites glisser sur la zone de travail comme illustré ci-dessous. (Veuillez cliquer sur l&#39;image ci-dessous pour voir un graphique animé)
+8. Accédez à l’onglet **Composants** dans la colonne de gauche. Cliquez ensuite sur **1:1 Column** sous Structures et faites glisser la zone de travail comme illustré ci-dessous. (Veuillez cliquer sur l&#39;image ci-dessous pour voir un graphique animé)
 
-   ![Démonstration animée montrant comment faire glisser une structure de colonnes 1:1 sur la zone de travail du fragment](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Faites glisser une structure de colonnes 1:1 sur la zone de travail du fragment](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. Ensuite, faites glisser « **image** » sur la ligne 1:1 que nous venons d’ajouter
+9. Ensuite, faites glisser « **image** » sur la ligne 1:1 que nous venons d’ajouter
 
-   ![Faire glisser un composant d’image sur la ligne 1:1](assets/building-content-fragments-drag-image-onto-row.png)
+   ![Faites glisser un composant d’image sur la ligne 1:1](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. Chargez l’image du logo qui vous a été fournie. Cliquez sur **« Bouton Importer un média »**
+10. Cliquez sur **« Parcourir »** pour sélectionner l’image de logo qui vous a été fournie et qui a déjà été téléchargée sur Assets.
 
-   ![Bouton Importer un média pour charger l&#39;image du logo](assets/building-content-fragments-click-import-media-button.png)
+![Cliquez sur le bouton Parcourir pour sélectionner l&#39;image du logo](assets/building-content-fragments-click-browse-button.png)
 
-10. **Téléchargez le logo :** téléchargez le logo (*C5G-Logo.png*) à partir du dossier d’images de la boîte à outils et cliquez sur suivant.
+11. Accédez à votre dossier, cliquez sur l’image du logo (*C5G-Logo.png*) et cliquez sur **Sélectionner**.
 
-![Sélection de C5G-Logo.png dans le dossier toolkit à charger](assets/building-content-fragments-upload-logo-select-file.png)
+![Sélection de C5G-Logo.png dans le dossier Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-![Cliquez sur Suivant après avoir sélectionné le chargement du logo](assets/building-content-fragments-upload-logo-click-next.png)
+12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Styles** dans la colonne de droite et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
 
-1. Sélectionnez le **dossier de ressources** créé, puis cliquez sur **Importer**. Le fichier est enregistré dans votre dossier.
-
-   ![Sélection du dossier de ressources créé et clic sur Importer](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Style** et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
-
-   >[!NOTE]
-   >
-   >Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
+>[!NOTE]
+>
+>Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
 
 
 
-   ![Curseur de largeur d’onglet Style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
+![Curseur de largeur d&#39;onglet de style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. Cliquez sur **« Enregistrer »** et votre fragment est enregistré. Une barre verte s’affiche lors de la confirmation.
+13. Cliquez sur **« Enregistrer »** pour enregistrer votre fragment. Une barre verte s’affiche lors de la confirmation.
 
-   ![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
+![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **précédent**.
+14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **retour**.
 
-   ![Bouton Précédent pour conserver le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
+Bouton Précédent ![pour laisser le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
 
-1. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
+15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
 
 ![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
 
-Le statut **« Actif »** apparaît. À ce stade, vous avez terminé la création d’un fragment d’en-tête, qui est utilisé à l’étape suivante.
+Le statut est passé à **« Actif »**. À ce stade, vous avez terminé la création d’un fragment d’en-tête, qui est utilisé à l’étape suivante.
 
-![Statut du fragment d’en-tête remplacé par Actif](assets/building-content-fragments-fragment-status-live.png)
+Le statut du fragment d&#39;en-tête ![est passé à Actif](assets/building-content-fragments-fragment-status-live.png)
 
 >[!NOTE]
 >
@@ -175,4 +175,4 @@ Dans ce module, vous avez réussi à :
 - Répartition d’un e-mail en fragment d’en-tête réutilisable
 - Création d’un en-tête de blocs de contenu
 
-Vous êtes maintenant prêt à passer au module suivant : **Création d’un modèle de contenu**, dans lequel vous utiliserez le fragment que vous avez créé pour générer un nouveau modèle.
+Vous êtes maintenant prêt à passer au module suivant : **Création d’un modèle de contenu**, où vous utiliserez le fragment que vous avez créé pour générer un nouveau modèle.

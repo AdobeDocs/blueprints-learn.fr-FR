@@ -4,19 +4,17 @@ description: Découvrez comment créer un modèle d’e-mail réutilisable dans 
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # Créer un modèle de contenu
 
 ## Création de contenu avec des modèles et des fragments
 
-**Objectif :** Découvrir comment créer des modèles réutilisables dans Adobe Journey Optimizer
+**Objectif :** Découvrez comment créer des modèles réutilisables dans Adobe Journey Optimizer
 
 ## Objectifs d’apprentissage
 
@@ -54,10 +52,10 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
    ![Accès à la gestion de contenu, puis aux modèles de contenu](assets/building-content-template-navigate-content-templates.png)
 
-2. Cliquez sur **Créer un modèle** puis renseignez les champs suivants :
-   - **Name:** `Promotional Template`
+2. Cliquez sur **Créer un modèle**, puis renseignez les champs suivants :
+   - **Nom :** `Promotional Template`
    - **Description :** `Promotional Template for phone products`
-   - **Canal:** `Email`
+   - **Canal :** `Email`
 
    ![Créer un formulaire de modèle avec le nom, la description et le canal e-mail](assets/building-content-template-create-template-form-fields.png)
 
@@ -68,20 +66,20 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 ## Ajouter un objet et ouvrir le concepteur d’e-mail
 
-1. Ajoutez la ligne d’objet : `Promotional Template` et cliquez **sur le corps de l’e-mail** pour l’ouvrir et le modifier
+1. Ajoutez la ligne d’objet : `Promotional Template` et cliquez sur **dans le corps de l’e-mail** pour l’ouvrir et le modifier
 
-   ![Ajouter l’objet et ouvrir le corps de l’e-mail à modifier](assets/building-content-template-add-subject-line-open-editor.png)
+   ![Ajouter l’objet et ouvrir le corps de l’e-mail pour le modifier](assets/building-content-template-add-subject-line-open-editor.png)
 
 2. Trois options s’affichent :
    1. Créer en partant de zéro
    2. Coder le vôtre
    3. Importer HTML
 
-Sélectionnez la troisième option. Cliquez sur **Importer HTML**
+Sélectionnez la troisième option. Cliquez Sur **Importer HTML**
 
 
 
-![Sélection de l’option Importer HTML parmi les trois choix de conception](assets/building-content-template-select-import-html-option.png)
+![Sélection de l&#39;option Importer HTML parmi les trois choix de conception](assets/building-content-template-select-import-html-option.png)
 
 ## Importer le modèle HTML fourni
 
@@ -89,11 +87,11 @@ Sélectionnez la troisième option. Cliquez sur **Importer HTML**
 
 1. Chargez le fichier html du modèle à partir du dossier toolkit `promotional-template-final.html`
 
-   ![Chargement de promotiontemplate-final.html à partir du dossier toolkit](assets/building-content-template-upload-html-template-file.png)
+   ![Téléchargement de promotional-template-final.html à partir du dossier toolkit](assets/building-content-template-upload-html-template-file.png)
 
 2. Cliquez sur le bouton Importer pour **importer** le modèle.
 
-   ![Bouton Importer permettant d&#39;importer le modèle HTML téléchargé](assets/building-content-template-click-import-button.png)
+   ![Bouton Importer pour importer le modèle HTML chargé](assets/building-content-template-click-import-button.png)
 
 3. Attendez que la mise en page s’affiche. Vous constatez des problèmes tels que des liens d’image rompus ou une image de marque manquante. (Comportement attendu, car nous disposons de ressources d’espace réservé)
 
@@ -104,15 +102,15 @@ Sélectionnez la troisième option. Cliquez sur **Importer HTML**
 
 ### Panneau de gauche
 
-Les composants « **Structures** » et « **Contents** » de Adobe Journey Optimizer (AJO) sont des éléments essentiels utilisés lors de la conception d’e-mails, de pages de destination et de fragments de contenu. Les structures définissent le framework de disposition, tandis que les contenus fournissent les blocs de création réels placés à l’intérieur de ces dispositions.
+Sous l’onglet Composants , les composants « **Structures** » et « **Contenus** » de Adobe Journey Optimizer (AJO) sont des éléments essentiels utilisés lors de la conception d’e-mails, de pages de destination et de fragments de contenu. Les structures définissent le framework de disposition, tandis que les contenus fournissent les blocs de création réels placés à l’intérieur de ces dispositions.
 
 La section corps de Adobe Journey Optimizer est le conteneur principal du contenu de votre e-mail ou de votre page. Il sert de racine à l’espace de conception visuelle, où tous les composants de structure (colonnes, mises en page) et de contenu (texte, images, boutons, etc.) sont imbriquées.
 
 ### Panneau de droite
 
-Les options « **Paramètres** » et « **Style** » sous la section du corps de Adobe Journey Optimizer vous permettent de définir l’aspect et la disposition de base de votre e-mail ou de votre page. Ces commandes affectent l&#39;ensemble de la conception puisque le corps est le parent de tous les composants.
+Les options « **Paramètres** » et « **Style** » sous la section corps de Adobe Journey Optimizer vous permettent de définir l’aspect fondamental et la disposition de votre e-mail ou de votre page. Ces commandes affectent l&#39;ensemble de la conception puisque le corps est le parent de tous les composants.
 
-![Options de paramètres et de style dans le panneau de droite de la section corps](assets/building-content-template-body-settings-style-panel.png)
+![Paramètres et options de style dans le panneau de droite pour la section du corps](assets/building-content-template-body-settings-style-panel.png)
 
 
 Sur la barre du rail de gauche, vous trouverez des sections pour :
@@ -136,17 +134,17 @@ Le fragment d’en-tête que vous avez créé dans l’exercice précédent appa
 
 Maintenant, améliorez le modèle. Vous avez déjà créé l’en-tête et le pied de page.
 
-1. Faites glisser une colonne **1:1** au-dessus du contenu existant.
+1. Faites glisser une **1:1 colonne** au-dessus du contenu existant.
 
    ![Faire glisser une colonne 1:1 au-dessus du contenu du modèle existant](assets/building-content-template-drag-1-1-column-above-content.png)
 
    Vous voyez quelque chose comme ça.
 
-   ![Mise en page du modèle après l’ajout de la nouvelle colonne au-dessus du contenu](assets/building-content-template-column-added-above-content.png)
+   ![Mise en page du modèle après l&#39;ajout de la nouvelle colonne au-dessus du contenu](assets/building-content-template-column-added-above-content.png)
 
-2. Votre arrière-plan utilise la couleur d’arrière-plan du modèle, qui est actuellement noire. Définissez sa couleur d’arrière-plan **sur blanche. Cliquez sur** dans l’onglet Style du rail de droite et utilisez la couleur blanche du sélecteur de couleurs.
+2. Votre arrière-plan utilise la couleur d’arrière-plan du modèle, qui est actuellement noire. Définissez sa couleur d&#39;arrière-plan **sur le blanc. Cliquez sur** dans l’onglet Style sur le rail de droite et utilisez la couleur blanche du sélecteur de couleurs.
 
-   ![Définition de la couleur blanche de l’arrière-plan de la colonne à l’aide du sélecteur de couleurs](assets/building-content-template-set-background-color-white.png)
+   ![Définition de la couleur blanche de l&#39;arrière-plan de la colonne à l&#39;aide du sélecteur de couleurs](assets/building-content-template-set-background-color-white.png)
 
 3. Ouvrez **Fragments** et faites glisser votre fragment **En-tête**.
 
@@ -156,9 +154,9 @@ Maintenant, améliorez le modèle. Vous avez déjà créé l’en-tête et le pi
 
    ![Fragment d’en-tête soigneusement aligné dans le modèle](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. Cliquez sur le bouton **Enregistrer** pour enregistrer votre modèle, puis sur **Précédent**.
+5. Cliquez sur le bouton **Enregistrer** pour enregistrer votre modèle, puis cliquez sur **Précédent**.
 
-![bouton Enregistrer pour enregistrer le modèle avant de cliquer sur Précédent](assets/building-content-template-click-save-button-template.png)
+![Bouton Enregistrer pour enregistrer le modèle avant de cliquer sur Précédent](assets/building-content-template-click-save-button-template.png)
 
 >[!NOTE]
 >
