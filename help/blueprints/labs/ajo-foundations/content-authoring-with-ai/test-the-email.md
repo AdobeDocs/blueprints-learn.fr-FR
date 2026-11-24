@@ -7,9 +7,9 @@ exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: efdf51a410acd377a38ec73a9c71964a78320a0b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. Cliquez sur **Simuler du contenu**.
 2. Sélectionnez **Simuler une variation de contenu**.
 
-   ![Cliquez sur Simuler du contenu et sélectionnez Simuler une variation de contenu](assets/content-simulation-click-simulate-content-variation.png)
+   ![Cliquer sur Simuler une variation de contenu](assets/content-simulation-click-simulate-content-variation.png)
 
    Un panneau de simulation s’ouvre.
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 
 
-5. Sélectionnez les deux variantes.
+5. Sélectionnez les deux premières variantes (la troisième est la version de secours).
 6. Ajouter un préfixe de ligne d&#39;objet
    1. Variante 1 : supérieure à 40
    2. Variante 2 : Inférieure À 40
-7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **BAT envoyés avec succès »** s’affiche
+7. Cliquez sur **Envoyer un BAT**. Un message de confirmation vert « **Épreuves envoyées avec succès** » s’affiche
 
 ![Message de confirmation vert affichant les BAT envoyés avec succès](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 
@@ -65,25 +65,25 @@ Vérifiez que les deux e-mails ont bien atterri dans votre boîte de réception.
 
 
 
-![E-mail de BAT ayant atteint le dossier Spam](assets/test-the-email-proof-email-in-spam-folder.png)
+![E-mail de relecture ayant atteint le dossier Spam](assets/test-the-email-proof-email-in-spam-folder.png)
 
 Il se peut que vous receviez un message tronqué, mais cela reste correct, car certains liens du pied de page ne sont pas réels. Si vous cliquez sur le lien, vous verrez que les deux e-mails avec des variantes ont été envoyés.
 
-![E-mail de BAT tronqué affichant les deux variantes après avoir cliqué sur le lien](assets/test-the-email-clipped-proof-email-variants.png)
+![E-mail de BAT découpé affichant les deux variantes après avoir cliqué sur le lien](assets/test-the-email-clipped-proof-email-variants.png)
 
 ### Vérifier la diffusion du BAT dans AJO
 
 Enfin, vous pouvez également voir la diffusion du BAT dans Adobe Journey Optimizer.
 
 1. Revenez à l’éditeur d’e-mail.
-2. Revenez à l’écran de création d’e-mail et cliquez sur **Afficher le BAT**.
+2. Revenez à l’écran de création d’e-mail et cliquez sur **Afficher l’épreuve**.
 3. Examinez les logs de diffusion, les horodatages et les variantes envoyées.
 
-![Bouton Afficher le BAT sur l’écran de création d’e-mail](assets/test-the-email-click-view-proof-button.png)
+![Bouton Afficher le BAT sur l&#39;écran de création de l&#39;e-mail](assets/test-the-email-click-view-proof-button.png)
 
 Vous remarquerez les détails de l’e-mail relatif à votre BAT.
 
-![Journaux de diffusion des e-mails de BAT, horodatages et variantes envoyées dans AJO](assets/test-the-email-proof-email-delivery-details.png)
+![BAT des logs de diffusion d&#39;e-mails, des horodatages et des variantes envoyées dans AJO](assets/test-the-email-proof-email-delivery-details.png)
 
 
 ## Récapituler
