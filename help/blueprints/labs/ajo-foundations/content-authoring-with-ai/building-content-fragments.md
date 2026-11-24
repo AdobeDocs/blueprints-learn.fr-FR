@@ -4,7 +4,7 @@ description: Découvrez comment diviser une conception d’e-mail en fragments r
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -132,33 +132,31 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 10. Cliquez sur **« Parcourir »** pour sélectionner l’image de logo qui vous a été fournie et qui a déjà été téléchargée sur Assets.
 
-![Cliquez sur le bouton Parcourir pour sélectionner l&#39;image du logo](assets/building-content-fragments-click-browse-button.png)
+    ![Cliquez sur le bouton Parcourir pour sélectionner l&#39;image du logo](assets/building-content-fragments-click-browse-button.png)
 
-&#x200B;11. Accédez à votre dossier, cliquez sur l’image du logo (*C5G-Logo.png*) et cliquez sur **Sélectionner**.
+11. Accédez à votre dossier, cliquez sur l’image du logo (*C5G-Logo.png*) et cliquez sur **Sélectionner**.
 
-![Sélection de C5G-Logo.png dans le dossier Assets](assets/building-content-fragments-select-logo-from-assets.png)
+    ![Sélection de C5G-Logo.png dans le dossier Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-&#x200B;12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Styles** dans la colonne de droite et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
+12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Styles** dans la colonne de droite et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
 
->[!NOTE]
->
->Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
+    >[!NOTE]
+    >
+    >Notez que lorsque le bouton de basculement est activé, le nombre 40 représente % et non les pixels. Si vous souhaitez une valeur absolue parfaite en pixels, faites basculer le bouton sur px.
 
+    ![Curseur de largeur d&#39;onglet de style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
+13. Cliquez sur **« Enregistrer »** pour enregistrer votre fragment. Une barre verte s’affiche lors de la confirmation.
 
-![Curseur de largeur d&#39;onglet de style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
+    ![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;13. Cliquez sur **« Enregistrer »** pour enregistrer votre fragment. Une barre verte s’affiche lors de la confirmation.
+14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **retour**.
 
-![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
+    Bouton Précédent ![pour laisser le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **retour**.
+15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
 
-Bouton Précédent ![pour laisser le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
-
-&#x200B;15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
-
-![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
 
 Le statut est passé à **« Actif »**. À ce stade, vous avez terminé la création d’un fragment d’en-tête, qui est utilisé à l’étape suivante.
 

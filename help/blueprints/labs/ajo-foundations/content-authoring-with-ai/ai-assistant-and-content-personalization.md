@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ Faites défiler la colonne de gauche vers le bas et cliquez sur **Plus de param�
 
 2. Appuyez sur le bouton **Générer**
 
-![Paramètres d’image Firefly, notamment le rapport, le type de contenu et l’éclairage avant la génération](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![Paramètres d’image Firefly, notamment le rapport, le type de contenu et l’éclairage avant la génération](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. Sélectionnez les variations sur le côté droit pour les afficher et **Enregistrez** quelques-unes de vos favoris dans votre dossier Assets pour les utiliser ultérieurement. Vous pouvez également cliquer sur Générer plusieurs fois pour obtenir d’autres variations.
+3. Sélectionnez les variations sur le côté droit pour les afficher et **Enregistrez** quelques-unes de vos favoris dans votre dossier Assets pour les utiliser ultérieurement. Vous pouvez également cliquer sur Générer plusieurs fois pour obtenir d’autres variations.
 
-![Parcourez les variations et enregistrez-en quelques](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![Parcourez les variations et enregistrez-en quelques](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![Enregistrer dans votre dossier Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Enregistrer dans votre dossier Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. Ensuite, il vous suffit de **Annuler** l’interface de génération d’images pour l’instant.
-
-
+4. Ensuite, il vous suffit de **Annuler** l’interface de génération d’images pour l’instant.
 
 ## Finalisation de la conception du bloc
 
 1. De retour dans l’interface du concepteur d’e-mail, cliquez sur **Parcourir** dans le bloc d’image.
 
-![Cliquez sur Parcourir dans le bloc d’image](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![Cliquez sur Parcourir dans le bloc d’image](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. Sélectionnez une de vos variations et cliquez sur **Sélectionner**
+2. Sélectionnez une de vos variations et cliquez sur **Sélectionner**
 
-![Sélectionnez une de vos variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![Sélectionnez une de vos variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. Sélectionnez l’onglet **Styles** dans la colonne de droite et appliquez un rayon de bordure arrondi de 10 à l’image
+3. Sélectionnez l’onglet **Styles** dans la colonne de droite et appliquez un rayon de bordure arrondi de 10 à l’image
 
-![Conception finale du bloc d’e-mail avec des angles d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![Conception finale du bloc d’e-mail avec des angles d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 Après quelques itérations et variations, vous obtenez la conception finale. Votre mise en page finale ressemble à l’exemple ci-dessus.
 
