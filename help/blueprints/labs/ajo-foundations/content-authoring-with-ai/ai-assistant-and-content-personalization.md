@@ -193,13 +193,13 @@ Faites défiler la colonne de gauche vers le bas et cliquez sur **Plus de param�
 
 ![Paramètres d’image Firefly, notamment le rapport, le type de contenu et l’éclairage avant la génération](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-3. Sélectionnez les variations sur le côté droit pour les afficher et **Enregistrez** quelques-unes de vos favoris dans votre dossier Assets pour les utiliser ultérieurement. Vous pouvez également cliquer sur Générer plusieurs fois pour obtenir d’autres variations.
+&#x200B;3. Sélectionnez les variations sur le côté droit pour les afficher et **Enregistrez** quelques-unes de vos favoris dans votre dossier Assets pour les utiliser ultérieurement. Vous pouvez également cliquer sur Générer plusieurs fois pour obtenir d’autres variations.
 
 ![Parcourez les variations et enregistrez-en quelques](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
 ![Enregistrer dans votre dossier Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-4. Ensuite, il vous suffit de **Annuler** l’interface de génération d’images pour l’instant.
+&#x200B;4. Ensuite, il vous suffit de **Annuler** l’interface de génération d’images pour l’instant.
 
 
 
@@ -209,11 +209,11 @@ Faites défiler la colonne de gauche vers le bas et cliquez sur **Plus de param�
 
 ![Cliquez sur Parcourir dans le bloc d’image](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-2. Sélectionnez une de vos variations et cliquez sur **Sélectionner**
+&#x200B;2. Sélectionnez une de vos variations et cliquez sur **Sélectionner**
 
 ![Sélectionnez une de vos variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-3. Sélectionnez l’onglet **Styles** dans la colonne de droite et appliquez un rayon de bordure arrondi de 10 à l’image
+&#x200B;3. Sélectionnez l’onglet **Styles** dans la colonne de droite et appliquez un rayon de bordure arrondi de 10 à l’image
 
 ![Conception finale du bloc d’e-mail avec des angles d’image arrondis](assets/ai-assistant-and-content-personalization-final-block-design.png)
 

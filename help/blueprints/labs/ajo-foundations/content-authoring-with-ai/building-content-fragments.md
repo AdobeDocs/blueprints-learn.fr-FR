@@ -134,11 +134,11 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 ![Cliquez sur le bouton Parcourir pour sélectionner l&#39;image du logo](assets/building-content-fragments-click-browse-button.png)
 
-11. Accédez à votre dossier, cliquez sur l’image du logo (*C5G-Logo.png*) et cliquez sur **Sélectionner**.
+&#x200B;11. Accédez à votre dossier, cliquez sur l’image du logo (*C5G-Logo.png*) et cliquez sur **Sélectionner**.
 
 ![Sélection de C5G-Logo.png dans le dossier Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Styles** dans la colonne de droite et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
+&#x200B;12. Le logo est placé correctement, mais il est trop grand et doit être redimensionné. Pour redimensionner le logo, mettez à jour ses propriétés. Cliquez sur l’onglet **Styles** dans la colonne de droite et définissez la largeur sur 40 % en faisant glisser le curseur, comme illustré ci-dessous.
 
 >[!NOTE]
 >
@@ -148,15 +148,15 @@ Créez un fragment d’en-tête pour commencer. Toutefois, avant de créer le fr
 
 ![Curseur de largeur d&#39;onglet de style défini sur 40 % pour redimensionner le logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Cliquez sur **« Enregistrer »** pour enregistrer votre fragment. Une barre verte s’affiche lors de la confirmation.
+&#x200B;13. Cliquez sur **« Enregistrer »** pour enregistrer votre fragment. Une barre verte s’affiche lors de la confirmation.
 
 ![Barre de confirmation verte après l’enregistrement du fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **retour**.
+&#x200B;14. Le fragment enregistré est en mode brouillon. Avant de l’utiliser, vous devez le publier. Cliquez sur le bouton **retour**.
 
 Bouton Précédent ![pour laisser le brouillon de fragment avant publication](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
+&#x200B;15. Cliquez sur le bouton « **Publier** ». Un message « Publication d’un fragment, cette opération peut prendre un certain temps. Nous vous avertirons dès que ce sera fait. » lors de la confirmation. Votre fragment est prêt à être utilisé pour la création de modèle.
 
 ![Bouton Publier et message de confirmation de publication de fragment](assets/building-content-fragments-click-publish-fragment-button.png)
 

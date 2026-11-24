@@ -49,7 +49,7 @@ Un panneau de simulation s’ouvre au bout de quelques secondes.
 
    ![Bouton de chargement des données d’entrée dans le panneau de simulation](assets/content-simulation-click-upload-input-data.png)
 
-3. Choisissez **sample.csv** et cliquez sur **Continuer**.
+&#x200B;3. Choisissez **sample.csv** et cliquez sur **Continuer**.
 
    ![Sélectionnez sample.csv et cliquez sur Ouvrir](assets/content-simulation-choose-sample-csv-continue.png)
 
