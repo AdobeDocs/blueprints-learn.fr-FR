@@ -7,9 +7,9 @@ exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 54e14714c83a6815926f12db8aad1476b0266d7b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 ---
 
@@ -21,16 +21,16 @@ Tout au long de ce cours, vous avez exploré le parcours complet de la création
 
 - Vous pouvez créer, configurer et tester en toute confiance des communications de marque dans Adobe Journey Optimizer (AJO).
 - L’utilisation de **fragments** et **modèles** simplifie la création de contenu et assure la cohérence de la marque entre les messages.
-- Les outils **Assistant IA** et **Score d’alignement des marques** permettent de maintenir le ton, la qualité et la conformité avant le lancement.
-- **&#x200B;**&#x200B;vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
-- Le **contenu dynamique** permet de faire varier les messages entre les segments à l’aide de règles de ciblage et d’une logique conditionnelle.
-- Tester avec des **profils de simulation** et exécuter des **contrôles de conformité** garantit que les messages s’affichent correctement et correspondent aux normes de la marque avant leur mise en ligne.
+- Les outils **AI** et **Score d’alignement des marques** permettent de maintenir la tonalité, la qualité et la conformité avant le lancement.
+- **Personalization** vous permet de personnaliser le contenu en fonction des attributs de profil et du comportement en temps réel.
+- **Le contenu dynamique** permet de faire varier les messages entre les segments à l’aide de règles de ciblage et d’une logique conditionnelle.
+- Le test avec **profils de simulation** et l’exécution de **contrôles de conformité** garantissent que les messages s’affichent correctement et correspondent aux normes de la marque avant leur mise en ligne.
 
 ## Checklist
 
 - [ ] Avez-vous créé et configuré la marque Connection 5G ?
 - [ ] Avez-vous créé et appliqué des fragments d’en-tête/de pied de page ?
-- [ ] Avez-vous utilisé l’assistant d’IA pour générer du contenu ?
+- [ ] Avez-vous utilisé l’IA pour générer du contenu ?
 - [ ] Avez-vous effectué des vérifications d’alignement de marque et résolu les problèmes ?
 - [ ] Avez-vous testé votre parcours avec un profil de test et examiné l’e-mail ?
 
@@ -38,6 +38,6 @@ Tout au long de ce cours, vous avez exploré le parcours complet de la création
 
 >[!TIP]
 >
->**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LABORATOIRE.**
+>**SI VOUS LISEZ CECI, CELA SIGNIFIE QUE VOUS ÊTES À LA FIN DU LAB.**
 >
->**NE PAS CONTINUER, NE PAS PASSER GO, NE PAS COLLECTER $200**
+>**NE PAS POURSUIVRE, NE PAS TRANSMETTRE, NE PAS COLLECTER $200**

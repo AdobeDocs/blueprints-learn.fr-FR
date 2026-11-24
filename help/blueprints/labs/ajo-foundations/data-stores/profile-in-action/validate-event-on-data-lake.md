@@ -7,9 +7,9 @@ exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 8485132cdc2ae67d219d178bda11a9295546f4ce
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '175'
 ht-degree: 0%
 ---
 
@@ -23,7 +23,7 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
 
 >[!NOTE]
 >
->Les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.  Nous savons que le jeu de données est activé pour le profil et que l’événement créera donc un fragment de profil.
+>Les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu&#39;à 60 minutes**.  Nous savons que le jeu de données est activé pour le profil et que l’événement créera donc un fragment de profil.
 >
 >Vous pouvez rechercher et interroger le jeu de données web.
 
@@ -38,11 +38,11 @@ Vérifiez que l’événement web a été écrit dans le lac de données Experie
    where identityMap['email'][0].id = 'henry.creel@emailsim.io'
    ```
 
-3. **Exécuter** Requête
+3. **Exécutez** la requête en appuyant sur la flèche de lecture.
 
 >[!NOTE]
 >
->**À retenir** : les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu’à 60 minutes**.
+>**Mémoriser** : les données finissent par apparaître dans le lac de données.  **Cela peut prendre jusqu&#39;à 60 minutes**.
 >
 >Vous n’avez pas besoin d’attendre qu’il apparaisse. N’hésitez pas à revenir à cette étape et à vérifier ultérieurement.
 

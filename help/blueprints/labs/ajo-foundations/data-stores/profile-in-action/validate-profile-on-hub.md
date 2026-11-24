@@ -7,9 +7,9 @@ exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: da2fcc7a4afc091c28a4cfdff96055dbf7dbb41a
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 ---
 
@@ -23,10 +23,10 @@ Vérifiez que l’événement a entraîné une mise à jour du profil et une qua
 
 Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer à partir de l’événement que vous venez d’envoyer dans Edge Network.
 
-1. Accédez à **Client** -> **Profils** -> **Parcourir** pour effectuer la recherche à l’aide des informations suivantes :
+1. Accédez à **Client** -> **Profils** -> **Parcourez** pour effectuer la recherche à l’aide des informations suivantes :
    - **Politique de fusion** -> `Default Timebased`
-   - **Espace de noms d’identité** -> `Email`
-   - **Valeur de l’identité** -> `henry.creel@emailsim.io`
+   - **Espace De Noms D’Identité** -> `Email`
+   - **Valeur D’Identité** -> `henry.creel@emailsim.io`
 1. Cliquez sur **Afficher** pour rechercher le profil
 
 ![Parcourir l’écran du profil avec les champs de recherche d’identité et de politique de fusion](assets/validate-profile-on-hub-browse-profile-lookup.png)
@@ -35,23 +35,23 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 ## Vérifier le profil Hub
 
-1. Cliquez sur le **Identifiant du profil** pour ouvrir le profil
-1. Cliquez d’abord sur l’onglet **Attributs** et sur le bouton radio **Hub** pour afficher le profil **Hub**
+1. Cliquez sur le bouton **Afficher** du profil pour ouvrir le profil
+1. Cliquez d’abord sur l’onglet **Attributs** et sur le bouton radio **Hub** pour afficher le **profil Hub**
 
-![Profil Hub affiché dans l’onglet Attributs](assets/validate-profile-on-hub-attributes-tab.png)
+![Profil Hub affiché dans l&#39;onglet Attributs](assets/validate-profile-on-hub-attributes-tab.png)
 
 
 ## Valider les événements
 
 1. Cliquez sur **Événements** dans le volet de navigation supérieur pour afficher l’événement que vous venez d’envoyer
 
-![Onglet Événements affichant l’événement diffusé sur le profil](assets/validate-profile-on-hub-events-tab.png)
+Onglet ![Événements affichant l’événement diffusé en continu sur le profil](assets/validate-profile-on-hub-events-tab.png)
 
 ## Validation des segments
 
 ### Via JSON
 
-1. Cliquez sur l’en-tête **Attributs** et Afficher **JSON**.
+1. Cliquez sur l’en-tête **Attributs** et affichez **JSON**
 
    ![Vue JSON des attributs de profil affichant segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
@@ -75,9 +75,9 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 >
 >**Comment lire segmentMembership ?**
 >
->[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
->**ups :** il s’agit de la clé de mappage pour les différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
+>**ups :** Il s’agit de la clé de mappage pour différents types d’audiences pris en charge par AEP.  La clé ups contient les audiences créées par le créateur de règles.  Les autres audiences sont contenues dans d’autres clés (AAM, par exemple).
 >
 >**lastQualificationTime** Date et heure de la dernière qualification de ce profil pour le segment
 >
@@ -90,17 +90,17 @@ Dans Adobe Experience Platform, recherchez le profil que vous venez d’envoyer 
 
 ### Via l’interface utilisateur
 
-1. Un moyen plus facile de vérifier que le profil s’est qualifié pour les audiences est de consulter l’onglet **Appartenance à l’audience** (vous devriez au moins voir ces éléments) :
+1. Pour vérifier plus facilement si le profil s’est qualifié pour les audiences, consultez l’onglet **Appartenance à l’audience** (vous devriez au moins voir ces éléments) :
    - dep : diffusion en continu de tout événement (au cours de l’heure)
    - dep : tout événement Edge (dans l’heure)
 
-![Onglet Appartenance à l’audience affichant les segments qualifiés](assets/validate-profile-on-hub-audience-membership-tab.png)
+![Onglet Abonnement de l’audience affichant les segments qualifiés](assets/validate-profile-on-hub-audience-membership-tab.png)
 
 >[!NOTE]
 >
->**Pourquoi aucune audience par lots ?**
+>**Pourquoi aucune audience par lot ?**
 >
->Vous ne devriez pas voir **dep: Any Event Batch (within the day)** qualifié pour car nous avons diffusé en continu des données et l’évaluation des lots se produit une fois par jour.
+>Vous ne devriez pas voir **dep : Tout lot d’événements (dans la journée)** qualifié pour , car nous avons diffusé en continu des données et l’évaluation des lots se produit une fois par jour.
 
 ## Récapituler
 

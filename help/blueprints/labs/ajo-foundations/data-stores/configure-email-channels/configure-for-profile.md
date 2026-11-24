@@ -7,9 +7,9 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: bcc54e483dddad7417ee13613323198c8ce12bec
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 5%
 ---
 
@@ -27,11 +27,11 @@ Dans l’ensemble d’étapes suivant, vous allez créer une configuration de ca
    ![Créer une configuration de canal](assets/configure-for-profile-create-configuration-button.png)
 
 3. Dans l’assistant Créer , définissez les valeurs suivantes :
-   - **Name:** `Profile-Email`
-   - **Canal:** `Email`
+   - **Nom :** `Profile-Email`
+   - **Canal :** `Email`
    - **Action marketing :** `Email Targeting`
 
-![Détails de configuration du canal](assets/configure-for-profile-channel-configuration-name-values.png)
+![Détails de la configuration du canal](assets/configure-for-profile-channel-configuration-name-values.png)
 
 >[!NOTE]
 >
@@ -39,45 +39,46 @@ Dans l’ensemble d’étapes suivant, vous allez créer une configuration de ca
 
 ## Configurer le type d’e-mail
 
-Définissez **Type d’e-mail** sur **Marketing**
+Définissez le **type d’e-mail** sur **marketing**
 
-![Type d’e-mail](assets/configure-for-profile-set-email-type-marketing.png)
+![Type D’E-Mail](assets/configure-for-profile-set-email-type-marketing.png)
 
 ## Configurer le sous-domaine
 
 Dans la liste déroulante **Sous-domaine**, sélectionnez **email.dep-labs.com**
 
-![Liste déroulante Sous-domaine avec email.dep-labs.com sélectionné](assets/configure-for-profile-select-email-subdomain.png "Configurer le sous-domaine")
+Liste déroulante ![Sous-domaine avec email.dep-labs.com sélectionné](assets/configure-for-profile-select-email-subdomain.png "Configurer le sous-domaine")
 
 >[!NOTE]
 >
->Si vous choisissez votre propre rythme et ne disposez pas d’un sous-domaine préconfiguré, sélectionnez ici votre propre sous-domaine délégué à Adobe au lieu de `email.dep-labs.com`. Voir [Configuration](../../setup.md) pour savoir comment en déléguer un.
+>Le sous-domaine peut être différent pour votre environnement.
+>Si vous choisissez votre propre rythme et ne disposez pas d’un sous-domaine préconfiguré, sélectionnez ici votre propre sous-domaine délégué à Adobe au lieu de `email.dep-labs.com`. Voir [Installation](../../setup.md) pour savoir comment en déléguer une.
 
 ## Configurer les détails du groupe d’adresses IP
 
-Dans la liste déroulante **pool d&#39;adresses IP**, sélectionnez **marketing**
+Dans la liste déroulante **Groupe d’adresses IP**, sélectionnez **marketing**
 
-![Liste déroulante du groupe d’adresses IP avec les détails du groupe d’adresses IP sélectionnées &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " marketing")
+![Liste déroulante du groupe d’adresses IP avec marketing sélectionné](assets/configure-for-profile-select-marketing-ip-pool.png "Détails du groupe d’adresses IP")
 
 ## Configurer le désabonnement de la liste
 
-1. Assurez-vous que le bouton (bascule) est **activé** pour list-unsubscribe
+1. Assurez-vous que le bouton bascule est **activé** pour list-unsubscribe
 1. Sous la zone de préférence Désabonnement de la liste , assurez-vous que toutes les cases à cocher sont **cochées**
 1. Sous Gestion des liens , assurez-vous que **Adobe géré** est sélectionné
 1. Pour le niveau de consentement, assurez-vous qu’il est défini sur **Canal**
 
-![Configuration du désabonnement de la liste](assets/configure-for-profile-configure-list-unsubscribe-settings.png)
+![Désabonnement de la liste de configuration](assets/configure-for-profile-configure-list-unsubscribe-settings.png)
 
 ## Configurer les paramètres d’en-tête
 
 1. Définissez les champs suivants comme suit :
    - **Nom de l’expéditeur :** `DEP Labs`
-   - **Préfixe d’e-mail de l’expéditeur :** `dep`
-   - **Nom de la réponse :** `DEP Labs Support`
-   - **Répondre à un e-mail :** `reply@email.dep-labs.com`
-   - **Préfixe de l’e-mail d’erreur :** `error`
+   - **Préfixe d&#39;e-mail de l&#39;expéditeur :** `dep`
+   - **Répondre au nom :** `DEP Labs Support`
+   - **Répondre à l&#39;e-mail :** `reply@email.dep-labs.com`
+   - **Préfixe d&#39;e-mail d&#39;erreur :** `error`
 
-![Paramètres d’en-tête](assets/configure-for-profile-email-header-parameters.png)
+![Paramètres d&#39;en-tête](assets/configure-for-profile-email-header-parameters.png)
 
 ## Configurer l’e-mail Cci
 
@@ -101,15 +102,15 @@ Conserver les paramètres par défaut
 
    ![Détails d’exécution](assets/configure-for-profile-execution-details-journey-tab.png)
 
-2. Cliquez sur le dossier intitulé **E-mail personnel** pour l’ouvrir
+2. Cliquez sur le dossier **E-mail personnel** pour l’ouvrir
 
    ![Adresse de diffusion](assets/configure-for-profile-personal-email-folder.png)
 
 3. Cliquez sur la **case à cocher** dans le champ `Address`, puis sur le bouton **Sélectionner**
 
-   ![E-mail personnel comme adresse de diffusion](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![Adresse e-mail personnelle en tant qu&#39;adresse de diffusion](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
-4. Pour **Profil**, le `personalEmail.address` est désormais configuré comme **Adresse de diffusion** dans la section **Adresse d’exécution**
+4. Pour le **profil**, le `personalEmail.address` est désormais configuré comme **adresse de diffusion** sous la section **Adresse d’exécution**
 
    ![Adresse de diffusion configurée](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
@@ -119,15 +120,15 @@ Conserver les paramètres par défaut
 
 6. Sous l’en-tête Dimension d’exécution , configurez les éléments suivants :
    - **Diffuser un message par :** `Target Dimension`
-   - **Profile Target Dimension :** `dep-rel: Customer Account - customer_id`
+   - **Dimension De Profil Cible :** `dep-rel: Customer Account - customer_id`
 
-   Dimension Target![&#128279;](assets/configure-for-profile-target-dimension-settings.png)
+   ![Dimension Target](assets/configure-for-profile-target-dimension-settings.png)
 
 7. Sous Adresse d’exécution , configurez les éléments suivants :
    - **Source:** `Profile`
    - **Adresse de diffusion :** `click on the Edit icon`
 
-   ![Adresse d’exécution](assets/configure-for-profile-execution-address-source-profile.png)
+   ![Adresse D’Exécution](assets/configure-for-profile-execution-address-source-profile.png)
 
 8. Recherchez et cliquez sur le dossier `Personal Email` pour l’ouvrir
 
@@ -135,9 +136,9 @@ Conserver les paramètres par défaut
 
 9. Sélectionnez le champ `Address` dans le dossier E-mail personnel et cliquez sur **Sélectionner**
 
-   ![E-mail personnel comme adresse de diffusion](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![Adresse e-mail personnelle en tant qu&#39;adresse de diffusion](assets/configure-for-profile-select-address-field-orchestrated.png)
 
-10. Pour **Campagne orchestrée**, le **dep-rel : Compte client - customer\_id** est configuré comme **Dimension cible de profil** pour **Dimension d’exécution** avec **Adresse d’exécution** ayant un **Source** de **Profile** et `personalEmail.address` as **Adresse de diffusion**
+10. Pour la **campagne orchestrée**, le **dep-rel : compte client - customer\_id** est configuré en tant que **Dimension de profil Target** pour la **dimension d’exécution** avec **adresse d’exécution** ayant un **Source** de **profil** et `personalEmail.address` comme **adresse de diffusion**
 
 ![Dimension d’exécution configurée](assets/configure-for-profile-orchestrated-execution-dimension-configured.png)
 
@@ -149,7 +150,7 @@ Conserver les paramètres par défaut
 ## Vérifier et enregistrer
 
 1. Vérifiez à nouveau tous les détails pour vous assurer qu’ils correspondent.
-1. Faites défiler vers le haut et cliquez sur **Soumettre**.
+1. Faites défiler vers le haut et cliquez sur **Envoyer**.
 
 >[!NOTE]
 >
@@ -159,7 +160,7 @@ Conserver les paramètres par défaut
 
 >[!TIP]
 >
->🚀 Une fois que le statut de configuration du canal e-mail est **Actif**, il est prêt et peut désormais être sélectionné directement dans les **Activités e-mail** des campagnes orchestrées.
+>🚀 Une fois que le statut de configuration du canal e-mail est **Actif**, il est prêt et peut désormais être sélectionné directement dans les **activités E-mail** dans les campagnes orchestrées.
 
 ## Récapituler
 

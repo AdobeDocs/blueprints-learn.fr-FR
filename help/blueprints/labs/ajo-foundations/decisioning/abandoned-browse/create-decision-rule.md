@@ -7,9 +7,9 @@ exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 74b5a717f6c16c75e26426619885202f4b658171
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 0%
 ---
 
@@ -22,19 +22,19 @@ L&#39;éligibilité étant l&#39;un des éléments clés d&#39;une offre, la pre
 ## Création de la règle de décision
 
 1. Si nécessaire, connectez-vous à Adobe Experience Cloud et accédez à **Adobe Journey Optimizer.**
-2. Développez l’élément de menu **Prise de décision** dans le rail de gauche si nécessaire, puis cliquez sur **Configuration de la stratégie**.
+2. Développez l’élément de menu **Prise de décision** dans le rail de gauche si nécessaire, puis cliquez sur **Configuration de la stratégie.**
 
    >[!WARNING]
    >
-   >Assurez-vous que vous êtes dans le menu Prise de décision et NON dans le menu Gestion des décisions . Si le menu Gestion des décisions est développé, réduisez-le pour éviter toute confusion de navigation au cours de cet atelier.
+   >Assurez-vous que vous êtes dans le menu Prise de décision et NON dans le menu Gestion des décisions (au cas où les deux sont visibles dans votre environnement). Si le menu Gestion des décisions est développé, réduisez-le pour éviter toute confusion de navigation au cours de cet atelier.
 
-3. Cliquez sur **Règles de prise de décision** dans le menu « Éligibilité », suivi du bouton **Créer une règle** dans le coin supérieur droit.
+3. Cliquez sur **Règles de prise de décision** dans le menu « Éligibilité », puis sur le bouton **Créer une règle** dans le coin supérieur droit.
 
    ![Page Règles de prise de décision avec le bouton Créer une règle](assets/create-decision-rule-create-rule-button.png)
 
-4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail.
+4. Un écran semblable à l’interface utilisateur du créateur de segments s’ouvre. Ajoutez l’attribut ID de plan à la zone de travail des règles en cliquant sur **Profil individuel XDM > DEP > Détails du plan**, puis en faisant glisser l’attribut **ID de plan** vers la zone de travail. (Notez que le nom du client, qui dans cet exemple est Dep, peut être différent dans votre environnement. Vous pouvez également rechercher Détails du plan dans la barre de recherche Attributs.)
 5. Modifiez la liste déroulante de égal à **contient.**
-6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez une valeur **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
+6. Saisissez le texte **2** dans la zone, appuyez sur la touche **Tab** pour accepter la valeur 2, puis saisissez **3,** appuyez à nouveau sur **Tab** afin que la règle recherche tous les ID de plan contenant un 2 ou un 3
 7. Utilisez la zone de texte **Nom** dans le rail de droite pour nommer la règle de décision **Plans de niveau supérieur**. Ajoutez une description, le cas échéant. Lorsque vous avez terminé, votre règle de décision doit se présenter comme suit :
 
    ![Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Règle de décision Plans de niveau supérieur terminée avec ID de plan contenant 2 ou 3")

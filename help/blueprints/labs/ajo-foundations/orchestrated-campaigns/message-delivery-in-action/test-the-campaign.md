@@ -7,9 +7,9 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 7c7ee72676fd17a248694548fb59ea87c52a293c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## Objectif
 
-Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test pour confirmer que la campagne fonctionne comme prévu avant de la publier. Dans ce cas, le mode test n’envoie pas d’e-mails, mais il permet de vérifier l’ensemble du flux et d’identifier les problèmes rapidement.
+Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test pour confirmer que la campagne fonctionne comme prévu avant de la publier. Dans ce cas, le mode test n’envoie pas d’e-mails, mais il permet de vérifier l’ensemble du flux et d’identifier les problèmes dès le début.
 
 ## Démarrer le workflow
 
-1. Une fois les deux flux d&#39;email configurés, la campagne ressemble à ce qui suit. Cliquez sur le bouton **Démarrer** pour exécuter la campagne en **Mode test**
+1. Une fois les deux flux d&#39;email configurés, la campagne ressemble à ce qui suit. Cliquez sur le bouton **Démarrer** pour exécuter la campagne en mode Test
 
-   ![Cliquez sur Démarrer pour lancer la campagne en mode Test](assets/test-the-campaign-click-start-test-mode.png)
+   ![Cliquez sur Démarrer pour exécuter la campagne en mode Test](assets/test-the-campaign-click-start-test-mode.png)
 
    >[!NOTE]
    >
@@ -33,23 +33,23 @@ Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test p
 
 2. L&#39;exécution de test de toutes les activités de la campagne démarre. Vérifier les résultats
 
-![Test d&#39;exécution des activités de campagne en cours](assets/test-the-campaign-verify-execution-results.png)
+![Test de l&#39;exécution des activités de campagne en cours](assets/test-the-campaign-verify-execution-results.png)
 
 
 
 ## #1 du rapport d’e-mail
 
-1. Pour tester la diffusion par e-mail, cliquez sur l&#39;activité **E-mail utilisant l&#39;attribut de profil** et, dans le volet de droite, cliquez sur **Exécuter le test**
+1. Pour tester la diffusion par e-mail, cliquez sur l’activité **E-mail à l’aide de l’attribut de profil** et, dans le volet de droite, cliquez sur **Exécuter le test**
 
-   ![Exécuter un test pour l’e-mail à l’aide de l’activité Attribut de profil](assets/test-the-campaign-run-test-profile-attribute.png)
+   ![Exécuter un test d’e-mail à l’aide de l’activité Attribut de profil](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
+2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d&#39;e-mail
 
    ![Cliquez sur Afficher le rapport pour afficher les détails du test d’e-mail](assets/test-the-campaign-view-report-1.png)
 
 3. La page Rapport sur les e-mails présente les statistiques des campagnes et le statut d’exécution. Le test d’e-mail permet de vérifier l’activité pour s’assurer qu’il n’y a aucune erreur et qu’elle n’envoie pas d’e-mails. Cela prend généralement environ \~**5** minutes.
 
-   ![Page de rapport sur les e-mails avec les statistiques de campagne](assets/test-the-campaign-campaign-statistics-1.png)
+   ![Page de rapport sur les e-mails avec statistiques de campagne](assets/test-the-campaign-campaign-statistics-1.png)
 
    >[!NOTE]
    >
@@ -57,21 +57,21 @@ Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test p
 
 
 
-4. Une fois le test d’e-mail terminé, les résultats sont présentés. Il existe un certain pourcentage d’erreurs ; cliquez sur **Afficher plus** pour en connaître la raison.
+4. Une fois le test d’e-mail terminé, les résultats sont présentés. Il existe un certain pourcentage d&#39;erreurs ; cliquez sur **Afficher plus** pour en savoir plus.
 
-   ![Taux d’erreur avec le lien Afficher plus](assets/test-the-campaign-error-rate-view-more.png)
+   ![Taux d&#39;erreur avec le lien Afficher plus](assets/test-the-campaign-error-rate-view-more.png)
 
-5. La raison en est la `Email address not found in profile`
+5. La raison indique `Email address not found in profile`
 
 ![Raison : adresse e-mail introuvable dans le profil](assets/test-the-campaign-email-not-found-reason.png)
 
 >[!NOTE]
 >
->Étant donné que l’option **Adresse de diffusion** configurée pour l’activité E-mail, **E-mail à l’aide de l’attribut de profil** a été configurée pour utiliser l’attribut de profil `personalEmail.address`, une dépendance a été créée sur le **profil AEP**.
+>Comme l’**adresse de diffusion** configurée pour l’activité E-mail, **E-mail à l’aide de l’attribut de profil** a été configuré pour utiliser l’attribut de profil `personalEmail.address`, une dépendance a été créée sur le **profil AEP**.
 >
->Sur les **38** ID de client qualifiés du schéma relationnel, le système n’a pu trouver que les profils AEP correspondants **7**. Pour les **31** restants, les profils AEP n’existaient pas, ce qui a provoqué le message d’erreur `Email address not found in profile`.
+>Sur les **38** ID de client qualifiés du schéma relationnel, le système n’a trouvé que **7** profils AEP correspondants. Pour les **31** restants, les profils AEP n’existaient pas, ce qui a provoqué le message d’erreur `Email address not found in profile`.
 >
->Il est important de se rappeler que les données du lac de données et du magasin relationnel sont conservées **cohérentes** lors de l’utilisation d’attributs de profil AEP dans des campagnes orchestrées.
+>Il est important de se rappeler que les données du lac de données et du magasin relationnel sont **cohérentes** lors de l’utilisation d’attributs de profil AEP dans des campagnes orchestrées.
 
 
 
@@ -79,9 +79,9 @@ Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test p
 
 1. Répétez le même processus pour l’activité **E-mail à l’aide de Target Dimension**
 
-   ![Exécuter un test d’e-mail à l’aide de l’activité Dimension cible](assets/test-the-campaign-run-test-target-dimension.png)
+   ![Exécuter un test d’e-mail à l’aide de l’activité Target Dimension](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d’e-mail
+2. Attendez le message de confirmation, puis cliquez sur **Afficher le rapport** pour afficher les détails du test d&#39;e-mail
 
    ![Cliquez sur Afficher le rapport pour afficher les détails du test d’e-mail](assets/test-the-campaign-view-report-2.png)
 
@@ -91,15 +91,15 @@ Dans l’ensemble d’étapes suivant, vous exécutez la campagne en mode test p
 
 >[!NOTE]
 >
->Étant donné que la variable **Adresse de diffusion** pour l’activité E-mail **E-mail à l’aide de Target Dimension** a été configurée pour utiliser la `dep_rel_customer_account.email`, à partir du schéma relationnel, il n’y avait aucune dépendance aux profils AEP ou à leurs attributs.
+>Étant donné que l’**adresse de diffusion** pour l’activité E-mail **E-mail à l’aide de Target Dimension** a été configurée pour utiliser le `dep_rel_customer_account.email`, à partir du schéma relationnel, il n’y avait aucune dépendance sur les profils AEP ou ses attributs.
 >
->Tous les ID de client qualifiés **38** possèdent des e-mails correspondants dans le magasin relationnel et peuvent être ciblés sans erreur.
+>Tous les **38** ID de client qualifiés ont des e-mails correspondants dans le magasin relationnel et ont pu être ciblés sans erreur.
 
 
 
 ## Arrêter le workflow
 
-Pour arrêter le **Mode test** de la campagne, cliquez sur le bouton **Arrêter**
+Pour arrêter le **mode test** de la campagne, cliquez sur le bouton **Arrêter**
 
 >[!SUCCESS]
 >
@@ -111,4 +111,4 @@ Pour arrêter le **Mode test** de la campagne, cliquez sur le bouton **Arrêter*
 
 Vous avez maintenant vu comment tester la campagne créée pour comprendre le flux et le comportement. Ici, les nuances de l’utilisation des différents paramètres de configuration du canal e-mail ont été bien comprises lors de l’exécution du flux de test.
 
-En savoir plus sur le mode test de la campagne [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si vous êtes intéressé.
+Pour en savoir plus sur le mode test de la campagne [cliquez ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si vous êtes intéressé.
